@@ -1,0 +1,912 @@
+{
+ "schema": 1,
+ "generated": "2026-11-05T22:17:08",
+ "date": "2026-11-05",
+ "greeting": "Good morning — Thursday, 5 November 2026.",
+ "title": "Trump concedes the Iran war cost Republicans the midterms, hours after Vance called it \"the reason we lost\"",
+ "workout": "😴 Rest day — next session Friday. Nothing logged in Hevy yet.",
+ "audio": "audio/today.mp3",
+ "read_minutes": 13,
+ "sections": [
+  {
+   "name": "🎯 TL;DR",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Trump concedes the Iran war cost Republicans the midterms, hours after Vance called it \"the reason we lost\"",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Oil collapses 8.7% and the Dow adds 1,569 points as markets price an end to the war",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Trybunał Konstytucyjny zwołuje kolejne Zgromadzenie Ogólne na 10 listopada, a minister sprawiedliwości wysyła prezydentowi konstytucję z zaznaczonymi artykułami",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🔄 What changed",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Trump called the war's role in the rout \"largely true\" and Vance repudiated it outright",
+     "summary": "a clean break from the White House line carried yesterday.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Brent settled at $94.62 and WTI at $88.12, oil's worst week since April 2020, as the sweep raised the odds of a Hormuz deal",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Seoul's KOSPI fell as much as 5.2% and tripped a five-minute sidecar on Samsung and SK Hynix",
+     "summary": "the AI trade, not the election, is now the market's problem.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🔁 Following",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Hormuz talks",
+     "summary": "Qatari mediators still holding a draft; Tehran says there is a \"long way to go\" and no deal is signed.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Israeli coalition",
+     "summary": "Herzog accepted the certified results and opened consultations; Likud and Yashar speak last today.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Anthropic's IPO",
+     "summary": "roadshow expected the week of 9 November; Opus 5.5 shipped this morning, price range still blank.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🌍 World",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Trump admits the Iran war sank the Republicans",
+     "summary": "he told Fox the war was \"largely true\" the reason for the defeat while Vance said it was \"the reason we lost\"; Schumer replied that the war \"must end\".",
+     "matters": "a defeated president who agrees with his own party's diagnosis is far likelier to take a deal.",
+     "url": "https://www.thestandard.com.hk/news/article/347566/Morning-Recap-November-5-2026",
+     "source": "thestandard.com.hk",
+     "image": "https://image.hkstandard.com.hk/f/1200p0/0x0/100/none/e1eef27cb763d8e3839f853eed1b64a9/2026-11/05112026_morning.jpg",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Herzog accepts the results and opens coalition talks",
+     "summary": "Israel's president called the certified count legally binding and began meetings with party leaders, with neither Netanyahu's 53 seats nor Eisenkot's 48 enough to govern.",
+     "matters": "the mandate he hands out in the next few days decides whether Netanyahu stays.",
+     "url": "https://www.aljazeera.com/news/2026/11/5/israels-herzog-accepts-vote-results-opens-talks-on-forming-a-government",
+     "source": "aljazeera.com",
+     "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-04T143958Z_1468020715_RC2YGOAUCQCD_RTRMADP_3_ISRAEL-ELECTION-HERZOG-1793832020.jpg?resize=1920%2C1440",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Joshua Wong sentenced to ten more years",
+     "summary": "Hong Kong's High Court imposed the term for colluding with foreign forces, ruling the offence grave; he had been due for release in January and now faces late 2036.",
+     "matters": "the sentence shows Beijing will keep its best-known prisoner past the point where release had become thinkable.",
+     "url": "https://www.bbc.com/news/articles/cwp9g3rlp8jlo",
+     "source": "bbc.com",
+     "image": "https://ichef.bbci.co.uk/news/1024/branded_news/ff8f/live/68eb4bf0-d8e4-11f1-a701-fddedf244c16.jpg",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Kyiv suffers its worst water outage of the war",
+     "summary": "Russian strikes on energy sites across nine regions cut pumping for more than 24 hours, as the death toll in Komyshuvakha rose to 40.",
+     "matters": "the grid campaign is now aimed at winter habitability, not at front lines.",
+     "url": "https://www.record-eagle.com/ap/international/russian-strikes-disrupt-water-and-power-in-kyiv-as-rescuers-still-search-for-survivors-in/article_b449b59b-1c64-5cd4-812b-006ea6acd89c.html",
+     "source": "record-eagle.com",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Kenya discharges its first five Ebola patients",
+     "summary": "46 more contacts left quarantine, taking the total released to 66, with nine cases and two deaths recorded and no new infection since 19 October.",
+     "matters": "the outbreak's end is now a 42-day countdown rather than an active emergency.",
+     "url": "https://apnews.com/article/kenya-congo-uganda-nigeria-ebola-914b02d6b45e6391f1e406a33254d9cb",
+     "source": "apnews.com",
+     "image": "https://dims.apnews.com/dims4/default/1645c03/2147483647/strip/true/crop/6000x4000+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F8f%2F2e%2F00d53916905400d100ee3682b3c2%2F2e2d8a50b469466788e3b342b14763f3",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🇵🇱 Polska",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "TK wchodzi w kolejny etap kryzysu",
+     "summary": "sędzia Anna Korwin-Piotrowska zapowiedziała Zgromadzenie Ogólne na 10 listopada, które ma zająć się administrowaniem Trybunałem i sposobem wyznaczania składów.",
+     "matters": "jeśli nowi sędziowie znów zbiorą się bez starych, spór o legalność TK przeniesie się na każde przyszłe orzeczenie.",
+     "url": "https://tvn24.pl/polska/piec-rzeczy-ktore-warto-dzis-wiedziec-najwazniejsze-informacje-5-listopada-2026-roku-st9323183",
+     "source": "tvn24.pl",
+     "image": "https://tvn24.pl/_e/i/najnowsze/cdn-zdjecie-demokraci-wygrali-wybory-polowkowe-w-usa-ph9323182/alternates/WEBP_LANDSCAPE_1620",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Żurek wysyła konstytucję do kancelarii prezydenta",
+     "summary": "minister sprawiedliwości zapowiedział przekazanie egzemplarza z zaznaczonymi artykułami 10, 126, 173 i 194, mówiąc, że Trybunał to nie stadion.",
+     "matters": "to formalne postawienie prezydenta przed wyborem między podporządkowaniem się TK a dalszą eskalacją.",
+     "url": "https://tvn24.pl/polska/piec-rzeczy-ktore-warto-dzis-wiedziec-najwazniejsze-informacje-5-listopada-2026-roku-st9323183",
+     "source": "tvn24.pl",
+     "image": "https://tvn24.pl/_e/i/najnowsze/cdn-zdjecie-demokraci-wygrali-wybory-polowkowe-w-usa-ph9323182/alternates/WEBP_LANDSCAPE_1620",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "CBA zatrzymało 25 osób w sprawie Ostrołęki",
+     "summary": "wśród zatrzymanych jest, według Radia Zet, Mirosław Kowalik, obecny prezes Westinghouse Polska i były szef Enei; straty szacuje się na 1,35 mld zł.",
+     "matters": "afera z lat 2018-2019 dotyka człowieka prowadzącego negocjacje o elektrownię jądrową.",
+     "url": "https://www.rp.pl/polityka/art45441991-machina-ruszyla-akcja-cba-ws-elektrowni-ostroleka-zatrzymano-25-osob",
+     "source": "rp.pl",
+     "image": "https://i.gremicdn.pl/image/free/298a783ac5f7f24ec3bc2e266d27da3c/?t=crop:4240:2629:nowe:0:133,resize:fill:2000:1250&ctx=preview",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "RPP zostawia stopy bez zmian",
+     "summary": "decyzja na listopadowym posiedzeniu utrzymuje dotychczasowy poziom; konferencja Adama Glapińskiego odbywa się po posiedzeniu.",
+     "matters": "przy inflacji po wojnie na Bliskim Wschodzie Rada woli poczekać na skutki spadku ropy.",
+     "url": "https://xyz.pl/dzieje-sie/najwazniejsze-wydarzenia-5-listopada-2026-r-3774/",
+     "source": "xyz.pl",
+     "image": "https://xyz.pl/wp-content/uploads/2026/10/pap_20261009_0B3-mniejsze.jpg",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Sejm zaczyna prace nad PIT i CIT",
+     "summary": "dwudniowe posiedzenie obejmie rządowy projekt nowelizacji podatków dochodowych oraz trzy projekty zmian w kodeksie wyborczym.",
+     "matters": "zmiany w kodeksie wyborczym będą testem, czy koalicja ma większość także po kryzysie w TK.",
+     "url": "https://xyz.pl/dzieje-sie/najwazniejsze-wydarzenia-5-listopada-2026-r-3774/",
+     "source": "xyz.pl",
+     "image": "https://xyz.pl/wp-content/uploads/2026/10/pap_20261009_0B3-mniejsze.jpg",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "💰 Money",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "WIG20 4,190.1 · USD/PLN 3.893 (-1.02%) · EUR/PLN 4.386 (-0.51%) · BTC $80,557 (+3.4%) · Brent $93.98 (-0.7%)",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Dow jumps 1,569 points on the sweep",
+     "summary": "the index closed up 3.03% at a two-month high while the S&P 500 added 1.58% to 7,688.73 and the Nasdaq 1.44% to 25,736.51.",
+     "matters": "it was the S&P's best day since August, driven by consumer, financial and real-estate names rather than tech.",
+     "url": "https://tradingeconomics.com/united-states/stock-market/news/597716",
+     "source": "tradingeconomics.com",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Brent settles 8.7% lower at $94.62",
+     "summary": "WTI fell 8.29% to $88.12, both two-month lows, on expectations that a Democratic Congress will push to end the Iran war.",
+     "matters": "cheaper crude is the fastest route to lower inflation everywhere, Poland included.",
+     "url": "https://ca.finance.yahoo.com/news/asia-stocks-mixed-chip-rout-042442281.html",
+     "source": "ca.finance.yahoo.com",
+     "image": "https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Chip stocks are the no-show",
+     "summary": "Nvidia slipped 3.2% and CoreWeave 9.9% as investors priced in tougher data-centre rules in states such as Texas, while Asian chip names fell across the board.",
+     "matters": "the AI infrastructure trade is now a policy bet on who wins statehouses.",
+     "url": "https://www.financialexpress.com/market/global-markets/why-us-stocks-surged-oil-plummeted-after-democrats-swept-midterms/4377410/",
+     "source": "financialexpress.com",
+     "image": "https://images.financialexpressdigital.com/2026/11/trump.reutrs.jpg",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Apple closes above a $5 trillion market cap",
+     "summary": "Microsoft also set a record as the two mega-caps absorbed money rotating out of semiconductors.",
+     "matters": "the market is paying for cash-generative platforms, not for capex-heavy AI bets.",
+     "url": "https://ca.finance.yahoo.com/news/live/stock-market-today-dow-rallies-1500-points-sp-500-nasdaq-midterm-elections-democrats-sweep-201207340.html",
+     "source": "ca.finance.yahoo.com",
+     "image": "https://s.yimg.com/lo/mysterio/api/19f751e66e20cc3b5fcd1fef69a91d2b27e25fdda1c2a75fc47cc1ab94eb60f3/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fgettyimages-2264208944_1538.jpg",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "💻 AI & Tech",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Anthropic ships Claude Opus 5.5",
+     "summary": "the company says it leads on agentic coding and knowledge work and costs 40% less to run than Opus 5 on typical workloads.",
+     "matters": "a cheaper frontier model resets the price of every coding agent built on top of it.",
+     "url": "https://www.anthropic.com/claude-opus-5-5",
+     "source": "anthropic.com",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "OpenAI chases about $30bn before Anthropic lists",
+     "summary": "Reuters reports the round could value OpenAI above $1.4 trillion, pitched on $50bn annualised revenue heading to $70bn.",
+     "matters": "two mega-listings inside a month will soak up the same pool of capital.",
+     "url": "https://ground.news/article/openai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-reuters_83fdee",
+     "source": "ground.news",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Google backstops TeraWulf's $19bn Anthropic leases",
+     "summary": "three credit support agreements cover 401 MW at the Justified campus in Kentucky, with Google able to assume the leases on a default.",
+     "matters": "hyperscalers are now underwriting their customers' landlords, which moves AI risk onto balance sheets.",
+     "url": "https://www.reuters.com/technology/terawulf-gets-credit-backstop-google-anthropic-data-center-project-2026-11-04/",
+     "source": "reuters.com",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Anthropic signs its first news licensing deal, with AP",
+     "summary": "Claude gets real-time, attributed AP election data, weeks before the IPO and while copyright suits from music publishers continue.",
+     "matters": "paying for content is cheaper than losing the fair-use argument in court.",
+     "url": "https://aiweekly.co/ai-news-today",
+     "source": "aiweekly.co",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "OpenAI buys Pierre Computer",
+     "summary": "Code Storage and the open-source Trees and Diffs tooling will be folded into Codex, following the Pando source-control project disclosed earlier this week.",
+     "matters": "OpenAI is building the file-and-history layer that makes a coding agent usable on real repositories.",
+     "url": "https://killtheai.com/news/top-10-ai-news-today-november-5-2026/",
+     "source": "killtheai.com",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎮 Games & Dev",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Dalamud 15.0.3.9 · .NET 10.0.14 · game build 2026.10.16 · last changelog 20 Oct",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Patch 7.58 lands 10 November with same-region matching",
+     "summary": "matchmaking and party recruitment expand from logical to physical data centres for NA and EU, behind 24 hours of maintenance.",
+     "matters": "party-finder assumptions about world boundaries break, and plugin code that resolves worlds may need a second look.",
+     "url": "https://eu.finalfantasyxiv.com/lodestone/news/",
+     "source": "eu.finalfantasyxiv.com",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Evercold pre-orders are open, early access 19 February 2027",
+     "summary": "early access begins around 01:00 PST that Friday.",
+     "matters": "a February expansion sets the API-break calendar for every plugin you maintain.",
+     "url": "https://www.ffxivpro.com/",
+     "source": "ffxivpro.com",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": ".NET 8 and .NET 9 reach end of support on 10 November",
+     "summary": "no more servicing or security fixes after that date, while .NET 10 LTS runs to November 2028.",
+     "matters": "anything still targeting net8.0 in a plugin chain stops getting patches this month.",
+     "url": "https://devblogs.microsoft.com/dotnet/dotnet-8-9-end-of-support/",
+     "source": "devblogs.microsoft.com",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": ".NET 11 RC2 is out ahead of .NET Conf",
+     "summary": "the conference runs 10-13 November with the .NET 11 launch and two community days.",
+     "matters": "the next STS arrives while most of the ecosystem is still finishing its .NET 10 move.",
+     "url": "https://devblogs.microsoft.com/dotnet/",
+     "source": "devblogs.microsoft.com",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎵 Music",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Taylor Swift takes a third UK No. 1 single this year",
+     "summary": "Patient Zero debuted at the top and The Life of a Showgirl: The Encore returned to No. 1, her fifth chart double.",
+     "matters": "she is the only artist with three UK No. 1s in 2026, and the reissue model is doing the work.",
+     "url": "https://ground.news/article/taylor-swift-becomes-first-artist-to-achieve-three-uk-number-one-singles-this-year",
+     "source": "ground.news",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "My Chemical Romance get their first UK No. 1 album",
+     "summary": "the 20th-anniversary Black Parade reissue climbs from No. 139 to the top of the US chart and takes the UK for the first time.",
+     "matters": "a 2006 record outselling new releases shows what the reissue market has become.",
+     "url": "https://www.rttnews.com/list/alternative-music.aspx",
+     "source": "rttnews.com",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Olivia Rodrigo releases her first Christmas single today",
+     "summary": "take me home (4 christmas) arrives at 17:00 PT with a video featuring Cynthia Nixon, plus a 7-inch on Friday.",
+     "matters": "a holiday single mid-tour is a deliberate chart play, not a side project.",
+     "url": "https://www.rttnews.com/amp/3707852/olivia-rodrigo-announces-first-ever-holiday-single-take-me-home-4-christmas.aspx",
+     "source": "rttnews.com",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Florence + The Machine announce Everybody Scream Tour Live",
+     "summary": "the tour recording arrives on vinyl on 6 November.",
+     "matters": "live albums are becoming the default way to monetise a tour between cycles.",
+     "url": "https://www.mshpit.com/news",
+     "source": "mshpit.com",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Kings of Leon return with O My Beloved on Friday",
+     "summary": "one of a heavy 6 November slate that also includes U2's Carnaval De Luz, Bob Dylan's Rolling Thunder box and Skepta's The Fork and Knife.",
+     "matters": "the Q4 release crunch is compressed into a single Friday, and most of it will be invisible by January.",
+     "url": "https://www.officialcharts.com/chart-news/new-album-releases-2026/",
+     "source": "officialcharts.com",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎬 Culture",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Black Doves returns for season two",
+     "summary": "Keira Knightley's Helen is now the prospective prime minister's wife, with Neve Campbell and Ambika Mod joining, and all episodes are up today.",
+     "matters": "it is the week's one thing genuinely worth watching, and Netflix has already renewed it for a third.",
+     "url": "https://www.whats-on-netflix.com/coming-soon/whats-coming-to-netflix-in-november-2026/",
+     "source": "whats-on-netflix.com",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "North of North is back for season two",
+     "summary": "all eight episodes of the Canadian Arctic comedy stream today.",
+     "matters": "the rare comedy that survived a platform reshuffle with its cast and tone intact.",
+     "url": "https://www.metacritic.com/news/tv-premiere-dates/",
+     "source": "metacritic.com",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Dutton Ranch will shoot season two in early 2027",
+     "summary": "Kelly Reilly confirmed the start at Paramount's UK upfronts, citing 12.9 million viewers worldwide in week one.",
+     "matters": "Paramount+ is betting its scripted future on the Yellowstone universe for another two years.",
+     "url": "https://ground.news/article/dutton-ranch-season-2-filming-dates-confirmed-by-kelly-reilly",
+     "source": "ground.news",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "AMC posts record third-quarter revenue",
+     "summary": "$1.71bn, up 31%, on 52 million US admissions, with The Odyssey and Spider-Man: Brand New Day on its screens.",
+     "matters": "the exhibition business has stabilised, which decides how long theatrical windows survive.",
+     "url": "https://finance.yahoo.com/media-advertising/articles/amc-theatres-rides-box-office-213258527.html",
+     "source": "finance.yahoo.com",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Angry Birds Movie 3 gets a full trailer",
+     "summary": "Paramount opens it on 23 December with Jason Sudeikis back as Red, and a Sonic cameo in the new spot.",
+     "matters": "the holiday animation slot is a three-way fight and this is the family default.",
+     "url": "https://nqbrief.com/en/movies/",
+     "source": "nqbrief.com",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🏛️ Brussels",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Commission opens a call for evidence on DSA ad repositories",
+     "summary": "technical guidelines will cover how VLOPs and VLOSEs publish ad data, with responses due 2 December.",
+     "matters": "if you serve ads in the EU, the shape of that repository becomes a data-model requirement, not a compliance footnote.",
+     "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2341",
+     "source": "ec.europa.eu",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Two AI Act deadlines land on 2 December",
+     "summary": "the new prohibitions on non-consensual intimate deepfakes and CSAM apply, and systems already on the market lose their Article 50(2) marking transition.",
+     "matters": "this is the last date this year at which a shipped product can become non-compliant overnight.",
+     "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act",
+     "source": "ai-act-service-desk.ec.europa.eu",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Council agrees its Digital Omnibus position",
+     "summary": "governments kept a route to legitimate interest for AI training data, added ePrivacy exemptions for audience measurement, and dropped machine-readable privacy signals.",
+     "matters": "the Parliament trilogue now decides whether GDPR consent means anything for tracking.",
+     "url": "https://edri.org/our-work/eu-governments-call-it-simplification-but-their-data-omnibus-deal-considerably-weakens-our-rights/",
+     "source": "edri.org",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Revised Cloud and AI Development Act draft eases sovereignty rules",
+     "summary": "Ireland's compromise narrows Commission powers, extends migration deadlines and allows some overseas metadata transfers; ministers discuss it on 10 November.",
+     "matters": "public-sector cloud procurement in the EU is being rewritten under you.",
+     "url": "https://www.law360.com/mlex/technology/articles/2546118/revised-eu-sovereign-cloud-bill-gives-public-buyers-more-flexibility",
+     "source": "law360.com",
+     "image": null,
+     "day": 1,
+     "paywall": true
+    },
+    {
+     "type": "story",
+     "headline": "Disinformation Code plenary takes stock",
+     "summary": "the twelfth plenary covered election risks, crisis response and demonetisation of disinformation actors.",
+     "matters": "code commitments are becoming the de facto checklist for platform risk assessments under Article 34.",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/online-platforms",
+     "source": "digital-strategy.ec.europa.eu",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "📅 Tonight",
+   "kind": "fixtures",
+   "items": [
+    {
+     "type": "fixture",
+     "text": "Europa League — Milan v Ferencváros, 18:45"
+    },
+    {
+     "type": "fixture",
+     "text": "Europa League — Crystal Palace v Hoffenheim, 18:45"
+    },
+    {
+     "type": "fixture",
+     "text": "Europa League — Levski Sofia v Jagiellonia, 18:45"
+    },
+    {
+     "type": "fixture",
+     "text": "Europa League — Real Sociedad v Lyon, 18:45"
+    },
+    {
+     "type": "fixture",
+     "text": "Europa League — Anderlecht v Salzburg, 18:45"
+    },
+    {
+     "type": "fixture",
+     "text": "Europa League — Benfica v Lech Poznań, 21:00"
+    },
+    {
+     "type": "fixture",
+     "text": "Europa League — AZ Alkmaar v Juventus, 21:00"
+    },
+    {
+     "type": "fixture",
+     "text": "Europa League — Celtic v Beşiktaş, 21:00"
+    }
+   ]
+  },
+  {
+   "name": "🏀 NBA",
+   "kind": "scores",
+   "items": [
+    {
+     "type": "note",
+     "text": "76ers 112 - 106 Pistons — Jaylen Brown 30 pts, 6 reb"
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Hawks",
+     "away": "Wizards",
+     "home_score": 120,
+     "away_score": 105,
+     "note": "Nickeil Alexander-Walker 26 pts, 6 3PM",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Celtics",
+     "away": "Bucks",
+     "home_score": 109,
+     "away_score": 102,
+     "note": "Paul George 25 pts, 5 ast",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Nets",
+     "away": "Hornets",
+     "home_score": 114,
+     "away_score": 104,
+     "note": "UPSET, Michael Porter Jr. 26 pts, 10 reb",
+     "flag": "UPSET"
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Knicks",
+     "away": "Bulls",
+     "home_score": 135,
+     "away_score": 105,
+     "note": "Brunson 33 pts as New York matched a franchise record with 84 points in the first half",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Thunder",
+     "away": "Cavaliers",
+     "home_score": 124,
+     "away_score": 116,
+     "note": "Gilgeous-Alexander 42 pts, 8 ast",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Pacers",
+     "away": "Grizzlies",
+     "home_score": 107,
+     "away_score": 103,
+     "note": "UPSET, Andrew Nembhard 22 pts, 4 ast",
+     "flag": "UPSET"
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Pelicans",
+     "away": "Jazz",
+     "home_score": 120,
+     "away_score": 113,
+     "note": "OT, Zion Williamson 23 pts; Keyonte George 39 pts for Utah",
+     "flag": "OT"
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Timberwolves",
+     "away": "Rockets",
+     "home_score": 117,
+     "away_score": 107,
+     "note": "Ayo Dosunmu 21 pts, 6 ast",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Nuggets",
+     "away": "Raptors",
+     "home_score": 128,
+     "away_score": 109,
+     "note": "Jokic 32 pts, 10 reb, 11 ast",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Trail Blazers",
+     "away": "Suns",
+     "home_score": 132,
+     "away_score": 119,
+     "note": "Damian Lillard 25 pts; Devin Booker 33 pts",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Spurs",
+     "away": "Mavericks",
+     "home_score": 112,
+     "away_score": 111,
+     "note": "Wembanyama 52 pts, 24 reb, 8 blk",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Lakers",
+     "away": "Kings",
+     "home_score": 116,
+     "away_score": 103,
+     "note": "Doncic 40 pts, 9 reb, 7 ast",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Heat",
+     "away": "Clippers",
+     "home_score": 117,
+     "away_score": 116,
+     "note": "OT, Adebayo 35 pts, 10 reb and Klay Thompson's 30 pts decided it",
+     "flag": "OT"
+    }
+   ]
+  },
+  {
+   "name": "⚽ Football",
+   "kind": "scores",
+   "items": [
+    {
+     "type": "score",
+     "group": "Champions League",
+     "home": "AEK Athens",
+     "away": "Real Madrid",
+     "home_score": 2,
+     "away_score": 3,
+     "note": "Bellingham, Mbappé and Valverde's 90+2 winner",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Champions League",
+     "home": "Fenerbahçe",
+     "away": "Liverpool",
+     "home_score": 3,
+     "away_score": 2,
+     "note": "Muriqi's 79th minute goal, Liverpool's first loss of the campaign",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Champions League",
+     "home": "Borussia Dortmund",
+     "away": "Real Betis",
+     "home_score": 2,
+     "away_score": 1,
+     "note": "Dortmund edged a tight one at home",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Champions League",
+     "home": "Porto",
+     "away": "Napoli",
+     "home_score": 4,
+     "away_score": 1,
+     "note": "Samu sealed it from the spot in the 90th",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Champions League",
+     "home": "Lens",
+     "away": "Como",
+     "home_score": 1,
+     "away_score": 9,
+     "note": "Douvikas hat-trick in the biggest win of the new format",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Champions League",
+     "home": "PSV",
+     "away": "Club Brugge",
+     "home_score": 1,
+     "away_score": 2,
+     "note": "Brugge took the away win in Eindhoven",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Champions League",
+     "home": "RB Leipzig",
+     "away": "Manchester City",
+     "home_score": 2,
+     "away_score": 3,
+     "note": "Haaland's late winner settled a five-goal game",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Champions League",
+     "home": "Slavia Praha",
+     "away": "Arsenal",
+     "home_score": 1,
+     "away_score": 2,
+     "note": "Arsenal came from behind in Prague",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Champions League",
+     "home": "Viking",
+     "away": "Sabah",
+     "home_score": 4,
+     "away_score": 1,
+     "note": "no way back for the visitors after the second goal",
+     "flag": null
+    },
+    {
+     "type": "note",
+     "text": "Premier League, La Liga, Serie A, Bundesliga and Ligue 1 were all idle in midweek and return on Friday 6 November; Ekstraklasa round 14 starts the same day with Motor Lublin v Wisła Płock."
+    }
+   ]
+  },
+  {
+   "name": "📌 Long read",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "The Baltic States Prepare for War",
+     "summary": "Isaac Stanley-Becker spent a month with Lithuanian, Latvian and Estonian units rehearsing the first 72 hours of a Russian attack, and found allies preparing to fight without the United States.",
+     "matters": "it is the most concrete account yet of what Article 5 would actually look like if it were tested.",
+     "url": "https://www.theatlantic.com/magazine/2026/11/baltic-defense-russia/688692/",
+     "source": "theatlantic.com",
+     "image": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  }
+ ]
+}
