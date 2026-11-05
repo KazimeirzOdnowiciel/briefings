@@ -24,6 +24,7 @@ h1{margin:9px 0 7px;font-size:30px;line-height:1.15;letter-spacing:-.02em;font-w
 .chip{display:inline-flex;align-items:center;gap:6px;padding:5px 11px;border-radius:999px;
 border:1px solid var(--line);background:#0e141c;font-size:12px;color:var(--dim)}
 .chip.live{border-color:#1f4f45;color:var(--accent)}
+.chip.warn{border-color:#4a3a12;color:var(--amber)}
 .chip b{color:var(--ink);font-weight:600}
 section{margin:0 0 22px}
 .head{display:flex;align-items:baseline;gap:9px;margin:0 0 10px}
@@ -76,16 +77,32 @@ border:1px solid var(--line);background:#0e141c}
 .series span{display:block;font:500 10px/1.4 var(--mono);color:var(--dim)}
 .series svg{display:block;width:100%;height:24px;margin-top:3px}
 audio{width:100%;margin:0 0 18px;filter:invert(.9) hue-rotate(180deg);border-radius:10px}
+.notify{margin:24px 0 0;border-top:1px solid var(--line);padding-top:14px}
+.notify summary{font:600 10.5px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--dim);cursor:pointer}
+.notify p{color:var(--dim);font-size:12.5px;margin:9px 0 11px;max-width:70ch}
+.notify button{font:600 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;background:#0e141c;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:10px 13px;cursor:pointer}
+.notify button:hover{border-color:#2a6f63}
+.notify textarea{width:100%;margin-top:10px;min-height:70px;background:#0d141d;color:var(--dim);border:1px solid var(--line);border-radius:8px;font:400 11px/1.4 var(--mono);padding:9px}
+/* unfolded foldables and desktop: two columns so a 7.6" inner screen is not half empty */
+@media(min-width:820px){
+  body{max-width:1180px;padding:30px 30px 56px}
+  .grid{column-count:2;column-gap:24px}
+  .grid>section{break-inside:avoid;-webkit-column-break-inside:avoid;page-break-inside:avoid}
+  .hero{height:300px}
+  h1{font-size:36px}
+  .series>div{flex:1 1 120px}
+}
 </style></head><body>
 <header>
 <div class="kicker">Daily Briefing · Warsaw</div>
 <h1>Democrats take the House and a 53-seat Senate, flipping Texas, Ohio, Kansas, Iowa and both Carolinas</h1>
 <div class="date">Good morning — Wednesday, 4 November 2026.</div>
-<div class="chips"><span class="chip live">💪 Today is a workout day: Wednesday — Row B: Intervals — 8 x 3 min hard, 2 min easy between. ~60 min, reminder at 17:00. Nothing logged in Hevy yet.</span><span class="chip">15 sections · 12 min read</span><span class="chip">☁️ 6°C · dry next 6h</span><span class="chip">Wed 04 Nov 2026, 08:03</span></div>
+<div class="chips"><span class="chip live">💪 Today is a workout day: Wednesday — Row B: Intervals — 8 x 3 min hard, 2 min easy between. ~60 min, reminder at 17:00. Nothing logged in Hevy yet.</span><span class="chip">15 sections · 12 min read</span><span class="chip warn">edition from Wed 04 Nov 2026 — today's not published yet</span></div>
 <nav class="nav"><a href="#s3">World</a><a href="#s4">Polska</a><a href="#s5">Money</a><a href="#s6">AI &amp; Tech</a><a href="#s7">Games &amp; Dev</a><a href="#s8">Music</a><a href="#s9">Culture</a><a href="#s10">Brussels</a><a href="#s11">Tonight</a><a href="#s12">NBA</a><a href="#s13">Football</a><a href="#s14">Long read</a></nav>
 </header>
 <img class="hero" src="https://static.ffx.io/images/$zoom_0.8539%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_277%2C$y_216/t_crop_custom/q_86%2Cf_auto/dfeb5bc4f02134d2fd85fe65a5c41cbfb0997ce8" alt="">
-<audio controls preload="none" src="audio/today.mp3" title="Spoken briefing"></audio>
+<audio controls preload="metadata" src="audio/today.mp3" title="Spoken briefing"></audio>
+<main class="grid">
 <section id="s0"><div class="head"><h2>🎯 TL;DR</h2><span class="n">3 stories</span></div>
 <div class="card"><div class="story"><span class="hl">Democrats take the House and a 53-seat Senate, flipping Texas, Ohio, Kansas, Iowa and both Carolinas</span></div><div class="story"><span class="hl">Nasdaq up 0.83% as chips rebound while Apple drags the Dow lower</span></div><div class="story"><span class="hl">The Constitutional Tribunal convened without its suspended presidents and passed a 2027 budget</span></div></div></section>
 <section id="s1"><div class="head"><h2>🔄 What changed</h2><span class="n">3 stories</span></div>
@@ -116,4 +133,27 @@ audio{width:100%;margin:0 0 18px;filter:invert(.9) hue-rotate(180deg);border-rad
 <div class="card"><div class="story"><span class="hl">No domestic fixtures in the big five or the Ekstraklasa</span><span class="sm">Champions League matchday four took the night.</span></div><div class="league">Champions League</div><div class="score"><span class="t l">Shakhtar Donetsk</span><span class="mid">0 – 1</span><span class="t r win">Sporting CP</span></div><div class="note">Doumbia 59</div><div class="score"><span class="t l win">Manchester United</span><span class="mid">3 – 2</span><span class="t r">Roma</span></div><div class="note">Fernandes 58 pen, Cunha 83, 86; Soulé 11, Malen 17 pen</div><div class="score"><span class="t l win">Galatasaray</span><span class="mid">2 – 0</span><span class="t r">Stuttgart</span></div><div class="note">Batrakov 12, 15</div><div class="score"><span class="t l win">Barcelona</span><span class="mid">3 – 0</span><span class="t r">Aston Villa</span></div><div class="note">Yamal 7, Raphinha 52, 64</div><div class="score"><span class="t l">Atlético Madrid</span><span class="mid">0 – 2</span><span class="t r win">Bayern München</span></div><div class="note">Bayern won in Madrid with a skeleton crew</div><div class="score"><span class="t l">Feyenoord</span><span class="mid">0 – 3</span><span class="t r win">Inter</span></div><div class="note">Inter reignited their campaign in Rotterdam</div><div class="score"><span class="t l">Bodø/Glimt</span><span class="mid">0 – 0</span><span class="t r">Lille</span></div><div class="note">goalless in the Arctic</div><div class="score"><span class="t l win">LASK</span><span class="mid">4 – 0</span><span class="t r">Slovan Bratislava</span></div><div class="note">a rout in Linz</div><div class="score"><span class="t l">Villarreal</span><span class="mid">0 – 6</span><span class="t r win">Paris Saint-Germain</span></div><div class="note">PSG flew out of the blocks and never stopped</div></div></section>
 <section id="s14"><div class="head"><h2>📌 Long read</h2></div>
 <div class="card"><a class="story" href="https://www.newyorker.com/magazine"><span class="hl">New Jersey, the Diesel State</span><span class="sm">Robert Sullivan follows the Hackensack Riverkeeper past a Meadowlands data centre that leaked 5,000 gallons of fuel into a creek, and asks who pays for the cleanup.</span><span class="why">Why it matters: the AI buildout's local bill, told at water level.</span><span class="src">newyorker.com</span></a></div></section>
+</main>
+
+<details class="notify"><summary>Notifications</summary>
+<p>Install this page to your home screen first, open it from there, then tap Enable. Paste the code it
+shows into your Hermes chat once — after that the 08:45 canary pushes an alert when the edition is live.</p>
+<button id="npush">Enable notifications</button>
+<textarea id="subout" readonly placeholder="Subscription appears here, then paste it into chat"></textarea>
+</details>
+<script>(function(){
+var KEY="BKqpAbBnzuOjTj06IuYW7rUSWsggv7l9eSETLLA5FJ4JByIXs8BeYBE1w2BA_nqbZSOfgdiDchUCA_sjQTBX7Bo";
+var b=document.getElementById('npush'),out=document.getElementById('subout');
+if(!('serviceWorker' in navigator)||!('PushManager' in window)){b.disabled=true;b.textContent='Not supported here';return;}
+function b64(s){var p='='.repeat((4-s.length%4)%4);var t=(s+p).replace(/-/g,'+').replace(/_/g,'/');var r=atob(t),u=new Uint8Array(r.length);for(var i=0;i<r.length;i++)u[i]=r.charCodeAt(i);return u;}
+b.addEventListener('click',function(){
+  navigator.serviceWorker.ready.then(function(reg){
+    return reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64(KEY)});
+  }).then(function(sub){
+    out.value=JSON.stringify(sub.toJSON());out.select();
+    try{document.execCommand('copy');b.textContent='Copied - paste it into chat';}catch(e){b.textContent='Copy the code above';}
+  }).catch(function(e){out.value='error: '+e.message;});
+});
+})();</script>
+
 <footer>Generated by Hermes · sources linked per story · facts retrieved in the run that produced this page · <a href="archive.html">archive</a> · <a href="feed.xml">RSS</a></footer><script>if('serviceWorker' in navigator){addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){})})}</script></body></html>
