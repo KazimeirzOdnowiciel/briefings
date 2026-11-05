@@ -30,3 +30,37 @@ self.addEventListener('fetch', (event) => {
       )
   );
 });
+
+/* Web push: the 08:45 canary tells us when the day's edition is live. */
+self.addEventListener('push', (event) => {
+  let payload = {};
+  try {
+    payload = event.data ? event.data.json() : {};
+  } catch (e) {
+    payload = { body: event.data ? event.data.text() : '' };
+  }
+  const title = payload.title || 'Daily Briefing';
+  event.waitUntil(
+    self.registration.showNotification(title, {
+      body: payload.body || 'A new edition is ready.',
+      icon: './icon-192.png',
+      badge: './icon-192.png',
+      tag: 'briefing',
+      renotify: true,
+      data: { url: payload.url || './index.html' },
+    })
+  );
+});
+
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close();
+  const url = (event.notification.data && event.notification.data.url) || './index.html';
+  event.waitUntil(
+    self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then((list) => {
+      for (const client of list) {
+        if (client.url.indexOf(self.registration.scope) === 0) return client.focus();
+      }
+      return self.clients.openWindow(url);
+    })
+  );
+});
