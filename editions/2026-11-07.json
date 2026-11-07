@@ -1,0 +1,878 @@
+{
+ "schema": 1,
+ "generated": "2026-11-07T08:31:50",
+ "date": "2026-11-07",
+ "greeting": "Good morning — Saturday, 7 November 2026.",
+ "title": "Paraguay's Senate voted 44-0 to remove President Santiago Peña over the ueno bank collapse; Pedro Alliana was sworn in",
+ "workout": "💪 Today is a workout day: Saturday — Row D: Long Pyramid — 2-4-6-8-6-4-2 min pieces. ~60 min, reminder at 17:00. Nothing logged in Hevy yet.",
+ "audio": "audio/today.mp3",
+ "read_minutes": 14,
+ "sections": [
+  {
+   "name": "🎯 TL;DR",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Paraguay's Senate voted 44-0 to remove President Santiago Peña over the ueno bank collapse; Pedro Alliana was sworn in",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "October payrolls came in at 165,000 against a 59,000 forecast, and December Fed hike odds jumped to about 78%",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Tusk says Nawrocki has withdrawn the invitation to talks on the Constitutional Tribunal",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🔄 What changed",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "The AI rout paused but the week still ended badly: Nasdaq +1.09% on Friday, its fourth straight weekly loss, with the S&P 500 down 2.7% on the week",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Rate expectations moved the other way: after the payrolls beat, traders priced a December hike at about 78%, up from 70% a day earlier",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Tusk–Nawrocki meeting on the Tribunal is off",
+     "summary": "the PM says the president pulled the invitation by SMS.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🔁 Following",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Ukraine talks",
+     "summary": "ballistic missiles hit Kyiv overnight, three days before US-led negotiations open in Abu Dhabi.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Iran and the US",
+     "summary": "Qatar says mediation is still running; Iran's Tasnim reported two missiles struck Qeshm Island.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Tribunal fight",
+     "summary": "the Supreme Court's disciplinary chamber said it lacks jurisdiction over Święczkowski's complaint, and the Sejm kept Kierwiński in post.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🌍 World",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Russia hits Kyiv with ballistic missiles ahead of Abu Dhabi talks",
+     "summary": "Debris damaged a five-storey apartment block and a building housing a kindergarten in the capital's western districts, injuring two people.",
+     "matters": "the negotiations open with the ceasefire being violated.",
+     "url": "https://www.sunherald.com/news/nation-world/world/article317968817.html",
+     "source": "sunherald.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Qatar says US–Iran mediation is still working",
+     "summary": "Prime Minister Sheikh Mohammed bin Abdulrahman Al-Thani told Al Jazeera that Washington's interest in a deal survived the midterms, while Tasnim reported two missiles struck Qeshm Island with no official word on damage.",
+     "matters": "Hormuz and the oil price hinge on whether that channel holds.",
+     "url": "https://www.islandpacket.com/news/nation-world/world/article317970270.html",
+     "source": "islandpacket.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Paraguay's Senate removes President Peña over the ueno collapse",
+     "summary": "All 44 senators present voted him out rather than accept his resignation, denying him the lifetime Senate seat and its immunity; Vice-President Pedro Alliana was sworn in and Peña was placed under house arrest.",
+     "matters": "a Trump ally falls and a bank failure becomes a criminal case.",
+     "url": "https://www.lemonde.fr/en/international/article/2026/11/07/paraguay-s-impeached-president-pena-put-under-house-arrest_6773857_4.html",
+     "source": "lemonde.fr",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Delhi is the world's most polluted major city on the eve of Diwali",
+     "summary": "IQAir put the capital's US air quality index at 581 on Saturday morning, double Lahore's 285, and schools in and around the city have been ordered to teach online.",
+     "matters": "Sunday's firecrackers land on the worst pre-Diwali air in eight years.",
+     "url": "https://www.bradenton.com/news/nation-world/world/article317970554.html",
+     "source": "bradenton.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Nearly 90 million displaced people live under climate threat, UNHCR says",
+     "summary": "Three-quarters of the world's forcibly displaced are in countries exposed to drought, floods and extreme heat, the agency reported before COP31 opens in Antalya.",
+     "matters": "only about a tenth of climate finance reaches fragile or conflict-affected states.",
+     "url": "https://www.thedailystar.net/news/world/news/90m-displaced-people-risk-climate-threats-un-4317296",
+     "source": "thedailystar.net",
+     "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/feature/images/un_0.png",
+     "body": "Reuters, Geneva Nearly 90 million forcibly displaced people are living in countries increasingly exposed to climate-related droughts, floods and extreme heat, the UN refugee agency said yesterday, warning ahead of the COP31 climate summit that more funding is needed to help vulnerable communities adapt. Nearly three-quarters of the world’s forcibly displaced people are living in countries such as Afghanistan and Bangladesh that are exposed to severe climate-related risks, according to the report by the agency, known as UNHCR, published ahead of the UN Climate Change Conference in Antalya, Turkey. The findings show the overlap between conflict, displacement and climate change, the report said. “Climate adaptation in fragile and displacement-affected areas is a matter of survival,” said Anton Leis Garcia, UNHCR’s assistant high commissioner for operations. “We need climate financing to reach the communities where the needs are greatest,” he said. The report highlighted the experience of a Sudanese refugee who fled conflict in al-Fashir in June 2023 to the Farchana refugee settlement in eastern Chad. The refugee said she sometimes goes a week without finding safe water and must walk increasingly long distances for alternative sources as nearby seasonal riverbeds dry up amid intensifying heat. It also warned that climate change is making it harder for displaced people to return home sustainably. In the first half of 2026, more than two-thirds of refugee returns were to countries highly exposed to climate hazards, placing them at risk of renewed displacement. In Syria, where nearly 4 million displaced people have recently returned, people face worsening water scarcity and erratic rainfall, while flooding along the Euphrates River in May damaged homes and displaced thousands of people. Across sub-Saharan Africa, one in three refugee settlements could experience at least 100 days of dangerous heat each year by 2050, threatening health and livelihoods, the report said. In some settlements in Ethiopia, including Helaweyn, dangerous heat could persist for more than 200 days a year, increasing the risks of heatstroke and premature death. “Refugees often have limited access to cooling, water and reliable energy, making it harder to escape dangerous temperatures,” it said. UNHCR also warned that a forecast supersized El Niño could worsen climate-related risks in many refugee-hosting countries and trigger further displacement. In East Africa, severe flooding could displace up to three million people in Somalia, Kenya, South Sudan and Uganda by the end of this year,…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🇵🇱 Polska",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Tusk: Nawrocki wycofał zaproszenie na rozmowę o Trybunale",
+     "summary": "Premier przekazał, że dostał od prezydenta „bardzo serdeczny” SMS, ale spotkanie w sprawie TK najprawdopodobniej się nie odbędzie; treści wiadomości nie ujawnił.",
+     "matters": "spór o Trybunał zostaje bez negocjacji, a rozmowa ma wrócić „w późniejszym terminie”.",
+     "url": "https://tvn24.pl/polska/spotkanie-donalda-tuska-i-karola-nawrockiego-szef-kancelarii-prezydenta-zbigniew-bogucki-zabral-glos-st9326751",
+     "source": "tvn24.pl",
+     "image": "https://tvn24.pl/_e/i/najnowsze/cdn-zdjecie-donald-tusk-ph9326841/alternates/WEBP_LANDSCAPE_1620",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Korwin-Piotrowska: Święczkowski nie wydał wyroku w żadnej skardze obywatela",
+     "summary": "Kierująca TK napisała w oświadczeniu, że poprzedni prezes nie zapewnił sprawnego rozpoznawania spraw, i zapowiedziała zmianę.",
+     "matters": "to pierwsze tak konkretne rozliczenie pracy poprzedniego prezesa.",
+     "url": "https://tvn24.pl/polska/nowe-oswiadczenie-sedzi-anny-korwin-piotrowskiej-bogdan-swieczkowski-nie-wydal-zadnego-wyroku-ws-skarg-konstytucyjnych-obywateli-st9327063",
+     "source": "tvn24.pl",
+     "image": "https://tvn24.pl/_e/i/najnowsze/cdn-zdjecie-oswiadczenie-korwin-piotrowska-0003-ph9327059/alternates/WEBP_LANDSCAPE_1620",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Sąd Najwyższy: izba nie jest właściwa w sprawie Święczkowskiego",
+     "summary": "Izba Odpowiedzialności Zawodowej uznała, że nie rozpozna zażalenia byłego prezesa TK i Bartłomieja Sochańskiego na przerwę w wykonywaniu obowiązków, i przekazała sprawę Trybunałowi.",
+     "matters": "spór wraca do instytucji, której legalność sama jest kwestionowana.",
+     "url": "https://tvn24.pl/polska/sad-najwyzszy-nie-pomogl-bogdanowi-swieczkowskiemu-st9325985",
+     "source": "tvn24.pl",
+     "image": "https://tvn24.pl/_e/i/najnowsze/cdn-zdjecie-sad-najwyzszy-ph9320696/alternates/WEBP_LANDSCAPE_1620",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Sejm odrzucił wotum nieufności wobec Kierwińskiego",
+     "summary": "Za odwołaniem szefa MSWiA głosowało 212 posłów, przeciw 235, nikt się nie wstrzymał; to trzecia nieudana próba w tej kadencji.",
+     "matters": "koalicja ma 235 głosów i na razie nie traci ani jednego.",
+     "url": "https://www.onet.pl/informacje/onetwiadomosci/wotum-nieufnosci-wobec-ministra-kierwinskiego-sejm-zdecydowal/gnbdxtt,79cfc278",
+     "source": "onet.pl",
+     "image": null,
+     "body": "Skróć artykuł 8750 Zapytaj o więcej Onet Czat z AI Podczas piątkowego głosowania posłowie odrzucili wniosek o wotum nieufności wobec ministra spraw wewnętrznych i administracji Marcina…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Francja przejmie obronę powietrzną Rzeszowa-Jasionki",
+     "summary": "Ambasador Etienne de Poncins zapowiedział, że od 1 stycznia 2027 roku francuskie systemy zastąpią holenderskie i będą działać razem z amerykańskimi Patriotami.",
+     "matters": "główny węzeł dostaw dla Ukrainy dostaje nowego gospodarza obrony.",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198073,33121084,francja-przejmie-ochrone-lotniska-w-jasionce-jest-oficjalna.html",
+     "source": "wiadomosci.gazeta.pl",
+     "image": "http://bi.gazeta.pl/im/07/7d/1f/z33021703IAR.jpg",
+     "body": "Port lotniczy Rzeszów-Jasionka stanowi główny węzeł logistyczny dla dostaw zachodniej pomocy wojskowej i humanitarnej dla Ukrainy. Do końca grudnia 2026 roku za obronę portu lotniczego odpowiada Holandia, która wcześniej przedłużyła stacjonowanie swoich sił. Bezpieczeństwo centrum logistycznego NATO zapewniają obecnie dwa holenderskie systemy obrony powietrznej Patriot, norweski system obrony powietrznej NASAMS oraz około 300 holenderskich żołnierzy. Szef MON Władysław Kosiniak-Kamysz wskazywał pod koniec września podczas wizyty w Garnizonie Rzeszów, że po zakończeniu holenderskiej misji ochrona strategicznego lotniska przejdzie w ręce innego państwa członkowskiego NATO, choć nie podał wtedy, który kraj weźmie za to odpowiedzialność. Wicepremier zapewnił, że na lotnisku w Jasionce nadal będą stacjonować Patrioty. - Mam zapewnienia z kwatery głównej NATO o kolejnej zmianie, która zostanie dokonana na lotnisku w Jasionce. To nie polskie systemy Patriot, tylko sojusznicze systemy Patriot będą tutaj stacjonować - przekazał Kosiniak-Kamysz we…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "💰 Money",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "WIG20 4,131.4 · USD/PLN 3.918 (+0.43%) · EUR/PLN 4.400 (+0.39%) · BTC $75,979 (+0.5%) · Brent $98.32 (+0.0%)",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Nasdaq rebounds 1.1% but still posts a fourth straight weekly loss",
+     "summary": "The S&P 500 added 0.31% to 7,376.86 and the Dow slipped 0.46% to 51,285.73; the S&P finished the week down 2.7%, its worst since April 2025.",
+     "matters": "dip-buyers showed up, but not enough to repair the week.",
+     "url": "https://www.kansas.com/news/business/article317954424.html",
+     "source": "kansas.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "October payrolls smash forecasts and December hike odds jump",
+     "summary": "Employers added 165,000 jobs against a 59,000 consensus, unemployment fell to 4.1%, the two-year yield rose to 4.52% and the dollar index gained 0.7%.",
+     "matters": "a Fed hike in December is now the base case, not a tail risk.",
+     "url": "https://www.reuters.com/business/view-strong-october-jobs-report-sends-yields-higher-2026-11-06/",
+     "source": "reuters.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Asia's AI trade buckled overnight",
+     "summary": "Seoul's KOSPI fell 6% and Taiwan's benchmark had its worst week in more than two decades as margin calls rippled through chip names.",
+     "matters": "this is now a leverage story, not just a valuation one.",
+     "url": "https://www.newsobserver.com/news/nation-world/national/article317953504.html",
+     "source": "newsobserver.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Tesla will wind down Cybertruck production by mid-2027",
+     "summary": "Musk said the Texas line makes way for Cybercab output; Tesla sold 20,237 Cybertrucks in the US last year, down 48% from 2024.",
+     "matters": "the robotaxi bet is now eating the truck that was supposed to help fund it.",
+     "url": "https://www.reuters.com/business/autos-transportation/tesla-cybertrucks-bumpy-run-cracked-windows-long-delays-11-recalls-2026-11-06/",
+     "source": "reuters.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "💻 AI & Tech",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "OpenAI raises another $11bn at a reported $1.25 trillion valuation",
+     "summary": "The round follows March's $122bn raise at $852bn and lands days into the sector's selloff.",
+     "matters": "private marks keep climbing while public ones fall.",
+     "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+     "source": "techcrunch.com",
+     "image": "https://techcrunch.com/wp-content/uploads/2025/12/495cdfd5deaad915a1ad58ab35edcbaa84b90c4ce9b7ded356c5ad1b61884800.png",
+     "body": "Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. OpenAI has reportedly raised $11 billion so far in a new funding round that values the AI lab at $1.25 trillion. Bloomberg reported on the new funding on Friday, citing sources familiar with the matter. The $11 billion is part of a larger funding round that hasn’t closed yet, according to the outlet. The round is expected to close in the coming weeks and could total about $20 billion, a source told Bloomberg. In late September, Bloomberg reported that OpenAI was looking to raise $30 billion in the upcoming round. The current figures fall well short of that target. TechCrunch has reached out to OpenAI for comment and will update this story if it responds. The news comes only hours after Bloomberg also reported that potential buyers of shares in the IPO of OpenAI’s chief competitor, Anthropic, are eyeing a substantially lower valuation than Anthropic had targeted. Bloomberg writes that some potential buyers believe Anthropic’s valuation could be as low as $1.1 trillion, compared with the $2 trillion that investors were said to be expecting roughly a month ago. OpenAI previously intimated that it would go public this year but subsequently delayed its plans. There are expectations that the company will IPO next year at some point. The market for AI hangs in a particularly precarious place. The Democratic landslide in the U.S. midterms — and overwhelmingly negative voter sentiment around data centers — has caused jitters throughout the market , with many anticipating potential regulatory challenges in the…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Anthropic's IPO pricing is wobbling",
+     "summary": "Reuters reports potential investors want a bigger discount than the $1.5 trillion discussed, with one seeing about $1 trillion, and doubt the roadshow can start next week.",
+     "matters": "the first big AI listing has to clear a market that just repriced the whole sector.",
+     "url": "https://www.reuters.com/world/ai-backlash-could-threaten-anthropic-ipo-timing-potential-investors-say-2026-11-05/",
+     "source": "reuters.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Democrats plan a wave of AI bills for January",
+     "summary": "The package would shield consumers from data-centre electricity costs, require independent testing of advanced models and clarify liability for harm, per lawmakers and aides.",
+     "matters": "US AI rules will arrive through hearings and state regulators before any federal statute.",
+     "url": "https://www.reuters.com/business/media-telecom/democrats-planning-flood-ai-bills-when-they-take-control-congress-2026-11-06/",
+     "source": "reuters.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Microsoft keeps shrinking its rented AI capacity",
+     "summary": "It declined an option to more than double its Nscale deal in Texas, and is winding down rented Oracle capacity built on older Nvidia chips.",
+     "matters": "hyperscalers are trimming commitments, not just talking about capex discipline.",
+     "url": "https://www.reuters.com/technology/microsoft-rejects-multibillion-dollar-ai-deal-with-uks-nscale-ft-reports-2026-11-05/",
+     "source": "reuters.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Activists occupied Microsoft's Amsterdam data-centre site",
+     "summary": "Police detained 150-200 people at the Sloterdijk build as the \"Stop Dirty Data Centres\" coalition opened two days of action in 16 countries, including outside the Sejm in Warsaw.",
+     "matters": "permitting and local politics are becoming the buildout's binding constraint.",
+     "url": "https://www.aljazeera.com/news/2026/11/6/protesters-break-into-microsoft-data-centre-site-in-amsterdam",
+     "source": "aljazeera.com",
+     "image": null,
+     "body": "x whatsapp-stroke copylink google Add Al Jazeera on Google info Members of Geef Tegengas attempted to occupy the site of a Microsoft data centre in Amsterdam [Koen Van Weel/ANP/AFP] By Al Jazeera Staff , AFP and AP Published On 6 Nov 2026 6 Nov 2026 Protesters in the Netherlands have broken into a construction site for a new Microsoft data centre in Amsterdam, the latest action in a growing movement sweeping Europe. Several hundred activists occupied the site in the Sloterdijk district on Friday, responding to a call for a two-day protest across Europe against data centres, which handle the large processing workloads associated with artificial intelligence (AI). Demonstrators clashed with police as some climbed a crane and set off flares. Nathan Timmer, of the protest group Geef Tegengas – which translates as Push Back – told local broadcaster AT5 that demonstrators were occupying the site in an effort to stop construction. Pro-Palestinian activists also joined the demonstrations in the Dutch capital. By late afternoon police were escorting activists off the construction site, though some remained, local media reported. Data centres face resistance around the world due to the massive amounts of computing power and water they use. Activists argue that the boom in facilities serving cloud computing and AI is moving faster than public consultation and environmental oversight. Dozens of civil society and grassroots groups have said they will join the “Stop Dirty Data Centres” events on Friday and Saturday in 15 European countries, including Ireland, Poland, Denmark, Finland, Spain, Italy, the Netherlands, France and the United Kingdom, organisers said. In Germany, a dozen protesters gathered in front of a data centre on the outskirts of Berlin on Friday. About 100 people also protested against data centres in front of the Polish parliament, representing communities around Warsaw where new centres are planned. In Italy, the fast-growing data centre industry is facing an equally rapid rise in grassroots opposition, particularly in the northern Lombardy region, the country’s main hub for digital…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎮 Games & Dev",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Dalamud 15.0.3.9 · .NET 10.0.14 · game build 2026.10.16 · last changelog 20 Oct",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Patch 7.58 lands Tuesday with same-region matching for NA and EU",
+     "summary": "All Worlds go down from 2:00 a.m. PST on 9 November to 2:00 a.m. on 10 November; Data Center Travel and Mog Station services suspend 30 minutes before, and anyone on World Visit is sent home.",
+     "matters": "a 24-hour outage plus a matching change is exactly the patch that breaks party-finder and queue plugins.",
+     "url": "https://na.finalfantasyxiv.com/lodestone/topics/detail/50458eeb98ca9466c69b85074f5326be0b3f3a94",
+     "source": "na.finalfantasyxiv.com",
+     "image": "https://img.finalfantasyxiv.com/t/50458eeb98ca9466c69b85074f5326be0b3f3a94.png",
+     "body": "With the release of Patch 7.58, scheduled for Tuesday, November 10, 2026 , same-region player matching ─previously introduced to the Japan data center─will be implemented on the North American and European data centers. Matchmaking and party recruitment have thus far been limited to players on the same logical data center. However, with the introduction of same-region player matching, the scope will expand to cover all those on the same physical data center. This means that all players within the same physical data center will be eligible for matchmaking and party recruitment, regardless of their current world. Further information can be found below on the purpose and impact of same-region player matching. * The maintenance accompanying the release of Patch 7.58 is scheduled to last 24 hours. The maintenance schedule will be announced in the News once finalized. To better understand same-region player matching, it is useful to start with the structure of FFXIV's data centers. * See the current data center structure here . Physical Data Centers (Physical DC) The physical DCs (represented in blue on the diagram) are located in four regions : Japan, North America, Europe, and Oceania. The closer your place of residence is to the physical DC, the less likely you are to experience network lag; as such, players typically choose the physical DC located closest to their residence. Logical Data Centers (Logical DC) Each physical DC contains one to four logical DCs (represented in green on the diagram). Worlds Each logical DC contains five to eight Worlds (represented in gray on the diagram). Once same-region player matching is introduced in Patch 7.58, scheduled for Tuesday, November 10, 2026 , features that were restricted to the same logical DC will become usable across all logical DCs in the same physical DC (the same region). There will be no change to features only accessible on your Home World, or those that already operated across the same physical DC. Going forward, the rules for what can and cannot be carried out on a world in another logical DC will be the same as those currently in place for the World Visit system . View more information on the World Visit system here . The Data Center Travel system will no longer allow travel between logical DCs within North America, nor between logical DCs within Europe. However, it will still allow travel from the North American and European DCs to the Oceania DC. As cross-world linkshells, PvP Teams and Fellowships will be available regardless of current logical DC, they will be consolidated into a single…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Evercold pre-orders are open and the PvP season turns over",
+     "summary": "The same maintenance closes Crystalline Conflict Season 21 rankings and prepares Season 22.",
+     "matters": "season resets change what your addons read back from the client.",
+     "url": "https://eu.finalfantasyxiv.com/lodestone/news/",
+     "source": "eu.finalfantasyxiv.com",
+     "image": "https://lds-img.finalfantasyxiv.com/h/a/1LbK-2Cqoku3zorQFR0VQ6jP0Y.png",
+     "body": "FINAL FANTASY XIV: Evercold is now available for pre-order! Pre-order to immediately receive in-game items—a new minion and an accessory that increases EXP earned—and embark on your journey in Evercold with early access before launch! With the release of Patch 7.58, scheduled for Tuesday, 10 November 2026 , same-region player matching ─previously introduced to the Japan data center─will be implemented on the North American and European data centers. Matchmaking and party recruitment have thus far been limited to players on the same logical data center. However, with the introduction of same-region player matching, the scope will expand to cover all those on the same physical data center. This means that all players within the same physical data center will be eligible for matchmaking and party recruitment, regardless of their current world. Further information can be found below on the purpose and impact of same-region player matching. * The maintenance accompanying the release of Patch 7.58 is scheduled to last 24 hours. The maintenance schedule will be announced in the News once finalised. Read on for details. Starting Monday, 2 November 2026 at around 8:00 (GMT) / 19:00 (AEDT) , the FINAL FANTASY XIV Online Store will be hosting a limited-time sale featuring commemorative items from Fan Festival 2023-2024 and earlier! Visit the FINAL FANTASY XIV Online Store . * The sale will begin after the scheduled maintenance ends on Monday, 2 November 2026 at around 8:00 (GMT) / 19:00 (AEDT). Please visit the News section for detailed maintenance information. * Please note that there may be a delay in the delivery of items directly after sales commence due to congestion of the delivery system. Your next adventure is almost here! The release date for FINAL FANTASY XIV: Evercold has been revealed, with pre-orders opening soon! Pre-order to receive a variety of bonuses and early access to the Fourth a few days before launch. Friday, 19 February 2027 at 9:00 (GMT) / 20:00 (AEDT) Visit the FINAL FANTASY XIV: Evercold website for more details. Ticket for viewing both days: 4,950 yen (tax included) * A 770 yen (tax included) system usage fee will be added separately. * A portion of the comments posted during the performance will be available to view via the chat replay feature when ready. Comments cannot be posted during the archive viewing period. Purchase a ticket for the stream. * A free Plus member ID is required to purchase a ticket for the live stream. * The live stream may not be available for viewing in certain regions. Please review the live stream's…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Dalamud v16 preview is up, and it is a large API break",
+     "summary": "The mutable SeString and Payload classes are gone in favour of ReadOnlySeString and SeStringBuilder, sheets move from Lumina.Excel.Sheets to Dalamud.Excel.Sheets, and events drop their sender argument.",
+     "matters": "API 16 ships with Patch 8.0, so porting starts this winter, not next summer.",
+     "url": "https://dalamud.dev/versions/v16/",
+     "source": "dalamud.dev",
+     "image": null,
+     "body": "Versions & Channels What's New in Dalamud v16 On this page What's New in Dalamud v16 Not finalized This version is not finalized, and all details here are subject to change. Dalamud v16 is the next major version of Dalamud, currently in development, and will release with Patch 8.0. This is a high-level overview of changes. You can see a code diff of all of these changes here . The mutable SeString class and its associated Payload classes have been removed. All Dalamud APIs now use the immutable ReadOnlySeString or ReadOnlySeStringSpan structs to improve memory efficiency and to provide a modern implementation that propertly supports the type. Because ReadOnlySeString is immutable, its contents cannot be modified directly. To alter an existing string, instantiate a SeStringBuilder , iterate through the payloads of the original string, and append or modify the payloads as needed to produce a new ReadOnlySeString . To eliminate unnecessary heap allocations please rent a pooled SeStringBuilder instance using RentedSeStringBuilder , which automatically returns to the shared ObjectPool when disposed. The following example demonstrates how to intercept a chat message, search for a target text sequence ( \"Dalamud\" ), and wrap it in color macros using RentedSeStringBuilder : public class ExampleChatHandlerClass : IDisposable { private readonly IChatGui _chatGui ; public ExampleChatHandlerClass ( IChatGui chatGui ) { _chatGui = chatGui ; _chatGui . ChatMessage += OnChatMessage ; } public void Dispose ( ) { _chatGui . ChatMessage -= OnChatMessage ; } private void OnChatMessage ( IHandleableChatMessage message ) { // Skip processing if the message does not contain the target text if ( ! message . Message . ContainsText ( \"Dalamud\" u8 ) ) return ; using var rssb = new RentedSeStringBuilder ( ) ; foreach ( var payload in message . Message ) { if ( payload . Type == ReadOnlySePayloadType . Text && payload . Body . Span . IndexOf ( \"Dalamud\" u8 ) is var pos && pos != - 1 ) { // Append text before Dalamud rssb . Append ( payload . Body . Span [ .. pos ] ) ; // Append Dalamud wrapped in color macros rssb . PushEdgeColorType ( 701 ) . PushColorType ( 539 ) . Append ( \"Dalamud\" u8 ) . PopColorType ( ) . PopEdgeColorType ( ) ; // Append text after Dalamud rssb . Append ( payload . Body . Span [ ( pos + \"Dalamud\" u8 . Length ) .. ] ) ; } else { // Append every other payload as-is rssb . Append ( payload ) ; } } // Set the new message message . Message = rssb . ToReadOnlySeString ( ) ; } } Example: Extracting Item Link Details from a Chat Messages The following example…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Blender 5.3 ships on 10 November and 5.2 LTS loses active support the same day",
+     "summary": "5.3 is the release that makes Vulkan the default on Windows and Linux.",
+     "matters": "if your Meddle or export pipeline is pinned to 5.2 LTS, the support clock stops on Tuesday.",
+     "url": "https://endoflife.date/blender",
+     "source": "endoflife.date",
+     "image": null,
+     "body": "Since February 2023 , Blender follows a 3-releases-per-year schedule, with one of the releases offering long-term support (Blender LTS). Non-LTS releases are supported until the next release with high-priority bug fixes. High-severity and normal bugs may be fixed too if agreed on by the team. LTS releases are supported for 2 years. At first the support level is the same as non-LTS releases; but after the next release is out, they are supported with critical bugfixes only. You should be running one of the supported release numbers listed above in the rightmost column. blender --version Show Product Identifiers repology: blender cpe: cpe:/a:blender:blender cpe: cpe:2.3:a:blender:blender You can submit an improvement to this page on GitHub . This page has also a corresponding Talk Page 💬…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎵 Music",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Nick Cave announces a 2027 talk-and-music tour",
+     "summary": "\"Conversations With Nick Cave: An Evening of Talk & Music\" pairs an audience Q&A with live performance.",
+     "matters": "the format trades the Bad Seeds setlist for a Q&A, which is a different ticket.",
+     "url": "https://pitchfork.com/story/nick-cave-launches-2027-tour/",
+     "source": "pitchfork.com",
+     "image": null,
+     "body": "Nick Cave (Getty Images) Comment Loader Save Story Save this story Comment Loader Save Story Save this story Nick Cave is heading out on the road next year, reviving the format of his 2019 tour blending a Q&A, live performance, and career retrospective. The 2027 edition of Conversations With Nick Cave: An Evening of Talk & Music kicks off in Vancouver next April, and will traverse North America before concluding in New Orleans in May. Check out a full itinerary below. The new tour is presented by the Red Hand Files , an online correspondence platform Cave launched in 2018 where fans can send him questions. Over the years, he’s become known for his unfiltered and thoughtful answers to any question that comes through. Elsewhere this year, Cave earned an Oscar nomination for Best Original Song for “Train Dreams,” which he wrote with Bryce Dessner for the film of the same name. In August, Cave put on a large-scale hometown concert in Brighton and invited fellow Aussie Kylie Minogue onstage as a special…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Rush book a Sphere residency",
+     "summary": "The band becomes the latest legacy act to take the Las Vegas venue.",
+     "matters": "Sphere residencies are now the default payday for heritage rock.",
+     "url": "https://pitchfork.com/story/rush-announce-sphere-residency/",
+     "source": "pitchfork.com",
+     "image": null,
+     "body": "Gary Miller/Getty Images Comment Loader Save Story Save this story Comment Loader Save Story Save this story Prog legends Rush are in the midst of their nearly yearlong Fifty Something reunion tour, which was originally set to wrap next spring. Now they’ve tacked on a Sphere residency to it, called Elevate From the Norm. The band—co-founders Geddy Lee and Alex Lifeson, alongside drummer Anika Nilles and keyboardist Loren Gold—will play five nights at the globular Las Vegas venue in May. Dates for that and the remainder of the reunion tour can be found…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Future, Drake and Travis Scott team up on \"Ya Hit\"",
+     "summary": "The three rappers released the joint track on Friday.",
+     "matters": "a cross-label single is the cheapest way to test whether streaming still rewards events.",
+     "url": "https://pitchfork.com/story/future-drake-and-travis-scott-join-forces-for-ya-hit/",
+     "source": "pitchfork.com",
+     "image": null,
+     "body": "Future (Derrick Pierre); Drake and Travis Scott (Getty Images) Comment Loader Save Story Save this story Comment Loader Save Story Save this story Six months after his murky inquiry into truth and persona on The Real Me , Future has brought along some pals to launch a new phase. “Ya Hit,” billed as the first official song from a forthcoming album, features Drake , Travis Scott , and Florida rapper Loe Shimmy , trading verses over an ATL Jacob beat, with adlibs from Sexyy Red. Check it out below, along with Jim Joe & Lewy’s cover…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Margaret releases \"TRIPOLAR\"",
+     "summary": "The 15-track album is a three-part BODY/VOICE/MIND project, out in streaming on 6 November and physically on 27 November.",
+     "matters": "the biggest Polish pop release of the month arrives as three EPs rather than one record.",
+     "url": "https://story.eska.pl/listopad-2026/margaret-szczera-jak-nigdy-w-eska-story-rozprawia-o-kobiecosci.html",
+     "source": "story.eska.pl",
+     "image": null,
+     "body": "Całe życie wydawało mi się, że jeszcze tylko muszę coś załatwić i wtedy „to dopiero będzie”. Coś zrozumieć. Komuś wybaczyć. Coś przepracować. Że jeszcze tylko ta jedna ostatnia prosta i w końcu będzie dobrze. Ale niektóre ostatnie proste ciągną się w nieskończoność. Niektórych ludzi nie da się odzyskać. Niektórych słów nie da się cofnąć. A niektórych rzeczy nie da się zaplanować. I im dalej w las, tym bardziej rozumiem, że ten wyczekiwany moment może nigdy nie nadejść. I może wcale nie chodzi o to, żeby przestało boleć? Może chodzi o to, żeby przestać czekać, aż przestanie. Bo życie nie zaczyna się wtedy, kiedy kończą się problemy. Życie dzieje się właśnie pomiędzy nimi. Nie przyszłam na ten świat, żeby mieć święty spokój. Przyszłam, żeby żyć. Ciało. Mój dom. Moja baza. Często je bagatelizuję, podnoszę mu poprzeczkę, oceniam i nie doceniam - to najczęściej! Przez lata używałam swojego ciała - jak narzędzia - jak czegoś, co ma dowozić, być bezkolizyjne, ciche, szybkie, zwrotne. Używałam go, jakby było tylko opakowaniem, a nie fizyczną emanacją mnie! Moje ciało było środkiem transportu. Kluczem do kariery. Dowodem. Kartą wstępu. Wszystko musi. Nic nie może. Aż wróciłam do bazy. I usłyszałam - poluzuj gacie! Moje ciało chce beztroskiego tańca z dala od średniowiecznej moralności. Moje ciało chce przyjemności bez tłumaczeń. Radości bez alibi. Moje nogi chcą iść bez celu i bez wyznaczonych tras Google Maps. Mój tyłek chce być duży i twardy - i chce mi dziś zaklaskać - za to że odnalazłam kontakt z bazą! Przez lata używałam swojego ciała - jak narzędzia - jak czegoś, co ma dowozić, być bezkolizyjne, ciche, szybkie, zwrotne. Używałam go, jakby było tylko opakowaniem, a nie fizyczną emanacją mnie! Jest na scenie od prawie dwóch dekad, jednak do tej pory nie pozwoliła sobie aż na taką szczerość. Margaret, bohaterka listopadowego wydania „ESKA Story”, oddaje w ręce fanów swój nowy album „TRIPOLAR”, na którym rozprawia o kobiecości w zupełnie innym ujęciu. Ciało, głos i umysł nie funkcjonują osobno. To elementy, które tworzą spójną całość. Całe życie wydawało mi się, że jeszcze tylko muszę coś załatwić i wtedy „to dopiero będzie”. Coś zrozumieć. Komuś wybaczyć. Coś przepracować. Że jeszcze tylko ta jedna ostatnia prosta i w końcu będzie dobrze. Ale niektóre ostatnie proste ciągną się w nieskończoność. Niektórych ludzi nie da się odzyskać. Niektórych słów nie da się cofnąć. A niektórych rzeczy nie da się zaplanować. I im dalej w las, tym bardziej rozumiem, że ten wyczekiwany moment może nigdy nie nadejść. I może wcale nie chodzi o to, żeby przestało boleć? Może…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "U2 set \"Carnaval de Luz\" for 13 November",
+     "summary": "Their first album of original material since 2017 arrives in the band's 50th year, with a 2027 \"Greatest Show on Earth\" tour behind it.",
+     "matters": "a stadium tour announcement before release is the new hedge against a weak first week.",
+     "url": "https://inmusicblog.com/new-music/most-anticipated-albums-november-2026/",
+     "source": "inmusicblog.com",
+     "image": "https://i0.wp.com/inmusicblog.com/wp-content/uploads/2025/11/IMG_9037-1.png",
+     "body": "November 2026 is shaping up to be a major month for new music. Dove Cameron, Lil Baby, Alanis Morissette, ATEEZ, U2, Snoh Aalegra and Gracie Abrams are among the artists preparing to release new projects. Cameron is finally delivering her debut studio album after years of delays, U2 are returning with their first collection of original material in nine years, and Abrams is expanding the album that earned her first No. 1 on the Billboard 200. Here’s what to expect from the most anticipated albums arriving in November. After years of delays and multiple reportedly shelved versions, Dove Cameron is finally releasing her debut studio album, Final Girl, on November 6 through Disruptor/Columbia. The 11-track project follows her 2023 EP Alchemical: Volume 1 . Preceded by “ When in Rome ” in September and “ Do the Math ” in October, the record explores darker, more confessional territory. Its tracklist includes “Silver Screen Baby,” “Emerald,” “Skin Over Bone” and “Maybe Heaven Is a Jazz Club,” with Cameron describing the material as messier and less commercial than some of her previous work. Lil Baby returns with his fifth studio album, Fresh , arriving November 6 through Quality Control/Motown. The 17-track release follows Wham , which topped the Billboard 200 in 2025, and the transitional mixtape The Leaks . ATEEZ continue their Golden Hour series with their 15th mini album, Golden Hour: Part.6 , arriving November 13 at 2 p.m. KST. The five-track release follows Golden Hour: Part.5, which debuted at No. 1 on the Billboard 200, raising expectations for the group’s next chapter. The EP features “ANEMIA,” “DRIP,” “UP,” “FAITH” and “Hollow Victory,” with “UP” serving as the title track. Pre-release single “DRIP,” released October 23, introduced a darker direction built around heavy bass, trap production and assertive lyrics. The group’s in-house production team leads much of the creative work, while members Hongjoong and Mingi contribute rap performances. U2 are preparing their first album of new original material since 2017’s Songs of Experience. Titled Carnaval de Luz, the 12-track project arrives November 13 through Island Records, coinciding with the band’s 50th year. Produced by Jacknife Lee , the record explores spirituality, friendship, freedom and resilience. The album opens with “ Go (Carnaval de Luz) ” and includes the short, surf-punk-influenced “ Silencio ” and “ The Greatest Show on Earth. ” Its closing track, “ Torn ,” features Dolly Parton in what is described as her final recorded vocal, with Daniel Lanois contributing pedal steel. Rosalía…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎬 Culture",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "\"Godzilla Minus Zero\" opens in Poland after a record Japanese debut",
+     "summary": "Toho's sequel took ¥910 million and 590,000 admissions on day one, the biggest opening day for any live-action film in Japan, and went wide here on 6 November.",
+     "matters": "the one thing actually worth a cinema ticket this week.",
+     "url": "https://www.animenewsnetwork.com/news/2026-11-04/godzilla-minus-zero-earns-highest-ever-opening-day-for-live-action-film-in-japan/.243535",
+     "source": "animenewsnetwork.com",
+     "image": null,
+     "body": "TOHO announced on Wednesday that Godzilla Minus Zero , the new Godzilla film from Godzilla Minus One 's Takashi Yamazaki , has sold 590,000 tickets for 910 million yen (about US$5.75 million) in Japan in its opening day alone, setting a new record for the highest opening day earnings for a live-action film (among both foreign and domestic live-action films) in Japan. The film had 201% higher opening day earnings than its predecessor Godzilla Minus One . Min Tanaka ( 47 Ronin , live-action Rurouni Kenshin films) plays biologist Kanji Murakami. He joined returning cast members Ryūnosuke Kamiki (Koichi Shikishima), Minami Hamabe (Noriko Ōishi), and Hidetaka Yoshioka (Noda) from Godzilla Minus One . Also returning in the cast are Yūki Yamada (Shiro Mizushima), Kuranosuke Sasaki (Seiji Akitsu), Sakura Andō (Sumiko Ota), and Miō Tanaka (Tatsuo Ho tta). Yamazaki returned as director, screenwriter, and VFX supervisor. Naoki Satō also returned to compose the music. Shirogumi Inc. handled the film's visual effects. GKIDS and TOHO will release the film in North America on Friday, November 6. This is the first time a Japan-produced Godzilla film will open in Japan and in North America in the same week. Godzilla Minus One has earned more than US$116 million worldwide. According to Box Office Mojo, the film has earned an estimated US$57,144,669 in the United States. The film was the third highest-grossing foreign-language film in the United States as of 2024. Netflix is streaming the film and Godzilla Minus One /Minus Color , the black-and-white version of the film, worldwide on Netflix . In North America, Godzilla Minus One and Godzilla Minus One /Minus Color are additionally available for digital rental and digital purchase on Amazon, Apple iTunes , Google Play , Microsoft , FandangoNOW/ VUDU , inDemand, XBOX, and Vubiquity. In Japan, the film is streaming exclusively (in color and monochrome) on Amazon Prime Video . Godzilla Minus One won the Best Visual Effects award in the 96th Academy Awards in March 2024. The film is the first Japanese film to win in this category, and the first Godzilla film to be nominated for an Oscar. Yamazaki's first English-language film Grandgear was originally slated to open on February 18, 2028, but Sony Pictures recently moved up its release date to January 14,…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "A24 passes $500 million domestic for the first time",
+     "summary": "\"Backrooms\" took about $400 million worldwide on a $10 million budget, and the studio has finished its $200 million Elden Ring adaptation.",
+     "matters": "the indie label is now a scale buyer, which changes what gets financed.",
+     "url": "https://variety.com/2026/film/news/a24-biggest-year-backrooms-elden-ring-1236938874/",
+     "source": "variety.com",
+     "image": "https://variety.com/wp-content/uploads/2026/11/A24-Collage.jpg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Pixar names Jonathan Garson president",
+     "summary": "He replaces Jim Morris, who becomes president emeritus, effective 4 January 2027, with Pete Docter staying as chief creative officer.",
+     "matters": "the handover sets Pixar's production slate through \"Incredibles 3\".",
+     "url": "https://au.variety.com/2026/film/global/pixar-jim-morris-president-emeritus-jonathan-garson-president-42291/",
+     "source": "au.variety.com",
+     "image": "https://images-r2-1.thebrag.com/var/uploads/2026/11/morris-garson-910x511.jpg",
+     "body": "After serving as president for 12 of his 21 years at the studio, Jim Morris will transition to a president emeritus role. Jonathan Garson will become the studio’s new president, partnering with Chief Creative Officer Pete Docter. In his new role as president, Garson will oversee all production and operations for Pixar — which most recently released the billion-dollar hit “Toy Story 5,” and has the original animated films “Gatto” and “Ghost Market” upcoming — including its producers, department heads, and post-production. As president emeritus, Morris will continue as executive producer of “Incredibles 3,” slated for a June 2028 theatrical release. More broadly, he will focus on talent development and mentoring across Pixar and Walt Disney Studios, as well as technology initiatives to support the studios’ storytellers and artists. Garson and Morris will both report to Alan Bergman, chairman of Disney Entertainment and Studios at The Walt Disney Company, who announced the leadership changes, effective Jan. 4, 2027, on Wednesday. Bergman also announced that Jonas Rivera will step into an expanded creative executive VP role, leading filmmakers and development and working closely with both Docter and Garson. “Jonas Rivera brings a wealth of creative expertise that will serve the team well as he works even more closely with Pete,” Bergman concluded. Get your daily dose of everything happening in music, film and TV in Australia and abroad. Morris joined Pixar in 2005 after a long tenure at Lucasfilm and ILM, where he served as ILM’s general manager and later as president of Lucas Digital Ltd., overseeing visual effects work on dozens of landmark films. He was named president in 2014, succeeding the studio’s first president, Ed Catmull. During Morris’ tenure, Pixar’s feature films have generated more than $12 billion at the global box office, continuing a legacy of critical acclaim and cultural relevance. Garson has been with Disney for more than 30 years and joined Pixar in 2010, working closely with Docter and Morris. He most recently served as Pixar’s general manager and previously led its marketing and franchise team. Rivera’s history with Pixar dates back to 1994. Since then, he has worked on almost every Pixar release, winning Oscars for “Inside Out” and “Toy Story 4”; earning a Best Picture nomination for “Up,” his first feature as producer; and executive producing “Inside Out 2, “the studio’s biggest global hit and one of the biggest animated films in…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Italy's Senate unanimously passes a cinema overhaul",
+     "summary": "The law creates a Cinema and Audiovisual Agency from 2028, a permanent industry forum, and new rules on AI and performers' consent, with €70m this year and €150m in 2027.",
+     "matters": "it is the first EU film law to write AI consent into the subsidy framework.",
+     "url": "https://www.screendaily.com/news/italy-passes-sweeping-film-and-tv-reform-with-measures-to-attract-international-shoots/5222107.article",
+     "source": "screendaily.com",
+     "image": "https://d1nslcd7m2225b.cloudfront.net/Pictures/274x183/4/3/8/1491438_wolnov20263x2_219378.jpg",
+     "body": "Sorry but it looks as if your browser is out of date. To get the best experience using our site we recommend that you upgrade or switch browsers. Italy’s parliament has unanimously approved a major overhaul of the country’s film and television framework, paving the way for a new cinema agency, a restructuring of public incentives and measures designed to attract more international productions. However, significant details, including changes to the tax credit system, have yet to be determined. Italy’s Senate gave its final approval to the legislation yesterday (November 4), with 123 votes in favour, none against and no abstentions. The vote concludes a bipartisan legislative process combining proposals originally put forward by the opposition Democratic Party, led by Elly Schlein, and the governing coalition. The reform, which follows Italy’s 2016 cinema law, will establish a new Cinema and Audiovisual Agency, scheduled to begin operating on January 1, 2028. The body will take over operational and administrative responsibilities currently handled by the culture ministry’s Directorate General for Cinema and Audiovisual, including the management of public support schemes. Although the agency will enjoy organisational, financial and managerial autonomy, the culture ministry will retain responsibility for political direction, strategic oversight and inspections. The legislation also establishes a permanent 16-member Cinema and Audiovisual Forum, bringing together industry experts and representatives of professional associations, alongside a new 20-member commission responsible for assessing projects seeking selective public funding. Culture minister Alessandro Giuli hailed the reform as a “historic achievement for Italian culture”, praising the cross-party agreement and its emphasis on transparency, independent filmmaking and the protection of creative workers. Crucially, the new legislation does not immediately introduce new tax credit rates or eligibility conditions. Instead, the government will have up to two years from the law’s entry into force, expected by the end of 2026, to approve further legislation setting out how Italy’s film and TV subsidies and tax incentives will be restructured. The measures envisage three-year planning, updated annually, with clearer application windows, deadlines for decisions and more predictable payment schedules. For international film and television productions shooting in Italy, the potential benefits lie primarily in administrative simplification. The reform explicitly calls for measures to attract foreign productions…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Michael Crichton's estate gets a jury trial over \"The Pitt\"",
+     "summary": "California's Court of Appeal upheld refusal to dismiss the suit, which claims the Warner Bros. series derives from \"ER\" and breaches a 1994 agreement.",
+     "matters": "the outcome will define how far a reboot can walk away from its creator's contract.",
+     "url": "https://www.thewrap.com/creative-content/tv-shows/the-pitt-er-michael-crichton-lawsuit-jury-trial/",
+     "source": "thewrap.com",
+     "image": "https://www.thewrap.com/wp-content/uploads/2023/07/drew-taylor-image.jpg",
+     "body": "Warner Bros.’ efforts to block the lawsuit from the Michael Crichton estate over “The Pitt” and its similarities to “ER” have again failed. The Court of Appeal, like the Superior Court, ruled that the Crichton estate’s evidence supports a finding that “The Pitt” violates the frozen rights provision in the 1994 agreement because it is derivative of “ER,” Noah Wyle’s previous medical drama. The case will now proceed to discovery and a jury trial. “I am deeply gratified by the Appeals Court decision and look forward to discovery and our case which affects writers, creators and their families and estates being presented to a Jury,” said Sherri Crichton in a statement. Wyle is fairly open about the fact that the project started off as an “ER” reboot, coming from an idea he had in 2020 and, watching the series, you can see the contours of the original version of the show. Like, how easily Eriq La Salle’s character from “ER” could have fallen into the role of the mentor who dies tragically. As the New York Times report suggests, there were even press releases ready to go trumpeting Wyle reprising “his iconic role” from the long running original series, which was based on 180-page manuscript Crichton wrote in 1974 called “Emergency Ward.” After the success of “Jurassic Park,” that film’s director Steven Spielberg and Crichton teamed up to turn the script into a television series. This frozen-rights provision gave them power over any reboot, spinoff or sequel of the show. Even the structure of “The Pitt,” with each episode being a 12-hour shift, unfolding almost in real time, was borrowed from the pilot episode of “ER,” written by Crichton. The ruling today, which involves a SLAPP suit, which Cornell Law describes as “lawsuits brought by individuals and entities to dissuade their critics from continuing to produce negative publicity,” shows that there’s still a lot of blood left in this lawsuit. I see one problem with this lawsuit. If the creators of the Pitt are being sued because it is too close to the TV series ER. Why isn’t any other TV series or company that created a TV series being sued for the same similarities when every similar series was created off of Dookie Hauser? or the like thereof? I find it kind of appalling that they’re jumping to this instead of letting it go. So is ER also gonna sue shows like, Chicago Med? Grey’s anatomy? All the other medical drama shows that are in existence? Michael Crichton was a POS before he died and I guess his widow is trying to live up…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🏛️ Brussels",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Commission preliminarily finds TikTok's \"For You\" feed in breach of the DSA",
+     "summary": "The finding targets the \"rabbit hole\" effect in risk assessment and mitigation, and the remedies point at explicit preferences over watch time; fines can reach 6% of global turnover.",
+     "matters": "if you ship a recommender in the EU, this is the design standard the Commission is now arguing for.",
+     "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes",
+     "source": "digital-strategy.ec.europa.eu",
+     "image": null,
+     "body": "The European Commission has preliminarily found TikTok in breach of the Digital Services Act (DSA) for the so-called ‘rabbit hole effect’ of its recommender system. TikTok's ‘For You' feed shows users a continuous stream of personalised videos, even when those are related to mental health struggles and body image. The more a user interacts with a certain type of content, the more TikTok's ‘For You' feed algorithm recommends similar content. This design can be harmful when such endless and repeated exposure involves, for example, content about sadness, isolation or body image. These ‘rabbit holes' can have a detrimental impact on users' mental health, especially that of vulnerable adults and…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The AI Act's next hard date is 2 December",
+     "summary": "New prohibitions on generating or manipulating non-consensual intimate material and CSAM become enforceable, 25 days from now.",
+     "matters": "any image or video generation feature needs its filters documented before that date.",
+     "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/when-does-enforcement-start",
+     "source": "ai-act-service-desk.ec.europa.eu",
+     "image": null,
+     "body": "Some enforcement powers of the AI Office and the authorities of the Member States will start to apply on 2 August 2026 . From that date, the provisions on prohibited AI practices, transparency requirements for certain AI systems, and the rules for general-purpose AI (‘GPAI’) models will be enforceable. However, for certain provisions of the AI Act, enforcement powers will start to apply only when those provisions themselves become applicable. In…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Commission opens feedback on DSA advertising repositories",
+     "summary": "The consultation covers the transparency databases platforms must maintain for ads.",
+     "matters": "ad transparency data is what researchers and competitors will audit you against.",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/online-platforms-and-e-commerce",
+     "source": "digital-strategy.ec.europa.eu",
+     "image": null,
+     "body": "The EU wants to ensure businesses and citizens can use online platforms and e-commerce services no matter where they are in the EU. If you have used a search engine to find information, shopped on an online marketplace, or communicated using social media, you have used an online platform. Online platforms are a key part of the online world. Over 1 million EU businesses sell goods or digital services via online platforms. And, as European citizens, we use them on a daily basis. The EU has introduced new rules to ensure that these websites foster an environment where EU business can thrive and users are treated fairly. We want to ensure everyone can use online platforms without fear of manipulative algorithms or illegal goods and content. To achieve this, the EU has adopted the Digital Services Act (DSA) and the Digital Markets Act (DMA) . These acts seek to ensure European citizens can be confident in their safety online and businesses can thrive in the digital world. It is also ensuring e-commerce rules stay up to date in the Digital…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Virkkunen briefs Council and Parliament on simplifying the digital rulebook",
+     "summary": "The update covers implementation and enforcement across the AI Act, DSA and DMA, with the Digital Omnibus and a \"fitness check\" stress-testing overlaps.",
+     "matters": "some reporting duties may merge, but nothing is repealed yet.",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-rulebook",
+     "source": "digital-strategy.ec.europa.eu",
+     "image": null,
+     "body": "To stimulate the competitiveness of the European Union the Commission is set on a bold course of simplification and consolidation of the digital rulebook. The Digital Rulebook, also known as the ‘digital acquis’, is the body of EU legislation governing emerging digital technologies, cybersecurity, online platforms and electronic communications. It is a set of rules that supports innovation, promotes fair competition, protects consumers, ensures data privacy, and addresses challenges arising from the digital transition. This body of rules exists to safeguard our European values and standards. However, as it has grown to keep pace with the technological and innovation landscape, it has exposed our businesses to high compliance costs and, in some cases, legal uncertainty. The 2024 Draghi report attributes the competitiveness deficit of the EU in part to administrative burdens and regulatory inconsistencies. Specifically, the report points out that the regulatory environment places too many constraints on innovation, especially in the digital sector, and hampers European start-ups looking to scale up. For the 2024-2029 mandate the Commission pledged to address the failures identified in the Draghi report and embarked on a simplification effort. The Digital Omnibus adopted by the Commission in November 2025 takes the shape of two distinct proposed regulations: The Digital Omnibus on AI put forward a series of targeted amendments to the AI Act. A political agreement was reached in May and the Omnibus entered into force on 27 July 2026 . The November Digital Omnibus comes with two additional proposals aligned with the omnibus’ business-friendly agenda, all together they make the 'Digital Package': On 20 January 2026, the Commission has proposed a new cybersecurity package to further strengthen the EU’s cybersecurity resilience and capabilities in the face of these growing threats, including amendments to the NIS2 directive. These measures aim to simplify compliance with EU cybersecurity rules and risk-management requirements for companies operating in the EU. The amendments will simplify jurisdictional rules, streamline the collection of data on ransomware attacks and facilitate the supervision of cross-border entities with ENISA ’s reinforced coordinating role. This will ease compliance for 28,700 companies, including 6,200 micro and small-sized enterprises. The revised Cybersecurity Act also aims to reduce risks in the EU’s ICT supply chain from third-country suppliers with cybersecurity concerns. It sets a trusted ICT supply chain security framework using a…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "📅 Tonight",
+   "kind": "fixtures",
+   "items": [
+    {
+     "type": "note",
+     "text": "Premier League — Leeds v Spurs 13:30, Arsenal v Hull 16:00, Fulham v Newcastle 16:00, Nottingham Forest v Man City 18:30"
+    },
+    {
+     "type": "note",
+     "text": "La Liga — Espanyol v Deportivo 16:15, Osasuna v Athletic 18:30, Valencia v Real Madrid 21:00"
+    },
+    {
+     "type": "note",
+     "text": "Serie A — Cagliari v Frosinone 15:00, Torino v Lecce 15:00, Parma v Bologna 18:00, Roma v Sassuolo 20:45"
+    },
+    {
+     "type": "note",
+     "text": "Bundesliga — Paderborn v Frankfurt 15:30, Leipzig v Augsburg 15:30, Dortmund v Elversberg 15:30, Mainz v Bayern 15:30, Stuttgart v Werder 18:30"
+    },
+    {
+     "type": "note",
+     "text": "Ligue 1 — Auxerre v Paris FC 19:00, PSG v Troyes 21:05"
+    },
+    {
+     "type": "note",
+     "text": "Ekstraklasa — Korona Kielce v Radomiak 12:15, Śląsk v Piast 14:45, Górnik Zabrze v Wieczysta 17:30, Widzew v Pogoń 20:15"
+    },
+    {
+     "type": "note",
+     "text": "NBA — Nuggets v Pacers 23:00, Nets at Hawks 01:30, Knicks at Cavaliers 02:00, Wizards at Thunder 02:00, Magic at Warriors 02:30, Rockets at Suns 03:00, Spurs at Trail Blazers 04:00"
+    }
+   ]
+  },
+  {
+   "name": "🏀 NBA",
+   "kind": "scores",
+   "items": [
+    {
+     "type": "score",
+     "group": null,
+     "home": "Hawks",
+     "away": "Wizards",
+     "home_score": 139,
+     "away_score": 132,
+     "note": "George 33 pts, 7 ast",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Celtics",
+     "away": "Hornets",
+     "home_score": 119,
+     "away_score": 80,
+     "note": "Tatum 34 pts, 8 reb, 9 ast",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Cavaliers",
+     "away": "76ers",
+     "home_score": 119,
+     "away_score": 95,
+     "note": "Mitchell 23 pts, 8 ast",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Mavericks",
+     "away": "Jazz",
+     "home_score": 112,
+     "away_score": 100,
+     "note": "Washington 26 pts",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Thunder",
+     "away": "Grizzlies",
+     "home_score": 128,
+     "away_score": 97,
+     "note": "Mitchell 35 pts",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Raptors",
+     "away": "Bucks",
+     "home_score": 121,
+     "away_score": 107,
+     "note": "Martin 27 pts, Shead 16 ast",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Timberwolves",
+     "away": "Pelicans",
+     "home_score": 115,
+     "away_score": 109,
+     "note": "Dosunmu 26 pts",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Lakers",
+     "away": "Trail Blazers",
+     "home_score": 124,
+     "away_score": 118,
+     "note": "Doncic 53 pts",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Spurs",
+     "away": "Kings",
+     "home_score": 124,
+     "away_score": 109,
+     "note": "Wembanyama 30 pts, 14 reb",
+     "flag": null
+    }
+   ]
+  },
+  {
+   "name": "⚽ Football",
+   "kind": "scores",
+   "items": [
+    {
+     "type": "score",
+     "group": "Premier League",
+     "home": "Everton",
+     "away": "Coventry",
+     "home_score": 3,
+     "away_score": 1,
+     "note": "Barry scored twice (56', 61') and set up Dewsbury-Hall's 81st; Gboho had put Coventry ahead and three VAR calls went against them.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "La Liga",
+     "home": "Sevilla",
+     "away": "Alavés",
+     "home_score": 0,
+     "away_score": 0,
+     "note": "A goalless draw at the Sánchez Pizjuán; Sevilla stay sixth on 18 points.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Serie A",
+     "home": "Venezia",
+     "away": "Udinese",
+     "home_score": 2,
+     "away_score": 1,
+     "note": "Bašić 53', Moreno own goal 57', Kike Pérez 65' with the winner; Udinese stay bottom.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Bundesliga",
+     "home": "Hamburg",
+     "away": "Borussia Mönchengladbach",
+     "home_score": 3,
+     "away_score": 1,
+     "note": "Muheim 11', Scally 44', Nandja 59', Grønbæk 70'; Itakura sent off for Gladbach on 49'.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ligue 1",
+     "home": "Toulouse",
+     "away": "Strasbourg",
+     "home_score": 3,
+     "away_score": 1,
+     "note": "Toulouse climb to 13 points and Strasbourg stay 13th.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ekstraklasa",
+     "home": "Motor Lublin",
+     "away": "Wisła Płock",
+     "home_score": 3,
+     "away_score": 2,
+     "note": "A late collapse from Płock in the Friday opener.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ekstraklasa",
+     "home": "Wisła Kraków",
+     "away": "Cracovia",
+     "home_score": 2,
+     "away_score": 1,
+     "note": "Carbó 9', Hasić 20', Božić 45+2'; Klich sent off in stoppage time as Wisła won the first Kraków derby in four years.",
+     "flag": null
+    }
+   ]
+  },
+  {
+   "name": "📌 Long read",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Robert Richardson answered a film student's email; six years later it is a documentary",
+     "summary": "Jana Hojdová shot 650 hours with the Oscar-winning cinematographer, partly at his Cape Cod home, and the film has its North American premiere at DOC NYC on 14 November.",
+     "matters": null,
+     "url": "https://www.indiewire.com/features/interviews/robert-richardson-white-devil-documentary-jana-hojdova-1235225542/",
+     "source": "indiewire.com",
+     "image": "https://www.indiewire.com/wp-content/uploads/2024/03/Alison-Foreman.png",
+     "body": "Richardson started writing Hojdová back, and a decade later, their correspondence has grown into a friendship and Hojdová’s feature directorial debut, “Robert Richardson: The White Devil .” They’ve also got an ongoing book project, which aims to organize and share even more of the film’s underlying research: an intellectual arsenal backed by the vast archives from Richardson’s house in Massachusetts. “350 pages and we are not done,” Hojdová said, sitting next to Richardson for a Q&A after a private screening of her film at Soho House West Hollywood on October 29. “This is our homework in Los Angeles,” she said. “That we need to finish our book.” Richardson smiled. Hojdová originally approached Richardson in support of her master’s thesis at Prague’s FAMU film school. The daughter of a director and cinematographer herself, she told IndieWire she also grew up watching Richardson’s films with her family in the Czech Republic. Richardson’s first response felt “life-changing” for Hojdová and, by the time she traveled to New Zealand to meet him in 2017 on the production of Baltasar Kormákur’s “Adrift,” she said she thought she really knew the man behind the movies. In person, it became apparent just how much Hojdová still had to ask. “I started to capture everything that he’s doing,” she said. “He’s driving [his] car to the set, his eating, everything.” Watching Richardson work and go about his daily life felt like an obvious film to Hojdová, but Richardson was less convinced. “My life is not interesting,” she recalled him saying. Still, Hojdová kept shooting, and after six months of discussion, Richardson agreed to the project on the condition that its director would be shown, too. At first, that presented a problem for the young filmmaker who, like Richardson, greatly prefers the other side of the camera. “I don’t like my voice, I don’t like watching myself,” she said. “It was like, ‘OK, I will say yes, but maybe I will not really be in there.’” Then, the pandemic brought her and Richardson even closer. In 2020, what began as a short visit to look through photos and records at Richardson’s place in Cape Cod expanded as Hojdová realized just how much material the artist had kept in his basement — and lockdown forced her to extend her stay. The two ultimately wound up living together for months. Four years after first contacting her hero, Hojdová said she knew many of Richardson’s personal stories but had previously lacked the material to put them on-screen. Suddenly, she was surrounded by countless scenes that could go with his memories, and observing…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  }
+ ]
+}
