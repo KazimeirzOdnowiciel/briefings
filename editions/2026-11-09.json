@@ -1,0 +1,1048 @@
+{
+ "schema": 1,
+ "generated": "2026-11-09T08:04:57",
+ "date": "2026-11-09",
+ "greeting": "Good morning — Monday, 9 November 2026.",
+ "title": "Iran says navigation aids in the southern Strait of Hormuz were destroyed overnight, while Trump calls fresh strikes \"highly unlikely\"",
+ "workout": "😴 Rest day — next session Tuesday. Nothing logged in Hevy yet.",
+ "audio": "audio/today.mp3",
+ "read_minutes": 14,
+ "sections": [
+  {
+   "name": "🎯 TL;DR",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Iran says navigation aids in the southern Strait of Hormuz were destroyed overnight, while Trump calls fresh strikes \"highly unlikely\"",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Asian shares rebound after last week's AI rout",
+     "summary": "Nikkei +2.5%, but the dollar is firm on 80% odds of a December Fed hike.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Kraków gunman died in hospital this morning; autopsies begin today and a silent march is set for 20:00 on the Rynek",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🔄 What changed",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "The Kraków attacker died in hospital on Monday morning, so the terrorism investigation now has no living defendant",
+     "summary": "autopsies of all nine dead start today.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "FFXIV's 24-hour maintenance actually begins today at 11:00 CET, not Tuesday: all Worlds are offline until 11:00 CET tomorrow for Patch 7.58",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Last week's AI selloff paused",
+     "summary": "MSCI Asia-Pacific ex-Japan up 0.8% after falling 4.6% the week before.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🔁 Following",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Nvidia: the board opened an independent investigation into CEO Jensen Huang on Sunday over an affair with a woman US officials link to Chinese intelligence",
+     "summary": "a real escalation from last week's export-licence questions.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Anthropic's IPO: the roadshow is now expected next week at $1.25-1.75 trillion, down from as much as $2 trillion, with OpenAI racing to raise $30bn first",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Hormuz: Trump told CNN new attacks are \"highly unlikely\" while talks progress, and Iraq has agreed a shipping lane near Oman",
+     "summary": "the first easing in weeks.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🌍 World",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Iran says no unauthorised vessels crossed the Strait of Hormuz overnight after navigation aids in the south of the waterway were destroyed",
+     "summary": "an IRGC navy official told state media, as Washington and Tehran trade blame for the shipping attacks.",
+     "matters": "Hormuz still carries about a fifth of the world's oil and is nowhere near normal traffic.",
+     "url": "https://www.newsobserver.com/news/nation-world/world/article317990271.html",
+     "source": "newsobserver.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "COP31 opens in Antalya with nearly 200 delegations for 12 days of talks, and Singapore's environment minister says the conference will not deliver upgraded emissions targets",
+     "summary": null,
+     "matters": "the summit is now about implementing the Paris Agreement rather than raising ambition.",
+     "url": "https://www.kansas.com/news/nation-world/world/article317986493.html",
+     "source": "kansas.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "At least 35 people died when a migrant pirogue capsized off Kébémer in northwestern Senegal, with a single survivor found and an unknown number missing",
+     "summary": null,
+     "matters": "the Atlantic route to the Canary Islands is again the deadliest crossing into Europe.",
+     "url": "https://apnews.com/article/23ac42374197523c90216dc48ab6f2ec",
+     "source": "apnews.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "A fire in a high-rise in Taiyuan, in China's Shanxi province, killed 14 people on Sunday afternoon, with 38 taken to hospital and the cause still under investigation",
+     "summary": null,
+     "matters": "it is China's deadliest building fire this year and comes amid a push on ageing high-rise safety.",
+     "url": "https://www.charlotteobserver.com/news/nation-world/world/article317989822.html",
+     "source": "charlotteobserver.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Pope Leo XIV used his first speech in Argentina to tell President Javier Milei that \"the economy must serve the person, not the person the economy\", in a pointed critique of austerity",
+     "summary": null,
+     "matters": "the first papal visit since 1987 puts the Church squarely against Milei's cuts to disability and pensions.",
+     "url": "https://www.pbs.org/newshour/world/pope-arrives-in-argentina-and-tells-milei-that-people-not-the-economy-should-come-first",
+     "source": "pbs.org",
+     "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-08T210448Z_1372412304_RC2XJOAU1LVJ_RTRMADP_3_POPE-LATAM-ARGENTINA-1024x683.jpg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🇵🇱 Polska",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Nie żyje sprawca zamachu w Krakowie",
+     "summary": "24-latek zmarł w poniedziałek rano w szpitalu, gdzie był w stanie krytycznym po strzelaninie z policją; prokuratura zapowiada, że dziś rozpoczną się sekcje zwłok sześciorga ofiar z Rynku i trojga zabitych w Ostrowcu Świętokrzyskim.",
+     "matters": "śledztwo o charakterze terrorystycznym prowadzi siedmiu prokuratorów, a sprawca nie zostanie osądzony.",
+     "url": "https://wiadomosci.onet.pl/krakow/polska-w-zalobie-po-zamachu-w-krakowie-w-poniedzialek-sekcje-zwlok-ofiar-i-wiec/1b50s75",
+     "source": "wiadomosci.onet.pl",
+     "image": null,
+     "body": "NA ŻYWO Polska w żałobie po zamachu w Krakowie. W poniedziałek sekcje zwłok ofiar i wiec solidarności [RELACJA NA ŻYWO] Radosław Opas 9 listopada 2026, 06:53 8296 Trwa żałoba narodowa po tym, jak w sobotę 24-letni napastnik otworzył ogień z samochodu do przypadkowych osób na Rynku Głównym w Krakowie. W ataku zginęło sześć osób, a kilkanaście zostało rannych, w tym dwaj policjanci. W poniedziałek rano policja poinformowała, że w szpitalu zmarł sprawca strzelaniny. Prokuratura planuje dziś rozpocząć sekcje zwłok ofiar ataku, wieczorem ku ich czci na krakowskim Rynku odbędzie się wiec solidarności. Śledź najnowsze informacje w relacji…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Drugi dzień żałoby narodowej",
+     "summary": "w Krakowie potrwa ona do 11 listopada włącznie, w Ratuszu wyłożono księgę kondolencyjną, a prezydent miasta złożył wniosek o honorowe obywatelstwo dla dwóch policjantów, którzy zatrzymali napastnika.",
+     "matters": "o 20:00 z Rynku przejdzie w ciszy marsz pamięci, bez przemówień.",
+     "url": "https://polskieradio24.pl/polska/krakow-upamietni-ofiary-ataku-w-urzedzie-miasta-wylozono-ksiege-kondolencyjna",
+     "source": "polskieradio24.pl",
+     "image": "https://cdn6.polskieradio.pl/cdn/f350eccb-f695-4bd0-9419-be58bcb69ab4/img.jpeg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Tusk: nikt nie zamierza zakazywać Marszu Niepodległości",
+     "summary": "premier nazwał spekulacje dezinformacją i zaapelował do uczestników o powstrzymanie się od agresji, szacunek dla policjantów i rezygnację z kontrmanifestacji 11 listopada.",
+     "matters": "po zamachu rząd chce, by święto przebiegło bez starć.",
+     "url": "https://www.rp.pl/przestepczosc/art45462031-spekulacje-to-dezinformacja-donald-tusk-o-zakazie-marszu-niepodleglosci",
+     "source": "rp.pl",
+     "image": "https://i.gremicdn.pl/image/free/bcfba48ba98512b267f02ba27c60273d/?t=crop:1920:1191:nowe:0:45,resize:fill:2000:1250&ctx=preview",
+     "body": "Donald Tusk zapewnił, że nikt nie zamierza zakazywać Marszu Niepodległości, który ma przejść ulicami Warszawy 11 listopada. Po tragedii w Krakowie premier zaapelował do uczestników o powstrzymanie się od agresji, szacunek wobec policjantów i rezygnację z kontrmanifestacji. Szef rządu zaapelował do uczestników zgromadzenia o odpowiedzialne zachowanie i powstrzymanie się od agresji. Poprosił również o szacunek wobec policjantów zabezpieczających wydarzenie. Zwrócił się także do osób planujących kontrmanifestacje, by z nich zrezygnowały, argumentując, że mogłyby utrudnić służbom utrzymanie porządku i bezpieczeństwa na ulicach stolicy. „W tej smutnej chwili liczę na Waszą odpowiedzialność i głęboką refleksję” – zakończył wpis premier. „Marsz Niepodległości przejdzie!” – zadeklarował Buca. Przekonywał również, że organizatorzy są przygotowani do przeprowadzenia zgromadzenia i zapewnienia porządku przez własną Straż Marszu Niepodległości. Przygotowania służb do obchodów Święta Niepodległości rozpoczęły się jeszcze przed tragedią w Krakowie. 5 listopada w MSWiA odbyła się odprawa z udziałem przedstawicieli policji, straży pożarnej i innych służb. Minister Marcin Kierwiński polecił odpowiednie rozmieszczenie sił i środków, tak, aby zapewnić bezpieczeństwo podczas Marszu Niepodległości i pozostałych wydarzeń 11 listopada. W Warszawie wprowadzono również zakaz noszenia broni 11 listopada oraz zakaz noszenia i używania wyrobów pirotechnicznych. Zgodnie z zapowiedziami władz miasta na Trakcie Królewskim mają pojawić się dodatkowe zapory, a zabezpieczenie wydarzeń będzie wymagało zaangażowania większej liczby funkcjonariuszy. Tegoroczny Marsz Niepodległości odbędzie się pod hasłem „Polak w Polsce gospodarzem”. Udział w nim zapowiedział również prezydent Karol Nawrocki. Społeczeństwo Zamach w Krakowie. Pięć fałszywych narracji, które pojawiły się w internecie Po sobotniej strzelaninie w Krakowie w mediach społecznościowych szybko zaczęły pojawiać się fałszywe informacje, niektóre inicjowane i powielane p... Inaczej wygląda sytuacja w Krakowie, gdzie po sobotnim ataku na Rynku Głównym wciąż nie zapadła decyzja w sprawie obchodów Święta Niepodległości. Wiceprezydent miasta Jan Hoffman powiedział Onetowi, że w urzędzie trwają intensywne rozmowy, ale nie wyobraża sobie, by święto odbyło się w dotychczasowej formie marszu. Jak zaznaczył, uroczystości mogą zostać zmodyfikowane albo całkowicie odwołane, miasto powinno kierować się wskazaniami służb. Ostateczna decyzja należy do wojewody małopolskiego Krzysztofa Klęczara. Stanowisko miasta jest takie, że przy organizacji…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Eskalacja sporu o Trybunał Konstytucyjny",
+     "summary": "nowi sędziowie, wybrani przez Sejm, przejęli kierowanie instytucją, a przed budynkiem TK doszło do protestów; w Lublinie demonstrowało ponad tysiąc osób, a do prokuratury wpłynęło pięć zawiadomień.",
+     "matters": "konflikt o obsadę TK wchodzi w fazę, w której rozstrzygać będą sądy i prokuratura.",
+     "url": "https://www.dziennikwschodni.pl/artykul/393789,ponad-tysiac-lublinian-demonstrowalo-w-obronie-trybunalu-tusk-wypowiedzial-wojne-polakom",
+     "source": "dziennikwschodni.pl",
+     "image": "https://sc.4media.com/data/aqwzxtvn/2026/11/03/in233-33-2000x200-6ae9bde668245.jpg",
+     "body": "- To nie jest szczególnie zorganizowane wydarzenie. Zebraliśmy się, żeby poprzeć naszego prezydenta Karola Nawrockiego. Popatrzcie, jak nas dużo. Pan prezydent na nas liczy. W takim momencie nie możemy zostawić go samego. Nie opuścimy prezydenta. Nie ma takiej opcji. Kto tylko może, niech jedzie potem również do Warszawy! - krzyczał przez mikrofon radny Piotr Popiel z PiS. Lublinianie przed Lubelskim Urzędem Wojewódzkim skandowali: „Karol! Karol!”, „Karol Nawrocki, prezydentem Polski!”, „Naród z prezydentem!”, „Tu jest Polska!”, „Jeszcze Polska nie zginęła!”, „Ręce w górę, pokonamy dyktaturę!”, „Republika!”, ale też „Ruda wrona orła nie pokona”, „Nie bać Tuska!”, „Jeden głos na Tuska, jeden gwóźdź do trumny!”, 11 listopada pogonimy tego dziada!”, „Będziesz siedział!”, „Rząd do dymisji!”, „Do Berlina!”, „Precz z komuną!”, „Czerwona hołota!”, „Zdrajcy!”, „Hańba!”, „Bandyci!”. Spór o Trybunał Konstytucyjny dotyczy obsady sądu, statusu jego sędziów i prawa do kierowania instytucją. I trwa już od ponad dekady. Obecna koalicja rządowa na czele z premierem Donaldem Tuskiem kwestionuje legalność części wcześniejszych nominacji i dąży do zmian w funkcjonowaniu TK. Prezydent Karol Nawrocki i popierające go PiS sprzeciwiają się tym działaniom, uznając je za naruszenie konstytucji. Konflikt zaostrzył się jeszcze po wyborze przez Sejm nowych sędziów TK w marcu 2026 roku, których nominacji nie uznał prezydent Nawrocki. 30 października sędzia Anna Korwin-Piotrowska zarządziła miesięczną przerwę w wykonywaniu czynności służbowych przez dotychczasowego prezesa Bogdana Święczkowskiego i dotychczasowego wiceprezesa Bartłomieja Sochańskiego , kojarzonych z PiS. Korwin-Piotrowska ogłosiła przejęcie kierowania instytucją. Święczkowski i Sochański zakwestionowali skuteczność tej decyzji. Przed siedzibą TK pojawiła się policja i doszło do demonstracji. Prezydent Karol Nawrocki przerwał podróż do Senegalu i wrócił do Warszawy. W nocy, w towarzystwie pierwszego Zbigniewa Kapińskiego , prezesa Sądu Najwyższego, wszedł do siedziby Trybunału Konstytucyjnego. Sędzia Maciej Berek relacjonował, że prezydent Nawrocki wpadł na sędzię Annę Korwin-Piotrowską i przepychał się przez grupę pozostałych sędziów. Przedstawiciele Kancelarii Prezydenta twierdzili natomiast, że to sędziowie naruszyli nietykalność głowy państwa. Premier Donald Tusk przedstawił działania wokół Trybunału jako przywracanie praworządności. Przedstawiciele PiS i otoczenie prezydenta Nawrockiego zarzucili rządzącym próbę bezprawnego przejęcia instytucji, którą nazwali zamachem stanu. Do prokuratury wpłynęło pięć…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "NBP mocno podniósł prognozę inflacji na 2027 rok",
+     "summary": "listopadowa projekcja zakłada średnio 4,2 proc. wobec 2,75 proc. w lipcu, przy stopach pozostawionych na 3,75 proc.",
+     "matters": "powrót do celu 2,5 proc. będzie trudniejszy, niż sądzono jeszcze kilka miesięcy temu.",
+     "url": "https://www.wnp.pl/rynki/gospodarka/inflacja-w-polsce-najnowsza-prognoza-nbp-mniej-optymistyczna,1116362.html",
+     "source": "wnp.pl",
+     "image": "https://pliki.wnp.pl/d/57/79/05/577905_r1_300.jpg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "💰 Money",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "WIG20 4,131.4 · USD/PLN 3.931 (+0.32%) · EUR/PLN 4.389 (-0.26%) · BTC $74,260 (-2.0%) · Brent $96.43 (-1.9%)",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Asian shares steadied after the AI rout: MSCI's Asia-Pacific ex-Japan index rose 0.8% and the Nikkei 2.5%, with Taiwan up 2.5% after its worst week in two decades",
+     "summary": null,
+     "matters": "dip-buyers are back, but the bounce is fragile ahead of tech earnings from CoreWeave, Applied Materials and Cisco.",
+     "url": "https://www.newsobserver.com/news/nation-world/national/article317989193.html",
+     "source": "newsobserver.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "A blowout US payrolls report",
+     "summary": "165,000 jobs added, more than double expectations — pushed the market-implied odds of a December Fed hike to nearly 80%, and Tuesday's CPI print will test that.",
+     "matters": "a hiking Fed is the single biggest headwind for the AI trade and for emerging-market currencies, the złoty included.",
+     "url": "https://www.miamiherald.com/news/nation-world/national/article317990483.html",
+     "source": "miamiherald.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "China's producer prices rose 5.7% year on year in October, the fastest in nearly four and a half years, while consumer inflation cooled to 0.7%",
+     "summary": null,
+     "matters": "expensive energy is being absorbed by factories rather than passed on to weak household demand.",
+     "url": "https://www.charlotteobserver.com/news/nation-world/national/article317989194.html",
+     "source": "charlotteobserver.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Brent fell at Monday's open after Trump said fresh strikes on Iran were \"highly unlikely\" while talks progress; JPMorgan sees the oil market in a surplus of 1.4 million barrels a day in October",
+     "summary": null,
+     "matters": "the war premium is deflating even as tanker attacks continue.",
+     "url": "https://www.heraldsun.com/news/nation-world/national/article317988118.html",
+     "source": "heraldsun.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "💻 AI & Tech",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Nvidia's board opened an independent investigation into CEO Jensen Huang after he acknowledged an affair with a woman US officials say worked for Chinese intelligence",
+     "summary": null,
+     "matters": "it lands on top of questions about H200 export licences and hands a Democratic Congress a subpoena target.",
+     "url": "https://www.news.com.au/breaking-news/nvidia-announces-probe-into-huang-amid-reports-china-spied-on-him/news-story/b2518cab7f91fc04146d1de24f65d690",
+     "source": "news.com.au",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "OpenAI is racing to lock in about $30bn at a valuation above $1.4 trillion before Anthropic's expected mid-November debut, pitching $50bn of annualised revenue",
+     "summary": null,
+     "matters": "the two labs now compete for the same cheques, and Anthropic's ask has already been marked down.",
+     "url": "https://ground.news/article/openai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-reuters_83fdee",
+     "source": "ground.news",
+     "image": null,
+     "body": "Ownership OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors OpenAI is close to finalizing a new funding round that is meant to be a bridge to its 2027 IPO, sources familiar with the matter tell CNBC. Ownership OpenAI valuation odds jump after $30B raise report (OPENAI:Private) Polymarket odds hit 85% for OpenAI to reach $1.25T by…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Anthropic agreed to pay $3.4bn for 1.7 gigawatts of heavy-duty gas-fired generators from OnePWR Solutions, taking over Caterpillar orders",
+     "summary": null,
+     "matters": "AI labs are buying power directly because the grid cannot be built fast enough.",
+     "url": "https://www.aidailyinsights.cn/en/2026-11-09/",
+     "source": "aidailyinsights.cn",
+     "image": null,
+     "body": "From reporting to admission The episode began with reporting about Huang’s private relationship with another business executive. Bloomberg says he had previously characterized the contacts as a normal business relationship. On November 8 local time, he wrote to Nvidia employees admitting infidelity and accepting full responsibility. Nvidia’s board announced an independent inquiry the same day, with Huang pledging support and cooperation. The company subsequently made the employee letter public . Family and professional responsibilities Huang acknowledged that his conduct hurt his wife and children, betrayed their longstanding support and damaged the life they had built together. He also told employees, directors, partners and shareholders that leading Nvidia was the privilege of his life and that he had fallen short of the responsibility accompanying their trust. He pledged to work to regain that trust, accepted personal responsibility and asked the public to respect his family’s privacy . Potential national-security concerns The board disclosed that the reporting also raised potential US national-security concerns. Huang addressed those concerns in his letter, supporting the review and pledging to protect Nvidia and support US national security. The board identified US national and economic security as central to the interests of Nvidia and its shareholders. It said it currently had no reason to believe national security or company secrets had been compromised and that the inquiry would examine all available information . Independent review and continued leadership A committee of independent directors will oversee the investigation with assistance from outside independent counsel, placing the review outside day-to-day executive management. The board expressed continued confidence in Huang and his leadership team and said it would provide updates as appropriate. Huang has pledged full cooperation. Bloomberg reports that he will remain Nvidia’s CEO pending the inquiry’s findings . The founder's significance Nvidia is a major supplier of AI computing infrastructure, and Huang remains directly involved in technology strategy, major customer relationships and management. Its flat organization acts quickly around his decisions, closely connecting his judgment with the company’s execution. Bloomberg reports that Nvidia has no public succession plan or obvious successor. As the company prepares to report earnings later this month, its board must maintain operational continuity while using an independent investigation to address governance questions facing…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Microsoft is winding down its agreement to rent AI compute from Oracle, turning off capacity built on older Nvidia chips; Oracle shares fell about 3%",
+     "summary": null,
+     "matters": "yesterday's accelerators are becoming a stranded asset, and the second-hand compute market is the place to watch.",
+     "url": "https://www.thecodew.com/2026/11/daily-tech-briefing-november-9.html",
+     "source": "thecodew.com",
+     "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJPXyK8Tnh5_aL_equMw6cGiqoSSYchEMmX-B3_0wdU0dgtZaL2nOAS0Txwn-d-W1-ucMaO5D0rGwOnES3gDnboiMwbgzLgfjz9z9XqFzKImJbUqYbI14c4IM4cSBDlfhs6ywhV1UeJfNoKC4rt4qYTCV43mREdBQloD7aK9MGtStsbKvL0ikd4yyeZa02/w640-h336/daily-tech-briefing-header.jpg",
+     "body": "For two years, the story of AI infrastructure was one of accumulation: more chips, more data centers , more power, more contracts. The assumption was that capacity would be scarce indefinitely and that whoever secured it first would win. The news of the past several days complicates that assumption in three distinct ways. First, the power constraint is being internalised. Anthropic has agreed to pay $3.4 billion for 1.7 gigawatts of heavy-duty gas-fired generators , buying commitments from San Antonio-based equipment supplier OnePWR Solutions in late September and taking over Caterpillar generator orders rather than acquiring the supplier. The Financial Times described it as the largest known single purchase of power-generation equipment by an AI lab . Anthropic is not waiting for a utility interconnection; it is buying the ability to generate its own electricity. Second, the contract structure is being renegotiated. Microsoft is winding down an arrangement to rent AI computing from Oracle , declining to renew a 2023 agreement and turning off rented capacity because the hardware — based on older-generation Nvidia chips — no longer fits its specifications. The report, from Bloomberg, is part of a larger reassessment of billions of dollars in cloud partnerships . Oracle shares fell about 3% on the news. Third, the boundaries of the semiconductor stack are being tested — and defended. TSMC officially denied reports that it was preparing to produce 3D DRAM at Nvidia's request, reaffirming that it remains focused on its core foundry business. The denial matters less for what it says about TSMC than for what it reveals about Nvidia: the company's memory needs are acute enough that it reportedly asked its foundry partner to consider entering a market it has never competed in. The connecting thread is that the AI infrastructure buildout is no longer a greenfield expansion. It is a renegotiation of terms — with utilities, with cloud partners, with suppliers — by companies that are discovering that the constraints they face are not the ones they planned for. This briefing examines each development, the commercial and strategic context behind it, and what it signals about the next phase of the AI economy. Executive overview. Anthropic's decision to buy 1.7 GW of gas-fired generators rather than wait for utility interconnection is the clearest sign yet that the AI industry's binding constraint has shifted from compute to electricity. The $3.4 billion price tag — roughly $2 per watt of capacity — is a measure of how much the company is willing to pay to bypass the…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Pentagon signed agreements with OpenAI, Google, Nvidia, Microsoft, AWS, SpaceX and Reflection to run AI on its most classified networks, with Oracle later added and Anthropic excluded",
+     "summary": null,
+     "matters": "Anthropic's safety conditions cost it the largest procurement in the sector.",
+     "url": "https://note.com/nayucchi/n/na8b5253c0c85?hl=en",
+     "source": "note.com",
+     "image": "https://assets.st-note.com/production/uploads/images/333923952/rectangle_large_type_2_391edc40180ab63dfe65c0d6fbb24477.png",
+     "body": "In this article, I will summarize five must-check stories from the latest 24 hours of generative AI news. Today was a day where both the 'power of AI' and 'how to manage that power' saw major developments, ranging from AI entering military classified networks and the leakage of secret information via coding AI, to AI chip export controls and AI company IPOs. On November 6th, the US Department of Defense announced that it had reached an agreement with seven companies—OpenAI, Google, NVIDIA, SpaceX, Microsoft, Amazon Web Services, and Reflection—to use AI on the department's classified networks. Oracle later joined, bringing the total to eight companies. The agreement covers the government's most highly classified network environments (IL6 and IL7) and is intended for 'lawful operational purposes.' The Department of Defense describes this as a step toward transforming the US military into an 'AI-first fighting force.' The department's AI platform, 'GenAI.mil,' has reportedly been used by over 1.3 million personnel in five months, processing tens of millions of prompts and hundreds of thousands of agents. Meanwhile, Anthropic was not included. It is reported that the company was excluded due to conflicts with the Department of Defense over safety conditions regarding surveillance and use in autonomous weapons. It is also reported that OpenAI's contract was later amended to include a condition prohibiting its use for domestic surveillance of US citizens. Key takeaway: AI has finally entered the military's most highly classified networks. Beyond just technological competition, negotiations over 'which company's AI to use and to what extent' are taking place on the front lines of national security. The reason Anthropic alone was left out—the conflict over safety conditions—is a symbol of an era where the 'red lines' of AI companies are being put to the test. A study released on November 5th by security firm Apiiro revealed that the mechanism of Anthropic's coding AI, 'Claude Code,' caused secret information such as passwords and API keys to leak onto public GitHub. When users ask Claude Code to check a database, the suggested commands include secret information from configuration files as-is. If the user selects 'Yes, don't ask again' on the confirmation screen, the command containing the secret information is saved in plain text in the project's local configuration file (.claude/settings.local.json) and subsequently published to GitHub. Apiiro examined 104,185 such files on GitHub and found 1,122 containing actual secret information. Including history,…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎮 Games & Dev",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Dalamud 15.0.3.9 · .NET 10.0.14 · game build 2026.10.16 · last changelog 20 Oct",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "All Worlds go down today at 11:00 CET for 24 hours to deploy Patch 7.58 and same-region player matching on the NA and EU data centres",
+     "summary": "the launcher will refuse to start until roughly 08:00 CET on 10 November.",
+     "matters": "Data Center Travel stops 30 minutes before, every character visiting another World is sent home, and duty recorder files from before the patch will not replay.",
+     "url": "https://na.finalfantasyxiv.com/lodestone/news/detail/319982c490718c2f355b87bbb1e61fb455c7d286",
+     "source": "na.finalfantasyxiv.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "After 7.58, Duty Finder, Party Finder, ranked Crystalline Conflict, cross-world linkshells and fellowships all match across every logical DC in a region, and DC Travel inside NA and EU is effectively replaced by World Visit",
+     "summary": null,
+     "matters": "duplicate names may get a number appended, and cross-world linkshells merge into one database per physical DC.",
+     "url": "https://na.finalfantasyxiv.com/lodestone/topics/detail/5c3b0f9e2fa2295dfc32c19e02e57e4e0614a09c",
+     "source": "na.finalfantasyxiv.com",
+     "image": "https://img.finalfantasyxiv.com/t/5c3b0f9e2fa2295dfc32c19e02e57e4e0614a09c.png",
+     "body": "With the release of Patch 7.58, scheduled for Tuesday, 10 November 2026 , same-region player matching ─previously introduced to the Japan data center─will be implemented on the North American and European data centers. Matchmaking and party recruitment have thus far been limited to players on the same logical data center. However, with the introduction of same-region player matching, the scope will expand to cover all those on the same physical data center. This means that all players within the same physical data center will be eligible for matchmaking and party recruitment, regardless of their current world. Further information can be found below on the purpose and impact of same-region player matching. * The maintenance accompanying the release of Patch 7.58 is scheduled to last 24 hours. The maintenance schedule will be announced in the News once finalised. To better understand same-region player matching, it is useful to start with the structure of FFXIV's data centers. * See the current data center structure here . Physical Data Centers (Physical DC) The physical DCs (represented in blue on the diagram) are located in four regions : Japan, North America, Europe, and Oceania. The closer your place of residence is to the physical DC, the less likely you are to experience network lag; as such, players typically choose the physical DC located closest to their residence. Logical Data Centers (Logical DC) Each physical DC contains one to four logical DCs (represented in green on the diagram). Worlds Each logical DC contains five to eight Worlds (represented in grey on the diagram). Once same-region player matching is introduced in Patch 7.58, scheduled for Tuesday, 10 November 2026 , features that were restricted to the same logical DC will become usable across all logical DCs in the same physical DC (the same region). There will be no change to features only accessible on your Home World, or those that already operated across the same physical DC. Going forward, the rules for what can and cannot be carried out on a world in another logical DC will be the same as those currently in place for the World Visit system . View more information on the World Visit system here . The Data Center Travel system will no longer allow travel between logical DCs within North America, nor between logical DCs within Europe. However, it will still allow travel from the North American and European DCs to the Oceania DC. As cross-world linkshells, PvP Teams and Fellowships will be available regardless of current logical DC, they will be consolidated into a single database.…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": ".NET 8 and .NET 9 both reach end of support tomorrow, 10 November 2026",
+     "summary": "patches stop entirely after that date.",
+     "matters": "anything still targeting net8.0 needs to move to .NET 10, which is what Dalamud API 15 already requires.",
+     "url": "https://devblogs.microsoft.com/dotnet/tag/dotnet-10/",
+     "source": "devblogs.microsoft.com",
+     "image": "https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2021/11/me-96x96.jpg",
+     "body": "Post comments count 0 Post likes count 1 .NET October 2026 Out-of-Band Security Updates Rahul Bhandari (MSFT) Out-of-band security updates for .NET address the Brotli decoder vulnerability and tarball ownership…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": ".NET 11 ships as an STS release on 10 November alongside that cut-off, with C# 15 and F# 11 as the default language versions in the RC builds",
+     "summary": null,
+     "matters": "a new major runtime the same week as an EOL is exactly when CI images quietly break.",
+     "url": "https://github.com/dotnet/core/blob/main/releases.md",
+     "source": "github.com",
+     "image": null,
+     "body": "The .NET team releases new major versions of .NET annually, each November. Releases are either Long Term Support (LTS) or Standard Term Support (STS), and transition from full support through to end-of-life on a defined schedule, per .NET release policies . .NET releases are supported by Microsoft on multiple operating systems and hardware architectures. All .NET versions can be downloaded from the .NET Website , Linux Package Managers , and the Microsoft Artifact Registry…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎵 Music",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "U2's \"Carnaval De Luz\" is out",
+     "summary": "their first album since 2017, produced by Jacknife Lee, and its closing track \"Torn\" is a duet with Dolly Parton that turned out to be her last recorded vocal.",
+     "matters": "an accidental farewell sits at the end of the year's biggest rock comeback.",
+     "url": "https://www.madisoncourier.com/ap/news/what-to-stream-u2-misty-green-the-chosen-and-randy-travis/article_77b14fe7-6b3f-5084-bf41-592e1d0795f3.html",
+     "source": "madisoncourier.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Kings of Leon released their tenth album \"O My Beloved\" on 6 November and confirmed two nights at The O2 on 2 and 3 July 2027, their first London shows since Hyde Park in 2024",
+     "summary": null,
+     "matters": "the shows anchor the venue's 20th-birthday series and are their only UK arena dates.",
+     "url": "https://www.theo2.co.uk/events/detail/kings-of-leon-2027",
+     "source": "theo2.co.uk",
+     "image": "https://www.theo2.co.uk/assets/img/Kings-of-Leon-Roll-The-O2-Digital-Channels-1920-x-1080-14e2943293.jpg",
+     "body": "Date 2 July - 3 July 2027 Venue The O2 arena Availability On sale now You will be directed to AXS.com to purchase your tickets. AXS is the official ticketing partner of The O2. Friday 2 July 2027 Doors: 6:30 PM Buy tickets + Add to calendar Saturday 3 July 2027 Doors: 6:30 PM Buy tickets + Add to calendar Event Details Following the announcement of their 10th studio album ‘O My Beloved’, scheduled for release this November 6th, Kings of Leon are delighted to announce their return to London’s The O2 on Friday 2 and Saturday 3 July 2027. The shows will be part of The O2’s 20th birthday series of concerts and will be Kings of Leon’s first London shows since their record breaking fifth night at Hyde Park back in 2024. For this show, if you’ve purchased your tickets from theo2.co.uk or AXS.com you’ll need to display your ticket on your phone via The O2 app. Ticket purchasers will receive an email with news and information on AXS Mobile ID tickets and how you can download your tickets to your phone. If you’ve bought your tickets for this show via AXS then you can re-sell your tickets with AXS Official Resale which gives you a safe, simple, and fair way to buy and sell tickets. For more information on re-selling tickets from AXS and other ticket agents click here . Please note: If you purchase resale tickets for this show through any website other than via theo2.co.uk or axs.com, your tickets may not be valid and access to the venue could be refused. To book accessible tickets for The O2 arena and help us provide the best possible service, we work with Nimbus Disability using the Access Card, a universal way of communicating access requirements for events at The O2 arena. Click Here for more information. We recommend signing up for alerts. That way you’ll be the first to hear about future ticket…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Jamiroquai announced a 2027 UK and European arena tour with three nights at The O2, ahead of a ninth studio album still without a date",
+     "summary": null,
+     "matters": "a heritage funk act booking a residency is the touring business's current template.",
+     "url": "https://article.wn.com/view/2026/11/06/Jamiroquai_announce_2027_European_arena_tour_including_three/",
+     "source": "article.wn.com",
+     "image": null,
+     "body": "Ask about this article Answer for your question of the article will be displayed here…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "NCT Dream released \"DREAM AFTER DREAM\" today, a ten-track sixth album marking their tenth anniversary and their first full-length as a six-piece after Mark's departure",
+     "summary": null,
+     "matters": "the comeback tests whether the group holds its scale after a lineup change.",
+     "url": "https://www.allkpop.com/article/2026/11/nct-dream-open-10th-anniversary-with-6th-full-album-dream-after-dream-today",
+     "source": "allkpop.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Kacey Musgraves announced \"Middle of Nowhere Vol. 2: Tex-Mex Tapes\" for 15 January 2027",
+     "summary": "16 tracks, 11 new, four sung entirely in Spanish, with two songs out now.",
+     "matters": "a companion record rather than a sequel, and the most explicit Tejano turn of her career.",
+     "url": "https://ground.news/article/kacey-musgraves-to-release-new-16-song-album-middle-of-nowhere-vol-2-tex-mex-tapes",
+     "source": "ground.news",
+     "image": null,
+     "body": "Ownership Kacey Musgraves Is Holding onto Her Texas State of Mind in New ‘Middle of Nowhere’ Deluxe Tracks Kacey Musgraves has previewed 'Middle of Nowhere Vol. 2: Tex Mex Tapes' with two new tracks, \"Weekend in Texas\" and \"Mi Tosoro\" Ownership ‘Weekend in Texas’ Lyrics & Meaning: Kacey Musgraves Drops First Single from New ‘Middle of Nowhere’ Companion Album – Listen Now! Kacey Musgraves has dropped her new single “Weekend in Texas” from her upcoming album Middle of Nowhere Vol 2: Tex […] The post ‘Weekend in Texas’ Lyrics & Meaning: Kacey Musgraves Drops First Single from New ‘Middle of Nowhere’ Companion Album – Listen Now! appeared first on Just Jared - Celebrity News, Entertainment News & Photos. Ownership Kacey Musgraves Announces ‘Middle of Nowhere Vol. 2: Tex Mex Tapes’: Here’s When It Arrives Kacey Musgraves has announced 'Middle of Nowhere Vol. 2: Tex Mex Tapes' and its release date. Ownership Kacey Musgraves is taking us back to the 'Middle of Nowhere' with new album Just six months after the release of her 'Middle of Nowhere' record, the Texas country star says a second part of it is on the…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎬 Culture",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "\"Godzilla Minus Zero\" opened to $31.6m in North America, a record debut for a foreign-language film, nearly tripling \"Minus One\" and beating \"The Cat in the Hat\" ($20.5m)",
+     "summary": null,
+     "matters": "Takashi Yamazaki has turned a subtitled kaiju film into a franchise engine.",
+     "url": "https://www.cp24.com/news/entertainment/2026/11/09/godzilla-minus-zero-stomps-to-a-record-setting-us316-debut-clobbering-the-cat-in-the-hat/",
+     "source": "cp24.com",
+     "image": null,
+     "body": "NEW YORK — “Godzilla Minus Zero” stomped into movie theaters with a chart-topping US$31.6 million over the weekend, scoring a record debut for a foreign-language film at the North American box office. Takashi Yamazaki‘s sequel to 2023’s Oscar-winning “Godzilla Minus One” easily thrashed Warner Bros.’ animated “The Cat in the Hat” movie. That film, featuring the voice of Bill Hader, opened with $20.5 million, according to studio estimates Sunday, plus $10 million overseas. While Godzilla recently celebrated his 72nd birthday, Yamazaki has revived one of the longest running franchises in movies by bringing the series back to its Japanese roots. The film, produced by Toho and distributed in North America by GKids, is set in post-Second World War Japan. No live-action foreign language film has had a bigger opening weekend, unless you count 2004’s “Passion of the Christ,” which opened with $83.8 million despite its largely Aramaic dialogue. Last year, the anime “Demon Slayer: Infinity Castle” debuted with $70.6 million. But “Godzilla Minus Zero” bested the mark for live-action previously held by 2004’s “Hero” (a $17.9 million launch) and added to the trend of international, non-English productions drawing American audiences to cinemas. The weekend also saw the widest North American release for an Indian film. “Ramayana: Rise of a Legend, is a Hindi-language epic of Indian mythology that, as part one of two, is the most expensive Indian film ever made. Distributed by Sony Pictures in North America, it launched with $8.7 million domestically and $32 million in India. “Godzilla Minus Zero” and “Ramayana” were both given global releases, debuting in their home countries at the same time as they reached American audiences. In Japan, “Godzilla Minus Zero” grossed about $17 million over the weekend. “Godzilla Minus One,” which won the Oscar for best visual effects, was the highest-grossing Japanese live-action film ever in U.S. and Canada despite a modest budget under $15 million. “Godzilla Minus Zero,” carrying a budget of less than $20 million, is sure to blow past its predecessor’s record haul of $57.1 million. Since first premiering last month at the New York Film Festival, the film has scored well with critics (90 per cent fresh on Rotten Tomatoes) and audiences (an “A” CinemaScore). “Godzilla” and “Ramayana” were each filmed for IMAX, with Yamazaki’s film receiving an early IMAX-only release on Tuesday. Both benefited greatly from large-format screens. “Godzilla Minus Zero” generated $21.3 million globally, or 34 per cent of its box-office take, from IMAX.…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Amazon is splitting The Rings of Power season three into three drops: four episodes on 11 November, two on the 18th and the last two on the 25th",
+     "summary": null,
+     "matters": "the whole season lands before December, and the rollout tests whether weekly release still beats a binge.",
+     "url": "https://readdork.com/newsroom",
+     "source": "readdork.com",
+     "image": "https://radio.readdork.com/art/dork-radio-300.jpg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "\"Avengers: Doomsday\" is tracking to pass $1bn worldwide before release, with a Korea promotional visit confirmed",
+     "summary": null,
+     "matters": "Marvel's next bet is being priced as a certainty, which is exactly when the downside gets expensive.",
+     "url": "http://news.sbs.co.kr/english/newsSection.do?pageIdx=1&sectionType=14&pageDate=20261109",
+     "source": "news.sbs.co.kr",
+     "image": "https://img.sbs.co.kr/news/flag/kr.png",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "A24's Elizabeth Holmes documentary \"You Can See Everything\" passed $80m in North America in four weekends, the second-highest grossing non-music documentary ever there",
+     "summary": null,
+     "matters": "a nearly three-hour doc is now outperforming most studio releases on a 23% weekly decline.",
+     "url": "https://variety.com/2026/film/box-office/you-can-see-everything-second-highest-grossing-documentary-north-america-box-office-1236942385/",
+     "source": "variety.com",
+     "image": "https://variety.com/wp-content/uploads/2026/09/Screenshot-2026-09-06-at-7.57.52-PM.webp",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Awkwafina turns cook in \"Awkwafina: The Unlikely Cook\", an Apple TV series premiering Friday that follows her from novice to opening her own restaurant",
+     "summary": null,
+     "matters": "the streamers' next unscripted bet is celebrity competence, not celebrity gossip.",
+     "url": "https://www.wvnews.com/newsfeed/entertainment/ap-entertainment-summarybrief-at-12-03-a-m-est/article_aea8011b-e707-58b2-b870-3d1a68ec3c38.html",
+     "source": "wvnews.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🏛️ Brussels",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "The Commission issued preliminary DSA findings that TikTok breached the rules through the \"rabbit hole\" effect of its For You feed, with a fine of up to 6% of global turnover on the table",
+     "summary": null,
+     "matters": "Brussels wants viewing time dropped as a recommendation signal — if you ship a recommender into the EU, that is now the benchmark.",
+     "url": "https://euperspectives.eu/2026/11/brussels-targets-tiktok-rabbit-holes/",
+     "source": "euperspectives.eu",
+     "image": "https://euperspectives.eu/app/uploads/2026/11/solen-feyissa-1s1w1c4-vya-unsplash-648x432.jpg",
+     "body": "Watch a TikTok video about diet or sadness, and the app may keep showing you more. Brussels says such repeated recommendations can draw users into harmful content and put their mental health at risk. Now EU regulators are challenging TikTok’s ‘For You’ feed, with a potential fine of up to six per cent of global annual turnover. The European Commission shared on Friday preliminary findings that TikTok breached the Digital Services Act (DSA) through the so-called rabbit hole effect of its recommendation system. Regulators say the platform has neither properly assessed the risks nor done enough to reduce them. A ‘rabbit hole’ is an online trail that becomes difficult to leave. In this case, watch one video about weight loss, and the algorithm recommends another, then another. The expression comes from Alice’s Adventures in Wonderland, where Alice follows a white rabbit underground and ends up in a strange world. “Every time a user scrolls or likes a video on TikTok, the algorithm serves more of the same,” said Henna Virkkunen, Executive Vice-President for Tech Sovereignty, Security and Democracy. “Today’s preliminary findings show again that TikTok needs to step up its efforts to protect users’ well-being, including those of minors,” she added. The Commission warns that repeated exposure to videos about sadness, isolation and body image may contribute to anxiety, low self-esteem and worsening eating disorders. Minors and vulnerable adults are particularly at risk. TikTok’s ‘For You’ feed learns from what users watch and like. But the algorithm can mistake attention for approval. Someone may watch an upsetting video out of concern or curiosity without wanting to see similar clips. TikTok has tools to diversify recommendations and let people reject unwanted videos. However, the Commission considers those safeguards insufficient. Its preliminary findings suggest the ‘not interested’ button may do little to change a feed because of the system. Brussels wants the platform to rely more on those preferences, stop using viewing time as a recommendation signal, make controls easier to use and test its algorithm regularly. In October, Australia introduced a bill to pave the way for social media users to choose between an algorithmically personalised feed and posts from accounts they follow. It is called ‘My Feed, My Way’ and aims to give users more control over recommendations. TikTok is not alone. In July, Brussels preliminarily found Meta in breach of the DSA over potentially addictive features on Facebook and Instagram. Other investigations cover Shein’s products…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "New AI Act prohibitions on generating or manipulating non-consensual intimate material and child sexual abuse material apply from 2 December 2026, four months after general enforcement powers went live on 2 August",
+     "summary": null,
+     "matters": "any image or video generation feature needs a documented abuse path before December, not after.",
+     "url": "https://ai-act-service-desk.ec.europa.eu/en/faq",
+     "source": "ai-act-service-desk.ec.europa.eu",
+     "image": null,
+     "body": "The AI Office, the European Data Protection Supervisor (EDPS) and the national competent authorities of the Member States are responsible for supervising and enforcing the AI Act. Market surveillance authorities supervise and enforce compliance with the rules for AI systems, including prohibitions and rules for high-risk AI. The EDPS acts as the designated market surveillance authority and notified body specifically responsible for supervising, monitoring, and enforcing compliance for AI systems put into service or used by European Union institutions, bodies, offices, and agencies. The Scientific Panel supports enforcement by supplying independent scientific and technical expertise. Enforcement is aimed at operators subject to the AI Act, including in particular providers and deployers of AI systems , as well as providers of general-purpose AI models. Some enforcement powers of the AI Office and the authorities of the Member States will start to apply on 2 August 2026 . From that date, the provisions on prohibited AI practices, transparency requirements for certain AI systems, and the rules for general-purpose AI (‘GPAI’) models will be enforceable. However, for certain provisions of the AI Act, enforcement powers will start to apply only when those provisions themselves become applicable. In particular: The term ‘AI agent’ is often used inconsistently in public debate, due in part to a blurry and still evolving demarcation between AI agents and other kinds of AI. Nevertheless, there is broad agreement that an AI agent must have the ability to receive and process input from their environment, and execute actions based on this processing that may interact with or affect their environment (e.g., issuing function calls). The term ‘Agentic AI’ is sometimes used to describe more sophisticated configurations that integrate multiple AI agents. Nevertheless, the precise interrelation between these two terms is still evolving. Typically , an AI agent will contain at least a general-purpose AI (GPAI) model, and constitute an AI system as it will usually have some form of interface, which is considered a system component (recital 97 AI Act). A more precise statement than ‘typically’ is difficult to make as the term AI agent is not legally defined and is used colloquially for different kinds of artefacts. Thus, while AI agents are not a separate category of AI under the AI Act, the definitions of an AI system in Article 3(1) AI Act and of a GPAI model in Article 3(63) AI Act are sufficient to cover AI agents. This means that the rules applicable to AI systems and…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Trump's promised Section 301 retaliation over EU digital fines never became a formal investigation",
+     "summary": "the Congressional Research Service's 2 November list of six open 301 probes contains none targeting EU digital rules.",
+     "matters": "DMA and DSA enforcement is running without the trade war that was supposed to derail it.",
+     "url": "https://euperspectives.eu/2026/11/trump-vowed-to-punish-brussels-over-google-fine-his-probe-never-started/",
+     "source": "euperspectives.eu",
+     "image": null,
+     "body": "Republicans in Congress spent two years branding Europe’s digital rules as censorship. From January, their main platform passes to a Democrat who defends them. Yet the tools that can hurt Brussels, from tariffs to visa bans, stay with the president. In September 2025, Nigel Farage sat before the US House Judiciary Committee as a witness against Europe’s online rules. Its Republican chairman, Jim Jordan, had called the hearing to scrutinise the EU’s Digital Services Act (DSA). Jamie Raskin, the committee’s senior Democrat, did not hide his contempt for the guest. He called Mr Farage a “far-right, pro-Putin politician”. In January, Mr Raskin is poised to take the gavel . Democrats won both chambers of Congress on 3 November. For Brussels, the change removes its loudest critic in Washington. It does not remove the threat. Under Mr Jordan, the committee made the DSA its cause. In July 2025, it issued an interim report calling the law a tool of global censorship. A second report followed in February. Brussels dismissed the charges. “Pure nonsense. Completely unfounded,” said Thomas Regnier, the European Commission’s spokesperson for digital affairs. Later that month, the State Department barred five Europeans from entering the US. Among them was Thierry Breton, the former internal market commissioner. US officials called him a “mastermind” of the DSA. Mr Breton compared the ban to McCarthy’s witch hunts. Mr Raskin sees the law differently. In March, he told European lawmakers that American criticism of the DSA was politically driven, MLex reported . His staff had already published a point-by-point rebuttal of the Republican report. As chairman, he plans to investigate presidential pardons and foreign payments . Europe is not on his list. Congress, however, never held the sharpest tool. Under Section 301 of the Trade Act of 1974, the Office of the US Trade Representative (USTR) can investigate foreign practices it deems unfair. It can then impose tariffs without asking lawmakers. Since the Supreme Court struck down his emergency tariffs in February, US President Donald Trump has leaned on it heavily. In July, the Commission fined Google €890m for breaching the Digital Markets Act (DMA). The next day, Mr Trump announced an immediate Section 301 investigation, putting fresh strain on the EU–US trade deal . America, he wrote on Truth Social, is not a “PIGGYBANK” for Europe. Jamieson Greer, the US trade representative, demanded a pause in enforcement. He argued that the fines on Google alone exceed two per cent of the EU budget. “A real dialogue can only take…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "A draft implementing regulation under Articles 75c and 75d of the AI Act is out for feedback, setting the procedure the AI Office will follow before adopting non-compliance decisions",
+     "summary": null,
+     "matters": "it borrows DMA and competition-law process, so the first AI Act cases will be fought on procedure as much as substance.",
+     "url": "https://ec.europa.eu/info/law/better-regulation/api/download/090166e535b73093",
+     "source": "ec.europa.eu",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "📅 Tonight",
+   "kind": "fixtures",
+   "items": [
+    {
+     "type": "fixture",
+     "text": "NBA — Lakers at Hawks, 01:00"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Cavaliers at Hornets, 01:00"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Wizards at Pistons, 01:00"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Grizzlies at Raptors, 01:30"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Pacers at Mavericks, 02:00"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Nuggets at Rockets, 02:30"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Spurs at Suns, 03:00"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Pelicans at Warriors, 04:00"
+    }
+   ]
+  },
+  {
+   "name": "🏀 NBA",
+   "kind": "scores",
+   "items": [
+    {
+     "type": "note",
+     "text": "76ers 127 - 121 Bulls — Jaylen Brown 29 pts, 7 reb; Maxey 27 and LeBron 22 as Chicago lost a seventh straight"
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Lakers",
+     "away": "Pistons",
+     "home_score": 121,
+     "away_score": 116,
+     "note": "Reaves 43 pts, a 26-point lead cut to two before he sealed it from the line",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Timberwolves",
+     "away": "Jazz",
+     "home_score": 115,
+     "away_score": 100,
+     "note": "Dosunmu 26 pts, LaMelo Ball 24; Peterson 26 in defeat",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Mavericks",
+     "away": "Nets",
+     "home_score": 130,
+     "away_score": 93,
+     "note": "Flagg 25 pts and a career-high 12 ast, Irving 21",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Celtics",
+     "away": "Bucks",
+     "home_score": 117,
+     "away_score": 97,
+     "note": "Paul George 27 pts, Tatum 21; Boston 66-47 across the middle two quarters",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Clippers",
+     "away": "Pelicans",
+     "home_score": 139,
+     "away_score": 123,
+     "note": "Garland 24 pts, 10 ast, snapping a seven-game skid",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Heat",
+     "away": "Kings",
+     "home_score": 114,
+     "away_score": 108,
+     "note": "Giannis 29 pts, 14 reb; Acuff 32 in a losing cause",
+     "flag": null
+    }
+   ]
+  },
+  {
+   "name": "⚽ Football",
+   "kind": "scores",
+   "items": [
+    {
+     "type": "score",
+     "group": "Premier League",
+     "home": "Brighton",
+     "away": "Brentford",
+     "home_score": 2,
+     "away_score": 0,
+     "note": "Gómez 15', Gross 42' pen; Thiago sent off",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Premier League",
+     "home": "Crystal Palace",
+     "away": "Liverpool",
+     "home_score": 1,
+     "away_score": 3,
+     "note": "Mac Allister 40', Wirtz 54', Isak 89'; Nketiah 90+5' pen",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Premier League",
+     "home": "Ipswich",
+     "away": "Bournemouth",
+     "home_score": 1,
+     "away_score": 2,
+     "note": "Evanilson 5', Davis 46' og; Clarke 73' pen, an eighth straight win for Bournemouth",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Premier League",
+     "home": "Manchester United",
+     "away": "Aston Villa",
+     "home_score": 4,
+     "away_score": 4,
+     "note": "Dorgu 90+6' rescued a point from 4-2 down; United still winless in eight",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Premier League",
+     "home": "Sunderland",
+     "away": "Chelsea",
+     "home_score": 1,
+     "away_score": 0,
+     "note": "Le Fee 36' pen after Brobbey won it",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "La Liga",
+     "home": "Elche",
+     "away": "Real Betis",
+     "home_score": 0,
+     "away_score": 2,
+     "note": "Riquelme and Bartra",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "La Liga",
+     "home": "Real Sociedad",
+     "away": "Rayo Vallecano",
+     "home_score": 1,
+     "away_score": 0,
+     "note": "a single goal settles it",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "La Liga",
+     "home": "Celta",
+     "away": "Levante",
+     "home_score": 0,
+     "away_score": 0,
+     "note": "goalless at Balaídos",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "La Liga",
+     "home": "Villarreal",
+     "away": "Getafe",
+     "home_score": 2,
+     "away_score": 0,
+     "note": "Villarreal up to eighth",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "La Liga",
+     "home": "Atlético Madrid",
+     "away": "Barcelona",
+     "home_score": 1,
+     "away_score": 2,
+     "note": "Giuliano 9' put Atlético ahead, Fermín López scored twice to keep Barça three clear",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Serie A",
+     "home": "Napoli",
+     "away": "Lazio",
+     "home_score": 1,
+     "away_score": 1,
+     "note": "Frattesi 28', Pedraza 48' og",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Serie A",
+     "home": "Genoa",
+     "away": "AC Milan",
+     "home_score": 1,
+     "away_score": 2,
+     "note": "Cissè 13', Pulisic 19'; Ellertsson 88'",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Serie A",
+     "home": "Monza",
+     "away": "Atalanta",
+     "home_score": 0,
+     "away_score": 1,
+     "note": "Krstović 49'",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Serie A",
+     "home": "Inter",
+     "away": "Como",
+     "home_score": 2,
+     "away_score": 0,
+     "note": "Esposito 12', Thurm 19'",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Serie A",
+     "home": "Fiorentina",
+     "away": "Juventus",
+     "home_score": 2,
+     "away_score": 2,
+     "note": "honours even in the late game",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Bundesliga",
+     "home": "Köln",
+     "away": "Bayer Leverkusen",
+     "home_score": 1,
+     "away_score": 2,
+     "note": "Leverkusen edge it away",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Bundesliga",
+     "home": "Freiburg",
+     "away": "Union Berlin",
+     "home_score": 2,
+     "away_score": 0,
+     "note": "comfortable at home",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Bundesliga",
+     "home": "Hoffenheim",
+     "away": "Schalke",
+     "home_score": 2,
+     "away_score": 1,
+     "note": "Hoffenheim take the three points",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ligue 1",
+     "home": "Rennes",
+     "away": "Lille",
+     "home_score": 1,
+     "away_score": 2,
+     "note": "Lille come from behind",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ligue 1",
+     "home": "Angers",
+     "away": "Nice",
+     "home_score": 0,
+     "away_score": 2,
+     "note": "two away goals",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ligue 1",
+     "home": "Brest",
+     "away": "Lyon",
+     "home_score": 2,
+     "away_score": 0,
+     "note": "Lyon beaten in Brittany",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ligue 1",
+     "home": "Le Havre",
+     "away": "Lorient",
+     "home_score": 0,
+     "away_score": 2,
+     "note": "Lorient win on the road",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ligue 1",
+     "home": "Le Mans",
+     "away": "Monaco",
+     "home_score": 1,
+     "away_score": 1,
+     "note": "a point each",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ligue 1",
+     "home": "Lens",
+     "away": "Marseille",
+     "home_score": 1,
+     "away_score": 2,
+     "note": "Marseille take the late one",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ekstraklasa",
+     "home": "Jagiellonia",
+     "away": "GKS Katowice",
+     "home_score": 1,
+     "away_score": 0,
+     "note": "rezerwowy rozstrzygnął mecz",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ekstraklasa",
+     "home": "Legia Warszawa",
+     "away": "Raków Częstochowa",
+     "home_score": 2,
+     "away_score": 4,
+     "note": "Chodyna 56', Biczachczjan 63' dla Legii; Makuch 21', Otieno 58', Kwiatkowski 61' i 72'",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ekstraklasa",
+     "home": "Lech Poznań",
+     "away": "Zagłębie Lubin",
+     "home_score": 2,
+     "away_score": 2,
+     "note": "dublet Marcela Reguły uratował punkt Kolejorzowi",
+     "flag": null
+    }
+   ]
+  },
+  {
+   "name": "📌 Long read",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "note",
+     "text": "The Guardian's long read asks what happens to the American postliberal right now that its model has fallen: for a decade Viktor Orbán's Hungary was the pilgrimage destination for pro-Trump thinkers, and the piece follows what the movement does when the showcase collapses. Roughly half an hour, and a useful frame for reading last week's midterms. https://audio.nrc.nl/episode/184937914"
+    }
+   ]
+  }
+ ]
+}
