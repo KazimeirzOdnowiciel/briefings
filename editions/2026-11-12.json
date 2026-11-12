@@ -1,0 +1,870 @@
+{
+ "schema": 1,
+ "generated": "2026-11-12T08:04:22",
+ "date": "2026-11-12",
+ "greeting": "Good morning — Thursday, 12 November 2026.",
+ "title": "Russia and Ukraine agree a prisoner exchange in Abu Dhabi while both capitals trade fire and Kushner flies to Moscow",
+ "workout": "😴 Rest day — next session Friday. Nothing logged in Hevy yet.",
+ "audio": "audio/today.mp3",
+ "read_minutes": 14,
+ "sections": [
+  {
+   "name": "🎯 TL;DR",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Russia and Ukraine agree a prisoner exchange in Abu Dhabi while both capitals trade fire and Kushner flies to Moscow",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Nvidia's board weighs removing Jensen Huang; the stock lost 8.6% after the bell",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Pentagon gives Poland a positive recommendation on Tomahawks",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🔄 What changed",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "The Abu Dhabi talks ended with a prisoner-swap deal and nothing on territory",
+     "summary": "and drones hit both capitals overnight.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Poland's Tomahawk request moved from rumour to a Pentagon recommendation, now waiting on Congress",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Digital Fairness Act picked up its first organised industry opposition within hours of presentation",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🔁 Following",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Jensen Huang: the board met late Wednesday, no decision announced, earnings on 17 November",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Kraków attack probe: prosecutors are examining a Russian angle and four locked phones",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Anthropic IPO: roadshow live at $70-78 a share, pricing 18 November, Nasdaq ticker ANT",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🌍 World",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Russia and Ukraine agree prisoner exchange as capitals exchange fire",
+     "summary": "two days of US-brokered talks in Abu Dhabi ended with a deal in principle on POWs and numbers to be fixed Thursday, while Kushner and Witkoff head to Moscow and Kyiv took drone hits overnight.",
+     "matters": "the first negotiations in nine months produced one deliverable and no movement on territory.",
+     "url": "https://theprint.in/world/russia-ukraine-capitals-exchange-fire-as-peace-talks-conclude-and-us-envoys-plan-to-meet-putin/3096596/",
+     "source": "theprint.in",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Congo's Ebola outbreak still out of control, MSF says",
+     "summary": "six months in, confirmed cases have passed 11,000 and the charity reports untrained staff, ambulances without fuel and transmission rife inside hospitals.",
+     "matters": "the second-worst outbreak on record has no approved vaccine for the Bundibugyo strain.",
+     "url": "https://www.charlotteobserver.com/news/nation-world/world/article318041444.html",
+     "source": "charlotteobserver.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Xi says Taiwan reunification \"cannot be stopped\"",
+     "summary": "speaking on the 160th birthday of Sun Yat-sen, the Chinese president called reunification an \"unwavering historical mission\" and pledged to do it peacefully, without mentioning force.",
+     "matters": "a softer formulation that still leaves the timeline open.",
+     "url": "https://www.kentucky.com/news/nation-world/world/article318041229.html",
+     "source": "kentucky.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Indonesia's vice-president resigns",
+     "summary": "Gibran Rakabuming Raka handed his resignation to the upper house and to President Prabowo after days of speculation, with parliamentary leaders to discuss next steps.",
+     "matters": "the Prabowo-Widodo rift now has an empty chair in the executive.",
+     "url": "https://www.kentucky.com/news/nation-world/world/article318041479.html",
+     "source": "kentucky.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Trump defends the Iran war on Veterans Day",
+     "summary": "at a commemoration he promised the conflict \"will be soon\" over and the world \"much safer\", calling it an increasingly unpopular war that helped cost his party Congress.",
+     "matters": "a president arguing an active war to an audience that just voted against it.",
+     "url": "https://www.straitstimes.com/world/while-you-were-sleeping-5-stories-you-might-have-missed-nov-12-2026",
+     "source": "straitstimes.com",
+     "image": null,
+     "body": "Jared Kushner, US President Donald Trump’s son-in-law, speaking at a press briefing on Nov 11 in Abu Dhabi on the progress of peace talks between Russia and Ukraine, with members of the Ukrainian delegation and US Special Envoy Steve Witkoff (far left). Listen 中文 Russia, Ukraine say some progress made at peace talks Russian and Ukrainian negotiators reported some progress in two days of peace talks in Abu Dhabi that ended on Nov 11, but US mediators said there was a lack of trust between the warring sides and differences remained on issues including territory. In their first peace talks for nine months, Russia and Ukraine agreed to a major release of prisoners of war, but there was little else in the way of concrete announcements after the US-brokered meetings. US envoy Jared Kushner, US President Donald Trump’s son-in-law, said mediators were appealing to each side’s interests to end Europe’s biggest conflict since World War II and that he was convinced they could find a pathway to peace. Despite public optimism from Trump, there has been no sign of major compromises on the main issues after more than four and a half years of war since Russia’s full-scale invasion of Ukraine. President Donald Trump used a US Veterans Day commemoration on Nov 11 to defend the war against Iran – an increasingly unpopular conflict that helped trigger a Democratic takeover of Congress in last week’s midterm elections. “The bravery and skill of our amazing American warriors has absolutely been incredible,” Trump said, in an address at Arlington National Cemetery just outside Washington. Only between a quarter and a third of people currently diagnosed with obesity should be considered as in poor health, according to a new study that joins calls to overhaul how the condition is diagnosed. The study, published in Nature on Nov 11, follows a proposal in 2025 from experts and medical organisations to move obesity diagnosis beyond just body mass index (BMI), based on a person’s weight and height, to include body fat and broader health. The study attempts to show what this new definition could mean for diagnosis levels, prevalence, and ultimately, treatment, for a condition the World Health Organisation currently estimates affects more than one billion people globally. Australia’s blue-chip companies are increasingly invoking artificial intelligence as they cut jobs and move work offshore, unions and experts say, complicating the government’s efforts to support employment in a slowing economy. “AI washing” describes a practice by companies of attributing layoffs to AI tools when…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🇵🇱 Polska",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Pentagon daje zielone światło dla Tomahawków",
+     "summary": "szef MON Władysław Kosiniak-Kamysz po spotkaniu z Pete'em Hegsethem przekazał, że po stronie Pentagonu jest pozytywna rekomendacja dla polskiego zapytania o pociski manewrujące i wyrzutnie; ostateczna zgoda należy do Kongresu, a wiceszef MON Paweł Bejda wskazuje początek 2027 roku.",
+     "matters": "pierwszy realny krok do pocisków o zasięgu około 1600 km.",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,33127674,w-koncu-tomahawki-dla-polski-slowa-szefa-mon-o-bazach-przykryly.html",
+     "source": "wiadomosci.gazeta.pl",
+     "image": "https://bi.im-g.pl/im/0a/97/1f/z33127690IH,Odpalenie-pocisku-manewrujacego-Tomahawk-z-okretow.jpg",
+     "body": "Według ministra MON wystąpił o zgodę na zakup tych rakiet \"kilka miesięcy temu\", o czym nie informowano publicznie. Dodał, że teraz ostateczną zgodę musi jeszcze wydać Kongres, ale w przypadku eksportu do państw sojuszniczych, to najczęściej formalność, choć Tomahawki są przez Amerykanów bardzo rzadko sprzedawane zagranicę. Do tej pory tylko do 4 państw: Australii, Holandii, Japonii i Wielkiej Brytanii. Zgodę na zakup mają też Niemcy, ale jeszcze nie podpisali umowy. Tomahawki należą do kategorii broni określanych często jako strategiczna, stąd ostrożne podejście USA do jej eksportu. Polska miała nimi wyrażać zainteresowanie już dekadę temu, jako potencjalnym uzbrojeniem okrętów podwodnych Orka. W 2015 roku wysłano zapytanie, ale USA nigdy formalnie na nie odpowiedziały. Oficjalnie zasłaniano się kwestiami technicznymi i niewskazaniem przez Polaków, na jakim konkretnie okręcie miałyby zostać zainstalowane. Ponieważ program Orka trafił później na lata do faktycznej zamrażarki, to temat sprzedaży nam Tomahawków ucichł. W tym roku okręty podwodne wreszcie zamówiliśmy i nagle temat amerykańskich rakiet odżył. Choć nie ma żadnej informacji, że to właśnie na nich mają być instalowane. Szef MON nie podał żadnych dodatkowych szczegółów - ile Tomahawków i w jakim wariancie chcielibyśmy je kupić. 11 listopada wiceszef MON Paweł Bejda mówił w TVP Info, że ewentualna zgoda Kongresu jest oczekiwana na początku przyszłego roku. Teoretycznie zakupione przez nas szwedzkie okręty podwodne typu A26 mogą zostać przystosowane do wystrzeliwania rakiet manewrujących w rodzaju Tomahawków. Ich producent, koncern Saab, od lat prezentuje opcję wstawienia dodatkowej sekcji kadłuba z pionowymi wyrzutniami. Nie ma jednak żadnej informacji oficjalnej, abyśmy z tej opcji skorzystali. Szwedzi dla siebie budują okręty bez tego dodatku. W kontrakcie na nasze Orki zawarto jednak klauzulę o ich integracji z dodatkowymi nieujawnionymi rakietami. Nie wiadomo, jakimi i spekulacje mediów branżowych obracały się wokół mniejszych pocisków o mniejszym zasięgu JSM-SL, będących wariantem już używanych przez naszą flotę rakiet NSM. Można je odpalać ze standardowych wyrzutni torpedowych i nie wymagają poważnej zmiany projektu przez dodanie sekcji kadłuba z wyrzutniami pionowymi. Alternatywnie Tomahawki można by też teoretycznie odpalać z budowanych właśnie fregat Miecznik. Ich głównym uzbrojeniem są uniwersalne pionowe wyrzutnie Mk41, używane powszechnie przez flotę USA i wiele innych w NATO. Można z nich wystrzeliwać między innymi Tomahawki. Jest jednak jeszcze trzecia opcja w postaci nowych…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "250 tysięcy osób na Marszu Niepodległości",
+     "summary": "według Stołecznego Centrum Bezpieczeństwa w środowym marszu szło około 250 tys. osób, organizatorzy mówią o ponad 500 tys.; policja zatrzymała 59 osób, głównie za narkotyki, i odnotowała race mimo zakazu.",
+     "matters": "rekordowa frekwencja na rok przed wyborami parlamentarnymi.",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,33128558,swieto-niepodleglosci-tlumy-na-marszu-w-warszawie-tusk-zaprosil.html",
+     "source": "wiadomosci.gazeta.pl",
+     "image": "https://bi.im-g.pl/im/81/97/1f/z33128321IH.jpg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Tusk zaprasza Nawrockiego do Sopotu, prezydent atakuje ministra finansów",
+     "summary": "premier zaprosił głowę państwa z rodziną na przedświąteczną rozmowę, a Nawrocki tego samego dnia na placu Piłsudskiego skrytykował pracę Andrzeja Domańskiego; wicepremier Kosiniak-Kamysz stanął w obronie ministra.",
+     "matters": "spór o finanse publiczne wchodzi w fazę kampanijną.",
+     "url": "https://tvn24.pl/polska/piec-rzeczy-ktore-warto-dzis-wiedziec-najwazniejsze-informacje-12-listopada-2026-roku-st9334821",
+     "source": "tvn24.pl",
+     "image": "https://tvn24.pl/_e/i/najnowsze/cdn-zdjecie-karol-nawrocki-na-marszu-narodowcow-ph9334522/alternates/WEBP_LANDSCAPE_1620",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Śledczy badają wątek rosyjski po zamachu w Krakowie",
+     "summary": "prokuratura analizuje cztery telefony i komputer Michała Oksińskiego, szuka inspiracji i ewentualnych pomocników i nie wyklucza tropu rosyjskiego, a minister sprawiedliwości mówi o silnym wątku prawicowego ekstremizmu.",
+     "matters": "motyw ataku, w którym zginęło sześć osób, wciąż nie jest ustalony.",
+     "url": "https://www.rmf24.pl/regiony/krakow/news-zamach-w-krakowie-badany-bedzie-min-trop-rosyjski,nIdn,1025458",
+     "source": "rmf24.pl",
+     "image": "https://rmf.rmffm.pl/news/attachments/3c/37/zdj-966x643-3c37a1c2.jpg",
+     "body": "Śledczy badają możliwe motywy i źródła inspiracji 24-latka, który w sobotę zaatakował ludzi na Rynku Głównym w Krakowie. Jak poinformował naczelnik krakowskiego wydziału Prokuratury Krajowej prok. Eryk Stasielak, w postępowaniu sprawdzany jest również trop rosyjski. Zdj. ilustracyjne / Shutterstock W poniedziałek minister sprawiedliwości Waldemar Żurek był pytany, czy śledczy wykluczyli działania hybrydowe ze strony Rosji. Odpowiedział, że taki scenariusz nadal jest analizowany. Nie został wykluczony, tam są pewne informacje, które musimy sprawdzić, ale nie chcę ujawniać tego, to jest za wcześnie – mówił Żurek. Prok. Eryk Stasielak zaznaczył, że dochodzenie obejmuje wszystkie możliwe okoliczności, które mogły mieć wpływ na działania napastnika. Każdy wątek będziemy badać, również rosyjski – przekazał. Kluczowe dla prokuratury jest sprawdzenie, czy 24-latek mógł otrzymać pomoc albo zostać nakłoniony do przeprowadzenia ataku. Prokurator podkreślił, że na obecnym etapie nie można przesądzać, skąd ewentualnie mogła pochodzić inspiracja. Głównym kierunkiem tego śledztwa jest ustalenie tego, czy ktoś temu sprawcy pomagał i czy ktoś go inspirował. Ta inspiracja mogła nadejść z różnej strony, więc my nie eliminujemy z góry żadnej możliwości – przekazał Stasielak. Prokurator generalny, pytany o możliwość rosyjskiej inspiracji, nawiązał do pojęcia „matrioszki” opisanego w książce Suworowa „Akwarium” . Matrioszka to takie osoby, które są sterowane, a nie wiedzą o tym, że są sterowane, bo tam sztaby psychologów i agentów specjalnych działają – mówił Waldemar Żurek, zaznaczając jednak, że nie chce na razie wyciągać tak daleko idących wniosków. Rzecznik Prokuratury Krajowej prok. Przemysław Nowak tłumaczył w poniedziałek, że jest za wcześnie, aby mówić o motywach, inspiracji czy jakiejś ideologii zamachowca. W jego pokoju nie znaleziono „oczywistej symboliki”, powszechnie kojarzonej z jakimś nurtem . W sobotę minister spraw wewnętrznych i administracji Marcin Kierwiński wywołał dużo emocji sugestią, że według wstępnych ustaleń 24-letni zabójca mógł mieć ultraprawicowe poglądy. Nie przedstawił żadnych dowodów na potwierdzenie tej tezy. W poniedziałek w specjalnym wywiadzie dla RMF FM prezydent Krakowa Łukasz Gibała wyraził swój dystans wobec dyskusji o tym, jakie poglądy mógł mieć zabójca. Nie podobają mi się sugestie łączące jego działalność z taką czy inną motywacją polityczną, z takimi czy innymi poglądami - przyznał. Jak dodał, takie sugestie są niepotrzebne i tylko wzmacniają i tak już duże podziały społeczne . Do tragedii doszło w sobotę na krakowskim Rynku…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "34 proc. Polaków chce całkowitego resetu Trybunału Konstytucyjnego",
+     "summary": "w sondażu United Surveys dla Wirtualnej Polski 34,1 proc. badanych opowiedziało się za wymianą wszystkich sędziów, a 19,7 proc. za kompromisem politycznym z obecnym składem.",
+     "matters": "największa pojedyncza grupa wybiera rozwiązanie, na które nie ma większości w Sejmie.",
+     "url": "https://wiadomosci.gazeta.pl/polska/7,198072,33128526,kryzys-w-trybunale-konstytucyjnym-polacy-wskazali-w-sondazu.html",
+     "source": "wiadomosci.gazeta.pl",
+     "image": "https://bi.im-g.pl/im/3f/34/1f/z32720959IH,Trybunal-Konstytucyjny--zdjecie-ilustracyjne-.jpg",
+     "body": "Najwięcej respondentów (34,1 proc.) stwierdziła, że Trybunał Konstytucyjny wymaga \"całkowitego resetu\", czyli wymiany wszystkich zasiadających w nim sędziów w drodze zmiany Konstytucji lub ustaw. 19,7 proc. badanych wybrała \"kompromis polityczny\" polegający na porozumieniu z obecnym składem sędziowskim. Zdaniem 18,2 proc. ankietowanych TK powinien być pozostawiony w obecnym stanie, bez wprowadzania żadnych zmian. 16,9 proc. oczekuje \"twardych działań rządu\" oznaczających w tym przypadku zastąpienie sędziów przy użyciu kontrowersyjnych ustaw. Ostatnia grupa (11,1 proc.) wybrała odpowiedź \"trudno powiedzieć\". Zwolennicy rządu woleli bezkompromisowe rozwiązanie. 39 proc. z nich wybrało bowiem \"twarde działania rządu\". Na drugim miejscu znalazł się kompromis polityczny, który wybrało 28 proc. respondentów. Trzecie miejsce zajął \"reset\" z poparciem 18 proc. badanych. 9 proc. sympatyków rządu stwierdziło, że TK należy zostawić w obecnym stanie, a 6 proc. nie miało zdania w tej sprawie. Innego zdania byli zwolennicy opozycji (PiS, Konfederacji i Razem). 46 proc. z nich wybrało bowiem \"reset\" TK. Na drugim miejscu znalazło się pozostawienie TK bez żadnych zmian. Opcję tę wybrało 28 proc. respondentów. Za ugodą i kompromisem opowiedziało się 14 proc., a 6 proc. dopuściło działania siłowe oparte na uchwałach sejmowych. Zdania w tej sprawie nie miało 6 proc. respondentów. W Trybunale Konstytucyjnym zasiada łącznie 15 sędziów. Sędziami wybrani w czasie rządów PiS są: Jakub Stelina, Jarosław Wyrembak, Rafał Wojciechowski, Stanisław Piotrowicz, Wojciech Sych oraz - w roli prezesa - Bogdan Święczkowski, a także wiceprezesa Bartłomiej Sochański. Ministerstwo Sprawiedliwości - w czasie rządów koalicji 15 października - informowało, że Wyrembak jest dublerem, więc nie uznaje go za sędziego TK. Sejm wybrał ośmioro nowych w 2026 roku po tym, jak kadencje ich poprzedników dobiegły końca. To: Marcin Dziurda, Anna Korwin-Piotrowska, Krystian Markiewicz, Maciej Taborowski, Maciej Berek, Magdalena Bentkowska, Dariusz Szostek i Sławomir Patyra. Karol Nawrocki przyjął ślubowanie od trojga ostatnich z wymienionych sędziów. Następnie prezes TK Bogdan Święczkowski nie dopuszczał ich do orzekania. Sędzia Korwin-Piotrowska 30 października przejęła obowiązki prezesa TK oraz zawiesiła Święczkowskiego i jego zastępcę Bartłomieja Sochańskiego na miesiąc. Zarzuciła mu upolitycznienie i stwierdziła, że niedopuszczenie przez niego pięciu sędziów uniemożliwiło uchwalenie przez Zgromadzenie Ogólne TK projektu dochodów i wydatków trybunału w 2027 r. oraz włączenie go do ustawy budżetowej na…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "💰 Money",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "WIG20 4,208.5 · USD/PLN 3.983 (+1.29%) · EUR/PLN 4.411 (+0.42%) · BTC $73,408 (-0.2%) · Brent $92.66 (-0.1%)",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Nvidia's board reportedly prepares to remove Jensen Huang",
+     "summary": "the board met late Wednesday after the New York Times reported an affair with a vice-president who reports to him, on top of an internal probe into a businesswoman suspected of spying; the stock closed up 2.92% at $173.73 then fell 8.61% after hours to $158.78.",
+     "matters": "the AI trade's benchmark now carries governance risk into 17 November earnings.",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-plunge-board-reportedly-051812172.html",
+     "source": "finance.yahoo.com",
+     "image": "https://s.yimg.com/lo/mysterio/api/c1a753982436416477ec9e85392d0274c58d437bf35dd8ca031ceb472556e89d/lightyear_networkapi/resizefill_h48%3Bquality_100%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fforbes-light.png",
+     "body": "Nvidia Shares Plunge As Board Reportedly Prepares To Oust CEO Jensen Huang Siladitya Ray, Forbes Staff Thu, November 12, 2026 at 6:18 AM GMT+1 4 min read NVDA -4.36% Topline Nvidia shares plunged more than 8% in after-hours trading Wednesday following reports that the AI chip giant's board was preparing to oust billionaire CEO Jensen Huang, amid growing scrutiny over his alleged extramarital affairs with two women—including one suspected by U.S. intelligence officials of spying for China and another who is a senior Nvidia executive. Nvidia shares fell 8.61% in after-hours trading late Wednesday to $158.78, reversing gains made during the regular trading session when the stock closed 2.92% higher at $173.73. The sharp selloff followed a Wall Street Journal report that Nvidia's board was preparing to remove Huang as CEO. Reuters independently confirmed the Journal's report , adding that the board met late Wednesday to determine Huang's future. Earlier Wednesday, the New York Times reported that Huang had an extramarital relationship with Kimberly Powell, Nvidia's vice president of healthcare who reports directly to him. The purported move to oust Huang is a sharp reversal from Sunday, when Nvidia's board announced an independent probe into whether Huang had been targeted by a foreign intelligence operation but publicly expressed confidence in his leadership. At the time, the board noted that it had no reason to believe company secrets or national security had been compromised. A key challenge facing Nvidia is the fact that the company has no obvious successor to Huang, who co-founded the company in 1993 and has served as CEO since then. Bloomberg reported Wednesday that the company's board has been working with an outside firm to identify potential replacements for Huang. The board is also considering appointing an interim CEO if Huang is ousted, while it searches for a permanent replacement. SpaceX and Tesla CEO Elon Musk indicated on Wednesday that he would be open to hiring Huang if Nvidia removes him as CEO. Responding to an X post which urged: \"Elon please hire Jensen,\" Musk wrote : \"That would be an honor.\" Musk's companies are major customers of Nvidia's AI chips, and both billionaires have repeatedly praised each other and their companies publicly in recent years. In an employee memo on Sunday, Huang acknowledged that he had an extramarital affair after reports emerged about his close relationship with Alice Huang, an executive at computing and data center operator Megaspeed International. U.S. intelligence suspects Alice Huang was working as an…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Wall Street closed higher before the Nvidia shock",
+     "summary": "the S&P 500 added 1.3% and the Nasdaq 1.6%, with CoreWeave up 24.7% on a smaller-than-expected loss, before futures gave back 0.4% to 1% on the Huang report.",
+     "matters": "the rally now leans on AI-adjacent earnings rather than the chipmaker itself.",
+     "url": "https://urgent.news/2026/11/12/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-19583764",
+     "source": "urgent.news",
+     "image": "https://images.mktw.net/im-99694497",
+     "body": "Major stock indexes climbed on Wednesday, propelled by a surge in tech shares following a positive report from CoreWeave, which bolstered confidence in the AI sector, and a strengthening dollar. Nvidia's shares surged 2.9 percent, partially recovering from recent sharp declines, but they tumbled 8 percent after hours as the Wall Street Journal reported via anonymous sources that Nvidia's board was preparing to remove CEO Jensen Huang due to two extramarital affairs. The Nasdaq and S&P 500 both closed the regular trading session more than 1 percent higher, with the S&P 500 technology sector up 2.7 percent. CoreWeave shares surged 24.7 percent on Wednesday, citing an expected profitability by 2028 amid debt-driven expansion concerns. Strategists noted investors are still processing the impact of the midterm elections, which saw Democrats gain control of Congress, alongside Nvidia-related news. Nvidia's leader, Jensen Huang, is credited with driving the company's remarkable growth. Bruce Zaro, a managing director at Granite Wealth Management, highlighted the uncertainty surrounding Huang's potential ouster. The Dow Jones Industrial Average added 254.60 points, or 0.49 percent, to 52,486.49; the S&P 500 rose 98.45 points, or 1.31 percent, to 7,619.38; the Nasdaq Composite climbed 400.31 points, or 1.60 percent, to 25,466.19. Global stocks, as measured by MSCI, increased 12.41 points, or 1.12 percent, to 1,121.15. The STOXX 600 index in Europe also rose by 0.7 percent, with investors re-entering AI-linked stocks following a recent sector-wide decline in Asia. Treasury market activity was suspended on Wednesday due to Veterans Day, following a significant 2-year yield jump since April 2025. European yields stabilized on Wednesday. Oil prices increased after Iran's security chief stated Tehran would not permit any enriched nuclear material to leave the country. The US Treasury market closed for Veterans Day on Wednesday, a day after 2-year yields experienced their largest one-day increase since April 2025. Euro zone yields remained stable on Wednesday. Oil futures climbed by 1.39 percent to settle at $92.76, while US West Texas Intermediate crude gained 0.57 percent to $86.53. The US dollar continued its upward trajectory following hotter-than-expected inflation data on Tuesday, which heightened expectations for an interest rate hike from the Federal Reserve next month. Approximately 11 percent of traders believe a half-percentage-point increase is likely based on the CME FedWatch tool. The dollar index, which gauges the greenback against a basket of…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The dollar at its strongest since April 2025",
+     "summary": "the index rose 0.1% to 103.08 as traders priced higher rates, MSCI Asia-Pacific ex-Japan fell 1.1% and Taipei dropped 2.8%.",
+     "matters": "the move is already visible in USD/PLN at 3.983.",
+     "url": "https://www.centredaily.com/news/nation-world/national/article318041571.html",
+     "source": "centredaily.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "ExxonMobil files a legal challenge to EU carbon capture rules",
+     "summary": "the oil major lodged a confidential complaint against the bloc's CCS framework in the same week London drafted worst-case energy support for households.",
+     "matters": "another front in the fight over who pays for Europe's industrial energy costs.",
+     "url": "https://www.fidelity.com/news/article/default/202611112138RTRSNEWSCOMBINED_L3N46T06N_1",
+     "source": "fidelity.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": true
+    }
+   ]
+  },
+  {
+   "name": "💻 AI & Tech",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Google ships Gemini Decision 1",
+     "summary": "the new Decisions API answers yes/no questions, picks from 2-255 options and scores against criteria, up to 1,000 questions per request, 256K context at $0.10 per million input tokens with no output charge.",
+     "matters": "routing and eval workloads now get a model priced per decision instead of per token.",
+     "url": "https://toolin.ai/en/news/report/2026-11-12",
+     "source": "toolin.ai",
+     "image": null,
+     "body": "Google and Baidu release multimodal decision and preview models, OpenAI announces billion-dollar revenue and voice retirement plans, and DeepMind introduces a genetic variant prediction model. Google has launched the decision model Gemini Decision 1 via the Gemini API, priced at $0.10 per million input tokens. The model supports native multimodal inputs, features a 256K context window, and processes up to 1,000 questions per single request. Baidu has released the ERNIE 5.5 Flash Preview model, featuring 280B total parameters and 14B active parameters with 1M context support. Its API is now live on the Qianfan platform, and weights will be open-sourced before November 25. DeepMind has released AlphaGenome 2, a next-generation DNA sequence model utilizing a conditional architecture. Trained on data covering 68 tissues, it predicts the impact of DNA variants on gene expression across hundreds of human cell types. Reports indicate that OpenAI has achieved $10 billion in quarterly revenue for the first time, with sales growing nearly 200% year-over-year, though operating losses rose to $10.9 billion. Runway has open-sourced the world action model Praxis-1 under the Apache 2.0 license, which is a 27B parameter MoE diffusion Transformer model. Microsoft Research has pointed out that modifying fewer than ten neurons can turn a normal agent into a rogue agent with a dormant backdoor. The official announcement states that ChatGPT Advanced and Standard voice features will be retired on December 11, 2026. Geodesic Intelligence has released the all-atom model NovaAtom-Lite, achieving a 79.07% success rate on antibody-antigen…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Alibaba previews Qwen4-Max",
+     "summary": "the next flagship went out as a preview just before noon on 11 November and passed a million views on the official account within hours.",
+     "matters": "Chinese frontier labs keep shipping while US prices collapse.",
+     "url": "https://note.com/lisalisa7/n/nc9dc10746e41?hl=en",
+     "source": "note.com",
+     "image": "https://assets.st-note.com/production/uploads/images/335073774/rectangle_large_type_2_c8cc98488675eac6950e6069fca9fcea.png",
+     "body": "SYSTEM NOTICE Auto translation by AI. Be sure, accuracy, nuances and authorial intent may not be fully reflected. Show original Today's Generative AI News with Lisa (November 12) リサ Nov 12, 2026 08:15 Good morning, this is Lisa. Here is your generative AI news for the morning of Thursday, November 12. The top story this morning is the preview release of Alibaba's next-generation flagship model, 'Qwen4-Max.' It launched just before noon on the 11th (JST), and the official account's post has already garnered about 1.1 million views. Today, I will cover five topics: the arrival of Qwen4-Max, Google's decision-making model 'Gemini Decision 1,' the start of Anthropic's roadshow for its IPO, OpenAI's 'quarterly revenue of $10 billion,' and the open-sourcing of Runway's robot-focused model 'Praxis-1.' Table of Contents 1. Alibaba releases 'Qwen4-Max' for preview. The 4th-generation flagship model is available for just two weeks. 2. Google releases 'Gemini Decision 1.' A model specialized solely in 'choosing' rather than writing text. 3. Anthropic begins roadshow for IPO. Valuation is up to approximately $1.4 trillion, with recruitment also in Japan. 4. OpenAI's quarterly revenue hits $10 billion for the first time. Growth has returned, but losses have also expanded. 5. Runway releases robot model \"Praxis-1.\" The video AI company gives away robot brains for free. Conclusion References 1. Alibaba releases 'Qwen4-Max' for preview. The 4th-generation flagship model is available for just two weeks. Alibaba released a preview version of its next-generation flagship model, 'Qwen4-Max,' at 11:00 AM JST on the 11th (10:00 AM Beijing time). The official account's post, 'Qwen4 is coming,' has been viewed approximately 1.1 million times. According to Alibaba Cloud's documentation, Qwen4-Max is a multimodal model that understands text, images, and video, and can think deeply before responding. Its primary use cases include programming, administrative tasks, web interface creation, and complex agent workflows. Let's look at the performance metrics. It handles a context window of 1 million tokens and can output up to 393,216 tokens, including both the reasoning process and the final answer. Since it can be called using the same API format as OpenAI and Anthropic, it is easy to use with tools like Claude Code and Cursor. There is a slight quirk to how it is used. The preview is available for a limited time until midnight on November 25 (Beijing time), after which it will be discontinued. General users can also try it via the Qwen app, or Alibaba's QwenWork, Qoder, and…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "OpenAI's quarterly revenue passes $10bn",
+     "summary": "Q3 revenue of about $10bn, up nearly 50% on the prior quarter, against a $10.9bn operating loss and a roughly $50bn annual run rate with 1.2bn weekly users.",
+     "matters": "growth reaccelerated and the loss widened with it.",
+     "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+     "source": "techcrunch.com",
+     "image": "https://techcrunch.com/wp-content/uploads/2024/05/openAI-spiral-rose.jpg",
+     "body": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time Ram Iyer 8:14 AM PST · November 11, 2026 OpenAI is bouncing back from the doldrums it experienced earlier this year. The company’s quarterly revenue crossed $10 billion for the first time, thanks to strong demand for its recent AI models, Bloomberg reported , citing anonymous sources. If true, that would represent an almost 50% jump from the $6.7 billion in sales the company reportedly recorded in the second quarter. That would also mark a sizable increase in its revenue growth rate, which was previously said to be about 18% between the first and second quarters of the year. OpenAI’s profitability picture also appears to have improved, with its adjusted operating margin narrowing from -150% in the second quarter to -109% in the third quarter, the report said. OpenAI, one of the first to commercialize AI models, wasn’t exactly struggling to continue growing its top-line expansion — 18% growth on top of $5.7 billion in quarterly revenue is massive by any measure, especially compared to most software businesses. OpenAI has recently benefited from a combination of tighter pricing, discounts, improving models, and a greater focus on building more enterprise-focused products and AI agents that can help people complete tasks. OpenAI has now reached an annual revenue run rate of $50 billion, according to Bloomberg. Meanwhile, Anthropic, which is seeking a $1.4 trillion valuation in an IPO likely to happen soon , said yesterday that its annual revenue run rate had increased by $10 billion within a month to $81 billion as of the end of October. None of those figures are small, of course, but the companies are also competing with models from Meta, Amazon, Microsoft, and Google, as well as a plethora of cheaper but still highly capable models from open source AI labs, especially those from China. When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence. Ram is a financial and tech reporter and editor. He covered North American and European M&A, equity, regulatory news and debt markets at Reuters and Acuris Global, and has also written about travel, tourism, entertainment and…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "TSMC approves up to $1bn for Anthropic and OpenAI stakes",
+     "summary": "the board cleared up to $500m in each alongside $40.9bn of capital spending.",
+     "matters": "the foundry is becoming a shareholder in the customers buying its capacity.",
+     "url": "https://www.thelatentdaily.com/digests/daily-digest-2026-11-12/",
+     "source": "thelatentdaily.com",
+     "image": null,
+     "body": "Daily Digest & Weekly Recap Daily Digest Daily Digest: Nvidia's board weighs Huang, Gemini Decisio… Daily Digest Digest Daily Digest: Nvidia's board weighs Huang, Gemini Decision 1, TSMC The AI stories that mattered on November 12, 2026: Nvidia's board reportedly moves on Jensen Huang, Google's Gemini Decisions API and TSMC's AI lab stakes. The Wall Street Journal reports the board is preparing to remove Huang after a second alleged affair surfaced. Nvidia has announced no decision; shares fell after hours and House Republicans threatened a subpoena. A model that answers up to 1,000 yes/no, choice and score questions in one request for $0.10 per million input tokens, with no charge for output. Up to $500 million each for Anthropic shares at the IPO price and OpenAI preferred stock, approved alongside $40.9 billion in capital spending. What evaluation and red-teaming work involves, who hires for it and what posted salaries, contractor rates and BLS data say about pay. Why running a multimodal model's vision and audio encoder on separate GPUs can raise throughput, how to try it and when it is not worth it. The London and Bristol chip start-up behind a Series C of more than £500 million: what it builds, who backs it and the risks ahead. Good morning. Here is what mattered in AI today. Nvidia’s board is reportedly preparing to remove chief executive Jensen Huang as a second allegation of misconduct surfaced, though the company has not announced any decision. Google launched a dedicated decision model that scores up to 1,000 questions in a single call, and TSMC’s board approved up to $1 billion in stakes in Anthropic and OpenAI. We also look at careers in AI evaluation and red-teaming, explain how vLLM splits multimodal serving across GPUs and profile the British inference-chip start-up Fractile after its latest funding round. Sources This story was reported and written in our own words from the sources below. Primary sources are…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Gemini 4 Carbon opens to every paying developer",
+     "summary": "general availability through the API, AI Studio and AI Ultra at $2 and $10 per million tokens, with a /swarm multi-agent preview in Antigravity.",
+     "matters": "frontier pricing now sits at roughly a fifth of GPT-6 Astra's.",
+     "url": "https://www.aiimpacthub.com/ai-news/2026-11-12",
+     "source": "aiimpacthub.com",
+     "image": null,
+     "body": "The move from restricted testing to broader access lets teams evaluate Carbon on their own coding and knowledge-work tasks. Anthropic introduced Claude Sheets, Claude Whiteboards and upgraded interactive connectors on 10 November. Teams can edit spreadsheets together and work inside partner apps embedded in Claude. The official announcement says Claude Meetings is coming soon. These new editing surfaces extend Claude into shared team workflows following the separate model releases covered yesterday. OpenAI launched Businesses in ChatGPT in beta on 10 November. Eligible businesses can claim verified profiles, update information and see aggregated mentions and website clicks through Business Hub. Business Agents initially serve eligible US ecommerce and online-service businesses, with their conversations labelled separately from ChatGPT’s independent answers. OpenAI now gives companies a direct way to manage their presence and answer product questions inside ChatGPT, a separate launch from Meta’s earlier business agents. AMD announced general availability of its Zen 6-based EPYC SP7 server processors on 10 November. Systems are shipping from server vendors, while Microsoft Azure and Oracle Cloud instances are described as generally available soon. The range targets agent sandboxes, GPU host nodes and general enterprise workloads. This standalone CPU launch gives operators a new infrastructure option for running agents, extending the earlier coverage of EPYC’s role in Google’s TPU systems. Mercor announced its Series D on 10 November, including an employee tender and participation from investors including NVIDIA and Salesforce. The US$750 million round values the company at US$20 billion. Mercor says the funding will expand evaluation, post-training and simulated work environments for enterprise AI agents. The round directs substantial capital towards measuring agents against actual company workflows, an increasingly important step in enterprise adoption. Nine governments and nine AI companies signed the Paris Declaration on AI safety and security on 9 November, with the Dutch government publishing it on 10 November. Commitments cover comparable evaluations, publication of non-sensitive findings, risk governance and incident reporting. It is a diplomatic declaration, rather than newly enacted legislation. A shared evaluation and reporting agenda could make frontier-model risks easier to compare across suppliers and borders. In an 11 November Commonwealth Fund report, NYC Health + Hospitals researchers said AI-drafted patient messages averaged a ninth-grade…",
+     "day": 2,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎮 Games & Dev",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Dalamud 15.0.4.0 · .NET 10.0.14 · game build 2026.11.03 · last changelog 10 Nov",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "7.58 clears the weekly lockouts",
+     "summary": "Heavy Holoblades from AAC Heavyweight M4, Dancing Mad totems and Windurst coffer rewards are no longer weekly, the AAC Heavyweight Savage Echo now grants 17% from the pull, and The Unmaking (Extreme) moved to the Duty Finder.",
+     "matters": "catch-up gearing is effectively uncapped before 8.0.",
+     "url": "https://www.ign.com/wikis/ffxiv/FFXIV_7.58_Patch_Notes",
+     "source": "ign.com",
+     "image": "https://cdn.ziffstatic.com/adchoices/adchoices.png",
+     "body": null,
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The XVI crossover returns on 18 November",
+     "summary": "The Path Infernal runs to 9 December with the Torgal mount, Clive's Metian attire, a minion and orchestrion rolls, and is replayable through Seasonal Event Replay.",
+     "matters": "a second window at the only XVI glamour in the game.",
+     "url": "https://na.finalfantasyxiv.com/lodestone/topics/detail/44d7f515b6157602c144c5dba37a110bdecda702",
+     "source": "na.finalfantasyxiv.com",
+     "image": "https://img.finalfantasyxiv.com/t/44d7f515b6157602c144c5dba37a110bdecda702.jpg",
+     "body": "The FINAL FANTASY XVI crossover event, The Path Infernal, returns to Eorzea! Participate in the event to obtain several event items, including the Torgal mount, the Metian Attire inspired by protagonist Clive Rosfield, a minion, orchestrion rolls, and more. Whether you missed the previous event or simply wish to experience the adventure again, don't miss out! * This event is identical to previous iterations. * Event quest can be replayed by utilizing the Seasonal Event Replay…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Evercold lands 23 February 2027",
+     "summary": "the sixth expansion opens with early access on 19 February, three months later than the January window Square Enix gave in April; pre-orders opened on 4 November.",
+     "matters": "the 7.5x patch line has to carry the game until then.",
+     "url": "https://senseos.gg/wiki/final-fantasy-xiv/",
+     "source": "senseos.gg",
+     "image": "https://clan.akamai.steamstatic.com/images/4459756/9c626e90914ac55df75686ab5e3d573e69ae5012.png",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Dev tooling moved: .NET 11 announced, Blender 5.3 ships Gaussian splats",
+     "summary": "two releases that touch a model or plugin pipeline in the same week, with native splat support landing in Blender for the first time.",
+     "matters": "splat workarounds can go while API 15 plugins stay pinned to .NET 10.",
+     "url": "https://dev.to/magnus_ferm/dev-news-digest-10-nov-2026-1800-4m4b",
+     "source": "dev.to",
+     "image": "https://media2.dev.to/dynamic/image/width=50,height=50,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4168295%2F4afe196e-f2ff-4739-a1e0-8596d5dcc653.png",
+     "body": "This digest is generated automatically by an AI agent from public news feeds. Every item links to its original source; check the source before relying on any…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🐉 World of Warcraft Forever",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "WoW: Forever hotfixes hit seven classes",
+     "summary": "Feral's Rend and Tear now works on Pounce Bleed, Hunter Volley no longer activates procs, Paladin Judgement counts as a ranged attack, Retribution's Unsealed Fury stops echoing Windfury, and two Shadowform bugs plus Flametongue Totem rank 2 are fixed.",
+     "matters": "the first real tuning pass a week after launch reshapes melee and proc behaviour.",
+     "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-11-2026",
+     "source": "news.blizzard.com",
+     "image": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png",
+     "body": "Here you will find a list of hotfixes that address various issues related to World of Warcraft:…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Item Restoration has been switched off",
+     "summary": "Blizzard disabled the service while it investigates a critical bug and gave no ETA in the hotfix post.",
+     "matters": "anything deleted by mistake right now stays deleted.",
+     "url": "https://www.wowhead.com/blue-tracker/topic/us/wow-forever-hotfixes-november-11-2026-2403040",
+     "source": "wowhead.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Character creation is being throttled on the fuller faction",
+     "summary": "Blizzard is making it progressively harder to roll on the more populated side of PvP realms to hold faction balance.",
+     "matters": "the launch population skew is bad enough to need a mechanical brake.",
+     "url": "https://www.wowhead.com/forever/news/blizzard-made-character-creation-on-higher-population-faction-increasingly-383817",
+     "source": "wowhead.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "A Dawn Waker secret has been found in Forever",
+     "summary": "the Secret Finding Discord turned up an extensive quest chain that appears to unlock powerful weapons.",
+     "matters": "the first community-solved secret of the new launch is already documented.",
+     "url": "https://www.wowhead.com/forever/news/new-dawn-waker-secret-found-in-wow-forever-383813",
+     "source": "wowhead.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Echoes of the Worldcore is on the PTR",
+     "summary": "the next Midnight update returns players to Dornogal and the Coreway with a new campaign chapter and Talebound lorewalking, while 12.1.5 is live with Kith'ix and the Labyrinth of Kindo'jan.",
+     "matters": "two content tracks are running at once for the first time this expansion.",
+     "url": "https://www.wowhead.com/forever/blue-tracker/news/us/wow-weekly-highlights-midnight-12-1-5-worldcore-wow-forever-and-more-world-of-24313102",
+     "source": "wowhead.com",
+     "image": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/gn/GNTX1IYPVFBX1792024742215.png",
+     "body": "From new challenges in Midnight and a glimpse of what’s ahead in Echoes of the Worldcore to a deep dive into Paladins and the latest WoW: Forever Podcast, this week's news is packed with fresh insights, new rewards, and adventures to explore across Azeroth. Gather your allies for a single-boss raid against Kith’ix, with flexible Mythic difficulty. Venture into the Labyrinth of Kindo’jan, a massive, Delve-like gauntlet with nine chambers, a Tier 11 solo challenge, Mythic gear, cosmetics, titles, and more. Push your power to new heights in Season 2 with the mid-season refresh and Keystone Mythic. Begin a new story campaign that returns you to the heart of Quel’Thalas and Zul’Aman for the continuation of the Midnight saga. Join WoW: Forever Podcast host Countdown To Classic and special guests Savix and Tips Out as they sit down with Senior Game Designer Josh “Aggrend” Greenfield and Lead Designer Tim Jones as they dive into Player-vs-Player (PvP) in World of Warcraft: Forever. Watch the episode for a closer look at the team’s approach to PvP and what it means for players as they prepare to enter the fray. The next Midnight content update, Echoes of the Worldcore, invites you back to Dornogal to unravel how to access the Coreway. Take a look at what’s ahead: Stand as a champion of the Light in this World of Warcraft: Forever class deep dive. Discover how Paladin updates strengthen the class’s distinctive Seals and Judgements while expanding options for Holy healing and spell damage, Protection tanking, and Retribution damage. Watch 4 hours of eligible World of Warcraft content on any channel on Twitch.tv while these Twitch Drops are active to claim the Cuddly Gold-Colored Grrgle Housing decor item. You can find frequently asked questions and details on linking your Twitch account in our previously published article. Enter a world of myth, magic, and endless adventure. Claim a 12-month subscription and gain access to World of Warcraft® , World of Warcraft®: Forever™ , and WoW Classic progression (currently Mists of Pandaria Classic™ ). When you purchase a 6-Month or 12-Month Special Subscription Offer, you'll receive special bonuses, including several for use in World of Warcraft: Forever , once it launches in November! Listen to the original soundtrack! Let the music of World of Warcraft: Forever carry you to Zephras Isle, Riverglades, and Mount Hyjal. Let us journey alongside you, regale you with tales of adventure in faraway places, map out roads less traveled, and direct your gaze toward the legendary challenges that await. Return each week to the World…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎵 Music",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "THE PRIMALS bassist Eikichi Iwai has died",
+     "summary": "Square Enix confirmed the sudden death of the band's bassist days after his set at the Japan Fan Festival, with the FFXIV team saying it is overcome with deep sorrow.",
+     "matters": "the game's house band loses a member at the start of an expansion cycle.",
+     "url": "https://na.finalfantasyxiv.com/lodestone/news/detail/18a43ce0fcabdb9de5c4436851dac555148e0c32",
+     "source": "na.finalfantasyxiv.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Fall Out Boy announce the Twilight of the Punks stadium tour",
+     "summary": "a 2027 North American run with Offspring, Good Charlotte and The So Far, a European leg with A Day to Remember and Neck Deep, trailed by new song \"Aces\" and a mall pop-up in Los Angeles.",
+     "matters": "another legacy act betting a full summer on stadiums.",
+     "url": "https://www.rollingstone.com/music/music-news/fall-out-boy-mall-pop-up-show-1235655817/",
+     "source": "rollingstone.com",
+     "image": "https://www.rollingstone.com/wp-content/uploads/2026/11/fall-out-boy-mall-show.jpg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Staind announce their ninth album",
+     "summary": "The Space Between The Darkness And The Light arrives 5 March 2027 via Alchemy/BMG with new single \"Watch Me Break\" and a 27-date tour with Seether and Hoobastank.",
+     "matters": "the Break the Cycle anniversary run is now a two-year business.",
+     "url": "https://therockrevival.com/rock-news/staind-confirm-upcoming-album-with-new-single-watch-me-break/",
+     "source": "therockrevival.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Wojtek Mazolewski Quintet zapowiada \"Pure Form\"",
+     "summary": "album ukaże się 20 listopada, a drugim singlem jest \"Polish Jazz\" z gościnnym udziałem Plumm.",
+     "matters": "jeden z najważniejszych polskich składów jazzowych wraca z nowym materiałem.",
+     "url": "https://trojka.polskieradio.pl/muzyka/wojtek-mazolewski-quintet-z-nowym-singlem-premiera-utworu-polish-jazz",
+     "source": "trojka.polskieradio.pl",
+     "image": null,
+     "body": "Wojtek Mazolewski Quintet szykuje się do premiery nowego albumu. Już 20 listopada 2026 roku ukaże się \"Pure Form\", najnowsze wydawnictwo jednego z najważniejszych zespołów współczesnego polskiego jazzu. Muzycy zaprezentowali właśnie kolejny singiel promujący płytę - \"Polish Jazz\", w którym gościnnie wystąpiła wokalistka Plumm. Pierwszą zapowiedzią albumu „Pure Form” był utwór \"Cordoba October\", który ukazał się 16 października 2026 roku. Sam tytuł płyty nawiązuje do koncepcji Czystej Formy, rozwijanej przez Stanisława Ignacego Witkiewicza, czyli Witkacego. Teraz zespół podzielił się kolejną kompozycją - \"Polish Jazz\", nagraną z udziałem wokalistki Plumm, znanej m.in. ze współpracy z Levitation Orchestra. Wojtek Mazolewski nie ukrywa zadowolenia ze wspólnego nagrania. W mediach społecznościowych podkreślił, że współpraca z artystką była dla niego wyjątkowym doświadczeniem. – To była niesamowita współpraca i naprawdę się cieszę, że w końcu mogę podzielić się z Wami tym utworem - napisał muzyk. Co wiemy o nowej płycie Wojtek Mazolewski Quintet? Premiera \"Pure Form\" została zaplanowana na 20 listopada 2026 roku. Album będzie dostępny na winylu, CD oraz w serwisach cyfrowych. Na wydawnictwo złoży się dziesięć kompozycji, w których zespół zaprezentuje swoją najnowszą muzyczną odsłonę. Plumm nie będzie jedynym gościem na płycie. W nagraniach wziął również udział Marcin Dorociński, jeden z najbardziej rozpoznawalnych polskich aktorów. Jego udział usłyszymy w kompozycji \"No Beginning No End\". Dodaj nas do preferowanych źródeł, aby nasze newsy zawsze wyświetlały Ci się na górze wyników Google. W Polskim Radiu od 2025 roku, przedtem w \"Super Expressie\". Na portalu Trójki zajmuję się głównie opisywaniem świata muzyki - od gitarowych brzmień klasyków rocka i metalu, po elektroniczne beaty i rapowane wersy. Miłośnik podróży, kina, literatury, popkultury, sztuki i piłki nożnej. Dziękujemy za przeczytanie artykułu. Aby być na bieżąco z informacjami Trójki, obserwuj nas na Facebooku oraz w Wiadomościach…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Margaret releases TRIPOLAR",
+     "summary": "the three-EP project (Body, Voice, Mind) is collected as an album, streaming since 6 November with the physical release on 27 November, led by \"Połamane skrzydła\".",
+     "matters": "the biggest Polish pop roll-out of the autumn lands in full.",
+     "url": "https://newsroom.sonymusic.pl/476932-margaret-i-jej-tripolar-nowy-album-artystki-juz-dostepny",
+     "source": "newsroom.sonymusic.pl",
+     "image": null,
+     "body": "Margaret i jej „TRIPOLAR”: nowy album artystki już dostępny! Kopiuj tekst Pokaż wszystkie załączniki Udostępnij Więcej…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎬 Culture",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "FX renews Adults for a sixteen-episode third season",
+     "summary": "double the eight-episode orders of the first two, with creators Ben Kronengold and Rebecca Shaw signing an overall deal at FX Productions.",
+     "matters": "the network is buying volume from a comedy that started as a Hulu drop.",
+     "url": "http://www.thefutoncritic.com/news/2026/11/12/adult-swim-a/",
+     "source": "thefutoncritic.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Good Daughter premieres today on Peacock",
+     "summary": "Rose Byrne and Meghann Fahy play estranged lawyer sisters in Karin Slaughter's adaptation, with Brendan Gleeson and Olivia Williams in support.",
+     "matters": "the autumn's most promising thriller casting arrives as a six-parter.",
+     "url": "https://www.tomsguide.com/entertainment/streaming/19-must-watch-shows-and-movies-to-watch-in-november-2026-on-netflix-prime-video-hulu-and-more",
+     "source": "tomsguide.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "12 12 12 opens tomorrow on Apple TV",
+     "summary": "the Apple original lands 13 November, the same day Snoopy Presents: 12 Days of Snoopy drops on the service.",
+     "matters": "Apple is stacking its holiday slate into one weekend.",
+     "url": "https://www.tomsguide.com/entertainment/streaming/19-must-watch-shows-and-movies-to-watch-in-november-2026-on-netflix-prime-video-hulu-and-more",
+     "source": "tomsguide.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Emily in Paris gets a final-season teaser",
+     "summary": "the sixth and last run premieres on Christmas Eve, with Lily Collins' Emily choosing between career, Gabriel and Paris, plus detours to Greece and Monaco.",
+     "matters": "Netflix is closing its most reliable European franchise on its own terms.",
+     "url": "https://journalarta.com/en/2026/11/12/tv-news-adults-shaq-snoopy-fx-renewal/",
+     "source": "journalarta.com",
+     "image": null,
+     "body": "FX has renewed the comedy Adults for a 16-episode third season, double the earlier orders. The same TV news roundup covers ABC's Shaq hide-and-seek contest, a Snoopy holiday special on Apple TV, Netflix's The Age of Innocence and the final season of Emily in Paris. The show follows a group of twenty-somethings in New York who lean on each other through love, work, friendship and family. The pickup arrives nearly three months after Season 2 landed. The full season was released on Hulu on August 27, ahead of its weekly run on FX. Series creators Ben Kronengold and Rebecca Shaw have also signed a new overall deal with FX Productions. Jack Innanen, Malik Elassal, Lucy Freyer, Amita Rao and Owen Thiele co-star. ABC has announced Can You Hide... Shaq?, a competition series hosted by comedian Nicole Byer. Eight contestants must hide the 7'1 NBA legend in plain sight in Dallas. They will have to disguise, distract and deceive for a shot at grand prize money. The show premieres with two episodes on Thursday, December 3. The first clip is out from the new Peanuts special 12 Days of Snoopy. In the holiday story, the Peanuts gang discovers a shocking truth: everyone's favorite beagle has somehow ended up on Santa's bad side. Netflix has released first-look photos from its limited series take on Edith Wharton's novel The Age of Innocence. Emma Frost wrote the show and serves as showrunner. Camila Morrone, Kristine Froseth, Ben Radcliffe, Fiona Glascott, Belinda Bromilow, Emma Shipp, John Light and Margo Martindale star. It debuts on February 18, 2027. Netflix describes the story as one of forbidden love in 19th century New York. The streamer has also released a teaser trailer for the sixth and final season of Emily in Paris, which premieres on Christmas Eve. Emily, played by Lily Collins, faces a defining choice between her career, her heart and the life she built in Paris. The season brings a reunion with chef Gabriel and lingering romantic complications. Emily will also visit Greece and…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Netflix dates Permafrost and Ethos season two",
+     "summary": "the Stockholm Nobel-ceremony thriller gets a trailer, and Berkun Oya's Ethos returns after six years with four episodes on 12 November.",
+     "matters": "two very different European bets land in the same week.",
+     "url": "http://www.thefutoncritic.com/news/2026/11/12/adult-swim-a/",
+     "source": "thefutoncritic.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🏛️ Brussels",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "The Digital Fairness Act picks up industry fire",
+     "summary": "the European Tech Alliance, CCIA Europe and ITI warn of overlap and legal uncertainty, and the games industry is demanding a rethink of the loot-box and virtual-currency provisions.",
+     "matters": "a directly applicable regulation replacing the UCPD would hit live-service games hardest.",
+     "url": "https://uk.finance.yahoo.com/news/eu-addictive-app-features-easier-022209946.html",
+     "source": "uk.finance.yahoo.com",
+     "image": null,
+     "body": "Influencers, AI, addiction: EU looks to protect consumers online Raziye Akkoc Wed, 11 November 2026 at 2:37 pm CET 3 min read The EU has a raft of laws covering data protection, artificial intelligence and online content (Martin LELIEVRE) The European Union on Wednesday put forward new rules to crack down on influencer marketing, ban online features that trick Europeans and force platforms to give users the right to turn off \"addictive\" features. The EU already has a raft of laws covering data protection, artificial intelligence and online content but Brussels and campaigners argue there are gaps that leave consumers exposed to harmful digital practices. Now the bloc's executive is laying out legislation for a much-needed update of consumer rules dubbed the \"Digital Fairness Act\" (DFA), aimed at giving Brussels the power to slap fines on companies of up to six percent of their annual turnover in large-scale cases. The financial harms to European consumers are vast: Brussels said it hopes that the new measures could help save EU consumers up to 13.7 billion euros ($15.3 billion) a year. \"At a time when households are under pressure from the cost of living, consumers must be able to trust that the prices they see are the prices they pay, and that they are not being manipulated into spending more than they intend,\" EU consumer protection chief Michael McGrath said in a statement. The commission will have the power to investigate and sanction companies if the issue affects two-thirds of the European Union's 450-million strong population, McGrath said. The European Consumer Organisation's Agustin Reyna said the proposal is a \"much-needed tool to give consumers back control of how much time and money they spend online\". Questions have been raised over the EU's expanding digital rulebook after Brussels unveiled plans to ban children under 13 from social media, and force companies to make platforms safe for use by minors -- in addition to sweeping rules already in place under the Digital Services Act. Umbrella group BusinessEurope, representing companies across the bloc, warned the latest measures risk \"introducing unnecessary obligations and overlapping requirements that undermine legal certainty and run counter to the EU's simplification agenda\". Leading video game lobby groups the European Games Developer Federation and Video Games Europe also said the draft legislation was \"unworkable, unjustified and disproportionate\" and would \"cripple the competitiveness\" of the European industry. But Spanish EU lawmaker Laura Ballarin Cereza said the proposal aimed to…",
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Commission opens consultation on revised DSA election guidelines",
+     "summary": "the update explicitly targets generative AI manipulation and the growing sophistication of coordinated influence operations.",
+     "matters": "platform election risk assessments will be judged against these guidelines.",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act",
+     "source": "digital-strategy.ec.europa.eu",
+     "image": null,
+     "body": "The Digital Services Act (DSA) introduces rules for online services used by European citizens in their everyday life. These services include marketplaces, social media networks, app stores, and online travel and accommodation platforms. The main goal of the DSA is to create a digital space that respects citizens and consumers’ fundamental rights. By establishing a clear set of rules across the EU, the DSA also enables smaller platforms, small and medium enterprises (SMEs) and start-ups to scale up in Europe, fostering innovation, growth and competitiveness. The DSA is complemented by the Digital Markets Act (DMA), which includes rules for gatekeeper online platforms. Gatekeepers function as bottlenecks between businesses and consumers for digital services, affecting competition and the functioning of the EU internal market. Some of these services are also covered in the DSA, but for different reasons and with different types of provisions. The DSA empowers citizens by strengthening the protection of their fundamental rights online and giving them greater control and more choices when they navigate online platforms and search engines. The DSA also requires platforms to minimise the risks of exposing citizens, including children and young people, to illegal and harmful content. With the DSA, your digital rights include: The DSA applies to all companies proportionally to their size. The DSA recognises that the biggest online platforms – those with over 45 million monthly users in the EU – play a significant role in our societies and democracies. They must therefore follow specific rules to ensure they do not pose unintentional risks to us, such as amplifying illegal content and shaping opinion at scale, and to minimise the possibility of malicious actors using them to inflict harm on Europe. Once these risks are identified, these larger platforms must put measures in place to reduce them. Similarly, these platforms must meet other requirements to enhance transparency and accountability . A full list of these platforms is published on the Commission’s website. The Commission enforces the DSA together with Digital Services Coordinators – national authorities who supervise the compliance of the platforms established in their territory. The Commission is primarily responsible for the monitoring and enforcement of the additional obligations applying to the biggest platforms and search engines, such as the measures to mitigate systemic risks. Digital Services Coordinators supervise and enforce compliance with the DSA in their Member States . If you want to file…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "A draft implementing regulation sets AI Act enforcement procedure",
+     "summary": "it governs how AI Office decisions under Articles 75c and 75d are adopted and challenged, alongside the separate general-purpose-model proceedings regulation.",
+     "matters": "the procedural rules decide how expensive a first enforcement case is to fight.",
+     "url": "https://ec.europa.eu/info/law/better-regulation/api/download/090166e535b73093",
+     "source": "ec.europa.eu",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "📅 Tonight",
+   "kind": "fixtures",
+   "items": [
+    {
+     "type": "fixture",
+     "text": "Nations League — Türkiye v Belgium, 18:00"
+    },
+    {
+     "type": "fixture",
+     "text": "Nations League — England v Croatia, 20:45 (Kane set for a record 126th cap)"
+    },
+    {
+     "type": "fixture",
+     "text": "Nations League — Italy v France, 20:45"
+    },
+    {
+     "type": "fixture",
+     "text": "Nations League — Czechia v Spain, 20:45"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Raptors at 76ers, 01:00 (Fri)"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Pistons at Wizards, 01:00 (Fri)"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Mavericks at Timberwolves, 02:00 (Fri)"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Hornets at Suns, 03:00 (Fri)"
+    }
+   ]
+  },
+  {
+   "name": "🏀 NBA",
+   "kind": "scores",
+   "items": [
+    {
+     "type": "score",
+     "group": null,
+     "home": "Pacers",
+     "away": "Wizards",
+     "home_score": 114,
+     "away_score": 101,
+     "note": "Siakam 28 pts, 8 reb",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Cavaliers",
+     "away": "Knicks",
+     "home_score": 115,
+     "away_score": 107,
+     "note": "Harden 32 pts in the conference-finals rematch",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Celtics",
+     "away": "Raptors",
+     "home_score": 98,
+     "away_score": 93,
+     "note": "Tatum 24 pts, 7 reb, 8 ast",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Spurs",
+     "away": "Bulls",
+     "home_score": 124,
+     "away_score": 119,
+     "note": "Wembanyama 32 pts, 9 reb, 5 blk; 22-point comeback, tenth straight win",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Nuggets",
+     "away": "Grizzlies",
+     "home_score": 123,
+     "away_score": 118,
+     "note": "Murray 30 pts (17 in the fourth), Jokic 27 pts, 11 reb, 8 ast",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Lakers",
+     "away": "Bucks",
+     "home_score": 123,
+     "away_score": 112,
+     "note": "Doncic 32 pts, seventh straight win; Bucks fall to 1-11",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Nets",
+     "away": "Pelicans",
+     "home_score": 145,
+     "away_score": 111,
+     "note": "UPSET, Demin 22 pts and Porter Jr 22; Zion 29 in a fourth straight loss",
+     "flag": "UPSET"
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Magic",
+     "away": "Jazz",
+     "home_score": 123,
+     "away_score": 108,
+     "note": "Wagner 38 pts, 8 reb, career high; Jazz lose a tenth straight",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Rockets",
+     "away": "Warriors",
+     "home_score": 115,
+     "away_score": 108,
+     "note": "Sengun 19 pts, 13 reb, 9 ast; Curry left in the first quarter with an abdominal injury",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Trail Blazers",
+     "away": "Thunder",
+     "home_score": 118,
+     "away_score": 108,
+     "note": "Avdija 28 pts, 6 ast, 4 stl",
+     "flag": null
+    }
+   ]
+  },
+  {
+   "name": "📌 Long read",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Alien menace or victim of xenophobia? The battle over Britain's parakeets",
+     "summary": "the Guardian's long read on how a bird that has nested in London for decades became an ecological scapegoat, and why the category of invasive species is itself doing much of the arguing.",
+     "matters": null,
+     "url": "https://www.theguardian.com/news/2026/nov/10/alien-menace-or-victim-of-xenophobia-the-battle-over-britains-parakeets",
+     "source": "theguardian.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  }
+ ]
+}
