@@ -1,0 +1,906 @@
+{
+ "schema": 1,
+ "generated": "2026-11-16T08:04:08",
+ "date": "2026-11-16",
+ "greeting": "Good morning — Monday, 16 November 2026.",
+ "title": "Houthi ballistic missiles aimed at Riyadh were intercepted as Yemen's front collapsed back toward Aden",
+ "workout": "😴 Rest day — next session Tuesday. Nothing logged in Hevy yet.",
+ "audio": "audio/today.mp3",
+ "read_minutes": 14,
+ "sections": [
+  {
+   "name": "🎯 TL;DR",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Houthi ballistic missiles aimed at Riyadh were intercepted as Yemen's front collapsed back toward Aden",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "WIG20 closed Friday at a record 4,298.46, with October core inflation due at 14:00 today",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Police denied pulling 141 Kraków officers to Warsaw before the 7 November attack",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🔄 What changed",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Both Nations League headliners flipped: England won 3-2 in Madrid to end Spain's 43-match unbeaten run, and Belgium's 4-1 win over Italy knocked Italy out of the quarter-finals",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Yesterday's blanket dungeon XP restriction overshot and was rewritten",
+     "summary": "nullification now only applies when the high-level player is more than 12 levels above the enemies.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "A Vulcan rocket failed ten minutes into flight, destroying 40 Amazon Leo satellites on ULA's first mission failure",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🔁 Following",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Donbas-for-NATO",
+     "summary": "no change since Zelensky confirmed the US floated territory for membership; the talks stay in Abu Dhabi.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Nvidia earnings",
+     "summary": "Tuesday after the bell, with the stock down 25% in a month and the board's Wachtell review still running.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Kraków attack inquiry",
+     "summary": "prosecutors merged the Rynek and Ostrowiec shootings into one probe; the Sejm's special services committee takes it up on Wednesday.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🌍 World",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Saudi-led coalition intercepts two ballistic missiles aimed at Riyadh and three drones over the Eastern Province",
+     "summary": "the Houthis claimed the launches as their pressure forced Saudi-backed forces to pull back from Bab el-Mandeb to defend Aden.",
+     "matters": "the war now hits the Saudi capital and the oil-producing east in the same night.",
+     "url": "https://www.reuters.com/world/middle-east/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-eastern-province-2026-11-15/",
+     "source": "reuters.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Drones strike three commercial ships inside Romanian territorial waters near the Sulina canal",
+     "summary": "the Greek-flagged Evia Petrol V, the bulk carrier Marsol and the tanker Ali Najafov were hit four and five nautical miles offshore, with no casualties and the fires put out by their crews.",
+     "matters": "the first strikes inside a NATO member's waters on the export lane Ukraine depends on.",
+     "url": "https://www.euronews.com/2026/11/15/three-commercial-vessels-struck-by-drones-near-romanias-black-sea-pm-says",
+     "source": "euronews.com",
+     "image": "https://images.euronews.com/articles/stories/09/99/36/80/189x106_cmsv2_f40b3782-3d6b-5fd8-af0d-f5e439df9116-9993680.jpg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Estonia will shut all three road border crossings with Russia on 1 December",
+     "summary": "eight Latvian residents were detained over an attempted arson attack on drone maker Threod Systems that KAPO attributes to the GRU.",
+     "matters": "Tallinn is treating a foiled fire as grounds to seal a NATO external border.",
+     "url": "https://www.politico.eu/article/estonia-accuses-russia-of-attempted-arson-attack-on-drone-maker/",
+     "source": "politico.eu",
+     "image": "https://www.politico.eu/cdn-cgi/image/width=1160,height=773,quality=80,onerror=redirect,format=auto/wp-content/uploads/2026/11/15/GettyImages-2299896645-scaled.jpg",
+     "body": "Tallinn’s Internal Security Service said an attempted arson attack was commissioned by Russia’s GRU military intelligence agency. Intruders were found at Threod Systems in Viimsi, outside Tallinn, shortly after 3 a.m. on Saturday trying to break into the building with the aim of setting it on fire and causing an explosion, Prosecutor General Astrid Asi said Sunday. Following the incident, Estonian Foreign Minister Margus Tsahkna wrote on X : \"Following clear evidence that Russia’s military intelligence service GRU ordered a sabotage attack against an Estonian defense industry company, Estonia will close all Estonian-Russian border crossing points as of 1 December.\" He added: \"Russia must understand that hostile actions against Estonia come with consequences. Attempts to intimidate, destabilise, or undermine our security will not go unanswered.\" Threod's security staff stopped the attack before it could cause significant damage, authorities said. Eight suspects, all residents of neighboring Latvia, were detained. Five have been remanded in custody. Estonia's Internal Security Service, known as KAPO, said intelligence gathered by its officers showed the attack was commissioned by Russia's GRU military intelligence agency. Threod makes long-range reconnaissance and attack drones. Estonian Prime Minister Kristen Michal said Sunday: \"This is part of Russia’s broader hybrid war against Europe, with the aim of decreasing support to Ukraine and pressure on Russia. We will not be intimidated.\" The latest attempt follows an August arson attack on Milrem Robotics, which supplies unmanned ground vehicles to Ukraine. Estonian authorities formally blamed Russian intelligence for that incident in September. KAPO has warned that Russia is increasingly targeting European defense manufacturers to disrupt military production and deliveries to Ukraine. The investigation into Saturday's attempted attack remains ongoing. Samir Abu Younis, who helped plan and oversee the Oct. 7 massacre, took control of Hamas’ Rafah Brigade just two months ago. Some 40% of female soldiers and 20% of male soldiers said they had experienced at least one form of sexual misconduct in the past year. Internal German defense ministry briefing notes warn that Washington is watching Europe’s push for greater weapons…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Hundreds of thousands fill Letná in Prague against Babiš's public-media funding overhaul",
+     "summary": "organisers put the crowd at 350,000 to 450,000, the largest rally since the Velvet Revolution.",
+     "matters": "a licence-fee fight has become a democracy test two days before the 17 November anniversary.",
+     "url": "https://www.euronews.com/2026/11/15/hundreds-of-thousands-in-prague-protest-czech-governments-public-media-funding-plans",
+     "source": "euronews.com",
+     "image": "https://images.euronews.com/articles/stories/09/99/37/40/189x106_cmsv2_feeaf12c-f357-5a48-88e3-dc0e500c64b0-9993740.jpg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "ULA's Vulcan fails ten minutes after liftoff, destroying 40 Amazon Leo satellites",
+     "summary": "the hydrogen-fuelled Centaur upper stage was firing when the anomaly hit, the cause is not yet known, and the rocket is grounded pending review.",
+     "matters": "Amazon's Starlink rival loses its heaviest single batch on the first of 38 booked Vulcan flights.",
+     "url": "https://www.reuters.com/3fec1b0a85a0/business/aerospace-defense/us-rocket-fails-after-launch-payload-amazon-internet-satellites-destroyed-2026-11-15",
+     "source": "reuters.com",
+     "image": "https://www.reuters.com/resizer/v2/FRB7J4SXOBJQFDRFJTTBTOPSWQ.jpg",
+     "body": "Joey Roulette is a space reporter for Reuters covering the business and politics of the global space industry, often focusing on space power competition and how commercial interests intersect with international relations. He was part of a team that won the 2024 Pulitzer Prize in national reporting for Reuters' coverage of Elon Musk's business empire. On the space beat for roughly a decade, Joey previously worked for the New York Times, the Verge, and various publications in…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🇵🇱 Polska",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Policja odpiera zarzuty po zamachu w Krakowie",
+     "summary": "komenda zapewnia, że \"ani jeden policjant\" nie został oddelegowany z Krakowa do Warszawy przed atakiem z 7 listopada, odpierając doniesienia mediów i opozycji.",
+     "matters": "spór o obsadę patroli w dniu zamachu stał się osią politycznej walki.",
+     "url": "https://wiadomosci.onet.pl/kraj/policja-wydala-mocne-oswiadczenie-reaguje-na-zarzuty-po-zamachu-w-krakowie/23qtxb9",
+     "source": "wiadomosci.onet.pl",
+     "image": null,
+     "body": "Skróć artykuł 6773 Zapytaj o więcej Onet Czat z AI \"Ani jeden policjant Komendy Miejskiej Policji w Krakowie nie został delegowany do Warszawy. [...] Prosimy o niewprowadzanie w błąd co do stanu bezpieczeństwa w Krakowie\" — napisała Małopolska…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Warszawa zdejmuje betonowe zapory, autobusy wracają na stałe trasy",
+     "summary": "od poniedziałku 16 listopada dziesięć linii, w tym 106, 175 i 503, wraca na trasy w rejonie Krakowskiego Przedmieścia po uzgodnieniu z policją.",
+     "matters": "miasto odkręca nadzwyczajne środki wprowadzone po ataku.",
+     "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-betonowe-zapory-znikaja-autobusy-wracaja-na-stale-trasy-st9339730",
+     "source": "tvn24.pl",
+     "image": "https://tvn24.pl/_e/i/tvnwarszawa/najnowsze/cdn-zdjecie-betonowe-zapory-znikaja-z-drog-laczacych-sie-z-krakowskim-przedmiesciem-ph9339725/alternates/WEBP_LANDSCAPE_1620",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Cyberatak na Autopay",
+     "summary": "spółka potwierdziła nieautoryzowany dostęp do infrastruktury i części danych dotyczących płatności z 11 listopada; klienci są informowani indywidualnie, sprawa trafiła do UODO, policji i CSIRT KNF.",
+     "matters": "atak nosił cechy automatyzacji silnie wspieranej przez AI i nie wykorzystywał phishingu ani złośliwego oprogramowania.",
+     "url": "https://www.gazetaprawna.pl/wiadomosci/kraj/artykuly/11344698,cyberatak-na-autopay-firma-informuje-wszystkie-osoby-ktorych-dane-mogly-wyciec.html",
+     "source": "gazetaprawna.pl",
+     "image": "https://webp-konwerter.incdn.pl/eyJmIjoiaHR0cHM6Ly9pbmZvci13ZWItc3RhdGljLmluY2RuL/nBsL2RncHN0YXRpYy9kb2N1bWVudHMvRk9CMDAwMDAwMDAwMD/AwNzcwMjA4Ny9maWxlcy9hdGFrLWN5YmVyYmV6cGllY3plbnN/0d28tY3liZXJhdGFrLTM5MzE5MjYzLmpwZyIsInciOjM4NDB9",
+     "body": "Jak przekazała spółka, 11 listopada 2026 r. Autopay S.A. stwierdziła nieautoryzowany dostęp do infrastruktury oraz części danych dotyczących płatności przetworzonych przez spółkę. Na tym etapie Autopay S.A. nie podaje liczby osób, których mogło dotyczyć zdarzenie i podkreśla, że jego zakres jest przedmiotem szczegółowej analizy bezpieczeństwa . - Każda osoba, której dane mogą dotyczyć, otrzymuje od nas bezpośrednią informację wraz z konkretnymi zaleceniami. Do tej pory nie potwierdziliśmy skopiowania ani wykorzystania danych, ale nie możemy tego całkowicie wykluczyć - dlatego informujemy klientów bezpośrednio , aby zapobiec ewentualnym nadużyciom - przekazała Zuzanna Szybisty z Biura Prasowego Autopay. Pytana o to, czy płatności przez Autopay są bezpieczne, odpowiedziała, że tak. - Zdarzenie nie miało i nie ma wpływu na procesowanie transakcji. Nasz system posiada wielopoziomowe zabezpieczenia w celu ochrony przed wieloma typami znanych zagrożeń - poinformowała. Zwróciła uwagę, że był to atak „zupełnie nowego typu z masowym wykorzystaniem narzędzi sztucznej inteligencji, na które wiele instytucji i firm nie jest jeszcze przygotowanych”. - Niezwłocznie po wykryciu zdarzenia zablokowaliśmy nieuprawniony dostęp, odcięliśmy wszystkie zidentyfikowane kanały dostępu, unieważniliśmy poświadczenia, a zaatakowane serwery odizolowaliśmy, zabezpieczyliśmy do celów dowodowych i odbudowaliśmy. Wdrożyliśmy też dodatkowe zaawansowane mechanizmy monitorowania. Usługi, były i są dostępne przez cały czas - zaznaczyła. 11 listopada spółka stwierdziła nieautoryzowany dostęp do części infrastruktury oraz części danych dotyczących płatności przetworzonych przez spółkę. Z dotychczasowej analizy wynika, że atak nie wykorzystywał złośliwego oprogramowania ani phishingu. Cyberatak - jak podaje Autopay - nosił cechy automatyzacji silnie wspieranej przez AI. - Szczegółowy opis sposobu działania sprawców przekazaliśmy do CSIRT KNF do dystrybucji w sektorze finansowym. Ze względów bezpieczeństwa oraz ochrony innych podmiotów na rynku nie podajemy publicznie szczegółów technicznych - poinformowała Zuzanna Szybisty. Dodała, że zdarzenie zostało zgłoszone do Prezesa Urzędu Ochrony Danych Osobowych, Policji oraz CSIRT KNF i zapewniła, że właściwe organy, w tym organy nadzoru, są informowane na bieżąco. - Współpracujemy z nimi przy wyjaśnianiu zdarzenia -…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Rząd zamrozi ceny gazu na 2027 rok",
+     "summary": "projekt przewiduje maksymalną cenę 197,29 zł/MWh dla odbiorców chronionych, w tym gospodarstw domowych, przez cały przyszły rok, bez VAT i akcyzy.",
+     "matters": "minister energii chce, by ustawa trafiła do Sejmu jeszcze w listopadzie.",
+     "url": "https://www.bankier.pl/wiadomosc/Rzad-zamrozi-ceny-gazu-na-2027-rok-Maksymalna-stawka-wyniesie-197-29-zl-MWh-9228764.html",
+     "source": "bankier.pl",
+     "image": "https://galeria.bankier.pl/p/e/4/2a8df5833d3ced-948-568-0-76-1900-1139.jpg",
+     "body": "Skomentuj Od 1 stycznia do 31 grudnia 2027 r. maksymalna cena gazu m.in. dla gospodarstw domowych ma wynieść 197,29 zł/MWh, czyli tyle ile w tym roku - wynika z projektu ustawy w tej sprawie. Według resortu energii bez tych rozwiązań gospodarstwa domowe zapłaciłby za gaz od 77 zł do ponad 1,8 tys. zł więcej. fot. Aristal / / Pixabay W piątek na stronach Rządowego Centrum Legislacji opublikowano projekt ustawy o szczególnej ochronie niektórych odbiorców paliw gazowych w 2027 r. w związku z sytuacją na rynku gazu oraz o zmianie niektórych ustaw. Został on przygotowany przez resort energii. Projektowane przepisy zakładają, że w okresie od 1 stycznia do 31 grudnia 2027 r. obowiązywać będzie maksymalna cena gazu dla odbiorców chronionych, w tym gospodarstw domowych. Dotyczyć to będzie również wspólnot i spółdzielni mieszkaniowych, a także podmiotów realizujących ważne zadania z zakresu użyteczności publicznej takie jak np. szkoły, szpitale, domów opieki, kościoły, noclegownie. Zgodnie z projektem sprzedawcy gazu w rozliczeniach z wyżej wymienionymi odbiorcami końcowymi będą stosowali cenę maksymalną wynoszącą 197,29 zł/MWh. Cena ta nie nie zawiera podatku VAT oraz podatku akcyzowego. „Poziom tej ceny odpowiada poziomowi ceny paliw gazowych w taryfie przedsiębiorstwa energetycznego będącego sprzedawcą z urzędu ustaloną na poziomie 197,29 zł/MWh i obowiązującą do końca 2026 r. (...)” - wskazano w uzasadnieniu projektu. Minister energii Miłosz Motyka powiedział w piątek wieczorem na antenie Polsat News, że liczy na to, iż projekt trafi pod obrady Sejmu w listopadzie, tak by do końca roku ustawa w tej sprawie mogła trafić na biurko prezydenta. „Ustalenie maksymalnej ceny paliw gazowych na poziomie określonym w ustawie ograniczy wpływ wzrostu cen rynkowych na wysokość rachunków ponoszonych przez odbiorców objętych ochroną w 2027 r. Zgodnie z przyjętymi w projekcie ustawy założeniami, gospodarstwa domowe oszczędzą średnio w skali roku od 77 zł (w przypadku tzw. kuchenkowiczów) do 1863 zł (w przypadku gospodarstw domowych wykorzystujących paliw gazowych do celów grzewczych)” - wskazano w ocenie skutków regulacji dołączonej do projektu ustawy. W projekcie utrzymuje się wprowadzony ustawą z 26 stycznia 2022 r. mechanizm składania oświadczeń przez odbiorców (np. spółdzielnie mieszkaniowe) przedsiębiorcom energetycznym dostarczającym gaz i które będą stanowiły podstawę do objęcia ich mechanizmem ochronnym. Gospodarstwa domowe takich oświadczeń nie będą musiały składać. Nowe przepisy przewidują wprowadzenie mechanizmu ograniczenia nadzwyczajnych zysków, które to mają…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Jedność po zamachu się kończy",
+     "summary": "niemiecka prasa opisuje, jak wspólny marsz milczenia Nawrockiego i Tuska rozpadł się w ciągu tygodnia w spór o ton wypowiedzi i o to, kto gra ofiarami.",
+     "matters": "prawica szykuje sojusz, zanim opadnie żałoba.",
+     "url": "https://www.onet.pl/informacje/deutsche-welle/niemiecka-prasa-zamach-zjednoczyl-polakow-ale-wrogosc-powrocila/85lhpfy,0666d3f1",
+     "source": "onet.pl",
+     "image": null,
+     "body": "Skróć artykuł 637 Zapytaj o więcej Onet Czat z AI Zamach w Krakowie tylko na chwilę powstrzymał Polaków, jednak podczas Marszu Niepodległości wrogość powróciła. W dodatku doszło do godnego uwagi politycznego zwrotu — pisze publicysta…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "💰 Money",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "WIG20 4,298.5 · USD/PLN 4.002 (+0.46%) · EUR/PLN 4.407 (+0.15%) · BTC $64,693 (+0.4%) · Brent $96.50 (+0.7%)",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Futures edge higher before Nvidia and the Anthropic IPO",
+     "summary": "Nasdaq-100 futures up 0.6%, S&P 500 up 0.3% and the Dow up 71 points, with Nvidia reporting after Tuesday's bell and Anthropic pricing at $70-78 a share.",
+     "matters": "two events this week decide whether the AI trade stabilises or rolls over.",
+     "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html",
+     "source": "cnbc.com",
+     "image": "https://image.cnbcfm.com/api/v1/image/108548216-1794329432695-Traders-Photo-20261110-KK-PRESS-006.jpg?v=1794329596&w=1920&h=1080",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Wall Street's best week since August despite Friday's slide",
+     "summary": "the Dow added 50.46 points to 52,347.55, the S&P 500 lost 30.73 to 7,561.67 and the Nasdaq fell 229.82 to 25,136.27, yet all three rose more than 2% on the week.",
+     "matters": "the bounce came from breadth, not from chips.",
+     "url": "http://www.economictimes.indiatimes.com/news/international/us/us-stock-market-today-factors-that-will-dictate-sp-500-nasdaq-dow-jones-russell-2000-nvidia-other-wall-street-ai-stocks-under-scanner/printarticle/135868576.cms",
+     "source": "economictimes.indiatimes.com",
+     "image": null,
+     "body": "Sass Jordan cause of death: How did ‘Racine’ singer die after cancelling shows over ‘serious medical…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "WIG20's record close",
+     "summary": "4,298.46 on Friday, up 4.04% on the week for the best run since April, helped by a złoty weaker than 4.00 to the dollar.",
+     "matters": "October core inflation lands at 14:00 today, consensus 3.0% against 3.1% in September.",
+     "url": "https://iqrynku.pl/blog/dzien-na-rynku-15-listopada-2026-bitcoin-przy-62-tysiacach-dolarow-i-tydzien-wynikow-nvidii-zapisu-z-fedu-oraz-debiutu-anthropic",
+     "source": "iqrynku.pl",
+     "image": null,
+     "body": "Weekend nie zatrzymał przeceny kryptowalut: bitcoin, który w sobotę kosztował od 65 do 67 tysięcy dolarów, w niedzielę handlowany był w przedziale od 62 081 do 65 372 dolarów, indeks strachu i chciwości zszedł do 10 punktów, a w ciągu doby zlikwidowano pozycje z dźwignią warte około 2 miliardów dolarów. Giełdy wchodzą w tydzień z zupełnie innego miejsca: WIG20 zamknął piątek na rekordowych 4298,46 punktu, a przed rynkiem stoją trzy daty, które ten tydzień rozstrzygną - wyniki Nvidii we wtorek, zapis dyskusji Fedu w środę i debiut Anthropic na Nasdaq w czwartek. Niedziela 15 listopada 2026 roku nie przyniosła sesji na żadnej dużej giełdzie, ale przyniosła rozstrzygnięcie pytania, które zostało otwarte dzień wcześniej. W sobotę napisaliśmy, że bitcoin wszedł w weekend poniżej średniej z 200 tygodni i że poniedziałkowe otwarcie pokaże, czy weekendowa podaż była wyczerpaniem, czy początkiem. Odpowiedź przyszła szybciej, bo rynek kryptowalut pracuje całą dobę: w niedzielę kurs zszedł jeszcze niżej, do przedziału od 62 do 65 tysięcy dolarów, a indeks nastrojów spadł do 10 punktów, czyli najniżej w tym cyklu. Giełdy akcji wchodzą w ten tydzień z przeciwnego miejsca, bo WIG20 zamknął piątek na historycznym maksimum, a Wall Street zaliczyła najlepszy tydzień od sierpnia. Rozjazd między tymi dwoma rynkami jest dziś najważniejszą rzeczą na wykresach i to on będzie testowany przez najbliższe pięć sesji. −123 −108 02.10 13.11 w dół 220 w górę 213 walorów Grafika z danych serwisu: sygnały i notowania EOD walorów GPW, sesja 13.11.2026. Weekend na kryptowalutach: 62 tysiące dolarów, strach na 10 punktach i 2 miliardy likwidacji Ceny podajemy jako przedziały, bo rynek handluje w weekend i każdy odczyt jest aktualny wyłącznie na swoją godzinę. W niedzielę 15 listopada bitcoin kosztował od 62 081 dolarów według serwisu crypto.news, przez 62 199 dolarów w odczycie CoinGecko z 1:44 czasu UTC w relacji Cryptotickera i około 62 343 dolarów według danych CoinGlass w relacji serwisu Aktualita, po 64 547 dolarów w aktualizacji CoinCodex z 6:00 UTC, 64 821 dolarów według CoinDesk i 65 372 dolary w porannym zestawieniu Tokenpost. Jeden z serwisów podaje 65 201 dolarów w odczycie z 14:13 UTC. Rozrzut jest więc szeroki, ale dolna krawędź przedziału przesunęła się w ciągu doby o kilka tysięcy dolarów w dół, a to oznacza, że weekend nie był pauzą w przecenie. Dwie liczby opisują ten ruch lepiej niż sama cena. Pierwsza to indeks strachu i chciwości , który według alternative.me zszedł w niedzielę do 10 punktów , po 13 punktach w sobotę i 20 punktach w piątek. Inne wskazania są wyższe:…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Nvidia loses about $190 billion in a day as Huang's exit deepens",
+     "summary": "the stock fell $7.97, or 4.3%, after the board hired Wachtell to investigate, with CFO Colette Kress now interim CEO.",
+     "matters": "a shareholder class action now covers anyone who bought back to October 2025.",
+     "url": "https://apnews.com/article/nvidia-china-ai-jensen-huang-affair-1f060e52b308cb2c649807518d5081e2",
+     "source": "apnews.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "💻 AI & Tech",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Anthropic's IPO prices at $70-78 a share for a roughly $1.4 trillion valuation",
+     "summary": "the listing lands this week and could raise up to $100 billion, the largest IPO on record.",
+     "matters": "the Fable 5.2 launch was the roadshow's technical argument, and the market gets to price it now.",
+     "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html",
+     "source": "cnbc.com",
+     "image": "https://image.cnbcfm.com/api/v1/image/108548216-1794329432695-Traders-Photo-20261110-KK-PRESS-006.jpg?v=1794329596&w=1920&h=1080",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Claude Code Projects rebuilt around a proactive coordinator",
+     "summary": "each thread is now a full cloud session on its own branch and repo copy, with /btw and /fork working inside projects and a cap of 200 new threads a day.",
+     "matters": "parallel workers bill against the same plan limits, so five threads burn quota five times faster.",
+     "url": "https://dev.to/piekwerk/claude-code-projects-now-talks-back-7-facts-about-the-proactive-coordinator-btw-and-fork-5h58",
+     "source": "dev.to",
+     "image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fx52ljz4qstyu2s706wxo.png",
+     "body": "On November 13 Anthropic's developer account @ClaudeDevs announced \"big updates\" to Projects in Claude Code . Projects is the mode where one coordinator conversation splits your work across parallel threads, and per Anthropic's docs each thread is a full Claude Code cloud session with its own copy of the repository and its own Git branch. The update changes who does the talking: the coordinator now answers your questions in the project chat and posts status updates on running threads without being asked. I have not run it yet. The beta is staged and narrow, and my accounts are not in it. What follows is a close read of the announcement thread, its follow-up posts and the docs coverage, because several details change how you would brief a project before you ever get access. The same week the CLI itself shipped plugin version-range pinning , so the surface is moving fast. Five follow-up posts from @ClaudeDevs listed the additions: the proactive coordinator, /btw and /fork now working inside projects, reminders on threads, read-only sharing links for individual threads, and a recents row with artifact thumbnails in the threads panel. Project settings and local folder access got simpler too. It is a public beta on the paid individual plans (Pro and Max in the announcement, Ultra also listed in the docs), rolling out in stages with a waitlist . Team and Enterprise come later. Fact 1. The coordinator is now \"much more proactive\", in Anthropic's words. You can ask the project chat which threads are still running, which pull requests need review and what is blocked, and it reports back. It also posts updates as threads progress instead of waiting to be polled. If you have been babysitting five terminal windows to know what finished, that is the pain this aims at. Fact 2. The coordinator reports what its threads tell it. It does not see every internal step of every thread, so status is a summary the threads produce. When a thread goes wrong, the project chat will not show you the failing command or the tool call that returned garbage. You open that thread and read its transcript. The coordinator reduces how often you poll, not how carefully you debug. Fact 3. /btw has existed in terminal Claude Code for a while. There it asks a side question and shows the answer in an overlay, and while answering it cannot read files or run commands. Inside Projects it does something bigger: it opens a separate thread that can do real work, and the thread you were in stays on topic. Fact 4. In the terminal, /fork copies your whole current session into a background session…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "GitHub Copilot retires three models today",
+     "summary": "Claude Opus 4.8, Claude Opus 5 and GPT-5.6 Terra are deprecated across all experiences, with Opus 5.5, GPT-6.1 Sol and GPT-6 Luna as the replacements.",
+     "matters": "hardcoded model IDs in tooling start failing quietly unless a fallback is explicit.",
+     "url": "https://www.ainewsinfocus.com/updates?lang=en",
+     "source": "ainewsinfocus.com",
+     "image": null,
+     "body": "GitHub has announced that GPT-6.1 Terra, GPT-6.1, GPT-6.1 Mini, GPT-6 Mini, GPT-6 Mini High, GPT-6.1 Attributable Pro and Gemini 4 Argon will be removed from the Copilot model picker in…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "US and Russia set to block a mandate for binding rules on autonomous weapons",
+     "summary": "the UN meeting opening in Geneva today decides whether to launch negotiations on lethal autonomous weapons systems.",
+     "matters": "semi-autonomous weapons are already in use in Ukraine, Sudan and the Middle East with no legal framework.",
+     "url": "https://www.khanlist.com/story/us-and-russia-to-oppose-talks-on-limiting-autonomous-weapons-2d37ef2d",
+     "source": "khanlist.com",
+     "image": null,
+     "body": "KhanList aggregates and links to publicly available news content. We do not host full articles from third-party sources. Always verify important information with original…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "OpenAI publishes a lattice formulation of the Standard Model",
+     "summary": "the paper credits GPT-6 Astra with helping turn the idea into a detailed derivation.",
+     "matters": "the first physics result where a general model is named as part of the reasoning, not the typing.",
+     "url": "https://openai.com/news/",
+     "source": "openai.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎮 Games & Dev",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Dalamud 15.0.4.0 · .NET 10.0.14 · game build 2026.11.03 · last changelog 10 Nov",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "FFXIV x FFXVI crossover returns on 18 November",
+     "summary": "The Path Infernal runs to 9 December and re-issues the Torgal mount, Clive's Metian attire, a minion and orchestrion rolls.",
+     "matters": "a second window for the only FFXVI cosmetics in the game.",
+     "url": "https://na.finalfantasyxiv.com/lodestone/news/",
+     "source": "na.finalfantasyxiv.com",
+     "image": "https://lds-img.finalfantasyxiv.com/h/a/1LbK-2Cqoku3zorQFR0VQ6jP0Y.png",
+     "body": "Pre-orders on PlayStation™Store, Microsoft Store, Nintendo eShop, Steam, and the Square Enix Store, including the Collector's Bundle and Collector's Box, are scheduled to begin at 10:00 a.m. (PST). Pre-order to immediately receive in-game items—a new minion and an accessory that increases EXP earned—and embark on your journey in Evercold with early access before launch! With the release of Patch 7.58, scheduled for Tuesday, November 10, 2026 , same-region player matching ─previously introduced to the Japan data center─will be implemented on the North American and European data centers. Matchmaking and party recruitment have thus far been limited to players on the same logical data center. However, with the introduction of same-region player matching, the scope will expand to cover all those on the same physical data center. This means that all players within the same physical data center will be eligible for matchmaking and party recruitment, regardless of their current world. Further information can be found below on the purpose and impact of same-region player matching. * The maintenance accompanying the release of Patch 7.58 is scheduled to last 24 hours. The maintenance schedule will be announced in the News once finalized. Read on for details. Starting Monday, November 2, 2026 at around 12:00 a.m. (PST) , the FINAL FANTASY XIV Online Store will be hosting a limited-time sale featuring commemorative items from Fan Festival 2023-2024 and earlier! Visit the FINAL FANTASY XIV Online Store . * The sale will begin after the scheduled maintenance ends on Monday, November 2, 2026 at around 12:00 a.m. (PST). Please visit the News section for detailed maintenance information. * Please note that there may be a delay in the delivery of items directly after sales commence due to congestion of the delivery system. Your next adventure is almost here! The release date for FINAL FANTASY XIV: Evercold has been revealed, with pre-orders opening soon! Pre-order to receive a variety of bonuses and early access to the Fourth a few days before launch. Scheduled for Friday, February 19, 2027 at 1:00 a.m. (PST) Visit the FINAL FANTASY XIV: Evercold website for more details. Ticket for viewing both days: 4,950 yen (tax included) * A 770 yen (tax included) system usage fee will be added separately. * A portion of the comments posted during the performance will be available to view via the chat replay feature when ready. Comments cannot be posted during the archive viewing period. Purchase a ticket for the stream. * A free Plus member ID is required to purchase a ticket for…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Evercold pre-orders open with a February date",
+     "summary": "the expansion now launches 23 February 2027 with early access from 19 February, after slipping out of January.",
+     "matters": "pre-order bonuses include an EXP-boosting accessory, so the slip moves the whole early gearing curve.",
+     "url": "https://www.ffxivpro.com/news",
+     "source": "ffxivpro.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Patch 7.58's regional matching came with a migration cost",
+     "summary": "cross-world linkshells, PvP teams and fellowships merged into one database per physical DC, and duplicated names took numeric suffixes.",
+     "matters": "anything keying on CWLS or fellowship names now has to tolerate a suffix that is already live on NA and EU.",
+     "url": "https://na.finalfantasyxiv.com/lodestone/topics/detail/50458eeb98ca9466c69b85074f5326be0b3f3a94",
+     "source": "na.finalfantasyxiv.com",
+     "image": "https://img.finalfantasyxiv.com/t/50458eeb98ca9466c69b85074f5326be0b3f3a94.png",
+     "body": "With the release of Patch 7.58, scheduled for Tuesday, November 10, 2026 , same-region player matching ─previously introduced to the Japan data center─will be implemented on the North American and European data centers. Matchmaking and party recruitment have thus far been limited to players on the same logical data center. However, with the introduction of same-region player matching, the scope will expand to cover all those on the same physical data center. This means that all players within the same physical data center will be eligible for matchmaking and party recruitment, regardless of their current world. Further information can be found below on the purpose and impact of same-region player matching. * The maintenance accompanying the release of Patch 7.58 is scheduled to last 24 hours. The maintenance schedule will be announced in the News once finalized. To better understand same-region player matching, it is useful to start with the structure of FFXIV's data centers. * See the current data center structure here . Physical Data Centers (Physical DC) The physical DCs (represented in blue on the diagram) are located in four regions : Japan, North America, Europe, and Oceania. The closer your place of residence is to the physical DC, the less likely you are to experience network lag; as such, players typically choose the physical DC located closest to their residence. Logical Data Centers (Logical DC) Each physical DC contains one to four logical DCs (represented in green on the diagram). Worlds Each logical DC contains five to eight Worlds (represented in gray on the diagram). Once same-region player matching is introduced in Patch 7.58, scheduled for Tuesday, November 10, 2026 , features that were restricted to the same logical DC will become usable across all logical DCs in the same physical DC (the same region). There will be no change to features only accessible on your Home World, or those that already operated across the same physical DC. Going forward, the rules for what can and cannot be carried out on a world in another logical DC will be the same as those currently in place for the World Visit system . View more information on the World Visit system here . The Data Center Travel system will no longer allow travel between logical DCs within North America, nor between logical DCs within Europe. However, it will still allow travel from the North American and European DCs to the Oceania DC. As cross-world linkshells, PvP Teams and Fellowships will be available regardless of current logical DC, they will be consolidated into a single…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🐉 World of Warcraft Forever",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Dungeon XP nullification relaxed to a 12-level threshold",
+     "summary": "after the blanket rule broke dungeons with wide enemy level ranges, XP is now zeroed only when the high-level player is more than 12 levels above the enemies.",
+     "matters": "the carry meta reopens for any group inside that band.",
+     "url": "https://www.wowhead.com/blue-tracker/topic/eu/player-level-dungeon-xp-adjustment-15-november-642962",
+     "source": "wowhead.com",
+     "image": null,
+     "body": null,
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Faction balance enforced at character creation on PvP servers",
+     "summary": "creating a character on the more populated faction now becomes progressively harder.",
+     "matters": "faction locks are back as a live constraint rather than a launch-week footnote.",
+     "url": "https://arctium.io/blue-posts/1931",
+     "source": "arctium.io",
+     "image": null,
+     "body": "Arctium App All News Arctium App Blue Posts Every Blizzard forum thread and news article we have tracked, newest first. MMO news, game modding and the Arctium App, made by people who play these games…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "13 November hotfixes touch class mechanics and zone population",
+     "summary": "diminishing returns against stuns fixed in both directions, Wild Growth's move-cast removed, Frost Nova break behaviour corrected, Judgement of Command reclassified as a melee attack.",
+     "matters": "several of these move PvP breakpoints rather than just fixing typos.",
+     "url": "https://www.wowhead.com/forever/news/many-fixes-to-dungeons-quests-enemies-and-classes-wow-forever-hotfixes-for-383876",
+     "source": "wowhead.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Venomous Abyss nerfed across difficulties",
+     "summary": "Ula'tek, Vashnik and the wider raid took cuts on Heroic and Mythic in 12.1.5, and Tortollan NPCs including the Lost Explorers were renamed.",
+     "matters": "the Mythic curve opens up mid-tier without waiting for a new build.",
+     "url": "https://www.wowhead.com/ptr-2",
+     "source": "wowhead.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎵 Music",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "TOMORROW X TOGETHER release 'PERFECT STORM' today",
+     "summary": "the ninth mini-album follows a three-night KSPO Dome run that opened the STEAL THE WIND tour before roughly 32,000 fans.",
+     "matters": "the shows previewed the full tracklist, so the setlist changes from tonight.",
+     "url": "https://global.specialtimes.co.kr/news/tomorrow-x-together-steal-the-wind-tour-seoul",
+     "source": "global.specialtimes.co.kr",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Olamide's 'Time and Space' arrives today",
+     "summary": "the YBNL boss confirmed the title and date after announcing an O2 Arena show in October.",
+     "matters": "Nigerian hip-hop's most consistent catalogue gets a new project with an arena already booked.",
+     "url": "https://notjustok.com/news/olamide-confirms-release-date-and-title-of-new-album/",
+     "source": "notjustok.com",
+     "image": null,
+     "body": "Olamide in an official announcement has confirmed the release date as well as the title of his new and highly anticipated album. Nigerian rapper and music executive Olamide has announced the title and release date of his upcoming album, Time and Space , scheduled to arrive on November 16, 2026. The YBNL Nation boss unveiled the project in an announcement that has sparked excitement among fans eager to hear new music from the award-winning rapper. Titled Time and Space , the forthcoming album marks Olamide’s next major project as he continues to maintain his position as one of the most influential figures in Nigerian hip-hop and Afrobeats. This announcement follows his O2 Arena tour confirmation which emerged on Monday, October 19, 2026. Over the years, Olamide has built an extensive catalogue of successful albums and hit records, while also playing a significant role in shaping the careers of emerging Nigerian artists through his YBNL imprint. With the album’s title and release date now confirmed, attention will turn to further details about the project, including its tracklist, potential collaborations and the sound Olamide intends to…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Disfear's 'The Last Nail' is out this week",
+     "summary": "recorded before the deaths of vocalist Tomas Lindberg and drummer Marcus Andersson, it closes the D-beat band's catalogue.",
+     "matters": "a posthumous record that was finished, not assembled.",
+     "url": "https://tinnitist.com/2026/11/15/next-week-in-music-november-16-22-the-short-list-18-titles-you-want-to-hear/",
+     "source": "tinnitist.com",
+     "image": "https://tinnitist.com/wp-content/uploads/2026/11/Joe-Strummer-003-The-101ers-Years-1974-1976-640x640.jpeg",
+     "body": "THE EDITED PRESS RELEASE: “Fourteen years have passed since Woollen Kits released two albums in a single year ( Woollen Kits and Four Girls , both 2012), but Melbourne/Naarm’s beloved Kits are back to remind us what we’ve been missing all this time. Weather The Storm is the title of their new record, and across 10 tracks it’s clear just how well they can write a hook, a verse, a chorus, a song; bringing together themes of everyday life, love and sincerity with aphorisms, stories and the classic sound we know and…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Beck adds a one-off Melbourne show",
+     "summary": "the Ride Lonesome tour returns to Margaret Court Arena on 18 February, with tickets on sale today at 11:00 local.",
+     "matters": "his first all-new material since 2019 gets a full band outing rather than a promo run.",
+     "url": "https://www.rttnews.com/3714676/beck-bringing-ride-lonesome-tour-to-melbourne-for-special-one-off-performance.aspx?type=ent",
+     "source": "rttnews.com",
+     "image": "https://cdn.rttnews.com/articleimages/ustopstories/2026/november/beck-13112026-lt.jpg",
+     "body": "Eight-time Grammy winner Beck is bringing his acclaimed Ride Lonesome Tour back to Melbourne for a special one-off performance at Margaret Court Arena on February 18. Following the ecstatic reception to his 15th studio album Ride Lonesome , released in September, Beck returns to Melbourne from an extensive sold-out North American tour. One of modern music's most inventive and celebrated songwriters, Beck returns delivering a full-scale band show centered around his latest album, his first collection of all-new material since 2019's Hyperspace . Produced by Beck and mixed by longtime collaborator Nigel Godrich, Ride Lonesome was met with widespread acclaim. The album signaled what many fans have welcomed as a return to the beautiful, introspective sonic landscapes of landmark records Sea Change and Morning Phase . Tickets will go on sale Monday, November 16 at 11 am local time. For full tour information, head to frontiertouring.com/beck . November 15, 2026 01:58 ET A major Microsoft outage disrupted widely used services, including Outlook, Teams, Copilot, SharePoint and OneDrive. Server failures triggered widespread connectivity issues, highlighting the growing dependence on cloud-based technology and the challenges of maintaining reliable digital…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Nick Cave confirms a 2027 tour as King Gizzard announce 'Entropy' and two North American runs",
+     "summary": "both landed on Pitchfork this month.",
+     "matters": "two of the most reliable live acts have already filled next year's calendar.",
+     "url": "https://pitchfork.com/news/",
+     "source": "pitchfork.com",
+     "image": "https://media.pitchfork.com/photos/6afa0afdf10fd8deae45ae84/16:9/w_1280%2Cc_limit/Phoebe%2520Bridgers%2520on%2520Saturday%2520Night%2520Live%2C%2520November%25202026%2C%2520photo%2520by%2520Will%2520Heath%2520NBC.JPG",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎬 Culture",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "'Ebenezer' tops a soft weekend with $19 million",
+     "summary": "Depp's Paramount holiday film opened in 3,535 theatres inside an $86.8 million market, down 25.9% on last weekend.",
+     "matters": "a star vehicle opening under $20 million now counts as a win.",
+     "url": "https://awardsradar.com/2026/11/15/box-office-report-november-15/",
+     "source": "awardsradar.com",
+     "image": "https://i0.wp.com/awardsradar.com/wp-content/uploads/2026/10/Cristian-Mungiu.webp",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "'Obsession' reaches Netflix tomorrow",
+     "summary": "Curry Barker's horror film grossed $524.5 million worldwide and ranks fifth all-time among horror releases.",
+     "matters": "this week's one thing worth watching, and it costs nothing extra.",
+     "url": "https://www.mandatory.com/news/1890792-new-netflix-releases-this-week-november-16-22",
+     "source": "mandatory.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "'Yellowjackets' ends and 'MobLand' closes on 20 November",
+     "summary": "the fourth and final season and the Harrigan finale land on Paramount+ on the same day.",
+     "matters": "two flagship dramas finish in one night, one of them permanently.",
+     "url": "https://www.netfm.net/news/comingsoon-net-movie-trailers-tv-and-streaming-news-and-more/tom-hardys-tv-finale-sophie-thatchers-horror-series-and-more-paramount-releases-this-week/",
+     "source": "netfm.net",
+     "image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/Tom-Hardy.jpg",
+     "body": "popup#open\" data-popup-size-param=\"550x400\" target=\"_blank\"> Share on X Share on Whatsapp This week‘s Paramount+ releases feature Tom Hardy‘s TV finale, Sophie Thatcher‘s horror series, and more. The MobLand Season 2 series finale premieres exclusively on Paramount+ on November 20. The Harrigan crime family faces its toughest test yet in the second season, torn apart from within and hunted from without. The lead and core Harrigan family […] The post Tom Hardy’s TV Finale, Sophie Thatcher’s Horror Series & More Paramount+ Releases This Week appeared first on ComingSoon.net - Movie Trailers, TV & Streaming News, and More. This week ‘s Paramount+ releases feature Tom Hardy ‘s TV finale, Sophie Thatcher ‘s horror series, and more. The MobLand Season 2 series finale premieres exclusively on Paramount+ on November 20. The Harrigan crime family faces its toughest test yet in the second season, torn apart from within and hunted from without. The lead and core Harrigan family cast features Tom Hardy, Pierce Brosnan, Helen Mirren, Paddy Considine, and Anson Boon. Lara Pulver, Mandeep Dhillon, Joanne Froggatt, and Teddie Allen complete the ensemble. Sharing the spotlight on the same day is Yellowjackets Season 4, bringing the dual-era psychological saga to its end. The final season follows the teenage survivors in the 1990s. They endure the darkest depths of wilderness survival, from escalating cannibalism and ritualistic hunts to their final struggle for rescue. The survivors’ troubled re-entry into society unfolds under the growing mystery of the Antler Queen. Also among the exciting releases this week is He Said, She Said: Till Death Do Us Part, a New Paramount+ Documentary. Dropping on November 17, this three-episode true-crime series dives into the explosive real-life split between New York lawyers Allen and Catherine Kassenoff. What begins as a bitter divorce spirals into a fierce fight over custody. Take a look at all the Paramount+ releases this week, arriving between November 16 and 22: The post Tom Hardy’s TV Finale, Sophie Thatcher’s Horror Series & More Paramount+ Releases This Week appeared first on ComingSoon.net - Movie Trailers, TV & Streaming News, and More…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "'Percy Jackson and the Olympians' season 3 starts on Disney+",
+     "summary": "the Hunters of Artemis arc opens the week's releases.",
+     "matters": "the franchise's youngest audience gets a third season inside two years.",
+     "url": "https://www.netfm.net/news/comingsoon-net-movie-trailers-tv-and-streaming-news-and-more/dafne-keens-greek-gods-series-and-more-disney-releases-this-week/",
+     "source": "netfm.net",
+     "image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/Untitled-design-43.jpg",
+     "body": "popup#open\" data-popup-size-param=\"550x400\" target=\"_blank\"> Share on X Share on Whatsapp The new TV and movie releases on Disney+ for the week of November 16-22, 2026, include the premiere of Percy Jackson and the Olympians (Season 3) and others. Percy Jackson and the Olympians (Season 3) focuses on Percy, Grover, and Thalia teaming up with the Hunters of Artemis to stop a threat to Olympus. Moreover, he […] The post Dafne Keen’s Greek Gods Series & More Disney+ Releases This Week appeared first on ComingSoon.net - Movie Trailers, TV & Streaming News, and More. The new TV and movie releases on Disney+ for the week of November 16-22, 2026, include the premiere of Percy Jackson and the Olympians (Season 3) and others. Percy Jackson and the Olympians (Season 3) focuses on Percy, Grover, and Thalia teaming up with the Hunters of Artemis to stop a threat to Olympus. Moreover, he needs to rescue Annabeth from the forces of the Titan lord Kronos. Season 3 will also have some fresh entries, including MCU and Star Wars star Dafne Keen. She will play the Greek goddess of the hunt and the moon, Artemis. Below are all the new TV shows and movies being added to Disney+ from November 16-22 (via Disney+ Press ). The post Dafne Keen’s Greek Gods Series & More Disney+ Releases This Week appeared first on ComingSoon.net - Movie Trailers, TV & Streaming News, and More…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Netflix drops the fullest 'Ray Gunn' trailer yet",
+     "summary": "Brad Bird's animated noir arrives with a jetpack poster and first-look stills.",
+     "matters": "Bird's first animated feature since Incredibles 2 is close enough to date.",
+     "url": "https://www.whats-on-netflix.com/news/",
+     "source": "whats-on-netflix.com",
+     "image": "https://www.whats-on-netflix.com/wp-content/uploads/2026/11/netflix-top-10s-black-doves-a-dogs-perfect-christmas.jpg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🏛️ Brussels",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Italy fines Meta €805 million over gallery access",
+     "summary": "the Garante found Facebook's \"get suggestions from gallery\" feature enabled by default behind one bundled permission, covering about 20 million Italian Android users.",
+     "matters": "consent has to be per-purpose, and Meta has 60 days to switch it off by default.",
+     "url": "https://abcnews.com/Technology/wireStory/meta-fined-887-million-italy-android-gallery-photos-138145127",
+     "source": "abcnews.com",
+     "image": "https://i.abcnewsfe.com/a/995fc86b-071f-44b8-b971-762998d98f3a/wirestory_9b3073c52464d5cd0e8facbc57285194_16x9.jpg",
+     "body": "Shows Good Morning America ShopGMA Interest Successfully Added We'll notify you here with news about Turn on desktop notifications for breaking stories about interest? Off On Stream on Meta fined $887M in Italy over Android gallery photos, videos on Facebook Meta violated a European privacy directive incorporated into Italian law. The Italian Data Protection Authority said the feature, called “Get suggestions from gallery when browsing Facebook,” violated a European privacy directive incorporated into Italian law. The directive protects smartphones as part of a person’s private sphere and requires “free and informed consent” for such access, the authority said. Investigators found that the feature was enabled by default and that Facebook requested gallery access through a single permission covering multiple app functions with different purposes. The authority gave Meta 60 days to disable the feature and seek separate consent for its use. Italy has about 20 million Android users, the agency said. The fine was imposed on Meta Platforms Ireland Limited, which challenged Italy’s jurisdiction, according to the statement. The authority said Meta’s “lack of cooperation” with the investigation factored into the penalty, which amounts to approximately 0.47% of the group’s global…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Trump threatens tariffs over DMA fines as the Apple and Meta deadlines approach",
+     "summary": "the Commission has promised to respond \"swiftly and decisively\" to retaliation.",
+     "matters": "penalties of up to 10% of global revenue now carry a trade risk, which changes how a compliance team prices the downside.",
+     "url": "http://economictimes.indiatimes.com/news/international/business/trumps-tariffs-threat-tests-eu-resolve-to-hurt-apple-and-meta/printarticle/118577786.cms",
+     "source": "economictimes.indiatimes.com",
+     "image": null,
+     "body": "Sass Jordan cause of death: How did ‘Racine’ singer die after cancelling shows over ‘serious medical…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The AI Act's 2 December deadline is two weeks out",
+     "summary": "the two new prohibited practices on non-consensual intimate imagery and child sexual abuse material apply, and systems placed on the market before 2 August 2026 must mark AI-generated content.",
+     "matters": "high-risk rules slipped to 2027 and 2028, but these obligations did not.",
+     "url": "https://www.progress.com/data-platform/insights/eu-ai-act",
+     "source": "progress.com",
+     "image": null,
+     "body": "AI AI at Progress Our technologies empower organizations to turn complex data into strategic advantage. Develop the responsible AI-powered applications and experiences you need, deploy them where and how you want and manage it all with Progress AI-driven products. Accelerate data, AI and analytics projects, manage costs and deliver enterprise growth with the Progress Data Platform. Real solutions for your organization and end users built with best of breed offerings, configured to be flexible and scalable with you. Progress infrastructure management products speed the time and reduce the effort required to manage your network, applications and underlying infrastructure. A cloud-native AI and data platform that helps organizations connect, prepare and automate data, turning fragmented enterprise information into trusted, AI-ready intelligence and actionable insights. User Login with ProgressID Quick Links SupportLink PartnerLink Telerik Your Account 1-800-477-6473 Ready to Talk? ® Data Platform Overview capabilities Agentic & Semantic AI Uniform Security Governed Data Model Verified Reference Data & Metadata Semantic Analysis & Enrichment Business Rules Management Use Cases Knowledge Discovery Deep Research AI Coding Assistant Customer 360 Customer Chatbots Content Creation Industries Pharma & Life Sciences AI Use Cases for Life Sciences Manufacturing & Engineering Media & Publishing AI Use Cases for Publishing Financial Services Healthcare Public Sector Insights Agentic AI Maturity Scale from AI pilots to governed, repeatable enterprise outcomes. EU AI Act What Changed, What's Next and How to Build AI You Can Defend Made AI boring. Now let's make it practical. Made AI Boring established the why. The Agentic AI Maturity Model establishes the how-far. Practical AI is the how-now — defensible answers, governed and measured. The EU AI Act is the deadline that makes all three urgent. The EU AI Act is the world's first horizontal regulation for artificial intelligence. It establishes a risk-based framework, commonly described as four tiers, transparency obligations, conformity and incident-reporting duties, and penalties of up to €35 million or 7% of total worldwide annual turnover, whichever is higher, for breaches of the prohibited-practice rules in Article 5. The EU AI Act has done something quietly profound: it has moved enterprise AI from a marketing conversation into a procurement conversation, and from a procurement conversation into a board conversation. For five years, governance was the slide that nobody read. From August 2026, governance is the…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "📅 Tonight",
+   "kind": "fixtures",
+   "items": [
+    {
+     "type": "fixture",
+     "text": "Nations League — Germany v Netherlands, 20:45"
+    },
+    {
+     "type": "fixture",
+     "text": "Nations League — Switzerland v Scotland, 20:45"
+    },
+    {
+     "type": "fixture",
+     "text": "Nations League — Greece v Serbia, 20:45"
+    },
+    {
+     "type": "fixture",
+     "text": "Nations League — North Macedonia v Slovenia, 20:45"
+    },
+    {
+     "type": "fixture",
+     "text": "Nations League — Gibraltar v Malta, 20:45"
+    },
+    {
+     "type": "fixture",
+     "text": "Nations League — Estonia v Bulgaria, 18:00"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — eight games overnight, Magic @ Celtics 01:00 and Suns @ Nuggets 03:00 CET"
+    }
+   ]
+  },
+  {
+   "name": "🏀 NBA",
+   "kind": "scores",
+   "items": [
+    {
+     "type": "note",
+     "text": "76ers 131 - 124 Pacers — Maxey 27 pts, 6 ast"
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Lakers",
+     "away": "Suns",
+     "home_score": 131,
+     "away_score": 123,
+     "note": "Doncic 43 pts, 9 ast",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Clippers",
+     "away": "Hornets",
+     "home_score": 113,
+     "away_score": 105,
+     "note": "Garland 27 pts, 7 ast",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Spurs",
+     "away": "Jazz",
+     "home_score": 110,
+     "away_score": 102,
+     "note": "Wembanyama 26 pts, 10 reb",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Celtics",
+     "away": "Mavericks",
+     "home_score": 131,
+     "away_score": 94,
+     "note": "Tatum 32 pts, 6 reb, after a franchise-record first-quarter lead",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Knicks",
+     "away": "Raptors",
+     "home_score": 112,
+     "away_score": 108,
+     "note": "Towns 28 pts, 17 reb, OT",
+     "flag": "OT"
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Rockets",
+     "away": "Wizards",
+     "home_score": 147,
+     "away_score": 119,
+     "note": "Amen Thompson 26 pts, 7 reb, 7 ast",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Hawks",
+     "away": "Bucks",
+     "home_score": 113,
+     "away_score": 106,
+     "note": "McCollum 20 pts, 4 stl, Bucks' 10th straight loss",
+     "flag": null
+    }
+   ]
+  },
+  {
+   "name": "⚽ Football",
+   "kind": "scores",
+   "items": [
+    {
+     "type": "note",
+     "text": "League football is paused for the international window; the Nations League closed its league phase on Sunday."
+    },
+    {
+     "type": "score",
+     "group": "UEFA Nations League",
+     "home": "Belgium",
+     "away": "Italy",
+     "home_score": 4,
+     "away_score": 1,
+     "note": "Doku, De Cuyper, Ngoy and Moreira; Pio Esposito had Italy ahead",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "UEFA Nations League",
+     "home": "Spain",
+     "away": "England",
+     "home_score": 2,
+     "away_score": 3,
+     "note": "Kane penalty, Konsa and White; Oyarzabal penalty and Nico Williams replied",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "UEFA Nations League",
+     "home": "France",
+     "away": "Türkiye",
+     "home_score": 2,
+     "away_score": 1,
+     "note": "Barcola forced an own goal, Kroupi scored his first for France",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "UEFA Nations League",
+     "home": "Croatia",
+     "away": "Czechia",
+     "home_score": 2,
+     "away_score": 1,
+     "note": "Perišić after 90 seconds, Majer the late winner",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "UEFA Nations League",
+     "home": "Finland",
+     "away": "San Marino",
+     "home_score": 7,
+     "away_score": 2,
+     "note": "matched the record for the highest-scoring Nations League match",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "UEFA Nations League",
+     "home": "Cyprus",
+     "away": "Montenegro",
+     "home_score": 1,
+     "away_score": 4,
+     "note": "Montenegro finished on 16 points from 18",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "UEFA Nations League",
+     "home": "Belarus",
+     "away": "Albania",
+     "home_score": 0,
+     "away_score": 2,
+     "note": "Albania took the Group C1 fixture",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "UEFA Nations League",
+     "home": "Latvia",
+     "away": "Armenia",
+     "home_score": 0,
+     "away_score": 0,
+     "note": "a point each, no goals",
+     "flag": null
+    }
+   ]
+  },
+  {
+   "name": "📌 Long read",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "The EU's regulatory learning curve",
+     "summary": "ABA's Landslide walks through what the AI Act and the AI Omnibus actually changed, and why decentralised enforcement is the weak link rather than the rules themselves.",
+     "matters": "a clear-eyed read on where the compliance burden really lands before December 2026.",
+     "url": "https://www.americanbar.org/groups/intellectual_property_law/resources/landslide/2026-fall/what-eu-ai-act-ai-omnibus-package-tell-us-about-eus-regulatory-learning-curve/",
+     "source": "americanbar.org",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  }
+ ]
+}
