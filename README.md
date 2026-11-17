@@ -52,8 +52,8 @@ folder was left untouched.
 - The writers are Claude (headless `claude -p`, WebSearch and WebFetch only): six in parallel, one per beat, plus a
   tool-less editor for the top block. About 3 minutes wall time. Publishing, validation and the digest are code, not model
   instructions. A section that comes back short is sent back to its writer once, with the reason.
-- Bad output is checked (date in the greeting, ≥8 sections, ≥25 linked stories, `matters:` clauses), with one
-  retry that includes the reasons.
+- The assembled edition is checked (date in the greeting, ≥8 sections, ≥25 linked stories, `matters:` clauses).
+  A thin edition still publishes if it has at least 4 sections; anything worse fails the run with a Telegram alert.
 - The spoken edition was dropped (2026-11-17). Editions carry `"audio": null`, which both apps treat as no audio.
 - The publisher writes only the files it generated. Hermes mirrored a folder and would have reverted the hand-written `sw.js` and manifest.
 - NBA lines whose team starts with a digit ("76ers") parse as scores, team names lose trailing full stops,
