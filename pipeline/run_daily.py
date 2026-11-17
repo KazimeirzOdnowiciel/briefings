@@ -270,6 +270,9 @@ def write_edition(now, context, prev_date, prev_md, run):
     # belt and braces: the prompt forbids process notes, this drops any that slip through
     junk = re.compile(r"^\s*(sources?:|note:|i could not|i couldn't)", re.I)
     parts = {n: [l for l in lines if not junk.match(l)] for n, lines in parts.items()}
+    # a home side that didn't score leaves "— ; Sturm 29'": drop the empty half
+    if "⚽ Football" in parts:
+        parts["⚽ Football"] = [re.sub(r"\s[—–]\s*[-–]?\s*;\s*", " — ", l) for l in parts["⚽ Football"]]
     body ="\n\n".join(f"**{n}**\n" + "\n".join(parts[n]) for n in ORDER if n not in TOP and parts.get(n))
     if not body:
         raise RuntimeError("every writer failed")
