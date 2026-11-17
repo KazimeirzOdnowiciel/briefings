@@ -168,11 +168,42 @@ def shortfalls(names, got):
             bare = [l for l in lines if re.search(r"https?://", l) and "matters:" not in l]
             if len(bare) > 1:
                 problems.append(f"{name}: {len(bare)} story lines lack the mandatory '· matters:' clause.")
+        if name == "⚽ Football":
+            problems += [f"Football: {g}. List EVERY scorer with the minute." for g in scorer_gaps(lines)]
     return problems
+
+
+SCORE_LINE = re.compile(r"^-\s*(.+?)\s+(\d{1,2})\s*[-–]\s*(\d{1,2})\s+(.+?)(?:\s+[—–]\s+(.*))?$")
+GOAL_MINUTE = re.compile(r"\d{1,3}(?:\+\d+)?'(?:\+\d+')?")
+
+
+def scorer_gaps(lines):
+    """Score lines that name fewer goal minutes than goals were scored, e.g. a 4-0 with one scorer."""
+    gaps = []
+    for line in lines:
+        m = SCORE_LINE.match(line.strip())
+        if not m:
+            continue
+        goals = int(m.group(2)) + int(m.group(3))
+        found = len(GOAL_MINUTE.findall(m.group(5) or ""))
+        if goals and found < goals:
+            gaps.append(f"'{m.group(1)} {m.group(2)}-{m.group(3)} {m.group(4)}' names {found} of {goals} goals")
+    return gaps
 
 
 def write_group(key, names, base, blocks, run):
     sections = "\n\n".join(blocks[n] for n in names if n in blocks)
+    matches = []
+    if "⚽ Football" in names:
+        # scorers come from code (ESPN match data), not from whatever a search finds
+        try:
+            import football_data
+            matches = football_data.collect()
+            data = football_data.block(matches)
+        except Exception as exc:
+            data = f"FOOTBALL DATA unavailable this morning ({type(exc).__name__}): find scorers from match reports."
+        run.log(data.splitlines()[0], f"({len(data.splitlines()) - 1} matches)")
+        sections += "\n\n<football_data>\n" + data + "\n</football_data>"
     feedback, best = "", {}
     for attempt in (1, 2):
         prompt = fill(prompt_file("researcher.md"), NAMES=", ".join(names), SECTIONS=sections,
@@ -185,7 +216,7 @@ def write_group(key, names, base, blocks, run):
         canon = {norm(n): n for n in names}  # "🏛 Brussels" and "🏛️ Brussels" are the same section
         got = {canon[norm(n)]: v for n, v in got.items() if norm(n) in canon}
         for n, lines in got.items():  # keep the fuller version of each section across attempts
-            if len(lines) > len(best.get(n, [])):
+            if len(lines) >= len(best.get(n, [])):  # ties go to the newer, feedback-driven draft
                 best[n] = lines
         problems = shortfalls(names, best)
         if not problems:
@@ -193,7 +224,36 @@ def write_group(key, names, base, blocks, run):
         run.log(f"writer[{key}] short:", "; ".join(problems))
         feedback = ("\nA FIRST DRAFT CAME BACK SHORT. Fix this and return ALL your sections again in full:\n- "
                     + "\n- ".join(problems) + "\n")
+    if matches and "⚽ Football" in best:
+        best["⚽ Football"], patched = patch_scorers(best["⚽ Football"], matches)
+        if patched:
+            run.log(f"football: filled scorers from ESPN data on {patched} line(s) the writer left short")
+        left = scorer_gaps(best["⚽ Football"])
+        if left:
+            run.log("football: still missing scorers (not in ESPN data):", "; ".join(left))
     return best
+
+
+def _team_key(name):
+    return re.sub(r"[^a-z]", "", name.lower().replace("fc", "").replace(".", ""))
+
+
+def patch_scorers(lines, matches):
+    """Last line of defence: rewrite any short score line from ESPN's goal list, when ESPN has the match."""
+    index = {(_team_key(m["home"]), _team_key(m["away"])): m for m in matches if m["scorers_complete"]}
+    out, patched = [], 0
+    for line in lines:
+        m = SCORE_LINE.match(line.strip())
+        if m and scorer_gaps([line]):
+            hit = index.get((_team_key(m.group(1)), _team_key(m.group(4))))
+            if hit:
+                surname = lambda s: re.sub(r"^(?:\S+\s+)+(?=\S+ \d)", "", s)  # "Florian Wirtz 60'" -> "Wirtz 60'"
+                home = ", ".join(surname(x) for x in hit["home_scorers"])
+                away = ", ".join(surname(x) for x in hit["away_scorers"])
+                line = f"- {m.group(1)} {m.group(2)} - {m.group(3)} {m.group(4)} — {home or '-'}; {away or '-'}"
+                patched += 1
+        out.append(line)
+    return out, patched
 
 
 def write_edition(now, context, prev_date, prev_md, run):

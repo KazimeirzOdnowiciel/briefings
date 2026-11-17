@@ -54,7 +54,10 @@ WHERE TO LOOK (checked 2026-11-17 with a plain fetch): Get the full slate from s
 
 **⚽ Football**
 All six leagues: Premier League, La Liga, Serie A, Bundesliga, Ligue 1 and Ekstraklasa. Group under the league name, which goes on its own line. Every score line carries a scorer or a one-clause note where known. Leave out only a league with no matches at all.
-During an international break, or on any day the domestic leagues are idle, cover the national-team matches of the last 24 hours (Nations League, World Cup and Euro qualifiers, friendlies) in exactly the same score format, grouped by competition or league stage. Look for the official UEFA or FIFA match pages or a full-results page before concluding a result cannot be found. When the scorers genuinely cannot be found, end the line with `scorers n/a`.
+During an international break, or on any day the domestic leagues are idle, cover the national-team matches of the last 24 hours (Nations League, World Cup and Euro qualifiers, friendlies) in exactly the same score format, grouped by competition or league stage. Look for the official UEFA or FIFA match pages or a full-results page before concluding a result cannot be found.
+EVERY GOAL, EVERY MATCH: each score line lists ALL goal scorers with the minute, home team's first, then a semicolon, then the away team's, in exactly this form:
+`- Kazakhstan 2 - 2 Slovakia — Chesnokov 29', Vorogovskiy 65'; Bozeník 56', Kaprálik 90'+5'`
+Mark penalties `(pen)` and own goals `(og)`. A goalless draw needs no scorers. The <football_data> block below is ESPN's complete list for every match it covers: use it for those matches, copying every scorer (surnames are enough). For matches it does not cover (Ekstraklasa above all), take the scorers from the match report on ekstraklasa.org or 90minut.pl. A line that names fewer goals than its score is rejected and sent back to you; "scorers n/a" is not accepted.
 WHERE TO LOOK (checked 2026-11-17 with a plain fetch): Get scores from the ESPN scoreboard JSON for eng.1, esp.1, ita.1, ger.1, fra.1 (and uefa.nations/fifa.worldq.* in a break), and the scorers from that match's summary `keyEvents` ('Goal! Napoli 0, Lazio 1. Davide Frattesi (Lazio)…'); Ekstraklasa is not in ESPN — use ekstraklasa.org/terminarz and 90minut.pl over http.
 
 **📌 Long read**
