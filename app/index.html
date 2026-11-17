@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Daily Briefing</title>
+<meta name="description" content="Your morning briefing: news, markets, sport and dev releases.">
+<meta name="theme-color" content="#f5f1e8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#100f0d" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="../site.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-512.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap">
+<link rel="stylesheet" href="app.css">
+<script>
+  /* apply theme + size before first paint */
+  try {
+    var t = JSON.parse(localStorage.getItem('bf:theme') || 'null');
+    var z = JSON.parse(localStorage.getItem('bf:size') || 'null');
+    if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+    if (z === 's' || z === 'l') document.documentElement.dataset.size = z;
+  } catch (e) {}
+</script>
+</head>
+<body>
+<header class="appbar">
+  <div class="appbar-row">
+    <a class="brand" href="#/today" aria-label="Daily Briefing, today">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="var(--ink)"/><path d="M7 20.5a9 9 0 0 1 18 0Z" fill="var(--accent)"/><rect x="5" y="22" width="22" height="2" rx="1" fill="var(--accent)"/><rect x="9" y="25.5" width="14" height="1.6" rx=".8" fill="var(--accent)" opacity=".55"/></svg>
+      <span>Briefing</span>
+    </a>
+    <div class="daynav" id="daynav">
+      <button id="prevDay" aria-label="Previous edition"></button>
+      <span class="lbl" id="dayLbl">—</span>
+      <button id="nextDay" aria-label="Next edition"></button>
+    </div>
+    <button class="iconbtn" id="openSettings" aria-label="Settings"></button>
+  </div>
+  <div class="progress" aria-hidden="true"><i id="progress"></i></div>
+</header>
+
+<main class="main" id="main">
+  <section class="view" id="v-today" aria-label="Today"></section>
+  <section class="view" id="v-sports" aria-label="Sports" hidden></section>
+  <section class="view" id="v-saved" aria-label="Saved" hidden></section>
+  <section class="view" id="v-archive" aria-label="Archive" hidden></section>
+</main>
+
+<div class="player" id="player" hidden>
+  <button class="pp" id="pp" aria-label="Play"></button>
+  <div class="meta">
+    <div class="tt" id="ptitle">Spoken briefing</div>
+    <input type="range" id="pseek" min="0" max="1000" value="0" aria-label="Seek">
+    <div class="tm" id="ptime">0:00</div>
+  </div>
+  <button class="spd" id="pspeed" aria-label="Playback speed">1×</button>
+  <button class="x" id="pclose" aria-label="Close player"></button>
+</div>
+
+<nav class="nav" id="nav" aria-label="Primary">
+  <a href="#/today" data-tab="today"><span class="pillicon" data-icon="news"></span>Today</a>
+  <a href="#/sports" data-tab="sports"><span class="pillicon" data-icon="trophy"></span>Sports</a>
+  <a href="#/saved" data-tab="saved"><span class="pillicon" data-icon="bookmark"></span>Saved</a>
+  <a href="#/archive" data-tab="archive"><span class="pillicon" data-icon="calendar"></span>Archive</a>
+</nav>
+
+<div class="scrim" id="scrim" hidden></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Details" hidden>
+  <div class="grab" id="grab"><i></i></div>
+  <div id="sheetBody"></div>
+</div>
+<div class="snack" id="snack" role="status" aria-live="polite"><span id="snackText"></span><button id="snackBtn"></button></div>
+
+<audio id="audio" preload="none"></audio>
+<script src="app.js" defer></script>
+</body>
+</html>
