@@ -705,7 +705,7 @@ def _kind(name):
 
 def _body_cache():
     try:
-        with open(os.path.join(HOME, "_og", "bodies.json"), encoding="utf-8") as fh:
+        with open(os.path.join(HOME, "_og", "bodies2.json"), encoding="utf-8") as fh:
             data = json.load(fh)
         return data if isinstance(data, dict) else {}
     except Exception:
@@ -721,6 +721,7 @@ NOISE_RE = re.compile(
     r"read more|rights reserved|skip to|watch live|download the app|terms of|privacy policy|"
     r"all the latest|breaking news alerts|show more|menu|add as preferred|watch:|"
     r"zaloguj|reklama|e-wydanie|serwisy|wydarzenia|prenumerat|czytaj wi|polecane|"
+    r"skróć artykuł|udostępnij|komentarzy|zapytaj o więcej|"
     r"^share\b|^save\b)", re.I)
 
 
@@ -740,6 +741,7 @@ def _fetch_body(url):
     for para in PARA_RE.findall(scope):
         text = html.unescape(TAG_RE.sub(" ", para))
         text = re.sub(r"\s+", " ", text).strip()
+        text = re.sub(r"\s+([,.;:!?)\]])", r"\1", re.sub(r"([(\[])\s+", r"\1", text))
         if len(text) < 80 or NOISE_RE.search(text):
             continue
         if text.count(" ") < 14 or not text.rstrip().endswith((".", "!", "?", '"', "'", ":")):
@@ -749,8 +751,8 @@ def _fetch_body(url):
             break
     if not chunks:
         return None
-    body = " ".join(chunks)
-    return body[:2600].rsplit(" ", 1)[0] + "…"
+    body = "\n\n".join(chunks)          # the app renders one paragraph per block
+    return body[:2600].rsplit(" ", 1)[0] + "…" if len(body) > 2600 else body
 
 
 def gather_bodies(urls, limit=40):
@@ -771,7 +773,7 @@ def gather_bodies(urls, limit=40):
         print(f"bodies: {got}/{len(todo)} extracted, {len(cache)} cached")
         try:
             os.makedirs(os.path.join(HOME, "_og"), exist_ok=True)
-            with open(os.path.join(HOME, "_og", "bodies.json"), "w", encoding="utf-8") as fh:
+            with open(os.path.join(HOME, "_og", "bodies2.json"), "w", encoding="utf-8") as fh:
                 json.dump(cache, fh)
         except Exception:
             pass
@@ -959,16 +961,52 @@ def _score_item(body, group):
         flag = "OT"
     if "UPSET" in note.upper():
         flag = "UPSET"
+    sa, sb = int(m.group("sa")), int(m.group("sb"))
+    home_scorers, away_scorers, note = _split_scorers(note, sa, sb)
     return {
         "type": "score",
         "group": group or None,
         "home": m.group("a").strip().rstrip("."),
         "away": m.group("b").strip().rstrip("."),
-        "home_score": int(m.group("sa")),
-        "away_score": int(m.group("sb")),
+        "home_score": sa,
+        "away_score": sb,
+        "home_scorers": home_scorers or None,
+        "away_scorers": away_scorers or None,
         "note": note or None,
         "flag": flag,
     }
+
+
+GOAL_MINUTE = re.compile(r"\d{1,3}(?:\+\d+)?'")
+
+
+def _split_scorers(note, sa, sb):
+    """"Wirtz 60', 71'; Bozeník 56'; late equaliser" -> (["Wirtz 60', 71'"], ["Bozeník 56'"], "late equaliser").
+
+    Football lines list the home side's goals, then the away side's, separated by "; ".
+    A side that did not score has no segment. Anything left over is the note."""
+    parts = [p.strip() for p in note.split(";")]
+    parts = [p for p in parts if p not in ("", "-", "–")] if parts else []
+    goals = lambda p: bool(GOAL_MINUTE.search(p)) and len(p) < 160 and not p.endswith(".")
+    home, away = [], []
+    if sa and parts and goals(parts[0]):
+        home = [g.strip() for g in parts.pop(0).split(",") if g.strip()]
+    if sb and parts and goals(parts[0]):
+        away = [g.strip() for g in parts.pop(0).split(",") if g.strip()]
+    if not home and not away:
+        return [], [], note
+    return _merge_minutes(home), _merge_minutes(away), "; ".join(parts)
+
+
+def _merge_minutes(goals):
+    """["Wirtz 60'", "71'"] -> ["Wirtz 60', 71'"]: a bare minute belongs to the scorer before it."""
+    out = []
+    for g in goals:
+        if out and re.fullmatch(r"\d{1,3}'?(?:\+\d+)?'(?:\s*\((?:pen|og)\))?", g):
+            out[-1] += ", " + g
+        else:
+            out.append(g)
+    return out
 
 
 def build_feed(markdown, covers=None, now=None, meta=None, bodies=None, images=None):

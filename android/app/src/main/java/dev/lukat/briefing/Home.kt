@@ -14,6 +14,7 @@ import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsPressedAsState
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -87,10 +88,19 @@ internal fun HomeScreen(
     val sport = remember(feed) { feed.sections.filter { kindOf(it) == Kind.Sport } }
     val digest = remember(feed) { feed.sections.filter { kindOf(it) == Kind.Digest } }
     val longRead = remember(feed) { feed.sections.firstOrNull { kindOf(it) == Kind.LongRead } }
-    val columns = if (wide) 4 else 2
     val full: LazyGridItemSpanScope.() -> GridItemSpan = { GridItemSpan(maxLineSpan) }
+    // the masthead's photo is not repeated on the category card right below it
+    val hero = remember(feed) { heroPhoto(news) }
 
     PullToRefreshBox(isRefreshing = refreshing, onRefresh = onRefresh) {
+      BoxWithConstraints {
+        // 2 columns on a phone, 3 on a small tablet or split screen, 4 on the unfolded inner screen
+        val columns = when {
+            maxWidth >= 840.dp -> 4
+            maxWidth >= 560.dp -> 3
+            else -> 2
+        }
+        val sideBySide = columns >= 4 && digest.isNotEmpty()
         LazyVerticalGrid(
             columns = GridCells.Fixed(columns),
             modifier = Modifier.fillMaxSize(),
@@ -102,24 +112,25 @@ internal fun HomeScreen(
             if (dates.size > 1) item(span = full) { DateStrip(dates, selected, onSelectDate, onLatest) }
             if (updateLabel != null) item(span = full) { UpdateCard(updateLabel, updateError, onUpdate) }
             // unfolded: masthead and catch-up side by side instead of two 840dp-wide slabs
-            val half: LazyGridItemSpanScope.() -> GridItemSpan = { GridItemSpan(if (wide && digest.isNotEmpty()) maxLineSpan / 2 else maxLineSpan) }
-            item(span = half) { Masthead(feed, offline, wide, news, read) }
+            val half: LazyGridItemSpanScope.() -> GridItemSpan = { GridItemSpan(if (sideBySide) maxLineSpan / 2 else maxLineSpan) }
+            item(span = half) { Masthead(feed, hero, offline, wide, news, read) }
             if (digest.isNotEmpty()) item(span = half) { CatchUp(digest, feed.title) }
 
             label("Sections", "${news.size}")
-            // with an odd number of categories the first becomes a full-width feature, so no card sits alone
-            val featured = news.size % 2 == 1 || wide
+            // the first card widens just enough that every row is full: no card ever sits alone
+            val lead = leadSpan(news.size, columns)
             itemsIndexed(
                 news,
                 key = { _, it -> "n-" + it.name },
-                span = { i, _ -> GridItemSpan(if (i == 0 && featured) maxLineSpan else 1) }
+                span = { i, _ -> GridItemSpan(if (i == 0) lead else 1) }
             ) { i, section ->
-                CategoryCard(section, feed.date, read, featured = i == 0 && featured) { onCategory(section.name) }
+                CategoryCard(section, feed.date, read, exclude = hero, featured = i == 0 && lead == columns) { onCategory(section.name) }
             }
 
             if (sport.isNotEmpty()) {
                 label("Sport", null)
-                items(sport, key = { "s-" + it.name }, span = { GridItemSpan(if (wide) 2 else maxLineSpan) }) { section ->
+                val spans = rowSpans(sport.size, columns, if (columns >= 3) columns / 2 else columns)
+                itemsIndexed(sport, key = { _, it -> "s-" + it.name }, span = { i, _ -> GridItemSpan(spans[i]) }) { _, section ->
                     SportCard(section) { onCategory(section.name) }
                 }
             }
@@ -134,6 +145,30 @@ internal fun HomeScreen(
                     modifier = Modifier.padding(top = 8.dp, start = 4.dp)
                 )
             }
+        }
+      }
+    }
+}
+
+internal fun heroPhoto(news: List<Section>): String? =
+    news.asSequence().flatMap { readableStories(it).asSequence() }.mapNotNull(::photoOf).firstOrNull()
+
+/** Span of the first card so the remaining ones fill whole rows: 9 cards in 2 columns -> 2 (a full-width lead). */
+internal fun leadSpan(n: Int, columns: Int): Int {
+    val r = n % columns
+    return if (r == 0 || n == 0) 1 else columns - r + 1
+}
+
+/** Spans for [n] cards that prefer [preferred] columns each; the last row stretches to fill. */
+internal fun rowSpans(n: Int, columns: Int, preferred: Int): List<Int> {
+    val p = preferred.coerceIn(1, columns)
+    val perRow = columns / p
+    val full = n - n % perRow
+    return List(n) { i ->
+        if (i < full) p else {
+            val r = n - full
+            val base = columns / r
+            if (i == n - 1) columns - base * (r - 1) else base
         }
     }
 }
@@ -216,8 +251,7 @@ private fun UpdateCard(label: String, error: String?, onUpdate: () -> Unit) {
 }
 
 @Composable
-private fun Masthead(feed: Feed, offline: Boolean, wide: Boolean, news: List<Section>, read: Set<String>) {
-    val hero = remember(feed) { news.asSequence().flatMap { readableStories(it).asSequence() }.mapNotNull(::photoOf).firstOrNull() }
+private fun Masthead(feed: Feed, hero: String?, offline: Boolean, wide: Boolean, news: List<Section>, read: Set<String>) {
     val total = remember(feed) { news.sumOf { readableStories(it).size } }
     val done = news.sumOf { s -> readableStories(s).count { read.contains(ReadStore.key(feed.date, it)) } }
     Column(
@@ -336,10 +370,10 @@ private fun pressScale(source: MutableInteractionSource): Float {
 
 /** One door per category: picture (or the section's colour), name, lead headline, read progress. */
 @Composable
-private fun CategoryCard(section: Section, date: String, read: Set<String>, featured: Boolean = false, onClick: () -> Unit) {
+private fun CategoryCard(section: Section, date: String, read: Set<String>, exclude: String?, featured: Boolean = false, onClick: () -> Unit) {
     val hue = sectionHue(section.name)
     val stories = remember(section) { readableStories(section) }
-    val photo = remember(section) { stories.firstNotNullOfOrNull(::photoOf) }
+    val photo = remember(section, exclude) { stories.mapNotNull(::photoOf).firstOrNull { it != exclude } }
     val done = stories.count { read.contains(ReadStore.key(date, it)) }
     val source = remember { MutableInteractionSource() }
     val scale = pressScale(source)
@@ -435,10 +469,7 @@ private fun SportCard(section: Section, onClick: () -> Unit) {
         if (scores.isNotEmpty()) {
             scores.take(3).forEach { ScoreLine(it) }
         } else {
-            lines.take(3).forEach {
-                Text(it, color = Body, fontSize = 13.sp, lineHeight = 18.sp, maxLines = 1, overflow = TextOverflow.Ellipsis,
-                    modifier = Modifier.padding(vertical = 3.dp))
-            }
+            lines.take(4).forEach { FixtureLine(it, hue, hasLabel = false, compact = true) }
         }
     }
 }

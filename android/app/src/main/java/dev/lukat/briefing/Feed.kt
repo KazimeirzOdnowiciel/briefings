@@ -48,6 +48,8 @@ data class Item(
     val away: String? = null,
     @SerialName("home_score") val homeScore: Int? = null,
     @SerialName("away_score") val awayScore: Int? = null,
+    @SerialName("home_scorers") val homeScorers: List<String>? = null,
+    @SerialName("away_scorers") val awayScorers: List<String>? = null,
     val note: String? = null,
     val flag: String? = null,
     val text: String? = null,

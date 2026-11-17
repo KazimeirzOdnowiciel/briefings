@@ -65,8 +65,33 @@ internal fun kindOf(section: Section): Kind {
 /** "🇵🇱 Polska" -> "Polska" */
 internal fun cleanName(name: String): String = name.replace(Regex("^[^\\p{L}\\p{N}]+"), "").trim()
 
-/** "🇵🇱 Polska" -> "🇵🇱" */
-internal fun emojiOf(name: String): String = Regex("^([^\\p{L}\\p{N}]+)").find(name)?.value?.trim().orEmpty()
+/** "🇵🇱 Polska" -> "🇵🇱". The 📅 glyph prints a fixed "July 17" on most fonts, so Tonight gets a stadium. */
+internal fun emojiOf(name: String): String =
+    Regex("^([^\\p{L}\\p{N}]+)").find(name)?.value?.trim().orEmpty().let { if (it.startsWith("📅")) "🏟️" else it }
+
+/** Extracted article text: tidy stray spaces before punctuation, and break it into paragraphs.
+ *  Newer editions separate paragraphs with blank lines; older ones are one block, so those are
+ *  split every few sentences to keep the reader from facing a wall of text. */
+internal fun paragraphsOf(body: String): List<String> {
+    val tidy = body
+        .replace(Regex("[ \\t]+([,.;:!?)\\]])"), "$1")
+        .replace(Regex("([(\\[])[ \\t]+"), "$1")
+        .replace(Regex("[ \\t]{2,}"), " ")
+    if ("\n" in tidy) return tidy.split(Regex("\\n\\s*\\n|\\n")).map { it.trim() }.filter { it.isNotEmpty() }
+    val sentences = Regex("(?<=[.!?][\"”’']?)\\s+(?=[\"“‘A-ZĄĆĘŁŃÓŚŹŻ0-9])").split(tidy.trim())
+    val out = mutableListOf<String>()
+    val cur = StringBuilder()
+    sentences.forEach { s ->
+        if (cur.isNotEmpty()) cur.append(' ')
+        cur.append(s)
+        if (cur.length > 380) { out.add(cur.toString()); cur.clear() }
+    }
+    if (cur.isNotBlank()) out.add(cur.toString())
+    return out
+}
+
+/** "the general field…" -> "The general field…" */
+internal fun sentenceCase(text: String) = text.trim().replaceFirstChar { it.uppercase() }
 
 internal fun storiesOf(section: Section): List<Item> = section.items.filter { it.type == "story" }
 

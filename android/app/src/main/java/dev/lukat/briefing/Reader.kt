@@ -1,7 +1,6 @@
 package dev.lukat.briefing
 
 import android.content.Intent
-import android.net.Uri
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -11,6 +10,8 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.IntrinsicSize
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -18,10 +19,16 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeDrawing
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Share
+import androidx.compose.material.icons.filled.Star
+import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -33,12 +40,18 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-// Extracted from MainActivity; body unchanged.
+/** The longest comfortable line for body text; on the unfolded screen the column centres. */
+private val Measure = 640.dp
+
+/**
+ * A story read in the app: picture, headline, standfirst, why it matters, then the extracted
+ * text as real paragraphs. Save and share sit in the top bar so they are there without scrolling.
+ */
 @Composable
 internal fun Reader(
     item: Item,
@@ -54,235 +67,135 @@ internal fun Reader(
     val context = LocalContext.current
     val prefs = remember { context.getSharedPreferences("briefing", android.content.Context.MODE_PRIVATE) }
     var textStep by remember { mutableIntStateOf(prefs.getInt("reader_text", 1)) }
-    val bodySize = when (textStep) { 0 -> 15.sp; 2 -> 18.5.sp; else -> 16.5.sp }
-    val bodyLeading = when (textStep) { 0 -> 24.5.sp; 2 -> 28.sp; else -> 26.sp }
+    val bodySize = when (textStep) { 0 -> 15.5.sp; 2 -> 19.sp; else -> 17.sp }
+    val bodyLeading = when (textStep) { 0 -> 25.sp; 2 -> 30.sp; else -> 27.sp }
     var saved by remember(item.url) {
         mutableStateOf(item.url?.let { SavedStore.isSaved(context, it) } ?: false)
     }
     val hue = sectionHue(section)
-    val openOriginal: () -> Unit = {
-        item.url?.let { url ->
-            runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url))) }
+    val paragraphs = remember(item.url) { paragraphsOf(item.body ?: item.summary.orEmpty()) }
+    val share: () -> Unit = {
+        val send = Intent(Intent.ACTION_SEND).apply {
+            type = "text/plain"
+            putExtra(Intent.EXTRA_TEXT, "${item.headline}\n\n${item.url ?: SITE_BASE}")
         }
+        runCatching { context.startActivity(Intent.createChooser(send, "Share this story")) }
     }
-    LazyColumn(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(Bg)
-            .windowInsetsPadding(WindowInsets.safeDrawing),
-        contentPadding = PaddingValues(start = 20.dp, end = 20.dp, top = 20.dp, bottom = 44.dp)
-    ) {
-        item {
-            item.image?.takeIf { it.isNotBlank() }?.let { url ->
-                StoryImage(url, item.url, thumb = false)
-                Spacer(Modifier.height(18.dp))
+    val column = Modifier.widthIn(max = Measure).fillMaxWidth()
+
+    Column(Modifier.fillMaxSize().background(Bg).windowInsetsPadding(WindowInsets.safeDrawing)) {
+        // top bar: back on the left; text size, save and share on the right
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+            modifier = Modifier.fillMaxWidth().padding(start = 12.dp, end = 12.dp, top = 8.dp, bottom = 4.dp)
+        ) {
+            RoundIcon(onClose) { Icon(Icons.AutoMirrored.Filled.ArrowBack, "Back", tint = Ink, modifier = Modifier.size(21.dp)) }
+            Spacer(Modifier.weight(1f))
+            RoundIcon({
+                textStep = (textStep + 1) % 3
+                prefs.edit().putInt("reader_text", textStep).apply()
+            }) {
+                Text("Aa", color = Ink, fontSize = when (textStep) { 0 -> 13.sp; 2 -> 18.sp; else -> 15.sp }, fontFamily = Serif, fontWeight = FontWeight.SemiBold)
             }
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                ReaderChip("← BACK", accent = true) { onClose() }
-                Spacer(Modifier.weight(1f))
-                if (item.paywall) {
+            RoundIcon({ saved = SavedStore.toggle(context, item, edition, section) }) {
+                Icon(Icons.Filled.Star, if (saved) "Saved" else "Save", tint = if (saved) Accent else Dim, modifier = Modifier.size(20.dp))
+            }
+            RoundIcon(share) { Icon(Icons.Filled.Share, "Share", tint = Ink, modifier = Modifier.size(19.dp)) }
+        }
+
+        LazyColumn(
+            modifier = Modifier.fillMaxSize(),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            contentPadding = PaddingValues(start = 20.dp, end = 20.dp, top = 12.dp, bottom = 44.dp)
+        ) {
+            item {
+                Column(column) {
+                    item.image?.takeIf { it.isNotBlank() }?.let { url ->
+                        StoryImage(url, item.url, thumb = false)
+                        Spacer(Modifier.height(20.dp))
+                    }
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Box(Modifier.weight(1f)) {
+                            Kicker(
+                                listOfNotNull(item.source?.takeIf { it.isNotBlank() }, cleanName(section).takeIf { it.isNotBlank() })
+                                    .joinToString(" · "),
+                                Dim, dot = hue
+                            )
+                        }
+                        if (item.paywall) Text("PAYWALL", color = Amber, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
+                    }
+                    Spacer(Modifier.height(12.dp))
                     Text(
-                        "PAYWALL",
-                        color = Faint,
-                        fontSize = 10.sp,
-                        fontWeight = FontWeight.SemiBold,
-                        letterSpacing = 1.sp,
-                        fontFamily = FontFamily.SansSerif
+                        item.headline.orEmpty(),
+                        color = Ink, fontFamily = Serif, fontSize = 28.sp, lineHeight = 34.sp,
+                        fontWeight = FontWeight.SemiBold, letterSpacing = (-0.4).sp
                     )
-                    Spacer(Modifier.width(10.dp))
-                }
-                ReaderChip("A+") {
-                    textStep = (textStep + 1) % 3
-                    prefs.edit().putInt("reader_text", textStep).apply()
+                    // the standfirst, unless the body is only the summary again
+                    item.summary?.takeIf { !item.body.isNullOrBlank() }?.let {
+                        Spacer(Modifier.height(12.dp))
+                        Text(sentenceCase(it), color = Body, fontSize = 17.sp, lineHeight = 25.sp, fontFamily = Serif)
+                    }
+                    item.matters?.takeIf { it.isNotBlank() }?.let { matters ->
+                        Spacer(Modifier.height(18.dp))
+                        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min).clip(RoundedCornerShape(16.dp)).background(Panel2)) {
+                            Box(Modifier.width(4.dp).fillMaxHeight().background(hue))
+                            Column(Modifier.padding(horizontal = 14.dp, vertical = 12.dp)) {
+                                Text("WHY IT MATTERS", color = hue, fontSize = 10.5.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.1.sp)
+                                Spacer(Modifier.height(5.dp))
+                                Text(sentenceCase(matters), color = Body, fontSize = 14.5.sp, lineHeight = 20.sp)
+                            }
+                        }
+                    }
+                    Spacer(Modifier.height(22.dp))
+                    Box(Modifier.width(36.dp).height(3.dp).clip(RoundedCornerShape(999.dp)).background(hue))
+                    Spacer(Modifier.height(20.dp))
                 }
             }
-            Spacer(Modifier.height(22.dp))
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Box(
-                    Modifier
-                        .size(7.dp)
-                        .clip(CircleShape)
-                        .background(hue)
-                )
-                Spacer(Modifier.width(8.dp))
+            items(paragraphs) { para ->
                 Text(
-                    listOfNotNull(
-                        item.source?.takeIf { it.isNotBlank() },
-                        section.takeIf { it.isNotBlank() }
-                    ).joinToString(" · ").uppercase(),
-                    color = Dim,
-                    fontSize = 11.5.sp,
-                    fontWeight = FontWeight.SemiBold,
-                    letterSpacing = 1.sp,
-                    fontFamily = FontFamily.SansSerif
+                    para,
+                    color = Body, fontSize = bodySize, lineHeight = bodyLeading, fontFamily = Serif,
+                    modifier = column.padding(bottom = 16.dp)
                 )
             }
-            Spacer(Modifier.height(10.dp))
-            Text(
-                item.headline ?: "",
-                color = Ink,
-                fontFamily = Serif,
-                fontSize = 26.sp,
-                lineHeight = 30.7.sp,
-                fontWeight = FontWeight.SemiBold,
-                letterSpacing = (-0.3).sp
-            )
-            item.matters?.takeIf { it.isNotBlank() }?.let { matters ->
-                Spacer(Modifier.height(18.dp))
-                Column(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .clip(RoundedCornerShape(14.dp))
-                        .background(Panel2)
-                        .padding(14.dp)
-                ) {
+            item {
+                Column(column) {
+                    Spacer(Modifier.height(12.dp))
+                    item.url?.let { url ->
+                        Box(
+                            Modifier
+                                .fillMaxWidth()
+                                .height(48.dp)
+                                .clip(RoundedCornerShape(999.dp))
+                                .background(Accent)
+                                .clickable { openUrl(context, url) },
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Text("Read the full article on ${item.source ?: "the site"} ↗", color = AccentInk, fontSize = 14.sp,
+                                fontWeight = FontWeight.SemiBold, maxLines = 1, overflow = TextOverflow.Ellipsis,
+                                modifier = Modifier.padding(horizontal = 16.dp))
+                        }
+                    }
+                    if (previous != null || next != null) {
+                        Spacer(Modifier.height(22.dp))
+                        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                            previous?.let { p ->
+                                ReaderNeighbour("← PREVIOUS", p.headline ?: "Previous story", Modifier.weight(1f)) { onNavigate(p) }
+                            } ?: Spacer(Modifier.weight(1f))
+                            next?.let { n ->
+                                ReaderNeighbour("NEXT →", n.headline ?: "Next story", Modifier.weight(1f)) { onNavigate(n) }
+                            } ?: Spacer(Modifier.weight(1f))
+                        }
+                    }
+                    Spacer(Modifier.height(24.dp))
                     Text(
-                        "WHY IT MATTERS",
-                        color = hue,
-                        fontSize = 11.sp,
-                        fontWeight = FontWeight.Bold,
-                        letterSpacing = 1.sp,
-                        fontFamily = FontFamily.SansSerif
-                    )
-                    Spacer(Modifier.height(6.dp))
-                    Text(
-                        matters,
-                        color = Body,
-                        fontSize = 14.5.sp,
-                        lineHeight = 20.sp,
-                        fontFamily = FontFamily.SansSerif
+                        "The opening of the article, extracted by the briefing pipeline. The full piece may differ.",
+                        color = Faint, fontSize = 11.sp, lineHeight = 15.sp
                     )
                 }
             }
-            Spacer(Modifier.height(24.dp))
         }
-        item {
-            Text(
-                item.body ?: item.summary.orEmpty(),
-                color = Body,
-                fontSize = bodySize,
-                lineHeight = bodyLeading,
-                fontFamily = Serif
-            )
-            Spacer(Modifier.height(28.dp))
-            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                ReaderAction(
-                    "OPEN ORIGINAL →",
-                    modifier = Modifier.weight(1f),
-                    primary = true
-                ) { openOriginal() }
-            }
-            Spacer(Modifier.height(8.dp))
-            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                ReaderAction(
-                    if (saved) "★ SAVED" else "☆ SAVE",
-                    modifier = Modifier.weight(1f),
-                    active = saved
-                ) {
-                    saved = SavedStore.toggle(context, item, edition, section)
-                }
-                ReaderAction("SHARE", modifier = Modifier.weight(1f)) {
-                    val send = Intent(Intent.ACTION_SEND).apply {
-                        type = "text/plain"
-                        putExtra(
-                            Intent.EXTRA_TEXT,
-                            "${item.headline}\n\n${item.url ?: SITE_BASE}"
-                        )
-                    }
-                    runCatching {
-                        context.startActivity(Intent.createChooser(send, "Share this story"))
-                    }
-                }
-            }
-            if (previous != null || next != null) {
-                Spacer(Modifier.height(26.dp))
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.spacedBy(10.dp)
-                ) {
-                    previous?.let { p ->
-                        ReaderNeighbour(
-                            "PREVIOUS",
-                            p.headline ?: "Previous story",
-                            Modifier.weight(1f)
-                        ) { onNavigate(p) }
-                    }
-                    next?.let { n ->
-                        ReaderNeighbour(
-                            "NEXT",
-                            n.headline ?: "Next story",
-                            Modifier.weight(1f)
-                        ) { onNavigate(n) }
-                    }
-                }
-            }
-            Spacer(Modifier.height(26.dp))
-            Text(
-                "Text extracted by the briefing pipeline — the full article may differ.",
-                color = Faint,
-                fontSize = 10.5.sp,
-                lineHeight = 15.sp,
-                fontFamily = FontFamily.SansSerif
-            )
-        }
-    }
-}
-
-/** Small pill for the reader's chrome: back, text size. */
-@Composable
-private fun ReaderChip(label: String, accent: Boolean = false, onClick: () -> Unit) {
-    Text(
-        label,
-        color = if (accent) Accent else Dim,
-        fontSize = 10.5.sp,
-        fontWeight = FontWeight.SemiBold,
-        letterSpacing = 0.8.sp,
-        fontFamily = FontFamily.SansSerif,
-        modifier = Modifier
-            .clip(RoundedCornerShape(999.dp))
-            .background(Panel2)
-            .clickable { onClick() }
-            .padding(horizontal = 11.dp, vertical = 7.dp)
-    )
-}
-
-/** Filled primary action, or a quiet secondary one; Save lights up when saved. */
-@Composable
-private fun ReaderAction(
-    label: String,
-    modifier: Modifier = Modifier,
-    primary: Boolean = false,
-    active: Boolean = false,
-    onClick: () -> Unit
-) {
-    val surface = when {
-        primary -> Accent
-        active -> AccentSoft
-        else -> Panel2
-    }
-    val ink = when {
-        primary -> AccentInk
-        active -> Accent
-        else -> Ink
-    }
-    Box(
-        modifier = modifier
-            .height(46.dp)
-            .clip(RoundedCornerShape(999.dp))
-            .background(surface)
-            .clickable { onClick() }
-            .padding(horizontal = 16.dp),
-        contentAlignment = Alignment.Center
-    ) {
-        Text(
-            label,
-            color = ink,
-            fontSize = 11.5.sp,
-            fontWeight = FontWeight.SemiBold,
-            letterSpacing = 0.8.sp,
-            fontFamily = FontFamily.SansSerif,
-            maxLines = 1
-        )
     }
 }
 
@@ -296,28 +209,16 @@ private fun ReaderNeighbour(
 ) {
     Column(
         modifier = modifier
-            .clip(RoundedCornerShape(14.dp))
-            .background(Panel2)
+            .clip(RoundedCornerShape(16.dp))
+            .background(Panel)
             .clickable { onClick() }
             .padding(horizontal = 14.dp, vertical = 12.dp)
     ) {
-        Text(
-            label,
-            color = Dim,
-            fontSize = 10.sp,
-            fontWeight = FontWeight.SemiBold,
-            letterSpacing = 1.sp,
-            fontFamily = FontFamily.SansSerif
-        )
+        Text(label, color = Dim, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
         Spacer(Modifier.height(5.dp))
         Text(
-            headline,
-            color = Ink,
-            fontFamily = Serif,
-            fontSize = 15.sp,
-            lineHeight = 19.sp,
-            fontWeight = FontWeight.Medium,
-            maxLines = 2
+            headline, color = Ink, fontFamily = Serif, fontSize = 15.sp, lineHeight = 19.sp,
+            fontWeight = FontWeight.Medium, maxLines = 3, overflow = TextOverflow.Ellipsis
         )
     }
 }

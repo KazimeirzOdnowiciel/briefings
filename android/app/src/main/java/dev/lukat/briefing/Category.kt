@@ -9,6 +9,13 @@ import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInHorizontally
 import androidx.compose.animation.togetherWith
 import androidx.compose.foundation.background
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.draw.rotate
+import androidx.compose.ui.draw.alpha
+import androidx.compose.foundation.layout.offset
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -194,6 +201,8 @@ private fun StoryDeck(section: Section, date: String, wide: Boolean, read: Set<S
                 hue = hue,
                 section = section.name,
                 isRead = read.contains(ReadStore.key(date, item)),
+                next = stories.getOrNull(page + 1),
+                onNext = { scope.launch { pager.animateScrollToPage(page + 1) } },
                 onOpen = {
                     if (!item.body.isNullOrBlank()) onOpen(item, section.name)
                     else item.url?.let {
@@ -267,84 +276,140 @@ private fun Ticker(lines: List<String>, hue: Color) {
     }
 }
 
+/**
+ * One story as a card. The picture grows with the screen; a story without one gets a poster:
+ * its headline set large on the section's colour, so no card is a lonely emoji over dead space.
+ * The foot of the card previews the next story, which is one tap (or a swipe) away.
+ */
 @Composable
 private fun StoryCard(
     item: Item,
     hue: Color,
     section: String,
     isRead: Boolean,
+    next: Item?,
+    onNext: () -> Unit,
     onOpen: () -> Unit,
     onOriginal: (() -> Unit)?,
 ) {
     val photo = photoOf(item)
     val hasBody = !item.body.isNullOrBlank()
     val shape = RoundedCornerShape(26.dp)
-    Column(
-        Modifier
-            .fillMaxSize()
-            .clip(shape)
-            .background(Panel)
-            .border(1.dp, Line, shape)
-            .clickable { onOpen() }
-    ) {
-        Box(Modifier.fillMaxWidth().height(if (photo != null) 200.dp else 132.dp)) {
-            if (photo != null) {
-                AsyncImage(photo, null, contentScale = ContentScale.Crop, modifier = Modifier.fillMaxSize().background(Panel2))
-            } else {
-                Box(
-                    Modifier.fillMaxSize().background(Brush.horizontalGradient(listOf(hue.copy(alpha = 0.30f), hue.copy(alpha = 0.06f)))),
-                    contentAlignment = Alignment.CenterStart
-                ) { Text(emojiOf(section), fontSize = 52.sp, modifier = Modifier.padding(start = 22.dp)) }
-            }
-            Box(Modifier.align(Alignment.BottomStart).fillMaxWidth().height(4.dp).background(hue))
-        }
+    BoxWithConstraints(Modifier.fillMaxSize()) {
+        val tall = maxHeight
         Column(
             Modifier
-                .weight(1f)
-                .verticalScroll(rememberScrollState())
-                .padding(start = 20.dp, end = 20.dp, top = 16.dp, bottom = 8.dp)
+                .fillMaxSize()
+                .clip(shape)
+                .background(Panel)
+                .border(1.dp, Line, shape)
+                .clickable { onOpen() }
         ) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Box(Modifier.weight(1f)) { Kicker(item.source ?: cleanName(section), Dim, dot = hue) }
-                if (item.day == 2) Badge("Day 2", hue)
-                if (item.paywall) { Spacer(Modifier.width(6.dp)); Badge("Paywall", Amber) }
-                if (isRead) { Spacer(Modifier.width(6.dp)); Badge("Read", Faint) }
+            Column(Modifier.weight(1f).verticalScroll(rememberScrollState())) {
+                if (photo != null) {
+                    Box(Modifier.fillMaxWidth().height((tall * 0.36f).coerceIn(170.dp, 340.dp))) {
+                        AsyncImage(photo, null, contentScale = ContentScale.Crop, modifier = Modifier.fillMaxSize().background(Panel2))
+                        Box(Modifier.align(Alignment.BottomStart).fillMaxWidth().height(4.dp).background(hue))
+                    }
+                    Column(Modifier.padding(start = 20.dp, end = 20.dp, top = 16.dp)) {
+                        CardKicker(item, hue, section, isRead)
+                        Spacer(Modifier.height(10.dp))
+                        Text(
+                            item.headline.orEmpty(),
+                            color = Ink, fontSize = 23.sp, lineHeight = 28.sp, fontFamily = Serif,
+                            fontWeight = FontWeight.SemiBold, letterSpacing = (-0.3).sp
+                        )
+                    }
+                } else {
+                    Poster(item, hue, section, isRead, minHeight = (tall * 0.42f).coerceIn(200.dp, 380.dp))
+                }
+                Column(Modifier.padding(start = 20.dp, end = 20.dp, top = 12.dp, bottom = 12.dp)) {
+                    item.summary?.let {
+                        Text(sentenceCase(it), color = Body, fontSize = 15.sp, lineHeight = 22.sp)
+                    }
+                    item.matters?.let {
+                        Spacer(Modifier.height(14.dp))
+                        Column(
+                            Modifier
+                                .fillMaxWidth()
+                                .clip(RoundedCornerShape(16.dp))
+                                .background(Panel2)
+                                .padding(14.dp)
+                        ) {
+                            Text("WHY IT MATTERS", color = hue, fontSize = 10.5.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.1.sp)
+                            Spacer(Modifier.height(5.dp))
+                            Text(sentenceCase(it), color = Body, fontSize = 14.sp, lineHeight = 20.sp)
+                        }
+                    }
+                }
             }
-            Spacer(Modifier.height(10.dp))
-            Text(
-                item.headline.orEmpty(),
-                color = Ink, fontSize = 23.sp, lineHeight = 28.sp, fontFamily = Serif,
-                fontWeight = FontWeight.SemiBold, letterSpacing = (-0.3).sp
-            )
-            item.summary?.let {
-                Spacer(Modifier.height(10.dp))
-                Text(it.replaceFirstChar { c -> c.uppercase() }, color = Body, fontSize = 15.sp, lineHeight = 22.sp)
-            }
-            item.matters?.let {
-                Spacer(Modifier.height(14.dp))
-                Column(
-                    Modifier
-                        .fillMaxWidth()
-                        .clip(RoundedCornerShape(16.dp))
-                        .background(Panel2)
-                        .padding(14.dp)
-                ) {
-                    Text("WHY IT MATTERS", color = hue, fontSize = 10.5.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.1.sp)
-                    Spacer(Modifier.height(5.dp))
-                    Text(it.replaceFirstChar { c -> c.uppercase() }, color = Body, fontSize = 14.sp, lineHeight = 20.sp)
+            next?.let { UpNext(it, hue, onNext) }
+            Row(
+                horizontalArrangement = Arrangement.spacedBy(10.dp),
+                modifier = Modifier.fillMaxWidth().padding(start = 16.dp, end = 16.dp, bottom = 16.dp, top = 10.dp)
+            ) {
+                if (hasBody) {
+                    ActionPill("Read here", primary = true, modifier = Modifier.weight(1f)) { onOpen() }
+                    onOriginal?.let { ActionPill("Original ↗", primary = false, modifier = Modifier.weight(1f)) { it() } }
+                } else if (onOriginal != null) {
+                    ActionPill("Open article ↗", primary = true, modifier = Modifier.weight(1f)) { onOriginal() }
                 }
             }
         }
-        Row(
-            horizontalArrangement = Arrangement.spacedBy(10.dp),
-            modifier = Modifier.fillMaxWidth().padding(start = 16.dp, end = 16.dp, bottom = 16.dp, top = 8.dp)
-        ) {
-            if (hasBody) {
-                ActionPill("Read here", primary = true, modifier = Modifier.weight(1f)) { onOpen() }
-                onOriginal?.let { ActionPill("Original ↗", primary = false, modifier = Modifier.weight(1f)) { it() } }
-            } else if (onOriginal != null) {
-                ActionPill("Open article ↗", primary = true, modifier = Modifier.weight(1f)) { onOriginal() }
-            }
+    }
+}
+
+@Composable
+private fun CardKicker(item: Item, hue: Color, section: String, isRead: Boolean, ink: Color = Dim) {
+    Row(verticalAlignment = Alignment.CenterVertically) {
+        Box(Modifier.weight(1f)) { Kicker(item.source ?: cleanName(section), ink, dot = hue) }
+        if (item.day == 2) Badge("Day 2", hue)
+        if (item.paywall) { Spacer(Modifier.width(6.dp)); Badge("Paywall", Amber) }
+        if (isRead) { Spacer(Modifier.width(6.dp)); Badge("Read", Faint) }
+    }
+}
+
+/** A story without a usable photograph: the headline is the picture. */
+@Composable
+private fun Poster(item: Item, hue: Color, section: String, isRead: Boolean, minHeight: Dp) {
+    Box(
+        Modifier
+            .fillMaxWidth()
+            .heightIn(min = minHeight)
+            .background(Brush.verticalGradient(listOf(hue.copy(alpha = 0.34f), hue.copy(alpha = 0.10f))))
+    ) {
+        // the section's emoji, oversized and faint, as a watermark in the corner
+        Text(
+            emojiOf(section), fontSize = 150.sp,
+            modifier = Modifier.align(Alignment.TopEnd).offset(x = 28.dp, y = (-18).dp).rotate(-12f).alpha(0.16f)
+        )
+        Column(Modifier.align(Alignment.BottomStart).padding(start = 20.dp, end = 20.dp, top = 28.dp, bottom = 22.dp)) {
+            CardKicker(item, hue, section, isRead, ink = Ink.copy(alpha = 0.75f))
+            Spacer(Modifier.height(12.dp))
+            Text(
+                item.headline.orEmpty(),
+                color = Ink, fontSize = 29.sp, lineHeight = 34.sp, fontFamily = Serif,
+                fontWeight = FontWeight.SemiBold, letterSpacing = (-0.5).sp
+            )
+        }
+        Box(Modifier.align(Alignment.BottomStart).fillMaxWidth().height(4.dp).background(hue))
+    }
+}
+
+/** The next story in the deck, one line, above the buttons. */
+@Composable
+private fun UpNext(item: Item, hue: Color, onClick: () -> Unit) {
+    Column(Modifier.fillMaxWidth().clickable { onClick() }) {
+        Box(Modifier.fillMaxWidth().padding(horizontal = 20.dp).height(1.dp).background(Line))
+        Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(horizontal = 20.dp, vertical = 12.dp)) {
+            Text("NEXT", color = hue, fontSize = 10.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.1.sp)
+            Spacer(Modifier.width(10.dp))
+            Text(
+                item.headline.orEmpty(), color = Body, fontSize = 14.sp, fontFamily = Serif,
+                maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = Modifier.weight(1f)
+            )
+            Spacer(Modifier.width(8.dp))
+            Text("→", color = Dim, fontSize = 15.sp)
         }
     }
 }
@@ -413,10 +478,11 @@ private fun SportBoard(section: Section) {
                     when (item.type) {
                         "score" -> {
                             ScoreLine(item, big = true)
+                            Scorers(item)
                             val note = listOfNotNull(item.flag, item.note).joinToString(" · ")
                             if (note.isNotBlank()) {
                                 Text(note, color = Dim, fontSize = 12.sp, lineHeight = 17.sp,
-                                    textAlign = androidx.compose.ui.text.style.TextAlign.Center, modifier = Modifier.fillMaxWidth())
+                                    textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth())
                             }
                         }
                         "fixture" -> FixtureLine(item.text.orEmpty(), hue, hasLabel = label != null)
@@ -428,17 +494,36 @@ private fun SportBoard(section: Section) {
     }
 }
 
+/** Goal scorers under each side, lined up with that side's name. */
+@Composable
+private fun Scorers(item: Item) {
+    val home = item.homeScorers.orEmpty()
+    val away = item.awayScorers.orEmpty()
+    if (home.isEmpty() && away.isEmpty()) return
+    Row(Modifier.fillMaxWidth().padding(bottom = 4.dp)) {
+        Column(Modifier.weight(1f), horizontalAlignment = Alignment.End) {
+            home.forEach { Text(it, color = Dim, fontSize = 12.5.sp, lineHeight = 17.sp, textAlign = TextAlign.End) }
+        }
+        // as wide as the score box between the two names (see ScoreLine)
+        Spacer(Modifier.width(96.dp))
+        Column(Modifier.weight(1f)) {
+            away.forEach { Text(it, color = Dim, fontSize = 12.5.sp, lineHeight = 17.sp) }
+        }
+    }
+}
+
 /** "Nations League — Poland v Sweden, 20:45 (Wrocław)": kick-off times become chips. */
 @Composable
-private fun FixtureLine(text: String, hue: Color, hasLabel: Boolean) {
+internal fun FixtureLine(text: String, hue: Color, hasLabel: Boolean, compact: Boolean = false) {
     val body = if (hasLabel) text.substringAfter(" — ", text) else text
     val times = Regex("\\b\\d{1,2}:\\d{2}\\b").findAll(body).map { it.value }.toList()
     val clean = body.replace(Regex(",?\\s*\\b\\d{1,2}:\\d{2}\\b"), "").replace(Regex("\\s+"), " ").trim().trimEnd(',', ';')
     val poland = Regex("poland|polska", RegexOption.IGNORE_CASE).containsMatchIn(body)
     Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 4.dp)) {
         Text(
-            clean, color = if (poland) Ink else Body, fontSize = 14.5.sp, lineHeight = 20.sp,
-            fontWeight = if (poland) FontWeight.Bold else FontWeight.Normal, modifier = Modifier.weight(1f)
+            clean, color = if (poland) Ink else Body, fontSize = if (compact) 13.5.sp else 14.5.sp, lineHeight = 20.sp,
+            fontWeight = if (poland) FontWeight.Bold else FontWeight.Normal, modifier = Modifier.weight(1f),
+            maxLines = if (compact) 1 else Int.MAX_VALUE, overflow = TextOverflow.Ellipsis
         )
         times.distinct().forEach { t ->
             Spacer(Modifier.width(6.dp))

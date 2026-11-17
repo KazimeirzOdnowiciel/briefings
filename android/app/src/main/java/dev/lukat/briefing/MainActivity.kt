@@ -221,7 +221,7 @@ fun BriefingScreen() {
             }
         }
     }
-    val stale = release?.tag?.let { it != "app-v" + BuildConfig.VERSION_NAME } == true
+    val stale = release?.tag?.let { isNewer(it.removePrefix("app-v"), BuildConfig.VERSION_NAME) } == true
     val updateLabel = if (stale) (if (downloading) "downloading…" else release!!.tag.removePrefix("app-")) else null
 
     SharedTransitionLayout {
@@ -408,4 +408,17 @@ internal fun StoryImage(url: String, storyUrl: String?, thumb: Boolean) {
     } else {
         AsyncImage(model = url, contentDescription = null, contentScale = ContentScale.Crop, modifier = mod)
     }
+}
+
+/** "0.41" > "0.40", "0.100" > "0.99": compare dotted versions numerically, so a sideloaded
+ *  build newer than the latest release is never offered a downgrade. */
+internal fun isNewer(candidate: String, current: String): Boolean {
+    val a = candidate.split('.').map { it.toIntOrNull() ?: 0 }
+    val b = current.split('.').map { it.toIntOrNull() ?: 0 }
+    for (i in 0 until maxOf(a.size, b.size)) {
+        val x = a.getOrElse(i) { 0 }
+        val y = b.getOrElse(i) { 0 }
+        if (x != y) return x > y
+    }
+    return false
 }

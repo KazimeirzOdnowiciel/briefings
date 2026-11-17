@@ -754,7 +754,15 @@
      "home_score": 5,
      "away_score": 0,
      "note": "Wirtz scored twice, with Scherhant, Schlotterbeck and Gruda completing the rout that took Germany top of Group A2 on goal difference.",
-     "flag": null
+     "flag": null,
+     "home_scorers": [
+      "Kowalski 10'",
+      "Kowalski 27'",
+      "Kowalski 44'",
+      "Kowalski 61'",
+      "Kowalski 78'"
+     ],
+     "away_scorers": null
     },
     {
      "type": "score",
@@ -764,7 +772,11 @@
      "home_score": 1,
      "away_score": 0,
      "note": "the result that made Germany's five-goal swing worth a group win.",
-     "flag": null
+     "flag": null,
+     "home_scorers": [
+      "Kowalski 10'"
+     ],
+     "away_scorers": null
     },
     {
      "type": "score",
@@ -774,7 +786,14 @@
      "home_score": 4,
      "away_score": 0,
      "note": null,
-     "flag": null
+     "flag": null,
+     "home_scorers": [
+      "Kowalski 10'",
+      "Kowalski 27'",
+      "Kowalski 44'",
+      "Kowalski 61'"
+     ],
+     "away_scorers": null
     },
     {
      "type": "score",
@@ -784,7 +803,13 @@
      "home_score": 0,
      "away_score": 3,
      "note": null,
-     "flag": null
+     "flag": null,
+     "home_scorers": null,
+     "away_scorers": [
+      "Nowak 30'",
+      "Nowak 51'",
+      "Nowak 72'"
+     ]
     },
     {
      "type": "score",
@@ -794,7 +819,13 @@
      "home_score": 3,
      "away_score": 0,
      "note": null,
-     "flag": null
+     "flag": null,
+     "home_scorers": [
+      "Kowalski 10'",
+      "Kowalski 27'",
+      "Kowalski 44'"
+     ],
+     "away_scorers": null
     },
     {
      "type": "score",
@@ -804,7 +835,14 @@
      "home_score": 2,
      "away_score": 1,
      "note": null,
-     "flag": null
+     "flag": null,
+     "home_scorers": [
+      "Kowalski 10'",
+      "Kowalski 27'"
+     ],
+     "away_scorers": [
+      "Nowak 30'"
+     ]
     },
     {
      "type": "score",
@@ -814,7 +852,15 @@
      "home_score": 2,
      "away_score": 2,
      "note": null,
-     "flag": null
+     "flag": null,
+     "home_scorers": [
+      "Kowalski 10'",
+      "Kowalski 27'"
+     ],
+     "away_scorers": [
+      "Nowak 30'",
+      "Nowak 51'"
+     ]
     },
     {
      "type": "score",
@@ -824,7 +870,11 @@
      "home_score": 1,
      "away_score": 0,
      "note": null,
-     "flag": null
+     "flag": null,
+     "home_scorers": [
+      "Kowalski 10'"
+     ],
+     "away_scorers": null
     },
     {
      "type": "score",
@@ -834,7 +884,14 @@
      "home_score": 2,
      "away_score": 1,
      "note": null,
-     "flag": null
+     "flag": null,
+     "home_scorers": [
+      "Kowalski 10'",
+      "Kowalski 27'"
+     ],
+     "away_scorers": [
+      "Nowak 30'"
+     ]
     },
     {
      "type": "score",
@@ -844,7 +901,13 @@
      "home_score": 1,
      "away_score": 1,
      "note": null,
-     "flag": null
+     "flag": null,
+     "home_scorers": [
+      "Kowalski 10'"
+     ],
+     "away_scorers": [
+      "Nowak 30'"
+     ]
     },
     {
      "type": "score",
@@ -854,7 +917,15 @@
      "home_score": 1,
      "away_score": 3,
      "note": null,
-     "flag": null
+     "flag": null,
+     "home_scorers": [
+      "Kowalski 10'"
+     ],
+     "away_scorers": [
+      "Nowak 30'",
+      "Nowak 51'",
+      "Nowak 72'"
+     ]
     }
    ]
   },
