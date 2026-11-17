@@ -1,0 +1,880 @@
+{
+ "schema": 1,
+ "generated": "2026-11-17T08:04:43",
+ "date": "2026-11-17",
+ "greeting": "Good morning — Tuesday, 17 November 2026.",
+ "title": "US intelligence says Iran is drafting options for a dirty-bomb or chemical attack in Washington; the White House says there is no credible threat",
+ "workout": "💪 Today is a workout day: Tuesday — Row A: Steady State — 40 min continuous at 2:20-2:30/500m. ~60 min, reminder at 17:00. Nothing logged in Hevy yet.",
+ "audio": "audio/today.mp3",
+ "read_minutes": 14,
+ "sections": [
+  {
+   "name": "🎯 TL;DR",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "US intelligence says Iran is drafting options for a dirty-bomb or chemical attack in Washington; the White House says there is no credible threat",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Asian tech sells off and the dollar hits its strongest level since April 2025 as Washington tightens AI chip rules hours before Nvidia reports",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Sejm votes this afternoon on a constructive no-confidence motion against Donald Tusk's government, with Marek Jurek proposed as prime minister",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🔄 What changed",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Russia hit both bridges across the Dnipro in Kyiv with ballistic missiles overnight, cutting water and heat in parts of the capital, while Ukraine struck the Kerch Bridge for a second straight day",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Kraków story moved to Bratislava: Slovakia's president decorated two tourists who ran toward the gunfire to try to save a wounded woman",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Warsaw's agenda flipped from aftermath to arithmetic",
+     "summary": "the no-confidence debate opens at 15:00, the count follows after 16:45, and 231 votes decide it.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🔁 Following",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Nvidia",
+     "summary": "the first results without Jensen Huang land tonight after the US close, with consensus near $109bn of revenue and interim CEO Colette Kress on the call.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Anthropic IPO",
+     "summary": "prices tomorrow and trades Thursday as ANT; bankers are weighing a price above the $70–78 range after strong demand.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Ukraine talks",
+     "summary": "Kushner and Witkoff met European advisers, Poland included, and claimed progress; Moscow still refuses a wider format, so no next date is set.",
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🌍 World",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "US intel sees Iran planning a dirty bomb or chemical attack in Washington",
+     "summary": "CNN reported that the intercepted planning is specific about locations and targets, while the White House says no threat is credible at present.",
+     "matters": "the first sign Tehran is planning inside US territory rather than only in the Gulf.",
+     "url": "https://www.cnn.com/2026/11/16/politics/us-intelligence-iran-dirty-bomb",
+     "source": "cnn.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Russian ballistic missiles hit both bridges over the Dnipro in Kyiv",
+     "summary": "mayor Vitali Klitschko said water and heating were disrupted, hours before the Ramstein-format meeting in Brussels.",
+     "matters": "winter strikes are now aimed at the capital's river crossings, not just the grid.",
+     "url": "https://www.aljazeera.com/amp/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates",
+     "source": "aljazeera.com",
+     "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-14T121935Z_304489647_RC2DMOAZ63PZ_RTRMADP_3_UKRAINE-CRISIS-ZELENSKIY-TALKS-1794870040.jpg?resize=1920%2C1440",
+     "body": "Russia has proposed nonaggression pacts with individual nations, which could shatter collective defence against…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Trump lands in Manila for ASEAN and his first Quad summit",
+     "summary": "the US, Japanese, Australian and Indian leaders meet for the first time in two years, with 55 minutes carved out between arrival and the gala dinner.",
+     "matters": "the first face-to-face test of the Quad since Beijing's chip access was squeezed.",
+     "url": "https://www.cnn.com/2026/11/17/politics/live-news/trump-visit-china-philippines",
+     "source": "cnn.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "China cut tariffs on Canadian pork and seafood as Xi met Carney",
+     "summary": "Ottawa extended remission measures on Chinese steel and aluminium by two years in return.",
+     "matters": "a template for how middle powers are buying tariff relief ahead of APEC.",
+     "url": "https://www.thenewstribune.com/news/nation-world/world/article318112618.html",
+     "source": "thenewstribune.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Kim Jong Un inspected the Samjiyon resort again as talk of a China trip builds",
+     "summary": "KCNA reported the tour days after Trump said he might meet Kim in Shenzhen this week.",
+     "matters": "a Trump-Kim meeting would be the first since 2019 and would rewrite the APEC agenda.",
+     "url": "https://www.heraldsun.com/news/nation-world/world/article318108513.html",
+     "source": "heraldsun.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🇵🇱 Polska",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Sejm głosuje nad wotum nieufności dla rządu Tuska",
+     "summary": "wniosek Rozwoju Plus z Markiem Jurkiem jako kandydatem na premiera trafia pod obrady o 15:00, głosowanie po 16:45, a do przyjęcia potrzeba 231 głosów.",
+     "matters": "pierwsze realne sprawdzenie większości koalicji od wyborów.",
+     "url": "https://www.tvp.info/96513582/17-listopada-wtorek-co-sie-wydarzy-zapowiedz-najwazniejszych-informacji",
+     "source": "tvp.info",
+     "image": "https://s15.tvp.pl/images2/5/8/0/uid_580a6f9d60a64364b8b88c5f3ab8ba40_width_1280_play_0_pos_0_gs_0_height_720_minister-obrony-wladyslaw-kosiniak-kamysz-i-sekretarz-obrony-usa-pete-hegseth-fot-chip-somodevillagetty-images.jpg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Zgromadzenie Ogólne TK zajmie się immunitetem Święczkowskiego",
+     "summary": "posiedzenie ma się rozpocząć o 9:00, wysłuchanie zaplanowano na 12:00, a obaj sędziowie nie przyjdą; stawią się tylko ich obrońcy.",
+     "matters": "od tej decyzji zależy, czy prokuratura postawi zarzuty prezesowi Trybunału.",
+     "url": "https://wiadomosci.onet.pl/kraj/znamy-decyzje-swieczkowskiego-i-sochanskiego-chodzi-o-przesluchanie-w-tk/twjgy0n",
+     "source": "wiadomosci.onet.pl",
+     "image": null,
+     "body": "Skróć artykuł 4846 Zapytaj o więcej Onet Czat z AI Bogdan Święczkowski i Bartłomiej Sochański nie pojawią się jutro na przesłuchaniu w Trybunale Konstytucyjnym. Zgłoszą się tylko ich obrońcy — dowiedział się…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Rząd bierze się za zamrożenie cen gazu na 2027 rok",
+     "summary": "projekt przewiduje maksymalną cenę 197,29 zł/MWh dla gospodarstw domowych i odbiorców chronionych, czyli tyle samo co w tym roku.",
+     "matters": "koszt to ponad 6 mld zł, a pokryć ma go nowy podatek od największych importerów.",
+     "url": "https://www.bankier.pl/wiadomosc/Rzad-zamrozi-ceny-gazu-na-2027-rok-Maksymalna-stawka-wyniesie-197-29-zl-MWh-9228764.html",
+     "source": "bankier.pl",
+     "image": "https://galeria.bankier.pl/p/e/4/2a8df5833d3ced-948-568-0-76-1900-1139.jpg",
+     "body": "Skomentuj Od 1 stycznia do 31 grudnia 2027 r. maksymalna cena gazu m.in. dla gospodarstw domowych ma wynieść 197,29 zł/MWh, czyli tyle ile w tym roku - wynika z projektu ustawy w tej sprawie. Według resortu energii bez tych rozwiązań gospodarstwa domowe zapłaciłby za gaz od 77 zł do ponad 1,8 tys. zł więcej. fot. Aristal / / Pixabay W piątek na stronach Rządowego Centrum Legislacji opublikowano projekt ustawy o szczególnej ochronie niektórych odbiorców paliw gazowych w 2027 r. w związku z sytuacją na rynku gazu oraz o zmianie niektórych ustaw. Został on przygotowany przez resort energii. Projektowane przepisy zakładają, że w okresie od 1 stycznia do 31 grudnia 2027 r. obowiązywać będzie maksymalna cena gazu dla odbiorców chronionych, w tym gospodarstw domowych. Dotyczyć to będzie również wspólnot i spółdzielni mieszkaniowych, a także podmiotów realizujących ważne zadania z zakresu użyteczności publicznej takie jak np. szkoły, szpitale, domów opieki, kościoły, noclegownie. Zgodnie z projektem sprzedawcy gazu w rozliczeniach z wyżej wymienionymi odbiorcami końcowymi będą stosowali cenę maksymalną wynoszącą 197,29 zł/MWh. Cena ta nie nie zawiera podatku VAT oraz podatku akcyzowego. „Poziom tej ceny odpowiada poziomowi ceny paliw gazowych w taryfie przedsiębiorstwa energetycznego będącego sprzedawcą z urzędu ustaloną na poziomie 197,29 zł/MWh i obowiązującą do końca 2026 r. (...)” - wskazano w uzasadnieniu projektu. Minister energii Miłosz Motyka powiedział w piątek wieczorem na antenie Polsat News, że liczy na to, iż projekt trafi pod obrady Sejmu w listopadzie, tak by do końca roku ustawa w tej sprawie mogła trafić na biurko prezydenta. „Ustalenie maksymalnej ceny paliw gazowych na poziomie określonym w ustawie ograniczy wpływ wzrostu cen rynkowych na wysokość rachunków ponoszonych przez odbiorców objętych ochroną w 2027 r. Zgodnie z przyjętymi w projekcie ustawy założeniami, gospodarstwa domowe oszczędzą średnio w skali roku od 77 zł (w przypadku tzw. kuchenkowiczów) do 1863 zł (w przypadku gospodarstw domowych wykorzystujących paliw gazowych do celów grzewczych)” - wskazano w ocenie skutków regulacji dołączonej do projektu ustawy. W projekcie utrzymuje się wprowadzony ustawą z 26 stycznia 2022 r. mechanizm składania oświadczeń przez odbiorców (np. spółdzielnie mieszkaniowe) przedsiębiorcom energetycznym dostarczającym gaz i które będą stanowiły podstawę do objęcia ich mechanizmem ochronnym. Gospodarstwa domowe takich oświadczeń nie będą musiały składać. Nowe przepisy przewidują wprowadzenie mechanizmu ograniczenia nadzwyczajnych zysków, które to mają…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "MSWiA szykuje się na nawet 2,5 mln uchodźców",
+     "summary": "według \"Rzeczpospolitej\" resort analizuje trzy scenariusze, w tym masowy exodus z Kijowa i Odessy przed najtrudniejszą zimą wojny.",
+     "matters": "z punktów recepcyjnych z 2022 roku zostały tylko dwa, w Przemyślu i Lublinie.",
+     "url": "https://wiadomosci.wp.pl/nawet-2-5-mln-uchodzcow-przed-zima-polsce-grozi-fala-uchodzcow-7351893505579008a",
+     "source": "wiadomosci.wp.pl",
+     "image": "https://v.wpimg.pl/Y2NiZDRidlMvCyx3fRJ7RmxTeC07S3UQO0tgZn1YYAB-EXUiOwU8QCsZNWo1GyxCLx4qaiIFdlM-AHUyY0Y9Wz0ZNiUrRjxfLAw-azdYbwd4WG0hf1A8Cn9EbiZrC3QKfQtsaWFebFEtCz5wMFk_UGwU",
+     "body": "17 listopada 2026, 07:26 28 komentarzy Udostępnij Udostępnij na Facebooku Udostępnij na X Udostępnij na WhatsApp Kopiuj link Nawet 2,5 mln uchodźców przed zimą. Polsce grozi fala uchodźców Źródło zdjęć: © East News | Andrzej Iwanczuk/REPORTER Rosja celowo niszczy ukraińską infrastrukturę energetyczną, by wywołać katastrofę humanitarną. Najbliższa zima może być najtrudniejsza od początku wojny, a do Polski może trafić nawet 2,5 mln uchodźców. MSWiA analizuje trzy scenariusze i przygotowuje się do kryzysu – pisze we wtorek \"Rzeczpospolita\". Zbliżająca się zima może być najtrudniejszą od wybuchu wojny. Jak donosi wtorkowa \"Rzeczpospolita\", celowe niszczenie ukraińskich linii przesyłowych przez Rosję ma doprowadzić do blackoutu państwa i katastrofy humanitarnej . Krzysztof Nieczypor z Ośrodka Studiów Wschodnich ocenia, że ataki na sieci cieplne, energetyczne oraz wodociągi mogą uniemożliwić codzienne życie w dużych miastach. DLA CIEBIE \"Oddaliśmy tej dziczy flagę\". Ostre wystąpienie działacza lewicy Ewentualny exodus ludności miejskiej może okazać się większy niż fala uchodźców z początku rosyjskiej inwazji . \"Rz\" przywołuje opinię podpułkownika Macieja Korowaja, byłego oficera Służby Wywiadu Wojskowego. Z szacunków wynika, że tylko z Kijowa i Odessy, liczących łącznie około 4,5 mln mieszkańców, do Polski mogłoby przyjechać nawet 2,5 mln osób. Ministerstwo Spraw Wewnętrznych i Administracji analizuje obecnie trzy scenariusze rozwoju sytuacji: brak napływu uchodźców, migrację osób planujących dołączyć do rodzin przebywających już w Polsce oraz masowy exodus. Resort deklaruje gotowość na ten ostatni, najtrudniejszy wariant, choć oficjalnie uznawany jest on obecnie za najmniej prawdopodobny. – Najbardziej prawdopodobny jest przyjazd Ukraińców mających w Polsce rodziny – ocenił cytowany przez gazetę wiceszef MSWiA Maciej Duszczyk. Zmasowany cios Ukrainy. 800 dronów nad Moskwą Polityk przyznał, że administracja odnotowuje już sygnały od obywateli Ukrainy. – Pojawiają się już pojedyncze pytania o możliwość schronienia się w Polsce na zimę – poinformował wiceminister. Zaznaczył jednak, że służby kontrolują sytuację. Nie ma obecnie sytuacji alarmowej – uspokoił Duszczyk. Administracja państwowa podjęła już pierwsze kroki zapobiegawcze. Wojewodowie przeprowadzili inwentaryzację dostępnej infrastruktury i zasobów, a Straż Graniczna na bieżąco monitoruje sytuację na przejściach. \"Rzeczpospolita\" przypomina jednocześnie, że Polska zlikwidowała większość punktów recepcyjnych i miejsc masowego zakwaterowania utworzonych w 2022 r. Obecnie funkcjonują tylko dwie takie…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Słowacja odznaczyła dwoje turystów, którzy ruszyli na pomoc ofierze zamachu w Krakowie",
+     "summary": "Linda Trnkova i Mario Maczina dostali Medale Wdzięczności; ranna kobieta zmarła w drodze do szpitala.",
+     "matters": "pierwsze państwowe uznanie dla cywilów, którzy zareagowali na strzały na Rynku Głównym.",
+     "url": "https://www.rp.pl/spoleczenstwo/art45496021-dwoje-mlodych-slowakow-ratowalo-ofiare-zamachu-w-krakowie-prezydent-wreczyl-im-medale",
+     "source": "rp.pl",
+     "image": "https://i.gremicdn.pl/image/free/69248d0924727ac10b9a247d1b678b78/?t=crop:1600:992:nowe:0:37,resize:fill:2000:1250&ctx=preview",
+     "body": "Pellegrini podkreślił podczas uroczystości w Pałacu Prezydenckim w Bratysławie, że młodzi Słowacy zdecydowali się pomóc ciężko rannej kobiecie, chociaż sami narazili się w tym czasie na niebezpieczeństwo. Prawo w Polsce Ciało zamachowca z Krakowa trafi na cele naukowe, jeśli nie odbierze go rodzina Jeżeli rodzina Michała Oksińskiego, który dokonał zamachu w Krakowie w pierwszej połowie listopada, nie odbierze ciała, zostanie ono przekazane na... Odznaczeni przyjechali do Krakowa 7 listopada na jednodniową wycieczkę autokarową. Kiedy na Rynku Głównym padły strzały, opuścili restaurację, w której znaleźli schronienie, i zaczęli udzielać pomocy postrzelonej kobiecie. Prowadzili reanimację i opatrywali krwawiące rany. Linda Trnkova studiuje ratownictwo medyczne, a jej partner Mario Maczina jest zawodowym żołnierzem w stopniu szeregowego, służącym w Gwardii Prezydenckiej. Pellegrini podkreślił, że oboje postąpili zgodnie z zasadami i wartościami związanymi z wybranymi przez nich zawodami. „Chciałem poprzez wręczenie tych medali pokazać wszystkim ludziom na Słowacji, jak wspaniałych młodych ludzi mamy. Ludzi gotowych narazić własne życie, aby pomagać innym walczącym o życie” – powiedział Pellegrini. Przestępczość Zamach w Krakowie. Śledczy ustalili trasę sprawcy, ale nadal szukają ważnych nagrań Prokuratura ustaliła trasę przejazdu zamachowca, który w centrum Krakowa zabił sześć osób, a 15 kolejnych zranił. Śledczy nadal szukają nagrań z mo... Słowacki prezydent przekazał również pozdrowienia od prezydenta Karola Nawrockiego, z którym kilka dni wcześniej rozmawiał w Poznaniu. „Poprosił mnie, abym także w imieniu Rzeczypospolitej Polskiej i jego osobiście podziękował wam za to, co zrobiliście” – powiedział słowacki prezydent. W zamachu, do którego doszło 7 listopada na Rynku Głównym i sąsiednich ulicach Krakowa, zginęło sześć osób, a 16 zostało rannych. Napastnik strzelał do przypadkowych przechodniów. Został postrzelony i zatrzymany przez policjantów, a następnie zmarł w…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "💰 Money",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "WIG20 4,302.0 · USD/PLN 3.996 (+0.04%) · EUR/PLN 4.399 (-0.11%) · BTC $64,513 (-0.3%) · Brent $91.86 (-0.6%)",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Asian tech slides before Nvidia",
+     "summary": "KOSPI and Taiwan each fell more than 2% and the Nikkei 1.2% after Washington widened its AI chip restrictions.",
+     "matters": "the selloff is now about access to compute, not about order books.",
+     "url": "https://www.thestate.com/news/nation-world/national/article318111126.html",
+     "source": "thestate.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The dollar is at its strongest since April 2025",
+     "summary": "traders treat a December Fed hike as done and price a slim chance of 50 basis points.",
+     "matters": "a hiking Fed plus a chip war is the mix that drains emerging-market currencies, the złoty included.",
+     "url": "https://www.reuters.com/world/china/global-markets-view-europe-2026-11-17/",
+     "source": "reuters.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Nvidia reports its first quarter without Jensen Huang tonight",
+     "summary": "consensus sits near $109bn of revenue and $2.47 a share, with BofA putting the odds of a beat at about 60%.",
+     "matters": "the quarter closed before the scandal, so only the guidance and the call can describe the transition.",
+     "url": "https://www.newsobserver.com/news/business/article318098584.html",
+     "source": "newsobserver.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Anthropic prices its IPO tomorrow",
+     "summary": "825 million shares at $70–78, up to $64.4bn raised, trading on the Nasdaq on Thursday under ANT.",
+     "matters": "the biggest live test of whether AI valuations survive a chip-driven selloff.",
+     "url": "https://fortune.com/2026/11/11/anthropic-sets-a-1-4-trillion-ipo-target-but-bankers-may-already-be-aiming-higher-cfo",
+     "source": "fortune.com",
+     "image": null,
+     "body": "Good morning. Anthropic set a proposed IPO valuation of up to roughly $1.4 trillion, below earlier reported expectations, but strong investor demand may already be pushing it higher. In an amended SEC filing on Tuesday, the Claude maker said it plans to offer 825 million shares at between $70 and $78 apiece in its proposed initial public offering. At the top of that range, the shares would have a combined value of approximately $64.35 billion. The offering includes shares sold by existing shareholders, from which Anthropic will receive no proceeds. Separately, Google, Nvidia , AMD , Broadcom , Micron , Microsoft and TSMC Partners, an affiliate of Taiwan Semiconductor Manufacturing, have agreed to purchase a combined $26 billion of Anthropic’s nonvoting Class N common stock through a private placement immediately following the IPO, according to the filing. That would bring the combined total to as much as $90.4 billion. Just weeks ago, reports had put the company’s potential valuation at roughly $2 trillion. Now, Anthropic’s bankers are considering pricing shares above the filed range, which could lift the valuation to $1.5 trillion or more, the Financial Times reported . Anthropic, which plans to list on the Nasdaq under the ticker symbol ANT, launched its roadshow on Tuesday, and the deal is expected to price on Nov. 18. CFO Krishna Rao , who joined Anthropic in 2024, is not selling any shares in the IPO. According to the filing, he beneficially owned about 9.5 million Class A shares as of Sept. 30, nearly all of it in stock options. At the top of the proposed range, that stake would have a gross value of roughly $740.8 million, before the cost of exercising the options and taxes. Dan Ives, partner and senior managing director at Yorkville Ives & Co., wrote in a Tuesday note that the deal sets up a debate over “margin against growth,” with the stock likely to trade on whether Anthropic’s second-quarter operating profit or its third-quarter loss reflects its true run rate. Ives also argued that a more conservative valuation could help Anthropic achieve a successful market debut. The $1.4 trillion figure includes stock options and other equity awards. Counting only shares outstanding, he noted, the top of the range values the company at about $1 trillion. Andrew Murray was named CFO of Albertsons ( No.57 ), effective Jan. 17. Murray succeeds Cody Perdue, who has served as interim CFO since Sept. 30 and will continue as SVP of treasury, investor relations and risk management. Murray joins Albertsons from Fonterra Co-operative Group, the world's largest…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "💻 AI & Tech",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Commerce closes the offshore compute loophole",
+     "summary": "the BIS interim final rule requires licences for advanced chip and server shipments to data centres selling significant compute to China-linked firms, and adds licence requirements for Singapore, Malaysia, Thailand, Indonesia and Brazil.",
+     "matters": "renting GPUs abroad is now an export-control question, and existing sites have 90 days to file.",
+     "url": "https://www.datacenterdynamics.com/en/news/us-dept-of-commerce-issues-rule-to-restrict-remote-access-to-advanced-ai-chips/",
+     "source": "datacenterdynamics.com",
+     "image": "https://media.datacenterdynamics.com/media/images/Nvidia_CEO_Jensen_Huang_exit.2e16d0ba.fill-280x185.jpg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Alibaba shipped Qwen4-Max",
+     "summary": "a 2.4-trillion-parameter sparse MoE with 71bn active per token, native vision, a 1M context and $1.50/$4.50 per million tokens, with the weights closed.",
+     "matters": "the price cut, not the benchmark score, is what pressures Western API pricing.",
+     "url": "https://tilt.now/news/story/c5803755-1317-5b30-8639-ff9be6badd2d",
+     "source": "tilt.now",
+     "image": null,
+     "body": "The newest iteration of the Qwen artificial intelligence series is now available through an API designed for professional workflows in sectors including manufacturing, finance, and scientific discovery. The model, Qwen4-Max, uses a mixture-of-experts architecture and features native vision and a 1M token context window, which the company says reduced the average cost per task by over 60% in internal tests compared to the previous Qwen3.8-Max. The model ranks in the top five on both the Spreadsheet and Python-PPTX arena leaderboards, which puts it in the same performance bracket as current flagship models from OpenAI and Anthropic. Access is live on QwenCloud with pricing starting at $1.5 per million input tokens and $4.5 per million output tokens, while Alibaba noted that open weights for smaller Qwen4 models will be released in the…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Nvidia's Vera Rubin swept MLPerf Training v6.1 in its debut",
+     "summary": "every benchmark led, and Nvidia also announced Rubin HPC with more than 50,000 CUDA cores on a single GPU.",
+     "matters": "the roadmap keeps shipping while the board searches for a chief executive.",
+     "url": "https://killtheai.com/news/top-10-ai-news-today-november-17-2026/",
+     "source": "killtheai.com",
+     "image": null,
+     "body": "AI news today, November 17, 2026: Trump said he is open to Jensen Huang returning to Nvidia, while the board denied it is considering a comeback. The US tightened AI chip export rules, and the IMF warned that AI circular financing has topped $1 trillion. Here are the 10 top stories and 5 security stories, each with free, non-paywalled sources. President Donald Trump said he is open to Jensen Huang returning as Nvidia's CEO, telling reporters he \"would certainly not mind seeing that.\" Trump said \"a big group of people\" wants Huang back, after a petition with more than 165,000 signatures called for his reinstatement. Nvidia's board is not considering a comeback, a person familiar with the matter told CNBC. Directors are focused on a Wachtell Lipton investigation into Huang's conduct and national security risks, and the board is still selecting a search firm. Nvidia shares opened down 2.7% . The November 16 briefing covered Treasury Secretary Scott Bessent's call for an outside CEO and the growing political pressure on the board. Why it matters: Trump's support gives Huang's allies a powerful voice, but the board's denial shows the investigation still controls the timetable. The Commerce Department issued an interim rule requiring licenses to export, reexport or transfer AI chips and servers to data centers abroad. The rule applies if they may provide compute to China or other restricted countries. It targets China, Russia, Iran, North Korea and 18 others. It applies to data centers or networks that can supply more than 12 million total processing performance, roughly 750 Nvidia H100 or H200 chips. New licenses are also required for Malaysia, Singapore, Indonesia, Thailand and Brazil. Existing operators have 90 days to comply. Why it matters: The rule closes the overseas-compute loophole that Megaspeed allegedly used, and it turns export controls into a global licensing regime. IMF Managing Director Kristalina Georgieva said the world economy is \"standing on one leg\" on AI, warning that a wobble could cause financial stability troubles. The IMF estimates circular financing among AI companies has grown to just over $1 trillion , about two-thirds of it debt-funded. Georgieva said the sum is \"not a huge size, but it is a rapid increase.\" Nvidia has lost more than $1 trillion in market value over the past month. The IMF still expects 3.1% global growth this year, but it has warned that an AI disappointment could trigger a disorderly correction. Why it matters: AI investment is now a main engine of global growth, so a financing pullback would hit markets well…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Microsoft put a 138bn-parameter coding model on local GPUs",
+     "summary": "MAI-Code-1.1-Flash ships a 53 GiB mixed-precision checkpoint through Foundry and runs as the local model in GitHub Copilot.",
+     "matters": "agentic coding is moving on-device, where export rules cannot reach it.",
+     "url": "https://kd-agentic.hashnode.dev/ai-daily-digest-november-17-2026-claude-onboards-amd-gpus-in-3-days-vera-rubin-sweeps-mlperf-defense",
+     "source": "kd-agentic.hashnode.dev",
+     "image": "https://iili.io/odP9219.png",
+     "body": "Monday's digest leads with the number that will be argued about all week: three days. Anthropic told IPO investors that its model did the software work to run on AMD GPUs in three days instead of six to 12 months. NVIDIA's next platform swept every MLPerf training benchmark in its debut and posted a tenfold gain in agentic tokens per watt. Google made a plain-language coder generally available inside Apps Script, Microsoft shipped a 138-billion-parameter coding model that runs on a local GPU, and three funding rounds in one day mapped where capital thinks the next moat sits: defense, self-improvement, and European deep tech. 1. Anthropic says Claude Mythos onboarded AMD MI355X GPUs in about three days Anthropic told IPO investors that its Claude Mythos Preview model did the software work required to run one of its AI models on AMD's MI355X GPUs in about three days, with basically no human intervention, and that the same job historically took six to 12 months with dozens of engineers. Tom Brown, Anthropic's co-founder and chief compute officer, made the comparison in a roadshow video dated November 10, and the amended prospectus filed the same day states that the company can onboard new chip platforms in a fraction of the time it once took. The slide footnote narrows the scope: the three days cover prompt processing for one model on MI355X at what Anthropic calls a useful level of performance, and Mythos ported or wrote almost 100 percent of the kernels. Kernels are the low-level programs that tie a model to a specific vendor's silicon, and writing them has been part of NVIDIA's CUDA moat for nearly two decades. AMD's equivalent stack is ROCm, with HIP as the programming layer and HIPify as the conversion tool, and AMD has spent a year arguing that AI can do this work: its researchers published the GEAK kernel-writing agent in August 2025, its AI software VP said in April that Claude beats HIPify because it has web search built in, and its SVP of AI reported in July that AI-generated kernels were sometimes better than the most manually tuned versions. Anthropic runs its models on NVIDIA and AMD GPUs, Google TPUs, and AWS Trainium, managed as one fungible pool of compute, and holds an agreement with AMD for up to 2 gigawatts. Its first MI450-based Helios racks are expected in the first half of 2027, which will test whether the three-day bring-up repeats on new silicon. The claim carries honest limits. The scope covers prefill for one model, decode is unaddressed, there is no speed comparison against NVIDIA hardware, and the six-to-12-month baseline is…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "OpenAI signed 457 MW of AMD compute with TensorWave",
+     "summary": "a six-year, single-tenant deal spread across several data centres.",
+     "matters": "OpenAI is locking in non-Nvidia capacity while Nvidia's leadership is unsettled.",
+     "url": "https://geoffreychen.com/ai-technology-observation-2026-11-17-07/",
+     "source": "geoffreychen.com",
+     "image": null,
+     "body": "This observation covers AI technology changes formally released or reliably verified around the period from 7:53 am on 16 November to 7:53 am on 17 November 2026 in Australia/Sydney. It includes three items. Alibaba formally released Qwen4-Max on 16 November under the model identifier qwen4-max. It is callable through QwenCloud's Token Plan and API and is also available in QwenWork and QwenStudio. The Qwen4-Max-Preview opened on 11 November only through the Singapore Token Plan and is scheduled to end on 25 November; the new fact in this release is that a separate production model is now live. Alibaba describes it as a sparse mixture-of-experts model with 2.4 trillion total parameters and 71 billion activated per token. It natively accepts text, image and video input and provides a one-million-token context window, tool calling and structured output. The flagship model's weights have not been released; Alibaba has only announced plans for smaller open-weight Qwen4 models. Performance, cost, safety and long-running agent results are developer reports. Reuters did not independently verify them, and no complete public third-party reproduction is available. The US Department of Commerce's Bureau of Industry and Security issued the interim final rule Addressing Remote Access to Advanced Semiconductors on 16 November, and it took effect immediately. The rule adds section 744.24 to the Export Administration Regulations. A licence is required when an exporter knows that covered advanced-computing items will be used in a data centre anywhere in the world and that one or more linked data centres will provide more than 12,000,000 aggregate TPP of direct or indirect access to a company headquartered, or whose ultimate parent is headquartered, in Macau or Country Group D:5. Foreign data centres must examine direct and indirect customer ownership or control. Compute used exclusively for commercial recommender systems is excepted when reporting conditions are met. The rule also adds destination-based licence requirements for specified advanced-computing items sent to Indonesia, Malaysia, Singapore, Thailand and Brazil. Existing remote services may continue for 90 days but must obtain a licence within that period. The rule is in force as an interim final rule; licence applications are reviewed case by case, and implementation and any later amendments remain incomplete. TensorWave announced on 16 November that it had signed a six-year contract to provide OpenAI with 457 MW of dedicated, single-tenant AI capacity across multiple data centres. The plan uses AMD Helios…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎮 Games & Dev",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Dalamud 15.0.4.0 · .NET 10.0.14 · game build 2026.11.03 · last changelog 10 Nov",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Road to Evercold promotion opened",
+     "summary": "a free login campaign of up to 30 days, the longest Square Enix has run, plus a limited Tales of Adventure: Winter's Prelude story skip.",
+     "matters": "a 30-day window is the widest test yet of how many lapsed players plugins can pull back before 8.0.",
+     "url": "https://na.finalfantasyxiv.com/lodestone/topics/detail/70b42752811828303f3b19ffdf3cef9bd2bdc958",
+     "source": "na.finalfantasyxiv.com",
+     "image": "https://img.finalfantasyxiv.com/t/70b42752811828303f3b19ffdf3cef9bd2bdc958.png",
+     "body": "The Road to Evercold begins today, helping you prepare for the upcoming release of Evercold! A new Letter from the Producer from Producer and Director Naoki Yoshida has been published to mark the start of the promotion—be sure to check it out! Visit the Road to Evercold special site for…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Dalamud's docs now carry unreleased API 16 pages",
+     "summary": "the next API level is documented ahead of release, with the plugin interface marked unreleased.",
+     "matters": "API 16 is the breaking change to test against now, not after the patch.",
+     "url": "https://dalamud.dev/api/api16/Dalamud.Plugin/Interfaces/IDalamudPluginInterface/",
+     "source": "dalamud.dev",
+     "image": null,
+     "body": "Dalamud.Plugin Interfaces IDalamudPluginInterface Version: 16.x (API 16) 🚧 On this page Interface IDalamudPluginInterface This interface acts as an interface to various objects needed to interact with Dalamud and the game. public interface IDalamudPluginInterface : IServiceProvider Properties ​ Reason ​ Gets the reason this plugin was loaded. PluginLoadReason Reason { get ; } IsAutoUpdateComplete ​ Gets a value indicating whether auto-updates have already completed this session. bool IsAutoUpdateComplete { get ; } SourceRepository ​ Gets the repository from which this plugin was installed. If a plugin was installed from the official/main repository, this will return the value of Dalamud.Plugin.Internal.Types.Manifest.SpecialPluginSource.MainRepo . Developer plugins will return the value of Dalamud.Plugin.Internal.Types.Manifest.SpecialPluginSource.DevPlugin . string InternalName { get ; } WorkingPluginId ​ Gets the unique working plugin ID set by Dalamud. IPluginManifest Manifest { get ; } IsDev ​ Gets a value indicating whether this is a dev plugin. bool IsDev { get ; } IsTesting ​ Gets a value indicating whether this is a testing release of a plugin. bool IsTesting { get ; } Remarks ​ Dev plugins have undefined behavior for this value, but can be expected to return false . bool IsInProfile { get ; } LoadTime ​ Gets the time that this plugin was loaded. DateTime LoadTime { get ; } LoadTimeUTC ​ Gets the UTC time that this plugin was loaded. DateTime LoadTimeUTC { get ; } LoadTimeDelta ​ Gets the timespan delta from when this plugin was loaded. TimeSpan LoadTimeDelta { get ; } DalamudAssetDirectory ​ Gets the directory Dalamud assets are stored in. Assembly Assembly { get ; } AssemblyLocation ​ Gets the location of your plugin assembly. FileInfo AssemblyLocation { get ; } ConfigDirectory ​ Gets the directory your plugin configurations are stored in. DirectoryInfo ConfigDirectory { get ; } ConfigFile ​ Gets the config file of your plugin. FileInfo ConfigFile { get ; } UiBuilder ​ Gets the Dalamud.Plugin.IDalamudPluginInterface.UiBuilder instance which allows you to draw UI into the game via ImGui draw calls. bool IsDebugging { get ; } AllowSeasonalEvents ​ Gets a value indicating whether the user wants to allow seasonal events, such as April Fools, to be to run. Certain users may not wish to be affected by these and may disable them globally. We recommend that plugins check this value before running any seasonal event code, and disable or hide such features if this is false. bool AllowSeasonalEvents { get ; } UiLanguage ​ Gets the current UI language in…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Blender 5.3 landed with native Gaussian splats and Vulkan by default",
+     "summary": "PLY, SPZ and glTF splats import as point clouds, alongside DLSS 4.5 ray reconstruction and a compositor effect stack.",
+     "matters": "splat import is the practical route from photogrammetry or game captures into a scene without extra tooling.",
+     "url": "https://www.phoronix.com/news/Blender-5.3-Released",
+     "source": "phoronix.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": ".NET 10 moved to 10.0.15 and .NET 11.0.0 went GA in the same Patch Tuesday",
+     "summary": "both carry security fixes, and 10.0.15 replaces 10.0.14 on install.",
+     "matters": "builds still pinned to 10.0.14 are a patch behind on the runtime Dalamud loads.",
+     "url": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-november-2026-servicing-updates/",
+     "source": "devblogs.microsoft.com",
+     "image": null,
+     "body": "The November 10, 2026 servicing updates for .NET 10, .NET 9, and .NET 8 include security and non-security fixes. This post brings together the security advisories, release notes, and download links for this month’s updates, along with resources for .NET Framework servicing. The following table covers vulnerabilities affecting .NET 8, 9, 10, and 11, including associated tooling. Follow each advisory for the full list of affected products and remediation guidance. CVE-2026-118747 requires a separate System.Formats.Cbor NuGet package update. For the .NET 9 package line, the fix is in version 9.0.24, not 9.0.23. Installing runtime 9.0.23 alone does not fix this vulnerability; update the package, then rebuild and redeploy affected applications. CVE-2026-118741 affects ASP.NET Core Identity scaffolding and templates. Update the affected scaffolding/template packages or the SDK that supplies the templates, and correct, rebuild, and redeploy previously generated applications. Updating the runtime alone does not repair generated code. For .NET Framework servicing information and update details, see the .NET Framework release notes . Use the download links above to update your .NET SDK and runtimes. Review the release notes and security advisories for guidance relevant to your…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🐉 World of Warcraft Forever",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Blizzard posted the 16 November hotfix list",
+     "summary": "Vampiric Embrace now heals for 10% of Shadow damage instead of 20% at weekly maintenance, with Druid Wild Growth, Rogue poison ranks and several Fury warrior interactions fixed.",
+     "matters": "the priest change is a genuine healing nerf, not a tooltip cleanup.",
+     "url": "https://worldofwarcraft.blizzard.com/en-us/news/24315281/wow-forever-hotfixes-november-16-2026",
+     "source": "worldofwarcraft.blizzard.com",
+     "image": null,
+     "body": "Here you will find a list of hotfixes that address various issues related to World of Warcraft:…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The auction house minimum deposit drops from 1 silver to 1 copper",
+     "summary": "pulled from the 10 November hotfix, it returns with this week's maintenance, today in the Americas and tomorrow in Europe.",
+     "matters": "flipping cheap materials gets cheaper and the undercut war tightens.",
+     "url": "https://space4games.com/en/games-en/wow-forever-news-2026-11-13/",
+     "source": "space4games.com",
+     "image": "https://space4games.com/wp-content/uploads/wow-forever-news-2026-11-13-titelbild.jpg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "WoW's 22nd anniversary event begins today at 10:00",
+     "summary": "the in-game celebration opens with the usual boss queue and reward vendors.",
+     "matters": "free loot for anyone still levelling through Forever.",
+     "url": "https://www.wowhead.com/event=1808/wows-22nd-anniversary",
+     "source": "wowhead.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Bloated Fish gold farm is the week's argument",
+     "summary": "drop chances were raised in the hotfix after players and streamers banked hundreds of gold an hour from the Fishing Rack, one reportedly holding 4,600 gold.",
+     "matters": "Blizzard buffed a farm instead of banning the farmers, which is the pattern Forever keeps repeating.",
+     "url": "https://us.forums.blizzard.com/en/wow/t/exploit-early-exploit-often-streamers-and-other-players-abused-hotfixed-gold-farm-ziqo-has-4600-gold-alone/2418538",
+     "source": "us.forums.blizzard.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎵 Music",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "RAYE leads the 2027 Grammy nominations with 11",
+     "summary": "Rosalía took nine, and Ella Langley, Miranda Lambert, Olivia Rodrigo and Phoebe Bridgers got seven each ahead of the 7 February ceremony.",
+     "matters": "the general field is now dominated by writer-performers rather than streaming hits.",
+     "url": "https://www.grammy.com/news/2027-grammys-nominations-announcement/",
+     "source": "grammy.com",
+     "image": null,
+     "body": "SANTA MONICA, CALIF. (NOV. 16, 2026) — Nominations for the 2027 Grammys ® were announced today, and topping the list of nominees are RAYE (11) , ROSALÍA (9) , Ella Langley (7) , Miranda Lambert (7) , Olivia Rodrigo (7) , Phoebe Bridgers (7) , Bruno Mars (6) , Leon Thomas (6) ,and Olivia Dean (6) . As the only peer-voted music award, Grammy ® award winners are selected by the Recording Academy ® 's Voting Members , a body of nearly 16,000 music makers who represent all genres and creative disciplines, including recording artists, songwriters, composers, producers, mixers, and engineers. The full list of 2027 Grammy Award nominations is here . \"It's a privilege to congratulate all the incredible music creators recognized in this year's Grammy nominations,\" said Harvey Mason jr., Grammys CEO. \"From first-time nominees to artists reaching career milestones, it's inspiring to see musicians at every stage of their careers represented. Together, they reflect the extraordinary diversity of genres, crafts and backgrounds that make up our community. We look forward to a remarkable season of celebration, and I'm grateful to our Voting Members for their continued commitment to honoring the music that moves us year after year.\" This year's eligibility period includes recordings released from Aug. 31, 2025, through Aug. 28, 2026. Final Round Voting, in which Recording Academy Voting Members choose the Grammy winners, will take place Dec. 10, 2026 – Jan. 7, 2027. In a historic shift, the 2027 Grammys will return to ABC for the first time since 1972. The ceremony will premiere live across ABC, Disney+ and Hulu from Crypto.com Arena in Los Angeles on Sunday, Feb. 7, 2027, at 7 p.m. ET / 4 p.m. PT. The Telecast will be produced by Fulwell Entertainment for the Recording Academy, with Ben Winston, Raj Kapoor and Jesse Collins serving as executive producers. Earlier that day, the Grammy Awards Premiere Ceremony ® will stream live on Disney+ at 2:30 p.m. ET / 11:30 a.m. PT. Produced by Fulwell Entertainment, the ceremony will be executive produced by Winston, Eric Pankowski and Greg V. Fera. Branden Chapman, Chantel Sausedo, Rex Supa, and Ruby Marchand will serve as producers on behalf of the Recording Academy. It will take place at Peacock Theater. The following is a sampling of nominations from the Grammy Awards' 12 Fields and 100 Categories. \"RUNWAY\" [From The Devil Wears Prada 2 ] - Henry Walter, Jaylah Hickmon, Dernst \"D'Mile\" Emile II, Stefani Germanotta, Jayda Love, Bruno Mars & Andrew Watt, songwriters (Lady Gaga, Doechii) For a complete nominations list, visit here…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "U2 released Carnaval de Luz, their first album of new songs in nine years",
+     "summary": "twelve tracks produced by Jacknife Lee, Larry Mullen Jr back on drums and Dolly Parton's last recorded appearance on the closer \"Torn\".",
+     "matters": "the tour opens in Mexico City in February, so the setlist argument starts now.",
+     "url": "https://www.u2.com/blogs/news/out-now-1",
+     "source": "u2.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Olamide dropped Time and Space through YBNL and EMPIRE",
+     "summary": "ten songs, 32 minutes, FOLA the only guest.",
+     "matters": "a compact release that keeps YBNL's distribution with EMPIRE rather than going independent.",
+     "url": "https://interspacemusic.com/blog/olamide-time-and-space-ybnl-empire-release-2026/",
+     "source": "interspacemusic.com",
+     "image": "https://i0.wp.com/d2n07ae9429qri.cloudfront.net/wp-content/uploads/2026/11/17063354/4315265333_8568b3116b_b-1.jpg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "AMPERS&ONE released their first full-length album",
+     "summary": "PATHFINDER arrived today with a showcase at Yes24 Live Hall in Seoul.",
+     "matters": "the first LP is the test of whether a group survives the rookie churn.",
+     "url": "https://www.starnewskorea.com/en/pop-culture/2026/11/17/2026111714173187629",
+     "source": "starnewskorea.com",
+     "image": "https://image.starnewskorea.com/cdn-cgi/image/f=auto,w=640/21/2026/11/2026111714173187629_1.jpg",
+     "body": "The group AMPERS&ONE poses at the showcase for the release of their first full-length album, \"PATHFINDER,\" held on the 17th in the afternoon at Yes24 Live Hall in Gwangjin District,…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The 69 Eyes announced Acustica for February",
+     "summary": "ten acoustic reworkings including \"Lost Boys\" and \"Wasting the Dawn\", with a second preview out now.",
+     "matters": "another legacy act monetising the catalogue while touring costs stay high.",
+     "url": "https://themetallist.com/en/news/2026/11/the-69-eyes-acustica-acoustic-album-wasting-the-dawn/",
+     "source": "themetallist.com",
+     "image": "https://themetallist-media.fra1.cdn.digitaloceanspaces.com/the69eyessept2026_638.jpg",
+     "body": "Helsinki's THE 69 EYES will release Acustica , an album of acoustic reworkings of their songs, on February 5, 2027 via BLKIIBLK. Alongside the announcement, the band has shared the second preview, a stripped-down \"Wasting The Dawn (Forma Acustica)\" with an official music video. \"Wasting The Dawn\" is one of the band's signature songs. As the title track of their 1999 album, it was THE 69 EYES' first international release through Roadrunner Records, and it has stayed in the live set ever since. The new version leans toward the cinematic sweep of Ennio Morricone's film scores while keeping the original's gothic atmosphere, and the band promises a glimpse of Jim Morrison's shadow somewhere in the video. The track was mixed by Matt Hyde, who produced the band's 2009 album Back In Blood and has worked with SLAYER and on MEGADETH's latest album. \"Mystery is a great element in life,\" says singer Jyrki 69. \"Sometimes you manage to capture it in art. That is what 'Wasting The Dawn' is all about. It is a spiritual song celebrating the youth.\" The acoustic campaign began in September with \"Brandon Lee (Forma Acustica)\", which also opens the album. The ten-track set revisits material from across the catalog, including the 2005 hit \"Lost Boys\", whose video was directed by Bam Margera. Formed in Helsinki in 1989, the \"Helsinki Vampires\" still play with their original lineup and have thirteen studio albums behind them, several of them gold and platinum in Finland. Earlier this year they released the I Survive EP, featuring a THIN LIZZY cover . Our archive also holds an interview with the band from 2008 . THE 69 EYES are: Jyrki 69 (vocals), Bazie (guitar, backing vocals), Timo-Timo (guitar), Archzie (bass, backing vocals), Jussi 69…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎬 Culture",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Robert Pattinson is the next James Bond",
+     "summary": "Amazon MGM confirmed it with a teaser on Monday; he is the seventh 007 and the Denis Villeneuve film, from a Steven Knight script, is due in 2028.",
+     "matters": "the first Bond cast under Amazon ownership points to a star-led, franchise-safe reset.",
+     "url": "https://www.cnn.com/2026/11/16/entertainment/robert-pattinson-james-bond",
+     "source": "cnn.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Netflix dropped the first trailer for Ava DuVernay's 14th",
+     "summary": "the documentary on the amendment opens in cinemas on 27 November and streams from 4 December, with its AI-animated archival footage already contested.",
+     "matters": "the first mass test of whether audiences accept generative restoration in documentary work.",
+     "url": "https://www.netfm.net/news/comingsoon-net-movie-trailers-tv-and-streaming-news-and-more/ava-duvernays-controversial-netflix-movie-drops-gripping-first-trailer/",
+     "source": "netfm.net",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Slow Horses has been renewed for seasons 9 and 10",
+     "summary": "Apple TV added two more runs of the Gary Oldman spy drama after Jack Lowden missed the Bond role.",
+     "matters": "Apple is locking in its most reliable prestige title rather than chasing new IP.",
+     "url": "https://www.netfm.net/news/comingsoon-net-movie-trailers-tv-and-streaming-news-and-more/jack-lowdens-spy-tv-shows-future-revealed-after-actor-misses-out-on-james-bond-role/",
+     "source": "netfm.net",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Virgin River scored a ninth season",
+     "summary": "Netflix's longest-running scripted drama passed half a billion views on the way.",
+     "matters": "comfort TV is the most durable thing on the service.",
+     "url": "https://www.whats-on-netflix.com/news/",
+     "source": "whats-on-netflix.com",
+     "image": "https://www.whats-on-netflix.com/wp-content/uploads/2026/11/netflix-top-10s-black-doves-a-dogs-perfect-christmas.jpg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Obsession, the fifth-highest-grossing horror film ever, lands on Netflix today",
+     "summary": "Gentle Monster follows tomorrow and the three-part He Said, She Said documentary arrives on Paramount+.",
+     "matters": "the week's cheapest good watch if you want one.",
+     "url": "https://nqbrief.com/en/movies/topic/streaming/",
+     "source": "nqbrief.com",
+     "image": null,
+     "body": "Director Lee Yoon-jung said Song Hye-kyo's grown-up side resembles Minja, in a new still from the 22-episode Netflix…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🏛️ Brussels",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "The Apply AI Summit runs today in Brussels",
+     "summary": "nearly 1,000 policymakers and founders across ten strategic sectors, with Henna Virkkunen hosting and the first Apply AI Startup Award handed out.",
+     "matters": "the Commission's shop window for the Apply AI Strategy a year on, and the sector list is where procurement money will go.",
+     "url": "https://digital-strategy.ec.europa.eu/en/news/commission-hosts-apply-ai-summit-boost-europes-ai-innovation-and-uptake",
+     "source": "digital-strategy.ec.europa.eu",
+     "image": null,
+     "body": "Nearly 1,000 high-level policymakers, start-ups, industry leaders and researchers will take part in the Apply AI Summit in Brussels tomorrow. They will discuss how artificial intelligence (AI) can boost Europe’s competitiveness across 10 strategic sectors and the public sector. The summit will also showcase concrete AI applications, European success stories and innovative projects. Henna Virkkunen , Executive Vice-President for Technological Sovereignty, Security and Democracy, will host the summit and present the first Apply AI Startup Award to three European start-ups. The award recognises innovative European startups and scaleups developing AI solutions in the strategic sectors. Alongside the in-person event, an online conference platform will run from 16 to 20 November, allowing additional 2,500 participants to join part of the summit. The Apply AI Summit marks one year since the adoption of the Apply AI Strategy , which sets out how to speed up the use of AI in Europe’s key industries and the public sector. It concludes the first European AI Innovation Month , running from 14 October to 17 November 2026, organised by the European Commission in partnership with the Irish Presidency of the Council of the European…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Commission opened feedback on the AI Act's fundamental rights impact assessment template",
+     "summary": "the draft questionnaire is meant to help deployers meet Article 27 duties for high-risk systems.",
+     "matters": "if you deploy high-risk AI in the EU, this template becomes your paperwork.",
+     "url": "https://digital-strategy.ec.europa.eu/en/news",
+     "source": "digital-strategy.ec.europa.eu",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Digital Fairness Act proposal would regulate design, not just disclosure",
+     "summary": "dark patterns, addictive features, auto-renewal and cancellation flows, with fines up to 6% of worldwide turnover and agentic AI in scope.",
+     "matters": "subscription and checkout code becomes compliance code, and the Commission gets direct enforcement powers.",
+     "url": "https://commission.europa.eu/news-and-media/news/making-your-online-experience-fairer-2026-11-11_en",
+     "source": "commission.europa.eu",
+     "image": null,
+     "body": "Had trouble with an online purchase or subscription lately? It’s an increasingly common phenomenon. According to the 2025 Consumer Conditions Scoreboard around 60% of us buy goods or services online, yet online shoppers are over 60% more likely to experience problems than those shopping offline. The European Commission’s newly proposed Digital Fairness Act will help ensure that whether you shop online or in a physical store, you will be guaranteed the same high level of consumer protection. The Act tackles unfair commercial practices online, such as manipulative marketing tactics or hidden fees, that undermine our ability to make free and informed choices. For, while online shopping is convenient, it shouldn’t come at the expense of fairness. The Act will protect consumers of all ages shopping and browsing for goods or services online. It will also mean fairer competition for businesses, which are expecting to save EU consumers up to €13.7 billion a year. The Digital Fairness Act proposal will also simplify the application of the Consumer Rights Directive online. For instance, by introducing simpler pre-contractual information requirements for repeat in-app purchases and clearer rules on how consumers can cancel digital media subscriptions within the withdrawal period. The EU and Kenya advance towards a landmark mutual data adequacy arrangement, paving the way for safe data flows, stronger digital trade, research cooperation and investment opportunities - the first such EU-Africa…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Brussels published its study on DSA out-of-court dispute settlement",
+     "summary": "the Article 21 mechanism works but needs clearer eligibility, shared case data and better fee rules.",
+     "matters": "if you run a platform, expect the appeals path your users see to be standardised.",
+     "url": "https://www.lexisnexis.co.uk/legal/news/commission-publishes-study-on-out-of-court-dispute-settlement-under-article-21-of-the-eu-digital-services",
+     "source": "lexisnexis.co.uk",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "📅 Tonight",
+   "kind": "fixtures",
+   "items": [
+    {
+     "type": "fixture",
+     "text": "Nations League — Poland v Sweden, 20:45 (Wrocław)"
+    },
+    {
+     "type": "fixture",
+     "text": "Nations League — Denmark v Norway, 20:45"
+    },
+    {
+     "type": "fixture",
+     "text": "Nations League — Wales v Portugal, 20:45"
+    },
+    {
+     "type": "fixture",
+     "text": "Nations League — Bosnia and Herzegovina v Romania, 20:45"
+    },
+    {
+     "type": "fixture",
+     "text": "Nations League — Republic of Ireland v Kosovo, Hungary v Northern Ireland, Israel v Austria, Ukraine v Georgia, all 20:45"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Knicks at Raptors, 01:30; Trail Blazers at Timberwolves and Pistons at Spurs, 02:00"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Jazz at Clippers, 04:30; Hornets at Lakers, 05:00"
+    }
+   ]
+  },
+  {
+   "name": "⚽ Football",
+   "kind": "scores",
+   "items": [
+    {
+     "type": "note",
+     "text": "No league football: all six leagues are on the international break, so the Nations League closes its group stage instead."
+    },
+    {
+     "type": "score",
+     "group": "League A",
+     "home": "Germany",
+     "away": "Netherlands",
+     "home_score": 5,
+     "away_score": 0,
+     "note": "Wirtz scored twice, with Scherhant, Schlotterbeck and Gruda completing the rout that took Germany top of Group A2 on goal difference.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "League A",
+     "home": "Greece",
+     "away": "Serbia",
+     "home_score": 1,
+     "away_score": 0,
+     "note": "the result that made Germany's five-goal swing worth a group win.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "League B",
+     "home": "Switzerland",
+     "away": "Scotland.",
+     "home_score": 4,
+     "away_score": 0,
+     "note": null,
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "League B",
+     "home": "North Macedonia",
+     "away": "Slovenia.",
+     "home_score": 0,
+     "away_score": 3,
+     "note": null,
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "League C",
+     "home": "Iceland",
+     "away": "Luxembourg.",
+     "home_score": 3,
+     "away_score": 0,
+     "note": null,
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "League C",
+     "home": "Estonia",
+     "away": "Bulgaria.",
+     "home_score": 2,
+     "away_score": 1,
+     "note": null,
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "League C",
+     "home": "Kazakhstan",
+     "away": "Slovakia.",
+     "home_score": 2,
+     "away_score": 2,
+     "note": null,
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "League C",
+     "home": "Faroe Islands",
+     "away": "Moldova.",
+     "home_score": 1,
+     "away_score": 0,
+     "note": null,
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "League D",
+     "home": "Lithuania",
+     "away": "Liechtenstein.",
+     "home_score": 2,
+     "away_score": 1,
+     "note": null,
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "League D",
+     "home": "Gibraltar",
+     "away": "Malta.",
+     "home_score": 1,
+     "away_score": 1,
+     "note": null,
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Friendlies",
+     "home": "Andorra",
+     "away": "Azerbaijan.",
+     "home_score": 1,
+     "away_score": 3,
+     "note": null,
+     "flag": null
+    }
+   ]
+  },
+  {
+   "name": "📌 Long read",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "ProPublica and WTTW on Chicago's $55 billion debt",
+     "summary": "how pension underfunding and decades of borrowing left the city spending $3.9 billion of next year's budget before a single service is paid for.",
+     "matters": null,
+     "url": "https://www.propublica.org/article/chicago-debt-burden-public-health-safety",
+     "source": "propublica.org",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  }
+ ]
+}
