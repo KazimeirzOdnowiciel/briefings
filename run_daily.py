@@ -83,35 +83,143 @@ def previous_edition(today):
         return pick[:-3], fh.read()
 
 
-def build_prompt(now, context, prev_date, prev_md, problems=None):
-    with open(os.path.join(config.CODE, "prompts", "daily.md"), encoding="utf-8") as fh:
-        text = fh.read()
-    text = (text.replace("{{DATE_LONG}}", long_date(now)).replace("{{TIME}}", f"{now:%H:%M}")
-            .replace("{{CONTEXT}}", context.strip()).replace("{{PREVIOUS_DATE}}", prev_date)
-            .replace("{{PREVIOUS}}", prev_md.strip()))
-    if problems:
-        text += ("\n\nYOUR PREVIOUS ATTEMPT WAS REJECTED by the format checker for these reasons:\n- "
-                 + "\n- ".join(problems) + "\nWrite the complete newsletter again and fix them.\n")
+# Six writers research in parallel, each owning a beat, then an editor writes the top block.
+# One writer for all fifteen sections skimped (2 Polish stories, no long read); split, each
+# beat gets a full research budget and wall time stays the same.
+TOP = ["🎯 TL;DR", "🔄 What changed", "🔁 Following"]
+GROUPS = [
+    ("world", ["🌍 World", "🏛️ Brussels"]),
+    ("poland-money", ["🇵🇱 Polska", "💰 Money"]),
+    ("tech-games", ["💻 AI & Tech", "🎮 Games & Dev", "🐉 World of Warcraft Forever"]),
+    ("culture", ["🎵 Music", "🎬 Culture", "📌 Long read"]),
+    ("football", ["📅 Tonight", "⚽ Football"]),
+    ("nba", ["🏀 NBA"]),
+]
+ORDER = TOP + ["🌍 World", "🇵🇱 Polska", "💰 Money", "💻 AI & Tech", "🎮 Games & Dev",
+               "🐉 World of Warcraft Forever", "🎵 Music", "🎬 Culture", "🏛️ Brussels",
+               "📅 Tonight", "🏀 NBA", "⚽ Football", "📌 Long read"]
+# fewest story lines a section may come back with before its writer is asked once more
+MINIMUM = {"🌍 World": 4, "🇵🇱 Polska": 4, "💰 Money": 4, "💻 AI & Tech": 4, "🎮 Games & Dev": 3,
+           "🎵 Music": 4, "🎬 Culture": 4, "🏛️ Brussels": 2, "📌 Long read": 1}
+
+
+def prompt_file(name):
+    with open(os.path.join(config.CODE, "prompts", name), encoding="utf-8") as fh:
+        return fh.read()
+
+
+def section_blocks():
+    blocks = {}
+    for block in re.split(r"\n(?=\*\*[^*\n]+\*\*\n)", "\n" + prompt_file("sections.md")):
+        block = block.strip()
+        if block:
+            blocks[block.splitlines()[0].strip("* ")] = block
+    return blocks
+
+
+def norm(name):
+    return re.sub(r"\W+", "", name).lower()
+
+
+def fill(text, **values):
+    for key, value in values.items():
+        text = text.replace("{{" + key + "}}", value)
     return text
 
 
-def claude(prompt, run):
-    cmd = [config.CLAUDE, "-p", "--model", config.MODEL,
-           "--tools", "WebSearch", "WebFetch", "--allowedTools", "WebSearch", "WebFetch",
-           "--no-session-persistence", "--strict-mcp-config", "--setting-sources", "project",
-           "--output-format", "json"]
+def split_sections(md):
+    """{heading name: [lines]} for every **heading** in md, in order."""
+    out, cur = {}, None
+    for line in md.splitlines():
+        m = HEADING_RE.match(line.strip())
+        if m:
+            cur = m.group(1).strip()
+            out[cur] = []
+        elif cur is not None and line.strip():
+            out[cur].append(line.rstrip())
+    return out
+
+
+def claude(prompt, run, label, tools=True, timeout=30 * 60):
+    cmd = [config.CLAUDE, "-p", "--model", config.MODEL]
+    cmd += ["--tools", "WebSearch", "WebFetch", "--allowedTools", "WebSearch", "WebFetch"] if tools else ["--tools", ""]
+    cmd += ["--no-session-persistence", "--strict-mcp-config", "--setting-sources", "project", "--output-format", "json"]
     t0 = time.time()
     res = subprocess.run(cmd, input=prompt, capture_output=True, text=True, encoding="utf-8",
-                         errors="replace", timeout=45 * 60, cwd=config.HOME)
+                         errors="replace", timeout=timeout, cwd=config.HOME)
     try:
         out = json.loads(res.stdout)
     except Exception:
-        raise RuntimeError(f"claude exited {res.returncode}: {(res.stderr or res.stdout).strip()[:400]}")
-    run.log(f"writer: {config.MODEL}, {out.get('num_turns')} turns, {time.time() - t0:.0f}s, "
+        raise RuntimeError(f"{label}: claude exited {res.returncode}: {(res.stderr or res.stdout).strip()[:300]}")
+    run.log(f"{label}: {out.get('num_turns')} turns, {time.time() - t0:.0f}s, "
             f"${out.get('total_cost_usd') or 0:.2f}, error={out.get('is_error')}")
     if out.get("is_error"):
-        raise RuntimeError("claude reported an error: " + str(out.get("result"))[:400])
-    return out.get("result") or "", out
+        raise RuntimeError(f"{label}: claude reported an error: " + str(out.get("result"))[:300])
+    return re.sub(r"^```[a-z]*\s*$", "", (out.get("result") or "").strip(), flags=re.M).strip()
+
+
+def shortfalls(names, got):
+    problems = []
+    for name in names:
+        lines = [l for l in got.get(name, []) if l.lstrip().startswith("- ")]
+        need = MINIMUM.get(name, 0)
+        if need and len(lines) < need:
+            problems.append(f"{name} has {len(lines)} stories; its rule asks for more. Search harder before settling.")
+        if name in MINIMUM and name != "📌 Long read":
+            bare = [l for l in lines if re.search(r"https?://", l) and "matters:" not in l]
+            if len(bare) > 1:
+                problems.append(f"{name}: {len(bare)} story lines lack the mandatory '· matters:' clause.")
+    return problems
+
+
+def write_group(key, names, base, blocks, run):
+    sections = "\n\n".join(blocks[n] for n in names if n in blocks)
+    feedback, best = "", {}
+    for attempt in (1, 2):
+        prompt = fill(prompt_file("researcher.md"), NAMES=", ".join(names), SECTIONS=sections,
+                      FEEDBACK=feedback, **base)
+        try:
+            got = split_sections(claude(prompt, run, f"writer[{key}#{attempt}]"))
+        except Exception as exc:
+            run.log(f"writer[{key}] failed:", exc)
+            continue
+        canon = {norm(n): n for n in names}  # "🏛 Brussels" and "🏛️ Brussels" are the same section
+        got = {canon[norm(n)]: v for n, v in got.items() if norm(n) in canon}
+        for n, lines in got.items():  # keep the fuller version of each section across attempts
+            if len(lines) > len(best.get(n, [])):
+                best[n] = lines
+        problems = shortfalls(names, best)
+        if not problems:
+            break
+        run.log(f"writer[{key}] short:", "; ".join(problems))
+        feedback = ("\nA FIRST DRAFT CAME BACK SHORT. Fix this and return ALL your sections again in full:\n- "
+                    + "\n- ".join(problems) + "\n")
+    return best
+
+
+def write_edition(now, context, prev_date, prev_md, run):
+    from concurrent.futures import ThreadPoolExecutor
+    blocks = section_blocks()
+    base = {"DATE_LONG": long_date(now), "TIME": f"{now:%H:%M}",
+            "COMMON": fill(prompt_file("common.md"), CONTEXT=context.strip(), PREVIOUS_DATE=prev_date,
+                           PREVIOUS=prev_md.strip(), DATE_LONG=long_date(now))}
+    with ThreadPoolExecutor(len(GROUPS)) as pool:
+        futures = [pool.submit(write_group, k, names, base, blocks, run) for k, names in GROUPS]
+        parts = {}
+        for f in futures:
+            parts.update(f.result())
+    # belt and braces: the prompt forbids process notes, this drops any that slip through
+    junk = re.compile(r"^\s*(sources?:|note:|i could not|i couldn't)", re.I)
+    parts = {n: [l for l in lines if not junk.match(l)] for n, lines in parts.items()}
+    body ="\n\n".join(f"**{n}**\n" + "\n".join(parts[n]) for n in ORDER if n not in TOP and parts.get(n))
+    if not body:
+        raise RuntimeError("every writer failed")
+
+    top = claude(fill(prompt_file("editor.md"), DATE_LONG=long_date(now), CONTEXT=context.strip(),
+                      PREVIOUS_DATE=prev_date, PREVIOUS=prev_md.strip(), BODY=body,
+                      TOP_SECTIONS="\n\n".join(blocks[n] for n in TOP)),
+                 run, "editor", tools=False, timeout=10 * 60)
+    return extract_markdown(top.strip() + "\n\n" + body)
 
 
 def extract_markdown(text):
@@ -184,20 +292,8 @@ def main(argv):
         step = "write"
         prev_date, prev_md = previous_edition(today)
         run.log("previous edition:", prev_date)
-        problems, md = None, ""
-        for attempt in (1, 2):
-            try:
-                raw, _ = claude(build_prompt(now, context, prev_date, prev_md, problems), run)
-            except Exception as exc:
-                if attempt == 2:
-                    raise
-                run.log("writer failed, retrying:", exc)
-                continue
-            md = extract_markdown(raw)
-            problems = check(md, now)
-            if not problems:
-                break
-            run.log(f"attempt {attempt} rejected:", "; ".join(problems))
+        md = write_edition(now, context, prev_date, prev_md, run)
+        problems = check(md, now)
         if problems:
             heads = sum(1 for l in md.splitlines() if HEADING_RE.match(l.strip()))
             if heads < 4 or not md.lower().startswith("good morning"):
