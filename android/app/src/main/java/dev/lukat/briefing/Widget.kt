@@ -26,17 +26,19 @@ import androidx.glance.text.FontFamily
 import androidx.glance.text.FontWeight
 import androidx.glance.text.Text
 import androidx.glance.text.TextStyle
-import androidx.glance.unit.ColorProvider
+import androidx.glance.color.ColorProvider
 import androidx.glance.appwidget.cornerRadius
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-private val WInk = ColorProvider(Color(0xFFE8EEF7))
-private val WDim = ColorProvider(Color(0xFF8D9BAD))
-private val WAccent = ColorProvider(Color(0xFF5EEAD4))
-private val WAmber = ColorProvider(Color(0xFFFBBF24))
-private val WFaint = ColorProvider(Color(0xFF5F7183))
-private val WPanel = ColorProvider(Color(0xFF111823))
+// Morning edition, mirrored from Theme.kt: Glance resolves these per ui mode itself, so it
+// cannot read the Compose state getters and keeps its own file-local day/night pairs.
+private val WInk = ColorProvider(Color(0xFF1C1A16), Color(0xFFF3ECE0))
+private val WDim = ColorProvider(Color(0xFF7A7468), Color(0xFF9A9284))
+private val WAccent = ColorProvider(Color(0xFFC4501B), Color(0xFFFF8F4A))
+private val WAmber = ColorProvider(Color(0xFFB7791F), Color(0xFFF5A524))
+private val WFaint = ColorProvider(Color(0xFF9A9285), Color(0xFF6F685C))
+private val WPanel = ColorProvider(Color(0xFFF5F1E8), Color(0xFF100F0D))
 
 /** Home-screen widget: the day, three headlines, and what you are training. */
 class BriefingWidget : GlanceAppWidget() {

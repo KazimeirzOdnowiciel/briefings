@@ -10,6 +10,7 @@ import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.rememberScrollState
@@ -79,13 +80,12 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.hapticfeedback.HapticFeedbackType
 import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -99,7 +99,7 @@ private fun briefingColors() = if (Palette.light) {
         primary = Accent,
         background = Bg,
         surface = Panel,
-        onPrimary = Color.White,
+        onPrimary = AccentInk,
         onBackground = Ink,
         onSurface = Ink,
     )
@@ -108,7 +108,7 @@ private fun briefingColors() = if (Palette.light) {
         primary = Accent,
         background = Bg,
         surface = Panel,
-        onPrimary = Color(0xFF04231F),
+        onPrimary = AccentInk,
         onBackground = Ink,
         onSurface = Ink,
     )
@@ -333,20 +333,29 @@ private fun Failure(message: String, onRetry: () -> Unit) {
             .padding(24.dp),
         verticalArrangement = Arrangement.Center
     ) {
-        Text("Could not read the briefing", color = Ink, fontSize = 20.sp, fontWeight = FontWeight.SemiBold)
-        Spacer(Modifier.height(6.dp))
-        Text(message, color = Dim, fontSize = 13.sp)
-        Spacer(Modifier.height(16.dp))
+        Text(
+            "Could not read the briefing",
+            color = Ink,
+            fontSize = 24.sp,
+            lineHeight = 28.sp,
+            fontFamily = Serif,
+            fontWeight = FontWeight.SemiBold,
+            letterSpacing = (-0.2).sp
+        )
+        Spacer(Modifier.height(8.dp))
+        Text(message, color = Body, fontSize = 14.sp, lineHeight = 20.sp)
+        Spacer(Modifier.height(18.dp))
         Text(
             "TAP TO RETRY",
             color = Accent,
             fontSize = 11.sp,
-            fontFamily = FontFamily.Monospace,
+            fontWeight = FontWeight.SemiBold,
+            letterSpacing = 0.8.sp,
             modifier = Modifier
-                .clip(RoundedCornerShape(8.dp))
-                .background(Panel)
+                .clip(RoundedCornerShape(999.dp))
+                .background(AccentSoft)
                 .clickable { onRetry() }
-                .padding(horizontal = 14.dp, vertical = 10.dp)
+                .padding(horizontal = 16.dp, vertical = 10.dp)
         )
     }
 }
@@ -463,16 +472,18 @@ private fun TwoPane(
                 Text(
                     "SECTIONS",
                     color = Faint,
-                    fontSize = 9.5.sp,
-                    fontFamily = FontFamily.Monospace,
-                    modifier = Modifier.padding(start = 8.dp, bottom = 8.dp)
+                    fontSize = 10.sp,
+                    fontWeight = FontWeight.SemiBold,
+                    letterSpacing = 1.2.sp,
+                    modifier = Modifier.padding(start = 10.dp, bottom = 10.dp)
                 )
             }
             itemsIndexed(feed.sections) { i, section ->
                 val active = i == index
                 val count = section.items.count { it.type == "story" }
+                val hue = sectionHue(section.name)
                 val bg by animateColorAsState(
-                    if (active) Panel else Bg,
+                    if (active) AccentSoft else Bg,
                     animationSpec = tween(180),
                     label = "railBg"
                 )
@@ -484,37 +495,40 @@ private fun TwoPane(
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .clip(RoundedCornerShape(8.dp))
+                        .clip(RoundedCornerShape(10.dp))
                         .background(bg)
                         .clickable {
                             haptic.performHapticFeedback(HapticFeedbackType.TextHandleMove)
                             index = i
                         }
-                        .padding(start = 6.dp, end = 9.dp, top = 8.dp, bottom = 8.dp),
+                        .padding(start = 8.dp, end = 10.dp, top = 9.dp, bottom = 9.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Box(
                         Modifier
                             .width(bar)
-                            .height(14.dp)
+                            .height(16.dp)
                             .clip(RoundedCornerShape(2.dp))
-                            .background(Accent)
+                            .background(hue)
                     )
-                    if (bar > 0.dp) Spacer(Modifier.width(5.dp))
+                    if (bar > 0.dp) Spacer(Modifier.width(6.dp))
                     Text(
                         section.name,
-                        color = if (active) Ink else Dim,
-                        fontSize = 12.5.sp,
-                        fontWeight = if (active) FontWeight.SemiBold else FontWeight.Normal,
+                        color = if (active) Accent else Body,
+                        fontSize = 13.sp,
+                        fontFamily = Serif,
+                        fontWeight = FontWeight.SemiBold,
+                        letterSpacing = (-0.2).sp,
                         maxLines = 1,
                         modifier = Modifier.weight(1f)
                     )
                     if (count > 0) {
                         Text(
                             "$count",
-                            color = Faint,
-                            fontSize = 9.5.sp,
-                            fontFamily = FontFamily.Monospace
+                            color = if (active) Accent else Faint,
+                            fontSize = 10.sp,
+                            fontWeight = FontWeight.SemiBold,
+                            style = TextStyle(fontFeatureSettings = "tnum")
                         )
                     }
                 }
@@ -551,26 +565,35 @@ private fun TwoPane(
 
 @Composable
 private fun HeaderTitles(feed: Feed, wide: Boolean) {
-    Text(
-        "DAILY BRIEFING · WARSAW",
-        color = Accent,
-        fontSize = 10.sp,
-        fontFamily = FontFamily.Monospace,
-        fontWeight = FontWeight.SemiBold,
-        letterSpacing = 1.2.sp
-    )
-    Spacer(Modifier.height(8.dp))
+    Row(verticalAlignment = Alignment.CenterVertically) {
+        Box(
+            Modifier
+                .size(8.dp)
+                .clip(RoundedCornerShape(999.dp))
+                .background(Accent)
+        )
+        Spacer(Modifier.width(8.dp))
+        Text(
+            "DAILY BRIEFING · WARSAW",
+            color = Accent,
+            fontSize = 10.5.sp,
+            fontWeight = FontWeight.SemiBold,
+            letterSpacing = 1.4.sp
+        )
+    }
+    Spacer(Modifier.height(12.dp))
     Text(
         feed.title ?: "Daily Briefing",
         color = Ink,
-        fontSize = if (wide) 36.sp else 27.sp,
-        lineHeight = if (wide) 40.sp else 31.sp,
+        fontSize = if (wide) 32.sp else 28.sp,
+        lineHeight = if (wide) 37.sp else 32.sp,
+        fontFamily = Serif,
         fontWeight = FontWeight.SemiBold,
-        letterSpacing = (-0.3).sp
+        letterSpacing = (-0.2).sp
     )
     feed.greeting?.let {
-        Spacer(Modifier.height(6.dp))
-        Text(it, color = Dim, fontSize = 13.sp)
+        Spacer(Modifier.height(8.dp))
+        Text(it, color = Body, fontSize = 14.sp, lineHeight = 20.sp)
     }
 }
 
@@ -612,7 +635,7 @@ private fun Header(
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(if (wide) 210.dp else 168.dp)
-                    .clip(RoundedCornerShape(16.dp))
+                    .clip(RoundedCornerShape(18.dp))
                     .background(Line)
             )
             Spacer(Modifier.height(16.dp))
@@ -650,8 +673,8 @@ private fun Header(
                 Text(
                     "update failed",
                     color = Amber,
-                    fontSize = 10.sp,
-                    fontFamily = FontFamily.Monospace
+                    fontSize = 11.sp,
+                    fontWeight = FontWeight.SemiBold
                 )
             }
         }
@@ -683,14 +706,15 @@ private fun pinWidget(context: android.content.Context) {
 internal fun Pill(label: String, onClick: () -> Unit) {
     Text(
         label,
-        color = Accent,
+        color = Body,
         fontSize = 10.5.sp,
-        fontFamily = FontFamily.Monospace,
+        fontWeight = FontWeight.SemiBold,
+        letterSpacing = 0.6.sp,
         modifier = Modifier
             .clip(RoundedCornerShape(999.dp))
-            .background(Panel)
+            .background(Panel2)
             .clickable { onClick() }
-            .padding(horizontal = 11.dp, vertical = 6.dp)
+            .padding(horizontal = 12.dp, vertical = 7.dp)
     )
 }
 
@@ -755,12 +779,13 @@ private fun AudioChip(url: String, editionKey: String) {
                 playing -> "■ STOP"
                 else -> "▶ LISTEN"
             },
-            color = if (playing) Amber else Accent,
+            color = if (playing) Accent else Body,
             fontSize = 10.5.sp,
-            fontFamily = FontFamily.Monospace,
+            fontWeight = FontWeight.SemiBold,
+            letterSpacing = 0.6.sp,
             modifier = Modifier
                 .clip(RoundedCornerShape(999.dp))
-                .background(Panel)
+                .background(if (playing) AccentSoft else Panel2)
                 .clickable {
                     if (playing || loading) {
                         stop()
@@ -789,10 +814,10 @@ private fun AudioChip(url: String, editionKey: String) {
                 if (speed == 1f) "1×" else "${speed}×",
                 color = Dim,
                 fontSize = 10.5.sp,
-                fontFamily = FontFamily.Monospace,
+                fontWeight = FontWeight.SemiBold,
                 modifier = Modifier
                     .clip(RoundedCornerShape(999.dp))
-                    .background(Panel)
+                    .background(Panel2)
                     .clickable {
                         speed = when (speed) {
                             1f -> 1.25f
@@ -827,19 +852,20 @@ private fun EditionPicker(
     ) {
         Text(
             "LATEST",
-            color = if (selected == dates.first()) Accent else Faint,
+            color = if (selected == dates.first()) Accent else Dim,
             fontSize = 10.5.sp,
-            fontFamily = FontFamily.Monospace,
+            fontWeight = FontWeight.SemiBold,
+            letterSpacing = 0.8.sp,
             modifier = Modifier
                 .clip(RoundedCornerShape(999.dp))
-                .background(Panel)
+                .background(if (selected == dates.first()) AccentSoft else Panel2)
                 .clickable { onRetry() }
-                .padding(horizontal = 10.dp, vertical = 6.dp)
+                .padding(horizontal = 12.dp, vertical = 7.dp)
         )
         dates.forEach { date ->
             val active = date == selected
             val bg by animateColorAsState(
-                if (active) Color(0xFF16302C) else Panel,
+                if (active) AccentSoft else Panel2,
                 animationSpec = tween(220),
                 label = "chipBg"
             )
@@ -854,7 +880,7 @@ private fun EditionPicker(
                     .clip(RoundedCornerShape(999.dp))
                     .background(bg)
                     .clickable { onSelect(date) }
-                    .padding(horizontal = 10.dp, vertical = 6.dp),
+                    .padding(horizontal = 12.dp, vertical = 7.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 if (!seen.contains(date)) {
@@ -868,9 +894,10 @@ private fun EditionPicker(
                 }
                 Text(
                     date.substring(5),
-                    color = if (active) Accent else Dim,
+                    color = if (active) Accent else Body,
                     fontSize = 10.5.sp,
-                    fontFamily = FontFamily.Monospace
+                    fontWeight = FontWeight.SemiBold,
+                    style = TextStyle(fontFeatureSettings = "tnum")
                 )
             }
         }
@@ -890,20 +917,21 @@ private fun Footer(onRetry: () -> Unit) {
         Text(
             "Written each morning by the briefing pipeline · tap to reload",
             color = Faint,
-            fontSize = 11.sp,
-            fontFamily = FontFamily.Monospace,
+            fontSize = 11.5.sp,
+            lineHeight = 16.sp,
             modifier = Modifier
                 .weight(1f)
                 .clickable { onRetry() }
         )
         Text(
             "SHARE",
-            color = Accent,
+            color = Body,
             fontSize = 10.5.sp,
-            fontFamily = FontFamily.Monospace,
+            fontWeight = FontWeight.SemiBold,
+            letterSpacing = 0.8.sp,
             modifier = Modifier
                 .clip(RoundedCornerShape(999.dp))
-                .background(Panel)
+                .background(Panel2)
                 .clickable {
                     val send = Intent(Intent.ACTION_SEND).apply {
                         type = "text/plain"
@@ -945,22 +973,17 @@ private fun ChipRow(feed: Feed, offline: Boolean) {
                 color = when {
                     live -> Accent
                     warn -> Amber
-                    else -> Dim
+                    else -> Body
                 },
                 fontSize = 11.5.sp,
+                fontWeight = FontWeight.SemiBold,
                 modifier = Modifier
                     .clip(RoundedCornerShape(999.dp))
-                    .background(Panel)
-                    .padding(horizontal = 11.dp, vertical = 6.dp)
+                    .background(if (live) AccentSoft else Panel2)
+                    .padding(horizontal = 12.dp, vertical = 7.dp)
             )
         }
     }
-}
-
-/** A stable hue per section, so World and Sport never look identical. */
-private fun sectionAccent(name: String): Color {
-    val hue = ((name.hashCode() % 360) + 360) % 360
-    return Color.hsv(hue.toFloat(), if (Palette.light) 0.55f else 0.38f, if (Palette.light) 0.62f else 0.95f)
 }
 
 @Composable
@@ -989,7 +1012,7 @@ private fun LoadingList() {
                 Modifier
                     .fillMaxWidth(0.9f)
                     .height(26.dp)
-                    .clip(RoundedCornerShape(6.dp))
+                    .clip(RoundedCornerShape(8.dp))
                     .background(Panel)
             )
             Spacer(Modifier.height(10.dp))
@@ -997,7 +1020,7 @@ private fun LoadingList() {
                 Modifier
                     .fillMaxWidth(0.6f)
                     .height(26.dp)
-                    .clip(RoundedCornerShape(6.dp))
+                    .clip(RoundedCornerShape(8.dp))
                     .background(Panel)
             )
             Spacer(Modifier.height(24.dp))
@@ -1005,7 +1028,7 @@ private fun LoadingList() {
                 Modifier
                     .fillMaxWidth()
                     .height(170.dp)
-                    .clip(RoundedCornerShape(14.dp))
+                    .clip(RoundedCornerShape(18.dp))
                     .background(Panel)
             )
             Spacer(Modifier.height(24.dp))
@@ -1037,9 +1060,10 @@ private fun LoadingList() {
  */
 @Composable
 internal fun StoryImage(url: String, storyUrl: String?, thumb: Boolean) {
-    val shape = if (thumb) RoundedCornerShape(10.dp) else RoundedCornerShape(14.dp)
+    // thumbnails are main-screen only; the reader's hero keeps its own radius
+    val shape = if (thumb) RoundedCornerShape(12.dp) else RoundedCornerShape(14.dp)
     val base = if (thumb) {
-        Modifier.size(66.dp)
+        Modifier.size(76.dp)
     } else {
         Modifier.fillMaxWidth().height(190.dp)
     }.clip(shape).background(Line)
@@ -1070,18 +1094,18 @@ private fun SectionBlock(
         Row(verticalAlignment = Alignment.CenterVertically) {
             Box(
                 Modifier
-                    .width(3.dp)
-                    .height(12.dp)
+                    .width(4.dp)
+                    .height(18.dp)
                     .clip(RoundedCornerShape(2.dp))
-                    .background(sectionAccent(section.name))
+                    .background(sectionHue(section.name))
             )
-            Spacer(Modifier.width(8.dp))
+            Spacer(Modifier.width(10.dp))
             Text(
                 section.name.uppercase(),
                 color = Ink,
                 fontSize = 12.5.sp,
                 fontWeight = FontWeight.Bold,
-                letterSpacing = 0.6.sp,
+                letterSpacing = 1.2.sp,
                 modifier = Modifier.weight(1f)
             )
             val count = section.items.count { it.type == "story" || it.type == "score" }
@@ -1097,18 +1121,20 @@ private fun SectionBlock(
                     Text(
                         "$n",
                         color = Faint,
-                        fontSize = 10.sp,
-                        fontFamily = FontFamily.Monospace
+                        fontSize = 10.5.sp,
+                        fontWeight = FontWeight.SemiBold,
+                        style = TextStyle(fontFeatureSettings = "tnum")
                     )
                 }
             }
         }
-        Spacer(Modifier.height(8.dp))
+        Spacer(Modifier.height(10.dp))
         Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .clip(RoundedCornerShape(12.dp))
+                .clip(RoundedCornerShape(18.dp))
                 .background(Panel)
+                .border(1.dp, Line, RoundedCornerShape(18.dp))
         ) {
             section.items.forEachIndexed { index, item ->
                 if (index > 0) Divider()
@@ -1155,17 +1181,18 @@ private fun StoryRow(item: Item, sectionName: String, open: (String) -> Unit, on
             ) {
                 if (hasBody) onOpen(item, sectionName) else item.url?.let(open)
             }
-            .padding(horizontal = 14.dp, vertical = 12.dp)
+            .padding(16.dp)
     ) {
         Column(modifier = Modifier.weight(1f)) {
         Row {
             Text(
                 (item.headline ?: "").let { if (item.day == 2) "$it  ·DAY 2" else it },
                 color = Ink,
-                fontSize = 15.sp,
-                lineHeight = 20.sp,
+                fontSize = 17.5.sp,
+                lineHeight = 22.sp,
+                fontFamily = Serif,
                 fontWeight = FontWeight.SemiBold,
-                letterSpacing = (-0.1).sp,
+                letterSpacing = (-0.2).sp,
                 modifier = Modifier.weight(1f)
             )
             if (hasBody) {
@@ -1173,30 +1200,31 @@ private fun StoryRow(item: Item, sectionName: String, open: (String) -> Unit, on
             }
         }
         item.summary?.let {
-            Spacer(Modifier.height(3.dp))
-            Text(it, color = Dim, fontSize = 13.sp, lineHeight = 17.sp)
+            Spacer(Modifier.height(5.dp))
+            Text(it, color = Body, fontSize = 14.sp, lineHeight = 20.sp)
         }
         item.matters?.let {
-            Spacer(Modifier.height(4.dp))
-            Text("Why it matters: $it", color = Accent, fontSize = 12.sp, lineHeight = 16.sp)
+            Spacer(Modifier.height(6.dp))
+            Text("Why it matters: $it", color = Accent, fontSize = 12.5.sp, lineHeight = 17.sp)
         }
         item.source?.let {
-            Spacer(Modifier.height(6.dp))
+            Spacer(Modifier.height(8.dp))
             Text(
                 if (item.paywall) "$it · paywall" else it,
                 color = Faint,
-                fontSize = 9.5.sp,
-                fontFamily = FontFamily.Monospace,
+                fontSize = 10.sp,
+                fontWeight = FontWeight.SemiBold,
+                letterSpacing = 0.6.sp,
                 modifier = Modifier
                     .padding(top = 2.dp)
-                    .clip(RoundedCornerShape(4.dp))
-                    .background(Panel)
-                    .padding(horizontal = 6.dp, vertical = 3.dp)
+                    .clip(RoundedCornerShape(999.dp))
+                    .background(Panel2)
+                    .padding(horizontal = 9.dp, vertical = 4.dp)
             )
         }
         }
         item.image?.takeIf { it.isNotBlank() }?.let { url ->
-            Spacer(Modifier.width(12.dp))
+            Spacer(Modifier.width(14.dp))
             StoryImage(url, item.url, thumb = true)
         }
     }
@@ -1206,39 +1234,40 @@ private fun StoryRow(item: Item, sectionName: String, open: (String) -> Unit, on
 private fun ScoreRow(item: Item) {
     val homeWin = (item.homeScore ?: 0) > (item.awayScore ?: 0)
     val awayWin = (item.homeScore ?: 0) < (item.awayScore ?: 0)
-    Column(modifier = Modifier.padding(horizontal = 14.dp, vertical = 10.dp)) {
+    Column(modifier = Modifier.padding(horizontal = 16.dp, vertical = 12.dp)) {
         item.group?.let {
             Text(
                 it.uppercase(),
                 color = Amber,
                 fontSize = 10.sp,
-                fontFamily = FontFamily.Monospace,
                 fontWeight = FontWeight.Bold,
-                modifier = Modifier.padding(bottom = 6.dp)
+                letterSpacing = 1.2.sp,
+                modifier = Modifier.padding(bottom = 8.dp)
             )
         }
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(
                 item.home ?: "",
                 color = if (homeWin) Ink else Dim,
-                fontWeight = if (homeWin) FontWeight.SemiBold else FontWeight.Normal,
+                fontWeight = if (homeWin) FontWeight.Bold else FontWeight.Normal,
                 fontSize = 14.sp,
                 modifier = Modifier.weight(1f)
             )
             Text(
                 "${item.homeScore} – ${item.awayScore}",
                 color = Ink,
-                fontSize = 13.sp,
-                fontFamily = FontFamily.Monospace,
+                fontSize = 13.5.sp,
+                fontWeight = FontWeight.SemiBold,
+                style = TextStyle(fontFeatureSettings = "tnum"),
                 modifier = Modifier
-                    .clip(RoundedCornerShape(6.dp))
-                    .background(Color(0xFF0D141D))
-                    .padding(horizontal = 9.dp, vertical = 3.dp)
+                    .clip(RoundedCornerShape(999.dp))
+                    .background(Panel2)
+                    .padding(horizontal = 10.dp, vertical = 4.dp)
             )
             Text(
                 item.away ?: "",
                 color = if (awayWin) Ink else Dim,
-                fontWeight = if (awayWin) FontWeight.SemiBold else FontWeight.Normal,
+                fontWeight = if (awayWin) FontWeight.Bold else FontWeight.Normal,
                 fontSize = 14.sp,
                 modifier = Modifier
                     .weight(1f)
@@ -1247,8 +1276,8 @@ private fun ScoreRow(item: Item) {
         }
         val note = listOfNotNull(item.flag, item.note).joinToString(" · ")
         if (note.isNotBlank()) {
-            Spacer(Modifier.height(3.dp))
-            Text(note, color = Dim, fontSize = 11.5.sp, fontFamily = FontFamily.Monospace)
+            Spacer(Modifier.height(5.dp))
+            Text(note, color = Dim, fontSize = 11.5.sp, lineHeight = 16.sp)
         }
     }
 }
@@ -1257,10 +1286,11 @@ private fun ScoreRow(item: Item) {
 private fun SimpleRow(text: String) {
     Text(
         text,
-        color = Dim,
-        fontSize = 12.5.sp,
+        color = Body,
+        fontSize = 13.sp,
+        lineHeight = 18.sp,
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = 14.dp, vertical = 9.dp)
+            .padding(horizontal = 16.dp, vertical = 12.dp)
     )
 }
