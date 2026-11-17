@@ -11,7 +11,6 @@ Steps, each logged to ~/.briefing/logs/daily-<date>.log:
   4. validate   feed_validate.py (the contract the Android app depends on)
   5. publish    publish.py: one commit with only the generated files, then wait until Pages serves it
   6. digest     one line per section to Telegram
-  7. audio      audio.py: TTS -> site + Telegram (its own failure never fails the run)
 Any failure in 1-5 sends one Telegram alert with the step and the log path.
 """
 import datetime
@@ -336,12 +335,6 @@ def main(argv):
     step = "digest"
     run.log("telegram digest sent:", tg.send_text(digest(md)))
 
-    step = "audio"
-    try:
-        r = sh([PY, os.path.join(config.CODE, "audio.py"), today], 900)
-        run.log("audio:", (r.stdout or r.stderr).strip().replace("\n", " | ")[-400:])
-    except Exception as exc:
-        run.log("audio failed (the 08:40 fallback task retries):", exc)
     run.log("=== done")
     return 0
 

@@ -108,15 +108,22 @@ def publish(paths, message):
     return None
 
 
-def wait_live(date, timeout=240):
-    """Pages lags 30-90 s. Poll feed.json (cache-busted) until it carries `date`."""
+def wait_live(date, timeout=300):
+    """Pages lags 30-120 s. Poll feed.json (cache-busted) until it is exactly the one we just wrote:
+    same date AND same `generated` stamp, so a same-day re-run can't pass on the old file."""
+    try:
+        with open(os.path.join(config.SITE_DIR, "feed.json"), encoding="utf-8") as fh:
+            want = json.load(fh).get("generated")
+    except Exception:
+        want = None
     end = time.time() + timeout
     while time.time() < end:
         try:
             url = f"{config.SITE_URL}feed.json?cb={int(time.time() * 1000)}"
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=20) as r:
-                if json.loads(r.read().decode()).get("date") == date:
-                    return True
+                live = json.loads(r.read().decode())
+            if live.get("date") == date and (want is None or live.get("generated") == want):
+                return True
         except Exception:
             pass
         time.sleep(15)

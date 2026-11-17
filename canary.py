@@ -1,4 +1,4 @@
-"""08:45 watchdog: silent when today's edition and audio are live, one Telegram warning otherwise.
+"""08:50 watchdog: silent when today's edition is live, one Telegram warning otherwise.
 
 Checks the LIVE site (feed.json date) rather than local file times, so a run that
 rendered but failed to publish is caught too. When everything landed it sends the
@@ -24,14 +24,6 @@ def live_date():
         return f"unreachable ({type(exc).__name__})"
 
 
-def audio_done(date):
-    try:
-        with open(os.path.join(config.AUDIO_CACHE, "published.txt"), encoding="utf-8") as fh:
-            return fh.read().strip() == date
-    except OSError:
-        return False
-
-
 def telegram(text):
     import tg
     print(f"telegram sent={tg.send_text(text)}")
@@ -43,8 +35,6 @@ def main():
     problems = []
     if live != today:
         problems.append(f"⚠️ Today's briefing is not live. The site still shows {live}.")
-    elif not audio_done(today):
-        problems.append("⚠️ Today's briefing is live but has no audio. The TTS step failed.")
 
     if problems:
         log = os.path.join(config.LOG_DIR, f"daily-{today}.log")

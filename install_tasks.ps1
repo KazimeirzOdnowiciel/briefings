@@ -31,11 +31,9 @@ function Add-Briefing([string]$name, [string]$script, $trigger, [int]$hours = 1,
 }
 
 Add-Briefing 'Morning briefing' 'run_daily.py' (New-ScheduledTaskTrigger -Daily -At '07:30') -wake `
-  -desc 'Writes, renders and publishes the daily briefing, then sends the Telegram digest and audio.'
-Add-Briefing 'Audio fallback' 'audio.py' (New-ScheduledTaskTrigger -Daily -At '08:40') `
-  -desc 'Retries the spoken edition if the morning run could not finish it. No-op when already done.'
+  -desc 'Writes, renders and publishes the daily briefing, then sends the Telegram digest.'
 Add-Briefing 'Canary' 'canary.py' (New-ScheduledTaskTrigger -Daily -At '08:50') `
-  -desc 'Warns on Telegram when today''s edition or audio is not live; pushes to the phone when it is.'
+  -desc 'Warns on Telegram when today''s edition is not live; pushes to the phone when it is.'
 Add-Briefing 'Workout reminder' 'workout_send.py' `
   (New-ScheduledTaskTrigger -Weekly -DaysOfWeek Tuesday,Wednesday,Friday,Saturday -At '17:00') `
   -desc 'Sends today''s Hevy routine to Telegram on training days.'

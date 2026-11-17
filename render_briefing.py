@@ -485,9 +485,6 @@ def render(markdown, now=None, covers=None, weather=""):
     out.append("</header>")
     if hero:
         out.append(f'<img class="hero" src="{html.escape(hero)}" alt="">')
-    if os.path.exists(os.path.join(HOME, "audio", "today.mp3")):
-        out.append('<audio controls preload="metadata" src="audio/today.mp3" '
-                   'title="Spoken briefing"></audio>')
 
     out.append('<main class="grid">')
     for i, (name, chunks) in enumerate(sections):
@@ -1003,7 +1000,7 @@ def build_feed(markdown, covers=None, now=None, meta=None, bodies=None, images=N
             items.append({"type": "note", "text": line})
         sections.append({"name": sec["name"], "kind": kind, "items": items})
 
-    audio = "audio/today.mp3" if os.path.exists(os.path.join(HOME, "audio", "today.mp3")) else None
+    audio = None  # the spoken edition was dropped on 2026-11-17; both apps hide audio when null
     return {
         "schema": 1,
         "generated": now.isoformat(timespec="seconds"),
