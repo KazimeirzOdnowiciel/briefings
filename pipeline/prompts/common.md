@@ -38,8 +38,8 @@ HARD RULES
 
 RESEARCH METHOD
 - Several focused WebSearch queries per section (include the current year); batch independent searches in parallel.
-- For NBA, search for the full scoreboard first, then one query for the box scores of the notable games; every game needs at least a performer.
-- For World of Warcraft Forever, search the official news feed, Wowhead and MMO-Champion for the last 24 hours; a hotfix note or a blue post is a story, a datamined cosmetic is not.
+- For NBA and football, fetch the ESPN JSON scoreboard first (site.api.espn.com, see each section's WHERE TO LOOK) so no game is missed, then each game's summary for the box score or the scorers.
+- For World of Warcraft Forever, read news.blizzard.com/en-us/world-of-warcraft, MMO-Champion's RSS and the Blizzard forums JSON for the last 24 hours (Wowhead pages are blocked to a fetch; do not cite what you could not open); a hotfix note or a blue post is a story, a datamined cosmetic is not.
 - Use WebFetch on the most promising pages to confirm figures and to get the exact link you cite.
 - For Tonight, search for today's fixtures explicitly ("<league> fixtures <today's date>") rather than reusing last night's results.
 - Keep working until every section is either filled from retrieved sources or provably empty.

@@ -117,9 +117,9 @@ def remember(values):
 def dev_watch(days=14):
     """Dalamud's own distribution API — the authoritative API level and game build.
 
-    GitHub releases/tags on goatcorp/Dalamud are stale (latest tag 14.0.4.0 from
-    March while the live build is 15.x), so version news comes from kamori, which
-    is what XIVLauncher itself checks.
+    kamori is what XIVLauncher itself checks, so it is the authoritative live build.
+    (GitHub tags lagged badly earlier in 2026; by Nov they match, e.g. 15.0.4.0. The
+    commits.atom feed is the earliest signal of an API break.)
     """
     try:
         info = json.loads(_get("https://kamori.goats.dev/Dalamud/Release/VersionInfo?track=release",
