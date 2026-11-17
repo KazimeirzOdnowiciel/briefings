@@ -9,14 +9,18 @@ After that the app updates itself: an **UPDATE** pill appears when a newer relea
 
 ## Features
 
-- Edition list with photos, one accent colour per section, scoreboards for NBA and football, and tonight's fixtures
+- **Today**: the masthead (lead photo, headline, workout, reading progress), a catch-up card with
+  *In short / What changed / Following* tabs, then **one card per category**. Each card shows a photo or the section colour,
+  the lead headline and how much of it you've read. Sport and the long read have their own cards.
+- **A category**: a chip strip to jump between categories, then a **deck of story cards** you swipe through, one
+  story per card: photo, headline, summary, *why it matters*, and *Read here* / *Original*. Money shows the market
+  tape as figures. Sport categories are scoreboards (scores, scorers, kick-off chips, Poland highlighted).
 - In-app reader for extracted article text (serif, adjustable size), with prev/next, Save and Share
-- Two-pane layout when unfolded (section rail plus the section), predictive back and edge-to-edge
-- Offline: every edition is cached as raw JSON. A date strip opens older editions, and search covers all of them
-- Saved stories, a light/dark theme, and pull-to-refresh
-- Home-screen widget (Glance) with the day's headlines
-- 08:45 notification when the edition is live (exact alarm), and a separate sport channel for upsets and overtime
-- Deep links `briefing://edition/YYYY-MM-DD`
+- Read tracking per story; unseen editions are marked in the date strip
+- Unfolded (OnePlus Open): four-column Today, masthead and catch-up side by side, and two story cards visible at once
+- Offline: every edition is cached as raw JSON, and search covers all of them. Saved stories, light/dark theme, pull-to-refresh
+- Home-screen widget (Glance), 08:45 new-edition notification, sport channel for upsets and overtime
+- Deep links `briefing://edition/YYYY-MM-DD`; in-app updates from GitHub releases
 
 ## Build
 
@@ -34,6 +38,12 @@ export ANDROID_HOME="$LOCALAPPDATA/Android/Sdk"
 both in `~/.briefing/`. They are never committed, and `*.jks` is git-ignored. Without them the release build is
 unsigned, so a fresh checkout still compiles. **Back the keystore up**: every release must be signed with
 the same key, or Android refuses the update and the app has to be uninstalled first.
+
+## Screenshots without a device
+
+`gradle testDebugUnitTest --tests "*Screenshots*"` renders Today and several category screens with a real
+edition (`app/src/test/resources/edition.json`), dark and light, phone and unfolded, to `app/build/screenshots/`.
+It uses Roborazzi and Robolectric on the JVM.
 
 ## Release
 

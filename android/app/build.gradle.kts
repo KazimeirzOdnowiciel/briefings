@@ -33,8 +33,8 @@ android {
         applicationId = "dev.lukat.briefing"
         minSdk = 31
         targetSdk = 35
-        versionCode = 39
-        versionName = "0.39"
+        versionCode = 40
+        versionName = "0.40"
     }
 
     buildTypes {
@@ -56,6 +56,15 @@ android {
     buildFeatures {
         compose = true
         buildConfig = true
+    }
+
+    // Screenshot tests (Roborazzi + Robolectric) render real screens to PNG on the JVM:
+    //   gradle testDebugUnitTest --tests "*Screenshots*"  ->  app/build/screenshots/*.png
+    testOptions {
+        unitTests {
+            isIncludeAndroidResources = true
+            all { it.systemProperty("roborazzi.test.record", "true") }
+        }
     }
 }
 
@@ -80,4 +89,12 @@ dependencies {
     implementation("androidx.media3:media3-session:1.4.1")
 
     debugImplementation("androidx.compose.ui:ui-tooling")
+    debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    testImplementation("junit:junit:4.13.2")
+    testImplementation("org.robolectric:robolectric:4.14.1")
+    testImplementation("io.github.takahirom.roborazzi:roborazzi:1.36.0")
+    testImplementation("io.github.takahirom.roborazzi:roborazzi-compose:1.36.0")
+    testImplementation(composeBom)
+    testImplementation("androidx.compose.ui:ui-test-junit4")
 }
