@@ -1,5 +1,7 @@
 # Briefing pipeline
 
+Lives in `pipeline/` of the briefings repo (local clone `C:\Users\lukat\Projects\briefings`).
+
 Writes, publishes and delivers the daily briefing at
 <https://kazimeirzodnowiciel.github.io/briefings/>. Replaces the Hermes cron jobs
 (the DeepSeek writer) with headless Claude Code driven by Windows Task Scheduler.
@@ -28,13 +30,15 @@ Every task runs `pythonw task.py <script>`: no console windows. Output goes to `
 | `feed_validate.py` | The `feed.json` contract the Android app depends on. A failure blocks the publish |
 | `publish.py` | One commit via the GitHub API, **only the generated files**, never force. Waits until Pages serves it |
 | `tg.py` | Telegram through `D:\Deepseek\tools\telegram-send.py` with the token from the briefing home |
+| `release_app.py` | Publishes the signed Android APK as an `app-v<version>` GitHub release (see `../android/README.md`) |
 | `run_weekly.py`, `workout_send.py`, `canary.py`, `send_push.py` | As in the schedule |
 
 ## State: `~/.briefing` (override with `BRIEFING_HOME`)
 
 `site/` (working copy of the generated files plus `_og` caches), `editions_md/` (each day's markdown, the
 continuity source), `logs/`, `cache/`, `venv/` (pywebpush), `state.json`, and the secrets
-`.github_token`, `.telegram_token` and `push_vapid_private.pem`. Copied from Hermes on 2026-11-17. The Hermes
+`.github_token`, `.telegram_token`, `push_vapid_private.pem` and the Android signing key
+(`briefing-release.jks` + `.briefing_keystore_pass`). Copied from Hermes on 2026-11-17. The Hermes
 folder was left untouched.
 
 ## Changing things

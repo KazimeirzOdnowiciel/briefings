@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="search"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/shortcut_search">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="dev.lukat.briefing"
+            android:targetClass="dev.lukat.briefing.MainActivity">
+            <extra android:name="open" android:value="search" />
+        </intent>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="release"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/shortcut_release">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://github.com/KazimeirzOdnowiciel/briefings/releases/latest" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
