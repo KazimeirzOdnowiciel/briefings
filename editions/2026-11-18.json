@@ -843,8 +843,12 @@
       "Højlund 11'",
       "Højbjerg 14'"
      ],
-     "away_scorers": null,
-     "note": "Haaland 37', Ødegaard 83', Haaland 90'+6' (pen). Haaland's stoppage-time penalty won it.",
+     "away_scorers": [
+      "Haaland 37'",
+      "Ødegaard 83'",
+      "Haaland 90'+6' (pen)"
+     ],
+     "note": "Haaland's stoppage-time penalty won it.",
      "flag": null
     },
     {
@@ -890,9 +894,13 @@
      "away": "Kosovo",
      "home_score": 3,
      "away_score": 0,
-     "home_scorers": null,
+     "home_scorers": [
+      "Parrott 28' (pen)",
+      "Parrott 50' (pen)",
+      "Moylan 75'"
+     ],
      "away_scorers": null,
-     "note": "Parrott 28' (pen), Parrott 50' (pen), Moylan 75'. Parrott scored two penalties.",
+     "note": "Parrott scored two penalties.",
      "flag": null
     },
     {
@@ -934,9 +942,11 @@
      "away": "Georgia",
      "home_score": 1,
      "away_score": 0,
-     "home_scorers": null,
+     "home_scorers": [
+      "Sikan 1'"
+     ],
      "away_scorers": null,
-     "note": "Sikan 1'. Sikan scored in the first minute.",
+     "note": "Sikan scored in the first minute.",
      "flag": null
     },
     {
@@ -947,8 +957,16 @@
      "home_score": 0,
      "away_score": 7,
      "home_scorers": null,
-     "away_scorers": null,
-     "note": "Vinícius Júnior 9', Vinícius Júnior 15', Vinícius Júnior 21', Endrick 31', Estêvão 51', Rayan 65', Bin Suhaimi 74' (og). Vinícius scored a hat-trick inside 21 minutes.",
+     "away_scorers": [
+      "Vinícius Júnior 9'",
+      "Vinícius Júnior 15'",
+      "Vinícius Júnior 21'",
+      "Endrick 31'",
+      "Estêvão 51'",
+      "Rayan 65'",
+      "Bin Suhaimi 74' (og)"
+     ],
+     "note": "Vinícius scored a hat-trick inside 21 minutes.",
      "flag": null
     },
     {
@@ -999,8 +1017,11 @@
      "home_scorers": [
       "Fukuda 85'"
      ],
-     "away_scorers": null,
-     "note": "Cáceres 2', Gómez 40'. Paraguay won away from home.",
+     "away_scorers": [
+      "Cáceres 2'",
+      "Gómez 40'"
+     ],
+     "note": "Paraguay won away from home.",
      "flag": null
     },
     {
@@ -1066,8 +1087,11 @@
      "home_scorers": [
       "Al-Brikan 23'"
      ],
-     "away_scorers": null,
-     "note": "Esanov 19', Esanov 35'. Esanov scored both Uzbekistan goals.",
+     "away_scorers": [
+      "Esanov 19'",
+      "Esanov 35'"
+     ],
+     "note": "Esanov scored both Uzbekistan goals.",
      "flag": null
     },
     {
