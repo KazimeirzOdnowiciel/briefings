@@ -985,8 +985,17 @@ def _split_scorers(note, sa, sb):
 
     Football lines list the home side's goals, then the away side's, separated by "; ".
     A side that did not score has no segment. Anything left over is the note."""
-    parts = [p.strip() for p in note.split(";")]
-    parts = [p for p in parts if p not in ("", "-", "–")] if parts else []
+    parts = []
+    for p in (p.strip() for p in note.split(";")):
+        # "Haaland 37', Ødegaard 83'. Haaland's penalty won it." -> goals, then the sentence
+        head, dot, tail = p.partition(". ")
+        if dot and all(GOAL_MINUTE.search(t) for t in head.split(",")):
+            parts += [head.strip(), tail.strip()]
+        elif p.endswith(".") and all(GOAL_MINUTE.search(t) for t in p[:-1].split(",")):
+            parts.append(p[:-1])
+        else:
+            parts.append(p)
+    parts = [p for p in parts if p not in ("", "-", "–")]
     goals = lambda p: bool(GOAL_MINUTE.search(p)) and len(p) < 160 and not p.endswith(".")
     home, away = [], []
     if sa and parts and goals(parts[0]):
