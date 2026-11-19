@@ -1,10 +1,10 @@
 {
  "schema": 1,
- "generated": "2026-11-18T07:33:18",
- "date": "2026-11-18",
- "greeting": "Good morning — Wednesday, 18 November 2026.",
- "title": "Iran and the US trade fire across the Gulf, with drones at Bahrain, a US strike on Qeshm and tankers hit by mines in Hormuz",
- "workout": "💪 Today is a workout day: Wednesday — Row B: Intervals — 8 x 3 min hard, 2 min easy between. ~60 min, reminder at 17:00. Nothing logged in Hevy yet.",
+ "generated": "2026-11-19T07:33:40",
+ "date": "2026-11-19",
+ "greeting": "Good morning — Thursday, 19 November 2026.",
+ "title": "Trump, Xi and Putin hold their first three-way summit in Shenzhen today, with the Iran war and a possible nuclear arms deal on the agenda",
+ "workout": "😴 Rest day — next session Friday. Nothing logged in Hevy yet.",
  "audio": null,
  "read_minutes": 19,
  "sections": [
@@ -14,7 +14,7 @@
    "items": [
     {
      "type": "story",
-     "headline": "Iran and the US trade fire across the Gulf, with drones at Bahrain, a US strike on Qeshm and tankers hit by mines in Hormuz",
+     "headline": "Trump, Xi and Putin hold their first three-way summit in Shenzhen today, with the Iran war and a possible nuclear arms deal on the agenda",
      "summary": null,
      "matters": null,
      "url": null,
@@ -26,7 +26,7 @@
     },
     {
      "type": "story",
-     "headline": "Nvidia beat with $115.8bn revenue and guided to $130bn, easing CEO-transition fears after Wall Street's tech-led selloff",
+     "headline": "Anthropic priced its IPO at $83, raising about $81.3bn at a roughly $1.5tn valuation, and starts trading today on Nasdaq as ANT",
      "summary": null,
      "matters": null,
      "url": null,
@@ -38,7 +38,7 @@
     },
     {
      "type": "story",
-     "headline": "The Sejm rejected the no-confidence motion against Tusk's government, 242 against and 200 for",
+     "headline": "The General Assembly of Constitutional Tribunal judges backed lifting the immunity of its president Święczkowski and Sochański, returning the immunity dispute to the Tribunal itself",
      "summary": null,
      "matters": null,
      "url": null,
@@ -56,7 +56,7 @@
    "items": [
     {
      "type": "story",
-     "headline": "The Iran story moved from a reported plot against Washington to open exchanges of fire around Bahrain, Qeshm, Kuwait and Hormuz",
+     "headline": "Iran moved from exchanges of fire to threats of a \"more crushing\" response, with US carriers in the region now at three and an unverified Iranian claim of a downed MQ-9",
      "summary": null,
      "matters": null,
      "url": null,
@@ -68,7 +68,7 @@
     },
     {
      "type": "story",
-     "headline": "Warsaw's vote is settled: the motion failed with an 11-vote cushion over the 231 needed, and attention shifts to Friday's government reshuffle at the president's palace",
+     "headline": "Nvidia's after-hours gain is gone: it closed down 2.9% despite the beat, and the Fed minutes turned hawkish, with gold down over 3%",
      "summary": null,
      "matters": null,
      "url": null,
@@ -80,7 +80,7 @@
     },
     {
      "type": "story",
-     "headline": "Nvidia's results are in and beat expectations, and Oracle's \"Java4Shell\" critical flaw is the new patch-now item",
+     "headline": "The Polish TK dispute shifted from Strasbourg to home: the judges backed lifting the immunities, the Supreme Court passed a resolution on TK rulings, and the president vetoed a VAT rise",
      "summary": null,
      "matters": null,
      "url": null,
@@ -98,8 +98,8 @@
    "items": [
     {
      "type": "story",
-     "headline": "Nvidia",
-     "summary": "beat at $115.8bn against about $109bn expected, guided $130bn, shares up over 5% after hours; the board added an export-control oversight committee.",
+     "headline": "Anthropic IPO: priced at $83, above the $70–78 range, and trading starts today as ANT",
+     "summary": null,
      "matters": null,
      "url": null,
      "source": null,
@@ -110,8 +110,8 @@
     },
     {
      "type": "story",
-     "headline": "Anthropic IPO",
-     "summary": "no change in today's sections; it was due to price today and trade Thursday as ANT.",
+     "headline": "Ukraine talks: the Shenzhen summit is today, and Ukraine is now not expected on the formal agenda, while Berlin leaders face a €25bn funding gap",
+     "summary": null,
      "matters": null,
      "url": null,
      "source": null,
@@ -122,8 +122,8 @@
     },
     {
      "type": "story",
-     "headline": "Ukraine talks",
-     "summary": "Xi and Putin meet in Shenzhen before Thursday's three-way summit with Trump; Washington first said Ukraine was off the agenda, then Trump said it would be discussed.",
+     "headline": "Gaza ceasefire: after the Board of Peace warning, Israel launched a new operation in central Gaza near Nuseirat",
+     "summary": null,
      "matters": null,
      "url": null,
      "source": null,
@@ -140,61 +140,61 @@
    "items": [
     {
      "type": "story",
-     "headline": "Iran and the US trade fire across the Gulf",
-     "summary": "Iran says drones hit a US radar at Sheikh Isa air base in Bahrain, which Bahrain and CENTCOM say was intercepted. The US struck a missile site on Qeshm island, Kuwait reported drone attacks, and three tankers hit mines in Hormuz.",
-     "matters": "the third Iranian drone attack on Bahrain in five days, with a third US carrier now in theatre, takes the standoff close to open war.",
-     "url": "https://www.aljazeera.com/news/2026/11/17/kuwait-reports-drone-attacks-as-iran-us-trade-attacks-on-qeshm-and-bahrain",
+     "headline": "Trump, Xi and Putin hold their first three-way summit in Shenzhen today",
+     "summary": "the three leaders posed together at APEC before talks that the White House says will cover the Iran war and a possible three-way nuclear arms agreement. Ukraine is not expected on the formal agenda, since Xi reportedly sees it as a European matter.",
+     "matters": "the US-China trade truce runs to 10 January 2027 and New START lapsed in February, so analysts expect few concrete results beyond symbolism.",
+     "url": "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting",
+     "source": "aljazeera.com",
+     "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26323149655704-1795065437.jpg?resize=1920%2C1440",
+     "body": "x whatsapp-stroke copylink google Add Al Jazeera on Google info Russia's President Vladimir Putin, China's President Xi Jinping and US President Donald Trump pose for a group photo with other world leaders during the Asia-Pacific Economic Cooperation (APEC) summit in Shenzhen, China [Sergei Bobylev/Pool Photo via AP] By Heba Habib Published On 19 Nov 2026 19 Nov 2026 US President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin will hold a three-way meeting on Thursday in the southern Chinese city of Shenzhen, the first ever between the leaders of the world’s three most powerful militaries.\n\nThe meeting, which will take place on the sidelines of the Asia-Pacific Economic Cooperation (APEC) summit, has drawn comparisons with the 1945 wartime Yalta conference at which the United States, United Kingdom and then-Soviet Union agreed on the post-war order. But those powers had been allied during a world war. Analysts say the three men meeting on Thursday are arriving with very different goals, and that few concrete outcomes can be expected.\n\n“It’s a summit of Trump’s ego, Putin’s tactics, China’s strategy,” Scott Lucas, professor of international politics at University College Dublin, told Al Jazeera.\n\nThe trilateral meeting is taking place on the sidelines of the APEC leaders’ summit, which China is hosting in Shenzhen on November 18 and 19. Trump travelled to China after attending the Association of Southeast Asian Nations (ASEAN) meeting in Manila.\n\nThe White House has said that Trump plans to discuss the war with Iran as well as a possible three-way agreement on nuclear armament with Xi and Putin. Ukraine is not expected to be on the formal agenda, as Xi is understood to be reluctant to be drawn into what he views as a European matter.\n\nThe meeting comes as Trump has strained ties with traditional US allies, at times floating troop withdrawals from South Korea and cuts to assistance for Japan, while his administration continues to describe China as Washington’s main geopolitical rival.\n\nVuk Vuksanovic, a lecturer in foreign policy and grand strategy at the Department of War Studies, King’s College, London, cautioned against viewing the summit as a new “carve-up” of the world order, however.\n\nAt the Yalta Conference in February 1945, US President Franklin D Roosevelt, British Prime Minister Winston Churchill and Soviet leader Joseph Stalin met in Crimea to shape the post-war order, agreeing on the division of Germany and setting the stage for Soviet influence over Eastern Europe.\n\nTrump landed in Shenzhen on Wednesday, with…",
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Iran vows a \"more crushing\" response if the US strikes again",
+     "summary": "army chief Amir Hatami warned of retaliation \"without geographical limitation\" as CENTCOM confirmed the USS Theodore Roosevelt has brought US carriers in the region to three. Iran also claims it shot down a US MQ-9 east of Hormuz, which is unverified, and Trump now says Iran is seeking chemical and biological weapons.",
+     "matters": "the rhetoric is escalating after Tuesday's US strikes on Qeshm, and the Saudi-led coalition says it intercepted Houthi missiles fired towards Riyadh.",
+     "url": "https://www.euronews.com/2026/11/18/irans-army-chief-vows-more-crushing-response-if-us-attacks-again",
+     "source": "euronews.com",
+     "image": "https://images.euronews.com/articles/stories/09/99/89/11/189x106_cmsv2_ff191d15-053d-56a7-a3cd-f84a78b15b00-9998911.jpg",
+     "body": null,
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The ICJ rules today on the Rohingya genocide case against Myanmar",
+     "summary": "The Gambia accuses Myanmar of genocide over the 2017 crackdown that displaced at least 730,000 Rohingya. The court must decide whether the state acted with intent to destroy the group.",
+     "matters": "it is the court's first genocide merits judgment in over a decade, and legal experts say its reasoning could affect South Africa's case against Israel.",
+     "url": "https://www.aljazeera.com/news/2026/11/19/icj-to-rule-on-rohingya-genocide-case-against-myanmar-whats-at-stake",
+     "source": "aljazeera.com",
+     "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-18T032241Z_525030841_RC23QOASLZPW_RTRMADP_3_MYANMAR-ROHINGYA-WORLD-COURT-1795006680.jpg?resize=1920%2C1440",
+     "body": "x whatsapp-stroke copylink google Add Al Jazeera on Google info Rohingya refugee children fly improvised kites at the Kutupalong refugee camp near Cox's Bazar, Bangladesh [File: Damir Sagolj/Reuters] By Rached El-Moctar Published On 19 Nov 2026 19 Nov 2026 The top court of the United Nations is scheduled to rule on whether Myanmar committed genocide against its Rohingya Muslim minority in a case brought by the West African nation of The Gambia.\n\nThe International Court of Justice (ICJ) in The Hague is to deliver its verdict on Thursday in what will be its first judgement on the merits of a genocide case in more than a decade.\n\nLegal experts said the ruling could bear on South Africa’s ongoing case accusing Israel of genocide in Gaza, which Israel is contesting.\n\nThe Gambia accuses Myanmar of seeking to destroy the Rohingya people during a 2017 military crackdown that forced hundreds of thousands to flee. Myanmar, meanwhile, claims it was responding to attacks by fighters from the Arakan Rohingya Salvation Army (ARSA) on police posts.\n\nMyanmar’s military began what it called clearance operations in Rakhine State in October 2016 and a far larger campaign in August 2017 after attacks on police posts by a Rohingya armed group. About 10,000 Rohingya were killed and 740,000 forced to flee to Bangladesh, the UN estimated.\n\nUN investigators found that soldiers razed hundreds of villages, carried out mass killings and routinely raped and gang-raped Rohingya women, girls and boys. They said the sexual violence indicated genocidal intent.\n\nThe military itself has announced convictions in only two cases brought after the violence. However, in one, seven soldiers jailed for killing 10 Rohingya men and boys at Inn Din village were freed after serving less than a year of their 10-year sentences.\n\nIn 1982, long before the crackdown, Myanmar excluded the Rohingya from its 135 recognised ethnic groups, calling them immigrant Bengalis despite many families having lived in Myanmar for generations. Nearly all Rohingya have been denied citizenship since then, making them the world’s largest stateless group.\n\nSince fighting with the military resumed in 2023, the Arakan Army, an ethnic Rakhine armed group, has taken most of the state. The Office of the UN High Commissioner for Human Rights said in August that both forces have committed widespread and systematic abuses against the Rohingya, accusing the Arakan Army of torture, sexual violence and forced recruitment.\n\nThe UN said those abuses have driven more than 155,000 Rohingya into Bangladesh since early 2024, taking the…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "European leaders meet in Berlin as Kyiv faces a €25bn funding gap",
+     "summary": "Merz hosts the Coalition of the Willing with Macron, UK Prime Minister Andy Burnham and more than 30 leaders, with Zelenskyy attending. The Commission has proposed a further €45bn loan for 2027, up to €25bn for military aid and €20bn for budget support, and even with it a €25bn gap remains.",
+     "matters": "Poland adds no new PURL money for now, and Bulgaria, Hungary, Czechia and Slovakia are opting out of the next round of EU financing.",
+     "url": "https://www.aljazeera.com/news/2026/11/19/far-from-trump-putin-meeting-europe-to-count-cost-of-ukraines-defence",
      "source": "aljazeera.com",
      "image": null,
-     "body": "x whatsapp-stroke copylink google Add Al Jazeera on Google info A still image from a social media video released on Tuesday shows a tanker on fire in the Strait of Hormuz, off the coast of Oman [Social media via Reuters] By Al Jazeera Staff and AFP Published On 17 Nov 2026 17 Nov 2026 Kuwait’s army has said the Gulf country is under attack by drones while the United States and Iran traded blows, marking escalating tensions in the region as a peace deal remains elusive.\n\nThe military said in a statement on X on Tuesday that “any explosion sounds heard are the result of air defence systems intercepting hostile attacks”.\n\nThe US earlier carried out several attacks on Iran’s southern island of Qeshm, in the Strait of Hormuz, hours after Iran said it launched a drone attack on a US radar system in Bahrain.\n\n“The American attack on locations on Qeshm island caused no damage to residential, commercial, or infrastructural areas,” Ahmad Nafisi, deputy governor of Iran’s southern Hormozgan province, told the official IRNA news agency on Tuesday.\n\nHe said the situation was under control and relief agencies were on full alert. IRNA reported five to six explosions on the island on Tuesday evening.\n\nA US official told Al Jazeera the strike hit a missile launch site on Qeshm, in response to Iran’s earlier attack on a US base in Bahrain.\n\nUS Central Command said Iranian drones aimed at a US radar system at an air base in Bahrain “were intercepted without any damage to US equipment or personnel”.\n\nIran’s Islamic Revolutionary Guard Corps said it carried out a “precision operation” with drones on the US-operated radar at the Sheikh Isa air base, in response to “repeated violations of Iranian airspace by US military drones”.\n\nBahrain, which hosts the US Navy’s Fifth Fleet, said its air defences intercepted the attack, and blasts were heard over the capital, Manama, according to the AFP news agency.\n\nIt was the third Iranian drone attack on Bahrain in five days after a lull of several weeks. Friday’s strike was the first Iranian attack on a Gulf country since early September, AFP reported. Reuters said it came after a Bahraini court sentenced 64 people, mostly Shia clerics, to life in prison for allegedly colluding with Iran.\n\nKuwait’s armed forces said on Tuesday night that its air defences were responding to “hostile drone attacks” and urged the public to follow safety instructions.\n\nIt did not say where the drones came from or whether there were casualties or damage.\n\nIran’s armed forces said three oil tankers struck naval mines while trying to cross the strait on…",
+     "body": "x whatsapp-stroke copylink google Add Al Jazeera on Google info German Chancellor Friedrich Merz, right, and Ukrainian President Volodymyr Zelenskyy shake hands during a news conference at the Chancellery in Berlin on November 3, 2026 [Ralf Hirschberger/AFP] By Kristen Talman Published On 19 Nov 2026 19 Nov 2026 As US President Donald Trump shakes hands with Russian President Vladimir Putin in China, European leaders are due to gather in Berlin to agree on funding for Ukraine’s defence and press Washington’s visiting envoys for a European role in Russia-Ukraine peace talks.\n\nGerman Chancellor Friedrich Merz is hosting the so-called Coalition of the Willing summit on Thursday alongside French President Emmanuel Macron and UK Prime Minister Andy Burnham. More than 30 leaders are expected to attend, including Ukrainian President Volodymyr Zelenskyy.\n\nThe summit agenda includes long-term security guarantees and continued military and financial support for Ukraine. Zelenskyy has said air defence will be his immediate priority as Kyiv enters a winter with the threat of Moscow’s drone attacks looming.\n\nTrump administration envoys Steve Witkoff and Jared Kushner are expected, according to media reports, to meet Ukrainian officials and Europe’s newly formed negotiating team in Berlin. The team includes France, Germany, the United Kingdom, Italy and Poland, plus European Commission President Ursula von der Leyen and European Council President Antonio Costa.\n\nWashington has backed European participation in the next round of talks, but Moscow has yet to agree.\n\nThe impasse could put Ukraine’s main financial backer on the sidelines of talks over its future, as European Union countries are set to make even steeper commitments.\n\nThe European Commission on Wednesday proposed an additional 45 billion-euro ($49.3bn) loan for 2027, with up to 25 billion euros ($27.4bn) for military aid and 20 billion euros ($21.9bn) for budget support. That follows a 1.71 billion-euro ($1.87bn) payment on Monday under an existing EU loan for drones, ammunition and air defence.\n\nEven if the new loan is approved, it would leave a 25 billion-euro ($27.4bn) financing gap next year.\n\nZelenskyy said the US envoys had promised to brief Kyiv on Trump’s discussions in China, where he is meeting Chinese President Xi Jinping and Putin.\n\nThe Berlin summit gives European negotiators a chance to agree on what they want from the next round and put it directly to Trump’s envoys, just days after a public disagreement between the transatlantic partners emerged in Brussels.\n\nAt Tuesday’s Ukraine Defence…",
      "day": 1,
      "paywall": false
     },
     {
      "type": "story",
-     "headline": "Xi and Putin meet in Shenzhen the day before a first three-way summit with Trump",
-     "summary": "it is their fifth meeting this year, with the summit set for Thursday 19 November. Washington first said Ukraine was off the agenda, then Trump said it would be discussed.",
-     "matters": "Kyiv and European capitals fear a deal over their heads, and the US-Russia nuclear treaty expired in February.",
-     "url": "https://www.euronews.com/2026/11/18/chinas-xi-jinping-and-putin-hold-talks-in-shenzhen-on-eve-of-three-way-summit-with-trump",
+     "headline": "Israel launches a new operation in central Gaza despite the ceasefire",
+     "summary": "tanks moved east of the Nuseirat camp near Al-Bureij, Israel says it is removing a threat and hitting Hamas infrastructure, and Hamas calls it a \"flagrant violation\". COGAT told aid groups to stay out of the area and traffic on the Salah al-Din road was halted.",
+     "matters": "more than 1,600 Palestinians have been killed since the truce began in October 2025, and it comes a day after the Board of Peace warned the ceasefire faces imminent collapse.",
+     "url": "https://www.euronews.com/2026/11/18/israeli-military-launches-new-operation-on-central-gaza-despite-ceasefire",
      "source": "euronews.com",
-     "image": "https://images.euronews.com/articles/stories/09/99/40/28/189x106_cmsv2_43cf2f5f-27fa-59bf-8757-2dfd1f5195ee-9994028.jpg",
+     "image": "https://images.euronews.com/articles/stories/09/99/89/11/189x106_cmsv2_ff191d15-053d-56a7-a3cd-f84a78b15b00-9998911.jpg",
      "body": null,
-     "day": 1,
-     "paywall": false
-    },
-    {
-     "type": "story",
-     "headline": "The US Defense Department's Elbridge Colby says Ukraine's deep strikes have not slowed Russia",
-     "summary": "he told the Ukraine Defence Contact Group in Brussels that hitting civilian infrastructure may have hardened Russian resolve. Germany's Pistorius called the remark \"quite a stupid thing\", and Zelenskyy asked for Patriot and IRIS-T interceptors from existing stocks plus 40 more F-16s.",
-     "matters": "it is an open split inside the coalition over the one campaign that is hurting Russia's economy.",
-     "url": "https://www.euronews.com/2026/11/17/us-criticises-ukraines-deep-strike-campaign-against-russia",
-     "source": "euronews.com",
-     "image": "https://images.euronews.com/articles/stories/09/99/40/28/189x106_cmsv2_43cf2f5f-27fa-59bf-8757-2dfd1f5195ee-9994028.jpg",
-     "body": null,
-     "day": 1,
-     "paywall": false
-    },
-    {
-     "type": "story",
-     "headline": "Mary Peltola flips Alaska and gives Democrats a 56-44 Senate",
-     "summary": "the AP called the last contest of the cycle on Tuesday night, a nine-seat gain and the biggest since 1958. The Justice Department had sued to decertify the result if the Republican incumbent lost, and legal challenges are expected.",
-     "matters": "the midterm result is settled on the numbers but not yet in the courts.",
-     "url": "https://www.aljazeera.com/news/2026/11/18/mary-peltola-wins-alaska-senate-seat-in-another-democratic-win",
-     "source": "aljazeera.com",
-     "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6afd1b1e-1794972446.jpg?resize=1920%2C1440",
-     "body": "x whatsapp-stroke copylink google Add Al Jazeera on Google info Democratic US Senate candidate Mary Peltola speaks during an election night rally for the US midterm elections in Anchorage, Alaska, on November 3, 2026 [File: Kerry Tasker/Reuters] By Al Jazeera Staff and The Associated Press Published On 18 Nov 2026 18 Nov 2026 Democrat Mary Peltola has defeated incumbent Republican Dan Sullivan in the race for Alaska’s Senate seat, delivering a final blow to Republicans in a midterm election rout following a race that drew accusations of cheating.\n\nThe Associated Press (AP) news agency called the race on Tuesday night, capping a contest that attracted national attention after an investigation alleged that aides to Peltola recruited another man named Dan Sullivan to run for office to siphon votes from the Republican incumbent.\n\nSullivan had pledged to accept the election outcome days after the Department of Justice filed a lawsuit seeking to decertify the results if the Republican incumbent lost.\n\nAlaska also elected a Democrat as governor for the first time since 1998, after former state lawmaker Jonathan Kreiss-Tomkins defeated three Republicans, including one endorsed by US President Donald Trump. AP has not yet called the US House race, where independent candidate Bill Hill is challenging Republican Representative Nick Begich.\n\nThe Alaska race is the last US Senate contest to be resolved in this year’s midterm elections, and Peltola’s victory expands the Democrats’ majority after they retook control of the chamber. The party already won campaigns in conservative states including South Carolina, Texas, Kansas and, most recently, Mississippi.\n\nWith Peltola’s victory, Democrats flipped nine Senate seats, the most since 1958. Republicans entered the midterms with a 53-47 majority, while Democrats now emerge with a 56-44 margin.\n\nPeltola previously held the state’s lone House seat, making her the first Alaska Native to serve in Congress. She lost her bid for a second full term to Begich in 2024, but she became central to Democrats’ plans to retake the Senate in 2026.\n\nDuring the campaign, Peltola tapped into Alaskans’ frustrations with high fuel prices and other costs. Those concerns hit especially hard in remote communities that rely on diesel for electricity and heat and are often only accessible by air or water.\n\nHer campaign peppered social media with photos of her travels around the state as she sought to distance herself from national Democrats and build a coalition around a platform of “Alaska first”.\n\nThe race attracted a flood of spending by…",
-     "day": 1,
-     "paywall": false
-    },
-    {
-     "type": "story",
-     "headline": "The US-backed Board of Peace warns the Gaza ceasefire faces imminent collapse",
-     "summary": "its report to the UN Security Council blames Israeli aid restrictions and the blocked civil administration and police deployment. It also says both sides have fallen far short of their commitments.",
-     "matters": "the body Trump created to run the truce is now saying publicly that it is failing, a year after it began on 10 October 2025.",
-     "url": "https://www.aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action",
-     "source": "aljazeera.com",
-     "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6afcb93f966d-1794947391.jpg?resize=1920%2C1440",
-     "body": "x whatsapp-stroke copylink google Add Al Jazeera on Google info Palestinians walk past displacement tents in Khan Yunis in the southern Gaza Strip on November 17, 2026 [Eyad Baba / AFP] By Al Jazeera Staff and The Associated Press Published On 18 Nov 2026 18 Nov 2026 The United States-backed Board of Peace has delivered a grim assessment to the United Nations Security Council, warning diplomats of conditions that threaten the year-old truce in war-torn Gaza.\n\nIn its latest report, submitted on Tuesday, the board cautioned that, without immediate steps to implement the 2025 ceasefire deal, the truce between Israel and Hamas may be on the brink of collapse.\n\n“The distance between what has been agreed and what is happening on the ground nonetheless remains the principal risk to the process,” the report said, which The Associated Press obtained.\n\nThe Board of Peace was created in 2025, at US President Donald Trump’s behest, to oversee the ceasefire deal and reconstruction in Gaza.\n\nSince October 2023, the narrow coastal territory has been the target of a genocidal war carried out by Israel, which has killed more than 74,000 Palestinians.\n\nIn recent weeks, Israel has continued to carry out deadly air strikes, and its ongoing restrictions have prevented the delivery of life-saving aid into Gaza ahead of the winter season.\n\n“Restrictions imposed by Israel on the entry of supplies and equipment, compounded by funding shortfalls, continued to impede preparedness and response efforts,” the board said in its report.\n\nAccording to the board, the widespread devastation in Gaza has left Palestinians facing “another winter in tents and rubble”.\n\nTrump first proposed the Board of Peace in September 2025, saying it would stabilise Gaza and ensure lasting peace.\n\nThe board’s mission was laid out in a 20-point Gaza peace plan, as well as the ceasefire between Israel and Hamas. The ceasefire formally began on October 10, 2025, though attacks have continued since.\n\nThe plan envisioned steps for each side to take that could eventually create a “credible pathway” to Palestinian statehood.\n\nBut in Tuesday’s report, the board said Israel and Hamas have fallen far short of their commitments in the ceasefire deal.\n\nThe board also noted that Israel has blocked the technocratic civil administration body created to run Gaza on an interim basis.\n\n“The absence of decisions by the government of Israel on the necessary conditions and arrangements for the training, deployment and return of civilian police to Gaza continues to impede full implementation of the Comprehensive Plan,” the…",
      "day": 1,
      "paywall": false
     }
@@ -206,61 +206,61 @@
    "items": [
     {
      "type": "story",
-     "headline": "Sejm odrzucił wotum nieufności dla rządu Tuska",
-     "summary": "przeciw było 242 posłów, za 200, nikt się nie wstrzymał, a wniosek Rozwoju Plus z Markiem Jurkiem jako kandydatem na premiera przepadł.",
-     "matters": "koalicja pokazała większość z zapasem 11 głosów ponad wymagane 231.",
-     "url": "https://tvn24.pl/polska/piec-rzeczy-ktore-warto-dzis-wiedziec-najwazniejsze-informacje-18-listopada-2026-roku-st9344301",
+     "headline": "Zgromadzenie Ogólne sędziów TK poparło wnioski o uchylenie immunitetu Święczkowskiego i Sochańskiego",
+     "summary": "sędziowie nie zgodzili się na zatrzymanie ani tymczasowe aresztowanie prezesa TK, a Święczkowski nazwał to „otrzeźwieniem\" dla osób, które według niego uzurpują sobie prawo do bycia sędziami TK.",
+     "matters": "po wczorajszym odrzuceniu jego wniosku przez ETPC spór o immunitety wraca do samego Trybunału.",
+     "url": "https://tvn24.pl/polska/szesc-rzeczy-ktore-warto-dzis-wiedziec-najwazniejsze-informacje-19-listopada-2026-roku-st9346254",
      "source": "tvn24.pl",
-     "image": "https://tvn24.pl/_e/i/plus/programy/polska-i-swiat/cdn-zdjecie-bogdan-swieczkowski-pokazuje-legitymacje-ph9315061/alternates/WEBP_LANDSCAPE_1620",
+     "image": "https://tvn24.pl/_e/i/najnowsze/cdn-zdjecie-bogdan-swieczkowski-ph9342419/alternates/WEBP_LANDSCAPE_1620",
      "body": null,
      "day": 2,
      "paywall": false
     },
     {
      "type": "story",
-     "headline": "ETPC jednomyślnie odrzucił wniosek Święczkowskiego i Sochańskiego o środek tymczasowy",
-     "summary": "minister Żurek zarzucił im hipokryzję, bo zwrócili się do Strasburga 12 listopada, już po zakończeniu blokady TK 30 października.",
-     "matters": "Trybunał w Strasburgu nie zatrzymał sprawy immunitetów, o którym TK miał wydać komunikat w środę.",
-     "url": "https://tvn24.pl/polska/piec-rzeczy-ktore-warto-dzis-wiedziec-najwazniejsze-informacje-18-listopada-2026-roku-st9344301",
-     "source": "tvn24.pl",
-     "image": "https://tvn24.pl/_e/i/plus/programy/polska-i-swiat/cdn-zdjecie-bogdan-swieczkowski-pokazuje-legitymacje-ph9315061/alternates/WEBP_LANDSCAPE_1620",
-     "body": null,
-     "day": 2,
+     "headline": "W Kancelarii Prezydenta powstał jeden wspólny projekt w sprawie TK",
+     "summary": "Zbigniew Bogucki mówi, że bazą jest najdalej idący projekt PSL, mocno uzupełniony pomysłami innych klubów, a uczestnicy zgadzają się co do około 70% rozwiązań. Trzecie spotkanie jest dziś o 18:00, a KO i Lewica na nie nie odpowiedziały.",
+     "matters": "bez KO i Lewicy projekt nie ma szans na większość, a zmiana konstytucji wymaga dwóch trzecich głosów w Sejmie.",
+     "url": "https://www.bankier.pl/wiadomosc/TK-Reset-na-horyzoncie-Bogucki-Powstal-jeden-projekt-ws-TK-9231207.html",
+     "source": "bankier.pl",
+     "image": "https://galeria.bankier.pl/p/4/2/b826c101b5f2bd-948-568-49-41-3230-1938.jpg",
+     "body": "Skomentuj W Kancelarii Prezydenta powstał jeden projekt ws. Trybunału Konstytucyjnego, łączący pomysły w tej sprawie zgłoszone przez środowiska polityczne - przekazał w środę szef KPRP Zbigniew Bogucki po spotkaniu z politykami ws. TK. Dodał, że kolejne takie spotkanie odbędzie się w czwartek o godz. 18.\n\nfot. Jacek Szydlowski / Forum / / FORUM W środę po spotkaniu w KPRP z przedstawicielami m.in. PiS, Rozwoju Plus, PSL, Konfederacji, Polski 2050, Razem, Konfederacji Korony Polskiej czy Demokracji Bezpośredniej Bogucki poinformował, że zgodnie z zapowiedziami powstał jeden wspólny projekt ws. rozwiązania sytuacji wokół TK.\n\nW kontekście jednego wspólnego projektu Bogucki powiedział, że „najdalej idący” projekt PSL ws. TK został „mocno uzupełniony” o propozycje innych klubów i kół parlamentarnych.\n\nZapowiedział, że kolejna rozmowa ugrupowań i KPRP ws. TK odbędzie się w czwartek o godz. 18 w Kancelarii Prezydenta. Będzie to już trzecie spotkanie klubów i kół z Boguckim ws. Trybunału.\n\nRelacjonując przebieg środowego spotkania, Bogucki powiedział, że wraz z obecnymi przedstawicielami ugrupowań są zgodni „w około 70 proc.” co do rozwiązań dotyczącym TK oraz „incydentalnych zmian, które pozwoliłyby zażegnać głęboki kryzys wokół Trybunału”.\n\nDodał, że na środowym spotkaniu pojawiły się wszystkie kluby i koła, które brały udział w poniedziałkowych rozmowach. Podkreślił, że wszyscy zadeklarowali też obecność na spotkaniu w czwartek. Dodał, że KO, Lewica i Centrum nie odpowiedziały na zaproszenie na środowe spotkanie.\n\nJak mówił, celem prac ws. TK jest stworzenie projektu, który będzie „do zaakceptowania przez tę większość bezwzględną, która się gromadzi” podczas spotkań ugrupowań z KPRP.\n\nDopytywany o dalsze konsultacje w sprawie TK, odparł, że spotkania planowane są z dnia na dzień. Dodał przy tym, że dynamika rozmów jest bardzo duża. - Będziemy robić wszystko, żeby te rozmowy trwały i zmierzały do finału, czyli pakietu rozwiązań, które zaakceptują wszystkie środowiska - zapewniał Bogucki.\n\nBogucki poinformował też, że będzie obecny na organizowanych w czwartek w Sejmie przez PSL konsultacjach społecznych w sprawie projektu zmian Konstytucji RP.\n\nPytany o decyzję sędziów TK ws. pozbawienia immunitetu Bogdana Święczkowskiego i Bartłomieja Sochańskiego, Bogucki odparł, że to „fatalna decyzja”. - Ona jest bez podstaw prawnych, jest w kontrze do prawa, konstytucji, logiki prawnej, a także w kontrze do elementarnej logiki - ocenił.\n\nZgromadzenie sędziów w TK zwołane przez sędzię Annę Korwin-Piotrowską uchyliło immunitet Święczkowskiego w odniesieniu do 4 spraw; nie…",
+     "day": 1,
      "paywall": false
     },
     {
      "type": "story",
-     "headline": "NBP wstrzymał płatności z rachunków Trybunału Konstytucyjnego",
-     "summary": "prof. Jerzy Hausner nazwał decyzję „stricte polityczną” i ostrzegł, że sytuacja w finansach publicznych może się pogarszać.",
-     "matters": "spór o to, kto kieruje TK, zaczyna blokować wypłaty i uderza w niezależność banku centralnego.",
-     "url": "https://tvn24.pl/biznes/pieniadze/projekt-budzetu-finanse-publiczne-decyzja-nbp-w-sprawie-tk-komentarz-profesora-jerzego-hausnera-st9344302",
+     "headline": "Prezydent zawetował podwyżkę VAT do 23% na napoje energetyzujące z sokiem i bezalkoholowe piwo oraz wino",
+     "summary": "Nawrocki pytał, jak to się mieści w logice rządu, który podnosi akcyzę na alkohol, i powołał się na sadowników, bo te napoje zużywają około 30 tys. ton polskich jabłek.",
+     "matters": "według oceny skutków regulacji budżet traci przez to około 1,3 mld zł w 2027 r. i około 15,8 mld zł w latach 2027–2036.",
+     "url": "https://www.bankier.pl/wiadomosc/Nie-bedzie-wyzszego-VAT-u-na-piwo-bezalkoholowe-Prezydent-stawia-weto-9231069.html",
+     "source": "bankier.pl",
+     "image": "https://galeria.bankier.pl/p/2/d/c43a6a184d5b53-948-568-62-283-3091-1854.jpg",
+     "body": "Skomentuj W środę prezydent Karol Nawrocki poinformował, że zawetował nowelizację ustawy o podatku od towarów i usług, której celem było podniesienie stawki VAT do 23 proc. na zawierające sok napoje energetyczne i bezalkoholowe odpowiedniki napojów alkoholowych.\n\nfot. Daniel Dmitriew / / FORUM Prezydent w wystąpieniu wideo, które zostało zamieszczone na profilu Kancelarii Prezydenta RP na platformie X, jako powody weta wskazał skutki gospodarcze podwyżki i wątpliwości dotyczące celu podwyżki oraz brak gwarancji przeznaczenia wpływów na ochronę zdrowia.\n\n„(...) bo z jednej strony proponuje się podwyżkę akcyzy na alkohol, a z drugiej podwyżkę VAT na produkty, które mogą zastępować napoje alkoholowe. Jak to mieści się w logice działania rządu?” – powiedział prezydent Nawrocki.\n\nDodał, że w sprawie ustawy otrzymał wiele opinii od organizacji reprezentujących rolników i sadowników. Zwrócił uwagę, że do produkcji napojów zawierających sok, które miałaby odjąć podwyżka VAT, wykorzystuje się 30 tys. ton polskich jabłek i tysiące ton innych owoców.\n\n„Wyższy podatek mógłby obniżyć sprzedaż, skłonić producentów do zmiany receptur i zmniejszyć zapotrzebowanie na polskie owoce” – ocenił prezydent.\n\nZawetowana ustawa miała podnieść do 23 proc. stawkę VAT na napoje energetyzujące zawierające sok oraz bezalkoholowe piwa i wina zawierające sok. Chodzi o napoje, które zawierają w swoim składzie co najmniej 20 proc. soku owocowego, warzywnego lub owocowo-warzywnego. Weto prezydenta oznacza, że utrzymana zostanie stawka 5 proc. w obrocie handlowym i 8 proc. w gastronomii.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Kosiniak-Kamysz: służby wiedziały o rosyjskiej prowokacji przy granicy z obwodem królewieckim",
+     "summary": "według „Rzeczpospolitej\" tajna operacja służb, policji i wojska pod koniec października i na początku listopada udaremniła planowaną dywersję, a minister chce przedłużenia operacji Horyzont.",
+     "matters": "szef MON mówi, że Rosja eskaluje od naruszeń przestrzeni powietrznej przez próby dywersji kolejowej i podpalenia po sabotaż fabryk zbrojeniowych i ataki cybernetyczne.",
+     "url": "https://tvn24.pl/polska/szef-mon-wladyslaw-kosiniak-kamysz-sluzby-wiedzialy-o-rosyjskiej-prowokacji-przy-granicy-i-odpowiednio-zareagowaly-st9346225",
      "source": "tvn24.pl",
-     "image": "https://tvn24.pl/_e/i/najnowsze/cdn-zdjecie-jerzy-hausner-w-faktach-po-faktach-ph9344290/alternates/WEBP_LANDSCAPE_1620",
+     "image": "https://tvn24.pl/_e/i/najnowsze/cdn-zdjecie-wladyslaw-kosiniak-kamysz-ph9346224/alternates/WEBP_LANDSCAPE_1620",
      "body": null,
      "day": 1,
      "paywall": false
     },
     {
      "type": "story",
-     "headline": "Prezydent zatwierdzi w piątek o 11:00 zmiany w rządzie",
-     "summary": "Agnieszka Bartol ma zastąpić Katarzynę Pełczyńską-Nałęcz w resorcie funduszy, a Andrzej Domański ma zostać wicepremierem, choć nie dostał imiennego zaproszenia.",
-     "matters": "pierwszy test, czy Karol Nawrocki podpisze nominacje bez zwłoki.",
-     "url": "https://www.bankier.pl/wiadomosc/Domanski-w-piatek-zostanie-wicepremierem-Rzad-zaproszony-do-prezydenta-ale-szef-MF-bez-imiennego-zaproszenia-9230547.html",
-     "source": "bankier.pl",
-     "image": "https://galeria.bankier.pl/p/1/8/39b7374d8de6b6-948-568-205-79-979-587.jpg",
-     "body": "Skomentuj Kancelaria premiera dostała zaproszenie na piątkową uroczystość w Kancelarii Prezydenta RP, która ma być poświęcona zmianom w rządzie - poinformował minister finansów i gospodarki Andrzej Domański, który ma zostać wicepremierem. Jednocześnie przyznał, że nie dostał imiennego zaproszenia.\n\n/ KAS Domański w TVN24 pytany był we wtorek o to, czy dostał już zaproszenie na piątkową uroczystość w Kancelarii Prezydenta RP, odparł, że „jeszcze nie”.\n\n- Z tego, co wiem, takie zaproszenie dotarło do kancelarii premiera (...) Wiem, że został zaproszony pan premier (Donald Tusk) i pozostali członkowie Rady Ministrów w związku ze zmianami w składzie Rady Ministrów - dodał.\n\nWe wtorek rzecznik prezydenta Rafał Leśkiewicz na platformie X napisał, że „w piątek o godzinie 11.00 Prezydent RP Karol Nawrocki dokona zmian w składzie Rady Ministrów”.",
-     "day": 1,
-     "paywall": false
-    },
-    {
-     "type": "story",
-     "headline": "Banki przestają liczyć 800+ do zdolności kredytowej",
-     "summary": "PKO BP już się wycofał, ING Bank Śląski przestaje od 22 listopada, a VeloBank ma zrobić to samo od 1 grudnia.",
-     "matters": "rodzina z dziećmi może dostać o kilkadziesiąt tysięcy złotych mniejszy kredyt, choć KNF mówił, że nie oczekuje całkowitego wycofania.",
-     "url": "https://www.bankier.pl/wiadomosc/Banki-przestaja-akceptowac-800-Czy-to-byl-hack-na-zdolnosc-9230230.html",
-     "source": "bankier.pl",
-     "image": "https://galeria.bankier.pl/p/1/9/7163b7b72a171b-148-148-545-70-460-460.jpg",
-     "body": "Skomentuj Nawet kilkadziesiąt tysięcy złotych kredytu mniej przez jedną decyzję – banki przestają akceptować 800+ jako czynnik wpływający na zdolność kredytową. Mało kto jednak pamięta, że banki zainteresowały się świadczeniem wychowawczym dość niedawno i w specyficznych okolicznościach.\n\nfot. Tupungato / / Shutterstock Jest rok 2022. Program „Rodzina 500+” ma już za sobą 6 lat działania. Co miesiąc osoby wychowujące nieletnie dzieci otrzymują 500 zł na każdego potomka. To czynnik, który ustabilizował budżety wielu gospodarstw domowych, chociaż siła nabywcza świadczenia w międzyczasie mocno spadła.\n\nTymczasem na rynku kredytowym trwa „hipoteczna zima”. Stopy procentowe rosną, a kredyty hipoteczne gwałtownie drożeją. W takich okolicznościach nie dziwi, że zdolność kredytowa leci na łeb, na szyję. Para mająca do dyspozycji 6,2 tys. zł miesięcznie w połowie 2021 r. mogła liczyć na ponad pół miliona złotych finansowania. Rok później – ledwo na 280 tys. zł kredytu hipotecznego.\n\nBanki poszukują sposobu podbicia zdolności kredytowej klientów. Pojawia się innowacja – kredytodawcy zaczynają uwzględniać „500 plus” w wyliczaniu finansowej wydolności kredytobiorców. „Świadczenie 500+ na jedno dziecko podnosi zdolność 3-osobowej rodziny o kilkanaście tysięcy złotych” – szacują wówczas eksperci Expandera. Pierwsze nowe podejście wdrażają banki PKO BP oraz Bank Pekao, chociaż nie chwalą się tym publicznie. W lipcu 2022 r. spośród 13 instytucji aktywnych na rynku, zaledwie 3 uwzględniały 500+ w obliczeniach.\n\nW kolejnych miesiącach następne banki, sięgają po „dopalacz”. Podejście jest niejednolite. Bywa, że świadczenie powiększa dochód do dyspozycji, a czasem obniża koszty utrzymania kredytobiorcy. Różnie formułowane są także warunki wstępne, chociażby dotyczące zbieżności okresu kredytowania i okresu otrzymywania świadczenia. Wkrótce praktyka podbijania zdolności przez 500+ staje się rynkowym standardem, ale nadal mocno różni się w szczegółach.\n\nPrzeskoczmy do połowy 2026 r. Program 500+ doczekał się w międzyczasie aktualizacji – beneficjenci otrzymują już po 800 zł na dziecko. Nadal większość banków uwzględnia ten element w wyliczeniach zdolności kredytowej. Pod koniec czerwca na stronie Komisji Nadzoru Finansowego pojawia się wpis pod tytułem „Ocena zdolności kredytowej a świadczenie „Rodzina 800 plus” – czego oczekuje UKNF?”.\n\nW treści znajdziemy szereg wskazówek dotyczących technicznych aspektów uwzględniania 800+ w szacowaniu wydolności klienta. „Są to dochody, których stabilność zależy od wieku dziecka, na które świadczenie przysługuje i których okres…",
+     "headline": "Trzy izby Sądu Najwyższego uchwaliły, że wyrok TK jest ważny tylko wtedy, gdy wydał go skład sędziów zaprzysiężonych wobec prezydenta",
+     "summary": "uchwała przyjęta głównie przez sędziów powołanych po 2017 r. uznaje też, że wyrok wiąże niezależnie od publikacji, a minister Żurek nazwał ją „pseudouchwałą\" bez skutków prawnych.",
+     "matters": "to kolejna odsłona sporu o to, czyje orzeczenia w Polsce mają moc wiążącą, w tym wyroków TK niepublikowanych od dwóch lat.",
+     "url": "https://tvn24.pl/polska/uchwala-trzech-izb-sadu-najwyzszego-w-sprawie-orzeczen-trybunalu-konstytucyjnego-st9346060",
+     "source": "tvn24.pl",
+     "image": "https://tvn24.pl/_e/i/najnowsze/cdn-zdjecie-sad-najwyzszy-ph9320697/alternates/WEBP_LANDSCAPE_1620",
+     "body": null,
      "day": 1,
      "paywall": false
     }
@@ -272,7 +272,7 @@
    "items": [
     {
      "type": "story",
-     "headline": "WIG20 4,252.3 · USD/PLN 4.011 (+0.25%) · EUR/PLN 4.404 (+0.11%) · BTC $64,623 (+0.1%) · Brent $92.32 (-0.9%)",
+     "headline": "WIG20 4,226.3 · USD/PLN 4.023 (+0.54%) · EUR/PLN 4.413 (+0.31%) · BTC $63,496 (-1.8%) · Brent $89.31 (-2.9%)",
      "summary": null,
      "matters": null,
      "url": null,
@@ -284,49 +284,49 @@
     },
     {
      "type": "story",
-     "headline": "Wall Street fell as chips slid before Nvidia reported",
-     "summary": "the Dow lost 1.64% (over 800 points) to 50,759.42, the S&P 500 1.03% to 7,340.53 and the Nasdaq 0.74% to 24,328.38.",
-     "matters": "this is the selloff that Nvidia's results were due to answer, and Brent closed at $92.82.",
-     "url": "https://www.bankier.pl/wiadomosc/Czerwono-na-Wall-Street-Technologiczni-giganci-pod-presja-przed-wynikami-Nvidii-9230581.html",
+     "headline": "Fed minutes turn hawkish",
+     "summary": "nearly all participants said further rate rises may be appropriate and some would back a move larger than 25 bp, after the 10-2 vote that held rates at 3.75-4.00% with Cook and Hammack wanting a hike. Gold fell more than 3% to about $3,730 an ounce, its lowest since September 2025, and the 10-year yield dropped 4 bp to 5.05%.",
+     "matters": "the next decision on 8–9 December comes with new projections, and many officials flagged AI-sector growth as an inflation risk.",
+     "url": "https://www.bankier.pl/wiadomosc/Jastrzebi-ton-w-Fedowskich-minutkach-Czesc-bankierow-dopuszcza-ruch-o-wiecej-niz-25-pb-9231213.html",
      "source": "bankier.pl",
-     "image": "https://galeria.bankier.pl/p/5/3/334c23055ab03a-948-568-432-220-2851-1711.jpg",
-     "body": "Skomentuj Wtorkowa sesja na Wall Street zakończyła się sporymi spadkami głównych indeksów, a Dow Jones zniżkował ponad 800 pkt. Wyprzedaż akcji producentów półprzewodników przed publikacją kwartalnych wyników Nvidii ciążyła indeksowi Nasdaq Composite.\n\nfot. Christian Reister / imageBROKER / / FORUM Dow Jones Industrial na zamknięciu spadł o 1,64 proc. i wyniósł 50.759,42 pkt.\n\nIndeks spółek o średniej kapitalizacji Russell 2000 spada o 1,4 proc. i wynosi 2.704,4 pkt.\n\nWe wtorek po sesji raport finansowy za III kw. przedstawi spółka Nvidia. Według danych LSEG analitycy przewidują wzrost zysków o 90 proc. przy przychodach wynoszących 109 mld dolarów w trzecim kwartale roku obrotowego spółki.\n\n\"W oczekiwaniu na wyniki finansowe Nvidii nie ulega wątpliwości, że na kierunek notowań spółki wpłynie to, kto zostanie jej kolejnym dyrektorem generalnym (...), a także skala negatywnego wpływu zmian w polityce Stanów Zjednoczonych na działalność Nvidii w Chinach, zarówno bezpośrednią, jak i pośrednią. Uważam jednak, że najważniejszym czynnikiem będzie ogólny poziom nakładów inwestycyjnych w branży\" – napisał Peter Boockvar, dyrektor inwestycyjny One Point BFG Wealth Partners.\n\n\"Akcje Nvidii spadają nie tylko z powodu odejścia Jensena Huanga i wzmożonej kontroli dotyczącej działalności spółki w Chinach. Ostatecznie Nvidia jest również jednym z dostawców infrastruktury niezbędnej do rozbudowy centrów danych, a obserwowaliśmy już, co stało się z notowaniami wielu podobnych spółek; ich akcje gwałtownie potaniały\" – dodał.\n\nOdejście Jensena Huanga ze stanowiska prezesa Nvidii w zeszłym tygodniu skierowało uwagę na wyniki firmy, z powodu obaw o obniżenie marż i odpływ gotówki, biorąc pod uwagę ogromny wpływ firmy na ekosystem sztucznej inteligencji.\n\n\"Zyski i sytuacja po odejściu Jensena Huanga to nie jedyne punkty zainteresowania w dzisiejszym wieczornym raporcie finansowym. Inwestorzy chcą również wiedzieć, jak długo cykl nakładów inwestycyjnych największych spółek technologicznych utrzyma wzrost sprzedaży Nvidii\" – powiedziała Kathleen Brooks, dyrektorka ds. analiz w XTB.\n\n\"Wyniki finansowe będą bardzo mocne. Nie musi to jednak stanowić wsparcia dla rynku, zwłaszcza że dzieje się obecnie tak wiele innych rzeczy\" – powiedział Neil Wilson, strateg w Saxo UK.\n\nAgencja Reutera podała, powołując się na trzy źródła, że zarząd Nvidii nie rozważa powrotu założyciela na stanowisko prezesa w związku z kampanią na rzecz jego przywrócenia na stanowisko, która zyskała poparcie Elona Muska i innych osobistości z Doliny Krzemowej. Huang zrezygnował ze stanowiska w zeszłym tygodniu…",
+     "image": "https://galeria.bankier.pl/p/0/6/7aa49f1fc8a11c-948-569-0-149-1676-1006.jpg",
+     "body": "Skomentuj Niemal wszyscy członkowie FOMC oceniają dalsze podwyżki stóp w USA za właściwe – wynika z protokołu z ostatniego posiedzenia Fedu. Z minutes wynika też, że kilkoro członków Fedu uważa podwyżkę stóp większą niż 25 pb. za zasadną, jeśli dane inflacyjne okażą się niekorzystne.\n\n\"Jeśli chodzi o perspektywy polityki pieniężnej w nadchodzących miesiącach, niemal wszyscy uczestnicy posiedzenia uznali, że przy założeniu realizacji bazowych prognoz dotyczących inflacji oraz rynku pracy, zasadne może być dalsze podnoszenie przedziału docelowego dla stopy funduszy federalnych, aby zapewnić terminowy powrót inflacji do celu wynoszącego 2 proc.\" - napisano w protokole z posiedzenia Rezerwy Federalnej USA 27-28 października.\n\n\"Niektórzy uczestnicy posiedzenia wskazali, że jeśli napływające dane o inflacji okażą się niekorzystne, podczas kolejnego posiedzenia warto rozważyć podwyżkę stóp o więcej niż 25 pb. Kilku uczestników posiedzenia zauważyło, że inflacja może okazać się bardziej trwała, niż przewidywano. W takiej sytuacji konieczne mogłoby stać się przyjęcie bardziej restrykcyjnego nastawienia w polityce pieniężnej. Uczestnicy posiedzenia podkreślili, że przyszłe decyzje będą uzależnione od napływających danych, zmieniających się prognoz oraz bilansu ryzyk\" - dodano.\n\n\"Niektórzy uczestnicy posiedzenia zauważyli, że oczekiwania rynku co do zaostrzenia polityki w grudniu i w przyszłym roku były w dużej mierze zgodne z ich własnymi ocenami właściwej ścieżki dla stóp proc. Kilku z nich uznało tę zbieżność za czynnik ograniczający ryzyko związane z utrzymaniem obecnego bez zmian przedziału stóp proc. na tym posiedzeniu. Kilku uczestników posiedzenia, choć poparło utrzymanie dotychczasowego przedziału stopy funduszy federalnych, zaznaczyło, że decyzja ta była trudna do podjęcia\" - wynika z minutes.\n\n\"Uczestnicy posiedzenia ocenili, że średnio- i długoterminowe oczekiwania inflacyjne pozostają spójne z celem Komitetu. Kilku z nich zwróciło jednak uwagę, że krótkoterminowe oczekiwania inflacyjne, mierzone na podstawie danych rynkowych oraz ankiet, wzrosły. Wskazali również, że wskaźniki rynkowe (oparte na wycenie papierów wartościowych indeksowanych wskaźnikiem CPI) mogą być obecnie trudne do interpretacji ze względu na nietypową rozbieżność między wskaźnikami inflacji CPI a PCE. Niektórzy uczestnicy posiedzenia wyrazili obawę, że bardziej powszechna presja cenowa, występująca w warunkach długotrwałego utrzymywania się inflacji powyżej celu, może zwiększyć ryzyko utrwalenia się podwyższonej inflacji w oczekiwaniach gosp. domowych i firm\" - dodano.\n\n\"Większość…",
      "day": 1,
      "paywall": false
     },
     {
      "type": "story",
-     "headline": "Nvidia beat on revenue and profit, and guided to about $130bn",
-     "summary": "MarketWatch says the blowout quarter and forecast helped ease fears about the CEO transition.",
-     "matters": "the guidance was the part the market was waiting for, and demand for chips looks undamaged.",
-     "url": "https://www.marketwatch.com/story/nvidias-stock-rises-as-blowout-numbers-help-ease-ceo-transition-fears-2f20d38a",
-     "source": "marketwatch.com",
-     "image": null,
+     "headline": "Wall Street closed mixed and Nvidia ended down 2.9% despite its beat",
+     "summary": "the Dow lost 1.11% to 50,198.17, the S&P 500 0.23% to 7,323.63 and the Nasdaq gained 0.42% to 24,429.89, after Nvidia gave back its after-hours gain. Yesterday the Dow stood at 50,759.42.",
+     "matters": "the market is not treating the $130bn guide as enough to settle doubts about AI returns, and Take-Two rose 6.2% after GTA VI launched.",
+     "url": "https://www.bankier.pl/wiadomosc/Mieszana-sesja-na-Wall-Street-Dow-Jones-stracil-ponad-500-pkt-Nasdaq-lekko-w-gore-po-wynikach-Nvidii-9231262.html",
+     "source": "bankier.pl",
+     "image": "https://galeria.bankier.pl/p/2/d/3a6e6d4bcb4fbf-948-568-240-0-3633-2180.jpg",
+     "body": "Skomentuj Środowa sesja na Wall Street przyniosła mieszane nastroje. Dow Jones stracił ponad 500 pkt., a Nasdaq poszedł lekko w górę po publikacji kwartalnych wyników Nvidii. Inwestorzy analizowali też protokół z ostatniego posiedzenia Fed.\n\nfot. jtrumpt / / Shutterstock Dow Jones Industrial na zamknięciu spadł o 1,11 proc. i wyniósł 50.198,17 pkt.\n\nIndeks spółek o średniej kapitalizacji Russell 2000 rośnie o 0,5 proc. i wynosi 2.715,2 pkt.\n\nPo publikacji raportu za III kwartał Nvidia straciła na zamknięciu 2,9 proc., mimo wzrostów w trakcie sesji. To pierwszy raport spółki po odejściu wieloletniego prezesa Jensena Huanga.\n\nKwartalne wyniki koncernu okazały się lepsze od oczekiwań: przychody wzrosły do 115,84 mld USD wobec 109,1 mld USD oczekiwanych przez LSEG. Skorygowany zysk Nvidii na akcję wyniósł 2,68 USD wobec 2,48 USD oczekiwanych przez LSEG.\n\nNvidia spodziewa się około 130 mld USD sprzedaży w bieżącym kwartale, w porównaniu z 125,1 mld USD oczekiwanymi przez analityków ankietowanych przez LSEG.\n\nAnalitycy oceniają, że chociaż prognozy Nvidii dają inwestorom pewne poczucie bezpieczeństwa co do trwałości zapotrzebowania na AI, to mogą one nie za wiele pomóc w rozwianiu obaw dotyczących skali i opłacalności inwestycji w AI.\n\nAkcje Advanced Micro Devices zyskały 5,3 proc., Marvell stracił 2,2 proc., a kurs Micron Technology poszedł w dół 1 proc.\n\nObecnie uwaga inwestorów skupia się na IPO spółki Anthropic. Będzie to istotny sprawdzian apetytu Wall Street na firmy związane z boomem na sztuczną inteligencję. Twórca chatbota Claude celuje w wycenę sięgającą do 1,4 biliona dolarów.\n\n„Debiut giełdowy Anthropic będzie źródłem większych emocji i zainteresowania, zwłaszcza w obliczu słabnących nastrojów wokół sektora AI. Samo wydarzenie posłuży za barometr tego, jak silny jest optymizm inwestorów wobec spółek z branży sztucznej inteligencji, tym bardziej że Anthropic wchodzi na giełdę jako nowy symbol innowacji, wdrażania i monetyzacji rozwiązań z zakresu AI” – ocenił Kyle Rodda, starszy analityk rynków finansowych w Capital.com.\n\nAkcje Take-Two Interactive zyskały 6,2 proc. po rozpoczęciu globalnej premiery gry „Grand Theft Auto VI”.\n\nAkcje spółek energetycznych zniżkowały wraz z cenami ropy. Inwestorzy zareagowali na odnotowany w zeszłym tygodniu wzrost zapasów ropy i paliw w USA, mimo że napięcia między Stanami Zjednoczonymi a Iranem nadal trwają. Akcje ExxonMobil i Chevron traciły po ok. 4 proc.\n\nInwestorzy analizowali protokół z ostatniego posiedzenia Fedu, z którego wynika, że niemal wszyscy członkowie FOMC oceniają dalsze podwyżki stóp w USA za…",
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Anthropic priced its IPO at $83 a share, above the $70–78 range",
+     "summary": "it sold about 980 million shares to raise $81.3bn at a fully diluted value of about $1.5tn, and trading starts today on Nasdaq as ANT.",
+     "matters": "it tops SpaceX's June initial raise of $75bn but not its $85.7bn with overallotment, so \"largest ever\" depends on the count.",
+     "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+     "source": "cnbc.com",
+     "image": "https://image.cnbcfm.com/api/v1/image/108554572-1795033463943-108554572-1795033101955-gettyimages-2305196401-ANTHROPIC_IPO.jpg?v=1795033477&w=1920&h=1080",
      "body": null,
      "day": 1,
      "paywall": false
     },
     {
      "type": "story",
-     "headline": "WIG20 ended its five-session winning streak, down 1.16% a day after a record close",
-     "summary": "XTB fell 17.52% on record turnover after KNF's deputy chair Dariusz Adamski called CFDs \"speculation, not investment\".",
-     "matters": "the regulator is preparing to intervene in CFDs, which hits the biggest listed Polish broker.",
-     "url": "https://www.bankier.pl/wiadomosc/Goracy-handel-akcjami-XTB-na-polskiej-gieldzie-Najwieksze-obroty-i-krwista-przecena-brokera-CFD-9230426.html",
+     "headline": "KGHM beat on third-quarter EBITDA but shares fell about 6% to 248.20 zł",
+     "summary": "adjusted EBITDA was 3.996bn zł against a 3.564bn zł consensus and 70% higher on the year, while revenue of 12.035bn zł missed by about 2.7%. Net profit was 1.937bn zł against 433m zł a year earlier.",
+     "matters": "it is the heaviest weight on WIG20 in the sell-off, and management still flags energy-price volatility as a risk.",
+     "url": "https://www.bankier.pl/wiadomosc/Skorygowana-EBITDA-grupy-KGHM-wyniosla-w-III-kw-3-996-mld-zl-wobec-3-564-mld-zl-konsensusu-9231094.html",
      "source": "bankier.pl",
-     "image": "https://galeria.bankier.pl/p/3/f/d7a6e731fd1fd7-148-148-802-29-705-704.jpg",
-     "body": "Skomentuj Po pięciu z rzędu wzrostowych sesjach i poniedziałkowym ustanowieniu historycznych szczytów na GPW przyszła wyraźna korektora. Wtorkowe notowania upłynęły pod znakiem szerokiej realizacji zysków oraz potężnej wyprzedaży akcji XTB po zapowiedziach Komisji Nadzoru Finansowego.\n\n/ Ilustracja wygenerowana przy użyciu AI Na zamknięciu wtorkowej sesji WIG20 spadł o 1,16 proc., a indeks szerokiego rynku WIG zniżkował o 1,48 proc. Na zapleczu największych spółek – mWIG40 poszedł w dół o 2,68 proc., natomiast sWIG80 stracił 1,44 proc. Obroty na szerokim rynku wyniosły 2,43 mld zł, przy czym 1,63 mld zł dotyczyło handlu akcjami spółek z WIG20, ale rekord dziennych obrotów dotyczył spółki XTB z mWIG40 (417,3 mln zł).\n\nWtorkowa korekta przerwała imponującą passę pięciu sesji, kiedy WIG20 rósł bez przerwy, zyskując łącznie ponad 4 proc. W poniedziałek indeks największych spółek wyznaczył nowe historyczne maksimum na poziomie 4.321,54 pkt. oraz rekord na zamknięciu. Analogicznie zachowywał się WIG, śrubując w poniedziałek zarówno rekord wszech czasów w trakcie notowań (162.596,49 pkt.), jak i najwyższy kurs zamknięcia w historii.\n\nSłabość warszawskiego parkietu wpisywała się w szerszy, globalny odwrót od ryzykownych aktywów. Wcześniej spadki zdominowały giełdy w Azji, a w momencie zakończenia sesji w Warszawie wyraźnie pod kreską znajdowały się najważniejsze indeksy w Europie. Niemiecki DAX tracił 2,2 proc., brytyjski FTSE 100 spadał o 1,8 proc., a francuski CAC40 zniżkował o 1,6 proc. Około 1,5-procentowe przeceny obserwowano na parkietach w Madrycie, Mediolanie, Amsterdamie oraz Zurychu.\n\nRównie nerwowo rozpoczęła się sesja za oceanem, gdzie S&P 500 tracił 1,1 proc., a technologiczny Nasdaq spadał o 1,4 proc. Inwestorzy w USA wstrzymywali oddech przed publikacją wyników finansowych Nvidii oraz planowanym debiutem spółki Anthropic. Nastroje wokół sektora sztucznej inteligencji chłodziły obawy o rentowność wielomiliardowych nakładów na centra danych, a oliwy do ognia dolało Amerykańskie Biuro Przemysłu i Bezpieczeństwa (BIS), ogłaszając nowe ograniczenia w dostępie chińskich firm do zaawansowanych układów AI.\n\nRynkom nie pomogły też publikacje makroekonomiczne z USA – październikowa sprzedaż detaliczna potwierdziła wyhamowanie dynamiki zgodnie z oczekiwaniami, jednak negatywnie zaskoczyły słabsze od prognoz dane o produkcji przemysłowej, co tylko lekko skorygowało siłę amerykańskiego dolara.\n\nOd strony technicznej wtorkowe cofnięcie w Warszawie oddaliło scenariusz natychmiastowego wybicia górą. Jak zauważa Przemysław Smoliński, analityk BM PKO BP, podaż…",
-     "day": 1,
-     "paywall": false
-    },
-    {
-     "type": "story",
-     "headline": "The government will decide in coming weeks whether to extend the CPN fuel package into 2027",
-     "summary": "Finance Minister Domański says it costs about 1.6bn zł a month, more than the windfall tax on fuel companies brings in.",
-     "matters": "the package expires at year-end, and its VAT and excise cuts keep pump prices near the 2025 average.",
-     "url": "https://www.bankier.pl/wiadomosc/Waza-sie-losy-przedluzenia-programu-CPN-Domanki-Decyzja-zapadnie-w-najblizszych-tygodniach-9230528.html",
-     "source": "bankier.pl",
-     "image": "https://galeria.bankier.pl/p/9/0/b41dce3c418283-948-568-40-40-4003-2402.jpg",
-     "body": "Skomentuj W najbliższych tygodniach rząd podejmie decyzję, czy pakiet Ceny Paliwa Niżej powinien być w całości lub częściowo przedłużony w pierwszych miesiącach 2027 r. - poinformował minister finansów i gospodarki Andrzej Domański. Obecnie CPN ma działać jedynie do końca roku.\n\nWe wtorek Domański na antenie TVN24 dopytywany był o rządowy program CPN, który obniża ceny paliw na stacjach benzynowych.\n\nDomański przyznał, że obecnie nie zapadła jeszcze decyzja o ewentualnym przedłużeniu programu, choć rząd prowadzi analizy. Poinformował jednocześnie, że „myśli”, iż decyzje o tym, czy CPN powinien być w całości lub częściowo przedłużony również w pierwszych miesiącach 2027 r. to kwestia „najbliższych tygodni”.\n\n- To jest pakiet, który kosztuje 1,6 mld zł miesięcznie. To są poważne, wysokie kwoty. (...) Ten pakiet kosztował budżet więcej niż przychody z podatku od nadmiarowych zysków (koncernów paliwowych) - zauważył minister.\n\nOcenił też, że obecnie ceny na stacjach, dzięki programowi CPN, są obecnie „na poziomie zbliżonym do średniej, którą widzieliśmy w 2025 r., czyli przed wybuchem konfliktu na Bliskim Wschodzie”.\n\nDomański zwrócił też uwagę, że rząd przygotował projekt ustawy, który ma obniżyć ceny gazu dla m.in. gospodarstw domowych na poziomie 197,29 zł za MWh. Dzięki tym rozwiązaniom gospodarstwa domowe mają oszczędzić od ponad 70 zł do 1,8 tys. zł rocznie.\n\nProgram mrożenia cen gazu ma kosztować budżet 6 mld zł, które pochodzić mają z zaplanowanej w projekcie daniny od nadzwyczajnych zysków sprzedawców paliw gazowych.\n\nMinister dopytywany co z zamrożeniem gazu dla przedsiębiorców odpowiedział, że będą toczyć się w tej sprawie rozmowy z Ministerstwem Energii i Ministerstwem Aktywów Państwowych.\n\n- Możliwość dofinansowania tego typu programów jest ograniczona. Działamy w sposób odpowiedzialny. Finansujemy tę obniżkę w sposób odpowiedzialny dla gospodarstw domowych. Natomiast jeżeli chodzi o małe i średnie firmy, to będziemy oczywiście jeszcze rozmawiać z ME, ale byłoby przedwcześnie, by coś tutaj deklarować - dodał.\n\nPo wejściu w życie przepisów ustawy o podatku od nadzwyczajnych zysków przedsiębiorstw paliwowych, czyli na początku października, rząd po raz trzeci wprowadził program Ceny Paliwa Niżej, którego celem jest ograniczenie wzrostu cen paliw na stacjach.\n\nProgram CPN zakłada obniżkę podatku VAT i akcyzy na oba rodzaje benzyny oraz olej napędowy, przy jednoczesnym mechanizmie ceny maksymalnej ogłaszanej przez Ministra Energii.\n\nPierwsza edycja programu CPN obowiązywała od 31 marca do 1 lipca i wówczas koszty wyniosły 4,7 mld zł. Następnie…",
+     "image": "https://galeria.bankier.pl/p/4/b/a9085f00b3f83c-948-568-458-616-2083-1249.jpg",
+     "body": "Skomentuj Skorygowana EBITDA grupy KGHM wyniosła w trzecim kwartale 2026 roku 3,996 mld zł - wynika z wyliczeń PAP Biznes na podstawie raportu spółki. Wynik okazał się 12 proc. wyższy od konsensusu PAP Biznes, który zakładał 3,564 mld zł skorygowanej EBITDA.\n\nOczekiwania rynkowe dla skorygowanego wyniku EBITDA wahały się od 3,327 mld zł do 3,75 mld zł.\n\nPrzychody grupy KGHM wyniosły 12,035 mld zł wobec 12,369 mld zł oczekiwanych przez rynek i wobec 8,315 mld zł przed rokiem.\n\nSkonsolidowany zysk netto KGHM wyniósł w III kwartale 1,937 mld zł wobec 433 mln zł zysku przed rokiem.\n\nJednostkowy skorygowany zysk EBITDA spółki KGHM Polska Miedź w trzecim kwartale wyniósł 2.360 mln zł wobec 2.322 mln zł w II kwartale 2026 r. Przychody spółki wyniosły 10.635 mln zł.\n\nSkorygowany zysk EBITDA Sierra Gorda w III kwartale - proporcjonalnie do 55 proc. udziałów, które posiada w spółce KGHM - wyniósł 1.080 mln zł wobec 952 mln zł kwartał wcześniej. Przychody spółki wyniosły 1.481 mln zł.\n\nKGHM International wypracował w III kwartale 417 mln zł skorygowanego zysku EBITDA wobec 360 mln zł zysku w II kwartale 2026 roku. Przychody spółki wyniosły 890 mln zł.\n\nNarastająco, po trzech kwartałach 2026 roku grupa KGHM miała 36,746 mld zł przychodów wobec 25,871 mld zł rok wcześniej, co oznacza wzrost o ponad 42 proc. rdr.\n\nSpółka poinformowała w komunikacie prasowym, że istotnym czynnikiem, oprócz wysokich wolumenów sprzedaży, decydującym o przychodach na poziomie grupy były wysokie notowania miedzi i srebra. Pozytywny wpływ na przychody miała również polityka kontraktowania oraz proces zarządzania ryzykiem kursowym i zmian cen surowców.\n\nSkorygowana EBITDA grupy w okresie 9 miesięcy wzrosła do 13,194 mld zł z 7,203 mld zł przed rokiem. Zysk netto przypisany akcjonariuszom jednostki dominującej wzrósł do 7,516 mld zł z 1,012 mld zł zysku rok wcześniej.\n\nKoszt C1 (jednostkowy gotówkowy koszt produkcji miedzi płatnej) dla grupy KGHM wyniósł w okresie trzech kwartałów 2026 roku 2,54 USD/funt i był niższy rok do roku o 2 proc. Spółka podała, że spadek kosztu C1 to głównie efekt wysokiej wyceny produktów ubocznych tj. srebra i metali szlachetnych.\n\nW pierwszych 9 miesiącach 2026 roku koszty rodzajowe działalności grupy KGHM z wykluczeniem tzw. podatku miedziowego (KGHM zapłacił podatek od kopalin według stawki maksymalnej za sierpień i wrzesień), kosztów pracowniczych oraz zakupu wsadów obcych wzrosły o 5 proc., mimo istotnie wyższych cen rynkowych energii elektrycznej, gazu oraz paliw.\n\n\"To efekt przede wszystkim skutecznej realizacji polityki kontraktacji nośników energii oraz…",
      "day": 1,
      "paywall": false
     }
@@ -338,61 +338,61 @@
    "items": [
     {
      "type": "story",
-     "headline": "Nvidia posts $115.8bn and guides $130bn in its first quarter without Jensen Huang",
-     "summary": "revenue roughly doubled on the year against about $109bn expected, net income rose 105% to $65.3bn, and the fourth-quarter guide of $130bn ±3% beat the Street, with shares up more than 5% after hours.",
-     "matters": "Interim CEO Colette Kress also raised fiscal 2028 growth to about 75% and said Nvidia will be less generous with investments and guarantees to AI customers.",
-     "url": "https://fortune.com/2026/11/17/nvidia-nvda-earnings-q3-2027-revenue-forecast-beat-wall-street-jensen-huang-resignation-colette-kress/",
-     "source": "fortune.com",
+     "headline": "Anthropic prices its IPO at $83 and lists on Nasdaq as ANT today",
+     "summary": "it is selling 980 million Class A shares above the $70–$78 range, raising about $81bn at a roughly $1.5tn valuation, the biggest IPO on record.",
+     "matters": "the filings flag $6.2bn of debt, about $900bn of compute commitments and no profit on standard accounting, so the debut is the first public test of AI-lab economics.",
+     "url": "https://www.news4jax.com/news/2026/11/19/anthropic-set-to-begin-trading-after-pricing-its-stock-at-83-per-share-in-biggest-ipo-on-record/",
+     "source": "news4jax.com",
      "image": null,
-     "body": "Nvidia raised its sales forecast for its next fiscal year, and reported stronger-than-expected results in its most recent quarter, in a striking signal of business confidence by the AI chipmaker following the resignation of longtime CEO and cofounder Jensen Huang.\n\n“Our momentum is real,” interim CEO Colette Kress said on conference call with analysts on Tuesday, citing strong demand for the company’s products, Nvidia’s ongoing technological advances, and the commitment of its employees. Kress, Nvidia’s longtime finance chief, made her debut as interim CEO on Tuesday’s earnings call, flanked by newly appointed chair of the board Harvey Jones.\n\nThe pair took pains to project a business-as-usual attitude—even using the phrase—while seeking to put Huang in the rear-view mirror. The board of directors “does not intend to reinstate Jensen as CEO,” Jones said at the start of the call, noting that the company has retained executive recruiting firm Hedrick & Struggles to search for a permanent CEO.\n\nThe comments were a direct rebuttal to Huang, who is seeking to reclaim the CEO throne just days after resigning amid revelations of multiple affairs, one reportedly with a Nvidia employee who reported to him and another with a woman some believe may be a Chinese spy.\n\nShares of Nvidia were up more than 5% in after hours trading on Tuesday. The company’s stock has plummeted more than 36% in the past month, shedding more than a trillion dollars in market value.\n\nInvestors have been spooked by the loss of Nvidia’s longtime leader, Huang, as well as by general concerns about the durability of the AI boom. Kress doused both concerns at once on Tuesday by raising sales expectations for Nvidia’s fiscal 2028 year, which is roughly equivalent to the 2027 calendar year.\n\n“We had originally indicated that we would be at about 70% growth year-over-year, and now we are are increasing that to 75%” growth,” Kress said, citing improvements in supply and ongoing strength in demand. The guidance was particularly striking because Huang himself had delivered the 70% growth forecast three months ago, framing it as an usually far-reaching forecast that reflected the exceptional strength in the business.\n\nIn raising the annual revenue forecast by the equivalent of $20 billion or more, Nvidia’s message seemed to be that Huang was not so essential after all. “We got this,” Kress said during the call.\n\n“The quarter answers the first question the market had about Nvidia without its founder: demand did not leave with him,” Dan Ives, a partner and analyst at Yorkville Ives, wrote in a note to…",
+     "body": null,
      "day": 1,
      "paywall": false
     },
     {
      "type": "story",
-     "headline": "Nvidia's board puts chip exports under a new oversight committee",
-     "summary": "the National Security and Export Control Oversight Committee, chaired by Suzanne Nora Johnson, meets at least quarterly and takes reports from compliance and Kress, after Huang's exit over the Megaspeed diversion questions.",
-     "matters": "export control is now a board-level risk at the company that supplies the AI buildout.",
-     "url": "https://www.theregister.com/systems/2026/11/17/nvidia-places-chip-exports-under-boardroom-supervision-after-huangs-exit/5310429",
-     "source": "theregister.com",
-     "image": null,
-     "body": "Nvidia's board has created a national security and export control committee amid intense scrutiny over co-founder and former CEO Jensen Huang's departure and allegations that Singapore-based customer Megaspeed diverted GPUs to China.\n\nThe National Security and Export Control Oversight Committee, announced on Tuesday, will monitor Nvidia's national security policies, export compliance, and global trade risks. It will meet at least quarterly.\n\nThe committee will be chaired by director Suzanne Nora Johnson and include directors Stephen C. Neal and John O. Dabiri as members. Nvidia's existing National Security and Global Trade Compliance teams will report on day-to-day operations directly to this new committee, as well as to interim CEO Colette Kress.\n\nThe panel will oversee efforts to strengthen Nvidia's national security and trade compliance teams and retain independent legal, national security, and trade experts.\n\nThe announcement follows the resignation of Huang last week after he admitted to an affair with Chinese businesswoman Alice Huang, a Megaspeed executive, and was allegedly involved in a second relationship with an Nvidia employee.\n\nUS authorities reportedly suspected Alice Huang of working for Chinese intelligence, an allegation that has not been proven. Megaspeed has separately faced scrutiny over suspected export control violations.\n\nThe US Department of Commerce and Department of Justice confirmed on Tuesday in a joint statement that they were investigating Megaspeed back in 2024. The agencies said they would pursue any criminal conduct uncovered by the investigation.\n\nHowever, Singapore's Ministry of Home Affairs stated that US authorities had provided only \"limited assistance\" when they were investigating the activities of Alice Huang and Megaspeed, as The Register reported.\n\nThe New York Times also reported that US investigations into Megaspeed were halted last year after an Nvidia executive contacted Commerce Department officials.\n\nThe Commerce Department's Bureau of Industry and Security (BIS) has issued new regulations tightening up restrictions on AI technology exports and cloud operators offering remote access to it.\n\nThe US also expanded its Pax Silica initiative, getting allied nations to sign an agreement that \"guarding AI supply chains\" is a shared responsibility.\n\nNvidia says it recognizes that advanced silicon and AI technologies present challenges for national security, and it has a responsibility to address them.",
-     "day": 1,
-     "paywall": false
-    },
-    {
-     "type": "story",
-     "headline": "Oracle discloses \"Java4Shell\", a 9.2 critical OpenJDK flaw",
-     "summary": "CVE-2026-114938 is a memory-corruption bug in the optimised x86-64 Base64 decoder, reachable before authentication in Keycloak, Jira, Confluence, Jenkins, Kafka and Elasticsearch, and CISA urges immediate patching.",
-     "matters": "until you patch, start the JVM with AVX-512 disabled; Cisco Talos expects probing to rise after disclosure.",
-     "url": "https://www.theregister.com/security/2026/11/18/oracle-reveals-fix-this-asap-grade-java4shell-bug-that-allows-attacks-on-many-third-party-apps/5310661",
+     "headline": "Tencent says the new US GPU ban \"sets everyone back in China\"",
+     "summary": "the rule bars Chinese companies from remotely accessing high-end GPUs, so Tencent expects the next Hy4 model to take longer to train and will lean on domestic chips for inference.",
+     "matters": "the cloud-rental route around chip export controls is now closed, and Tencent says it may only be able to offer GPU rentals through partners abroad.",
+     "url": "https://www.theregister.com/systems/2026/11/19/chinese-web-giant-tencent-says-new-us-gpu-ban-sets-everyone-back-in-china/5310927",
      "source": "theregister.com",
      "image": "https://image.theregister.com/5299461.webp",
-     "body": "Oracle revealed the flaw in its monthly patch dump for November, which offers 655 patches, 62 of them rated critical, affecting 62 products.\n\nSeveral of the flaws are rated more dangerous than the Java problem, CVE-2026-114938, which Big Red didn’t single out as worthy of special attention despite CISA’s warning.\n\nThe cyber-agency’s decision seems apt because vulnerability research and red teaming outfit Calif.io, which discovered the flaw, used its X account to claim news of the problem had leaked before public disclosure and the release of Oracle's fixes.\n\nBy then, Calif had already tested the flaw, which it named “Java4Shell,” and found applications including Keycloak, Atlassian’s Jira and Confluence, Jenkins, Apache Kafka Broker, and Elasticsearch are susceptible to RCE.\n\nCalif, which also helped to find the PHP2Shell flaw, says the flaw is a memory-corruption vulnerability in OpenJDK's Base64 decoder.\n\nCalif applied the CVSS 4.0 bug-rating scheme and gave the flaw a critical-rated score of 9.2/10.\n\nCisco’s Talos security team pointed out that the flaw is present in OpenJDK Java versions 17.0.6 and later running on x86-64 CPUs with AVX-512 VBMI (Vector Byte Manipulation Instructions) support enabled.\n\n“These vulnerabilities have already been tested against a suite of Java applications with success, but the attack surface is likely much larger as additional targets are tested and confirmed,” Talos advised.\n\nCisco’s infosec experts urged adoption of the fixed versions of Java Oracle posted on Tuesday but noted it is possible to mitigate the flaw on x86-64 machines by starting the JVM with support for AVX-512 disabled.\n\nAkamai’s Chief Information Security Architect Jan Schaumann, writing on the Openwall project’s mailing list, expressed a little discomfort with Calif’s work.\n\nThat second sentence perhaps supports Calif’s assertion that news of the flaw leaked before disclosure.\n\nSo do the six 10.10 flaws Oracle reported, three in its Access Manager product, one in the Oracle Platform Security for Java, another in the WebLogic Server, and one in Business Intelligence Enterprise Edition.\n\nBy Tenable Security’s count, 249 of the patches are for high severity bugs. Oracle’s Hyperion enterprise performance management accounts for 267 of the bugs.",
+     "body": "Speaking on the company’s Q3 earnings call, Lau said the new US regulation will have an “unfortunate” impact on Tencent’s business.\n\nTencent needs GPUs, and lots of them, because the 10 million users of its agentic assistant WorkBuddy are collectively consuming over 100 trillion tokens per day. Lau thinks WorkBuddy is on track to becoming a hit product, partly because many users are outside China.\n\nLau said Tencent can serve WorkBuddy customers outside China because the service can operate with different models, and the company thinks it can find third parties to provide the necessary inferencing services without the new US bans creating a problem.\n\nBut Lau said that GPU rentals and other cloud services, which are also growing strongly, may be impacted.\n\nTencent doesn’t break out revenue for its cloud services, but said they rose by 35 percent year-on-year, well ahead of the company’s overall eight percent growth. Marketing services also grew strongly, by 19 percent, thanks in part to new AI-powered systems that improve ad targeting.\n\nThe company’s WeChat and Weixin messaging platforms continued to grow, adding 35 million accounts to exiting the quarter with 1.44 billion monthly active users.\n\nOne Tencent biz that went backwards was its international gaming unit, which saw revenue fall nine percent.\n\nChief strategy officer James Mitchell said that slowdown wasn’t caused by the release of Grand Theft Auto VI. “ I think that in fairness, the slowdown for us predated the run-up to GTA VI,” he said, before predicting that Tencent’s existing and future “evergreen games” should help to turn things around.",
      "day": 1,
      "paywall": false
     },
     {
      "type": "story",
-     "headline": "Uber confirms the Fireworks AI breach exposed 149,346 drivers' licence records",
-     "summary": "attackers used valid credentials on Uber's dedicated storage on 7 October, and Fireworks has since admitted a second breach that reached billing records, customer datasets and incomplete model weights.",
-     "matters": "an AI inference vendor holding identity documents is a supply-chain risk, and Uber's notices only began on 10 November.",
-     "url": "https://www.theregister.com/security/2026/11/17/hackers-smash-n-grab-ai-vendor-take-off-with-license-data-of-uber-drivers/5310464",
+     "headline": "Microsoft's official Python agent-framework package on PyPI was hijacked to steal secrets",
+     "summary": "versions 1.26.1 and 1.26.2 (the package gets nearly 200,000 downloads a month) harvest environment variables and Azure, Git, Docker and Hugging Face credentials and send them to a webhook.",
+     "matters": "the malware runs whenever Python starts, with no import needed, so anyone who installed either version should treat their credentials as compromised.",
+     "url": "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858",
      "source": "theregister.com",
      "image": null,
-     "body": "Uber has confirmed that nearly 150,000 people had their personal information compromised after hackers broke into one of its AI suppliers.\n\nA filing with Oregon's attorney general puts the number of victims at 149,346. Among the data the crooks got their hands on were images of drivers' licenses and information extracted from them, including names, home addresses, dates of birth, and license numbers.\n\nUber doesn't name the supplier in its filings with US state attorneys general, but told TechCrunch it was Fireworks AI, the inference outfit whose security woes we covered last week.\n\nAccording to a breach notification filed with Iowa's attorney general, Fireworks alerted Uber to the intrusion on October 9. Uber cut off the supplier's access to its data and, four days later, established that the attackers had accessed drivers' personal information on October 7.\n\nUber had set up a dedicated cloud storage environment for the AI biz, complete with security monitoring overseen by its own cloud security team. Unfortunately for Uber and its drivers, the crooks were using legitimate credentials, so none of the alarms went off.\n\nThe ride-hailing firm says those credentials couldn't be used to access its other systems, and says it has since revoked or changed the credentials associated with the supplier.\n\nUber hasn't said why it handed images of thousands of driver's licenses to an AI inference outfit. The Register has put that question to both companies, and asked Uber if any drivers outside the US had their data exposed.\n\nFireworks, which provides infrastructure for developers to run and fine-tune AI models, had a particularly miserable October. The company first disclosed a security incident on October 9 after discovering that someone had been using its internal credentials without permission.\n\nFireworks initially said it had no evidence that the intruders had gotten their hands on personal information or customer datasets. The company was hacked again later that month and, on November 9, disclosed that some customer data had indeed been compromised.\n\nThe AI biz acknowledged that attackers had accessed billing records, some customer datasets, and incomplete model weights. Productivity software maker Notion was among those affected, with some of its customers' conversations with its AI assistant exposed.\n\nFireworks suspects the involvement of financially motivated criminals in the business of flogging unauthorized access to large language models. Whether the crooks have any plans for the haul of Uber drivers' personal information is unclear.",
+     "body": "Microsoft’s official agent framework package hosted on PyPI has been hijacked and now installs info-stealing malware, multiple security research firms have discovered.\n\nCEO Satya Nadella may be on stage trying to wow investors and customers at his company’s annual Ignite conference, but somewhere in the bowels of a building in Redmond his open source team is likely panicking at what appears to be unauthorized access to an administrator account on Microsoft’s Github organization.\n\nThe problem package is Microsoft’s agent-framework, versions 1.26.1 and 1.26.2, researchers reported late yesterday and this morning. According to OX Security, version 1.26.1 was reverted to a safe version, but the attacker later uploaded 1.26.2 through Microsoft’s official PyPI publisher account, suggesting that, at least at the time of their report, the credentials hadn’t been locked down.\n\nSafe to say, but if you find either version in your environment assume you have some account security work to do.\n\nMicrosoft agent-framework for Python boasts nearly 200,000 downloads a month and is used to build and deploy AI agents. As of those latest releases, it’s also being used to exfiltrate environment variables, credential files, and other secrets for Azure, Git, Docker, Hugging Face, and other sensitive developer services.\n\nTo make matters worse, the package never needs to be imported to do its dirty work – all it takes is a Python interpreter with the package installed to start up – the infected package still pulls the genuine 1.26.0 version of Microsoft’s agent-framework in order to keep itself running and looking legitimate, while in the background it gathers up credentials, encrypts them as a base64-encoded chunk of JSON, and sends them off to a webhook.site address hard coded into the malware.\n\nIt appears from researcher accounts that this is made to act fast, as the malware isn’t persistent and only runs as long as the malicious version of the agent-framework remains in a site-packages directory. What it does do, however, is not just look for credentials in the environment: It actually starts calling for new ones and collecting them, too.\n\nIn particular, the malware requests fresh identity tokens from GitHub Actions, Azure DevOps, and Azure itself, which are exfiltrated to the same webhook site.\n\n“That combination of passive theft and active token requests makes it especially dangerous in cloud build environments, because even short-lived tokens are useful when they're exfiltrated right away,” said researchers at OpenSourceMalware.\n\nThe agent-framework GitHub repo is offline…",
      "day": 1,
      "paywall": false
     },
     {
      "type": "story",
-     "headline": "A run of outages hits critical systems",
-     "summary": "Microsoft 365 mail and Intune went down on 12 November, the FAA grounded planes on 13 November, Chase, Bank of America and US Bank had problems on 16 November, and yesterday the NSA's NSANet and Apple services (iCloud, App Store, Apple Pay) went offline.",
-     "matters": "none of the five is attributed to a cyberattack, and Satya Nadella opened Ignite by apologising for the Microsoft 365 failure.",
-     "url": "https://www.theregister.com/security/2026/11/17/daily-disruptive-outages-that-ground-planes-and-halt-work-welcome-to-the-new-normal/5310634",
+     "headline": "F5 patches 10 NGINX flaws, two of them critical remote code execution",
+     "summary": "CVE-2026-123633 and CVE-2026-123007 both score 9.2 and need HTTP/2 enabled, the older one dating back to NGINX 1.9.5 in 2015, and researchers found most of them with AI help.",
+     "matters": "update to NGINX 1.31.9 or disable HTTP/2, since Rapid7 has published a proof of concept and six bugs chain into root on the host (\"nginx2root\").",
+     "url": "https://www.theregister.com/security/2026/11/18/ai-found-more-critical-bugs-in-another-widely-used-technology-running-225m-websites/5310887",
      "source": "theregister.com",
      "image": null,
-     "body": "NSA, Apple add to a week of high-profile network outages, largely attributed to 'routine maintenance'\n\nAnother day, another disruptive network outage (or two) as government officials and company execs scramble to assure an anxious populace that these are not coordinated cyberattacks – and security experts call this the new normal.\n\nAround the same time, Apple users began reporting issues across multiple services – including Apple Support, iCloud, the App Store, Apple Pay, and more – with Apple retail stores worldwide also reportedly experiencing disruptions that halted sales and in-person support.\n\nAll of these high-profile outages followed last week’s US Federal Aviation Authority (FAA) order g rounding all planes on Friday due to problems with copper wiring during an L3Harris network upgrade, and a Microsoft 365 outage on Thursday.\n\nRedmond later blamed the massive service disruption on a faulty software update it pushed back in July.\n\nDespite the weekend respite from network outages, your humble vulture still had to field is-this-the-beginning-of-the-end questions from friends and family all day Saturday and Sunday, most of whom suspected Russia or China – maybe even Iran – caused the spate of downed systems and services.\n\nA highly sophisticated, coordinated nation-state hack would be a much more exciting cause for the disruptions. The real culprit, however, appears to be aging, under-funded infrastructure, riddled with decades-old bugs and held together by digital sticks and glue.\n\n“As someone who started out as a hacker, I know how tempting it is to connect the dots when major systems fail one after another,” Remedio CEO Tal Kollender told The Register, adding that there’s “no credible public evidence that these outages were part of a coordinated cyberattack,” and most have been attributed to technical failures.\n\nFor people who couldn’t withdraw money from their bank, board a flight, or use email at work on Friday, “the disruption was real regardless of the cause,” she said.\n\nThen we go and add AI to this already delicate balance, and everything essentially blows up.\n\nAI-assisted bug hunting and exploit development has surfaced more than 100,000 CVEs so far this year, with Microsoft’s Patch Tuesday disclosing more than 1,000 vulnerabilities in each of the past two months. AI has also shrunk the elapsed time between the public release of a security patch and attackers developing working exploits.\n\nEven when attackers aren’t using AI to facilitate intrusions, the technology itself has become a source of risk to organizations.\n\n“Autonomous agents can…",
+     "body": "Hot on the heels of serious vulnerabilities in seemingly every other widely used software powering the entire internet, F5 today released emergency patches for 10 bugs in open source NGINX.\n\nThese include critical remote code execution flaws that let attackers hijack NGINX servers with HTTP/2 enabled, as well as the millions of websites running NGINX, to steal sensitive data and disrupt services.\n\nAs with all of the other recently disclosed vulnerabilities in foundational technologies like PHP, Apache, and Java, these critical NGINX bugs were uncovered by researchers using AI. One of them has been hiding in the code for at least 10 years.\n\nTomer Schwartz, Wiz’s chief technology officer of exposure management and AppSec, helped find the bug, along with researchers from Ikotas Labs, Metnir, Rapid7, and Xint working independently.\n\nNGINX is the world’s most widely used open source web server, handling HTTPS requests and routing incoming traffic to the right application or API. It powers about a third of all websites (around 225 million), and F5 maintains the open source version.\n\nOn Wednesday, F5 published an out-of-band security notification that addressed 10 CVEs in open source NGINIX. If you run NGINX, update to 1.31.9 as soon as possible.\n\nTwo of the vulns are especially serious as they allow a remote attacker to execute code on the NGINX server without authentication. These two, tracked as CVE-2026-123633 and CVE-2026-123007, both received a critical, 9.2 CVSS rating, and CVE-2026-123007 affects versions dating back to NGINX 1.9.5 in 2015. Both vulnerabilities require HTTP/2 to be enabled on the affected NGINX server.\n\nAll of the security shops listed earlier independently found at least one of these two CVEs - most, if not all, with an AI assist - and reported them to F5.\n\nRapid7’s team also published a proof-of-concep t to demonstrate leveraging CVE-2026-123007 for unauthenticated remote code execution against a vulnerable linux/amd64 Docker image running nginx version 1.31.8.\n\nThe AI-powered offensive security firm also published videos demonstrating attacks using CVE-2026-123007 to execute commands as the NGINX worker inside a container, and then using the kernel vulnerability to escalate to root on the host. These attacks work on AWS, Microsoft Azure, Google Cloud Platform, and bare-metal servers.\n\n\"While preparing for ZeroDay Cloud 2026, a Xint researcher found CVE-2026-123007,\" the company said in a Wednesday blog. \"A few days later, a fully automated Xint scan found the other four without human guidance.\"\n\nAll of these newly-disclosed CVEs…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The PHP Foundation will ship another \"critical\" security release today between 14:00 and 14:30 UTC",
+     "summary": "it includes a remote code execution bug, CVE-2026-115560, that needs a non-default setup with session upload progress enabled.",
+     "matters": "set session.upload_progress.enabled=0 until you patch, because the October PHP2Shell flaws are already on CISA's exploited list and were used to root 25 servers.",
+     "url": "https://www.theregister.com/patches/2026/11/18/get-ready-for-another-critical-php-security-release-to-drop/5310911",
+     "source": "theregister.com",
+     "image": null,
+     "body": "Apologies in advance to all patch managers and security teams that thought they might get a break this week. The PHP Foundation will release a “critical” security update on Thursday between 14:00 and 14:30 UTC.\n\nWhile we don’t have many details about the latest vulnerabilities – these haven’t been leaked like last month’s critical PHP2Shell flaws – a Wednesday advisory said the highest-severity bugs in the upcoming release are rated critical.\n\nWe do know that one of the vulnerabilities is another remote code execution (RCE) flaw, tracked as CVE-2026-115560.\n\nIn October, the PHP Foundation told The Register that it had reserved this CVE identifier for another RCE bug, but added it would not get an emergency fix like the earlier two PHP2Shell vulnerabilities because the third one doesn't pose the same risk.\n\nAdditionally, the session upload progress feature must be enabled, which the PHP Foundation said is very unlikely in real-world applications.\n\nThe November security release follows a hectic October emergency PHP patch-a-thon, with security teams racing to apply fixes for CVE-2026-109618 and CVE-2026-109619, collectively called PHP2Shell, before attackers could abuse the memory-safety flaws in the open source programming language running on about 70 percent of websites.\n\nWhile it took miscreants longer to reverse engineer the PHP2Shell fixes than some researchers had anticipated – and the entire internet didn’t burn down in the meantime – the US Cybersecurity and Infrastructure Security Agency (CISA) did add the two PHP vulns to its Known Exploited Vulnerabilities catalog on October 26.\n\nSuspected Chinese attackers chained PHP2Shell with a Linux kernel privilege-escalation exploit to root 25 servers, including Palo Alto Networks firewalls linked to US government-affiliated organizations, as early as October 23, according to Dream researchers.",
      "day": 1,
      "paywall": false
     }
@@ -404,7 +404,7 @@
    "items": [
     {
      "type": "story",
-     "headline": "Dalamud 15.0.4.0 · .NET 10.0.14 · game build 2026.11.03 · last changelog 10 Nov",
+     "headline": "Dalamud 15.0.4.1 · .NET 10.0.14 · game build 2026.11.03 · last changelog 18 Nov",
      "summary": null,
      "matters": null,
      "url": null,
@@ -416,49 +416,49 @@
     },
     {
      "type": "story",
-     "headline": "Evercold launches 23 February 2027",
-     "summary": "pre-orders include early access from 19 February at 1:00 a.m. PST, and the Road to Evercold free-login campaign is already running.",
-     "matters": "that is the date every plugin needs a new API level and updated game offsets by, with the early-access weekend as the first real break.",
-     "url": "https://na.finalfantasyxiv.com/lodestone/topics/detail/8874f1c53cc82ba16ae400053034af16e65dbe3f",
+     "headline": "The Lodestone went down on 18 November",
+     "summary": "from 2:02 p.m. to 4:21 p.m. PST first-time logins failed, the character selection screen displayed wrongly and European data centre character data stopped updating, with EU character login briefly under maintenance afterwards.",
+     "matters": "Square Enix says the cause is still under investigation, and any plugin or tool that reads Lodestone character data would have seen errors in that window.",
+     "url": "https://na.finalfantasyxiv.com/lodestone/news/detail/06070c9dcaff42462adfa7422f22d5aa3bfbad56",
      "source": "na.finalfantasyxiv.com",
-     "image": "https://img.finalfantasyxiv.com/t/8874f1c53cc82ba16ae400053034af16e65dbe3f.png",
-     "body": "Your next adventure is almost here! The release date for FINAL FANTASY XIV: Evercold has been revealed, with pre-orders opening soon! Pre-order to receive a variety of bonuses and early access to the Fourth a few days before launch.\n\nScheduled for Friday, February 19, 2027 at 1:00 a.m. (PST) Visit the FINAL FANTASY XIV: Evercold website for more details.",
+     "image": null,
+     "body": null,
      "day": 1,
      "paywall": false
     },
     {
      "type": "story",
-     "headline": "The FFXVI crossover The Path Infernal returns today",
-     "summary": "it runs from 18 November 12:00 a.m. PST to 9 December 6:59 a.m. PST, with the Torgal mount, the Metian Attire and an orchestrion roll, and the quest can be replayed through Seasonal Event Replay.",
-     "matters": "expect a spike in event-quest and mount-tracking plugin use, and a stress test for any plugin that reads seasonal event data.",
-     "url": "https://na.finalfantasyxiv.com/lodestone/topics/detail/44d7f515b6157602c144c5dba37a110bdecda702",
+     "headline": "Crucible Rankings Season 1 ends 30 November and Season 2 starts 7 December",
+     "summary": "Season 1 closes at 8:59 p.m. PST on 30 November, with top-300 rewards per data centre, and Season 2 runs until the maintenance for Patch 8.0 begins.",
+     "matters": "Square Enix names Patch 8.0 as the end of Season 2, and the pre-season gap in between is the quiet window before any PvP-tracking plugin sees fresh ranking data.",
+     "url": "https://na.finalfantasyxiv.com/lodestone/topics/detail/0db56e0630897e1437974c973172544dc0e33c33",
      "source": "na.finalfantasyxiv.com",
-     "image": "https://img.finalfantasyxiv.com/t/44d7f515b6157602c144c5dba37a110bdecda702.jpg",
-     "body": "The FINAL FANTASY XVI crossover event, The Path Infernal, returns to Eorzea! Participate in the event to obtain several event items, including the Torgal mount, the Metian Attire inspired by protagonist Clive Rosfield, a minion, orchestrion rolls, and more. Whether you missed the previous event or simply wish to experience the adventure again, don't miss out!\n\n* This event is identical to previous iterations. * Event quest can be replayed by utilizing the Seasonal Event Replay feature.",
+     "image": "https://img.finalfantasyxiv.com/t/0db56e0630897e1437974c973172544dc0e33c33.jpg",
+     "body": "Monday, November 30, 2026 at 8:59 p.m. (PST) Upon conclusion of the season, players who rank in the top 300 of their physical data center will receive ranking rewards. The season will soon come to a close. Push for the top of the rankings alongside your trusty companions! View the Crucible Rankings and rewards here. Once Season 1 concludes, a pre-season period will begin, during which players will be unable to participate in Crucible Rankings. Season 2 is scheduled to commence on Monday, December 7, 2026 at 9:00 p.m. (PST).\n\nMonday, December 7, 2026 at 9:00 p.m. (PST) until the start of maintenance for Patch 8.0 * Dates and times are subject to change.",
      "day": 1,
      "paywall": false
     },
     {
      "type": "story",
-     "headline": "Patch 7.58 carried same-region matchmaking for North American and European data centres",
-     "summary": "Duty Finder and party recruitment now span every World in a physical data centre, and the Central Shroud, Heritage Found, Phantom Village and Unmoored Isle no longer split into multiple instances.",
-     "matters": "the notes list no API or addon changes, but world-ID assumptions in party-finder and instance-tracking plugins are worth rechecking.",
-     "url": "https://na.finalfantasyxiv.com/lodestone/topics/detail/27a249e737d7b041332c7018949035b03d62c081",
-     "source": "na.finalfantasyxiv.com",
-     "image": "https://img.finalfantasyxiv.com/t/27a249e737d7b041332c7018949035b03d62c081.jpg",
-     "body": "Patch 7.58 introduces same-region player matchmaking to the North American and European data centers, as well as a number of adjustments to the Crucible of the Unbroken and a strengthened Echo effect in AAC Heavyweight Tier (Savage).\n\nPatch 7.58 contains content that can only be accessed by registering the expansion packs for FINAL FANTASY XIV to your service account. To distinguish between adjustments that are and are not affected by the registration of these expansions, the following notations will be used throughout the patch notes:\n\nThey can also be purchased in exchange for totems from Uah'shepya in Solution Nine (X:8.7 Y:13.5).\n\nThe effect will be granted at the start of the battle, increasing maximum HP, damage dealt, and healing potency by 17%. * Unlike other instances, the strength of the Echo will not increase in the event all party members are incapacitated. * The period between the release of Patch 7.4 and AAC Heavyweight Tier (Savage) was longer than usual, and the raids were balanced to account for the anticipated gear of players upon release. In light of this, the strength of the Echo has been set higher than usual.\n\nWhen the season ends, the top 300 ranking players from the North American, European, and Japanese data centers, and the top 100 ranking players from the Oceanian data center will receive vouchers via the moogle delivery service. Players finishing in the Bronze tier or higher can claim rewards by speaking with the Seasonal Quartermaster at the Wolves' Den Pier (X:4.9 Y:5.7). Learn more about rewards. * Tier rewards for Season Twenty-one must be claimed before the end of Season Twenty-two. Players will begin Season Twenty-two five risers lower than the rank at which they finished Season Twenty-one. Rising Stars will be reset to one. Players that finished Season Twenty-one ranked in the Omega or Ultima tiers will begin Season Twenty-two in the Crystal tier with 100 Crystal Credits. * Players who finish the season unranked or at Bronze 3 with zero risers will have no change to their ranking. Furthermore, due to the implementation of same-region player matching, players will now be able to participate in ranked matches from any World within their physical data center (North America, Europe, Oceania, or Japan).",
-     "day": 1,
-     "paywall": false
-    },
-    {
-     "type": "story",
-     "headline": "NuGet.org introduces staged publishing",
-     "summary": "packages are validated privately and stay hidden from search and restore until an authorised maintainer promotes them with two-factor authentication, and staging-only pipeline credentials cannot publish directly.",
-     "matters": "it is opt-in, group promotion is not atomic, and the .NET 11 RC2 SDK can stage with `dotnet package stage push`, so any plugin library you publish can get a safer release gate.",
-     "url": "https://devblogs.microsoft.com/dotnet/nuget-staged-publishing/",
+     "headline": ".NET 11 is out as a Standard Term Support release and .NET 8 and 9 have left support",
+     "summary": "C# 15 brings union types and closed classes, and .NET 10 stays the LTS release.",
+     "matters": "Dalamud still runs on .NET 10.0.14, so none of this forces a plugin retarget, but libraries that still target .NET 8 or 9 no longer get security fixes.",
+     "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/",
      "source": "devblogs.microsoft.com",
-     "image": "https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/11/nuget-staged-publishing-manage-packages.webp",
-     "body": "A successful build tells you that your pipeline finished. It does not tell you that you meant to release. Today, we are introducing staged publishing on NuGet.org, available to all package publishers, so you can prepare and validate packages privately before making an explicit decision to publish them.\n\nUpload a security fix ahead of its coordinated disclosure. Gather the packages for a feature release without exposing an unfinished set. Let automation prepare a large update, then review it on NuGet.org before it reaches the people who depend on it.\n\nWith a normal package push, upload starts the public publishing process. Staged publishing adds a place to stop: the package goes through NuGet.org validation, but stays private until an authorized maintainer promotes it through the website.\n\nThat gives you time to review what you are about to ship, fix validation problems, and choose the release moment.\n\nStaging is opt-in. Existing dotnet nuget push workflows continue to work. You can adopt staging for a security-sensitive package or a coordinated release without changing every publishing workflow at once.\n\nStaging also differs from unlisting. An unlisted package can still be restored by its exact version. A staged package is not available to consumers at all.\n\nThe website is where you review staged content and approve its release. You can stage a single package or organize related packages into a staging group.\n\nOn the NuGet.org upload page, choose the staging option under Publishing Mode when uploading your package. You can also upload from your pipeline using the CLI example below.\n\nNuGet.org runs the package through its validation pipeline, including malware scanning, signature checks, and repository signing. Once validation succeeds, the package is ready for promotion. It stays out of public package pages, search results, and restore operations.\n\nYou can inspect the staged package and its validation status in the website’s package management experience. If validation fails, fix the problem and stage a replacement before release day.\n\nStaging does not provide a private restore feed, even for the owner. Test your packages and their dependencies using a local or private feed first, then stage the release artifacts on NuGet.org.\n\nA staging group collects the packages for a release under one staging owner, either a user or an organization. For example, a library, its integrations, and its analyzers can share a group for an upcoming feature release.\n\nIn NuGet.org package management, create a group, add the staged packages for that release, and review each…",
+     "image": "https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/11/dotnet-11-contributors-scaled.webp",
+     "body": "Today, we’re excited to announce the release of.NET 11! This year’s release makes building modern applications faster, more productive, and has improvements across C# 15, ASP.NET Core,.NET MAUI, and Windows development. With hundreds of runtime optimizations, more responsive SDK tooling, and less overhead in everyday commands, you can spend less time waiting and more time creating. Build richer web and cross-platform applications, take advantage of new C# language features, and explore AI-powered development with improved tools and agentic capabilities.\n\nExplore.NET 11 with the product teams and community at.NET Conf 2026. The conference includes product team sessions on November 10 and 11, followed by two days of community sessions.\n\nThe what’s new in.NET 11 overview links to the full details. Here are the changes behind those headlines and how to start using them.\n\nC# 15 is the default language version for projects targeting.NET 11. Union types are one of its biggest additions: a value can be one of a declared set of case types, with conversions from those types and exhaustiveness checking in switch expressions.\n\nConsider a product lookup that either finds a product or reports that it wasn’t found:\n\nProductLookup result = new Product(42, \"Mechanical keyboard\"); string message = result switch { Product product => $\"Found {product.Name}\", ProductNotFound missing => $\"No product with ID {missing.Id}\", }; Console.WriteLine(message); public sealed record Product(int Id, string Name); public sealed record ProductNotFound(int Id); public union ProductLookup(Product, ProductNotFound); The result type tells a caller which outcomes it needs to handle. There’s no need to use object or an unrelated base class just to put those outcomes behind one return type.\n\nC# 15 also adds closed hierarchies. A closed class limits direct derivation to its declaring assembly, giving the compiler the information it needs to check patterns over the hierarchy. Unions are useful when you want to combine existing types; closed hierarchies fit models where you own the inheritance relationship.\n\nSmaller language features help with everyday code, too. Collection expression arguments let you pass constructor or factory arguments without giving up collection expression syntax:\n\nHashSet<string> names = [with(StringComparer.OrdinalIgnoreCase), \"Alice\", \"ALICE\", \"Bob\"]; Console.WriteLine(names.Count); This prints 2: the comparer controls equality, so \"Alice\" and \"ALICE\" are one entry.\n\nOther additions include extension indexers and labeled break and continue. These features don’t require…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Blender 5.3 was released on 10 November",
+     "summary": "it is the current release on the project's news feed, alongside a \"Pay It Forward\" fundraiser for 2027.",
+     "matters": "it is the version to check any Blender-to-game asset export pipeline against.",
+     "url": "https://www.blender.org/press/blender-5-3-release/",
+     "source": "blender.org",
+     "image": null,
+     "body": null,
      "day": 1,
      "paywall": false
     }
@@ -470,49 +470,37 @@
    "items": [
     {
      "type": "story",
-     "headline": "Blizzard posted the 17 November hotfixes",
-     "summary": "Upper Blackrock Spire enemy health and damage return to intended levels after being far too low, Soulforge Armor gives Spell Power instead of Strength, Shadow Priests can equip the Night Watchman's Torch, and ignore lists now persist through logout.",
-     "matters": "the UBRS fix ends a dungeon that had been far easier than designed, and the class fixes include Shaman Flurry no longer losing stacks when Windfury Totem attacks land.",
-     "url": "https://worldofwarcraft.blizzard.com/en-us/news/24315281/wow-forever-hotfixes-november-17-2026",
+     "headline": "Blizzard says WoW Forever has its highest weekly player count in about 15 years",
+     "summary": "Executive Producer Holly Longdale's figures include 15,160,147 characters created, 196,851,761 player deaths and Archmage Arugal in Shadowfang Keep as the deadliest boss.",
+     "matters": "Blizzard still has not given a concurrent-player number, so the weekly claim is the only hard population signal so far.",
+     "url": "https://www.warcrafttavern.com/forever/news/largest-weekly-player-count-in-15-years-wow-forever-by-the-numbers/",
+     "source": "warcrafttavern.com",
+     "image": "https://www.warcrafttavern.com/wp-content/uploads/2020/10/WoW-TBC-The-Burning-Crusades-News.png",
+     "body": "Another fun statistic for you! #WoWForever has more people playing weekly than we’ve seen in World of Warcraft in 15 years!\n\nYou’re breaking records by the day! Thank you all for helping to create this amazing community.\n\nWorld of Warcraft has been a big part of my life going all the way back to vanilla. I've played every retail expansion and all versions of WoW Classic, usually as a healer or caster and often as a guild leader. I've authored over a thousand guides for the game and edited at least a thousand more. If you find my content helpful, please leave a comment - it will make my day!\n\nSomeone once said that you can’t go home again. But they lacked vision. And a temporal discombobulator! At Warcraft Tavern we’re huge fans of World of Warcraft. Here you can find Guides, News, Tools, Forums, and more for WoW Forever, WoW Classic, TBC Classic, WotLK, Cataclysm, MoP & Retail!\n\nWarcraft Tavern has been bringing news and helping players since 2018 with expert guides from dozens of team members. Find out more about our team and our history, take a look at our editorial guidelines, join us on our community forums, or share some feedback with us on Discord!",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "A Lone Wolf bug is making Hunter pets far stronger",
+     "summary": "the talent is meant to give the Hunter 20% more damage while they have no pet, but it is applying to pets instead, and players are using it in the open world and battlegrounds.",
+     "matters": "Warcraft Tavern reports no Blizzard acknowledgement or fix yet, and the November 17 hotfixes do not mention it.",
+     "url": "https://www.warcrafttavern.com/forever/news/wow-forever-lone-wolf-hunter-bug/",
+     "source": "warcrafttavern.com",
+     "image": "https://www.warcrafttavern.com/wp-content/uploads/2020/10/WoW-TBC-The-Burning-Crusades-News.png.webp",
+     "body": "If you ever thought Hunter was a strong class in WoW Forever, the latest bug makes them even more overpowered! In the latest patch, Hunter’s Lone Wolf talent works incorrectly, applying to pets when it’s supposed to grant Hunters a 20% damage increase when they have no active pet. This bug turns Hunter pets into murder machines and is currently massively abused in both open world and battlegrounds.\n\nHey there folks, I am Nevermore and have been deeply passionate about WoW for more than a decade. Whether we talk about the hidden mysteries of Azeroth or the otherworldly Outland, my journey brought me here to share the things that I have experienced with you all.\n\nSomeone once said that you can’t go home again. But they lacked vision. And a temporal discombobulator! At Warcraft Tavern we’re huge fans of World of Warcraft. Here you can find Guides, News, Tools, Forums, and more for WoW Forever, WoW Classic, TBC Classic, WotLK, Cataclysm, MoP & Retail!\n\nWarcraft Tavern has been bringing news and helping players since 2018 with expert guides from dozens of team members. Find out more about our team and our history, take a look at our editorial guidelines, join us on our community forums, or share some feedback with us on Discord!",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The World of Warcraft 22nd Anniversary event runs until 8 December",
+     "summary": "it is held in the Caverns of Time in Tanaris, with a 10% XP and reputation buff that stacks with other buffs, a seven-piece Loyal Watchman transmog set, and progress tracked Warband-wide.",
+     "matters": "Blizzard's page does not say whether the event applies to Forever, so check before planning a Classic-side alt around it.",
+     "url": "https://worldofwarcraft.blizzard.com/news/24316098/join-the-world-of-warcraft-22nd-anniversary-celebration",
      "source": "worldofwarcraft.blizzard.com",
-     "image": null,
-     "body": "Here you will find a list of hotfixes that address various issues related to World of Warcraft: Forever.",
-     "day": 1,
-     "paywall": false
-    },
-    {
-     "type": "story",
-     "headline": "Blizzard names the Blackmaw Hold exploit and promises penalties",
-     "summary": "non-elite enemies dropped full elite dungeon loot, \"a couple hundred players\" farmed them, gold from the exploit and from vendoring the drops is being removed, and \"significant abusers\" get suspended.",
-     "matters": "this is the first enforcement answer to the week's streamer-farming row, but Blizzard gave no suspension numbers and named nobody.",
-     "url": "https://us.forums.blizzard.com/en/wow/t/actions-for-blackmaw-hold-abuse-november-17/2419757",
-     "source": "us.forums.blizzard.com",
-     "image": null,
-     "body": "As players continue their journey into WoW Forever’s higher-level content, we are closely monitoring the game economy to ensure that gold sources and costs are well balanced. Finding efficient farming spots has always been part of the game, and is how most players have earned their epic mounts since 2004. When a single location proves so lucrative that it overshadows all other sources, we generally adjust it to bring it in line with the rest.\n\nOver the past weekend, some players discovered a large group of non-elite enemies in the Blackmaw Hold dungeon that were incorrectly dropping the full amount of dungeon loot that would be expected from an elite. Early yesterday, we addressed this with a hotfix, and since then, we have been investigating the overall economic impact.\n\nPlayers who simply ran Blackmaw Hold a few times and benefited organically from the extra loot did nothing wrong, and no one should worry that they’re putting their account at risk if they accidentally benefit from a bug. But there were a couple hundred players worldwide who recognized that this was unintended and spent significant time exclusively farming that group of enemies.\n\nYesterday, we put an economy lock on their accounts to prevent broader impact to the game economy while we investigated the extent of the exploitative gains, including gold earned by vendoring bugged drops. Today, we are in the process of removing all such gold earned, as well as applying account suspensions to significant abusers.\n\nAs always, we advise all players to refrain from abusing game mechanics that are clearly unintended. We will continue to take action against intentional abuse.\n\nSince everyone else got free mounts from gold exploits its only fair that Blizzard gives everyone a mount right?\n\nI’ve had longer bans for saying a naughty word than these people got for mass exploiting, but at least you rolled back the gold.\n\nSo you’re banning the streamers straight up bragging and showing off their thousands of gold right?\n\nIf the streamers are not banned, or punished in some way, I will be so frustrated.\n\nThis post means nothing if you do not ban Ziqo. IF aggrend cares and holly cares, Ban Ziqo permanently. Otherwise this is another example of Exploit early Exploit often.",
-     "day": 1,
-     "paywall": false
-    },
-    {
-     "type": "story",
-     "headline": "Midnight: Echoes of the Worldcore arrives 1 December",
-     "summary": "a new campaign, \"The Return to Dornogal\", opens the Coreway, alongside Lorewalking quests with Li Li Stormstout and the eight-week Turbulent Timeways Timewalking event, which has a Skyriding mount.",
-     "matters": "it is the next retail content drop, and the Omnium Folio gains two runes and two more Motes of Omnial Inquiry.",
-     "url": "https://news.blizzard.com/en-us/article/24317679/midnight-echoes-of-the-worldcore-arrives-on-december-1",
-     "source": "news.blizzard.com",
-     "image": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/qt/QT4VNJYOTJO61794603658091.png",
-     "body": "Azeroth’s history is waiting beneath the Coreway. Return to Dornogal, face the Storyteller’s macabre tales in Talebound, and join Li Li Stormstout for a Lorewalk through the stories that shaped Azeroth in Midnight: Echoes of the Worldcore.\n\nThe Worldcore has been breached by Xal’atath, and the only way to it is through the damaged Coreway in Dornogal. Help Arator, Brinthe, Dagran, and Brann unravel how to access the Coreway—and the Worldcore beyond.\n\nPrepare to be drawn into the macabre world of Talebound, where you become part of the dark chronicles of a mysterious Storyteller, chillingly brought to life in a new PvE action RPG game mode.\n\nMeet with Apprentice Lorewalker Li Li Stormstout in Stormwind, Orgrimmar, or Silvermoon City to experience iconic lore moments in Azeroth as part of the Echoes of the Worldcore content update.\n\nPlayers level 10 and above can explore four storylines, carefully curated by Li Li, to learn more about these characters:\n\nApprentice Lorewalker Li Li Stormstout will guide you through the stories she has to share. You can ask questions about key elements of the story whenever you'd like by clicking the Ask a Question button in the Lorewalking UI just below the minimap. You can also exit the story at any time by clicking the X in the UI.\n\nYou can repeat these experiences as many times as you like. Please note that while Lorewalking, you won’t be able to undertake or progress through any other quests. However, you can pause Lorewalking and return to it at any time to continue your journey through the story. If you start a different Lorewalking story before finishing the first, all progress will be reset.\n\nOnce more, the Bronze Dragonflight has discovered growing disturbances in the Timeways, as several rapidly intersect our own.\n\nTurbulent Timeways begins at the launch of Echoes of the Worldcore and lasts eight weeks. Players can earn the Markeet of the Infinite Skyriding Mount by completing the “Master of the Turbulent Timeways VI” achievement, awarded to champions who maintain “Mastery of the Timeways” for any four weeks during the event.\n\nAnd there’s never been a better time to decorate with fresh Housing Decor items added to the Timewalking vendors.\n\nCompleting a Timewalking dungeon grants Knowledge of the Timeways, a 5% stacking buff. After completing four Timewalking dungeons, the buff will upgrade to Mastery of Timeways, granting 30% experience gain for the duration of the buff.\n\nAlso, for a limited time, the Timewalking quests in Silvermoon City from Archmage Aethas Sunreaver will offer increased rewards—an all-new…",
-     "day": 1,
-     "paywall": false
-    },
-    {
-     "type": "story",
-     "headline": "Talebound launches 1 December",
-     "summary": "a solo or group PvE action-RPG mode with four tales (Darkhaven, Greenthistle Wood, Greywake's Expedition and Grove of the Night Court), three classes (Witch, Slayer, Inquisitor) and Normal, Veteran and Heroic difficulties.",
-     "matters": "it is a separate progression track with its own vendors, 27-point talent trees and cosmetic rewards.",
-     "url": "https://news.blizzard.com/en-us/article/24316569/talebounds-twisted-tales-and-deadly-fates-arrive-december-1",
-     "source": "news.blizzard.com",
-     "image": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg",
-     "body": "Step into the macabre world of Talebound in a PvE action RPG game mode where you become part of the dark chronicles of a mysterious Storyteller, chillingly brought to life, and where danger is written on every page.\n\nWhether you venture alone or with friends, Talebound invites you to explore themed tales across Normal, Veteran, and Heroic difficulties, filled with enemies, bosses, puzzles, treasure, relics, and rewards as you confront the terrors waiting beyond Quillgrave.\n\nRed Hollow draws unwitting travelers into its fold. Journey down a darkened road where you’ll encounter a mysterious storyteller who pulls you into a world of his own creation, and whose favorite stories lean toward the macabre.\n\nBetween each horrific adventure, return to the cozy, lantern-lit village of Quillgrave, which offers warmth and respite from the darkness beyond. Take a rest, hang your cap, and sip some hot cocoa, but don’t get too comfortable; the village and the storyteller don’t appreciate a story unfinished, so you’ll have to strategize for the horrors to come.\n\nOnce rested, take up arms and endeavor through the telling and retelling of tales that will test your new skills and abilities… and there are so many tales to tell and re-tell.\n\nAfter each run of a tale, return to Quillgrave to work together with the Arcanist, Scribe, Outfitter, and Antiquarian to improve your odds in your next attempt.\n\nLook to the Antiquarian for meaningful passives that augment how each tale may be approached.\n\nA visit to the Outfitter will help improve your starting health, damage, energy, and focus.\n\nTalebound has four stories across Normal, Veteran, and Heroic difficulties to explore, each with its own settings, enemies, and boss encounters, including witches, giants, marshals, bishops, deep-sea horrors, and nightmare royalty.\n\nDarkhaven, home to Konrad von Sonnesheim, the Lord Marshal, and to Alexandre Dozsenc, the Blood Bishop, is cut off from the rest of the world.\n\nIt is the only place that survived a devastating plague that wiped out everyone beyond its borders.\n\nIt is a place overrun and terrorized by two witches, a giant, and a host of vile, predatory fiends who have filled the wood with unspeakable cruelty and mayhem.\n\nFollow the tale of the many who have fallen to Zzyg'th, the Hadal Tyrant, and to Chathoa, the Herald from Beyond.\n\nDiscover the aftermath of when dream and nightmare intertwine as night moves through the world.\n\nCollections of these stories are also available in town, if you wish to hear them again.\n\nAcross all classes, movement and defense are central, and every…",
+     "image": "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/t6/T6LFG2I3Q3KM1762888528926.png",
+     "body": "Join the celebration as World of Warcraft marks its 22nd Anniversary with a variety of activities and plenty of ways to earn currency to buy a wide range of items.\n\nGrab the quest from any Holiday Celebrants and hitch a ride to the Caverns of Time through portals located in Orgrimmar and Stormwind.\n\nPlayers receive an automatic 10% Experience and Reputation buff during the Anniversary Event. They must complete the repeatable Celebrate Good Fun! quest from Yllana in Tanaris every day to add another 10% to the total.\n\nThe WoW 22nd Anniversary has a variety of activities and ways to earn currency used to purchase myriad items, including the Loyal Watchman ensemble transmog set pieces—Helm, Gauntlets, Trousers, Cuirass, Spaulders, Belt, and Boots.\n\nQuests and activity completions are tracked Warband-wide, can be completed on any character in your Warband, and will count toward the weekly amount of Warband Transferable Tokens your Warband can earn each week.\n\nSo, there’s no need to run the event with multiple characters every week—unless you want to spread the fun among your characters.\n\nThe top goblins have tallied everything up so that you know how to earn all the anniversary currencies and where they can be spent.\n\nMake the most of the festivities by visiting the many vendors on the grounds for tasty treats and delights.\n\nWe look forward to celebrating all things World of Warcraft with you—see you in Azeroth!",
      "day": 1,
      "paywall": false
     }
@@ -524,61 +512,61 @@
    "items": [
     {
      "type": "story",
-     "headline": "Coachella 2027 is on sale after its lineup drop",
-     "summary": "Dua Lipa, Tame Impala and SZA headline across 9–11 and 16–18 April, with Madonna in the dance tent and Daddy Yankee in a quasi-headliner \"in the desert\" slot.",
-     "matters": "general sale opened on 13 November, so the first-wave tickets are already moving.",
-     "url": "https://stereogum.com/2517560/coachella-reveals-2027-lineup/news",
+     "headline": "Glastonbury announces its 2027 line-up",
+     "summary": "Sam Fender, Harry Styles and Billie Eilish headline the Pyramid Stage, with Cher in the Sunday legends slot, and the festival runs 23–27 June at Worthy Farm after the 2026 fallow year.",
+     "matters": "Styles, Cher and Kraftwerk all make their Glastonbury debuts, and tickets sold out before the bill was published.",
+     "url": "https://stereogum.com/2518491/glastonbury-announces-2027-lineup/news/",
+     "source": "stereogum.com",
+     "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Glasto.jpg",
+     "body": "Add Stereogum to Google There was no Glastonbury Festival in 2026. Every few years, the massive English music festival takes a year off so that the soil at Worthy Farm, the festival site, can recover. Today, however, the Glastonbury bookers have announced the initial lineup for the 2027 festival. This time around, the three big Pyramid Stage headliners are Sam Fender, Harry Styles, and Billie Eilish, while Cher will play in the Sunday afternoon \"legends\" slot.\n\nAs The Guardian notes, this is the youngest set of Glastonbury headliners of the 21st century. Fender and Styles are both 32, and Eilish is 24. Both Eilish and Fender have played Glastonbury before — the two of them went back-to-back to close out the Pyramid Stage in 2022 — but Styles and Cher will make their Glastonbury debuts. Kraftwerk, another legendary act, will also play Glasto for the first time, as will younger acts like Angine de Poitrine, Sombr, Adéla, the Womack Sisters, and Sienna Spiro.\n\nEven without the full festival lineup being announced yet, the bill is already predictably huge. The other acts booked to play include (deep breath) Massive Attack, Crowded House, Primal Scream, Saint Etienne, the xx, FKA twigs, Kacey Musgraves, Robyn, Lily Allen, the War On Drugs, King Gizzard And The Lizard Wizard, the Streets, Underworld, Texas, Ellie Goulding, Little Simz, Lola Young, FLO, Christine And The Queens, Young Fathers, the Avalanches, Basement Jaxx, Nia Archives, Hot Chip, De La Soul, Mike D 5D, Chvrches, Blood Orange, Thundercat, Dinosaur Jr., Westside Cowboy, Underscores, Chase & Status, Confidence Man, Ezra Collective, Leon Bridges, Tinariwen, Lianna La Havas, Florence Road, Getdown Services, Thee Sacred Souls, Atarashi Gakko!, Nao, and Ecca Vandal.\n\nThe festival goes down 6/23-27 at Worthy Farm in Pilton. Tickets already went up on sale and sold out before the lineup was announced. For all the relevant info, check over here.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Tame Impala win seven ARIAs and take the all-time record",
+     "summary": "the haul took Kevin Parker's project to 22 career wins, passing Silverchair and John Farnham, at Sydney's Hordern Pavilion on Wednesday.",
+     "matters": "they led the 2026 nominations with eight, and are also the 30 June opener at Open'er 2027 in Gdynia.",
+     "url": "https://stereogum.com/2518543/tame-impala-breaks-record-for-most-aria-awards-of-all-time/news/",
      "source": "stereogum.com",
      "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2025/10/Frankie-Hejduk-MLS-Cup.jpeg",
-     "body": "Add Stereogum to Google The 2027 Coachella lineup is here. We've been hearing rumblings about the headliners for months, and it turns out the latest reports were true: Dua Lipa, Tame Impala, and SZA will top the bill when the fest returns to Empire Polo Club in Indio the weekends of April 9-11 and 16-18.\n\nSome other notable names on the poster: Madonna (\"in the dance tent\"), Phoebe Bridgers, Weezer, Robyn, Zara Larsson, Pinegrove (who've been on hiatus since 2023), Steve Lacy, Caroline Polachek, Angine de Poitrine, ear, underscores, Four Tet, Twisted Teens, Peggy Gou, Kehlani, Giorgio Moroder, Bassvictim, Role Model, Gang Of Youths, Adéla, Magdalena Bay, Nirosta Steel, Mariah The Scientist, Drain Gang, This Is Lorelei, Mike D 5D, Underworld, Remi Wolf, Social Distortion, Boy Harsher, the Neighbourhood, Shygirl, Tove Lo, MUNA, EsDeeKid, Basement, the Avalanches, Fetty Wap(!), Enigma(!!), Snow Strippers, Haute & Freddy, American Football, Nettspend, Tiffany Day, Mary In The Junkyard, the Damned, Getdown Services, xaviersobased, Freddie Gibbs, Chanel Beads, Florence Road, Dinner Party, Lambrini Girls, and more.\n\nDaddy Yankee gets the quasi-headliner \"in the desert\" treatment at the bottom of the poster, while the bunker that featured a Radiohead installation last year will have a Justice exhibit called \"Blinded By The Lights\" this year. We'll have our annual poster breakdown ASAP. In the meantime, head to the Coachella site for ticket info.",
+     "body": "This one checks out. When you think of successful Australian musicians, Tame Impala has to be near the top of your list. As of today, one list he definitely tops is the list of most ARIA Awards, the top music industry honor in Australia.\n\nThis year's ARIA Awards took place earlier today at Hordern Pavilion in Sydney. Kevin Parker's project totaled seven awards for 2026: Album Of The Year (for Deadbeat), Best Solo Artist, Best Pop Release (for \"Dracula\"), Song Of The Year (for \"Dracula\"), Best Engineered Release (for Deadbeat), Best Produced Release (for Deadbeat), and the Global Impact Award, presented by Savage Garden's Darren Hayes. This brings Parker's career total to 22 ARIA wins, breaking a record previously held by Silverchair and John Farnham.\n\n\"Hopefully this can once and for all, everyone can accept and realize and not need to joke about it that Tame Impala is in fact just one guy,\" Parker said from the stage.\n\nOver in America, this week Tame's Jennie collaboration \"Dracula\" holds at its #3 peak on the Hot 100 — the highest charting song ever for either artist. Next year, Parker will compete for four Grammys, including Record Of The Year, and headline Coachella.",
      "day": 1,
      "paywall": false
     },
     {
      "type": "story",
-     "headline": "King Gizzard & The Lizard Wizard announced Entropy for 4 December",
-     "summary": "their 29th album arrives on their own p(doom) records, with lead single \"Rogue Wave\" and a 2027 tour that includes Primavera Sound.",
-     "matters": "a second electronic-leaning record in a year and a tour that runs from Europe in June to North America in August and October.",
-     "url": "https://liveforlivemusic.com/news/king-gizzard-the-lizard-wizard-2027-tour-new-album-entropy/",
-     "source": "liveforlivemusic.com",
-     "image": "https://static.liveforlivemusic.com/files/2026/11/kglz-entropy-1668x1113.jpg",
-     "body": "[Updated 11/10/26 5:30 ET]: King Gizzard & The Lizard Wizard confirmed in an email to fans that they will not host Field of Vision III in Buena Vista, CO next year, saying “ Meadow Creek and Chaffee County were unable to agree upon permit conditions …” In the same email, the band announced four additional shows on its 2027 North American tour—three in Colorado and one in Reno, Nevada.\n\nThe new shows will take place on Friday, August 13th at Ford Amphitheater in Colorado Springs; Saturday, August 14th at Mission Ballroom in Denver; Sunday, August 15th at Dillon Amphitheater in Dillon; and Tuesday, August 17th at Club Underground in Reno.\n\nDue out December 4th via their own p(doom) records label, Entropy is a companion album to Gizz’s last release, Alien Metal, from earlier this year. The new LP was born from the same experimental sessions where the band explored its Eurorack modular synth setup, affectionately referred to as “Nathan,” which has become the focal point of the group’s live rave sets.\n\nThough the two albums share the same DNA, each emerged from a different improvised jam. Whereas Alien Metal ’s tracks were all set to a tempo of 143 beats per minute and in the key of F sharp, Entropy ’s pick up the pace to 160 bpm and are all in the key of A, giving each project its own distinct vibe.\n\nCheck out “Rogue Wave,” the first single from the forthcoming album, below or on your preferred streaming platform. Scroll down to view the full Entropy tracklist.",
+     "headline": "Danzig's classic-era guitarist John Christ has died at 61",
+     "summary": "he died on 15 November, his Instagram announced it on Monday night, and no cause has been reported.",
+     "matters": "he also played in Samhain, and had said earlier this year that his doctors had advised a few months of rest.",
+     "url": "https://stereogum.com/2518371/danzig-guitarist-john-christ-dead-at-61/news/",
+     "source": "stereogum.com",
+     "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/John-Christ.jpeg",
+     "body": "Add Stereogum to Google John Christ, lead guitarist for Danzig during that band's classic era, has passed away. On Monday night, Christ's Instagram announced that the guitarist died on Nov. 15, adding, \"No services are planned and we kindly ask everyone to respect the family's privacy during this time.\" No cause of death has been reported, but Christ had been suffering from an unspecified health issue in recent months. Christ was 61.\n\nJohn Christ was born John Wolfgang Knoll, and he grew up in the Baltimore suburb of Catonsville. For kids in Baltimore during Danzig's initial reign, it was unbelievably cool to know that the band's resident guitar hero was a guy from the area. Christ started playing guitar as a kid, and he studied classical guitar at the Peabody Institute and jazz at Towson State University. In 1987, he dropped out of college to join Glenn Danzig's post-Misfits band Samhain, which was about to evolve into the band known as Danzig. He secured his spot in the band by calling Glenn Danzig up multiple times and playing guitar solos on his answering machine.\n\nSamhain had already played their final show under that name when Christ joined up, though he did play guitar on their album Final Descent, which didn't come out until 1990. Rick Rubin wanted to sign the band, and he convinced them to change their name to just Danzig, reflecting the group's changing lineup and direction. Christ and former Black Flag drummer Chuck Biscuits joined the band, which continued to feature Glenn Danzig and Samhain bassist Eerie Von. They made their debut on the Rubin-produced Less Than Zero soundtrack in 1986, releasing the relatively conventional rocker \" You And Me (Less Than Zero) \" under the name Glenn Danzig & The Power And Fury Orchestra.\n\nIn 1988, Rick Rubin left Def Jam, the label he co-founded, to start his new imprint Def American, which later changed its name to American Recordings. The first album to come out on Def American was Danzig's Rubin-produced self-titled debut. The album opened with Christ's elemental riff for \"Twist Of Cain,\" still one of the all-time great triumphant, horns-up metal guitar lines. As the band name implies, the focus of Danzig was Glenn Danzig's simmering charisma and caveman-Elvis howl. But Christ's sinister, bottom-heavy guitar was a key element, and he looked cool as hell shredding shirtlessly in those videos.\n\nDanzig were essentially a cult band, though their self-titled debut eventually went gold. They toured with bands like Metallica and Slayer, and they continued to crank out titanic-sounding records backed with…",
      "day": 1,
      "paywall": false
     },
     {
      "type": "story",
-     "headline": "Kings of Leon released O My Beloved",
-     "summary": "their tenth album and first self-produced one, out via Love Tap Records with a 30-city North American tour from 8 May to 15 October at Madison Square Garden.",
-     "matters": "the touring cycle is already booked a year ahead, with Band of Horses supporting the spring and autumn dates.",
-     "url": "https://news.pollstar.com/2026/11/06/kings-of-leon-release-new-album-announce-2027-north-american-tour/",
-     "source": "news.pollstar.com",
-     "image": null,
-     "body": null,
+     "headline": "Jason Isbell and Drive-By Truckers announce the Summer of Joy tour",
+     "summary": "it is 39 shows from 6 May in Nashville to 7 September in Tulsa, including Red Rocks and the Greek Theatre in Los Angeles.",
+     "matters": "presale opened on 18 November and general sale starts Friday 20 November at 10:00 local time, with $1 per ticket going to Nuçi's Space.",
+     "url": "https://stereogum.com/2518394/jason-isbell-drive-by-truckers-announce-summer-of-joy-tour/news/",
+     "source": "stereogum.com",
+     "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/SummerOfJoy.jpg",
+     "body": "Add Stereogum to Google Jason Isbell was a member of the Drive-By Truckers from 2001 to 2007 before going solo and eventually attaining his own roots-rock stardom. He's reunited with his old bandmates a few times over the years, most recently joining DBT to play their classic 2003 album Decoration Day in full at his ShoalsFest in Alabama last month.\n\nAs it turns out, that may have been less of a one-off treat and more of a harbinger of things to come, because Isbell and his band the 400 Unit have just announced a big co-headlining tour with Drive-By Truckers next summer. Billed as the \"Summer Of Joy,\" it'll kick off in Nashville on May 6, 2027 and run all the way through Sept. 7 in Tulsa.\n\nA dollar from every ticket sold on the tour will go to Nuçi’s Space, a nonprofit based in Athens, Georgia dedicated to preventing suicide by providing mental health resources and rehearsal and performance space for local musicians. Pre-sale begins tomorrow morning, and general tickets will go on sale Friday, Nov. 20 at 10:00AM. Check out a brief tour announcement video and the full list of dates below.",
      "day": 1,
      "paywall": false
     },
     {
      "type": "story",
-     "headline": "Chvrches' All The King's Men lands 22 January",
-     "summary": "their first album in almost six years, 11 tracks led by \"Roses\", with 27 tour dates from 13 February in Philadelphia to 6 May at London's O2 Shepherd's Bush Empire.",
-     "matters": "the comeback has a fixed date and a tour that runs through North America, the UK and Ireland.",
-     "url": "https://faroutmagazine.co.uk/chvrches-announce-new-album-all-the-kings-men-and-major-2027-tour/",
-     "source": "faroutmagazine.co.uk",
-     "image": "https://cdn1.faroutmagazine.co.uk/uploads/1/2026/10/CHVRCHES-2026-Jody-Evans-Far-Out-Magazine-1140x855.jpg",
-     "body": "Chvrches have announced their new album, All The King’s Men, alongside a 2027 tour that will take them across North America, the UK, and Ireland early next year.\n\nAll The King’s Men marks their first album in almost six years and is set to arrive on January 22nd, 2027, and follows on from their 2021 full-length, Screen Violence.\n\nThe trio, consisting of Lauren Mayberry, Iain Cook and Martin Doherty, have returned with “a self-consciously British freewheeling collection of 11 tracks of vividly emotional indie rock that fans won’t expect,” press materials promise.\n\nThe musicians have been inspired by a wide array of multidisciplinary art, such as Massive Attack, Souxsie and The Banshees, and PJ Harvey, as well as Nick Drake, Bert Jansch and Incredible String Band, and even British cinema auteurs like Shane Meadows and Ken Loach.\n\nThey have already released the first single, ‘Roses’, an Orwellian growl at the darker undercurrents of British society, which only “sets the stage for what is to come”.\n\nThe group has also announced a huge show of North America, the UK and Ireland kicking off next February 13th in Philadelphia and concluding on May 6th at London’s O2 Shepherd’s Bush Empire.\n\nFirst, the trio will perform two special intimate shows in their hometown, Glasgow, on October 26th and in London on October 29th.",
-     "day": 1,
-     "paywall": false
-    },
-    {
-     "type": "story",
-     "headline": "Open'er 2027 has its Saturday headliner",
-     "summary": "RAYE tops the bill on 3 July in Gdynia, with Tame Impala opening the festival on 30 June and sombr and Patti Smith on 1 July.",
-     "matters": "RAYE, who leads this year's Grammy nominations with 11, is already booked for the Polish festival.",
-     "url": "https://www.ebilet.pl/now/oto-nowe-ogloszenia-na-opener-festival-kto-wystapi-w-2027-roku/",
-     "source": "ebilet.pl",
-     "image": "https://www.ebilet.pl/now/app/uploads/2025/09/headphones-headset-audio-sound-media-multimedia-music_24px.png",
-     "body": "Sobel i OKI od ponad pół dekady zachwycają słuchaczy swoimi kolaboracjami. Chociaż wspólny album jeszcze przed nimi, już teraz z ich wydanych razem utworami można by złożyć solidną playlistę, pokazującą ewolucję obu artystów.\n\nNa tę informację czekali europejscy fani U2! Zespół podzielił się swoimi koncertowymi planami i wstępnie zapowiada przedłużenie trasy na 2028 rok!\n\nNOW > Muzyka > Oto nowe ogłoszenia na Open’er Festival! Kto wystąpi w 2027 roku?\n\nZaskoczenia, różnorodność, a przede wszystkim solidna dawka dźwiękowych wrażeń – to właśnie te składniki od lat budują Open’er Festival! Impreza od lat cieszy się ogromną popularnością wśród kilku pokoleń zagorzałych fanów muzyki, a line-up nieustannie przeplata wiele gatunków, co idealnie nasyci oczekiwania poszukiwaczy nowego brzmienia. Na scenach przez lata prezentowały się zarówno ponadczasowe legendy, jak i początkujący artyści, którzy dopiero rozwijali swoje twórcze skrzydła. Festiwalowicze co roku przywożą z Gdyni masę wspomnień i mają ochotę na więcej!\n\nO tym, że Tame Impala rozkręci imprezę w Gdyni, wiemy już od pewnego czasu, ale entuzjazm wokół ogłoszenia nadal nie maleje. Projekt Kevina Parkera cieszy się ogromną popularnością w naszym kraju, o czym świadczy wysoka frekwencja na jego dwóch koncertach w Gliwicach, które odbyły się w 2026 roku. Tym razem Australijczyk nastroi fanów w festiwalową atmosferę, a pomoże mu w tym jego repertuar, który aż zaprasza do tańca! Więcej przeczytacie tutaj.\n\n“Nic nie jest w stanie przygotować cię na sukces” – powiedział sombr w wywiadzie z Billboardem, gdy piosenka “back to friends” wkroczyła na nową falę popularności. Młody wokalista zderzył się z ogromnym uznaniem również w naszym kraju, ponieważ jego pierwszy koncert w Polsce od razu zyskał status sold-outu. Tym razem autor wielu przebojów będzie miał szansę rozkochać w sobie o wiele większą publiczność, a jego set z pewnością będzie motywem, by wielu entuzjastów popu zawitało do Gdyni w 2027 roku.\n\n“back to friends”, “undressed”, “12 to 12” to zaledwie zalążek tego, co ma do zaprezentowania wokalista! Niedawno wzbogacił swój muzyczny katalog o single “Potential” oraz “My Body Isn’t Ready “, więc całkiem prawdopodobne, że te kawałki już wkrótce wybrzmią na festiwalu! sombr łączy w sobie indie-popową wrażliwość oraz chwytliwe melodie, który znalazły solidne grono entuzjastów w różnych częściach świata. Jego nadchodząca trasa koncertowa odbędzie się pod szyldem “You Are The Reason”, więc kto wie – może artysta ma w zanadrzu nowy repertuar, który zaprezentuje na Open’erze?\n\nO tym przekonamy się już 1 lipca…",
+     "headline": "When We Were Young returns to Las Vegas on 16 October 2027",
+     "summary": "Blink-182 and Pierce The Veil lead a bill that also has Limp Bizkit and Third Eye Blind.",
+     "matters": "the emo and pop-punk festival has put out its 2027 line-up and presale sign-up is open.",
+     "url": "https://stereogum.com/2518452/when-we-were-young-announces-2027-lineup-with-blink-182-limp-bizkit-third-eye-blind-more/news/",
+     "source": "stereogum.com",
+     "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2025/10/Frankie-Hejduk-MLS-Cup.jpeg",
+     "body": "Add Stereogum to Google When it properly got going in 2022 (after a one-off incarnation in 2017), the Las Vegas music festival When We Were Young tapped into a fertile market: nostalgia for Warped Tour-era pop-punk, emo, and metalcore. WWWY remained a popular destination for aging MySpace users for several years, but the fest skipped 2026, raising concerns about its future despite assurances from organizers that it would return in 2027. They kept their word: When We Were Young is coming back next year, and they've got the lineup to prove it.\n\nLike so many festivals that begin with a tightly defined aesthetic, When We Were Young seems to be experiencing some mission drift as the years go on. Headliners Blink-182 and Pierce The Veil fit the original vision, but the new lineup seems to reflect a broader millennial nostalgia, with late '90s MTV favorites ranging from poppy alt-rockers Third Eye Blind to nu-metal stars Limp Bizkit, with a rather eclectic mix including Michelle Branch, Explosions In The Sky Natasha Bedingfield, Portgual. The Man, Neon Trees, the Psychedelic Furs, 5 Seconds Of Summer, Wheatus, and Ashlee Simpson further down the poster.",
      "day": 1,
      "paywall": false
     }
@@ -590,21 +578,45 @@
    "items": [
     {
      "type": "story",
-     "headline": "Percy Jackson season 3 and Yellowjackets season 4 both land on Friday 20 November",
-     "summary": "Disney+ and Paramount+ launch their returning series on the same day, alongside Netflix's Steps and Apple TV's Way of the Warrior Kid.",
-     "matters": "the week's returning-series clash is the one that will split the weekend.",
-     "url": "https://www.tvguide.com/news/ultimate-guide-what-to-watch-netflix-hulu-prime-video-hbo-max-more-november-2026/",
-     "source": "tvguide.com",
-     "image": "https://www.tvguide.com/a/img/resize/b05bdeb7f50bc74983cf2fec705f7b6e2fcf7ba8/hub/2025/11/13/3232b655-abe4-4b83-a6c8-d7ba4f3eba7d/reggie.jpg",
-     "body": "TV Guide Editors Oct. 27, 2026 at 10:09 a.m. PT It's been scientifically proven that there is no better time of year than this one to get cozy in front of the TV and watch a really good show. Luckily, November has plenty of options for you, including returning favorites like Julian Fellowes' fizzy period drama The Gilded Age, last season's best new network comedy The Fall and Rise of Reggie Dinkins, and the fantasy series The Lord of the Rings: The Rings of Power. New shows this month include the Rose Byrne-Meghann Fahy limited series The Good Daughter; the Amy Poehler comedy Dig; and the latest addition to the Blade Runner franchise, Blade Runner 2099. There's a little something for everyone.\n\nOur guide to the best TV and streaming movies in November is divided into three sections: the best shows to watch this month, the best shows to watch by streaming service, and a calendar of TV highlights. Whatever you're looking for, you'll find it below.\n\nChristmas is coming early to Netflix this year, and I'm not just talking about the blizzard of holiday movies hitting the streamer in November (there's a movie coming called Rodeo Christmas Romance, which is basically a Hallmark Christmas movie word cloud come to life). The month sees several interesting releases heading your way from all types of genres, from an awkward fraudster romance limited series to a supernatural thriller about a Catholic high school dance team to a bisexual Texas women crime story (that's The Altruists, the new series The Body, and The Hunting Wives Season 2, in that order). Also coming are new seasons of the charming Inuit comedy North of North and the spy thriller Black Doves, as well as the Netflix original film The Mosquito Bowl, which stars Nicholas Galitzine, Bill Skarsgård, and Ray Nicholson as college football stars who enlist in the Marines during World War II. And for those who missed it in theaters or on Peacock, Curry Barker 's box office hit Obsession comes to Netflix on Nov. 17. Here's our list of the best shows and movies on Netflix in November, plus everything coming to and leaving Netflix in November.\n\nOne of the crown jewels in the acquisition of Warner Bros. Discovery by Skydance is undoubtedly HBO, but since the merger was completed in early October, HBO has been pretty quiet. Last month's trickle of interesting new releases continues in November, with the month's big new debut being Season 4 of Julian Fellowes' period drama The Gilded Age. But it should be a good one, with plenty of lingering threads to tie up following a tremendous Season 3 finale. Also coming in…",
+     "headline": "Robert Pattinson is named the next James Bond",
+     "summary": "Amazon MGM Studios announced it on Monday 16 November, with Steven Knight writing the script, filming expected from early 2027 and a release expected in 2028.",
+     "matters": "he beat Jack Lowden, Josh O'Connor and Callum Turner, and no exact production or release dates have been given.",
+     "url": "https://www.itv.com/news/2026-11-16/robert-pattinson-named-as-new-james-bond",
+     "source": "itv.com",
+     "image": null,
+     "body": null,
      "day": 1,
      "paywall": false
     },
     {
      "type": "story",
-     "headline": "Reasonable Doubt was renewed for a fifth season",
-     "summary": "Hulu confirmed it on 16 November, days before the season 4 finale airs on 24 November.",
-     "matters": "Hulu is committing to its Emayatzy Corinealdi-led drama before it knows how season 4 ends.",
+     "headline": "Slow Horses is renewed for seasons 9 and 10",
+     "summary": "Apple TV made the announcement on 16 November, less than a month after the season 6 finale on 21 October.",
+     "matters": "season 7 (Bad Actors) is already shot for 2027 and season 8 (Clown Town) is in production for 2028, which uses up Mick Herron's published novels.",
+     "url": "https://www.tvline.com/2317457/slow-horses-renewed-season-9-10-apple-tv/",
+     "source": "tvline.com",
+     "image": null,
+     "body": "Apple TV Add TVLine on Google: Preferred Source Google Discover \"Slow Horses\" isn't going anywhere anytime soon: Apple TV has renewed the Emmy- and BAFTA-winning drama for Seasons 9 and 10 — meaning fans can anticipate at least four more seasons of the Gary Oldman spy thriller.\n\nThe double renewal comes less than a month after the Season 6 finale, which dropped October 21. The first six seasons are currently available to stream, while Season 7, which will adapt Mick Herron's eighth \"Slough House\" novel, \"Bad Actors,\" and Season 8, based on the ninth novel, \"Clown Town,\" had already been ordered.\n\n\"Slow Horses,\" which first aired in 2022, is described as \"a darkly humorous espionage drama that follows a dysfunctional team of British intelligence agents who serve in a dumping ground department of MI5 known un-affectionately as Slough House. Oldman stars as Jackson Lamb, the brilliant but cantankerous leader of the spies, who end up in Slough House due to their career-ending mistakes and who frequently find themselves blundering around the smoke and mirrors of the espionage world.\"\n\nSeasons 1 and 2, which adapted \"Slow Horses\" and \"Dead Lions,\" premiered in April and December of that year. Those were followed by an annual fall release cadence, with Seasons 3 through 6 (which adapted \"Real Tigers,\" \"Spook Street,\" \"London Rules\" and, in Season 6, both \"Joe Country\" and \"Slough House\") released between 2023 and 2026.\n\nSeason 7 is already in the can, and expected in 2027, while Season 8 is currently in production for an anticipated 2028 release.\n\nThe early renewal for Seasons 9 and 10 arrives just one day after series star Olivia Cooke suggested that Season 8 would mark the end of the road for the acclaimed series. But the double renewal does raise an interesting question: With the show set to exhaust all nine of Herron's currently published novels by the end of Season 8, what stories will Seasons 9 and 10 tell? Apple has not yet specified.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "3 Body Problem season 2 gets a 14 January 2027 date and a teaser",
+     "summary": "all six episodes land at once on Netflix, with a 1 minute 40 second teaser and eight first-look stills released on 17 November.",
+     "matters": "the San-Ti offer peace through an emissary in the footage, season 2 has wrapped filming and season 3 has been in production since June.",
+     "url": "https://www.whats-on-netflix.com/news/3-body-problem-season-2-teaser-trailer-first-look-images/",
+     "source": "whats-on-netflix.com",
+     "image": "https://www.whats-on-netflix.com/wp-content/uploads/2026/11/3-body-problem-season-2-teaser-trailer-drops.jpg",
+     "body": "Netflix has dropped the first teaser and eight new images for 3 Body Problem Season 2, and book readers have already spotted a major clue.\n\nNetflix has released the first teaser trailer and a batch of first-look images for 3 Body Problem Season 2, giving us our best look yet at the next chapter of the sci-fi epic ahead of its return on January 14, 2027. Here’s everything we learned.\n\nJust a day after Netflix finally confirmed the release date as part of its book adaptation lineup at the Texas Book Festival, the streamer has followed up with a teaser running 1 minute and 40 seconds, plus eight new stills that take us from underground bunkers to deep space.\n\nThe teaser opens with the San-Ti breaking their silence. “We haven’t spoken with you for a long time, but we’ve been watching,” a voice tells humanity, before warning that war “will be devastating for both our peoples” and revealing that an emissary has been sent in the hope of ending the conflict.\n\nIt’s all set to a special edition of James Blake’s “Like the End,” which feels like a rather fitting choice given what’s heading Earth’s way.\n\nThe new images suggest Season 2 is a far bigger show than the first. Among the highlights is a spacesuit-clad crew bathed in red light and seen through a porthole, a pair of officers in Earth Defence Force uniforms shielding their eyes behind dark glasses, and a vast base where a rover waits beneath what looks to be a launch tower.\n\nWe also get a callback to one of the first season’s most memorable moments, with four figures on a balcony staring up at the words “WE ARE HERE” lit across the night sky which is coming in the final episode of next season.\n\nMost intriguing of all are the shots that look like they belong to a different era entirely. One shows a giant holographic face looming over a domed council chamber, another a character pulling on a mirrored visor, and a third places two of our leads in a sleek, sunlit cabin unlike anything we saw in Season 1. Netflix’s synopsis teases a mission that “spans centuries,” and readers of Cixin Liu’s The Dark Forest will know the story doesn’t stay in the present day for long. That said, Netflix isn’t confirming a time jump just yet.\n\nThat’s not the only clue fans have picked up on. On the teaser poster released yesterday, eagle-eyed viewers noticed that the view of Earth is centred squarely on Australia. Book readers will know that’s unlikely to be a coincidence, as the continent plays a major role later in Cixin Liu’s trilogy. We won’t spoil exactly why here, but it suggests the series may be heading toward one of the…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Hulu renewed Reasonable Doubt, Netflix renewed Virgin River, and HBO renewed Youth this month",
+     "summary": "TV Guide's tracker lists no cancellations yet, and the page has no entries dated 17–19 November.",
+     "matters": "Virgin River's ninth season was confirmed on 13 November, ahead of season 8 in 2027.",
      "url": "https://www.tvguide.com/news/canceled-renewed-tv-shows-november-2026/",
      "source": "tvguide.com",
      "image": "https://www.tvguide.com/a/img/resize/99d8292cb8907883c14e8b6bd53ec425e6fcf367/hub/2026/11/06/693277aa-ec76-44fd-91ea-dc3f1b317c71/261106-nobodywantsthis.jpg",
@@ -614,37 +626,13 @@
     },
     {
      "type": "story",
-     "headline": "David Fincher's The Further Mis-Adventures of Cliff Booth gets an IMAX run first",
-     "summary": "it opens in IMAX on 25 November for two weeks and reaches Netflix on 23 December, with Brad Pitt returning in the new trailer.",
-     "matters": "Netflix is giving its biggest awards-season film a theatrical window one week from today.",
-     "url": "https://deadline.com/2026/11/the-further-mis-adventures-of-cliff-booth-trailer-brad-pitt-1237109166/",
-     "source": "deadline.com",
+     "headline": "Worth watching this week: Guarding Stars is on Netflix from 18 November",
+     "summary": "Leighton Meester plays a bodyguard who poses as Jared Padalecki's girlfriend on a trip to his Montana family, adapted from Katherine Center's novel The Bodyguard.",
+     "matters": "it is a new, light romantic comedy with a stalker thriller thread, and I found no critic reviews yet, so treat it as a pick on premise and cast.",
+     "url": "https://www.brit.co/guarding-stars-netflix-the-bodyguard/",
+     "source": "brit.co",
      "image": null,
      "body": null,
-     "day": 1,
-     "paywall": false
-    },
-    {
-     "type": "story",
-     "headline": "Paramount released a new trailer for Children of Blood and Bone",
-     "summary": "Chiwetel Ejiofor's King Saran confronts Thuso Mbedu's Zélie Adebola in the footage.",
-     "matters": "the adaptation of the fantasy novel is now being sold on its central conflict.",
-     "url": "https://deadline.com/2026/11/the-liberation-trailer-carrie-coon-guy-nattiv-1237211620/",
-     "source": "deadline.com",
-     "image": null,
-     "body": null,
-     "day": 1,
-     "paywall": false
-    },
-    {
-     "type": "story",
-     "headline": "Worth watching this week: Blade Runner 2099 arrives on Prime Video on 25 November",
-     "summary": "the limited series stars Michelle Yeoh and Hunter Schafer, set 50 years after Blade Runner 2049, and TV Guide calls it the flashiest title in the streamer's November lineup.",
-     "matters": "the one big franchise swing of the week, and a full week before the Gotham Awards on 30 November.",
-     "url": "https://www.tvguide.com/news/ultimate-guide-what-to-watch-netflix-hulu-prime-video-hbo-max-more-november-2026/",
-     "source": "tvguide.com",
-     "image": "https://www.tvguide.com/a/img/resize/b05bdeb7f50bc74983cf2fec705f7b6e2fcf7ba8/hub/2025/11/13/3232b655-abe4-4b83-a6c8-d7ba4f3eba7d/reggie.jpg",
-     "body": "TV Guide Editors Oct. 27, 2026 at 10:09 a.m. PT It's been scientifically proven that there is no better time of year than this one to get cozy in front of the TV and watch a really good show. Luckily, November has plenty of options for you, including returning favorites like Julian Fellowes' fizzy period drama The Gilded Age, last season's best new network comedy The Fall and Rise of Reggie Dinkins, and the fantasy series The Lord of the Rings: The Rings of Power. New shows this month include the Rose Byrne-Meghann Fahy limited series The Good Daughter; the Amy Poehler comedy Dig; and the latest addition to the Blade Runner franchise, Blade Runner 2099. There's a little something for everyone.\n\nOur guide to the best TV and streaming movies in November is divided into three sections: the best shows to watch this month, the best shows to watch by streaming service, and a calendar of TV highlights. Whatever you're looking for, you'll find it below.\n\nChristmas is coming early to Netflix this year, and I'm not just talking about the blizzard of holiday movies hitting the streamer in November (there's a movie coming called Rodeo Christmas Romance, which is basically a Hallmark Christmas movie word cloud come to life). The month sees several interesting releases heading your way from all types of genres, from an awkward fraudster romance limited series to a supernatural thriller about a Catholic high school dance team to a bisexual Texas women crime story (that's The Altruists, the new series The Body, and The Hunting Wives Season 2, in that order). Also coming are new seasons of the charming Inuit comedy North of North and the spy thriller Black Doves, as well as the Netflix original film The Mosquito Bowl, which stars Nicholas Galitzine, Bill Skarsgård, and Ray Nicholson as college football stars who enlist in the Marines during World War II. And for those who missed it in theaters or on Peacock, Curry Barker 's box office hit Obsession comes to Netflix on Nov. 17. Here's our list of the best shows and movies on Netflix in November, plus everything coming to and leaving Netflix in November.\n\nOne of the crown jewels in the acquisition of Warner Bros. Discovery by Skydance is undoubtedly HBO, but since the merger was completed in early October, HBO has been pretty quiet. Last month's trickle of interesting new releases continues in November, with the month's big new debut being Season 4 of Julian Fellowes' period drama The Gilded Age. But it should be a good one, with plenty of lingering threads to tie up following a tremendous Season 3 finale. Also coming in…",
      "day": 1,
      "paywall": false
     }
@@ -656,58 +644,58 @@
    "items": [
     {
      "type": "story",
-     "headline": "Commission preliminarily finds Temu in breach of the DSA over illegal product sales (new findings, 17 November)",
-     "summary": "it cites weak product-compliance checks, weak content moderation and an ineffective sanction system. This follows the €200m fine in May and the action plan accepted on 26 October.",
-     "matters": "if you run a marketplace or take third-party listings, the Commission is now testing your moderation and sanction systems, not only your risk assessment.",
-     "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-temu-breach-digital-services-act-failure-tackle-sale-illegal",
-     "source": "digital-strategy.ec.europa.eu",
+     "headline": "Italy's data protection authority fines Meta €805m over access to Facebook users' photo galleries (18 November)",
+     "summary": "it is the largest fine on the EDPB's current list of national enforcement.",
+     "matters": "if your app reads a user's photo library or camera roll, expect regulators to scrutinise what the user was told and what they consented to.",
+     "url": "https://www.edpb.europa.eu/news/news_en",
+     "source": "edpb.europa.eu",
      "image": null,
-     "body": "The European Commission preliminarily found Temu in breach of the Digital Services Act (DSA) obligation to put in place reasonable, proportionate and effective measures to mitigate the risk of illegal products being offered on its platform.\n\nThe Commission preliminarily found that Temu's mitigation measures include ineffective controls to check the compliance of products; a weak content moderation system; and an ineffective sanction system.\n\nShopping online should not mean risking the purchase of illegal and unsafe products. Under the Digital Services Act, platforms are responsible for protecting users from the risk of illegal content and goods. The preliminary findings against Temu mark another step towards making the online world safer.",
+     "body": "Stay informed about the latest developments in data protection. Read news from the EDPB or national data protection authorities on plenary decisions, GDPR enforcement, cross-border cooperation and the one-stop-shop mechanism.\n\nThe news from national data protection authorities are not official EDPB communications or endorsements and are published strictly for informational purposes. They appear as originally published by the authorities, only available in English. Questions regarding these national news releases should be directed to the relevant data protection authority.",
      "day": 1,
      "paywall": false
     },
     {
      "type": "story",
-     "headline": "Two new AI Act prohibitions apply from 2 December",
-     "summary": "the Digital Omnibus on AI (Regulation 2026/1744) bans systems that generate non-consensual intimate imagery and AI-generated child sexual abuse material. Fines run up to €35m or 7% of turnover, and the Commission's guidelines do not yet cover them.",
-     "matters": "if you ship image, video or audio generation in the EU, you have two weeks to check your safeguards and intended-purpose documentation.",
-     "url": "https://artificialintelligenceact.eu/prohibited-ai-practices-under-the-ai-act/",
-     "source": "artificialintelligenceact.eu",
+     "headline": "EDPB adopts final guidelines on legitimate interest (10 November)",
+     "summary": "cross-site and cross-device tracking is called very unlikely to pass the balancing test, personalised advertising is treated as direct marketing that users can object to at any time, and third-party data that was collected unlawfully cannot be used under legitimate interest.",
+     "matters": "if your product tracks or profiles users, check whether you are relying on legitimate interest when you need consent, and document the assessment before processing starts.",
+     "url": "https://revera.legal/news-and-analytical-materials/edpb-guidelines-on-legitimate-interest-under-the-gdpr/",
+     "source": "revera.legal",
      "image": null,
-     "body": "This page aims to provide an overview of AI systems, and in particular general-purpose AI (GPAI) systems, used for the purpose of therapy or emotional support under the AI Act. It explores the obligations of providers of these AI systems both on the system as well as...",
+     "body": "Legal basis: EDPB Guidelines 1/2024 on processing of personal data based on Article 6(1)(f) GDPR, version 2.0, adopted on 10 November 2026. They come with a flowchart for the legitimate interest assessment (LIA) and a short summary. The Guidelines are not formally binding, but supervisory authorities, including UODO in Poland and the Commissioner for Personal Data Protection in Cyprus, rely on them in their enforcement. Infringements of the rules on the legal basis for processing carry fines of up to €20 million or 4% of worldwide annual turnover (Article 83(5) GDPR).\n\nIn practice, this means three things. Ad tracking, retargeting and lookalike audiences need to be built on consent. Boilerplate wording such as “in our legitimate interests” in privacy policies no longer offers protection. And buying databases without checking where the data came from creates a direct risk: the company will be unable to justify using them.\n\nWant to check whether your processing will stand up to the EDPB’s new approach? Contact REVERA’s experts: we can audit your legal bases for processing, rework your LIAs and privacy policies, and draft contractual safeguards for working with data suppliers.",
      "day": 1,
      "paywall": false
     },
     {
      "type": "story",
-     "headline": "Commission preliminarily finds TikTok's For You feed in breach of the DSA (6 November)",
-     "summary": "the recommender can repeatedly push users, including minors, towards content about sadness, isolation or body image. The findings cover risk assessment and mitigation.",
-     "matters": "recommender design is now being judged as a systemic risk, so ranking and personalisation logic needs a documented risk assessment.",
-     "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes",
-     "source": "digital-strategy.ec.europa.eu",
+     "headline": "EDPB picks automated recruitment decisions for its 2027 coordinated enforcement (11 November)",
+     "summary": "the sixth coordinated action targets automated candidate screening, including AI-driven decisions, and the right to explanation and access. Authorities join voluntarily in the coming weeks and it launches during 2027.",
+     "matters": "if you build screening or ranking tools, a nominal human reviewer may not take a decision outside GDPR Article 22, and you need to be able to explain the logic.",
+     "url": "https://ppc.land/edpb-picks-ai-candidate-screening-as-its-2027-enforcement-target",
+     "source": "ppc.land",
      "image": null,
-     "body": "The European Commission has preliminarily found TikTok in breach of the Digital Services Act (DSA) for the so-called ‘rabbit hole effect’ of its recommender system.\n\nTikTok's ‘For You' feed shows users a continuous stream of personalised videos, even when those are related to mental health struggles and body image.\n\nThe more a user interacts with a certain type of content, the more TikTok's ‘For You' feed algorithm recommends similar content. This design can be harmful when such endless and repeated exposure involves, for example, content about sadness, isolation or body image. These ‘rabbit holes' can have a detrimental impact on users' mental health, especially that of vulnerable adults and minors.",
+     "body": "EDPB picks AI candidate screening as 2027 enforcement target, backs Korea adequacy review Pulse EDPB picks AI candidate screening as its 2027 enforcement target Screening tools that reject job candidates without a human will be tested on Article 22 and access rights. Which DPAs join, and what changes for Korea data?\n\nThe same plenary in Brussels produced two other outputs. The board adopted Statement 2/2026 on the first review of the European Union's adequacy decision for the Republic of Korea, dated November 10, 2026, and it approved the final version of its recommendations on processor binding corporate rules, known as BCR-P, after a public consultation that closed in March. None of the three carries a fine. Each, though, sets out where European regulators intend to look next - at hiring software, at data flowing to Seoul, and at the internal rulebooks multinational service groups use to move data across borders.\n\nEurope's privacy regulators have chosen automated screening of job candidates, AI tools included, as the subject of a joint enforcement action starting in 2027, and at the same meeting they backed the EU's data adequacy finding for South Korea and finalised the rules for processor binding corporate rules. The enforcement action matters to any organisation that lets software decide who moves forward in a hiring process, because regulators will check whether candidates can avoid fully automated rejections and find out how those decisions were made. Transfers of personal data from the EU to Korea can continue under the existing adequacy decision, with reviews moving to a four-year cycle, while groups holding processor BCRs must align them with the final recommendations either during their application or in their 2028 annual update.\n\nThe announcement on the enforcement topic is short and precise. According to the EDPB, the action \"will concern automated decision-making (ADM), including AI-driven ADM, in recruitment.\" The board then narrowed it: \"More specifically, the coordinated action will focus on the enforcement of the right not to be subject to decisions based solely on automated processing and the related right of access, in the context of the use of automated candidate screening tools, including AI-driven ones.\"\n\nThat wording points at two provisions of the GDPR, although the news item itself cites no article numbers. The right not to be subject to a decision based solely on automated processing sits in Article 22, the GDPR's central provision on automated decision-making, and applies when such a decision produces legal effects or…",
      "day": 1,
      "paywall": false
     },
     {
      "type": "story",
-     "headline": "Call for evidence on DSA advertising repository guidelines closes 2 December",
-     "summary": "it covers searchability, targeting insights and accessibility of ad repositories for very large platforms and search engines.",
-     "matters": "if you build ad or transparency tooling for a VLOP, this is your chance to shape the data schema before it is fixed.",
-     "url": "https://digital-strategy.ec.europa.eu/en/consultations/call-evidence-advertising-repositories",
-     "source": "digital-strategy.ec.europa.eu",
+     "headline": "Irish DPC fines Tinder's operator MTCH €11m over users' data requests (17 November)",
+     "summary": "the fine follows an inquiry into how the dating service handled users' requests for their personal data.",
+     "matters": "access requests are an enforced engineering requirement, so export and retrieval flows need to work and meet the deadline.",
+     "url": "https://www.edpb.europa.eu/news/news_en",
+     "source": "edpb.europa.eu",
      "image": null,
-     "body": null,
+     "body": "Stay informed about the latest developments in data protection. Read news from the EDPB or national data protection authorities on plenary decisions, GDPR enforcement, cross-border cooperation and the one-stop-shop mechanism.\n\nThe news from national data protection authorities are not official EDPB communications or endorsements and are published strictly for informational purposes. They appear as originally published by the authorities, only available in English. Questions regarding these national news releases should be directed to the relevant data protection authority.",
      "day": 1,
      "paywall": false
     },
     {
      "type": "story",
-     "headline": "Independent study says age assurance can respect fundamental rights at modest cost (4 November)",
-     "summary": "it points to the EU age verification blueprint as an affordable option, including for SMEs.",
-     "matters": "it is the Commission's own evidence base for expecting age checks in apps and services, with the blueprint as the reference implementation.",
-     "url": "https://digital-strategy.ec.europa.eu/en/library/independent-study-impact-age-assurance-fundamental-rights-and-costs-businesses",
+     "headline": "Commission holds the Apply AI Summit in Brussels (17 November)",
+     "summary": "it marked one year of the Apply AI Strategy, awarded the first Apply AI Startup Awards to three European start-ups, and wrapped up AI Innovation Month. The AI Office is also inviting European AI providers to express interest in presenting solutions to the European Digital Innovation Hubs.",
+     "matters": "if you sell AI tooling in Europe, the AI Office call is a route to the hubs' network of small business customers.",
+     "url": "https://digital-strategy.ec.europa.eu/en/news/commission-hosts-apply-ai-summit-boost-europes-ai-innovation-and-uptake",
      "source": "digital-strategy.ec.europa.eu",
      "image": null,
      "body": null,
@@ -722,23 +710,7 @@
    "items": [
     {
      "type": "fixture",
-     "text": "NBA — Grizzlies at Cavaliers, Rockets at Pacers, Bucks at Heat and 76ers at Magic, all 01:00 (Thursday)"
-    },
-    {
-     "type": "fixture",
-     "text": "NBA — Bulls at Nets and Wizards at Raptors, 01:30 (Thursday)"
-    },
-    {
-     "type": "fixture",
-     "text": "NBA — Warriors at Mavericks, Pistons at Pelicans and Hawks at Thunder, all 02:00 (Thursday)"
-    },
-    {
-     "type": "fixture",
-     "text": "NBA — Celtics at Nuggets, 03:30 (Thursday)"
-    },
-    {
-     "type": "fixture",
-     "text": "NBA — Jazz at Lakers and Suns at Kings, both 04:00 (Thursday)"
+     "text": "NBA — Warriors at Grizzlies, Clippers at Spurs, Knicks at Timberwolves and Trail Blazers at Bucks, all 02:00 (Friday)"
     }
    ]
   },
@@ -749,61 +721,145 @@
     {
      "type": "score",
      "group": null,
-     "home": "Knicks",
-     "away": "Raptors",
-     "home_score": 111,
-     "away_score": 102,
+     "home": "Grizzlies",
+     "away": "Cavaliers",
+     "home_score": 124,
+     "away_score": 121,
      "home_scorers": null,
      "away_scorers": null,
-     "note": "Brunson 31 pts, 5 reb, 5 ast for New York; Ja'Kobe Walter led Toronto with 25 pts.",
+     "note": "Cam Spencer 26 pts, 7 ast for Memphis; Donovan Mitchell had 34 pts for Cleveland.",
      "flag": null
     },
     {
      "type": "score",
      "group": null,
-     "home": "Timberwolves",
-     "away": "Trail Blazers",
-     "home_score": 106,
-     "away_score": 105,
+     "home": "Rockets",
+     "away": "Pacers",
+     "home_score": 119,
+     "away_score": 104,
      "home_scorers": null,
      "away_scorers": null,
-     "note": "Dosunmu 30 pts, 4 reb, 5 ast for the one-point win; Lillard had 25 pts, 3 reb, 5 ast for Portland.",
+     "note": "Kevin Durant 21 pts for Houston; Pascal Siakam had 24 pts for Indiana.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Heat",
+     "away": "Bucks",
+     "home_score": 137,
+     "away_score": 130,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Bam Adebayo 26 pts for Miami; Giannis Antetokounmpo had 27 pts, 14 reb, 9 ast for Milwaukee.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "76ers",
+     "away": "Magic",
+     "home_score": 121,
+     "away_score": 116,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Joel Embiid 26 pts, 7 ast for Philadelphia, which ended Orlando's four-game winning streak; Franz Wagner had 27 pts, 8 reb, 11 ast.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Bulls",
+     "away": "Nets",
+     "home_score": 137,
+     "away_score": 107,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Matas Buzelis 25 pts for Chicago; Josh Giddey had 18 pts, 14 reb, 9 ast, and Egor Demin led Brooklyn with 22 pts.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Wizards",
+     "away": "Raptors",
+     "home_score": 103,
+     "away_score": 99,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Anthony Davis 25 pts, 14 reb for Washington; Immanuel Quickley had 24 pts for Toronto.",
      "flag": null
     },
     {
      "type": "score",
      "group": null,
      "home": "Pistons",
-     "away": "Spurs",
-     "home_score": 105,
-     "away_score": 93,
+     "away": "Pelicans",
+     "home_score": 122,
+     "away_score": 109,
      "home_scorers": null,
      "away_scorers": null,
-     "note": "Cunningham 27 pts, 5 reb, 6 ast; Wembanyama had 25 pts, 18 reb for San Antonio.",
+     "note": "John Collins 20 pts, 7 reb for Detroit; Zion Williamson had 24 pts for New Orleans.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Hawks",
+     "away": "Thunder",
+     "home_score": 117,
+     "away_score": 112,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Onyeka Okongwu 28 pts for Atlanta; Shai Gilgeous-Alexander had 34 pts for Oklahoma City.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Nuggets",
+     "away": "Celtics",
+     "home_score": 105,
+     "away_score": 101,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Nikola Jokic 24 pts, 8 reb, 9 ast for Denver; Jayson Tatum had 24 pts for Boston.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Mavericks",
+     "away": "Warriors",
+     "home_score": 116,
+     "away_score": 94,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Cooper Flagg 33 pts, 9 ast for Dallas; Will Richard led Golden State with 20 pts.",
      "flag": null
     },
     {
      "type": "score",
      "group": null,
      "home": "Jazz",
-     "away": "Clippers",
-     "home_score": 132,
-     "away_score": 107,
+     "away": "Lakers",
+     "home_score": 109,
+     "away_score": 97,
      "home_scorers": null,
      "away_scorers": null,
-     "note": "UPSET: Sensabaugh 40 pts, 11 reb, 5 ast for a Utah side that was 2-13 after the game; Keyonte George added 30 pts, 11 ast.",
+     "note": "UPSET: Keyonte George 30 pts, 10 ast for Utah, which came in with only a handful of wins; Luka Doncic had 29 pts, 7 ast for the Lakers.",
      "flag": "UPSET"
     },
     {
      "type": "score",
      "group": null,
-     "home": "Hornets",
-     "away": "Lakers",
-     "home_score": 107,
-     "away_score": 104,
+     "home": "Suns",
+     "away": "Kings",
+     "home_score": 128,
+     "away_score": 107,
      "home_scorers": null,
      "away_scorers": null,
-     "note": "not final when last checked, 4th quarter with 1:08 left: Brandon Miller 28 pts, 1 reb, 4 ast for Charlotte; Grimes 40 pts, 6 reb for the Lakers.",
+     "note": "Dillon Brooks 29 pts for Phoenix; Darius Acuff Jr. had 36 pts for Sacramento.",
      "flag": null
     }
    ]
@@ -814,384 +870,7 @@
    "items": [
     {
      "type": "note",
-     "text": "No league football: the Premier League, La Liga, Serie A, Bundesliga, Ligue 1 and Ekstraklasa are all on the international break. The Nations League league phase finished last night."
-    },
-    {
-     "type": "score",
-     "group": "Nations League",
-     "home": "Poland",
-     "away": "Sweden",
-     "home_score": 1,
-     "away_score": 1,
-     "home_scorers": [
-      "Benedyczak 16'"
-     ],
-     "away_scorers": [
-      "Larsson 24'"
-     ],
-     "note": null,
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Nations League",
-     "home": "Denmark",
-     "away": "Norway",
-     "home_score": 2,
-     "away_score": 3,
-     "home_scorers": [
-      "Højlund 11'",
-      "Højbjerg 14'"
-     ],
-     "away_scorers": [
-      "Haaland 37'",
-      "Ødegaard 83'",
-      "Haaland 90'+6' (pen)"
-     ],
-     "note": "Haaland's stoppage-time penalty won it.",
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Nations League",
-     "home": "Wales",
-     "away": "Portugal",
-     "home_score": 2,
-     "away_score": 3,
-     "home_scorers": [
-      "Brooks 13'",
-      "Thomas 40'"
-     ],
-     "away_scorers": [
-      "Fernandes 11'",
-      "Neto 43'",
-      "Forbs 70'"
-     ],
-     "note": null,
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Nations League",
-     "home": "Bosnia-Herzegovina",
-     "away": "Romania",
-     "home_score": 2,
-     "away_score": 1,
-     "home_scorers": [
-      "Tahirovic 44'",
-      "Bajraktarevic 82'"
-     ],
-     "away_scorers": [
-      "Birligea 6'"
-     ],
-     "note": null,
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Nations League",
-     "home": "Republic of Ireland",
-     "away": "Kosovo",
-     "home_score": 3,
-     "away_score": 0,
-     "home_scorers": [
-      "Parrott 28' (pen)",
-      "Parrott 50' (pen)",
-      "Moylan 75'"
-     ],
-     "away_scorers": null,
-     "note": "Parrott scored two penalties.",
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Nations League",
-     "home": "Hungary",
-     "away": "Northern Ireland",
-     "home_score": 1,
-     "away_score": 1,
-     "home_scorers": [
-      "Varga 35'"
-     ],
-     "away_scorers": [
-      "Devenny 65'"
-     ],
-     "note": null,
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Nations League",
-     "home": "Israel",
-     "away": "Austria",
-     "home_score": 1,
-     "away_score": 1,
-     "home_scorers": [
-      "Peretz 36'"
-     ],
-     "away_scorers": [
-      "Kalajdzic 62'"
-     ],
-     "note": null,
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Nations League",
-     "home": "Ukraine",
-     "away": "Georgia",
-     "home_score": 1,
-     "away_score": 0,
-     "home_scorers": [
-      "Sikan 1'"
-     ],
-     "away_scorers": null,
-     "note": "Sikan scored in the first minute.",
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Friendlies",
-     "home": "Singapore",
-     "away": "Brazil",
-     "home_score": 0,
-     "away_score": 7,
-     "home_scorers": null,
-     "away_scorers": [
-      "Vinícius Júnior 9'",
-      "Vinícius Júnior 15'",
-      "Vinícius Júnior 21'",
-      "Endrick 31'",
-      "Estêvão 51'",
-      "Rayan 65'",
-      "Bin Suhaimi 74' (og)"
-     ],
-     "note": "Vinícius scored a hat-trick inside 21 minutes.",
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Friendlies",
-     "home": "Argentina",
-     "away": "Costa Rica",
-     "home_score": 7,
-     "away_score": 0,
-     "home_scorers": [
-      "Paz 8'",
-      "Álvarez 35'",
-      "Paz 38'",
-      "Álvarez 43'",
-      "Mastantuono 48'",
-      "Mac Allister 78'",
-      "Mastantuono 88'"
-     ],
-     "away_scorers": null,
-     "note": "Paz, Álvarez and Mastantuono each scored twice.",
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Friendlies",
-     "home": "Uruguay",
-     "away": "Dominican Republic",
-     "home_score": 5,
-     "away_score": 0,
-     "home_scorers": [
-      "Aguirre 41'",
-      "Valdez 70' (og)",
-      "de la Cruz 80' (pen)",
-      "Valverde 87'",
-      "Damiani 90'+4'"
-     ],
-     "away_scorers": null,
-     "note": null,
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Friendlies",
-     "home": "Japan",
-     "away": "Paraguay",
-     "home_score": 1,
-     "away_score": 2,
-     "home_scorers": [
-      "Fukuda 85'"
-     ],
-     "away_scorers": [
-      "Cáceres 2'",
-      "Gómez 40'"
-     ],
-     "note": "Paraguay won away from home.",
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Friendlies",
-     "home": "Jordan",
-     "away": "Australia",
-     "home_score": 2,
-     "away_score": 0,
-     "home_scorers": [
-      "Al-Tamari 34'",
-      "Olwan 90'+3'"
-     ],
-     "away_scorers": null,
-     "note": null,
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Friendlies",
-     "home": "China",
-     "away": "Bahrain",
-     "home_score": 2,
-     "away_score": 2,
-     "home_scorers": [
-      "Abduweli 37'",
-      "Zhang Yuning 80' (pen)"
-     ],
-     "away_scorers": [
-      "Abdul Qayoom 2'",
-      "Bughammar 20'"
-     ],
-     "note": null,
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Friendlies",
-     "home": "United Arab Emirates",
-     "away": "Syria",
-     "home_score": 4,
-     "away_score": 2,
-     "home_scorers": [
-      "Ivkovic 36'",
-      "Abdalla 48'",
-      "Gimenez 67'",
-      "Camara 68'"
-     ],
-     "away_scorers": [
-      "Moustfa 44'",
-      "Al Mustafa 90'+2'"
-     ],
-     "note": null,
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Friendlies",
-     "home": "Saudi Arabia",
-     "away": "Uzbekistan",
-     "home_score": 1,
-     "away_score": 2,
-     "home_scorers": [
-      "Al-Brikan 23'"
-     ],
-     "away_scorers": [
-      "Esanov 19'",
-      "Esanov 35'"
-     ],
-     "note": "Esanov scored both Uzbekistan goals.",
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Friendlies",
-     "home": "Russia",
-     "away": "Venezuela",
-     "home_score": 2,
-     "away_score": 0,
-     "home_scorers": [
-      "Miranchuk 59'",
-      "Miranchuk 75'"
-     ],
-     "away_scorers": null,
-     "note": null,
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Friendlies",
-     "home": "Iraq",
-     "away": "Iran",
-     "home_score": 1,
-     "away_score": 1,
-     "home_scorers": [
-      "Al-Saedi 1'"
-     ],
-     "away_scorers": [
-      "Hazbavi 83'"
-     ],
-     "note": null,
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Friendlies",
-     "home": "Kuwait",
-     "away": "Honduras",
-     "home_score": 0,
-     "away_score": 2,
-     "home_scorers": null,
-     "away_scorers": [
-      "Rosales 21'",
-      "Moncada 37'"
-     ],
-     "note": null,
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Friendlies",
-     "home": "Qatar",
-     "away": "South Korea",
-     "home_score": 0,
-     "away_score": 1,
-     "home_scorers": null,
-     "away_scorers": [
-      "Oh Se-Hun 43'"
-     ],
-     "note": null,
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Friendlies",
-     "home": "Ecuador",
-     "away": "Bolivia",
-     "home_score": 2,
-     "away_score": 0,
-     "home_scorers": [
-      "Mercado 20'",
-      "Caicedo 45'+4'"
-     ],
-     "away_scorers": null,
-     "note": null,
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Friendlies",
-     "home": "Lebanon",
-     "away": "Palestine",
-     "home_score": 0,
-     "away_score": 0,
-     "home_scorers": null,
-     "away_scorers": null,
-     "note": null,
-     "flag": null
-    },
-    {
-     "type": "score",
-     "group": "Friendlies",
-     "home": "Chile",
-     "away": "Colombia",
-     "home_score": 0,
-     "away_score": 0,
-     "home_scorers": null,
-     "away_scorers": null,
-     "note": null,
-     "flag": null
+     "text": "Nothing qualified: no Premier League, La Liga, Serie A, Bundesliga, Ligue 1 or Ekstraklasa match was played in the last 24 hours, and I found no verifiable national-team result with scorers. The Nations League league phase ended on 17 November, and the knockout and play-off draw is on Friday 20 November in Nyon."
     }
    ]
   },
@@ -1201,11 +880,11 @@
    "items": [
     {
      "type": "story",
-     "headline": "The Guardian on how Grand Theft Auto became a cultural colossus",
-     "summary": "Christian Donlan, about 2,400 words, argues the series' pull lies in the density of its detail, from worn drywall in a drug den to haptics that mimic turbulence, ahead of GTA VI, 13 years after the last mainline entry.",
+     "headline": "LIFE Magazine on Alysa Liu, the Olympic figure skating champion who quit at 16 and came back on her own terms",
+     "summary": "Bonnie Tsui's profile runs about 3,000 words and follows how Liu rebuilt her career around autonomy, joy and friendships, and why she is skipping a year of competition.",
      "matters": null,
-     "url": "https://www.theguardian.com/games/2026/nov/09/grand-theft-auto-creators-gta",
-     "source": "theguardian.com",
+     "url": "https://new.life.com/stories-details/alysa-liu-cover-story",
+     "source": "new.life.com",
      "image": null,
      "body": null,
      "day": 1,
