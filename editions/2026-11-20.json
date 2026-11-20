@@ -1,0 +1,836 @@
+{
+ "schema": 1,
+ "generated": "2026-11-20T07:32:40",
+ "date": "2026-11-20",
+ "greeting": "Good morning — Friday, 20 November 2026.",
+ "title": "The ICJ ruled 9–6 that Myanmar's 2017 campaign against the Rohingya was genocide, the first time it has held a state responsible for the crime",
+ "workout": "💪 Today is a workout day: Friday — Row C: Rate Ladder — 5 x 5 min at rates 20-26. ~60 min, reminder at 17:00. Nothing logged in Hevy yet.",
+ "audio": null,
+ "read_minutes": 20,
+ "sections": [
+  {
+   "name": "🎯 TL;DR",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "The ICJ ruled 9–6 that Myanmar's 2017 campaign against the Rohingya was genocide, the first time it has held a state responsible for the crime",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Wall Street sold off and the Nasdaq entered a correction, losing 2.25% as the Dow closed below 50,000 for the first time in over six months",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Talks on the Constitutional Tribunal at the President's Chancellery were suspended in an impasse, after participants agreed the current TK must be closed but not on how to remove its judges",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🔄 What changed",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "The Shenzhen summit ended with a \"peace declaration\" that omits Ukraine and Iran, and Trump questioned Europe's Ukraine spending in a surprise call to the Berlin meeting while Kushner floated NATO-style guarantees",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Anthropic's ANT debuted at about a $2tn valuation, shares up 34% on the $83 IPO price, yet the AI trade did not recover and the Nasdaq fell into a correction",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The TK talks went from \"one joint project, about 70% agreement\" to suspended, and KGHM rebounded 3.04% after yesterday's drop while PZU led the WIG20 fall",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🔁 Following",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Anthropic IPO: opened at $111.50, 34% above the $83 price, with no closing price yet",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Ukraine talks: the Shenzhen declaration omitted Ukraine, and Kushner claims Russia is \"comfortable\" with Article 5-style guarantees, unconfirmed by Moscow",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Iran war: the Houthis hit Riyadh's financial centre for a second night and the IEA called it the largest energy-security threat in history",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🌍 World",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Myanmar found guilty of genocide against the Rohingya",
+     "summary": "the ICJ ruled 9–6 that Myanmar's 2017 campaign in northern Rakhine State was genocide, the first time in its 80-year history that it has held a state responsible for the crime. The court ordered compensation, safe return for those who fled and prosecution of those responsible.",
+     "matters": "the ruling is binding and cannot be appealed, but the court cannot enforce it, and legal experts are watching it for signs of how South Africa's case against Israel might go.",
+     "url": "https://www.euronews.com/2026/11/19/myanmar-guilty-of-genocide-against-rohingya-un-court-rules",
+     "source": "euronews.com",
+     "image": "https://images.euronews.com/articles/stories/10/00/09/74/189x106_cmsv2_de441e6e-b389-5fd4-8662-5c78ef6dcd18-10000974.jpg",
+     "body": null,
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Trump, Xi and Putin end their Shenzhen summit with a \"peace declaration\" that omits Ukraine and Iran",
+     "summary": "the written declaration commits the three to cooperate on UN reform, petroleum supply and talks on lowering nuclear risks, and opposes the ICC overreaching. Putin called it a \"new chapter in the history of diplomacy\", while French Foreign Minister Barrot said the three \"fundamentally disagree on everything\".",
+     "matters": "there was no breakthrough on either war, and observers fear decisions about Ukraine being made over Kyiv's and Europe's heads.",
+     "url": "https://www.euronews.com/2026/11/19/us-and-china-want-to-help-end-ukraine-war-trump-says-ahead-of-trilateral-with-russia",
+     "source": "euronews.com",
+     "image": "https://images.euronews.com/articles/stories/10/00/09/74/189x106_cmsv2_de441e6e-b389-5fd4-8662-5c78ef6dcd18-10000974.jpg",
+     "body": null,
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Trump questions Europe's Ukraine spending in a surprise call, and Kushner floats NATO-style guarantees",
+     "summary": "Trump phoned into the Berlin Coalition of the Willing meeting from Air Force One and asked why Europeans keep spending billions on Kyiv. On Friday Kushner said Trump is willing to offer Ukraine guarantees modelled on NATO's Article 5, and claimed Russia is \"comfortable\" with the idea.",
+     "matters": "the Berlin leaders already face a €25bn funding gap, and the guarantee claim rests on Kushner's word with no Russian confirmation.",
+     "url": "https://www.euronews.com/2026/11/19/trump-questions-europes-billions-in-ukraine-aid-during-surprise-call",
+     "source": "euronews.com",
+     "image": "https://images.euronews.com/articles/stories/10/00/09/74/189x106_cmsv2_de441e6e-b389-5fd4-8662-5c78ef6dcd18-10000974.jpg",
+     "body": null,
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Russian strikes damage the Austrian and Dutch embassies in Kyiv",
+     "summary": "Ukraine says Russia fired anti-ship missiles and 98 drones across the country on Thursday, hitting 18 locations, and an explosion left a crater at the Austrian embassy while a projectile hit the Dutch one. No diplomatic staff were hurt.",
+     "matters": "it is an attack on EU member states' diplomatic premises, and it comes two days after Destinus said Ukraine used its Dutch-made weapons against the Crimean Bridge, though the report says no evidence links the two.",
+     "url": "https://www.euronews.com/video/2026/11/20/ukraine-russian-strikes-damage-austrian-and-dutch-embassies-in-kyiv",
+     "source": "euronews.com",
+     "image": "https://images.euronews.com/articles/stories/10/00/09/74/189x106_cmsv2_de441e6e-b389-5fd4-8662-5c78ef6dcd18-10000974.jpg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Houthis escalate on Riyadh as the IEA calls the Iran war the largest energy-security threat in history",
+     "summary": "Houthi missile fire hit Riyadh's financial centre for a second night while the Saudi-led coalition intercepted others, and the Houthi health ministry says strikes on Sanaa killed 10 people over two days. The IEA says Hormuz disruption has no credible path back to the pre-crisis energy system, and that its buffers are running out.",
+     "matters": "the Houthi front is spreading the war to Saudi Arabia, and the IEA says the longer the crisis lasts the deeper the damage to energy supply.",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital",
+     "source": "aljazeera.com",
+     "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6affd42979ca-1795150889.jpg?resize=1920%2C1440",
+     "body": null,
+     "day": 2,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🇵🇱 Polska",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Rozmowy o Trybunale Konstytucyjnym w Kancelarii Prezydenta zawieszone",
+     "summary": "Zbigniew Bogucki ogłosił impas po trzecim spotkaniu: uczestnicy zgadzają się, że obecny TK trzeba zamknąć, ale nie co do sposobu usunięcia sędziów, także tych wybranych przez Sejm, którzy nie złożyli ślubowania.",
+     "matters": "dzień wcześniej mówił o jednym wspólnym projekcie i zgodzie w około 70%, a KO i Lewica w rozmowach w ogóle nie uczestniczą, więc zmiana konstytucji (głosy 2/3 Sejmu) jest odległa.",
+     "url": "https://www.bankier.pl/wiadomosc/Impas-w-rozmowach-o-Trybunale-Konstytucyjnym-Negocjacje-zawieszone-9232110.html",
+     "source": "bankier.pl",
+     "image": "https://galeria.bankier.pl/p/9/b/f328b4e8413989-948-568-0-52-3000-1799.jpg",
+     "body": "Skomentuj Nastąpił pewien impas w kwestii nie tego czy, ale w jaki sposób wygasić funkcjonowanie Trybunału Konstytucyjnego w obecnym kształcie - powiedział szef KPRP Zbigniew Bogucki po czwartkowych rozmowach ws. TK. Rozmowy na tę chwilę ulegają zawieszeniu - dodał.\n\nfot. AA/ABACA / / Abaca Press W czwartek w KPRP odbyło się trzecie już spotkanie Boguckiego z przedstawicielami klubów i kół parlamentarnych ws. sytuacji w Trybunale Konstytucyjnym. Jak zapewnił szef KPRP, wzięli w nim udział przedstawiciele wszystkich ugrupowań obecnych na wcześniejszych spotkaniach, a więc przedstawiciele PiS, Rozwoju Plus, PSL, Konfederacji, Polski 2050, Razem, Konfederacji Korony Polskiej oraz Demokracji Bezpośredniej. W rozmowach nie uczestniczą przedstawiciele KO i Lewicy.\n\nPo środowym spotkaniu Bogucki informował, że powstał jeden projekt ws. Trybunału Konstytucyjnego, łączący pomysły w tej sprawie zgłoszone przez środowiska polityczne, oraz że wszystkie środowisko były ze sobą zgodne w „około 70 proc”.\n\nBogucki powiedział, że czwartkowe spotkanie było „bardzo trudne”. - Nie będę ukrywał, że nastąpił pewien impas w rozmowach - powiedział szef KPRP.\n\nDotyczy on - dodał - „nie tego czy, ale w jaki sposób doprowadzić do wygaszenia funkcjonowania” TK w obecnym kształcie. Czyli - jak mówił - jak wygasić funkcjonowanie „sędziów TK i także tych wybranych przez Sejm na funkcje” sędziów, którzy nie „złożyli ślubowania”.\n\nBogucki dodał, że co do zasady wszyscy zgadzają się, że ten proces „zamknięcia” TK w obecnym kształcie musi nastąpić, ale tego, w jaki sposób, nie udało się rozstrzygnąć.\n\nSzef KPRP poinformował, że środowiska, które uczestniczyły w rozmowach, zobowiązały się, że w przyszłym tygodniu prześlą swe propozycje w tej kwestii, a prezydencka kancelaria będzie „hubem” wymiany tych informacji.\n\nDodał, że podjęcie dalszych rozmów będzie miało sens wówczas, gdy stronnictwa parlamentarne dojdą do porozumienia w kwestii tego, w jaki sposób zamknąć funkcjonowanie TK w obecnym kształcie.\n\nBogucki zadeklarował w imieniu prezydenta Karola Nawrockiego, że jeśli środowiska, które były przy stole rozmów, dojdą do porozumienia, zostanie ono zaakceptowane.\n\n- Rozmowy na tę chwilę ulegają zawieszeniu - oznajmił, dodając, że „co będzie dalej, to jest w rękach stronnictw politycznych”.\n\nNa początku listopada PSL przedstawiło projekt zmiany konstytucji, tzw. reset konstytucyjny, zakładający wygaszenie kadencji obecnych sędziów TK, wniosek z kandydatami na sędziów składany za zgodą prezydenta, a następnie jednorazowe wyłonienie nowego 15-osobowego składu TK większością 3/5 głosów przez…",
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Wojsko sprawdza dwa możliwe naruszenia polskiej przestrzeni powietrznej, RCB wydało alert dla Lubelszczyzny i Podkarpacia",
+     "summary": "Dowództwo Operacyjne poinformowało po godz. 7:00, że weryfikuje zapisy radarów, a słuchacze zgłaszali błysk i huk w okolicach Oleszyc w powiecie lubaczowskim.",
+     "matters": "to skutek nocnego, masowego rosyjskiego ataku na Ukrainę, przy którym poderwano polskie i sojusznicze samoloty, a obrona powietrzna miała podniesioną gotowość.",
+     "url": "https://www.rmf24.pl/regiony/news-podejrzenie-naruszenia-przestrzeni-powietrznej-rp-przez-obie,nIdn,1026906",
+     "source": "rmf24.pl",
+     "image": "https://rmf.rmffm.pl/news/attachments/fa/64/wkrotce-wiecej-inform-966x643-fa64bc47.jpg",
+     "body": "„Uwaga. W związku z podejrzeniem naruszenia przestrzeni powietrznej Rzeczypospolitej Polskiej przez niezidentyfikowane obiekty powietrzne do Rządowego Centrum Bezpieczeństwa zostały przekazane informacje o zagrożeniu z powietrza. Trwa weryfikacja (...)” - podało tuż po godz. 7 Dowództwo Operacyjne Rodzajów Sił Zbrojnych. Ppłk Jacek Goryszewski, rzecznik DORSZ, przekazał RMF FM, że sprawdzane są dwa przypadki. W okolice Rudnika nad Sanem w powiecie niżańskim na Podkarpaciu wysłano między innymi strażaków.\n\n/ RMF FM Ppłk Goryszewski dla RFM FM: Sprawdzamy dwa przypadki Sprawdzamy dwa przypadki możliwego przekroczenia naszej przestrzeni i działamy w celu weryfikacji (...). Dzisiaj w nocy obserwowaliśmy zmasowany atak Federacji Rosyjskiej na terytorium Ukrainy. W naszej przestrzeni operowały nasze i sojusznicze statki powietrzne. Nasze systemy były w gotowości całą noc. Teraz sprawdzamy prawdopodobne naruszenie naszej przestrzeni powietrznej - powiedział reporterowi RMF FM Krzysztofowi Zasadzie ppłk Jacek Goryszewski, rzecznik DORSZ.\n\nO poranku o prawdopodobnych incydentach informowali nas słuchacze, dzwoniąc na Gorącą Linię RMF FM. Zgłoszenie dostaliśmy m.in. z okolic Oleszyc w powiecie lubaczowskim na Podkarpaciu. Widać było łunę na niebie, rozległ się potężny huk, uderzenie i zatrzęsły się domy – powiedział nam słuchacz.\n\nSprawdzane są dane z systemów radiolokacjnych. Poszukiwania obiektu trwają na Podkarpaciu - dowiedział się reporter RMF FM Dominik Smaga. W okolice Rudnika nad Sanem w powiecie niżańskim, na północy województwa, wysłano między innymi strażaków. Szukają oni obiektu, który miał spaść na ziemię, służby dostały dużo sygnałów mogących wskazywać na taki upadek. Huk był słyszany również w Biłgoraju, to jakieś 25 km w linii prostej od Rudnika.\n\nWydano pilny alert Rządowego Centrum Bezpieczeństwa w związku z rosyjskim atakiem powietrznym na Ukrainę. „UWAGA! UWAGA! UWAGA! Zagrożenie atakiem z powietrza. Znajdź bezpieczne miejsce. Stosuj się do poleceń służb. Oczekuj dalszych komunikatów” - wiadomość o takiej treści trafiła do mieszkańców Lubelszczyzny i Podkarpacia. Komunikat wydało też Dowództwo Operacyjne Rodzajów Sił Zbrojnych.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Trump o wpisie Tuska: „nic z tym nie mogę zrobić\"",
+     "summary": "po tym, jak Tusk odpowiedział na nazwanie Putina „przyjacielem\" słowami „Boże, chroń nas przed takimi przyjaciółmi\", Trump powiedział w rozmowie z Fox News, że w Polsce wylądowały rosyjskie drony i „kilka małych rakiet\", ale to była pomyłka.",
+     "matters": "wypowiedź bagatelizuje incydenty na terytorium Polski, a słowa o „przyjacielu\" krytykowali politycy obu partii w Kongresie.",
+     "url": "https://www.rmf24.pl/fakty/swiat/news-trump-odniosl-sie-do-wpisu-tuska-mowil-tez-o-malych-rakietac,nIdn,1026894",
+     "source": "rmf24.pl",
+     "image": "https://rmf.rmffm.pl/news/attachments/54/76/donald-trump-fot-966x643-54762ac4.jpg",
+     "body": "Donald Trump zbył krytykę premiera Donalda Tuska dotyczącą nazwania Władimira Putina „swoim przyjacielem”. W rozmowie z Fox News prezydent USA stwierdził jednocześnie, że rosyjskie drony i „kilka małych rakiet” miały trafić do Polski „przez pomyłkę”.\n\nDonald Trump (fot. IMAGO/Sergey Bobylev/Imago Stock and People) / East News Krótką rozmowę telefoniczną z Donaldem Trumpem w trakcie jego powrotu ze szczytu Wspólnoty Gospodarczej Azji i Pacyfiku (APEC) w chińskim Shenzhen przeprowadziła reporterka Fox News Aishah Hasnie.\n\nDziennikarka odnotowała, że nazwanie Władimira Putina przez prezydenta USA „przyjacielem” podczas ich spotkania w Chinach wywołało krytykę ze strony polityków obu partii w Kongresie, a także zagranicznych liderów. Wskazała na wpis premiera Donalda Tuska, który napisał: „Boże, chroń nas przed takimi przyjaciółmi”.\n\nZapytany o wpis szefa polskiego rządu, amerykański prezydent powiedział: „Cóż, nic nie mogę z tym zrobić”. Jednocześnie miał dodać, że „w Polsce lądowały drony Putina i kilka małych rakiet, (ale) przez pomyłkę”.\n\nW krótkiej rozmowie z Fox News Trump miał też powtórzyć, że Putin chce zawrzeć układ, by zakończyć wojnę w Ukrainie. To samo prezydent USA miał powiedzieć europejskim przywódcom - w tym Tuskowi - z Koalicji Chętnych w Berlinie podczas łączenia się z nimi przez telefon.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Koniec 25-dniowego protestu w Bogdance",
+     "summary": "deklaracja zarządu Bogdanki i Enei, związków oraz Ministerstwa Aktywów Państwowych przewiduje budowę nowego szybu, ustalenie warunków cen węgla na 2027 r. i rozmowy o podwyżkach najpóźniej na początku grudnia, z wypłatą do końca lutego 2027 r.",
+     "matters": "minister Balczun mówi, że kopalni nie zamknie się, ale związkowcy zapowiadają powrót do protestu, jeśli zobowiązania nie zostaną dotrzymane.",
+     "url": "https://www.bankier.pl/wiadomosc/Bogdanka-ma-ogromny-potencjal-Balczun-9232113.html",
+     "source": "bankier.pl",
+     "image": "https://galeria.bankier.pl/p/f/f/a1b863de20af70-948-568-39-0-1050-630.jpg",
+     "body": "Skomentuj Lubelski Węgiel Bogdanka ma ogromny potencjał – ocenił w czwartek minister aktywów państwowych Wojciech Balczun po rozmowach z zarządami Enei i Bogdanki oraz związkami zawodowymi. Podczas spotkania strony podpisały deklarację, która umożliwiła zawieszenie protestu w kopalni.\n\nSzef MAP był mediatorem w rozmowach prowadzonych w czwartek między zarządami grupy Enea i spółki LW Bogdanka a działającymi w kopalni związkami zawodowymi. Podczas spotkania strony podpisały deklarację, która zakłada m.in. budowę nowego szybu kopalni i uzgodnienie warunków ceny węgla na rok 2027 zapewniających spółce stabilne funkcjonowanie.\n\n\"Myślę, że to jest dosyć ważny moment, który pokazuje, że potrafimy skutecznie rozwiązywać problemy ważne z punktu widzenia pracowników, ale również zabezpieczające interesy spółki\" – zaznaczył minister Balczun.\n\nWedług niego sytuacja Bogdanki jest stabilna, a spółka ma strategiczne plany inwestycyjne. Jako przykład podał plan budowy nowego szybu. Poinformował, że zostanie utworzony zespół z udziałem strony społecznej, żeby inwestycja była przygotowywana w sposób transparentny.\n\nMinister poinformował, że strony deklaracji uzgodniły harmonogram prac i negocjacji dotyczących systemowego wzrostu wynagrodzeń w Bogdance.\n\nSzef MAP przypomniał, że istnieje porozumienie dotyczące funkcjonowania branży węglowej do 2049 r. Zapowiedział, że górnictwo będzie w dalszym ciągu restrukturyzowane. Zwrócił uwagę na konieczność budowania niezależności i odporności państwa i w tym kontekście zwrócił uwagę na węgiel, jako element stabilizujący system energetyczny Polski.\n\n\"Mamy poczkucie, że LW Bogdanka ma ogromny potencjał. To tutaj są złoża, które mogą być wydobyte, które będą potrzebne do tego, żeby stabilizować cały system, więc chęć rozpoczęcia projektu inwestycyjnego dotyczącego budowy szybu jest uzgodniona między nami\" – powiedział Balczun.\n\nZaznaczył, że nie ma i nie było planów likwidacji kopalni w Bogdance, która – w jego ocenie - jest jedną z najlepszych kopalni w Polsce.\n\nDodał, że budowa nowego szybu wymaga weryfikacji dotychczasowych prac dotyczących lokalizacji, nakładów inwestycyjnych, źródeł finansowania i analizy opłacalności.\n\n\"Budowa szybu ma swoje uzasadnienie biznesowe i to rola spółek (Bogdanki i Enei – PAP), aby przygotować to uzasadnienie biznesowe dla naszego działania\" – powiedział wiceminister aktywów państwowych Grzegorz Wrona, który również uczestniczył w spotkaniu.\n\nPrzewodniczący NSZZ „Solidarność” w Bogdance Mariusz Romańczuk stwierdził, że podpisanie deklaracji jest początkiem procesu, który będzie realizowany przez…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Atak w Krakowie z 7 listopada: śledczy sprawdzą, jak sprawca dostał pozwolenia na broń",
+     "summary": "Michał O. miał w tym roku pozwolenie sportowe na zakup do 10 sztuk broni i kolekcjonerskie, kupił Glocka 17 i karabinek AR-15, a prokuratura chce przesłuchać psychologa i lekarzy, którzy go badali.",
+     "matters": "siedem rannych osób nadal leży w krakowskich szpitalach w stanie stabilnym, a procedurę wydawania pozwoleń bada też Biuro Spraw Wewnętrznych Policji.",
+     "url": "https://www.rmf24.pl/regiony/krakow/news-atak-w-krakowie-sledczy-sprawdza-jak-zamachowiec-uzyskal-poz,nIdn,1026898",
+     "source": "rmf24.pl",
+     "image": "https://rmf.rmffm.pl/news/attachments/8b/86/atakm-966x643-8b862c7a.jpg",
+     "body": "Prokuratura chce przesłuchać psychologa oraz lekarzy, którzy badali Michała O. przed wydaniem mu pozwolenia na broń – informuje piątkowa „Rzeczpospolita”. Śledczy chcą ustalić, czy procedura poprzedzająca przyznanie mężczyźnie uprawnień do posiadania broni została przeprowadzona prawidłowo. Sprawą zajmie się również Biuro Spraw Wewnętrznych Policji.\n\nAtak w Krakowie 7 listopada, fot. Art Service / PAP Jak informuje „Rzeczpospolita”, Michał O., sprawca strzelaniny w Krakowie, posiadał pozwolenie na broń sportową, które uprawniało go do zakupu maksymalnie 10 sztuk broni. Przed dokonaniem zamachu zaopatrzył się w dwa egzemplarze: pistolet Glock 17 oraz karabin AR-15.\n\nUzyskanie pozwolenia wymagało przejścia standardowej procedury, obejmującej m.in. badania psychologiczne i lekarskie. Teraz prokuratura chce dotrzeć do osób, które oceniały stan zdrowia i predyspozycje mężczyzny.\n\nPrzesłuchanie specjalistów wymaga jednak dopełnienia formalności. Jak wskazuje dziennik, w przypadku psychologa konieczne jest wydanie przez prokuratora postanowienia o zwolnieniu z tajemnicy zawodowej. Aby przesłuchać lekarzy, potrzebna będzie natomiast decyzja sądu o zwolnieniu z tajemnicy lekarskiej.\n\nNa razie śledczy nie ujawniają, kto konkretnie przeprowadzał badania Michała O. przed wydaniem mu pozwolenia na broń. Decyzją prokuratora sprawą procedury związanej z przyznaniem mężczyźnie uprawnień do posiadania broni ma zająć się także Biuro Spraw Wewnętrznych Policji.\n\nDo kwestii badań psychologicznych odniósł się na łamach „Rzeczpospolitej” psycholog i profiler kryminalny Jan Gołębiowski. Zwrócił uwagę, że skuteczność oceny zależy m.in. od postawy osoby badanej.\n\nNiestety, jednorazowe badanie psychologiczne, niezależnie jak dogłębnie byłoby zrobione, nie daje gwarancji przewidywania skutków czy zamiarów, które mogą pojawić się po jakimś czasie – ocenia ekspert.\n\nZ ustaleń „Rzeczpospolitej” wynika również, że Michał O. ubiegał się nie tylko o pozwolenie na broń sportową. Wystąpił także o pozwolenie na broń do celów kolekcjonerskich, które również otrzymał. Oba pozwolenia zostały wydane w tym roku.\n\nJak podaje gazeta, mężczyzna przeszedł wymaganą procedurę zgodnie z obowiązującymi przepisami. Teraz śledczy będą sprawdzać okoliczności wydania dokumentów oraz przebieg badań, które poprzedziły przyznanie mu prawa do posiadania broni.",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "💰 Money",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "WIG20 4,204.7 · USD/PLN 4.040 (+0.52%) · EUR/PLN 4.438 (+0.63%) · BTC $61,764 (-2.7%) · Brent $89.94 (-2.2%)",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Wall Street sold off and the Nasdaq entered a correction",
+     "summary": "the Nasdaq Composite lost 2.25% to 23,879.20, nearly 14% below its October peak, the S&P 500 fell 2.02% to 7,175.83 and the Dow lost 2.19%, closing below 50,000 for the first time in over six months. Anthropic closed 17% above its issue price, yet the AI trade did not recover, and yesterday the Dow stood at 50,198.17.",
+     "matters": "AMD fell 7.72% on a short-seller report on its China exposure, a House release showed Commerce approved sales of over 879,000 AI chips to Chinese firms, and a second Fed hike in about two weeks is the base case.",
+     "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
+     "source": "cnbc.com",
+     "image": "https://image.cnbcfm.com/api/v1/image/108556064-1795129228949-gettyimages-2305334314-ANTHROPIC_IPO.jpeg?v=1795129353&w=1920&h=1080",
+     "body": null,
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Asian tech stocks slid after the Nasdaq fall",
+     "summary": "SoftBank dropped 16.16%, its worst day in over two years and down 31% this month, while the Kospi lost 4.6% and Tokyo Electron, SK Hynix and TSMC fell between 4.8% and 7.2%.",
+     "matters": "the Anthropic debut has so far not eased worries about AI returns, and chip names are carrying the sell-off through Asia.",
+     "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html",
+     "source": "cnbc.com",
+     "image": "https://image.cnbcfm.com/api/v1/image/108316517-1780554960547-gettyimages-2230425216-raa-intelsof250820_npZoK.jpeg?v=1780555182&w=1920&h=1080",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "WIG20 slipped 0.51% to 4,204.70 as KGHM rebounded and PZU led the fall",
+     "summary": "KGHM rose 3.04% and ended a six-session losing streak, after yesterday's report of a roughly 6% drop, while PZU lost 4.09% to 71.22 zł after Q3 net profit of 1.443bn zł against 1.995bn zł a year earlier.",
+     "matters": "Orlen fell 2.37% and CD Projekt 3.85%, and Erste Bank Polska gained 2.74% after Erste Group raised its tender offer to 800 zł from 713.6 zł.",
+     "url": "https://www.bankier.pl/wiadomosc/KGHM-gasi-pozar-na-kursie-PZU-liderem-spadkow-w-WIG20-Wszyscy-patrza-na-debiut-Anthropica-i-premiere-GTA-6-9231932.html",
+     "source": "bankier.pl",
+     "image": "https://galeria.bankier.pl/p/3/f/d7a6e731fd1fd7-148-148-802-29-705-704.jpg",
+     "body": "Skomentuj Czwartkowy handel na GPW przebiegał pod znakiem próby odbicia indeksu krajowych blue chipów skutecznie spacyfikowanej w drugiej połowie dnia. W WIG20 ciekawe wyglądało przeciągnie liny między rosnącym po wynikach kursem KGHM, a taniejącymi akcjami PZU, także reagującymi na sprawozdanie finansowe. Ponadto znów wyróżniły się notowania CD Projektu i Orlenu. Podczas gdy krajowe indeksy zakończyły dzień pod kreską, globalni inwestorzy wstrzymali oddech przed historycznym debiutem twórców modelu Claude. Internet z kolei zalała fala treści dotyczących premiery wyczekiwanego Grand Theft Auto VI.\n\nfot. katjen / / Shutterstock Na zamknięciu czwartkowych notowań WIG20 spadł o 0,51 proc. Gorzej poradził sobie szeroki rynek – indeks WIG zniżkował o 0,56 proc., a grupujący średnie spółki mWIG40 spadł o 0,85 proc. Na czerwono dzień zakończył także sWIG80, który stracił 0,34 proc. Łączne obroty na GPW wyniosły 2,69 mld zł, z czego aż 2,17 mld zł przypadło na największe podmioty skupione w portfelu WIG20.\n\nWarszawski parkiet zaprezentował się relatywnie stabilnie na tle pogarszających się nastrojów na głównych giełdach Starego Kontynentu. W momencie zamknięcia sesji w Polsce brytyjski FTSE 100 spadał o 0,8 proc., niemiecki DAX tracił 0,9 proc., a francuski CAC40 zniżkował o 0,6 proc. Nieco lepsze nastroje panowały za oceanem, gdzie po otwarciu handlu na Wall Street szeroki indeks S&P 500 spadał o 0,3 proc., podczas gdy technologiczny Nasdaq Composite zwyżkował o 0,2 proc.\n\nGłównym tematem na globalnych rynkach finansowych była w czwartek pierwsza oferta publiczna (IPO) spółki Anthropic, jednego z czołowych graczy sektora sztucznej inteligencji i twórcy popularnego modelu Claude. Firma pozyskała z rynku ponad 81,3 mld USD, sprzedając w ramach oferty 980 mln akcji po cenie emisyjnej 83 USD za sztukę. Choć sesja na Nasdaq rozpoczęła się o godzinie 15:30 czasu polskiego, pierwsze transakcje na walorach Anthropic spodziewane były dopiero przed godziną 18:00 ze względu na wydłużony proces aukcyjny. Wskazania z rynku kontraktów terminowych sygnalizowały jednak euforię – szacowana cena otwarcia oscylowała wokół 103 USD, co oznaczałoby skok kursu o około 25 proc.\n\nInnym istotnym wydarzeniem, bardziej medialnym, ale mającym także swoje rynkowe tło była światowa premiera szóstej części gry Grand Theft Auto. Mimo ogromnego sukcesu przedsprzedażowego, notowania jej wydawcy – Take-Two Interactive Software – rozpoczęły sesję na Wall Street od około 2-proc. przeceny. Wydarzenie to odbiło się również echem na warszawskim parkiecie, wywołując podwyższoną zmienność na akcjach…",
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Japan's core inflation hit a 2026 high of 2.2% in October",
+     "summary": "it was just under the 2.3% forecast, as expired household energy subsidies pushed energy prices up 2.2%, and the yen firmed to 159.59 per dollar while the 10-year JGB yield fell 2 bp to 2.805%.",
+     "matters": "LSEG data implies a 72% chance of a BOJ hike in December, and Japan has reportedly approved bringing energy subsidies back in December.",
+     "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
+     "source": "cnbc.com",
+     "image": "https://image.cnbcfm.com/api/v1/image/108555014-1795079642832-gettyimages-2215845730-AFP_47TW9CP.jpeg?v=1795079673&w=1920&h=1080",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "💻 AI & Tech",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Anthropic's ANT debuts at about a $2tn valuation",
+     "summary": "shares reached $111.50 at the end of the opening auction, 34% above the $83 IPO price, and Dario Amodei defended roughly $900bn of compute commitments that the article says could pass $1tn.",
+     "matters": "yesterday's $1.5tn pricing value is already about $0.5tn higher, and the article gives no closing price, so day-one staying power is still unknown.",
+     "url": "https://www.theregister.com/ai-and-ml/2026/11/19/anthropic-throws-open-doors-at-2t-valuation-as-shares-pop-34-in-initial-trading/5311143",
+     "source": "theregister.com",
+     "image": null,
+     "body": "Welcome to the world of public AI frontier labs: Anthropic is now a publicly-held company with its Thursday IPO, and investors are clamoring for a piece of the pie, for now anyway.\n\nThat $83 IPO price didn’t last long, with shares rocketing to $111.50 by the time the public could get their hands on them at the end of the initial auction. That means that the company was valued at around $2 trillion as of the public availability of the 980 million shares it put up for sale, a 34 percent increase over the IPO price.\n\nAt just under six years old, Anthropic’s meteoric rise to that valuation has sent investors into a frenzy despite uncertainties surrounding the company’s future profitability. As we’ve noted, Anthropic is on the hook for nearly $1 trillion in compute obligations that could drag its profitability prospects down if any one of a number of scenarios happens to materialize.\n\nAmodei was on hand to address some of those questions with CNBC this morning following the opening of markets on his company’s big day.\n\nWhen asked about the risk Anthropic’s massive compute bills to its bottom line, Amodei admitted the company’s needs are difficult to predict, and that - get this - they try to err on the low side.\n\nThat’s right: The $900 billion in infrastructure and compute commitments that Anthropic revealed in a recent regulatory filing, which could end up surpassing $1T in short order, might just be an underestimate of what the company will need in coming months and years.\n\n“We’re willing to put into place these very large compute spends because, historically, we’ve seen that it pays off,” Amodei told CNBC’s Ross Sorkin, adding that the returns on the cognitive capabilities of its new models are “so high” as to make all that spending worth it - eventually, one would assume based on his comments, Anthropic is sure to come out on top.\n\nBut what of the threat of open models that could undermine the constant push at Anthropic and other frontier labs to create the most power-hungry, resource-intensive, and powerful AI? Bah, that’s not a problem either.\n\nFrontier model makers like Anthropic, Amodei said, have already proven that they can do the heavy lifting at the bleeding edge, so you can trust it to make reliable models that are cheaper and less capable, too.\n\nWhether that’ll mean long-term success for investors is another thing altogether. Mozilla president Mark Surman doesn’t think valuation translates into long-term success, for one. He told The Register this morning that the one thing he consistently hears from developers is that they want AI they can…",
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "A House chair says Commerce approved 879,000 AI chip items for China, including sales to Alibaba and Tencent",
+     "summary": "Brian Mast released figures showing Nvidia and AMD asked to sell 3.4 million chips, with Alibaba (610,000) and ByteDance (508,000) applications from Nvidia refused. Alibaba CEO Eddie Wu said the new remote-access ban may lower its 20-gigawatt data-centre target.",
+     "matters": "it follows Tencent's warning yesterday, and Mast says every application claimed \"low\" diversion risk, which sets up a fight over export-licence oversight.",
+     "url": "https://www.theregister.com/legal/2026/11/20/us-let-nvidia-and-amd-sell-bucketloads-of-chips-to-military-linked-chinese-companies/5311200",
+     "source": "theregister.com",
+     "image": "https://image.theregister.com/5299461.webp",
+     "body": "That news comes courtesy of Brian Mast, chair of the House Foreign Affairs Committee, who asked BIS to provide information about NVIDIA’s and AMD’s applications for the export licenses required to sell advanced AI chips to China.\n\nThe congressman on Thursday revealed requests to sell 3.4 million AI chips to China, and that BIS approved the sale of 879,000 items.\n\nBIS refused to authorize some giant deals for Nvidia, which applied to sell 610,000 chips to Alibaba and 508,000 to TikTok owner Bytedance.\n\nMast points out that both of those companies are on the Department of War’s List of Chinese Military Companies, the designation it uses for entities deemed to be a “military-civil fusion contributor to the Chinese defense industrial base.” That’s a polite way of saying that Washington thinks China relies on these companies to operate and improve its military, and therefore to challenge America’s national security.\n\nThose applications are the core reason the US bans exports of advanced GPUs to China, so that the People’s Liberation Army can’t develop advanced weapons.\n\nThe congressman also claims that some of Nvidia’s applications were attempts to sell its wares to “chip-smuggling fronts to facilitate their sales of advanced AI chips to Chinese companies.” The New York Times reports that some of those front entities are linked to Megaspeed, the outfit fronted by suspected Chinese intelligence asset Alice Huang, whose intimate relationship with former Nvidia CEO Jensen Huang was a key factor in his resignation.\n\nMegaspeed is accused of what the US calls “diversion” – claiming to buy chips for one reason while intending to either ship them to China or rent them exclusively to Chinese companies in ways that breach the spirit of export restrictions if not the letter of the law.\n\nMast’s point therefore appears to be that the BIS has authorized sales that go against the clear intent of established policy, and the national interest, and that Nvidia and AMD may have been a little too optimistic in their assessment of diversion risk.\n\nEarlier this week, Washington adopted a new policy that outlaws allowing remote access to advanced AI chips, in the hope it would stop diversion and dent China’s AI ambitions.\n\nChinese web giant Tencent on Wednesday said that new ban will reduce the quantity of advanced compute capacity available to the company and mean its efforts to train models will slow.\n\n“Based on our initial assessment, the long-term target of 20 gigawatts may be lowered, which will also lead to a reduction in our overall capital expenditure plan,” he said.\n\nBut…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The European Commission is fighting an AI-assisted cyberattack that has lasted more than 10 days",
+     "summary": "staff systems Sysper (payslips, timesheets) and MyPMO (medical reimbursements) went offline, Sysper fell over again on Wednesday, and salaries were still paid on time.",
+     "matters": "the attack reportedly used ARTEX, an AI pentesting framework whose developer pulled the repo in October. The FBI says over 1,600 ARTEX consoles are exposed online, and CERT-EU warned of such attacks on 5 November.",
+     "url": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103",
+     "source": "theregister.com",
+     "image": null,
+     "body": "The European Commission is picking up the pieces after hackers wielding an AI-powered security testing tool targeted its internal IT systems, potentially exposing staff members' personal data.\n\nThe attack, first reported by Politico, has caused more than 10 days of disruption at the EU's executive arm. Among the applications temporarily taken offline were Sysper, which staff use to access payslips, submit timesheets, and request vacation time, and MyPMO, which handles medical reimbursements.\n\nBoth were brought back online earlier this week, though Sysper fell over again on Wednesday. The Commission's translation services were also affected.\n\n\"The European Commission has taken the necessary steps in response to a detected cyber campaign,\" Commission spokesperson Thomas Regnier told Politico. \"Individual systems were targeted and, in line with our standard practice, we have informed those concerned.\"\n\nAccording to Politico's sources, the Commission's cybersecurity defenders detected hackers using ARTEX, a publicly available AI-powered penetration testing framework. The incident prompted an emergency meeting of the Commission's Corporate Management Board earlier this month, and tech commissioner Henna Virkkunen briefed her fellow commissioners on Wednesday.\n\nThe Commission has yet to respond to The Register 's questions about the attack, including whether the crooks got their hands on employee data or whether the applications were simply taken offline as a precaution.\n\nThe attack might not come as much of a surprise to the Commission's own security bods. CERT-EU, which looks after the cybersecurity of EU institutions, warned on November 5 that it had spotted what it believed to be ARTEX-assisted attacks against organizations under its watch.\n\nThe developer behind ARTEX pulled the project's GitHub repository in October after reports that hackers were putting the software to use. But by then, the code was out in the wild, and anyone wanting to have a crack at an organization's IT estate could get hold of one of several forks.\n\nThe FBI also sounded the alarm last week [PDF], revealing that researchers had found more than 1,600 ARTEX consoles exposed to the internet. In some of the attacks detailed by the Feds, hackers went from identifying a target to obtaining privileged access in less than three hours.\n\n“What used to take a skilled operator days or weeks of chaining is now happening in hours because frameworks like ARTEX let a single actor stand up fleets of agents that plan, probe, exploit, and move laterally with almost no further human input after the…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Palo Alto Networks buys Applied Compute for $4.5bn in stock",
+     "summary": "the open-weight model training platform was announced on the fiscal Q1 2027 call, and CEO Nikesh Arora cited open-weight models going from under 5% to over 60% of token traffic in a year.",
+     "matters": "PAN plans over 100 MW of inference capacity for under $3bn of capex through fiscal 2030, and expects over $1bn added to its Next Generation Security business by FY2029.",
+     "url": "https://www.theregister.com/ai-and-ml/2026/11/19/palo-alto-networks-opens-wallet-for-open-weight-training-biz/5311168",
+     "source": "theregister.com",
+     "image": null,
+     "body": "As AI has become a thorn in the side of the security industry, Palo Alto Networks (PAN) has reached an agreement to acquire Applied Compute, an AI model training platform.\n\n\"We believe many of the major disruptions of the last few weeks, including outages across major enterprises and governments, were partially due to unintended consequences of patching and configuration changes, as IT teams simply cannot patch these vulnerabilities fast enough without compromising their production environments,\" said Nikesh Arora, chairman and CEO of PAN, during the company's fiscal Q1 2027 earnings call on Wednesday. \"The second effect is the rise of AI-assisted cyberattacks.\"\n\nSo in the spirit of \"hair of the dog that bit me,\" PAN is ingesting Applied Compute to make open-weight AI more secure for corporate customers. The answer to insecurity brought on by AI is buying security with AI.\n\nIn its announcement of the tie-up, PAN declares \"the future of enterprise AI is hybrid, and that a large share of enterprises will run on open-source and open-weight models tuned to their own data, cost, and control needs.\"\n\nThat view has been clouded a bit by Nvidia co-founder Jensen Huang's fall from grace: Back in July, he came to the defense of open-weight models as a defense against the hegemony of purveyors of closed-weight commercial models like Anthropic, Google, Microsoft, and OpenAI. His resignation as CEO of Nvidia has led to worries that the open-weight ecosystem has lost some lobbying power at a time when the US is wary about the uptake of models made in China.\n\n\"Every enterprise is going to run a mix of open and closed models, and every one of those models needs to be secured,\" said Nikesh Arora, chairman and CEO of PAN, in a statement. \"Applied Compute has built the best post-training and inference platform we've seen, and its research team is exceptional.\"\n\nThe company expects the $4.5 billion all-stock transaction to add more than $1 billion to the company's Next Generation Security business by FY 2029.\n\nArora, on the company's earnings call, explained the pricey bet as recognition of the corporate desire to avoid vendor lock-in and to retain control of data.\n\n\"We're already seeing the desire for sovereignty and control compel enterprises to adopt open-weight and open-source models,\" he said. \"Early signs of that shift are clear, with open-weight models growing from under 5 percent of token traffic to more than 60 percent over the past year.\"",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Critical VMware vCenter and Apache flaws land alongside a KVM bug",
+     "summary": "Broadcom's advisories VMSA-2026-0009 (CVE-2026-123890, authentication bypass) and VMSA-2026-0010 (CVE-2026-119618, remote code execution) are both rated CVSS 9.8, and Oracle issued an urgent Java fix.",
+     "matters": "the AMD-only KVM nested-virtualisation flaw (CVE-2026-99312) lets a guest read host memory, and one researcher reported 127 GB read on a DigitalOcean Droplet. Disabling nested virtualisation removes the exposure until you patch.",
+     "url": "https://www.theregister.com/security/2026/11/20/flaws-in-vmware-and-kvm-need-attention-if-you-have-time-while-fixing-java-php-and-everything-else/5311193",
+     "source": "theregister.com",
+     "image": "https://image.theregister.com/5299461.webp",
+     "body": "VMSA-2026-0009 addresses CVE-2026-123890, a 9.8-rated flaw that VMware says means a malicious actor with network access to vCenter may exploit this issue to bypass authentication and gain unauthorized access to the system. vCenter is the tool admins use to manage fleets of virtual machines. The flaw is present in VMware’s flagship Cloud Foundation suite. VMSA-2026-0009 also details four more CVEs, some of them high-severity.\n\nVMware’s second advisory, VMSA-2026-0010, warns that Cloud Foundation, Aria Operations, and VCF Operations HCX products all use Apache – which has a 9.8-rated remote code execution vulnerability (CVE-2026-119618).\n\nAdmins who oversee virtual infrastructure also need to pay attention to Linux KVM, the subject of a curious incident over the last 24 hours.\n\nThis mess started with the November 18 disclosure of CVE-2026-99312, a bug which allows an attacker to use a guest virtual machine to inflict Denial of Service (DoS) or memory corruption attacks on the host.\n\nIt’s bad news whenever someone with access to a guest VM can attack the host, because it means gaining access to a single tenant can potentially harm all the other guest VMs or peer into the memory a guest uses.\n\nThis flaw, however, isn’t a worst-case scenario guest-host escape, because it only impacts users of AMD processors who employ nested virtualization – the practice of running a hypervisor inside a virtual machine. Nested virtualization isn’t commonly used in the enterprise, but clouds employ it to do things like powering OS emulators. The bug’s CVSSv3 score is therefore a modest 5.5.\n\nSecurity researcher Oren Tomtov of Accomplish.ai says the flaw meant he could access 127 GB of host RAM on a Digital Ocean “Droplet” – the junior cloud’s name for its cloudy VMs.\n\nYomtov says he told Digital Ocean and the Linux kernel security team about the flaw in October. Maintainers got busy and delivered a fix to the mainline kernel on November 2, full fixes landed on the 17 th. The CVE then appeared on November 18.\n\nYomtov and Terra Security quickly posted their analysis of the flaw – but then took the posts down within hours.\n\nThe Register understands that Digital Ocean asked for the posts to come down because it needed more time to update its Linux implementations. The company has not responded to multiple requests for comment.\n\nTerra’s analysis of the flaw asserts that it was introduced to KVM in 2022, when developers wrote a fix for CVE-2022-3344. The company believes 3.2 percent of CVEs in the Linux kernel were introduced by the fix for another CVE.",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎮 Games & Dev",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Dalamud 15.0.4.1 · .NET 10.0.14 · game build 2026.11.03 · last changelog 18 Nov",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": ".NET 10.0.15 shipped on 10 November, one patch ahead of Dalamud's required 10.0.14",
+     "summary": "the November servicing release also carries 25 CVE fixes, and one denial-of-service bug (CVE-2026-118747) needs a separate System.Formats.Cbor NuGet update.",
+     "matters": "the runtime Dalamud requires is a patch behind current, and plugins that use CBOR must update the package as well as the runtime.",
+     "url": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-november-2026-servicing-updates/",
+     "source": "devblogs.microsoft.com",
+     "image": null,
+     "body": "The November 10, 2026 servicing updates for.NET 10,.NET 9, and.NET 8 include security and non-security fixes. This post brings together the security advisories, release notes, and download links for this month’s updates, along with resources for.NET Framework servicing.\n\nThe following table covers vulnerabilities affecting.NET 8, 9, 10, and 11, including associated tooling. Follow each advisory for the full list of affected products and remediation guidance.\n\nCVE-2026-118747 requires a separate System.Formats.Cbor NuGet package update. For the.NET 9 package line, the fix is in version 9.0.24, not 9.0.23. Installing runtime 9.0.23 alone does not fix this vulnerability; update the package, then rebuild and redeploy affected applications.\n\nCVE-2026-118741 affects ASP.NET Core Identity scaffolding and templates. Update the affected scaffolding/template packages or the SDK that supplies the templates, and correct, rebuild, and redeploy previously generated applications. Updating the runtime alone does not repair generated code.\n\nUse the download links above to update your.NET SDK and runtimes. Review the release notes and security advisories for guidance relevant to your applications.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "NuGet.org adds staged publishing",
+     "summary": "packages are uploaded and scanned but stay hidden from search and restore until a maintainer with two-factor authentication promotes them, via the website or the .NET 11 RC2 SDK's `dotnet package stage push`.",
+     "matters": "staging-only credentials mean a leaked CI key can upload a package but cannot publish it, which suits plugin libraries released on NuGet.",
+     "url": "https://devblogs.microsoft.com/dotnet/nuget-staged-publishing/",
+     "source": "devblogs.microsoft.com",
+     "image": "https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/11/nuget-staged-publishing-manage-packages.webp",
+     "body": "A successful build tells you that your pipeline finished. It does not tell you that you meant to release. Today, we are introducing staged publishing on NuGet.org, available to all package publishers, so you can prepare and validate packages privately before making an explicit decision to publish them.\n\nUpload a security fix ahead of its coordinated disclosure. Gather the packages for a feature release without exposing an unfinished set. Let automation prepare a large update, then review it on NuGet.org before it reaches the people who depend on it.\n\nWith a normal package push, upload starts the public publishing process. Staged publishing adds a place to stop: the package goes through NuGet.org validation, but stays private until an authorized maintainer promotes it through the website.\n\nThat gives you time to review what you are about to ship, fix validation problems, and choose the release moment.\n\nStaging is opt-in. Existing dotnet nuget push workflows continue to work. You can adopt staging for a security-sensitive package or a coordinated release without changing every publishing workflow at once.\n\nStaging also differs from unlisting. An unlisted package can still be restored by its exact version. A staged package is not available to consumers at all.\n\nThe website is where you review staged content and approve its release. You can stage a single package or organize related packages into a staging group.\n\nOn the NuGet.org upload page, choose the staging option under Publishing Mode when uploading your package. You can also upload from your pipeline using the CLI example below.\n\nNuGet.org runs the package through its validation pipeline, including malware scanning, signature checks, and repository signing. Once validation succeeds, the package is ready for promotion. It stays out of public package pages, search results, and restore operations.\n\nYou can inspect the staged package and its validation status in the website’s package management experience. If validation fails, fix the problem and stage a replacement before release day.\n\nStaging does not provide a private restore feed, even for the owner. Test your packages and their dependencies using a local or private feed first, then stage the release artifacts on NuGet.org.\n\nA staging group collects the packages for a release under one staging owner, either a user or an organization. For example, a library, its integrations, and its analyzers can share a group for an upcoming feature release.\n\nIn NuGet.org package management, create a group, add the staged packages for that release, and review each…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Square Enix actioned 1,132 terminations and 38 suspensions for RMT and botting between 12 and 18 November",
+     "summary": "953 of the terminations were for RMT advertising, and 171 were for participation in RMT or prohibited activities.",
+     "matters": "it is the weekly enforcement notice that comes with the Lodestone's recovery, and automation-style tools sit closest to the botting line.",
+     "url": "https://na.finalfantasyxiv.com/lodestone/news/detail/6adffb57c2bfb964a9369af347d1f7a732bd81c3",
+     "source": "na.finalfantasyxiv.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Unity 7 Preview is due in December, with full release in Q1 2027",
+     "summary": "Unity says Unity 7 continues Unity 6 with no breaking changes, and brings CoreCLR with modern .NET (.NET 10, C# 14) and MSBuild support.",
+     "matters": "it is the first Unity release on a modern .NET runtime, and Unity has added Project Auditor to Unity 6 to flag compatibility issues now.",
+     "url": "https://unity.com/blog/unite-seoul-keynote-2026-recap",
+     "source": "unity.com",
+     "image": null,
+     "body": "Unite Seoul 2026 kicked off a new chapter for Unity. The livestreamed keynote was packed with announcements spanning the Unity Engine, monetization, and collaboration tooling that all build toward the next generation of Unity — Unity 7.\n\nYou can watch the full presentation, or read on for an overview of the event’s biggest announcements.\n\nThis post describes features, capabilities, and timing still in development. These reflect our current plans, but actual results and availability could differ materially and are subject to change without notice.\n\nUnity CEO and President Matthew Bromberg opened the keynote by pointing to a reel of games built entirely in Korea, framing them as proof of what he called the country’s “Ppalli Ppalli spirit” — not just speed, but a refusal to let studios with a mobile-first ambition experience creative compromise. He was candid about the moment the industry is in, acknowledging “real pain and more than a little anxiety about the future” amid rapid change.\n\nHe then got to the news: developers expecting to hear about continued iterations in the Unity 6 generation got something bigger instead. “A new point release wouldn’t be enough for this moment,” Bromberg said. “Instead of new point release, I’m here today to share something else. And that thing is Unity 7!\n\nHe described Unity 7 as a platform rebuilt for a world where “diverse teams of creators and coding agents” work side by side across every part of development — faster (thanks to a CoreCLR-modernized core, near-instant Play Mode, and dynamic reloads that only reload what changed), and more open (with a free MCP, CLI, and API built in). It also extends into monetization and growth, with built-in direct-to-consumer commerce, no-code webshops, and Unity Vector’s AI-driven player matching.\n\nJoe Valenzuela from Unity’s engineering team kicked things off with what may be the most consequential technical announcement of the keynote: Unity will be shipping CoreCLR, arriving in Unity 7 next year. This brings full access to the modern.NET ecosystem — CoreCLR,.NET 10, and C# 14 — giving developers more expressive, higher-performance code, first-class integration with modern IDEs and official.NET debuggers, and support for MSBuild. That MSBuild support is also a step toward compiling code outside the Editor entirely, which unlocks faster agentic workflows.\n\nThe bigger structural change is a new code reload model. Instead of reloading an entire domain on every change, Unity will reload only what’s necessary, cumulatively saving significant time over a project’s life.\n\nDevelopers…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🐉 World of Warcraft Forever",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Hotfixes on 17 November put Upper Blackrock Spire back to intended difficulty",
+     "summary": "enemy health and damage had been significantly too low, and Blizzard says the dungeon now needs a full, coordinated group.",
+     "matters": "Paladin tanks are moving toward Spell Power as their main damage stat, and Soulforge Armor now has Spell Power instead of Strength.",
+     "url": "https://www.warcrafttavern.com/forever/news/cozy-sleeping-bag-shendralas-wow-forever-hotfixes-for-november-17/",
+     "source": "warcrafttavern.com",
+     "image": "https://www.warcrafttavern.com/wp-content/uploads/2020/10/WoW-TBC-The-Burning-Crusades-News.png",
+     "body": "Blizzard has posted a new list of hotfixes with quite a variety of changes included.\n\nThe Cozy Sleeping Bag can now be placed in a specific location, rather than being unrolled right at your feet. This should help with all those times you’ve accidentally placed it right on the fire where you can’t lay down. It also provides a Resting aura to show when you’re in the right place to get the effect, and mounted players will no longer be able to use it.\n\nSadly, the Might of Stormwind and Warchief’s Blessing buffs that we’ve been given such generous access to will no longer persist through death.\n\nThere was a buff to Upper Blackrock Spire, where it seems that enemies weren’t as tough as the developers intended given its status as a high-level dungeon.\n\nProtection Paladins are getting Spell Power instead of Strength on their upgraded dungeon set, with a note that this is the intended direction for Paladin tanks going forward.\n\nWorld of Warcraft has been a big part of my life going all the way back to vanilla. I've played every retail expansion and all versions of WoW Classic, usually as a healer or caster and often as a guild leader. I've authored over a thousand guides for the game and edited at least a thousand more. If you find my content helpful, please leave a comment - it will make my day!\n\nSomeone once said that you can’t go home again. But they lacked vision. And a temporal discombobulator! At Warcraft Tavern we’re huge fans of World of Warcraft. Here you can find Guides, News, Tools, Forums, and more for WoW Forever, WoW Classic, TBC Classic, WotLK, Cataclysm, MoP & Retail!\n\nWarcraft Tavern has been bringing news and helping players since 2018 with expert guides from dozens of team members. Find out more about our team and our history, take a look at our editorial guidelines, join us on our community forums, or share some feedback with us on Discord!",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Blizzard is removing gold and suspending accounts over the Blackmaw Hold loot exploit",
+     "summary": "a group of non-elite enemies dropped full elite loot, and a couple hundred players farmed it before the 16 November hotfix.",
+     "matters": "casual players who ran the dungeon a few times and got extra loot are not being punished, but significant abusers lose the gold, including vendoring profits.",
+     "url": "https://www.warcrafttavern.com/forever/news/blizzard-suspending-accounts-over-blackmaw-hold-exploit-in-wow-forever/",
+     "source": "warcrafttavern.com",
+     "image": "https://www.warcrafttavern.com/wp-content/uploads/2020/10/WoW-TBC-The-Burning-Crusades-News.png",
+     "body": "Players have been making noise all over social media about a gold farm that was recently hotfixed, but which allowed some players to accumulate an enormous amount of gold before it went away. The exploit gained a lot of attention due to some notable streamers taking advantage as well as some palpable consequences for the newly-forming economy.\n\nThis particular method required farming a group of non-elite mobs in the Blackmaw Hold dungeon who were dropping better-than-intended loot. The loot has since been changed, and now Blizzard is taking action against accounts that went out of their way to exploit this unintended boon.\n\nAs players continue their journey into WoW Forever’s higher-level content, we are closely monitoring the game economy to ensure that gold sources and costs are well balanced. Finding efficient farming spots has always been part of the game, and is how most players have earned their epic mounts since 2004. When a single location proves so lucrative that it overshadows all other sources, we generally adjust it to bring it in line with the rest.\n\nOver the past weekend, some players discovered a large group of non-elite enemies in the Blackmaw Hold dungeon that were incorrectly dropping the full amount of dungeon loot that would be expected from an elite. Early yesterday, we addressed this with a hotfix, and since then, we have been investigating the overall economic impact.\n\nPlayers who simply ran Blackmaw Hold a few times and benefited organically from the extra loot did nothing wrong, and no one should worry that they’re putting their account at risk if they accidentally benefit from a bug. But there were a couple hundred players worldwide who recognized that this was unintended and spent significant time exclusively farming that group of enemies.\n\nYesterday, we put an economy lock on their accounts to prevent broader impact to the game economy while we investigated the extent of the exploitative gains, including gold earned by vendoring bugged drops. Today, we are in the process of removing all such gold earned, as well as applying account suspensions to significant abusers.\n\nAs always, we advise all players to refrain from abusing game mechanics that are clearly unintended. We will continue to take action against intentional abuse.\n\nWorld of Warcraft has been a big part of my life going all the way back to vanilla. I've played every retail expansion and all versions of WoW Classic, usually as a healer or caster and often as a guild leader. I've authored over a thousand guides for the game and edited at least a thousand more. If you…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Dungeon XP is still contested after the 15 November rollback",
+     "summary": "the restriction now only zeroes XP when a high-level player is more than 12 levels above the enemies, and it doesn't apply to runs already underway.",
+     "matters": "new threads on 19 and 20 November still say questing gives nearly twice the XP of dungeons in the 40s.",
+     "url": "https://us.forums.blizzard.com/en/wow/t/player-level-dungeon-xp-adjustment-november-14/2416343",
+     "source": "us.forums.blizzard.com",
+     "image": null,
+     "body": "Yesterday, we updated dungeon play so that experience granted by an enemy in an instance is nullified if a high level player is in the group and enemy is trivial to that player. For some dungeons, the new restriction missed the mark because of the overall level range of the enemies in the dungeon.\n\nWith hotfixes that are now live, we’ve just deployed a further change to this restriction, making it so that the XP nullification only kicks in when the high-level player is more than 12 levels above the level of the enemies.\n\nPlease note that this adjustment will not apply in instances that were already underway when it was deployed (a few minutes ago).\n\nI think this was the only thing needed to make this change fantastic. +12 levels is enough to curtail boosting, but not enough to impact players normally trying to compete quests in the megadungeons. Thanks!\n\nGood change. I like that you are making bold decisions and also reflecting on them and adjusting. I’d rather you go too far and then step back than make ineffectual changes.\n\nJust ban swipers and ban bots. People doing dungeons is not a problem. Stop making this into your personal crusades to abolish players who like to do dungeons or run dungeons with their lower level friends.\n\nWith hotfixes that are now live, we’ve just deployed a further change to this restriction, making it so that the XP nullification only kicks in when the high-level player is more than 12 levels above the level of the enemies.\n\nConsider doing a poll before making potentially controversial changes if you’re going to revert them 1 day later.\n\nYour anti-player decisions have not been ignored or forgotten. Setting the dungeon XP to zero because some dungeon enemy is grey to some player, renegging on that decision, does not undo all the other bad decisions you have made.\n\nJust stop. Hire GMs and ban bots, stop hurting ways we’ve been playing MMOs for 30 years.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The WoW Forever Podcast's Episode 8, \"Catching Up On Classes\", went up on 19 November",
+     "summary": "the thread is pinned, and the title suggests class design is the topic.",
+     "matters": "I could not open the episode, so the points players cite (Survival Hunter buffs, Stormstrike) are unconfirmed comments rather than Blizzard statements.",
+     "url": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-8-catching-up-on-classes/2422535",
+     "source": "us.forums.blizzard.com",
+     "image": null,
+     "body": "Here before everyone starts shouting their complaints at this community manager who has no control over the game.\n\nGlad to see they are going to be expanding on the spellpower gear in levelling content. Hopefully that includes paladins who are absolutely shafted.\n\nEvery streamer that was exploiting that dungeon should’ve been permad. They can go play GTA 6 and other WoW streamers can rise up to replace them. Would be better for the collective.\n\nThe discussion about healers was discouraging. To hear the Blizzard devs parrot the same tired “you don’t need a healing spec before 35” rather than talking about their ideas to make it better to level as a healer just tells me that the role has no real voice on the Design team.\n\nThanks the heavens they know about how crap Surv cap is. In a full UBRS run it does.9 % over overall dmg just total crap. ST is the same numbers. Love if they buff it like they said and roll the dot ill be VERY happy with that.\n\nI know the OG devs were ‘problematic’ (lol) but those guys could dev, maybe we can get them back.\n\nThe whole minute they spent talking about stormstrike was somehow more discouraging than the changes.\n\nOhh come off it. Its not the players fault blizzard ships a broken un tested dungeon. Poor quality control on Blizzards behalf. They have 20 years experience in the space and still launch broken garbage.\n\nThey have so many good ideas that they won’t commit to because they are worried about the smallest minority playerbase of WOW, the classic purists who have a dead server that’s been basically on maintenance mode for the last 2 years, they need to take ideas from TBC and WOTLK and implement them into something new. Just look at the anniversary servers, and the original expansions back in the day. WOTLK AND TBC were far more popular and grew the playerbase to its peak.",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎵 Music",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Bradford Cox surprise-releases Thanatos, Atlas Sound's first album in 15 years",
+     "summary": "it is out now on 4AD, digital only for the moment, with a vinyl edition planned for next year.",
+     "matters": "it has 10 songs, closes a trilogy with Logos and Parallax, and Cox recorded it alone in his Atlanta attic on a Tascam 8-track.",
+     "url": "https://stereogum.com/2518717/bradford-cox-surprise-releases-thanatos-atlas-sounds-first-new-album-in-15-years/music",
+     "source": "stereogum.com",
+     "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2025/10/Frankie-Hejduk-MLS-Cup.jpeg",
+     "body": "Add Stereogum to Google Finally, suddenly, we have a whole new album from Bradford Cox. After reviving his solo project Atlas Sound for a performance at Philadelphia's Making Time ∞ festival in September and sharing the comeback single \" Octoberland \" in October, Cox has released the new full-length Thanatos. It's his first album of any kind since Deerhunter's Why Hasn't Everything Already Disappeared? in 2019 and the first Atlas Sound album since Parallax in 2011.\n\nThanatos includes 10 songs, most of which Cox performed at Making Time ∞. He recorded the album alone in his attic in Atlanta's Grant Park neighborhood with a Tascam DP-008, a portable 8-track recorder. It's billed as the completion of a trilogy with 2009's Logos and 2011's Parallax. (Sorry to 2008's Let The Blind Lead Those Who See But Cannot Feel — you're on your own.) Heba Kadry mastered the recordings, Chris Reynolds made the sculpture on the album cover, Javier Morales did the photography, and Cox's late dog Faulkner is credited with emotional support.\n\nBradford Cox finds it by burrowing deeper inside the familiar shell that is his home. Sheltered from all exterior weather fronts. surrounded by objects he has collected and absorbed for decades and held by the warmth of the love of his life. He has consumed it all and transformed geometrical space into a living burial chamber where he can shed the self. He works only in the dead of night.\n\nMinimal interruptions and ritualistic scene setting allows for subconscious nocturnal abandon that yields this music of growth, destruction, renewal and cessation.\n\nThat could always be true. Without this awareness of mortality; love, passion and creation lose substance.\n\nThe Tascam, a tool to distil the process down to the fundamentals of subtraction and addition. The former a by-product of the latter. Nothing deleted but instead painted over with new emotion or the same gesture repeated with the urgency of the moment. He is somehow capturing the impermanence of a waterfall without making it concrete.\n\nLyrically led by a disassociated primordial wisdom usually found in the sediment of dreams. A feeling you cannot name but it scratches at the heart and soul. Elusive but knowable. It is the past sung without memory of it but evoked by an action, a gesture, a ritual, a will. A means to access and revise an incomprehensible truth that you slept without knowing a loved one once.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Warner Music Group passes $2bn in a quarter for the first time",
+     "summary": "revenue for the quarter to 30 September was $2.001bn, up 7.5% at constant currency, with net income of $179m against $109m a year earlier.",
+     "matters": "subscription streaming rose 14.7% to $804m, and full-year revenue came in at $7.437bn.",
+     "url": "https://www.musicbusinessworldwide.com/warner-music-group-tops-2b-in-a-quarter-for-the-first-time-subscription-streaming-revenues-rose-14-7-yoy-in-calendar-q3/",
+     "source": "musicbusinessworldwide.com",
+     "image": null,
+     "body": "Warner Music Group has issued its financial results for the three months ended September 30, 2026 – calendar Q3 2026, the company’s fiscal Q4 2026.\n\nAccording to the results, published on Thursday (November 19), WMG generated total revenues of USD $2.001 billion in the quarter.\n\nThis is the first time WMG ‘s quarterly revenues have crossed the $2 billion mark, beating the company’s previous record of $1.868 billion, set in calendar Q3 2025.\n\nOther highlights from the quarter include recorded music revenues up 7.3% YoY at constant currency to $1.639 billion.\n\nWithin that figure, recorded music subscription streaming revenues were up 14.7% YoY at constant currency to $804 million.\n\nArtist services and expanded-rights revenue, meanwhile, fell 19.9% YoY at constant currency to $257 million, which WMG linked to higher merchandising revenue in the prior-year quarter from its Oasis partnership.\n\n“Our Q4 and full-year results demonstrate the success of a multi-year, transformational strategy that sets a new bar for WMG,” said Robert Kyncl, CEO, Warner Music Group.\n\nThe termination of a distribution agreement with BMG (the “BMG Termination”) resulted in $7 million less recorded music digital revenue compared to the prior-year quarter, according to WMG.\n\nExcluding the BMG Termination, WMG reported that its total revenue was up 7.9% YoY at constant currency.\n\nWarner Music Group ‘s recorded music revenues were up 7.3% YoY at constant currency to $1.639 billion in calendar Q3 2026.\n\nWarner ‘s recorded music streaming revenue (including ad-supported and subscription) was up 13.2% YoY at constant currency to $1.056 billion.\n\nAdjusted for the $7 million impact of the BMG Termination, recorded music streaming revenue was up 14.0% YoY at constant currency.\n\nThe company’s revenues from recorded music subscription streaming reached $804 million in calendar Q3 2026, up 14.7% YoY at constant currency.\n\nThat compares with recorded music subscription streaming growth of 10.8% YoY at constant currency in calendar Q2 2026.\n\nWMG generated $252 million in ad-supported recorded music streaming revenues in calendar Q3 2026, up 8.6% YoY at constant currency.\n\nThe increase in ad-supported revenue “reflects market share gains in the quarter as well as improved deal economics,” according to WMG.\n\nTop sellers in the quarter included Madonna, Number_i, Charli XCX, Bruno Mars, and Linkin Park.\n\nWarner ‘s global music publishing division – Warner Chappell Music – saw its quarterly revenues increase 7.4% YoY at constant currency to $363 million.\n\nSynchronization revenue was $55 million, down…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Julien Baker announces This World Or The Next, her first solo album in six years",
+     "summary": "the lead single and opening track is \"Hound\", and the album is out on Matador on 12 February.",
+     "matters": "it ends a six-year gap in her solo work, announced on 17 November.",
+     "url": "https://stereogum.com/2518378/julien-baker-announces-new-album-this-world-or-the-next-hear-hound/music",
+     "source": "stereogum.com",
+     "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Julien-Baker-This-World-or-the-Next-Packshot.jpeg",
+     "body": "Add Stereogum to Google We are extremely, magnificently back. Little Oblivions, Julien Baker's third solo album, came out way back in February 2021. Since then, of course, Baker's supergroup boygenius released their absolutely massive 2023 album the record, and Baker and Torres also put out the collaborative 2024 queer country LP Send A Prayer My Way. In recent months, Baker has been playing new songs, starting with a Nashville popup gig in September. Now, Baker is finally ready to announce This World Or The Next, their first solo album in six years.\n\nBefore Julien Baker released their landmark 2015 solo debut Sprained Ankle, they led a teenage post-hardcore band who were initially known as the Star Killers and who later changed their name to Forrister. For This World Or The Next, Baker reunites with their old Forrister bandmates and longtime friends Matt Gilliam and Calvin Lauber, making music that calls back to their Forrister days. They're getting loud this time.\n\nBaker, Gilliam, and Lauber recorded the self-produced album at the LA studio Lucy's Meat Market. According to a press release, the album's first half is all songs that Baker wrote before heading into the studio. They say, \"Hearing the boys jam on them was confirmation. It was so pure.\" For the songs on the second half, Baker started off with voice memos and drumbeats, and they and their collaborators finished the songs up in the studio. Baker says, \"It feels like something we’ve been grasping at for a long time. Making this music, it was like discovering people who spoke your own personal language.\"\n\nAlbum opener and lead single \"Hound,\" the first song that Baker wrote for the project, leaves behind the devastating spareness of their past solo albums. It opens with muted piano and acoustic guitar, but it builds into a dramatic churn, putting some serious muscle behind Baker's enormous voice. I bet it'll sound amazing live. Baker still has a few small-venue shows coming up in Seattle, as well as some festival gigs next summer. Below, check out the Joshua Cannon-directed \"Hound\" video, the tracklist for This World Or The Next, and Baker's upcoming dates.\n\nTRACKLIST: 01 \"Hound\" 02 \"Middle Children\" 03 \"When You’re A Little\" 04 \"High In The Basement\" 05 \"Fake Drugs\" 06 \"Codeine\" 07 \"Gossamer\" 08 \"Old Shine\" 09 \"I Can’t Meet You Where You Are\" 10 \"Lathe\" 11 \"Dragged To Life\"",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "A new Cap'n Jazz/Owls offshoot, caPn j'OWLS, appears with a physical-only debut album",
+     "summary": "Tim Kinsella, Nate Kinsella and Victor Villarreal announced the trio and released the self-titled record on Polyvinyl on 19 November.",
+     "matters": "it is not on streaming or download, so the only way to hear it is vinyl at shows or online, with Villarreal playing UK dates on 8, 9 and 12 December.",
+     "url": "https://stereogum.com/2518641/new-capn-jazz-owls-offshoot-capn-jowls-announce-existence-release-physical-only-debut-album/news",
+     "source": "stereogum.com",
+     "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2025/10/Frankie-Hejduk-MLS-Cup.jpeg",
+     "body": "Add Stereogum to Google We can now add one more band name to the Kinsella extended universe. Really, they've jammed two of the existing band names together.\n\nTim Kinsella, his cousin Nate Kinsella, and Victor Villarreal have been playing in bands together forever. As Illinois teenagers in the '90s, Tim Kinsella and Villarreal were in Cap'n Jazz, one of the most beloved and influential emo bands to ever arise from the Midwest. Post-Y2K, with Cap'n Jazz member Davey von Bohlen off doing the Promise Ring, the rest of the group relaunched as Owls and made more essential underground rock music. Both Cap'n Jazz and Owls have reunited over the years, and the more recent Cap'n Jazz outings have also featured Nate Kinsella, a longtime fixture of the Kinsella extended universe who has played with Tim in Joan Of Arc and Make Believe and with Mike Kinsella in Lies and American Football.\n\nThat brings us to caPn j'OWLS, the newly formed trio of Tim, Nate, and Victor. As teased a few days ago, today the band has announced its existence and released its self-titled debut album. But to listen to it, you're going to have to buy a physical copy (from Polyvinyl, naturally). The caPn j'OWLS LP will not be on DSPs, which means no streaming, not even MP3s for sale. You want the record, you're going to have to buy a record.\n\nAs someone who was blessed with a rare and precious stream of this project, I can tell you that if you're part of Kinsella nation, you're going to want to own caPn j'OWLS. It finds the old pals in fine form, flexing their well-known proclivities for zany time signatures, unconventional chord progressions, and impassioned vocal delivery. But if this music is unmistakably the work of from the Cap'n Jazz braintrust, it's also seasoned with years of wisdom and experience, and this crew continues to push stylistic and compositional boundaries in intriguing ways.\n\nTim Kinsella and Victor Villarreal both have solo shows coming up — Kinsella playing Joan Of Arc songs at US gigs this week, Villarreal touring the UK next month — and caPn j'OWLS will be on sale at those. You can also order it online here. Check out those tour dates below.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Olivia Rodrigo spends a fifth week at No. 1 on the Billboard 200",
+     "summary": "her album you seem pretty sad for a girl so in love earned 62,000 units, with Lil Baby's FRESH debuting at No. 2 on 59,000.",
+     "matters": "P1Harmony's BLOW UP debuted at No. 4 on 45,000 units, 43,500 of them pure album sales, and Morgan Wallen's I'm The Problem is at No. 3 after 14 weeks at No. 1.",
+     "url": "https://ratingsgamemusic.com/2026/11/15/top-5-albums-on-the-billboard-200-this-week-11-16-olivia-rodrigo-lil-baby-morgan-wallen/",
+     "source": "ratingsgamemusic.com",
+     "image": "https://i0.wp.com/ratingsgamemusic.com/wp-content/uploads/2026/11/Bossman-Dlow-Left-Wrist.png",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎬 Culture",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "The Hunger Games: Sunrise on the Reaping opens in cinemas today, and reviews are split",
+     "summary": "the embargo lifted on 17 November, with IndieWire giving it a C- and calling it \"a dreary slog\" while THR and Time Out were positive.",
+     "matters": "Peter Bradshaw in the Guardian found it \"overwrought\" and \"boring\", while Gizmodo called it a \"love letter\" to fans, and Jesse Plemons is the most praised performance.",
+     "url": "https://www.cinemablend.com/movies/sunrise-on-the-reaping-review-roundup-brutal-i-watched-completely-different-movie-joseph-zada",
+     "source": "cinemablend.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Gilded Age is renewed for a fifth season at HBO",
+     "summary": "TVLine reported it on 19 November while season 4 is still airing on Sundays.",
+     "matters": "it is a vote of confidence for HBO's period drama before season 4 has finished.",
+     "url": "https://www.tvline.com/2322091/the-gilded-age-season-5-renewed-hbo/",
+     "source": "tvline.com",
+     "image": "https://www.tvline.com/img/gallery/the-gilded-age-renewed-for-season-5-at-hbo/intro-1795112318.jpg",
+     "body": "HBO Add TVLine on Google: Preferred Source Google Discover Here's one more thing for Peggy and William to celebrate on their honeymoon: \"The Gilded Age\" has been renewed for Season 5 at HBO, TVLine has learned.\n\n\"Julian Fellowes and the cast of 'The Gilded Age' have once again captured the zeitgeist this fall, delivering another captivating, unmissable season, and we love how our growing audience has continued to embrace the series year after year,\" says Francesca Orsi, President of HBO Drama Series and Films. \"We can't wait to return to 61st Street, as the Russells, van Rhijns and Kirklands continue to wrestle with the cost of ascent, while we expand the canvas and deepen the operatic stakes for these beloved characters.\"\n\nAdds Universal Television President Erin Underhill: \"It's very exciting and deeply satisfying to see audiences fall more in love with 'The Gilded Age' every season. Our remarkable cast, writers — led by Julian Fellowes — and the entire creative team continue to make this world feel both timeless and resonant while keeping us on the edge of our seats season after season. We can't wait for audiences to see what's in store for Season 5.\"\n\nSeason 4 of \"The Gilded Age\" stars Carrie Coon as Bertha Russell, Morgan Spector as George Russell, Christine Baranski as Agnes van Rhijn, Cynthia Nixon as Ada Forte, Louisa Jacobson as Marian Brook, Denée Benton as Peggy Scott, Taissa Farmiga as Gladys Russell, Harry Richardson as Larry Russell, Blake Ritson as Oscar van Rhijn, Audra McDonald as Dorothy Scott-Kirkland, Jordan Donica as Dr. William Kirkland, Ashlie Atkinson as Mamie Fish, and Kelley Curran as Enid van Rhijn.\n\nNew episodes of \"The Gilded Age\" air Sundays at 9/8c on HBO. The show is also available to stream on HBO Max.\n\nHBO The latest episode of \"The Gilded Age\" witnessed the splendorous union of William and Peggy, while also introducing several forbidden romances that will continue to blossom as Season 4 unfolds.\n\nThe first is between Ada and Dr. Harris (Dennis Haysbert), a former teacher of William's whom Ada meets at the wedding. Their chemistry is immediately palpable, even if few words are exchanged.\n\nDiscussing the concept of an interracial relationship in the 1880s, actress Cynthia Nixon tells TVLine, \"I think you have to be a little naive to keep walking forward with this relationship, trying to ignore what it would mean not only for you personally, but also for your family at large.\"\n\nThe second romance is between Oscar and Lee Klein (James Scully), the apprentice of a famous painter. They meet at Oscar and Enid's first salon,…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "NBC renews The Traitors: New Blood for season 2",
+     "summary": "the two-part season 1 finale aired on 19 November, and season 2 comes in 2027 with no date yet.",
+     "matters": "Alan Cumming stays on as host and executive producer, and the celebrity edition of The Traitors starts season 5 on 14 January.",
+     "url": "https://www.tvline.com/2321835/the-traitors-new-blood-renewed-season-2-nbc/",
+     "source": "tvline.com",
+     "image": "https://www.tvline.com/img/gallery/the-traitors-new-blood-renewed-for-season-2/intro-1795107933.jpg",
+     "body": "Euan Cherry/NBC Add TVLine on Google: Preferred Source Google Discover \"The Traitors\" will soon be feasting upon some more \"New Blood\": NBC has renewed the civilians-only offshoot of \"The Traitors\" for Season 2, TVLine has learned.\n\nSeason 1 of \"The Traitors: New Blood\" (which was initially referred to as Season 5, but later amended) is currently airing and will wrap Thursday, November 19 at 8/7c with a two-part finale available to stream next-day on Peacock. The season was the first in the U.S. franchise to feature all-civilian players, hence the added \"New Blood\" subtitle.\n\nSeason 2 of \"New Blood\" will again air on NBC some time in 2027, while the celebrity edition (simply titled \"The Traitors\") will continue to stream on Peacock for Seasons 5-7. Season 5 of the OG series is set to begin January 14 at 9/8c with its first two episodes.\n\nAlan Cumming is returning as host and executive producer for all of the franchise's forthcoming editions.\n\nEuan Cherry/NBC Hosted by Alan Cumming, the unscripted competition series began in January 2023, joining 20 contestants together (10 reality A-listers and 10 TV newbies) to complete a series of challenges with the objective of earning a cash prize. But in every season, 2-4 of the contestants coined \"the traitors\" devise a plan to steal the prize from the other contestants coined the faithful.\n\nReads its official description: \"This nail-biting psychological adventure sees contestants work together on a series of exhilarating missions to build a prize fund worth up to $250,000. Hidden among the Faithful are the Traitors, who murder the Faithful one-by-one under the cover of darkness as the Faithful race to uncover them from the game. At the end of the game, if the remaining Faithful banish every Traitor, they share the prize fund; if even one Traitor survives to the end, the remaining Traitors take it all.\"\n\nLet's hear it, \"Traitors\" fans: Are you happy to see more everyday Joes enter the castle? Let us know in the comments.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Blade Runner 2099 lands on Prime Video on 25 November",
+     "summary": "all eight episodes arrive at once in more than 240 countries and territories.",
+     "matters": "Michelle Yeoh and Hunter Schafer lead the cast, and the trailer was updated on the Amazon page on 9 November.",
+     "url": "https://aboutamazon.com/news/entertainment/blade-runner-2099-prime-video",
+     "source": "aboutamazon.com",
+     "image": "https://assets.aboutamazon.com/cb/cb/b53e548747d5ab3d7ac510435791/thelordoftherings-theringsofpower-primevideo-amazonnews-cdlt-july-24-2026.png",
+     "body": "The latest season of Prime Video’s epic saga features new characters including Jamie Campbell Bower as Celeborn.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Worth watching this week: Percy Jackson and the Olympians season 3, \"The Titan's Curse\", premieres on Disney+ today",
+     "summary": "Walker Scobell, Leah Sava Jeffries and Aryan Simhadri return, with Tamara Smart as Thalia.",
+     "matters": "it adapts the third Rick Riordan book, and I found no critic reviews yet, so treat it as a pick on the cast and the source material.",
+     "url": "https://press.disneyplus.com/news/percy-jackson-s3-premieres-nov-20-disney-plus-sdcc",
+     "source": "press.disneyplus.com",
+     "image": "https://lumiere-a.akamaihd.net/v1/images/a8e5567d1658de062d95d079ebf536b0_4096x2309_6dedcc02.png",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🏛️ Brussels",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Commission preliminarily finds Temu in breach of the DSA over illegal products (17 November)",
+     "summary": "it says Temu's product-compliance checks, content moderation and sanctions system are all ineffective at stopping illegal goods. The finding is preliminary and Temu can respond.",
+     "matters": "it follows the €200m fine in May and the action plan accepted on 26 October, so marketplace operators should expect scrutiny of how risk assessments translate into working controls.",
+     "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-temu-breach-digital-services-act-failure-tackle-sale-illegal",
+     "source": "digital-strategy.ec.europa.eu",
+     "image": null,
+     "body": "The European Commission preliminarily found Temu in breach of the Digital Services Act (DSA) obligation to put in place reasonable, proportionate and effective measures to mitigate the risk of illegal products being offered on its platform.\n\nThe Commission preliminarily found that Temu's mitigation measures include ineffective controls to check the compliance of products; a weak content moderation system; and an ineffective sanction system.\n\nShopping online should not mean risking the purchase of illegal and unsafe products. Under the Digital Services Act, platforms are responsible for protecting users from the risk of illegal content and goods. The preliminary findings against Temu mark another step towards making the online world safer.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Two new AI Act bans start on 2 December 2026",
+     "summary": "the Digital Omnibus on AI (Regulation 2026/1744) bans AI systems that generate or manipulate intimate images or audio of an identifiable person without explicit consent, and systems that generate child sexual abuse material. Providers are caught when that output is the intended purpose or a reasonably foreseeable and reproducible outcome without adequate safeguards.",
+     "matters": "if you ship an image, video or voice generation model, you need safeguards in place before 2 December, because Article 5 fines run to €35m or 7% of turnover and the Commission's guidelines do not yet cover the new bans.",
+     "url": "https://artificialintelligenceact.eu/prohibited-ai-practices-under-the-ai-act/",
+     "source": "artificialintelligenceact.eu",
+     "image": null,
+     "body": "This page aims to provide an overview of AI systems, and in particular general-purpose AI (GPAI) systems, used for the purpose of therapy or emotional support under the AI Act. It explores the obligations of providers of these AI systems both on the system as well as...",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "DMA High-Level Group meets and puts the AI Act and the coming EU Kids Act on the agenda (17 November)",
+     "summary": "at its seventh plenary in Brussels the group discussed cybersecurity, the latest AI Act developments and how the forthcoming EU Kids Act proposal interacts with the DSA and DMA. The page reports no decisions.",
+     "matters": "it signals that child-safety rules will be designed alongside the DSA and DMA, so teams building for minors should watch for the proposal.",
+     "url": "https://digital-markets-act.ec.europa.eu/seventh-meeting-digital-markets-act-high-level-group-2026-11-17_en",
+     "source": "digital-markets-act.ec.europa.eu",
+     "image": null,
+     "body": "The meeting provided an opportunity for exchanges on the work of other fora bringing together digital regulators, with presentations by representatives of the United Kingdom’s Digital Regulation Cooperation Forum (DRCF) and the Irish Digital Regulators Group (DRG). Drawing on the experiences of these fora, the participants explored how coordination and cooperation among members of the High-Level Group could be further strengthened.\n\nThe meeting also addressed key interfaces between the DMA and other regulatory instruments. The discussions covered cybersecurity, the latest developments concerning the Artificial Intelligence Act, and the forthcoming EU Kids Act proposal, with particular attention to its interaction with existing instruments such as the Digital Services Act (DSA) and the DMA.\n\nThe DMA aims to ensure contestable and fair markets in the digital sector. It regulates gatekeepers, which are large digital platforms that provide an important gateway between business users and consumers, whose position can grant them the power to create a bottleneck in the digital economy.\n\nOn 23 March 2023, the Commission adopted a decision to establish a High-Level Group on the DMA. The High-Level Group provides the Commission with advice and expertise to ensure that the DMA and other sectoral regulations applicable to gatekeepers are implemented in a coherent and complementary manner.\n\nThe High-Level Group is composed by nominated representatives from the Body of the European Regulators for Electronic Communications (BEREC), the European Data Protection Board (EDPB) and the European Data Protection Supervisor (EDPS), the European Competition Network (ECN), the Consumer Protection Cooperation Network (CPC Network), and the European Board for Media Services (EBMS).\n\nFor more information, visit the Digital Markets Act policy page and the Register of Commission expert groups and other Similar entities.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Commission study says age assurance can be proportionate and cheap, backing the EU age verification blueprint (4 November)",
+     "summary": "the independent study, commissioned to inform the proposed EU Kids Act, expects new costs to be modest for most services and to fall over time. It names the privacy-preserving blueprint as potentially one of the most affordable compliance options for providers of any size, SMEs included.",
+     "matters": "if your service has minors as users, expect age checks to become a requirement and plan around the blueprint rather than a bespoke vendor.",
+     "url": "https://digital-strategy.ec.europa.eu/en/library/independent-study-impact-age-assurance-fundamental-rights-and-costs-businesses",
+     "source": "digital-strategy.ec.europa.eu",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Commission preliminarily finds TikTok's \"For You\" feed in breach of the DSA over \"rabbit hole\" effects (6 November)",
+     "summary": "it says the recommender system can repeatedly serve content on sadness, isolation or body image, and the findings cover TikTok's risk assessment and mitigation.",
+     "matters": "recommender systems are now being judged on their engagement-loop effects on mental health, so large platforms should document how they assess and mitigate that risk.",
+     "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes",
+     "source": "digital-strategy.ec.europa.eu",
+     "image": null,
+     "body": "The European Commission has preliminarily found TikTok in breach of the Digital Services Act (DSA) for the so-called ‘rabbit hole effect’ of its recommender system.\n\nTikTok's ‘For You' feed shows users a continuous stream of personalised videos, even when those are related to mental health struggles and body image.\n\nThe more a user interacts with a certain type of content, the more TikTok's ‘For You' feed algorithm recommends similar content. This design can be harmful when such endless and repeated exposure involves, for example, content about sadness, isolation or body image. These ‘rabbit holes' can have a detrimental impact on users' mental health, especially that of vulnerable adults and minors.",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "📅 Tonight",
+   "kind": "fixtures",
+   "items": [
+    {
+     "type": "fixture",
+     "text": "Bundesliga — Bayern München v 1. FC Köln, 20:30"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Hornets at Hawks, 01:00 (Saturday)"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Magic at Nets and Pacers at Cavaliers, 01:30 (Saturday)"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Raptors at Pistons, 01:30 (Saturday)"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Wizards at Bulls and Pelicans at Thunder, 02:00 (Saturday)"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Suns at Jazz, 03:30 (Saturday)"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Rockets at Nuggets and Kings at Lakers, 04:00 (Saturday)"
+    }
+   ]
+  },
+  {
+   "name": "🏀 NBA",
+   "kind": "scores",
+   "items": [
+    {
+     "type": "score",
+     "group": null,
+     "home": "Grizzlies",
+     "away": "Warriors",
+     "home_score": 126,
+     "away_score": 98,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Jaylen Wells 22 pts, 7 reb for Memphis; Warriors' Charles Bassey had 16 pts, 13 reb.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Trail Blazers",
+     "away": "Bucks",
+     "home_score": 124,
+     "away_score": 114,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Damian Lillard 33 pts for Portland; Tyler Herro had 19 pts for Milwaukee.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Knicks",
+     "away": "Timberwolves",
+     "home_score": 102,
+     "away_score": 99,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Karl-Anthony Towns 22 pts, 12 reb for New York in a three-point road win; Jonathan Kuminga had 23 pts for Minnesota.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Spurs",
+     "away": "Clippers",
+     "home_score": 124,
+     "away_score": 112,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Victor Wembanyama 32 pts, 11 reb, 3 ast for San Antonio; Brook Lopez and Darius Garland each had 23 pts for the Clippers.",
+     "flag": null
+    }
+   ]
+  },
+  {
+   "name": "⚽ Football",
+   "kind": "scores",
+   "items": [
+    {
+     "type": "note",
+     "text": "Nothing qualified: no Premier League, La Liga, Serie A, Bundesliga, Ligue 1 or Ekstraklasa match was played in the last 24 hours, and no national-team match with verifiable scorers turned up. The next match is tonight, Bayern München v 1. FC Köln in the Bundesliga."
+    }
+   ]
+  },
+  {
+   "name": "📌 Long read",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Aeon on the young women of Tehran who dress as they please",
+     "summary": "Parisa Khoshnami's essay runs about 2,800 words and argues that this quiet, collective \"non-movement\" erodes state authority even though its participants do not call it political, because the government would rather stop enforcing the hijab than admit defeat.",
+     "matters": null,
+     "url": "https://aeon.co/essays/its-not-political-the-young-fashionistas-of-tehran",
+     "source": "aeon.co",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  }
+ ]
+}
