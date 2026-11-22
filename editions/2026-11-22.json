@@ -1,0 +1,1317 @@
+{
+ "schema": 1,
+ "generated": "2026-11-22T07:32:52",
+ "date": "2026-11-22",
+ "greeting": "Good morning — Sunday, 22 November 2026.",
+ "title": "Iran fired drones and ballistic missiles at US bases in Bahrain as more than 14 of its tankers lined up at Kharg Island to test the US blockade",
+ "workout": "😴 Rest day — next session Tuesday. Nothing logged in Hevy yet.",
+ "audio": null,
+ "read_minutes": 24,
+ "sections": [
+  {
+   "name": "🎯 TL;DR",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Iran fired drones and ballistic missiles at US bases in Bahrain as more than 14 of its tankers lined up at Kharg Island to test the US blockade",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Anthropic's record IPO could not escape the sell-off: it closed Friday at $88.91, about 20% below its $111.50 opening price",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Prosecutors confirmed that a Russian Kh-101 missile fell in Nowy Lipowiec, and NATO's North Atlantic Council meets in emergency session on Monday",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🔄 What changed",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "The Iran war escalated from Houthi fire on Riyadh to Iranian strikes on US bases in Bahrain, with three tankers hit around Hormuz",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Friday's Wall Street close was worse than the afternoon reading, with the Nasdaq down 5.28% and the S&P 500 down 3.70%, while bitcoin rebounded 5.2% to $58,895 and Brent fell 2.2% to $89.95",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Polish airspace incident moved from possible violations to a confirmed Kh-101 and a NATO emergency session, and Evercold now has a 23 February 2027 release date",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🔁 Following",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Iran war: Iran hit US bases in Bahrain and three tankers, and Qatar-led talks continue",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Anthropic IPO: closed Friday at $88.91, down about 20% from the opening price, after raising a record $93.5bn",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Russian objects in Polish airspace: one is confirmed as a Kh-101, work resumed at Mołodycz, and NATO meets Monday",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🌍 World",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Iran strikes US bases in Bahrain as its tankers prepare to run the US blockade",
+     "summary": "Iran fired two waves of drones and ballistic missiles at US sites in Bahrain, and Bahrain says its air defences intercepted several. A fire broke out at a civilian industrial compound, with no injuries reported. The UK Maritime Security Centre says two tankers were hit by projectiles leaving the Gulf, and Iran says a third struck a mine.",
+     "matters": "more than 14 Iranian tankers are lined up at Kharg Island to test the blockade, Tehran calls the blockade \"an act of war\" and threatens Gulf energy infrastructure, while Qatar-led talks continue.",
+     "url": "https://www.euronews.com/2026/11/21/iran-attacks-us-bases-in-bahrain-as-its-tankers-get-ready-to-break-the-us-blockade",
+     "source": "euronews.com",
+     "image": "https://images.euronews.com/articles/stories/09/98/75/06/189x106_cmsv2_4c0438d4-6c00-5f41-b9c9-dc6d0a85886b-9987506.jpg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Russia's overnight barrage of 400+ drones and 110+ missiles reaches Lviv as well as Kyiv",
+     "summary": "Zelenskyy says the attack included 27 ballistic missiles and hit energy, rail and Dnipro bridge targets. At least seven people died in Kyiv, and two died and at least 10 were hurt in Lviv.",
+     "matters": "Zelenskyy called Putin a \"killer\" after Trump called him a \"friend\", and Russian strikes also damaged the Austrian and Dutch embassies in Kyiv.",
+     "url": "https://www.euronews.com/video/2026/11/22/ukraine-dashcam-captures-massive-explosion-on-lviv-street",
+     "source": "euronews.com",
+     "image": "https://images.euronews.com/articles/stories/10/00/30/20/189x106_cmsv2_279041f0-2db4-5ece-9c14-fedb431c422c-10003020.jpg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "COP31 climate talks run into a second day of overtime",
+     "summary": "President Murat Kurum has tabled a last-minute text that he says all parties can accept. Objections were due by 03:00 GMT on Sunday, and a session to begin approval was set for 06:00 GMT.",
+     "matters": "the sticking points are how hard to push the phase-down of fossil fuels, whether to promote carbon capture, and whether new power capacity should be renewables only. An earlier draft that omitted fossil fuels drew sharp criticism, and a later one dropped all mentions after Saudi Arabia and other producers objected.",
+     "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime",
+     "source": "aljazeera.com",
+     "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b025ad2-1795316434.jpg?resize=1920%2C1440",
+     "body": "x whatsapp-stroke copylink google Add Al Jazeera on Google info COP31 President Murat Kurum is surrounded by advisers during a session of the closing plenary at the UN Climate Change Conference in Antalya, Turkiye, on November 22, 2026 [Murad Sezer/Reuters] By Al Jazeera Staff, AP and Reuters Published On 22 Nov 2026 22 Nov 2026 Turkish officials have asked negotiators at the COP31 climate summit to consider a last-minute proposal as talks stretched into a second day of overtime over the fossil fuels issue.\n\n“We believe that we have put forward a text which all the parties can agree upon,” COP31 President Murat Kurum told a late-night plenary session on Saturday.\n\nKurum, who is also Turkiye’s environment minister, said the conference would reconvene later on Sunday morning to approve the deal.\n\nThe latest text was not immediately made public, and it was unclear if negotiators had received the wording overnight, which would give nations only a few hours to submit objections and changes.\n\nAn earlier draft had drawn strong condemnation for failing to mention fossil fuels, the largest contributors to climate change.\n\nKurum said he ⁠believed concerns around fossil fuels had ‌been addressed, as had those ‌around helping developing countries finance their adaptations to climate change.\n\nThe new ‌text followed intensive consultations between Australia, which is ‌leading the talks; Turkiye, which is hosting the meeting; and nearly 200 delegations from many of the world’s richest, poorest, largest and smallest nations.\n\nDelegations had until 03:00 GMT on Sunday to ‌raise any objections to the deal, with a session scheduled at 06:00 GMT to ⁠begin approving ⁠it.\n\nThe summit’s agreement is meant to address how the world will deal with climate change, which drives heatwaves, floods and other disasters.\n\nAn opening draft from Australia on Monday called for a faster phase-out of fossil fuels. A slimmer version on Thursday removed every mention of them after Saudi Arabia and other major oil and gas producers objected.\n\nKey issues that slowed down the agreement included how much effort countries should make to wean themselves off fossil fuels, such as coal, oil and gas.\n\nOther issues included whether to encourage industrial carbon capture and storage of pollutants, as well as whether ramping up electricity should only be done with renewables, such as wind and solar, or also involve other sources like natural gas and coal.\n\nTo avert the most catastrophic effects of warming, experts said the world needs to urgently and drastically cut fossil fuel emissions.\n\nIn a letter…",
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Mexico captures FBI Ten Most Wanted fugitive \"El Chapo Isidro\"",
+     "summary": "Fausto Isidro Meza Flores, who leads the Guasave Cartel and is linked to the Beltrán Leyva organisation, was arrested in Guasave, Sinaloa, on the night of 20 November. Seven suspected gunmen and four soldiers were killed, and eight people were arrested.",
+     "matters": "Mexico says US intelligence helped locate him, though it has not disclosed how the two countries cooperated, and the US had offered up to $5m for information leading to his arrest.",
+     "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+     "source": "euronews.com",
+     "image": "https://images.euronews.com/articles/stories/09/98/75/06/189x106_cmsv2_4c0438d4-6c00-5f41-b9c9-dc6d0a85886b-9987506.jpg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Bolsonaro is in intensive care with an acute bowel obstruction",
+     "summary": "the former president was admitted to DF Star hospital in Brasília on Friday with abdominal pain. The hospital says he is stable and alert, with no discharge date.",
+     "matters": "he is serving a 27-year coup sentence under house arrest, and Brazil's Supreme Court is due to consider next month a law that changes how sentences are calculated, which could shorten his and others' terms.",
+     "url": "https://www.aljazeera.com/news/2026/11/21/brazils-jair-bolsonaro-in-intensive-care-with-bowel-obstruction",
+     "source": "aljazeera.com",
+     "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b01f9ee35b6-1795291630.jpg?resize=1920%2C1440",
+     "body": "x whatsapp-stroke copylink google Add Al Jazeera on Google info Former Brazilian President Jair Bolsonaro gestures after taking medical tests at DF Star hospital in Brasilia on August 16, 2025 [File: AFP] By Al Jazeera Staff Published On 21 Nov 2026 21 Nov 2026 Brazil’s former President Jair Bolsonaro is in intensive care after being diagnosed with an acute bowel obstruction, according to the DF Star hospital where he is being treated.\n\nBolsonaro, 71, was admitted on Friday with abdominal pain. In a bulletin on Saturday, the hospital said doctors have started giving him fluids and nutritional support, and inserted a tube into his stomach.\n\nIt said the former president is clinically stable and conscious, although they said there was no projected date for his discharge.\n\nIn the early hours of Saturday morning, he described his father’s difficult night of treatment, where food residue was removed from his stomach using a tube inserted into his nose, and bouts of nausea.\n\n“I’m not a doctor, but I’ve never seen him like this,” he wrote, suggesting that his father might need another surgery, which would be his 10th in less than eight years.\n\n“All this is happening to a man sentenced to 27 years in prison without having committed any crime, while criminals do whatever they want with what’s left of this country,” the younger Bolsonaro continued.\n\nBolsonaro has been serving a 27-year sentence since last year for an attempted coup after losing the 2022 election to current President Luiz Inacio Lula da Silva. Bolsonaro has denied the charges.\n\nHe has been hospitalised repeatedly and has had to undergo surgeries after being stabbed in 2018 during a campaign event.\n\nHe was transferred in March to house arrest after spending several months in jail because of his health issues.\n\nNext month, Brazil’s Supreme Court is set to consider the constitutionality of a law that changes how sentences are calculated, which could shorten his sentence and those of others convicted in the 2022 coup plot.",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🇵🇱 Polska",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Prokuratura potwierdza: w Nowym Lipowcu spadła rosyjska rakieta Kh-101 (day 3)",
+     "summary": "zastępca prokuratora okręgowego w Lublinie Andrzej Boroń powiedział „to jest ta rakieta\", a prokurator Marcin Kozak dodał, że zabezpieczono elementy napędu i naprowadzania, a lej jest dużo mniejszy niż w Tarnawie-Kolonii z 30 lipca.",
+     "matters": "wczoraj mówiono o „rakietach i prawdopodobnie dronie\", dziś jeden z trzech obiektów jest zidentyfikowany, a prace w Mołodyczu wznowiono w niedzielę rano po przerwie z powodu ciemności.",
+     "url": "https://www.rmf24.pl/fakty/polska/news-to-jest-ta-rakieta-prokuratura-o-obiekcie-ktory-spadl-w-nowy,nIdn,1027109",
+     "source": "rmf24.pl",
+     "image": "https://rmf.rmffm.pl/news/attachments/a6/bc/sluzby-w-rudniku-nad-sanem-gdzie-spadl-obiekt-latajacy-fot-966x643-a6bcb318.jpg",
+     "body": "„To jest ta rakieta. Te wiadomości mamy. Rzecz jest oczywista” - powiedział wiceszef Prokuratury Okręgowej w Lublinie Andrzej Boroń dopytywany, czy w Nowym Lipowcu w piątek spadła rakieta Ch-101. Na miejscu zakończyły się już prace prokuratury i Żandarmerii Wojskowej. Śledczy zakończyli też prace w Rudniku nad Sanem (Podkarpackie), czasowo przerwali prace w Mołodyczu (Podkarpackie).\n\nSłużby w Rudniku nad Sanem, gdzie spadł obiekt latający (fot. Piotr Polak) / PAP Niezidentyfikowane obiekty latające spadły w piątek w miejscowościach: Nowy Lipowiec (pow. biłgorajski, woj. lubelskie), Rudnik nad Sanem (pow. niżański, woj. podkarpackie), Mołodycz (pow. jarosławski, woj. podkarpackie). Okoliczności zdarzeń bada prokuratura i Żandarmeria Wojskowa.\n\nZ tego co wiem, tor lotu był mniej więcej znany. Wiemy, że jest to pocisk manewrujący produkcji radzieckiej. Mogę powiedzieć, że został wyprodukowany w czwartym kwartale tego roku - zaznaczył.\n\nRzecznik lubelskiej prokuratury Marcin Kozak poinformował w sobotę wieczorem, że w Mołodyczu - z uwagi na porę dnia - czynności w terenie zostały czasowo wstrzymane. „Podobnie jak minionej nocy, teren pozostaje ściśle zabezpieczony przez służby przed dostępem osób postronnych, a oględziny zostaną wznowione jutro w godzinach porannych” – napisał Kozak na portalu X.\n\nProkuratura i żandarmeria zakończyły prace w miejscu upadku obiektu latającego w Rudniku nad Sanem (Podkarpackie). Prok. Kozak poinformował w sobotę wieczorem, że wszystkie ślady kryminalistyczne i fragmenty obiektu ujawnione w Rudniku „zostały w całości podjęte i procesowo zabezpieczone”.\n\n„Z uwagi na zapadnięcie zmroku, w dniu jutrzejszym w godzinach porannych przewidziano wyłącznie krótką czynność techniczną polegającą na zebraniu z terenu pustych palików znacznikowych wykorzystywanych podczas dokumentowania miejsca zdarzenia” – napisał Kozak na portalu X.\n\nUzupełnił, że również w sobotę zakończone zostały oględziny w Nowym Lipowcu. Natomiast w Mołodyczu teren został zabezpieczony na noc, wznowienie oględzin prokuratura planuje w niedzielę rano.\n\nProkurator Kozak wcześniej mówił na konferencji prasowej, że w Nowym Lipowcu udało się wydobyć i zabezpieczyć „elementy napędowe i sterownicze”.\n\nProkurator przyznał, że lej w Nowym Lipowcu jest dużo mniejszy niż w Tarnawie-Kolonii, gdzie 30 lipca spadła rosyjska rakieta manewrująca Ch-101, ale nie podał jego wymiarów. W Tarnawie lej wskazywał, że doszło do detonacji tego elementu wybuchowego. Tutaj (w Nowym Lipowcu – PAP) jest mniejszy lej – powiedział.\n\nPirotechnicy - informował - przy użyciu sprzętu ciężkiego…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "W poniedziałek nadzwyczajne posiedzenie Rady Północnoatlantyckiej w sprawie naruszenia polskiej przestrzeni powietrznej",
+     "summary": "Kosiniak-Kamysz zapowiada „silne wsparcie\" NATO dla wschodniej granicy i konkretne propozycje, a Polskę reprezentuje wiceminister Paweł Zalewski.",
+     "matters": "Rutte w TVN24 nazwał incydent niebezpiecznym, ale nie „terytorium artykułu 5\", a treść pomocy nie jest jeszcze znana.",
+     "url": "https://www.bankier.pl/wiadomosc/Polska-otrzyma-silne-wsparcie-NATO-Wazne-spotkanie-juz-w-poniedzialek-9233051.html",
+     "source": "bankier.pl",
+     "image": "https://galeria.bankier.pl/p/2/5/a50f29cea7dfb6-948-568-15-87-2032-1219.jpg",
+     "body": "Skomentuj Wicepremier, szef MON Władysław Kosiniak-Kamysz poinformował, że w najbliższym czasie Polska otrzyma od sojuszników z NATO silne wsparcie wzmacniające ochronę wschodniej granicy. Konkretne propozycje mają zostać przedstawione w poniedziałek podczas spotkania Rady Północnoatlantyckiej - dodał.\n\nfot. Impact CEE / / Flickr W poniedziałek w Kwaterze Głównej NATO w Brukseli dojdzie do spotkania Rady Północnoatlantyckiej. Rozmowa będzie dotyczyła naruszenia przestrzeni powietrznej Polski przez rosyjskie rakiety. Polskę będzie reprezentować wiceminister obrony Paweł Zalewski.\n\n„W najbliższym czasie otrzymamy od sojuszników z NATO silne wsparcie wzmacniające ochronę naszej wschodniej granicy! W poniedziałek w Kwaterze Głównej NATO odbędzie się nadzwyczajne spotkanie Rady Północnoatlantyckiej, na którym przedstawimy konkretne propozycje i określimy nowe możliwości działania” - zapowiedział w sobotę wieczorem na platformie X Kosiniak-Kamysz.\n\nDodał, że w sprawie szczegółów rozmawiał w sobotę z naczelnym dowódcą Sojuszniczych Sił w Europie gen. Alexusem Grynkewichem. Podziękował też sekretarzowi generalnemu NATO Markowi Ruttemu za - jak napisał - deklarację w tej sprawie.\n\nRada Północnoatlantycka to najważniejszy organ decyzyjny NATO. Tworzą ją przedstawiciele wszystkich państw członkowskich Sojuszu (zazwyczaj ambasadorowie przy NATO, ale w razie potrzeby także ministrowie spraw zagranicznych, obrony albo szefowie państw i rządów).\n\nW piątek wczesnym rankiem trzy rosyjskie obiekty wtargnęły w przestrzeń powietrzną w południowo-wschodniej Polsce podczas jednego z większych ataków na zachodnią Ukrainę. W dwóch miejscach na Podkarpaciu i jednym na Lubelszczyźnie spadły obiekty - najprawdopodobniej rakiety i dron odrzutowy. Według służb w wyniku tego zdarzenia nikt nie doznał obrażeń.\n\nSekretarz generalny NATO, podczas sobotniej wizyty w Warszawie, podkreślił, że w związku z tym zdarzeniem był w kontakcie zarówno z polskim premierem, jak i prezydentem.\n\n- Polska jest mocnym sojusznikiem, macie tutaj świetne wojska, a teraz musimy dokładnie ustalić, co się stało. Dowódca sił NATO w Europie zrobi wszystko, aby dowiedzieć się dokładnie, gdzie są zagrożenia dla naszego systemu odstraszania i obrony, aby w razie konieczności wdrożyć jakieś zmiany - zaznaczył Rutte.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Rząd ostrzega przed nową falą dezinformacji po upadku rosyjskich obiektów",
+     "summary": "wiceminister cyfryzacji Paweł Olszewski mówi, że po 24 godzinach stare narracje słabną, a nowe głoszą, że szczątki przywiozły służby i że wojsko nie może działać bez zgody Niemiec.",
+     "matters": "w obiegu były też deepfake'i udające Kosiniaka-Kamysza i Kierwińskiego, a Centrum Walki z Dezinformacją, powołane zarządzeniem Tuska z 29 września, ocenia zasięg nowych treści jako bardzo ograniczony.",
+     "url": "https://www.bankier.pl/wiadomosc/Szczatki-rakiet-przywiezione-przez-sluzby-Rzad-ujawnia-nowe-teorie-dezinformacyjne-9233039.html",
+     "source": "bankier.pl",
+     "image": "https://galeria.bankier.pl/p/d/a/f766846f327434-948-568-0-270-4000-2399.jpg",
+     "body": "Skomentuj Dobę po naruszeniu polskiej przestrzeni powietrznej pojawiły się nowe wątki fałszywych narracji, m.in. że szczątki rakiet zostały przywiezione przez służby - poinformował w sobotę wiceminister cyfryzacji Paweł Olszewski, szef Centrum Walki z Dezinformacją. Wcześniejsze narracje słabną - dodał.\n\nfot. Kacper Pempel / / Reuters / Forum W piątek podczas nocnych zmasowanych ataków Rosji na Ukrainę doszło do naruszenia polskiej przestrzeni powietrznej. Niezidentyfikowane obiekty - najprawdopodobniej dwie rosyjskie rakiety i dron - spadły w trzech miejscach – w okolicy Nowego Lipowca w województwie lubelskim, Rudniku nad Sanem oraz Mołodyczy w województwie podkarpackim.\n\n„Stale monitorujemy przestrzeń informacyjną w związku z naruszeniem polskiej przestrzeni powietrznej przez rosyjskie rakiety i drona” - napisał w serwisie X Olszewski.\n\nWskazał, że po 24 godzinach od zdarzeń, zidentyfikowane wcześniej, główne fałszywe narracje słabną, co może mieć związek z akcją informacyjną służb i administracji.\n\nDo dominujących nieprawdziwych narracji należy teza o tym, że szczątki rakiet zostały przywiezione przez służby oraz że polskie wojsko nie może samodzielnie, bez zgody Niemiec, podejmować działań ograniczających zagrożenie - wymienił.\n\n„Te kuriozalne próby siania dezinformacji mają już jednak bardzo ograniczone zasięgi” - podkreślił szef Centrum Walki z Dezinformacją (CWD).\n\nJak podało centrum, do dezinformacji przyczyniły się również treści wygenerowane z użyciem sztucznej inteligencji, w tym deepfake'i imitujące i prześmiewczo przedstawiające reakcje wicepremiera, ministra obrony narodowej Władysława Kosiniaka-Kamysza oraz ministra spraw wewnętrznych i administracji Marcina Kierwińskiego. Celem tych materiałów było podważanie zaufania do wydawanych przez rząd komunikatów.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Sikorski oskarża Pałac Prezydencki w sprawie ambasadora w Chinach, Kumoch odpowiada",
+     "summary": "szef MSZ napisał na X, że Pałac najpierw zachęcał ambasadora w Pekinie do odejścia, a potem starał się o wizytę Nawrockiego w Chinach, i nazwał to najgłupszą rzeczą w dyplomacji.",
+     "matters": "Jakub Kumoch twierdzi, że zrezygnował sam z powodu przejęcia Trybunału, a Xi zaprosił Nawrockiego jesienią 2025, więc rozmowy dotyczą tylko terminu.",
+     "url": "https://tvn24.pl/polska/rezygnacja-jakuba-kumocha-z-funkcji-ambasadora-karol-nawrocki-stara-sie-o-wizyte-w-chinach-radoslaw-sikorski-krytykuje-st9351329",
+     "source": "tvn24.pl",
+     "image": "https://tvn24.pl/_e/i/najnowsze/cdn-zdjecie-karol-nawrocki-ph9341366/alternates/WEBP_LANDSCAPE_1620",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "PiS chce, by banki liczyły 800+ do zdolności kredytowej",
+     "summary": "projekt przedstawili w Otwocku Kacper Płażyński i Przemysław Czarnek, a obejmuje też zasiłek rodzinny, świadczenia alimentacyjne i emerytury.",
+     "matters": "Czarnek twierdzi, że PKO BP nie liczy 800+ od 1 lipca wbrew zaleceniu KNF, a prezes banku Szymon Midera odpowiada, że bank je uwzględnia i dostosowuje procesy do zaleceń.",
+     "url": "https://www.bankier.pl/wiadomosc/PiS-proponuje-zmiany-w-kredytach-Banki-mialyby-uwzgledniac-800-9233007.html",
+     "source": "bankier.pl",
+     "image": "https://galeria.bankier.pl/p/4/9/59a0141b5f4875-948-568-412-112-1927-1156.jpg",
+     "body": "Skomentuj Większa dostępność mieszkań komunalnych w miejscowościach przełoży się na mniejszy popyt rynkowy i spadek cen - ocenił w sobotę wiceprezes PiS Przemysław Czarnek. Wcześniej zaprezentował projekt ustawy, która nakazywałaby bankom uwzględnianie świadczenia 800+ w ustaleniu zdolności kredytowej.\n\nfot. Tomasz Kubiak / / ArtService Przemysław Czarnek podczas odbywającej się w sobotę konferencji Prawa i Sprawiedliwości w Otwocku zwrócił uwagę, że trudno sobie wyobrazić godziwe warunki do życia bez mieszkania. - Problem mieszkań to przecież nie tylko problem godziwych warunków do życia, to problem szerszy. To problem także tego wielkiego kryzysu demograficznego, w jakim jesteśmy jako Polska, jako Polacy. Pośród ważnych przyczyn, dla których ta zapaść demograficzna dzisiaj ma miejsce, jest to, że młodzi Polacy wskazują właśnie na brak mieszkania albo brak wystarczająco dużego mieszkania - zauważył.\n\n- Czy można rozwiązać ten problem szybko? Tak. Jesteśmy w pięknym Otwocku. (...) Przed godz. 12, zanim tutaj dojechałem, pan prezydent (Otwocka - PAP) Jarosław Margielski zawiózł mnie na nowe osiedle. To osiedle to trzy nowoczesne bloki mieszkaniowe, łącznie 90 mieszkań, średnio około 45 mkw, wykończonych pod klucz, nie w stanie deweloperskim. (...) To osiedle pokazuje dokładnie, jak można poradzić sobie z problemami mieszkaniowymi w całej Polsce - dodał.\n\nWyjaśnił, że metr kwadratowy tych mieszkań ma kosztować ok. 8,7 tys. zł. - To nieprawda, że dzisiaj mieszkania muszą kosztować po dwadzieścia kilka tysięcy złotych za metr kwadratowy i to jeszcze w stanie developerskim, w którym nie da się zamieszkać. To nieprawda, Otwock to pokazuje - dodał.\n\n- Oczywiście nie mówimy tutaj o tym, że wszyscy mają mieszkać teraz w mieszkaniach komunalnych, ale im więcej tego rodzaju mieszkań komunalnych, im większa dostępność mieszkań komunalnych w poszczególnych miastach i miasteczkach, tym mniejszy popyt na rynku i tym niższe ceny - podkreślił.\n\nCzarnek ocenił również, że drugim problemem do rozwiązania w kwestii mieszkań jest dostępność kredytów. Przypomniał przy tym, że w sobotę razem z posłem PiS Kacprem Płażyńskim zaprezentował projekt ustawy, zgodnie z którym banki miałyby być zobligowane do uwzględniania świadczenia 800+ w ustaleniu zdolności kredytowej.\n\nZ przygotowanego przez PiS projektu ustawy wynika, że przy ustalaniu zdolności kredytowej musiałyby być uwzględniane również inne świadczenia - m.in. zasiłek rodzinny, świadczenia alimentacyjne, czy emerytury.\n\n- PKO BP nawet wbrew konkretnym zaleceniom Komisji Nadzoru Finansowego, od 1 lipca nie wlicza do…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "💰 Money",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "WIG20 4,016.3 · USD/PLN 4.042 (+0.57%) · EUR/PLN 4.436 (+0.58%) · BTC $58,895 (+5.2%) · Brent $89.95 (-2.2%)",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Friday's close was worse than the afternoon reading",
+     "summary": "Bankier's snapshot shows the Nasdaq down 5.28%, the S&P 500 down 3.70%, the DAX down 2.60% and gold down 4.03% on 20 November.",
+     "matters": "yesterday the Nasdaq Composite was down almost 4% in afternoon trading; a Bank of America survey now shows tech overweights at 12% against 37% in October, the fastest drop since June 2006, and Nvidia closed near $125 after falling 14%.",
+     "url": "https://www.bankier.pl/wiadomosc/Strach-i-niepewnosc-na-Wall-Street-Co-dalej-z-Nvidia-dokad-zmierza-inflacja-9233028.html",
+     "source": "bankier.pl",
+     "image": "https://galeria.bankier.pl/p/a/1/4f080c929afbcd-948-568-47-179-3664-2198.jpg",
+     "body": "Skomentuj Na Wall Street nie milkną dyskusje wokół Nvidii oraz spadających notowań innych firm związanych ze sztuczną inteligencją. Część ekspertów zastanawia się nad wyceną akcji producenta chipów, inni krytykują pochopne decyzje rady dyrektorów po odejściu Jensena Huanga. W tym samym czasie bankierzy centralni i analitycy ostrzegają przed nową falą inflacji napędzaną polityką monetarną oraz zjawiskiem El Niño.\n\nfot. Kurt Amthor / imageBROKER / Forum / / FORUM Aswath Damodaran: Kupię akcje Nvidii, jeśli spadną poniżej 140 USD Aswath Damodaran, ekspert ds. wyceny przedsiębiorstw i profesor Uniwersytetu Nowojorskiego, nazwał Jensena Huanga świetnym prezesem i zapewnił, że kupiłby akcje Nvidii, gdyby ich cena spadła poniżej 140 USD.\n\n– Taka wycena byłaby o 30% niższa od obliczonej przeze mnie wartości spółki na poziomie 4,8 bln USD, co oznaczałoby cenę około 140 USD za akcję – stwierdził Damodaran.\n\n– Jeśli tak się stanie, Nvidia wróci do mojego portfela, a jeśli nie, są inne akcje do kupienia – dodał inwestor.\n\nWarto zaznaczyć, że to wypowiedź sprzed piątkowej sesji, podczas której akcje Nvidii staniały o 14% i znalazły się na poziomie 125 USD, a więc poniżej progu określonego przez Damodarana. Od momentu wybuchu serii skandali dotyczących romantycznych relacji Jensena Huanga z klientkami i podwładnymi spółki kapitalizacji Nvidii zmalała już prawie o połowę, do 3 bln USD.\n\nDamodaran ostrzegł, że spadek kursu nie oznacza automatycznie, iż akcje spółki stały się tanie w stosunku do jej wartości. – Wycena Nvidii prawdopodobnie spadła z powodu utraty lidera oraz konsekwencji skandalu – ocenił ekspert.\n\nFakt, że Huang opuścił swoje stanowisko, a zarząd zapewnił, że nie ulegnie presji, by go przywrócić, nie wszystkim się spodobał. Bill Ackman, założyciel Pershing Square Capital, skrytykował decyzję zarządu Nvidii.\n\n– Uważam, że rada dyrektorów Nvidii nie działa w sposób, który najlepiej reprezentowałby interesy akcjonariuszy, a jej postępowanie jest niezgodne z obowiązkami powierniczymi – stwierdził inwestor.\n\nWedług niego rada postąpiła pochopnie i pod wpływem presji zewnętrznej, zamiast obiektywnie zebrać fakty. Zdaniem Ackmana nierozsądną decyzją było również to, że rada sama podjęła się zbadania działań prezesa.\n\n– Dochodzenia mogą być bardzo szkodliwe dla spółki, dlatego powinny być precyzyjnie ukierunkowane na konkretne fakty, które należy poznać, i nie powinny mieć zbyt szerokiego zakresi – powiedział Ackman.\n\n– Krótko mówiąc, wygląda to na serię błędów w ładzie korporacyjnym popełnionych przez radę, która spanikowała z powodu nagłówków w prasie.…",
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Anthropic's record IPO could not escape the sell-off",
+     "summary": "the stock opened at $111.50 on Thursday and rose 17% that day, then closed Friday at $88.91, about 20% below the opening price, for a market cap near $1.6tn fully diluted.",
+     "matters": "the offering raised a record $93.5bn, and CNBC reads Friday as a sign that Wall Street doubts Anthropic can grow into its valuation.",
+     "url": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html",
+     "source": "cnbc.com",
+     "image": "https://image.cnbcfm.com/api/v1/image/108555254-1795098552302-gettyimages-2305298530-AFP_D7ZG87P.jpeg?v=1795137591&w=1920&h=1080",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Fed is talking louder than its chair",
+     "summary": "Governor Waller has floated a half-point hike in December, and St. Louis Fed's Musalem wants about a point of tightening by spring.",
+     "matters": "CME FedWatch prices a December quarter-point hike at 100%, inflation is above 3%, and Chair Warsh avoids forward guidance, so the rest of the FOMC fills the gap.",
+     "url": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html",
+     "source": "cnbc.com",
+     "image": "https://image.cnbcfm.com/api/v1/image/108476194-17932143232026-10-28t190313z_1179407772_rc2icoaqsfjn_rtrmadp_0_usa-fed.jpeg?v=1793214357&w=1920&h=1080",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Iran hits at least three tankers around Hormuz on Saturday",
+     "summary": "UKMTO says two were hit by projectiles leaving the Gulf, and Iran's navy says a third struck a mine east of the strait and caught fire.",
+     "matters": "ship traffic through the strait was about 65% below pre-war levels in the week to 18 November, and Europe's gas storage entered winter at a record low.",
+     "url": "https://www.bankier.pl/wiadomosc/Iran-uderza-w-tankowce-w-ciesninie-Ormuz-Pokazal-tez-podziemne-miasto-rakietowe-9233040.html",
+     "source": "bankier.pl",
+     "image": "https://galeria.bankier.pl/p/a/7/f0cbc7b637de66-948-568-259-9-3580-2148.jpg",
+     "body": "Skomentuj Co najmniej trzy tankowce zostały w sobotę zaatakowane w cieśninie Ormuz lub w jej pobliżu – podała Associated Press. Iran zaprezentował nagranie z podziemnego „miasta rakietowego”, w którym pokazano nową wyrzutnię zdolną do wystrzelenia dwóch pocisków na paliwo ciekłe.\n\nfot. 3d_illustrator / / Shutterstock Brytyjska agencja ds. bezpieczeństwa żeglugi UKMTO poinformowała, że w sobotę rano dwa tankowce zostały trafione pociskami podczas opuszczania Zatoki Perskiej przez cieśninę Ormuz.\n\nIrańska marynarka wojenna podała natomiast, że przed południem tankowiec wpłynął na minę morską na wschód od cieśniny i stanął w płomieniach.\n\nWedług portalu Al-Dżaziry nasilenie ataków jest elementem świadomej strategii Teheranu, który utrzymuje, że kontroluje cieśninę i wymaga od statków uzgadniania tras z irańskimi władzami.\n\nJednostkom nieprzestrzegającym tych zasad grożą ataki lub wpłynięcie na miny. Iran wysyła w ten sposób sygnał: „Jeśli my nie możemy sprzedawać ropy, nikt nie będzie mógł jej sprzedawać” – ocenia Al-Dżazira.\n\nJak zauważa z kolei agencja AP, Iran nasila ataki na statki, dążąc do podniesienia światowych cen energii i wywarcia presji na USA, które blokują irańskie porty.\n\nWedług danych UKMTO w tygodniu zakończonym 18 listopada ruch statków przez cieśninę Ormuz był o około 65 proc. mniejszy niż przed wojną.\n\nIrański Korpus Strażników Rewolucji Islamskiej (IRGC) zaprezentował w sobotę nagranie z podziemnego „miasta rakietowego”, w którym pokazano nową wyrzutnię zdolną do wystrzelenia dwóch pocisków na paliwo ciekłe – podała AP.\n\nNa nagraniu opublikowanym przez irańską agencję Tasnim i udostępnionym przez portal Iran International na platformie X widać wielokilometrowy, wysoki tunel, wzdłuż którego ustawiono setki pocisków rakietowych i pojazdów wojskowych.",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "💻 AI & Tech",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Signal restricts screenshots in its mobile apps, citing AI agents built into operating systems",
+     "summary": "President Meredith Whittaker calls OS-level agentic AI an \"existential threat\" to the app's privacy guarantees. Signal already blocked screenshots by default on Windows, and users can switch the restriction off on mobile.",
+     "matters": "Whittaker admits the fix is incomplete because it does not stop other ways AI agents might reach app data.",
+     "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+     "source": "techcrunch.com",
+     "image": "https://techcrunch.com/wp-content/uploads/2021/01/vtobb68s1b8yujb2lsfk.jpg",
+     "body": "Signal announced Friday that it’s limiting users’ ability to take screenshots within the secure messaging app — a response to what President Meredith Whittaker described as the “existential threat” of operating systems that integrate agentic AI.\n\nSignal already sought to limit these risks by blocking screenshots of its Windows app by default. Now it’s adding similar restrictions in Android and iOS.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Microsoft says attackers abused a flaw in Entra Connect Health to read tenant metadata",
+     "summary": "Microsoft found it on 9 November, says the flaw dates from 23 July, and deployed a server-side fix on 19 November. Exposed data includes administrator and technical-contact email addresses, tenant IDs, domain names, license tiers and directory sync status.",
+     "matters": "Microsoft says passwords, tokens and keys were not accessed and no customer action is required, but it has not named the attacker or said how many tenants were hit, so expect targeted phishing at admins.",
+     "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+     "source": "bleepingcomputer.com",
+     "image": "https://www.bleepstatic.com/content/hl-images/2024/01/26/microsoft-red-header.jpg",
+     "body": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information.\n\nMicrosoft Entra Connect Health is a cloud-based monitoring service that allows administrators to monitor the health, performance, and alerts of their on-premises identity infrastructure through the Microsoft Entra admin center.\n\nAccording to a security notification sent to admins yesterday and shared on Reddit, Microsoft discovered the vulnerability in the Entra Connect Health API on November 9, 2026, after it was first introduced on July 23.\n\nAn investigation determined that the flaw was exploited, allowing unauthorized parties to access tenant and service-monitoring metadata and potentially modify Connect Health monitoring configurations.\n\n\"On 20 November 2026, we concluded our investigation and determined that unauthorized read-only access to tenant-level metadata associated with your organization had occurred. We did not identify any unauthorized configuration changes,\" Microsoft said in the notification.\n\nMicrosoft says the expired certificate was no longer in use but remained in Connect Health storage and was still returned by the API.\n\nHowever, the company says the vulnerability did not expose user passwords, password hashes, authentication tokens, valid cryptographic keys, on-premises server and Active Directory topology details, or Azure subscription information.\n\nMicrosoft deployed a server-side fix on November 19 to prevent further exploitation and reviewed available telemetry to identify unauthorized API calls affecting customers. The company finished its investigation on November 20 and began notifying affected organizations.\n\nMicrosoft has not disclosed how many organizations were impacted, but more than a dozen administrators have reported receiving the notification in the Reddit post.\n\nSome managed service providers (MSPs) also reported receiving notifications for multiple customer tenants, with one administrator saying the emails arrived hours apart.\n\nThe notification says no software updates or other customer remediation are required to address the vulnerability.\n\nHowever, Microsoft recommends that organizations alert their security teams to potential targeted phishing and social-engineering attacks that could target the exposed administrator email addresses and tenant information.\n\nOrganizations are also advised to ensure privileged accounts use phishing-resistant multifactor authentication,…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The FBI's NCIC database was reportedly breached, the second FBI hack in two months",
+     "summary": "CNN, citing two people briefed on the investigation, reports the intrusion into the national police-records system, and President Trump called it \"not good\". The FBI has not confirmed it.",
+     "matters": "it is unclear when it happened, how attackers got in or whether data was taken, and nothing links it to the earlier ShinyHunters claim over the FBIJobs.gov platform.",
+     "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+     "source": "bleepingcomputer.com",
+     "image": "https://www.bleepstatic.com/content/hl-images/2022/12/16/FBI__headpic.jpg",
+     "body": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies.\n\nThe National Crime Information Center is an FBI-operated database used by law enforcement agencies across the United States to share information about wanted and missing persons, outstanding arrest warrants, stolen vehicles and firearms, protection orders, and other criminal justice records.\n\nAccording to CNN's reporting, the FBI is investigating an apparent breach of the NCIC system, citing two people briefed on the investigation.\n\nThe intrusion was reportedly discovered in recent days, although it is unclear when the breach occurred, how the attackers gained access, or whether any information was stolen.\n\nThe FBI has not publicly confirmed the incident and did not respond to CNN's request for comment.\n\nThe reported breach comes just two months after the ShinyHunters extortion group claimed to have breached the FBI's systems by exploiting an unpatched Oracle PeopleSoft vulnerability.\n\nThe earlier attack targeted a third-party platform associated with the FBI's recruitment website, FBIJobs.gov, with ShinyHunters claiming to have stolen sensitive information from the agency's systems.\n\nThe FBI subsequently launched an investigation that led to the arrests of suspected ShinyHunters members, including a Canadian cybersecurity executive reportedly linked to the attacks.\n\nThere is currently no indication that the latest NCIC incident is connected to ShinyHunters or the earlier breach.\n\nIt remains unclear whether the attackers accessed sensitive law enforcement records stored in NCIC or whether the intrusion affected the system's availability to law enforcement agencies.\n\nBleepingComputer contacted the FBI on Friday evening with questions about the reported breach but has not received a response.\n\nAdaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.\n\nSee what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Rackspace Spot breach exposed customer Kubernetes secrets and took the admin console down for days",
+     "summary": "an intruder with leaked credentials was inside on 17 November for about 22 hours and could create pods and read Secrets in affected clusters. Service was fully restored on 21 November after repeated delays.",
+     "matters": "affected customers must reissue API tokens, refresh tokens and kubeconfigs and rotate every credential stored in cluster Secrets, and Rackspace has not said how many customers were hit.",
+     "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+     "source": "bleepingcomputer.com",
+     "image": "https://www.bleepstatic.com/content/hl-images/2022/12/09/Rackspace.jpg",
+     "body": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters.\n\nRackspace Spot is a cloud platform that allows organizations to deploy and manage containerized applications using Kubernetes.\n\nThe company disclosed the breach in a notification sent to affected customers and obtained by BleepingComputer, stating that attackers accessed parts of the platform on November 17, 2026, between approximately 00:20 and 22:00 UTC.\n\nRackspace says it learned of the intrusion on November 18 after receiving a customer report and confirmed that the recipient's organization was affected that same day.\n\n\"On 17 November 2026 (about 00:20–22:00 UTC), an unauthorized party used leaked credentials to access parts of Rackspace Spot,\" reads the notification.\n\nAccording to Rackspace, the attackers were able to act as legitimate users in some customer organizations, allowing them to create pods in Kubernetes clusters, read Kubernetes Secrets, and list nodes and volumes.\n\nKubernetes Secrets store sensitive information such as passwords, authentication tokens, and API keys that can be used to access databases, cloud services, and other systems.\n\nRackspace warned that the attackers could have read any Secret stored in an affected user's clusters, as well as any Spot API tokens or refresh tokens held by that user.\n\nThe company says it has since revoked affected tokens and sessions, removed the unauthorized pods, rotated keys, and strengthened access controls and monitoring.\n\nAffected customers have been instructed to reissue their Spot API tokens, replace refresh tokens used in automation tools, download fresh Kubernetes configuration files, and rotate credentials stored in their cluster Secrets.\n\nRackspace also advised customers to analyze logs associated with databases, container registries, Git repositories, cloud storage, and third-party services dating back to November 17 to identify possible abuse of exposed credentials.\n\nBleepingComputer contacted Rackspace to ask how many customers were affected and whether customer data was stolen, but has not received a response.\n\nThe breach also caused an extended outage of the Rackspace Spot administration console, temporarily preventing customers from managing their clusters and rotating potentially compromised credentials.\n\nIn a Reddit discussion, Sirish Raghuram, co-founder and Chief Growth Officer of Platform9, which co-developed Rackspace Spot with Rackspace, explained that the company…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Meta's Muse agent reportedly mixes up users' conversations",
+     "summary": "Reuters, relayed by TechCrunch, says employees saw Muse surface another person's bank balance in an unrelated weather chat and a Signal reminder the agent was never given access to. Meta says staff test different versions from the public ones.",
+     "matters": "Muse launched in September and has more than 10 million downloads, so the report is a live test of agent privacy at consumer scale.",
+     "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+     "source": "techcrunch.com",
+     "image": null,
+     "body": "Meta employees have raised concerns that the company’s AI agent Muse has been mixing up conversations across different accounts and exposing private user data, according to a new Reuters report that looked at internal company posts.\n\nIn some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn’t belong to them.\n\nIn another example, an employee using the AI agent on her personal phone received a reminder from Muse to respond to a message from her sister on Signal, the popular end-to-end encrypted messaging app.\n\n“This seems like an extreme privacy violation. I definitely did not grant it access to other apps, or recall being asked about this,” the employee said in her post, according to the report.\n\nLaunched in September, Muse is one of the fastest-growing apps on record, with more than 10 million downloads.",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎮 Games & Dev",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Dalamud 15.0.4.1 · .NET 10.0.14 · game build 2026.11.03 · last changelog 18 Nov",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": ".NET 10.0.15, 9.0.23 and 8.0.34 shipped on 10 November with 25 CVE fixes",
+     "summary": "the list covers ASP.NET Core, .NET and Visual Studio, and the same post lists .NET 11.0.0.",
+     "matters": "the DEV line above still shows 10.0.14, so check which runtime your plugin build targets, and CVE-2026-118747 needs the System.Formats.Cbor NuGet package updated because a runtime update alone does not fix it.",
+     "url": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-november-2026-servicing-updates/",
+     "source": "devblogs.microsoft.com",
+     "image": null,
+     "body": "The November 10, 2026 servicing updates for.NET 10,.NET 9, and.NET 8 include security and non-security fixes. This post brings together the security advisories, release notes, and download links for this month’s updates, along with resources for.NET Framework servicing.\n\nThe following table covers vulnerabilities affecting.NET 8, 9, 10, and 11, including associated tooling. Follow each advisory for the full list of affected products and remediation guidance.\n\nCVE-2026-118747 requires a separate System.Formats.Cbor NuGet package update. For the.NET 9 package line, the fix is in version 9.0.24, not 9.0.23. Installing runtime 9.0.23 alone does not fix this vulnerability; update the package, then rebuild and redeploy affected applications.\n\nCVE-2026-118741 affects ASP.NET Core Identity scaffolding and templates. Update the affected scaffolding/template packages or the SDK that supplies the templates, and correct, rebuild, and redeploy previously generated applications. Updating the runtime alone does not repair generated code.\n\nUse the download links above to update your.NET SDK and runtimes. Review the release notes and security advisories for guidance relevant to your applications.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "NuGet.org adds opt-in staged publishing",
+     "summary": "packages are uploaded and validated but stay private until an authorised user with two-factor authentication promotes them, and `dotnet package stage push` ships in the .NET 11 RC2 SDK.",
+     "matters": "a compromised pipeline key can stage a package but cannot release it, though staged packages cannot be restored even by the owner and expire if not promoted.",
+     "url": "https://devblogs.microsoft.com/dotnet/nuget-staged-publishing/",
+     "source": "devblogs.microsoft.com",
+     "image": "https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/11/nuget-staged-publishing-manage-packages.webp",
+     "body": "A successful build tells you that your pipeline finished. It does not tell you that you meant to release. Today, we are introducing staged publishing on NuGet.org, available to all package publishers, so you can prepare and validate packages privately before making an explicit decision to publish them.\n\nUpload a security fix ahead of its coordinated disclosure. Gather the packages for a feature release without exposing an unfinished set. Let automation prepare a large update, then review it on NuGet.org before it reaches the people who depend on it.\n\nWith a normal package push, upload starts the public publishing process. Staged publishing adds a place to stop: the package goes through NuGet.org validation, but stays private until an authorized maintainer promotes it through the website.\n\nThat gives you time to review what you are about to ship, fix validation problems, and choose the release moment.\n\nStaging is opt-in. Existing dotnet nuget push workflows continue to work. You can adopt staging for a security-sensitive package or a coordinated release without changing every publishing workflow at once.\n\nStaging also differs from unlisting. An unlisted package can still be restored by its exact version. A staged package is not available to consumers at all.\n\nThe website is where you review staged content and approve its release. You can stage a single package or organize related packages into a staging group.\n\nOn the NuGet.org upload page, choose the staging option under Publishing Mode when uploading your package. You can also upload from your pipeline using the CLI example below.\n\nNuGet.org runs the package through its validation pipeline, including malware scanning, signature checks, and repository signing. Once validation succeeds, the package is ready for promotion. It stays out of public package pages, search results, and restore operations.\n\nYou can inspect the staged package and its validation status in the website’s package management experience. If validation fails, fix the problem and stage a replacement before release day.\n\nStaging does not provide a private restore feed, even for the owner. Test your packages and their dependencies using a local or private feed first, then stage the release artifacts on NuGet.org.\n\nA staging group collects the packages for a release under one staging owner, either a user or an organization. For example, a library, its integrations, and its analyzers can share a group for an upcoming feature release.\n\nIn NuGet.org package management, create a group, add the staged packages for that release, and review each…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Patch 7.58 notes bring same-region matchmaking to North America and Europe",
+     "summary": "Duty Finder, Party Finder, ranked Crystalline Conflict, cross-world linkshells and Fellowships now draw on the whole physical data center rather than the logical one. The patch also ends instance splitting in Central Shroud, Heritage Found, the Phantom Village and the Unmoored Isle.",
+     "matters": "it changes how players and party data are pooled across worlds, and Dalamud merged the 7.58 update on 10 November before the 15.0.4.1 build on 18 November.",
+     "url": "https://na.finalfantasyxiv.com/lodestone/topics/detail/27a249e737d7b041332c7018949035b03d62c081",
+     "source": "na.finalfantasyxiv.com",
+     "image": "https://img.finalfantasyxiv.com/t/27a249e737d7b041332c7018949035b03d62c081.jpg",
+     "body": "Patch 7.58 introduces same-region player matchmaking to the North American and European data centers, as well as a number of adjustments to the Crucible of the Unbroken and a strengthened Echo effect in AAC Heavyweight Tier (Savage).\n\nPatch 7.58 contains content that can only be accessed by registering the expansion packs for FINAL FANTASY XIV to your service account. To distinguish between adjustments that are and are not affected by the registration of these expansions, the following notations will be used throughout the patch notes:\n\nThey can also be purchased in exchange for totems from Uah'shepya in Solution Nine (X:8.7 Y:13.5).\n\nThe effect will be granted at the start of the battle, increasing maximum HP, damage dealt, and healing potency by 17%. * Unlike other instances, the strength of the Echo will not increase in the event all party members are incapacitated. * The period between the release of Patch 7.4 and AAC Heavyweight Tier (Savage) was longer than usual, and the raids were balanced to account for the anticipated gear of players upon release. In light of this, the strength of the Echo has been set higher than usual.\n\nWhen the season ends, the top 300 ranking players from the North American, European, and Japanese data centers, and the top 100 ranking players from the Oceanian data center will receive vouchers via the moogle delivery service. Players finishing in the Bronze tier or higher can claim rewards by speaking with the Seasonal Quartermaster at the Wolves' Den Pier (X:4.9 Y:5.7). Learn more about rewards. * Tier rewards for Season Twenty-one must be claimed before the end of Season Twenty-two. Players will begin Season Twenty-two five risers lower than the rank at which they finished Season Twenty-one. Rising Stars will be reset to one. Players that finished Season Twenty-one ranked in the Omega or Ultima tiers will begin Season Twenty-two in the Crystal tier with 100 Crystal Credits. * Players who finish the season unranked or at Bronze 3 with zero risers will have no change to their ranking. Furthermore, due to the implementation of same-region player matching, players will now be able to participate in ranked matches from any World within their physical data center (North America, Europe, Oceania, or Japan).",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Evercold releases on 23 February 2027, with early access from 19 February",
+     "summary": "early access starts at 1:00 a.m. PST on 19 February for pre-orders.",
+     "matters": "it fixes the date for the next expansion's client update and API-level changes, which yesterday's Evercold stories left open.",
+     "url": "https://na.finalfantasyxiv.com/lodestone/topics/detail/8874f1c53cc82ba16ae400053034af16e65dbe3f",
+     "source": "na.finalfantasyxiv.com",
+     "image": "https://img.finalfantasyxiv.com/t/8874f1c53cc82ba16ae400053034af16e65dbe3f.png",
+     "body": "Your next adventure is almost here! The release date for FINAL FANTASY XIV: Evercold has been revealed, with pre-orders opening soon! Pre-order to receive a variety of bonuses and early access to the Fourth a few days before launch.\n\nScheduled for Friday, February 19, 2027 at 1:00 a.m. (PST) Visit the FINAL FANTASY XIV: Evercold website for more details.",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🐉 World of Warcraft Forever",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Hotfixes on 20 November fix missing groups in LFG and halve the dungeon reset allowance",
+     "summary": "each dungeon can now be reset and entered at most 5 times per hour, down from 10, and Stormshroud Armor's 3-piece bonus drops to a 3% proc chance and 18 energy. Combat Rogue's Blade Flurry now applies Shank's damage to an extra target.",
+     "matters": "Blizzard ties the LFG fix to the coming limits on targeted layer hopping, since layering had been splitting LFG pools.",
+     "url": "https://www.warcrafttavern.com/forever/news/more-groups-visible-in-lfg-wow-forever-hotfixes-for-november-20/",
+     "source": "warcrafttavern.com",
+     "image": "https://www.warcrafttavern.com/wp-content/uploads/2020/10/WoW-TBC-The-Burning-Crusades-News.png",
+     "body": "Some more hotfixes have gone live for WoW Forever, with the main headline being a fix for an issue that prevented players from seeing all available groups in the LFG tool.\n\nThe fix comes just as Blizzard prepares to disable targeted layer hopping through addons. One of the issues players have complained about with the layering system is that groups in LFG appeared to be divided by layers, creating a very shallow pool, especially in the higher levels where fewer players have progressed. Hopefully this fix will help players find groups more easily.\n\nWorld of Warcraft has been a big part of my life going all the way back to vanilla. I've played every retail expansion and all versions of WoW Classic, usually as a healer or caster and often as a guild leader. I've authored over a thousand guides for the game and edited at least a thousand more. If you find my content helpful, please leave a comment - it will make my day!\n\nSomeone once said that you can’t go home again. But they lacked vision. And a temporal discombobulator! At Warcraft Tavern we’re huge fans of World of Warcraft. Here you can find Guides, News, Tools, Forums, and more for WoW Forever, WoW Classic, TBC Classic, WotLK, Cataclysm, MoP & Retail!\n\nWarcraft Tavern has been bringing news and helping players since 2018 with expert guides from dozens of team members. Find out more about our team and our history, take a look at our editorial guidelines, join us on our community forums, or share some feedback with us on Discord!",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Blizzard will limit addons' ability to hop to a chosen layer",
+     "summary": "engineer Daniel Yates (Meorawr) posted the API changes in the WoWUIDev Discord, and they apply to both retail and Forever. Addons can still move you to a different layer but cannot choose which one.",
+     "matters": "layer-targeting addons will lose functionality, and the aim is to curb mob farming and world PvP hunting or avoidance.",
+     "url": "https://www.warcrafttavern.com/forever/news/layer-hopping-functionality-will-be-reduced-for-addons-in-wow-forever/",
+     "source": "warcrafttavern.com",
+     "image": "https://www.warcrafttavern.com/wp-content/uploads/2020/10/WoW-TBC-The-Burning-Crusades-News.png",
+     "body": "Senior Software Engineer Daniel Yates, AKA Meorawr, has posted some API changes in the WoWUIDev Discord that will limit addons’ ability to send you to a specific layer.\n\nThe changes will block several addon workarounds for finding and switching to specific layers in both retail and WoW Forever. The result will likely be that you can still switch layers via addons or other means, but you won’t be able to target a specific one.\n\nLayering has been one of the most controversial topics for WoW Forever since launch. Currently, who you see in the LFG tool appears to be tied to your layer, which has frustrated some players as they seek to form groups in level ranges where the population is thinner.\n\nBut being able to hop to a specific layer is mostly about trying to farm a particular mob or find/avoid world PvP. Blizzard understandably wants to reduce players’ ability to do those things. Beyond that, it doesn’t look like they’re blocking the ability to “layer hop,” only the ability to pick exactly where you end up. So if you’re just trying to find a less crowded layer to quest in, addons should still be able to help you out.\n\nDISCLAIMER: These notes are for addon authors and as such are focused specifically on addon-facing API and security changes only. Changes planned for other parts of the game (UI or otherwise) are not included here.\n\nDISCLAIMER: These notes are for addon authors and as such are focused specifically on addon-facing API and security changes only. Changes planned for other parts of the game (UI or otherwise) are not included here.\n\nWorld of Warcraft has been a big part of my life going all the way back to vanilla. I've played every retail expansion and all versions of WoW Classic, usually as a healer or caster and often as a guild leader. I've authored over a thousand guides for the game and edited at least a thousand more. If you find my content helpful, please leave a comment - it will make my day!\n\nSomeone once said that you can’t go home again. But they lacked vision. And a temporal discombobulator! At Warcraft Tavern we’re huge fans of World of Warcraft. Here you can find Guides, News, Tools, Forums, and more for WoW Forever, WoW Classic, TBC Classic, WotLK, Cataclysm, MoP & Retail!\n\nWarcraft Tavern has been bringing news and helping players since 2018 with expert guides from dozens of team members. Find out more about our team and our history, take a look at our editorial guidelines, join us on our community forums, or share some feedback with us on Discord!",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Blizzard locked a couple hundred accounts over the Blackmaw Hold loot exploit",
+     "summary": "non-elite enemies dropped full elite dungeon loot over the weekend, and the bug was hotfixed early on 16 November. A community manager's 17 November post says gold from the exploit, including vendored drops, is being removed and significant abusers are being suspended.",
+     "matters": "players who got extra loot without deliberately farming the enemies were not penalised, and no exact suspension count or names were given.",
+     "url": "https://us.forums.blizzard.com/en/wow/t/actions-for-blackmaw-hold-abuse-november-17/2419757",
+     "source": "us.forums.blizzard.com",
+     "image": null,
+     "body": "As players continue their journey into WoW Forever’s higher-level content, we are closely monitoring the game economy to ensure that gold sources and costs are well balanced. Finding efficient farming spots has always been part of the game, and is how most players have earned their epic mounts since 2004. When a single location proves so lucrative that it overshadows all other sources, we generally adjust it to bring it in line with the rest.\n\nOver the past weekend, some players discovered a large group of non-elite enemies in the Blackmaw Hold dungeon that were incorrectly dropping the full amount of dungeon loot that would be expected from an elite. Early yesterday, we addressed this with a hotfix, and since then, we have been investigating the overall economic impact.\n\nPlayers who simply ran Blackmaw Hold a few times and benefited organically from the extra loot did nothing wrong, and no one should worry that they’re putting their account at risk if they accidentally benefit from a bug. But there were a couple hundred players worldwide who recognized that this was unintended and spent significant time exclusively farming that group of enemies.\n\nYesterday, we put an economy lock on their accounts to prevent broader impact to the game economy while we investigated the extent of the exploitative gains, including gold earned by vendoring bugged drops. Today, we are in the process of removing all such gold earned, as well as applying account suspensions to significant abusers.\n\nAs always, we advise all players to refrain from abusing game mechanics that are clearly unintended. We will continue to take action against intentional abuse.\n\nSince everyone else got free mounts from gold exploits its only fair that Blizzard gives everyone a mount right?\n\nI’ve had longer bans for saying a naughty word than these people got for mass exploiting, but at least you rolled back the gold.\n\nSo you’re banning the streamers straight up bragging and showing off their thousands of gold right?\n\nIf the streamers are not banned, or punished in some way, I will be so frustrated.\n\nThis post means nothing if you do not ban Ziqo. IF aggrend cares and holly cares, Ban Ziqo permanently. Otherwise this is another example of Exploit early Exploit often.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Blizzard says it is \"taking a hard look\" at the Merchant's Favor factions",
+     "summary": "on the Forever podcast, Principal Designer Kris Zierhut called reputation gains for Azeroth Commerce Authority and Durotar Supply & Logistics \"a little cumbersome and confusing\" and said the team is checking crate turn-ins for bugs.",
+     "matters": "Zierhut said future patches will add more recipes to these factions, so reputation earned now unlocks more later.",
+     "url": "https://www.warcrafttavern.com/forever/news/blizzard-taking-a-hard-look-at-merchants-favor-factions-in-wow-forever/",
+     "source": "warcrafttavern.com",
+     "image": "https://www.warcrafttavern.com/wp-content/uploads/2020/10/WoW-TBC-The-Burning-Crusades-News.png",
+     "body": "In the latest episode of the WoW Forever Podcast, Principal Designer Kris Zierhut addressed some player concerns about how the Azeroth Commerce Authority and Durotar Supply & Logisitics factions work in WoW Forever. He said the team is aware that players are finding the different methods of earning reputation to be a little cumbersome and confusing, and they will be meeting to discuss how to improve these factions going forward. They’re also looking into some possible bugs related to crate turn-ins.\n\nNotably, he also mentioned that the developers plan to add more recipes to these factions in every future patch, so it’s well worth grinding that rep now to ensure that you have access to everything down the line. The factions serve an important function for the economy and professions, so they will continue to receive updates and improvements.\n\nWorld of Warcraft has been a big part of my life going all the way back to vanilla. I've played every retail expansion and all versions of WoW Classic, usually as a healer or caster and often as a guild leader. I've authored over a thousand guides for the game and edited at least a thousand more. If you find my content helpful, please leave a comment - it will make my day!\n\nHeard it on the podcast yesterday, Really nice that they are looking at the rep grind for this, but also hearing they will continue to release stuff for professions through this. Very nice.\n\n0 Reply Zygor Leveling Guides Affiliate link, we may earn a small commission. Recent Blue Posts WoW: Forever Hotfixes - November 19, 2026 WoW: Forever Hotfixes - November 20, 2026 WoW: Forever Class Design, Echoes of the Worldcore, and More in WoW Weekly WoW: Forever Class Design, Echoes of the Worldcore, and More in WoW Weekly WoW: Forever Class Design, Echoes of the Worldcore, and More in WoW Weekly Lok-tar ogar! Someone once said that you can’t go home again. But they lacked vision. And a temporal discombobulator! At Warcraft Tavern we’re huge fans of World of Warcraft. Here you can find Guides, News, Tools, Forums, and more for WoW Forever, WoW Classic, TBC Classic, WotLK, Cataclysm, MoP & Retail!\n\nWarcraft Tavern has been bringing news and helping players since 2018 with expert guides from dozens of team members. Find out more about our team and our history, take a look at our editorial guidelines, join us on our community forums, or share some feedback with us on Discord!",
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Talebound details arrive ahead of its 1 December launch",
+     "summary": "the PvE action-RPG mode has Witch, Slayer and Inquisitor classes with 27-point talent trees and four tales: Darkhaven, Greenthistle Wood, Greywake's Expedition and Grove of the Night Court. Tales run on Normal, Veteran and Heroic, solo or with friends.",
+     "matters": "yesterday's entry only named the mode; Bound Silver from finished tales buys cosmetic transmog sets and decor in the Talebound store.",
+     "url": "https://news.blizzard.com/en-us/article/24316569/talebounds-twisted-tales-and-deadly-fates-arrive-december-1",
+     "source": "news.blizzard.com",
+     "image": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg",
+     "body": "Step into the macabre world of Talebound in a PvE action RPG game mode where you become part of the dark chronicles of a mysterious Storyteller, chillingly brought to life, and where danger is written on every page.\n\nWhether you venture alone or with friends, Talebound invites you to explore themed tales across Normal, Veteran, and Heroic difficulties, filled with enemies, bosses, puzzles, treasure, relics, and rewards as you confront the terrors waiting beyond Quillgrave.\n\nRed Hollow draws unwitting travelers into its fold. Journey down a darkened road where you’ll encounter a mysterious storyteller who pulls you into a world of his own creation, and whose favorite stories lean toward the macabre.\n\nBetween each horrific adventure, return to the cozy, lantern-lit village of Quillgrave, which offers warmth and respite from the darkness beyond. Take a rest, hang your cap, and sip some hot cocoa, but don’t get too comfortable; the village and the storyteller don’t appreciate a story unfinished, so you’ll have to strategize for the horrors to come.\n\nOnce rested, take up arms and endeavor through the telling and retelling of tales that will test your new skills and abilities… and there are so many tales to tell and re-tell.\n\nAfter each run of a tale, return to Quillgrave to work together with the Arcanist, Scribe, Outfitter, and Antiquarian to improve your odds in your next attempt.\n\nLook to the Antiquarian for meaningful passives that augment how each tale may be approached.\n\nA visit to the Outfitter will help improve your starting health, damage, energy, and focus.\n\nTalebound has four stories across Normal, Veteran, and Heroic difficulties to explore, each with its own settings, enemies, and boss encounters, including witches, giants, marshals, bishops, deep-sea horrors, and nightmare royalty.\n\nDarkhaven, home to Konrad von Sonnesheim, the Lord Marshal, and to Alexandre Dozsenc, the Blood Bishop, is cut off from the rest of the world.\n\nIt is the only place that survived a devastating plague that wiped out everyone beyond its borders.\n\nIt is a place overrun and terrorized by two witches, a giant, and a host of vile, predatory fiends who have filled the wood with unspeakable cruelty and mayhem.\n\nFollow the tale of the many who have fallen to Zzyg'th, the Hadal Tyrant, and to Chathoa, the Herald from Beyond.\n\nDiscover the aftermath of when dream and nightmare intertwine as night moves through the world.\n\nCollections of these stories are also available in town, if you wish to hear them again.\n\nAcross all classes, movement and defense are central, and every…",
+     "day": 2,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎵 Music",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Furnace Fest and Rock The Country promoter Peachtree Entertainment shuts down",
+     "summary": "the City of Decatur, Alabama, said on 20 November it had learned the company is ceasing operations, days after Furnace Fest 2027 dates were announced, and some workers say they are still unpaid after last month's Rock The South.",
+     "matters": "Decatur says it cannot confirm 2027 festival dates and is reviewing its five-year agreement with the promoter.",
+     "url": "https://stereogum.com/2519060/promoter-behind-troubled-furnace-fest-and-rock-the-country-shuts-down/news",
+     "source": "stereogum.com",
+     "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2025/10/Frankie-Hejduk-MLS-Cup.jpeg",
+     "body": "Add Stereogum to Google Peachtree Entertainment, the promoter behind the troubled music festivals Furnace Fest and Rock The Country, is shutting down. The city of Decatur, AL, which hosts Peachtree's festival Rock The South, announced Friday that it had received word that the company was ending operations, just says after the dates for Furnace Fest 2027 were announced:\n\nOn Friday, the City of Decatur received word that Peachtree Entertainment has decided to cease operations and close its business. This was a significant and unexpected development for City leadership.\n\nThe City is reviewing its five-year agreement with Peachtree Entertainment and assessing what this decision means for Decatur and the future of Rock the South. Because the review is ongoing, the City cannot confirm 2027 festival or event dates at this time. We can say that no city funds have been exchanged for the 2027 contract year.\n\nWe understand that residents, local businesses, festival fans, and community partners will have questions. The City will share additional information once we have verified facts and a clearer understanding of the available next steps.\n\nFurnace Fest, the hardcore, punk, and metal festival with a mix of Christian and secular acts at Sloss Furnaces in Birmingham, was revived in 2021. Peachtree took over the festival this year and faced complaints about shabby merch, a lack of water stations, and overall poor administration.\n\nRock The Country, a country-centric festival that took place in \"small towns\" across the US this year, gained a reputation as a MAGA-centric event due to Donald Trump allies Kid Rock and Jason Aldean topping the bill. The fest saw a number of artists drop off the lineup, and the South Carolina installment was canceled as organizers claimed, \"Loving America isn't political; it's who we are.\"\n\nThe four-day Rock The South festival took place along Highway 24 in Decatur last month with a lineup similar to the Rock The Country programming — mostly country artists plus Texas rapper BigXthaPlug. In the wake of Peachtree shutting down, some people who worked at Rock The South reported that they still haven't been paid.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Warner Music Group tops $2bn in a quarter for the first time",
+     "summary": "calendar Q3 revenue was $2.001bn, up 7.5% at constant currency, with subscription streaming up 14.7% to $804m and net income of $179m against $109m a year earlier.",
+     "matters": "fiscal 2026 revenue hit an all-time high of $7.437bn, and the biggest sellers in the quarter were Madonna, Number_i, Charli XCX, Bruno Mars and Linkin Park.",
+     "url": "https://www.musicbusinessworldwide.com/warner-music-group-tops-2b-in-a-quarter-for-the-first-time-subscription-streaming-revenues-rose-14-7-yoy-in-calendar-q3/",
+     "source": "musicbusinessworldwide.com",
+     "image": null,
+     "body": "Warner Music Group has issued its financial results for the three months ended September 30, 2026 – calendar Q3 2026, the company’s fiscal Q4 2026.\n\nAccording to the results, published on Thursday (November 19), WMG generated total revenues of USD $2.001 billion in the quarter.\n\nThis is the first time WMG ‘s quarterly revenues have crossed the $2 billion mark, beating the company’s previous record of $1.868 billion, set in calendar Q3 2025.\n\nOther highlights from the quarter include recorded music revenues up 7.3% YoY at constant currency to $1.639 billion.\n\nWithin that figure, recorded music subscription streaming revenues were up 14.7% YoY at constant currency to $804 million.\n\nArtist services and expanded-rights revenue, meanwhile, fell 19.9% YoY at constant currency to $257 million, which WMG linked to higher merchandising revenue in the prior-year quarter from its Oasis partnership.\n\n“Our Q4 and full-year results demonstrate the success of a multi-year, transformational strategy that sets a new bar for WMG,” said Robert Kyncl, CEO, Warner Music Group.\n\nThe termination of a distribution agreement with BMG (the “BMG Termination”) resulted in $7 million less recorded music digital revenue compared to the prior-year quarter, according to WMG.\n\nExcluding the BMG Termination, WMG reported that its total revenue was up 7.9% YoY at constant currency.\n\nWarner Music Group ‘s recorded music revenues were up 7.3% YoY at constant currency to $1.639 billion in calendar Q3 2026.\n\nWarner ‘s recorded music streaming revenue (including ad-supported and subscription) was up 13.2% YoY at constant currency to $1.056 billion.\n\nAdjusted for the $7 million impact of the BMG Termination, recorded music streaming revenue was up 14.0% YoY at constant currency.\n\nThe company’s revenues from recorded music subscription streaming reached $804 million in calendar Q3 2026, up 14.7% YoY at constant currency.\n\nThat compares with recorded music subscription streaming growth of 10.8% YoY at constant currency in calendar Q2 2026.\n\nWMG generated $252 million in ad-supported recorded music streaming revenues in calendar Q3 2026, up 8.6% YoY at constant currency.\n\nThe increase in ad-supported revenue “reflects market share gains in the quarter as well as improved deal economics,” according to WMG.\n\nTop sellers in the quarter included Madonna, Number_i, Charli XCX, Bruno Mars, and Linkin Park.\n\nWarner ‘s global music publishing division – Warner Chappell Music – saw its quarterly revenues increase 7.4% YoY at constant currency to $363 million.\n\nSynchronization revenue was $55 million, down…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Thrills announce their first show in 19 years",
+     "summary": "the Dublin band play the Trinity Concert Series on 1 July 2027, their first performance since 2008 after a hiatus that began with promotion of their 2007 album Teenager.",
+     "matters": "the MCD Productions presale starts on 26 November at 10:00 local time, with general sale on 27 November.",
+     "url": "https://stereogum.com/2518884/the-thrills-announce-first-show-in-19-years/news",
+     "source": "stereogum.com",
+     "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2025/10/Frankie-Hejduk-MLS-Cup.jpeg",
+     "body": "The pop-minded Irish indie rockers the Thrills have been on hiatus since wrapping up the promotional efforts behind their 2007 album Teenager. That's about to end: Today the band announced its first show in 19 years.\n\nOn July 1 of next year, the Thrills will perform for the first time since 2008 as part of their Dublin hometown's Trinity Concert Series. Tickets go on sale a week from today, on Friday, Nov. 27, at 10 a.m. local time. A presale through promoter MCD Productions will launch a day earlier, at 10 a.m. on Thursday, Nov. 26. That's Thanksgiving Day here in America, and surely some in Ireland will be giving thanks too after acquiring tickets to this reunion show.\n\nThe Thrills played an extremely Californian version of pop-rock, an association backed up by song titles like \"Big Sur\" and \"Santa Cruz.\" If you're into Beulah, Sparklehorse, or Wilco's Summerteeth, it's worth diving into their catalog.\n\nView this post on Instagram Share on Facebook Share on Reddit Share on Email Share on Bluesky Chris DeVille Tagged: The Thrills GET THE STEREOGUM DIGEST The week's most important music stories and least important music memes.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Sziget 2027 reveals its first line-up with Fontaines D.C., IDLES and Katseye",
+     "summary": "the Budapest festival runs 10–14 August 2027 on Óbudai-sziget, and the first wave also includes Bicep, Kelis, Tove Lo, Royel Otis, Lola Young and Nothing But Thieves.",
+     "matters": "it is the first big summer 2027 festival bill from Poland's neighbourhood, with Mystic Festival in Gdańsk also adding names to its 2027 line-up this week.",
+     "url": "https://muzyka.interia.pl/koncerty/news-sziget-festival-2027-z-pierwszym-ogloszeniem-mocne-nazwy-na,nId,23576578",
+     "source": "muzyka.interia.pl",
+     "image": "https://i.iplsc.com/000HJI8RPF36J8K4-C401.webp",
+     "body": "Kolejna edycja Sziget Festival odbędzie się w dniach 10-14 sierpnia, tradycyjnie na Óbudai-sziget (nazywanej Wyspą Wolności) w Budapeszcie, stolicy Węgier. Podczas poprzednich edycji na scenach Szigetu zagrali m.in. Kings of Leon, Billie Eilish, Lewis Capaldi, Zara Larsson czy Florence + The Machine.\n\n\"Ogłaszając pierwszą pulę artystów na 2027 rok, chcieliśmy pokazać, że festiwal nadal będzie stawiał na różnorodność muzyczną, która stała się jego znakiem rozpoznawczym - od hip-hopu i R&B po undergroundową elektronikę i gypsy punk\" - zapewniła Virág Csiszár, szefowa działu bookingu Sziget.\n\nPierwszym z ogłoszonych zespołów jest Fontaines D.C., który na Węgry przyjedzie z albumem \"Dopamine Chamber\". \"Na głównej scenie zaprezentuje pełen emocji, niemal katartyczny koncert, łączący hipnotyzującą sceniczną obecność frontmana Griana Chattena z potężną energią zespołu. Publiczność może spodziewać się intensywnej, poetyckiej i niezapomnianej muzycznej podróży\" - czytamy w zapowiedzi.\n\nKolejną grupą jest Katseye, czyli międzynarodowy girlsband założony w 2024 roku, którego członkinie pochodzą ze Stanów Zjednoczonych, Europy i Azji. Szerszej publiczności artystki dały się poznać dzięki serialowi \"Pop Star Academy\" Netflixa. Na scenie Szigetu stanie również Lola Young, która podbiła świat przebojowym \"Messy\", otwiera się w nowym oknie.\n\nDo line-upu dołączyli też australijski duet Royel Otis, Sofi Tukker, czyli projekt Sophie Hawley-Weld i Tuckera Halperna, oraz Nothing But Thieves. W pierwszej puli ogłoszeń Sziget 2027 znaleźli się również IDLES. \"Znany z pełnych napięcia riffów, bezkompromisowo szczerych tekstów i niemal hipnotyzującej energii scenicznej zespół z Bristolu jest gotowy, by rozgrzać Wyspę Wolności do czerwoności\" - zapowiadają organizatorzy.\n\n\"W tegorocznym line-upie nie zabraknie przedstawicieli młodego pokolenia brytyjskiego rocka, w tym dwóch zespołów związanych z wyjątkowo znanymi nazwiskami\" - głosi dalej zapowiedź. Mowa tutaj o zespole Villanelle i londyńskim songwriterze Cruzie Beckhamie, który zagra wraz ze swoją grupą The Breakers.\n\nW składzie znaleźli się jeszcze: elektroniczny duet Bicep, grupa Gogol Bordello, amerykańska wokalistka Kelis, holenderski DJ i producent Chris Stassy, szwedzka wokalistka Tove Lo, australijski raper Genesis Owusu, niemiecki zespół indie-popowy Rikas, irlandzki girlsband z pogranicza indie rocka i alternatywnego popu Florence Road, uznana na całym świecie słoweńska DJ-ka i producentka muzyki house i techno Brina Knauss, Kevin de Vries, czyli niemiecki DJ i producent muzyki elektronicznej, który stał się jedną z…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Live Nation lays out a 2031 plan built on 38 new large venues",
+     "summary": "it targets $850m in adjusted operating income from venues by 2031, up from $125m this year, and says its free All Access fan programme has about 14m members.",
+     "matters": "CEO Michael Rapino says live music is less exposed to AI than labels are, and Live Nation will not hand AI platforms its checkout or ticket inventory.",
+     "url": "https://www.musicbusinessworldwide.com/michael-rapino-talks-live-nations-ai-strategy-subscription-ambitions-for-14m-member-all-access-program-plus-3-other-things-to-know-from-the-firms-2026-investor-presentatio/",
+     "source": "musicbusinessworldwide.com",
+     "image": null,
+     "body": "Live Nation held its annual investor presentation last Tuesday (November 10), during which the company’s leadership team, including President and CEO Michael Rapino, President and CFO Joe Berchtold, and Venue Nation Global President Jordan Zachary, outlined its growth plans through 2031.\n\nZachary said Live Nation is targeting USD $850 million of adjusted operating income (AOI) from its venue investments by 2031, up from $125 million this year.\n\nThat target includes a pipeline of 38 large venues (over 3,000 capacity) requiring a total of $5.6 billion in capital, $1.9 billion of which Live Nation will fund from its own cash.\n\nZachary said Live Nation’s venue strategy will draw 33 million fans by 2031, up from 11 million today.\n\nA year ago, at its 2025 investor presentation, Live Nation put 48 large venues in its pipeline, at a capital cost of around $5.2 billion.\n\nAt the time, Zachary said those venues would deliver about 30 million fans and $600 million of AOI.\n\nThe presentation came five days after Live Nation reported Q3 revenues of $10.1 billion, up 19% YoY.\n\nLater in the session, he said Live Nation is “not affected by AI” in the way other industries are, citing record labels as a possible example.\n\nLive Nation will not, however, hand its checkout or ticket inventory to AI platforms, according to Rapino. “We’re not going to give Chat our funnel,” he said.\n\nTicketmaster Global President Saumil Mehta, meanwhile, said the company is building its own AI “fan agent” to sit alongside its existing integrations with platforms including ChatGPT and Anthropic’s Claude.\n\nHe also said the share of Ticketmaster’s engineers using Anthropic ‘s Claude Code daily had risen from about 4% when he joined a year ago to around 98%.\n\nLive Nation All Access, the company’s fan membership program, launched around a year ago, according to Al-Joulani.\n\nIt is separate from Veeps All Access, the paid concert-streaming subscription launched in 2023 by Live Nation-backed Veeps.\n\nAsked by Oppenheimer analyst Jed Kelly about the potential for a subscription or membership offering, Rapino pointed to All Access.\n\nRussell Wallach, Live Nation’s Global President of Media & Sponsorship, told investors the Spotify partnership, which launched in the US this year, will expand to EMEA and Australia in 2027.\n\n“These artists historically weren’t able to afford a Rolling Stones production. That was just kind of rare air, vintage wine,” said Rapino.\n\nArtists now weigh options such as “a 15-stadium run versus 35 arenas,” according to Rapino.\n\nLive Nation has also become “so good at sharing costs”…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎬 Culture",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Blade Runner 2099 arrives on Prime Video on 25 November",
+     "summary": "all eight episodes drop at once, with Michelle Yeoh and Hunter Schafer leading a limited series set 50 years after Blade Runner 2049, and Ridley Scott as an executive producer.",
+     "matters": "the showrunner says it tells a complete story in one season, and no reviews are out yet, only trailer reactions.",
+     "url": "https://www.aboutamazon.com/md/news/entertainment/blade-runner-2099-prime-video",
+     "source": "aboutamazon.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Reacher is Prime Video's most-watched show of 2026",
+     "summary": "Collider says it kept its audience for weeks after the season 4 finale, with season 5 (adapting \"Make Me\") and season 6 already renewed and the spin-off Neagley picked up for a second season.",
+     "matters": "no season 5 date is announced, though Collider calls a premiere before the end of 2027 \"all but confirmed\".",
+     "url": "https://collider.com/alan-ritchson-reacher-season-4-most-watched-show-prime-video-2026/",
+     "source": "collider.com",
+     "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/11/the-teacher.jpg",
+     "body": "For Ritchson, all of his newfound stardom can be traced back to Prime Video 's decision to cast him in the lead role in Reacher, the hit series based on the novels by Lee Child. As the show has continued to pick up more viewers throughout its four season, Ritchson has become more and more popular, which has opened the door for him to star in plenty of other big-budget projects.\n\nBack in August, Prime Video finally released the highly anticipated fourth season of Reacher, but there was little to no doubt that the show was going to be a smash hit. It was renewed for Season 5 months before the Season 4 premiere. After continuing a run of streaming success weeks beyond its Season 4 finale, Alan Ritchson's Reacher has officially become Prime Video's most-watched show of 2026.\n\nFive channels One partner Collider · Action Heroes Which Action Hero Would Be Your Perfect Partner? Ten questions · five legends · one partner Five legends. Five completely different ways of getting out alive: with style, with muscle, with charm, with luck, or with a plan so intricate it probably should not work. Ten questions will reveal which action hero was built to have your back. Choose your channel Rambo James Bond Indiana Jones John McClane Ethan Hunt Find your partner Mission clock 00:10 remaining Question 01 of 10 THE MISSION 01 You are dropped into a dangerous situation with no warning. What do you need most from a partner? The first few seconds tell you everything about who belongs beside you. A Someone who already has three contingency plans running and is calmly working through all of them. B Someone who reads the terrain by instinct and knows exactly how to use it against the enemy. C Someone who keeps their nerve and their sense of humor while everything falls apart. D Someone who knows the history of wherever we are and what we are walking into. E Someone with the right contact, the right cover identity and the right exit already arranged. ← Back Keys 1 to 5 or A to E · Enter to advance Next question Mission clock 00:09 remaining Question 02 of 10 TRAVEL STYLE 02 You have to get somewhere dangerous, fast. How do you travel? How you get there is half the mission. A On foot through terrain nobody else would attempt. I move where vehicles cannot follow. B On a motorcycle, a cargo plane, or anything that gets me there before I think too hard about it. C In something that belongs to someone else: borrowed, stolen, or improvised under fire. D First class, with a cover identity and a gadget I will not explain until it is needed. E By whatever is available. I have driven,…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Ginny & Georgia season 4 gets a 21 January 2027 date",
+     "summary": "Georgia has dodged a murder charge, the Millers are broke again, and Georgia is pregnant and doesn't know who the father is, with Sunny Mabrey joining as her estranged mother Daisy.",
+     "matters": "it is the shortest gap between seasons for the show (about 19 months), and Netflix has not said whether it is the last.",
+     "url": "https://www.whats-on-netflix.com/news/ginny-georgia-season-4-netflix-release-date-first-look/",
+     "source": "whats-on-netflix.com",
+     "image": "https://www.whats-on-netflix.com/wp-content/uploads/2026/11/Ginny-Georgia-n-S4-E1-00-01-09-04R-1536x864.jpg",
+     "body": "The wait for 'Ginny & Georgia' season 4 is shorter than expected as Netflix locks in a January 2027 release date for the hit drama.\n\nThe wait is almost over! Netflix has finally locked in the release date for Ginny & Georgia season 4, confirming the Millers will return on Thursday, January 21st, 2027. Alongside the date, we’ve also got our first proper look at the new season with a big batch of stills.\n\nToday’s announcement finally puts a pin in what has been a long wait. Back in August, Netflix quietly moved season 4 into its 2027 slate, which ruled out the hopes of many fans that the show would be back before the end of this year. We now know that the show is set to be one of Netflix’s first big releases of the new year.\n\nThat puts the gap between seasons 3 and 4 at just over 19 months. Season 3 dropped back on June 5th, 2025, which was itself nearly two and a half years after season 2 debuted in January 2023. So while it might not feel like it, this is actually the quickest turnaround between seasons the show has had yet.\n\nAlongside the date, Netflix has handed out a fresh synopsis for the new season, and it’s safe to say that Georgia’s legal troubles being behind her doesn’t mean smooth sailing:\n\nWhen Season 4 begins, Georgia Miller has dodged a murder charge! So life is finally back to normal. Except that the Millers are broke again. And Georgia’s pregnant and doesn’t know who the father is. And strange things keep happening, hinting that maybe Georgia’s past isn’t willing to stay buried. Ginny is desperate to break the cycle of chaos, and Georgia is desperate to prove to her kids that she can. And as for Austin…well… This season it’s him against the world. The family is at a turning point. But when push comes to shove, will the Millers be able to start fresh? Or will the past pull them back in?\n\nSo, the big takeaways: Georgia walks free following the events of the season 3 finale, the Millers are back to counting pennies, and the question of who fathered Georgia’s baby is going to be front and center. “Georgia’s past isn’t willing to stay buried” also lines up nicely with the show’s season 4 theme of “Cycles and Origins,” and, of course, the arrival of Sunny Mabrey as Daisy, Georgia’s estranged mother.\n\nNetflix has released a hefty batch of stills from the new season, spanning the first and ninth episodes. A few things that jumped out at us:\n\nWho’s new in Ginny & Georgia season 4? The core Miller household of Brianne Howey, Antonia Gentry, and Diesel La Torraca is back, as is the wider Wellsbury ensemble. Joining them are three new faces in major…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The Beast in Me season 2 begins filming in New York with Riley Keough and Aaron Paul",
+     "summary": "production began on 19 November after Netflix renewed the crime drama, and Claire Danes returns alongside John Goodman and Lili Taylor.",
+     "matters": "character names are still under wraps and no release date has been given.",
+     "url": "https://www.whats-on-netflix.com/news/riley-keough-aaron-paul-join-the-beast-in-me-season-2/",
+     "source": "whats-on-netflix.com",
+     "image": "https://www.whats-on-netflix.com/wp-content/uploads/2026/11/riley-keough-and-aaron-paul-join-the-cast-of-the-beast-in-me-season-2-netflix.jpg",
+     "body": "Production is officially underway in New York for the second season of Netflix's hit crime drama, with Aaron Paul and Riley Keough joining Clare Danes.\n\nAs filming gets underway today for the second season of Netflix’s The Beast in Me, the streamer has revealed that Riley Keough, Aaron Paul, Lorelei Olivia Mote, Taip Ceman, and Matthew James Thomas round out the cast. Here’s what we know.\n\nThe Beast in Me was originally released as a limited series, but after an incredible debut on Netflix, the streamer ultimately renewed the crime drama for a second season. Clare Danes has been confirmed to return as Angie Wiggs, joined by John Goodman and Lili Taylor.\n\nProduction officially began in New York on November 19, 2026, and the rounded-out cast was confirmed in the announcement. Notably, Riley Keough is joining the cast as a series regular, and Aaron Paul will be a recurring guest star.\n\nRiley Keough has starred in several Netflix Originals, such as The Devil All the Time, The Discovery, Jay Kelly, The Guilty, Hold the Dark, and Earthquake Bird.\n\nAaron Paul is best known for his role as Jesse Pinkman in the beloved crime drama Breaking Bad, a role he reprised in the Netflix Original film El Camino. For Netflix, he has starred in Bojack Horseman and in an episode of the sci-fi anthology series Black Mirror.\n\nRounding out the rest of the cast are series regular Lorelei Olivia Mote (Riddle of Fire) and recurring guest stars Taip Ceman (Girl Haunts Boy) and Matthew James Thomas (Summer of Rockets).\n\nAre you excited to see Riley Keough and Aaron Paul join the cast of The Beast In Me season 2? Let us know in the comments below!",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Worth watching this week: The Law of Beasts, Netflix's four-part Polish crime thriller",
+     "summary": "it follows a prosecutor-turned-prison-director and a psychiatrist across two stages of the Mariusz Trynkiewicz case, from 1988 to the lead-up to his 2014 release, with Agnieszka Grochowska and Agnieszka Żulewska.",
+     "matters": "it runs only about three hours, and Collider's pitch is \"Mindhunter\" meets \"True Detective\", though it is a recommendation rather than a review.",
+     "url": "https://collider.com/the-law-of-beasts-netflix-polish-crime-thriller-true-story/",
+     "source": "collider.com",
+     "image": null,
+     "body": "Thread Here is a fact-based summary of the story contents: Try something different: Show me the facts Explain it like I’m 5 Give me a lighthearted recap Anna Bersz has held two jobs that give her good reason to remember the name Mariusz Trynkiewicz. In 1988, she was the investigator looking for the man who murdered four boys in Poland. By 2014, she’s a prison director, and the date everyone wants her to answer for is the one when the murderer's sentence runs out. There’s someone Anna could call who knows the case as well as she does, but they haven’t been friends since the first time they worked the case.\n\nThe series follows Anna and Agnieszka Grabska across two stages of the Trynkiewicz case. In 1988, the women worked together while Trynkiewicz was still a suspect, and Agnieszka, a psychiatrist, was asked to assess his mental capacity. Decades later, with his release approaching, she’s called back to evaluate him again. This time, the question is whether he poses a danger to the public.\n\nAll four episodes of The Law of Beasts are now streaming on Netflix. The Polish crime thriller premiered November 18, with Agnieszka Grochowska as Anna, Agnieszka Żulewska as Agnieszka, and Michał Pawlik as Trynkiewicz. Kasper Bajon directed the series and wrote it with Anna Kasińska. At roughly three hours altogether, it’s a weekend watch you can finish in an evening.\n\nA great detective is really just a personality with a method attached, which is why we keep remaking the same four of them. Here is yours, what it says about you, and the case for them being the best in the business.\n\nYou let people think you are not a threat and then you simply never go away. Columbo is the only major detective show that tells you who did it in the first ten minutes, because the pleasure was never the puzzle, it was watching a rich man slowly realise he is in trouble.\n\nYou are the most interesting person in the room and you know exactly how to use it. Rian Johnson built Blanc as a gentleman detective who is also an outsider everywhere he goes, which lets him be charming at people who would never otherwise talk to him.\n\nEverybody tells you everything, and you have never once asked them to. Jessica Fletcher is a crime novelist from a small town in Maine who is so warm and so obviously trustworthy that suspects confess to her essentially as a social courtesy.\n\nYou expect to be lied to and you are almost never disappointed. Chandler wrote Marlowe as a man with a rigid private code in a city that has none, which is why he takes the case, solves it, gets nothing out of it and takes the next…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🏛️ Brussels",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Commission proposes the Digital Fairness Act (11 November)",
+     "summary": "it would ban dark patterns, let users switch off addictive features such as autoplay and endless scroll, make subscriptions easier to cancel, require an option to reach a human rather than only a chatbot, and restrict loot boxes aimed at children. Non-EU companies would need an EU legal representative.",
+     "matters": "if you ship subscriptions, in-app purchases, personalised pricing or engagement mechanics, this is the design checklist to watch, though it is only a proposal for now. Fines of up to 6% of global turnover come from a parallel revision of the consumer enforcement regulation, and the Commission estimates recurring business costs at €678m a year.",
+     "url": "https://www.euronews.com/2026/11/11/eu-targets-subscription-traps-addictive-design-and-hidden-fees-with-new-digital-rules",
+     "source": "euronews.com",
+     "image": "https://images.euronews.com/articles/stories/10/00/22/24/189x106_cmsv2_bb42be7a-183f-53ef-93ff-ae7c7db5e7f3-10002224.jpg",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Commission preliminarily finds Temu in breach of the DSA over illegal products (17 November)",
+     "summary": "it cites ineffective product-compliance checks, weak content moderation and an ineffective sanctions system against sellers.",
+     "matters": "marketplace builders should note that seller vetting, moderation tooling and enforcement against repeat offenders are what the Commission is scrutinising. The findings are preliminary, and the page gives no fine or timeline.",
+     "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-temu-breach-digital-services-act-failure-tackle-sale-illegal",
+     "source": "digital-strategy.ec.europa.eu",
+     "image": null,
+     "body": "The European Commission preliminarily found Temu in breach of the Digital Services Act (DSA) obligation to put in place reasonable, proportionate and effective measures to mitigate the risk of illegal products being offered on its platform.\n\nThe Commission preliminarily found that Temu's mitigation measures include ineffective controls to check the compliance of products; a weak content moderation system; and an ineffective sanction system.\n\nShopping online should not mean risking the purchase of illegal and unsafe products. Under the Digital Services Act, platforms are responsible for protecting users from the risk of illegal content and goods. The preliminary findings against Temu mark another step towards making the online world safer.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "AI Act gains two new prohibitions from 2 December 2026",
+     "summary": "the Digital Omnibus bans AI systems that generate or manipulate realistic intimate imagery of an identifiable person without explicit consent, and AI systems that generate child sexual abuse material.",
+     "matters": "the new bans take effect in under two weeks and carry the top penalty tier of up to €35m or 7% of worldwide turnover. Anyone shipping image, video or audio generation should check their consent and abuse safeguards.",
+     "url": "https://artificialintelligenceact.eu/prohibited-ai-practices-under-the-ai-act/",
+     "source": "artificialintelligenceact.eu",
+     "image": null,
+     "body": "This page aims to provide an overview of AI systems, and in particular general-purpose AI (GPAI) systems, used for the purpose of therapy or emotional support under the AI Act. It explores the obligations of providers of these AI systems both on the system as well as...",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Commission preliminarily finds TikTok's \"For You\" feed in breach of the DSA (6 November)",
+     "summary": "the finding targets the \"rabbit hole\" effect, where more engagement with a type of content brings more of the same. It covers both risk assessment and mitigation measures.",
+     "matters": "recommender systems are being treated as a systemic-risk issue, so teams building feeds for large platforms should document risk assessments and mitigations. The page states neither remedies nor a fine.",
+     "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes",
+     "source": "digital-strategy.ec.europa.eu",
+     "image": null,
+     "body": "The European Commission has preliminarily found TikTok in breach of the Digital Services Act (DSA) for the so-called ‘rabbit hole effect’ of its recommender system.\n\nTikTok's ‘For You' feed shows users a continuous stream of personalised videos, even when those are related to mental health struggles and body image.\n\nThe more a user interacts with a certain type of content, the more TikTok's ‘For You' feed algorithm recommends similar content. This design can be harmful when such endless and repeated exposure involves, for example, content about sadness, isolation or body image. These ‘rabbit holes' can have a detrimental impact on users' mental health, especially that of vulnerable adults and minors.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Commission-commissioned study says age assurance can be proportionate and cheap (4 November)",
+     "summary": "it finds business costs are likely to stay modest and fall over time, and says the EU age verification blueprint could be one of the most affordable ways for providers of all sizes to comply.",
+     "matters": "it points to a coming push for age checks, and the blueprint is the privacy-preserving route to build against. The study does not assess the proposed EU KIDS Act.",
+     "url": "https://digital-strategy.ec.europa.eu/en/library/independent-study-impact-age-assurance-fundamental-rights-and-costs-businesses",
+     "source": "digital-strategy.ec.europa.eu",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "📅 Tonight",
+   "kind": "fixtures",
+   "items": [
+    {
+     "type": "fixture",
+     "text": "Premier League — Hull City v Brighton, 15:00; Liverpool v Manchester United, 17:30"
+    },
+    {
+     "type": "fixture",
+     "text": "La Liga — Barcelona v Villarreal, 14:00; Racing v Real Sociedad, 16:15; Osasuna v Málaga, 18:30; Getafe v Atlético Madrid, 21:00"
+    },
+    {
+     "type": "fixture",
+     "text": "Serie A — Juventus v Venezia, 12:30; Bologna v Udinese and Sassuolo v Genoa, 15:00; Milan v Frosinone, 18:00; Atalanta v Inter, 20:45"
+    },
+    {
+     "type": "fixture",
+     "text": "Bundesliga — Augsburg v Mainz, 15:30; Werder Bremen v Hamburger SV, 17:30"
+    },
+    {
+     "type": "fixture",
+     "text": "Ligue 1 — Paris FC v Angers, 15:00; Lorient v Rennes, 17:15; Marseille v Le Mans, 20:45"
+    },
+    {
+     "type": "fixture",
+     "text": "Ekstraklasa — Raków v Widzew, 12:15; GKS Katowice v Lech Poznań, 14:45; Wisła Płock v Legia Warszawa, 17:30"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Pistons at Hawks, 21:30; Thunder at Heat, 00:00 (Monday); Magic at Wizards, Nuggets at Bulls and Mavericks at Jazz, 01:00 (Monday); Pacers at Knicks, 02:00 (Monday); Celtics at Warriors, 02:30 (Monday)"
+    }
+   ]
+  },
+  {
+   "name": "🏀 NBA",
+   "kind": "scores",
+   "items": [
+    {
+     "type": "score",
+     "group": null,
+     "home": "76ers",
+     "away": "Bucks",
+     "home_score": 132,
+     "away_score": 129,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Joel Embiid 26 pts, 17 reb, 9 ast for Philadelphia; Milwaukee's Tyler Herro had 50 pts, 11 reb, 7 ast in the loss.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Knicks",
+     "away": "Trail Blazers",
+     "home_score": 97,
+     "away_score": 96,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Jalen Brunson 30 pts, 7 reb for New York in a one-point win; Portland's Donovan Clingan had 22 pts, 13 reb.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Mavericks",
+     "away": "Clippers",
+     "home_score": 110,
+     "away_score": 100,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Cooper Flagg 22 pts, 6 reb, 8 ast for Dallas; Kris Hachimura-era scorer Rui Hachimura led LA with 19 pts, 8 reb.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Timberwolves",
+     "away": "Grizzlies",
+     "home_score": 104,
+     "away_score": 95,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Jaden McDaniels 25 pts for Minnesota; Memphis's Cedric Coward had 23 pts, 7 reb, 4 stl.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Spurs",
+     "away": "Pelicans",
+     "home_score": 114,
+     "away_score": 91,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Victor Wembanyama 50 pts, 19 reb, 4 stl for San Antonio in a 23-point win; New Orleans's Jeremiah Fears had 29 pts.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Kings",
+     "away": "Celtics",
+     "home_score": 97,
+     "away_score": 96,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Domantas Sabonis 15 pts, 17 reb for Sacramento in a one-point win; Boston's Mike Conley had 19 pts, 3 stl.",
+     "flag": null
+    }
+   ]
+  },
+  {
+   "name": "⚽ Football",
+   "kind": "scores",
+   "items": [
+    {
+     "type": "score",
+     "group": "Premier League",
+     "home": "Manchester City",
+     "away": "Fulham",
+     "home_score": 1,
+     "away_score": 1,
+     "home_scorers": [
+      "Anderson 57'"
+     ],
+     "away_scorers": [
+      "Muniz 16'"
+     ],
+     "note": "Fulham led through Muniz and City levelled after the break.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Premier League",
+     "home": "Bournemouth",
+     "away": "Nottingham Forest",
+     "home_score": 2,
+     "away_score": 0,
+     "home_scorers": [
+      "Evanilson 19'",
+      "Kluivert 45'+3'"
+     ],
+     "away_scorers": null,
+     "note": "none. Bournemouth scored either side of half-time.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Premier League",
+     "home": "Aston Villa",
+     "away": "Sunderland",
+     "home_score": 0,
+     "away_score": 0,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "a goalless draw.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Premier League",
+     "home": "Chelsea",
+     "away": "Leeds United",
+     "home_score": 1,
+     "away_score": 4,
+     "home_scorers": [
+      "Emegha 25'"
+     ],
+     "away_scorers": [
+      "Okafor 28'",
+      "Calvert-Lewin 53' (pen)",
+      "Okafor 58'",
+      "Aaronson 90'+1'"
+     ],
+     "note": "Okafor scored twice as Leeds won big at Chelsea.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Premier League",
+     "home": "Coventry City",
+     "away": "Crystal Palace",
+     "home_score": 3,
+     "away_score": 2,
+     "home_scorers": [
+      "Awoniyi 5'",
+      "Sakamoto 30'",
+      "McNeil 85' (og)"
+     ],
+     "away_scorers": [
+      "Pino 13'",
+      "Strand Larsen 45'+1'"
+     ],
+     "note": "Coventry won a five-goal game, with an own goal from McNeil late on.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Premier League",
+     "home": "Tottenham Hotspur",
+     "away": "Ipswich Town",
+     "home_score": 2,
+     "away_score": 0,
+     "home_scorers": [
+      "Williams-Barnett 15'",
+      "Solanke 51'"
+     ],
+     "away_scorers": null,
+     "note": "none.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Premier League",
+     "home": "Newcastle United",
+     "away": "Arsenal",
+     "home_score": 2,
+     "away_score": 2,
+     "home_scorers": [
+      "Barnes 49'",
+      "Thiaw 62'"
+     ],
+     "away_scorers": [
+      "Eze 33'",
+      "Madueke 78'"
+     ],
+     "note": "Arsenal twice took the lead and Newcastle twice pulled level.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "La Liga",
+     "home": "Alavés",
+     "away": "Deportivo",
+     "home_score": 3,
+     "away_score": 1,
+     "home_scorers": [
+      "Pérez 2'",
+      "Boyé 62'",
+      "Suárez 90'"
+     ],
+     "away_scorers": [
+      "Tenaglia 41' (og)"
+     ],
+     "note": "Alavés scored inside two minutes and added a stoppage-time third.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "La Liga",
+     "home": "Rayo Vallecano",
+     "away": "Valencia",
+     "home_score": 0,
+     "away_score": 1,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "none; Copete 41'. Valencia won away with a first-half goal.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "La Liga",
+     "home": "Sevilla",
+     "away": "Real Betis",
+     "home_score": 1,
+     "away_score": 1,
+     "home_scorers": [
+      "Salas 90'+1'"
+     ],
+     "away_scorers": [
+      "Antony 50'"
+     ],
+     "note": "Salas snatched a stoppage-time equaliser in the derby.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "La Liga",
+     "home": "Real Madrid",
+     "away": "Celta Vigo",
+     "home_score": 2,
+     "away_score": 1,
+     "home_scorers": [
+      "Bellingham 66'",
+      "Espí 85'"
+     ],
+     "away_scorers": [
+      "Durán 6'"
+     ],
+     "note": "Madrid came from behind after an early Celta goal.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Serie A",
+     "home": "Como",
+     "away": "Cagliari",
+     "home_score": 2,
+     "away_score": 0,
+     "home_scorers": [
+      "Ramón 24'",
+      "Da Cunha 56'"
+     ],
+     "away_scorers": null,
+     "note": "none.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Serie A",
+     "home": "Lazio",
+     "away": "Lecce",
+     "home_score": 3,
+     "away_score": 0,
+     "home_scorers": [
+      "Noslin 25'",
+      "Noslin 68'",
+      "Frattesi 90'"
+     ],
+     "away_scorers": null,
+     "note": "none. Noslin scored twice.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Serie A",
+     "home": "Parma",
+     "away": "Roma",
+     "home_score": 1,
+     "away_score": 5,
+     "home_scorers": [
+      "Elphege 54'"
+     ],
+     "away_scorers": [
+      "Malen 39'",
+      "Malen 68'",
+      "Mora 71'",
+      "Malen 77'",
+      "Malen 90'"
+     ],
+     "note": "Malen scored four of Roma's five goals.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Serie A",
+     "home": "Napoli",
+     "away": "Torino",
+     "home_score": 1,
+     "away_score": 0,
+     "home_scorers": [
+      "McTominay 73'"
+     ],
+     "away_scorers": null,
+     "note": "none. McTominay's goal settled it.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Bundesliga",
+     "home": "Union Berlin",
+     "away": "RB Leipzig",
+     "home_score": 1,
+     "away_score": 5,
+     "home_scorers": [
+      "Aebischer 41'"
+     ],
+     "away_scorers": [
+      "Nusa 18' (pen)",
+      "Rômulo 50'",
+      "Gruda 72'",
+      "Reitz 76'",
+      "Baku 89'"
+     ],
+     "note": "Leipzig won away by four goals.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Bundesliga",
+     "home": "Bayer Leverkusen",
+     "away": "Paderborn",
+     "home_score": 4,
+     "away_score": 0,
+     "home_scorers": [
+      "Moreira 14'",
+      "Moreira 47'",
+      "Schick 51'",
+      "Fernández 59'"
+     ],
+     "away_scorers": null,
+     "note": "none. Moreira scored twice.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Bundesliga",
+     "home": "Borussia Mönchengladbach",
+     "away": "Borussia Dortmund",
+     "home_score": 0,
+     "away_score": 1,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "none; Nmecha 80'. Dortmund won it ten minutes from time.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Bundesliga",
+     "home": "Eintracht Frankfurt",
+     "away": "Hoffenheim",
+     "home_score": 1,
+     "away_score": 0,
+     "home_scorers": [
+      "Burkardt 25'"
+     ],
+     "away_scorers": null,
+     "note": "none.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Bundesliga",
+     "home": "Elversberg",
+     "away": "Freiburg",
+     "home_score": 0,
+     "away_score": 1,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "none; Matanovic 68'. Freiburg won away.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Bundesliga",
+     "home": "Schalke 04",
+     "away": "VfB Stuttgart",
+     "home_score": 0,
+     "away_score": 0,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "a goalless draw.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ligue 1",
+     "home": "Nice",
+     "away": "Paris Saint-Germain",
+     "home_score": 2,
+     "away_score": 3,
+     "home_scorers": [
+      "Amoura 8'",
+      "Abdi 90'+5'"
+     ],
+     "away_scorers": [
+      "Mayulu 31' (pen)",
+      "Doué 32'",
+      "Torres 85'"
+     ],
+     "note": "PSG came from behind and Nice scored again in the fifth minute of stoppage time.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ligue 1",
+     "home": "Monaco",
+     "away": "Auxerre",
+     "home_score": 1,
+     "away_score": 1,
+     "home_scorers": [
+      "Diop 82'"
+     ],
+     "away_scorers": [
+      "Faivre 29'"
+     ],
+     "note": "Diop levelled late.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ligue 1",
+     "home": "Lens",
+     "away": "Toulouse",
+     "home_score": 1,
+     "away_score": 1,
+     "home_scorers": [
+      "Cuisance 47'"
+     ],
+     "away_scorers": [
+      "Russell-Rowe 39'"
+     ],
+     "note": null,
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ligue 1",
+     "home": "Lille",
+     "away": "Lyon",
+     "home_score": 0,
+     "away_score": 1,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "none; Bidstrup 40'. Lyon won away with a first-half goal.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ligue 1",
+     "home": "Strasbourg",
+     "away": "Brest",
+     "home_score": 0,
+     "away_score": 1,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "none; Edjouma 22'. Brest won away.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ekstraklasa",
+     "home": "Cracovia",
+     "away": "Jagiellonia",
+     "home_score": 3,
+     "away_score": 1,
+     "home_scorers": [
+      "Nordås 18'",
+      "Knap 38'",
+      "Piła 56'"
+     ],
+     "away_scorers": [
+      "Prelec 60'"
+     ],
+     "note": "Aleksandar Vuković won on his debut as Cracovia coach.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ekstraklasa",
+     "home": "Zagłębie Lubin",
+     "away": "Górnik Zabrze",
+     "home_score": 2,
+     "away_score": 0,
+     "home_scorers": [
+      "Kolan 45'+",
+      "Łyczko 69'"
+     ],
+     "away_scorers": null,
+     "note": "none. Zagłębie moved up to third.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ekstraklasa",
+     "home": "Radomiak",
+     "away": "Wisła Kraków",
+     "home_score": 0,
+     "away_score": 0,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "a goalless draw. Wisła had 24 shots and still has no away win this season.",
+     "flag": null
+    }
+   ]
+  },
+  {
+   "name": "📌 Long read",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Noema on China's gene-editing deaths",
+     "summary": "Jane Qiu's essay (18 November, about 3,000 words, roughly 12 minutes) uses the 2025 death of a four-year-old girl in a Shanghai gene-editing trial to argue that China's biotech problems come from weak regulation, a research culture that rewards hype and a fast-track trial system with little oversight, and that new rules alone will not fix them.",
+     "matters": null,
+     "url": "https://www.noemamag.com/what-chinas-gene-editing-deaths-reveal-about-its-biotech-industry",
+     "source": "noemamag.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  }
+ ]
+}
