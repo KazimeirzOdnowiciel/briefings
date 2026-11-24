@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-24T17:36:40",
+ "generated": "2026-11-24T17:56:54",
  "date": "2026-11-24",
  "greeting": "Good morning — Tuesday, 24 November 2026.",
  "title": "Iran's IRGC says three tankers burned after hitting mines in Hormuz, while Qatar's PM tries to revive US-Iran talks after meeting Rubio",
@@ -854,6 +854,512 @@
      "note": "Stephon Castle 28 pts, 8 reb, 11 ast for San Antonio; Sacramento's Domantas Sabonis had 20 pts, 12 reb, 8 ast.",
      "flag": null
     }
+   ],
+   "tables": [
+    {
+     "tab": "Standings",
+     "title": "Eastern Conference",
+     "columns": [
+      "#",
+      "Team",
+      "W-L",
+      "GB",
+      "Strk"
+     ],
+     "rows": [
+      [
+       "1",
+       "76ers",
+       "14-4",
+       "-",
+       "L1"
+      ],
+      [
+       "2",
+       "Hawks",
+       "11-6",
+       "2.5",
+       "W4"
+      ],
+      [
+       "3",
+       "Celtics",
+       "11-6",
+       "2.5",
+       "L4"
+      ],
+      [
+       "4",
+       "Knicks",
+       "11-6",
+       "2.5",
+       "W5"
+      ],
+      [
+       "5",
+       "Pistons",
+       "10-6",
+       "3",
+       "L2"
+      ],
+      [
+       "6",
+       "Heat",
+       "10-6",
+       "3",
+       "W7"
+      ],
+      [
+       "7",
+       "Cavaliers",
+       "9-9",
+       "5",
+       "L1"
+      ],
+      [
+       "8",
+       "Magic",
+       "7-9",
+       "6",
+       "L1"
+      ],
+      [
+       "9",
+       "Wizards",
+       "7-11",
+       "7",
+       "W3"
+      ],
+      [
+       "10",
+       "Raptors",
+       "6-11",
+       "7.5",
+       "L1"
+      ],
+      [
+       "11",
+       "Pacers",
+       "6-12",
+       "8",
+       "W1"
+      ],
+      [
+       "12",
+       "Bulls",
+       "5-12",
+       "8.5",
+       "W1"
+      ],
+      [
+       "13",
+       "Hornets",
+       "4-12",
+       "9",
+       "L5"
+      ],
+      [
+       "14",
+       "Nets",
+       "3-13",
+       "10",
+       "L5"
+      ],
+      [
+       "15",
+       "Bucks",
+       "2-16",
+       "12",
+       "W1"
+      ]
+     ],
+     "align": "llrrr",
+     "cuts": [
+      6,
+      10
+     ]
+    },
+    {
+     "tab": "Standings",
+     "title": "Western Conference",
+     "columns": [
+      "#",
+      "Team",
+      "W-L",
+      "GB",
+      "Strk"
+     ],
+     "rows": [
+      [
+       "1",
+       "Spurs",
+       "15-3",
+       "-",
+       "W3"
+      ],
+      [
+       "2",
+       "Lakers",
+       "15-3",
+       "-",
+       "W2"
+      ],
+      [
+       "3",
+       "Timberwolves",
+       "13-5",
+       "2",
+       "W2"
+      ],
+      [
+       "4",
+       "Rockets",
+       "13-5",
+       "2",
+       "W1"
+      ],
+      [
+       "5",
+       "Grizzlies",
+       "13-5",
+       "2",
+       "W1"
+      ],
+      [
+       "6",
+       "Nuggets",
+       "10-5",
+       "3.5",
+       "W3"
+      ],
+      [
+       "7",
+       "Trail Blazers",
+       "11-6",
+       "3.5",
+       "W1"
+      ],
+      [
+       "8",
+       "Mavericks",
+       "10-7",
+       "4.5",
+       "W3"
+      ],
+      [
+       "9",
+       "Suns",
+       "9-7",
+       "5",
+       "W4"
+      ],
+      [
+       "10",
+       "Thunder",
+       "10-8",
+       "5",
+       "L2"
+      ],
+      [
+       "11",
+       "Warriors",
+       "9-8",
+       "5.5",
+       "W1"
+      ],
+      [
+       "12",
+       "Pelicans",
+       "5-14",
+       "10.5",
+       "L4"
+      ],
+      [
+       "13",
+       "Clippers",
+       "4-12",
+       "10",
+       "L4"
+      ],
+      [
+       "14",
+       "Jazz",
+       "3-16",
+       "12.5",
+       "L3"
+      ],
+      [
+       "15",
+       "Kings",
+       "2-15",
+       "12.5",
+       "L1"
+      ]
+     ],
+     "align": "llrrr",
+     "cuts": [
+      6,
+      10
+     ]
+    },
+    {
+     "tab": "Leaders",
+     "title": "Points",
+     "columns": [
+      "#",
+      "Player",
+      "Team",
+      "PPG"
+     ],
+     "rows": [
+      [
+       "1",
+       "Luka Doncic",
+       "LAL",
+       "36.6"
+      ],
+      [
+       "2",
+       "Shai Gilgeous-Alexander",
+       "OKC",
+       "32.1"
+      ],
+      [
+       "3",
+       "Victor Wembanyama",
+       "SA",
+       "29.9"
+      ],
+      [
+       "4",
+       "Giannis Antetokounmpo",
+       "MIA",
+       "28.2"
+      ],
+      [
+       "5",
+       "Jalen Brunson",
+       "NY",
+       "26.5"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Leaders",
+     "title": "Rebounds",
+     "columns": [
+      "#",
+      "Player",
+      "Team",
+      "RPG"
+     ],
+     "rows": [
+      [
+       "1",
+       "Karl-Anthony Towns",
+       "NY",
+       "13.9"
+      ],
+      [
+       "2",
+       "Domantas Sabonis",
+       "SAC",
+       "13.5"
+      ],
+      [
+       "3",
+       "Giannis Antetokounmpo",
+       "MIA",
+       "12.6"
+      ],
+      [
+       "4",
+       "Victor Wembanyama",
+       "SA",
+       "12.3"
+      ],
+      [
+       "5",
+       "Donovan Clingan",
+       "POR",
+       "11.3"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Leaders",
+     "title": "Assists",
+     "columns": [
+      "#",
+      "Player",
+      "Team",
+      "APG"
+     ],
+     "rows": [
+      [
+       "1",
+       "Josh Giddey",
+       "CHI",
+       "9.4"
+      ],
+      [
+       "2",
+       "Nikola Jokic",
+       "DEN",
+       "9.2"
+      ],
+      [
+       "3",
+       "Trae Young",
+       "WSH",
+       "8.8"
+      ],
+      [
+       "4",
+       "Davion Mitchell",
+       "MIA",
+       "8.6"
+      ],
+      [
+       "5",
+       "Cade Cunningham",
+       "DET",
+       "8.3"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Leaders",
+     "title": "Steals",
+     "columns": [
+      "#",
+      "Player",
+      "Team",
+      "SPG"
+     ],
+     "rows": [
+      [
+       "1",
+       "Dyson Daniels",
+       "ATL",
+       "3.0"
+      ],
+      [
+       "2",
+       "Matisse Thybulle",
+       "LAL",
+       "2.3"
+      ],
+      [
+       "3",
+       "Paul George",
+       "BOS",
+       "2.2"
+      ],
+      [
+       "4",
+       "Christian Braun",
+       "DEN",
+       "2.2"
+      ],
+      [
+       "5",
+       "Bam Adebayo",
+       "MIA",
+       "2.1"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Leaders",
+     "title": "Blocks",
+     "columns": [
+      "#",
+      "Player",
+      "Team",
+      "BPG"
+     ],
+     "rows": [
+      [
+       "1",
+       "Victor Wembanyama",
+       "SA",
+       "3.9"
+      ],
+      [
+       "2",
+       "Myles Turner",
+       "MIL",
+       "2.2"
+      ],
+      [
+       "3",
+       "Walker Kessler",
+       "LAL",
+       "2.1"
+      ],
+      [
+       "4",
+       "Donovan Clingan",
+       "POR",
+       "2.1"
+      ],
+      [
+       "5",
+       "Peyton Watson",
+       "CLE",
+       "1.8"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Leaders",
+     "title": "Threes",
+     "columns": [
+      "#",
+      "Player",
+      "Team",
+      "3PM"
+     ],
+     "rows": [
+      [
+       "1",
+       "Luka Doncic",
+       "LAL",
+       "4.8"
+      ],
+      [
+       "2",
+       "Anthony Edwards",
+       "MIN",
+       "4.5"
+      ],
+      [
+       "3",
+       "Stephen Curry",
+       "GS",
+       "4.3"
+      ],
+      [
+       "4",
+       "Desmond Bane",
+       "ORL",
+       "4.2"
+      ],
+      [
+       "5",
+       "Klay Thompson",
+       "MIA",
+       "4.0"
+      ]
+     ],
+     "align": "lllr"
+    }
    ]
   },
   {
@@ -925,6 +1431,1200 @@
      ],
      "note": "New coach Jacek Zieliński won on his debut, ending a run of five straight defeats.",
      "flag": null
+    }
+   ],
+   "tables": [
+    {
+     "tab": "Tables",
+     "title": "Premier League",
+     "columns": [
+      "#",
+      "Team",
+      "P",
+      "GD",
+      "Pts"
+     ],
+     "rows": [
+      [
+       "1",
+       "Arsenal",
+       "11",
+       "+10",
+       "28"
+      ],
+      [
+       "2",
+       "Brighton",
+       "11",
+       "+17",
+       "22"
+      ],
+      [
+       "3",
+       "Man City",
+       "11",
+       "+8",
+       "22"
+      ],
+      [
+       "4",
+       "Liverpool",
+       "11",
+       "+8",
+       "21"
+      ],
+      [
+       "5",
+       "Bournemouth",
+       "11",
+       "+4",
+       "18"
+      ],
+      [
+       "6",
+       "Brentford",
+       "11",
+       "+9",
+       "17"
+      ],
+      [
+       "7",
+       "Leeds",
+       "11",
+       "+5",
+       "17"
+      ],
+      [
+       "8",
+       "Chelsea",
+       "11",
+       "0",
+       "16"
+      ],
+      [
+       "9",
+       "Everton",
+       "11",
+       "-2",
+       "16"
+      ],
+      [
+       "10",
+       "Spurs",
+       "11",
+       "+1",
+       "15"
+      ],
+      [
+       "11",
+       "Hull",
+       "11",
+       "+2",
+       "14"
+      ],
+      [
+       "12",
+       "Aston Villa",
+       "11",
+       "-3",
+       "14"
+      ],
+      [
+       "13",
+       "Newcastle",
+       "11",
+       "-3",
+       "13"
+      ],
+      [
+       "14",
+       "Coventry",
+       "11",
+       "-8",
+       "12"
+      ],
+      [
+       "15",
+       "Fulham",
+       "11",
+       "-2",
+       "11"
+      ],
+      [
+       "16",
+       "Ipswich",
+       "11",
+       "-7",
+       "11"
+      ],
+      [
+       "17",
+       "Nottm Forest",
+       "11",
+       "-6",
+       "9"
+      ],
+      [
+       "18",
+       "Sunderland",
+       "11",
+       "-9",
+       "9"
+      ],
+      [
+       "19",
+       "Man Utd",
+       "11",
+       "-9",
+       "8"
+      ],
+      [
+       "20",
+       "C Palace",
+       "11",
+       "-15",
+       "7"
+      ]
+     ],
+     "align": "llrrr",
+     "cuts": [
+      4,
+      17
+     ]
+    },
+    {
+     "tab": "Tables",
+     "title": "La Liga",
+     "columns": [
+      "#",
+      "Team",
+      "P",
+      "GD",
+      "Pts"
+     ],
+     "rows": [
+      [
+       "1",
+       "Barcelona",
+       "13",
+       "+36",
+       "36"
+      ],
+      [
+       "2",
+       "Real Madrid",
+       "13",
+       "+22",
+       "33"
+      ],
+      [
+       "3",
+       "Atlético",
+       "13",
+       "+16",
+       "31"
+      ],
+      [
+       "4",
+       "Betis",
+       "13",
+       "+5",
+       "27"
+      ],
+      [
+       "5",
+       "Real Sociedad",
+       "13",
+       "0",
+       "22"
+      ],
+      [
+       "6",
+       "Sevilla",
+       "13",
+       "-2",
+       "19"
+      ],
+      [
+       "7",
+       "Racing",
+       "13",
+       "-12",
+       "17"
+      ],
+      [
+       "8",
+       "Athletic",
+       "12",
+       "+3",
+       "16"
+      ],
+      [
+       "9",
+       "Alavés",
+       "13",
+       "0",
+       "16"
+      ],
+      [
+       "10",
+       "Villarreal",
+       "13",
+       "+1",
+       "15"
+      ],
+      [
+       "11",
+       "Espanyol",
+       "13",
+       "0",
+       "15"
+      ],
+      [
+       "12",
+       "Deportivo",
+       "13",
+       "-1",
+       "15"
+      ],
+      [
+       "13",
+       "Osasuna",
+       "13",
+       "-10",
+       "15"
+      ],
+      [
+       "14",
+       "Celta Vigo",
+       "13",
+       "-1",
+       "13"
+      ],
+      [
+       "15",
+       "Levante",
+       "13",
+       "-5",
+       "12"
+      ],
+      [
+       "16",
+       "Rayo",
+       "12",
+       "-7",
+       "12"
+      ],
+      [
+       "17",
+       "Valencia",
+       "13",
+       "-11",
+       "12"
+      ],
+      [
+       "18",
+       "Getafe",
+       "13",
+       "-13",
+       "12"
+      ],
+      [
+       "19",
+       "Elche",
+       "13",
+       "-6",
+       "11"
+      ],
+      [
+       "20",
+       "Málaga",
+       "13",
+       "-15",
+       "5"
+      ]
+     ],
+     "align": "llrrr",
+     "cuts": [
+      4,
+      17
+     ]
+    },
+    {
+     "tab": "Tables",
+     "title": "Serie A",
+     "columns": [
+      "#",
+      "Team",
+      "P",
+      "GD",
+      "Pts"
+     ],
+     "rows": [
+      [
+       "1",
+       "Lazio",
+       "12",
+       "+19",
+       "32"
+      ],
+      [
+       "2",
+       "AS Roma",
+       "12",
+       "+25",
+       "30"
+      ],
+      [
+       "3",
+       "Inter Milan",
+       "12",
+       "+15",
+       "29"
+      ],
+      [
+       "4",
+       "Milan",
+       "12",
+       "+14",
+       "27"
+      ],
+      [
+       "5",
+       "Como",
+       "12",
+       "+10",
+       "26"
+      ],
+      [
+       "6",
+       "Juventus",
+       "12",
+       "+7",
+       "21"
+      ],
+      [
+       "7",
+       "Frosinone",
+       "12",
+       "+5",
+       "20"
+      ],
+      [
+       "8",
+       "Napoli",
+       "12",
+       "+5",
+       "18"
+      ],
+      [
+       "9",
+       "Bologna",
+       "12",
+       "+2",
+       "18"
+      ],
+      [
+       "10",
+       "Genoa",
+       "12",
+       "-3",
+       "16"
+      ],
+      [
+       "11",
+       "Cagliari",
+       "12",
+       "-7",
+       "16"
+      ],
+      [
+       "12",
+       "Atalanta",
+       "12",
+       "-3",
+       "15"
+      ],
+      [
+       "13",
+       "Torino",
+       "12",
+       "-3",
+       "14"
+      ],
+      [
+       "14",
+       "Monza",
+       "12",
+       "-5",
+       "10"
+      ],
+      [
+       "15",
+       "Lecce",
+       "12",
+       "-13",
+       "10"
+      ],
+      [
+       "16",
+       "Fiorentina",
+       "12",
+       "-11",
+       "9"
+      ],
+      [
+       "17",
+       "Parma",
+       "12",
+       "-12",
+       "8"
+      ],
+      [
+       "18",
+       "Sassuolo",
+       "12",
+       "-15",
+       "8"
+      ],
+      [
+       "19",
+       "Udinese",
+       "12",
+       "-13",
+       "6"
+      ],
+      [
+       "20",
+       "Venezia",
+       "12",
+       "-17",
+       "6"
+      ]
+     ],
+     "align": "llrrr",
+     "cuts": [
+      4,
+      17
+     ]
+    },
+    {
+     "tab": "Tables",
+     "title": "Bundesliga",
+     "columns": [
+      "#",
+      "Team",
+      "P",
+      "GD",
+      "Pts"
+     ],
+     "rows": [
+      [
+       "1",
+       "Dortmund",
+       "10",
+       "+10",
+       "24"
+      ],
+      [
+       "2",
+       "Bayern",
+       "10",
+       "+20",
+       "22"
+      ],
+      [
+       "3",
+       "Freiburg",
+       "10",
+       "+11",
+       "22"
+      ],
+      [
+       "4",
+       "RB Leipzig",
+       "10",
+       "+18",
+       "21"
+      ],
+      [
+       "5",
+       "Leverkusen",
+       "10",
+       "+7",
+       "19"
+      ],
+      [
+       "6",
+       "Bremen",
+       "10",
+       "+6",
+       "18"
+      ],
+      [
+       "7",
+       "Frankfurt",
+       "10",
+       "-4",
+       "15"
+      ],
+      [
+       "8",
+       "Stuttgart",
+       "10",
+       "0",
+       "13"
+      ],
+      [
+       "9",
+       "Elversberg",
+       "10",
+       "-2",
+       "13"
+      ],
+      [
+       "10",
+       "Augsburg",
+       "10",
+       "+2",
+       "12"
+      ],
+      [
+       "11",
+       "Hoffenheim",
+       "10",
+       "-2",
+       "12"
+      ],
+      [
+       "12",
+       "Hamburg",
+       "10",
+       "-14",
+       "12"
+      ],
+      [
+       "13",
+       "Mainz",
+       "10",
+       "-3",
+       "10"
+      ],
+      [
+       "14",
+       "Cologne",
+       "10",
+       "-4",
+       "10"
+      ],
+      [
+       "15",
+       "Paderborn",
+       "10",
+       "-7",
+       "10"
+      ],
+      [
+       "16",
+       "Schalke",
+       "10",
+       "-6",
+       "7"
+      ],
+      [
+       "17",
+       "Union Berlin",
+       "10",
+       "-18",
+       "7"
+      ],
+      [
+       "18",
+       "Gladbach",
+       "10",
+       "-14",
+       "4"
+      ]
+     ],
+     "align": "llrrr",
+     "cuts": [
+      4,
+      15
+     ]
+    },
+    {
+     "tab": "Tables",
+     "title": "Ligue 1",
+     "columns": [
+      "#",
+      "Team",
+      "P",
+      "GD",
+      "Pts"
+     ],
+     "rows": [
+      [
+       "1",
+       "PSG",
+       "11",
+       "+13",
+       "26"
+      ],
+      [
+       "2",
+       "Paris FC",
+       "11",
+       "+11",
+       "23"
+      ],
+      [
+       "3",
+       "Lille",
+       "11",
+       "+6",
+       "21"
+      ],
+      [
+       "4",
+       "Lyon",
+       "11",
+       "+7",
+       "20"
+      ],
+      [
+       "5",
+       "Marseille",
+       "11",
+       "+7",
+       "18"
+      ],
+      [
+       "6",
+       "Brest",
+       "11",
+       "+7",
+       "18"
+      ],
+      [
+       "7",
+       "Nice",
+       "11",
+       "+2",
+       "17"
+      ],
+      [
+       "8",
+       "Monaco",
+       "11",
+       "+2",
+       "17"
+      ],
+      [
+       "9",
+       "Rennes",
+       "11",
+       "0",
+       "17"
+      ],
+      [
+       "10",
+       "Lorient",
+       "11",
+       "+1",
+       "16"
+      ],
+      [
+       "11",
+       "Lens",
+       "11",
+       "+2",
+       "14"
+      ],
+      [
+       "12",
+       "Toulouse",
+       "11",
+       "+1",
+       "14"
+      ],
+      [
+       "13",
+       "Le Mans",
+       "11",
+       "-6",
+       "11"
+      ],
+      [
+       "14",
+       "Troyes",
+       "11",
+       "-8",
+       "11"
+      ],
+      [
+       "15",
+       "Auxerre",
+       "11",
+       "-11",
+       "11"
+      ],
+      [
+       "16",
+       "Strasbourg",
+       "11",
+       "-5",
+       "10"
+      ],
+      [
+       "17",
+       "Angers",
+       "11",
+       "-14",
+       "8"
+      ],
+      [
+       "18",
+       "Le Havre AC",
+       "11",
+       "-15",
+       "2"
+      ]
+     ],
+     "align": "llrrr",
+     "cuts": [
+      4,
+      15
+     ]
+    },
+    {
+     "tab": "Top players",
+     "title": "Premier League · Top scorers",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "G"
+     ],
+     "rows": [
+      [
+       "1",
+       "Erling Haaland",
+       "Manchester City",
+       "9"
+      ],
+      [
+       "2",
+       "Alexander Isak",
+       "Liverpool",
+       "7"
+      ],
+      [
+       "3",
+       "Evanilson",
+       "AFC Bournemouth",
+       "6"
+      ],
+      [
+       "4",
+       "Thierno Barry",
+       "Everton",
+       "6"
+      ],
+      [
+       "5",
+       "Nicolas Jackson",
+       "Aston Villa",
+       "6"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Top players",
+     "title": "Premier League · Assists",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "A"
+     ],
+     "rows": [
+      [
+       "1",
+       "Declan Rice",
+       "Arsenal",
+       "5"
+      ],
+      [
+       "2",
+       "Pascal Gross",
+       "Brighton & Hove Albion",
+       "4"
+      ],
+      [
+       "3",
+       "Evanilson",
+       "AFC Bournemouth",
+       "4"
+      ],
+      [
+       "4",
+       "Florian Wirtz",
+       "Liverpool",
+       "4"
+      ],
+      [
+       "5",
+       "John McGinn",
+       "Aston Villa",
+       "4"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Top players",
+     "title": "La Liga · Top scorers",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "G"
+     ],
+     "rows": [
+      [
+       "1",
+       "Raphinha",
+       "Barcelona",
+       "15"
+      ],
+      [
+       "2",
+       "Kylian Mbappé",
+       "Real Madrid",
+       "13"
+      ],
+      [
+       "3",
+       "Yassir Zabiri",
+       "Racing Santander",
+       "11"
+      ],
+      [
+       "4",
+       "Lamine Yamal",
+       "Barcelona",
+       "10"
+      ],
+      [
+       "5",
+       "Ante Budimir",
+       "Osasuna",
+       "9"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Top players",
+     "title": "La Liga · Assists",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "A"
+     ],
+     "rows": [
+      [
+       "1",
+       "Lamine Yamal",
+       "Barcelona",
+       "9"
+      ],
+      [
+       "2",
+       "Javi Hernandez",
+       "Espanyol",
+       "6"
+      ],
+      [
+       "3",
+       "Alberto Moleiro",
+       "Villarreal",
+       "5"
+      ],
+      [
+       "4",
+       "Fermín López",
+       "Barcelona",
+       "5"
+      ],
+      [
+       "5",
+       "Álex Berenguer",
+       "Athletic Club",
+       "4"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Top players",
+     "title": "Serie A · Top scorers",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "G"
+     ],
+     "rows": [
+      [
+       "1",
+       "Donyell Malen",
+       "AS Roma",
+       "12"
+      ],
+      [
+       "2",
+       "Gustavo Varela",
+       "Monza",
+       "11"
+      ],
+      [
+       "3",
+       "Antonio Raimondo",
+       "Frosinone",
+       "8"
+      ],
+      [
+       "4",
+       "Nikola Krstovic",
+       "Atalanta",
+       "7"
+      ],
+      [
+       "5",
+       "Pio Esposito",
+       "Internazionale",
+       "6"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Top players",
+     "title": "Serie A · Assists",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "A"
+     ],
+     "rows": [
+      [
+       "1",
+       "Adrien Rabiot",
+       "AC Milan",
+       "6"
+      ],
+      [
+       "2",
+       "Wesley",
+       "AS Roma",
+       "5"
+      ],
+      [
+       "3",
+       "Mattia Zaccagni",
+       "Lazio",
+       "5"
+      ],
+      [
+       "4",
+       "Juan Miranda",
+       "Bologna",
+       "5"
+      ],
+      [
+       "5",
+       "Nicola Zalewski",
+       "Atalanta",
+       "5"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Top players",
+     "title": "Bundesliga · Top scorers",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "G"
+     ],
+     "rows": [
+      [
+       "1",
+       "Niclas Füllkrug",
+       "Werder Bremen",
+       "10"
+      ],
+      [
+       "2",
+       "Patrik Schick",
+       "Bayer Leverkusen",
+       "9"
+      ],
+      [
+       "3",
+       "Michael Gregoritsch",
+       "FC Augsburg",
+       "7"
+      ],
+      [
+       "4",
+       "Phillip Tietz",
+       "Mainz",
+       "6"
+      ],
+      [
+       "5",
+       "Michael Olise",
+       "Bayern Munich",
+       "6"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Top players",
+     "title": "Bundesliga · Assists",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "A"
+     ],
+     "rows": [
+      [
+       "1",
+       "Harry Kane",
+       "Bayern Munich",
+       "8"
+      ],
+      [
+       "2",
+       "Antonio Nusa",
+       "RB Leipzig",
+       "7"
+      ],
+      [
+       "3",
+       "Marco Grüll",
+       "Werder Bremen",
+       "6"
+      ],
+      [
+       "4",
+       "Fabian Rieder",
+       "FC Augsburg",
+       "5"
+      ],
+      [
+       "5",
+       "Brajan Gruda",
+       "RB Leipzig",
+       "5"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Top players",
+     "title": "Ligue 1 · Top scorers",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "G"
+     ],
+     "rows": [
+      [
+       "1",
+       "Lassine Sinayoko",
+       "Paris FC",
+       "9"
+      ],
+      [
+       "2",
+       "Amine Gouiri",
+       "Marseille",
+       "8"
+      ],
+      [
+       "3",
+       "Esteban Lepaul",
+       "Stade Rennais",
+       "7"
+      ],
+      [
+       "4",
+       "Elye Wahi",
+       "Nice",
+       "6"
+      ],
+      [
+       "5",
+       "Cameron Archer",
+       "AJ Auxerre",
+       "6"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Top players",
+     "title": "Ligue 1 · Assists",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "A"
+     ],
+     "rows": [
+      [
+       "1",
+       "Florian Thauvin",
+       "Lens",
+       "7"
+      ],
+      [
+       "2",
+       "Cristian Cásseres Jr.",
+       "Toulouse",
+       "6"
+      ],
+      [
+       "3",
+       "Lassine Sinayoko",
+       "Paris FC",
+       "5"
+      ],
+      [
+       "4",
+       "Amine Gouiri",
+       "Marseille",
+       "4"
+      ],
+      [
+       "5",
+       "Zachary Athekame",
+       "Lyon",
+       "3"
+      ]
+     ],
+     "align": "lllr"
     }
    ]
   },
