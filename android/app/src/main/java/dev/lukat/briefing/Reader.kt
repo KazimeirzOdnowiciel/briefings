@@ -22,6 +22,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
@@ -31,6 +32,7 @@ import androidx.compose.material.icons.filled.Star
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
@@ -82,6 +84,24 @@ internal fun Reader(
         runCatching { context.startActivity(Intent.createChooser(send, "Share this story")) }
     }
     val column = Modifier.widthIn(max = Measure).fillMaxWidth()
+    val list = rememberLazyListState()
+    // how far through the piece: whole items passed plus the share of the current one
+    val progress by remember {
+        derivedStateOf {
+            val info = list.layoutInfo
+            val first = info.visibleItemsInfo.firstOrNull()
+            when {
+                info.totalItemsCount == 0 || first == null -> 0f
+                !list.canScrollForward -> 1f
+                else -> ((first.index + list.firstVisibleItemScrollOffset / first.size.coerceAtLeast(1).toFloat())
+                    / info.totalItemsCount).coerceIn(0f, 1f)
+            }
+        }
+    }
+    val minutes = remember(item.url) {
+        val words = (item.body ?: item.summary.orEmpty()).split(Regex("\\s+")).size
+        (words / 200f).let { kotlin.math.ceil(it).toInt() }.coerceAtLeast(1)
+    }
 
     Column(Modifier.fillMaxSize().background(Bg).windowInsetsPadding(WindowInsets.safeDrawing)) {
         // top bar: back on the left; text size, save and share on the right
@@ -103,8 +123,10 @@ internal fun Reader(
             }
             RoundIcon(share) { Icon(Icons.Filled.Share, "Share", tint = Ink, modifier = Modifier.size(19.dp)) }
         }
+        ReadBar(progress, hue, 2.dp)
 
         LazyColumn(
+            state = list,
             modifier = Modifier.fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally,
             contentPadding = PaddingValues(start = 20.dp, end = 20.dp, top = 12.dp, bottom = 44.dp)
@@ -118,7 +140,10 @@ internal fun Reader(
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Box(Modifier.weight(1f)) {
                             Kicker(
-                                listOfNotNull(item.source?.takeIf { it.isNotBlank() }, cleanName(section).takeIf { it.isNotBlank() })
+                                listOfNotNull(
+                                    item.source?.takeIf { it.isNotBlank() }, cleanName(section).takeIf { it.isNotBlank() },
+                                    "$minutes min read".takeIf { !item.body.isNullOrBlank() }
+                                )
                                     .joinToString(" · "),
                                 Dim, dot = hue
                             )

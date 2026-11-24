@@ -725,6 +725,34 @@ NOISE_RE = re.compile(
     r"^share\b|^save\b)", re.I)
 
 
+# clutter that sits INSIDE a real paragraph: a comment-button label at the start, a photo credit
+_AGENCY = (r"(?:Getty Images|East News|Agencja Wyborcza\.pl|Adobe Stock|Abaca Press|Wikimedia Commons|RMF FM|"
+           r"Imago Stock and People|[A-Za-z][\w.\-]*)")
+CLUTTER_RES = [
+    re.compile(r"^(?:Skomentuj|Komentarze|Posłuchaj(?: artykułu)?|Słuchaj|Listen(?: to (?:this )?article)?|"
+               r"Wysłuchaj|Udostępnij|Share)\s+(?=[A-ZĄĆĘŁŃÓŚŹŻ])"),
+    # a photo caption glued to the paragraph: "Cezary Tomczyk w Pentagonie (fot. P. Wodzynski) / East News Rozmowy…"
+    re.compile(r"^[^.()]{0,160}?\((?:fot|foto)\.\s[^)]{1,80}\)(?:\s*/\s*" + _AGENCY + r")*\s*"),
+    re.compile(r"^[^.()]{0,160}?,?\s*\b(?:fot|foto)\.\s[^/.]{1,60}?(?:(?:\s*/\s*)+" + _AGENCY + r")+\s*"),
+    # "fot. Jacek Szydlowski / Forum / / FORUM": a name, then one or more "/ agency" parts
+    re.compile(r"\b(?:fot|foto|zdj|Photo|Image|Credit)\.?:?\s+[^/.]{1,60}?(?:(?:\s*/\s*)+" + _AGENCY + r")+\s*"),
+    # Al Jazeera's share bar: "x whatsapp-stroke copylink google Add Al Jazeera on Google info …"
+    re.compile(r"^.{0,80}?\bAdd Al Jazeera on Google\s+(?:info\s+)?"),
+]
+
+
+def scrub_body(text):
+    """'Skomentuj Podczas…' -> 'Podczas…'; 'fot. Akimov Igor / / Shutterstock Noc z…' -> 'Noc z…'."""
+    out = []
+    for para in text.split("\n\n"):
+        for rx in CLUTTER_RES:
+            para = rx.sub("", para)
+        para = para.strip()
+        if para:
+            out.append(para[0].upper() + para[1:])
+    return "\n\n".join(out)
+
+
 def _fetch_body(url):
     """First few paragraphs of the article, for the app's reader view."""
     try:
@@ -777,7 +805,7 @@ def gather_bodies(urls, limit=40):
                 json.dump(cache, fh)
         except Exception:
             pass
-    return cache
+    return {url: scrub_body(body) for url, body in cache.items()}
 
 
 IMG_RE = re.compile(r"<img[^>]+(?:data-src|src)=[\"']([^\"']+\.(?:jpe?g|png|webp))[^\"']*", re.I)

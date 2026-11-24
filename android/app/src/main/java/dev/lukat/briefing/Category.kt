@@ -305,7 +305,9 @@ private fun StoryCard(
                 .border(1.dp, Line, shape)
                 .clickable { onOpen() }
         ) {
-            Column(Modifier.weight(1f).verticalScroll(rememberScrollState())) {
+            val scroll = rememberScrollState()
+            Box(Modifier.weight(1f)) {
+            Column(Modifier.fillMaxSize().verticalScroll(scroll)) {
                 if (photo != null) {
                     Box(Modifier.fillMaxWidth().height((tall * 0.36f).coerceIn(170.dp, 340.dp))) {
                         AsyncImage(photo, null, contentScale = ContentScale.Crop, modifier = Modifier.fillMaxSize().background(Panel2))
@@ -342,6 +344,17 @@ private fun StoryCard(
                         }
                     }
                 }
+            }
+            // more below: the text fades out instead of being sliced off mid-line
+            if (scroll.canScrollForward) {
+                Box(
+                    Modifier
+                        .align(Alignment.BottomCenter)
+                        .fillMaxWidth()
+                        .height(48.dp)
+                        .background(Brush.verticalGradient(listOf(Panel.copy(alpha = 0f), Panel)))
+                )
+            }
             }
             next?.let { UpNext(it, hue, onNext) }
             Row(
