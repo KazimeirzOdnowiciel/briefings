@@ -267,6 +267,39 @@
    ]
   },
   {
+   "name": "🧜‍♀️ Warszawa",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Od soboty tramwaje nie pojadą Marszałkowską między Świętokrzyską a placem Bankowym",
+     "summary": "remont torowiska potrwa do 14 grudnia, linie 4, 15 i 18 jadą objazdem przez Andersa",
+     "matters": "to główna oś północ–południe; ZTM zaleca metro M1 na tym odcinku",
+     "url": "https://tvn24.pl/tvnwarszawa/a",
+     "source": "tvn24.pl",
+     "day": 1
+    },
+    {
+     "type": "story",
+     "headline": "Rada Warszawy przyjęła budżet na 2027 rok",
+     "summary": "23,4 mld zł wydatków, z czego 5,1 mld na inwestycje",
+     "matters": "najwięcej idzie na drugą linię metra i szkoły",
+     "url": "https://warszawa.wyborcza.pl/b",
+     "source": "wyborcza.pl",
+     "day": 1
+    },
+    {
+     "type": "story",
+     "headline": "Jarmark bożonarodzeniowy na Starym Mieście rusza w piątek",
+     "summary": "do 6 stycznia, codziennie 11–21, wstęp wolny",
+     "matters": "lodowisko na placu Zamkowym otwiera się tego samego dnia",
+     "url": "https://warszawa.naszemiasto.pl/c",
+     "source": "naszemiasto.pl",
+     "day": 1
+    }
+   ]
+  },
+  {
    "name": "💰 Money",
    "kind": "stories",
    "items": [
@@ -395,6 +428,30 @@
      "body": "This observation covers AI technology changes formally released or reliably verified around the period from 7:53 am on 16 November to 7:53 am on 17 November 2026 in Australia/Sydney. It includes three items. Alibaba formally released Qwen4-Max on 16 November under the model identifier qwen4-max. It is callable through QwenCloud's Token Plan and API and is also available in QwenWork and QwenStudio. The Qwen4-Max-Preview opened on 11 November only through the Singapore Token Plan and is scheduled to end on 25 November; the new fact in this release is that a separate production model is now live. Alibaba describes it as a sparse mixture-of-experts model with 2.4 trillion total parameters and 71 billion activated per token. It natively accepts text, image and video input and provides a one-million-token context window, tool calling and structured output. The flagship model's weights have not been released; Alibaba has only announced plans for smaller open-weight Qwen4 models. Performance, cost, safety and long-running agent results are developer reports. Reuters did not independently verify them, and no complete public third-party reproduction is available. The US Department of Commerce's Bureau of Industry and Security issued the interim final rule Addressing Remote Access to Advanced Semiconductors on 16 November, and it took effect immediately. The rule adds section 744.24 to the Export Administration Regulations. A licence is required when an exporter knows that covered advanced-computing items will be used in a data centre anywhere in the world and that one or more linked data centres will provide more than 12,000,000 aggregate TPP of direct or indirect access to a company headquartered, or whose ultimate parent is headquartered, in Macau or Country Group D:5. Foreign data centres must examine direct and indirect customer ownership or control. Compute used exclusively for commercial recommender systems is excepted when reporting conditions are met. The rule also adds destination-based licence requirements for specified advanced-computing items sent to Indonesia, Malaysia, Singapore, Thailand and Brazil. Existing remote services may continue for 90 days but must obtain a licence within that period. The rule is in force as an interim final rule; licence applications are reviewed case by case, and implementation and any later amendments remain incomplete. TensorWave announced on 16 November that it had signed a six-year contract to provide OpenAI with 457 MW of dedicated, single-tenant AI capacity across multiple data centres. The plan uses AMD Helios…",
      "day": 1,
      "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🔬 Science",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "A new antibiotic class clears drug-resistant gonorrhoea in a phase 3 trial",
+     "summary": "zoliflodacin cured 91% of 930 patients, matching the current two-drug standard",
+     "matters": "the first new class for gonorrhoea in decades, as ceftriaxone resistance spreads",
+     "url": "https://www.nature.com/a",
+     "source": "nature.com",
+     "day": 1
+    },
+    {
+     "type": "story",
+     "headline": "JWST finds carbon dioxide in the atmosphere of a temperate sub-Neptune",
+     "summary": "spectra of K2-18 b show CO2 and methane but no confirmed water vapour",
+     "matters": "it narrows which 'water world' models still fit",
+     "url": "https://www.science.org/b",
+     "source": "science.org",
+     "day": 1
     }
    ]
   },

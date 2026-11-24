@@ -99,8 +99,8 @@ internal fun HomeScreen(
         news.flatMap { storiesOf(it).filter(::isStatusLine) }.mapNotNull { it.headline }
             .filter { "WIG20" in it || "USD/PLN" in it }
     }
-    // live weather belongs to today, not to an edition from last week
-    val latest = dates.isEmpty() || feed.date == dates.first()
+    // live weather belongs to today's edition, not to last week's or a stale offline copy
+    val latest = feed.date == java.time.LocalDate.now().toString()
     val weather by produceState<Weather?>(null, latest, refreshing) {
         if (latest && !refreshing) value = fetchWeather() ?: value
     }
@@ -290,8 +290,9 @@ private fun Masthead(feed: Feed, hero: String?, offline: Boolean, wide: Boolean,
             Text(
                 feed.title ?: "Daily Briefing",
                 color = Ink,
-                fontSize = if (wide) 27.sp else 25.sp,
-                lineHeight = if (wide) 32.sp else 30.sp,
+                // the edition title is a full sentence; a long one steps down a size instead of running to six lines
+                fontSize = if ((feed.title?.length ?: 0) > 110) (if (wide) 24.sp else 22.sp) else if (wide) 27.sp else 25.sp,
+                lineHeight = if ((feed.title?.length ?: 0) > 110) (if (wide) 29.sp else 27.sp) else if (wide) 32.sp else 30.sp,
                 fontFamily = Serif,
                 fontWeight = FontWeight.SemiBold,
                 letterSpacing = (-0.3).sp

@@ -15,6 +15,10 @@ WHERE TO LOOK (checked 2026-11-17 with a plain fetch): Start with BBC World RSS 
 The 5 most important Polish stories, written in POLISH (headline and summary).
 WHERE TO LOOK (checked 2026-11-17 with a plain fetch): Sources: TVN24 (tvn24.pl/najnowsze.xml), Onet (wiadomosci.onet.pl/.feed), RMF24 (rmf24.pl/feed), Polsat News (polsatnews.pl/rss/wszystkie.xml), plus Money.pl and OKO.press for politics/economy; PAP is behind Incapsula and unusable — use Google News PL RSS (news.google.com/rss?hl=pl&gl=PL&ceid=PL:pl) to catch PAP-sourced stories, then cite the outlet that carries them. Keep Polish links as they are.
 
+**🧜‍♀️ Warszawa**
+3-5 stories from the city itself, written in POLISH (headline and summary), for someone who lives there: transport first (metro and tram works, ZTM route changes and closures that affect this week), then city-hall decisions (budget, housing, parking zones, rents), safety and emergencies, and one thing worth doing in Warsaw this week (a concert, exhibition, fair or free event with its date). Nothing that is national news already in Polska. If the city is quiet, run three.
+WHERE TO LOOK (checked 2026-11-24 with a plain fetch): tvnwarszawa (tvn24.pl/tvnwarszawa/najnowsze.xml), RMF24 Warszawa (rmf24.pl/regiony/warszawa/feed), Wyborcza Warszawa (warszawa.wyborcza.pl/pub/rss/warszawa.xml), Nasze Miasto (warszawa.naszemiasto.pl/rss/artykuly/1.xml), the ZTM feed for transport notices (ztm.waw.pl/feed/), and Google News PL (news.google.com/rss/search?q=Warszawa&hl=pl&gl=PL&ceid=PL:pl) to catch the rest. um.warszawa.pl has no working RSS.
+
 **💰 Money**
 The injected TAPE line as the first bullet, then 4 macro/market stories that explain it.
 WHERE TO LOOK (checked 2026-11-17 with a plain fetch): Sources: Bankier (bankier.pl/rss/wiadomosci.xml), Money.pl, CNBC top-news RSS, the MarketWatch feed (feeds.content.dowjones.io/public/rss/mw_topstories — the site itself is 401), plus ECB (ecb.europa.eu/rss/press.html) and Fed (federalreserve.gov/feeds/press_all.xml) for the primary decisions; Bloomberg, FT and WSJ are blocked, stooq and NBP are JS/bot-walled.
@@ -22,6 +26,10 @@ WHERE TO LOOK (checked 2026-11-17 with a plain fetch): Sources: Bankier (bankier
 **💻 AI & Tech**
 The 5 biggest stories: models, chips, regulation, security, platform outages. Skip gadget and product-launch filler.
 WHERE TO LOOK (checked 2026-11-17 with a plain fetch): Sources: Ars Technica (feeds.arstechnica.com/arstechnica/index), The Register (theregister.com/headlines.atom), The Verge, TechCrunch, NVIDIA Newsroom (nvidianews.nvidia.com/releases.xml) and OpenAI (openai.com/news/rss.xml) for primary announcements, plus BleepingComputer and 404 Media for security and outages.
+
+**🔬 Science**
+The 5 most important science stories of the last day or two, explained for a curious non-specialist: peer-reviewed results that change what we know (cite the journal), space missions and launches, medicine and health findings with their real effect size, climate and energy research. Each summary says what was found and how sure we are. Keep a mix: at most two medicine/health stories, and at least one from space or physical science when there is one. Link the journal, the agency or a major outlet; news-medical.net, EurekAlert and similar reposting sites only when nothing better carries the story. Skip press-release hype, single-mouse-study miracle cures and "scientists baffled" filler.
+WHERE TO LOOK (checked 2026-11-24 with a plain fetch): Nature (nature.com/nature.rss), Science news (science.org/rss/news_current.xml), New Scientist (newscientist.com/feed/home/), Quanta (quantamagazine.org/feed/), Ars Technica science (feeds.arstechnica.com/arstechnica/science), Guardian science (theguardian.com/science/rss), STAT for medicine (statnews.com/feed/), NASA (nasa.gov/feed/), plus ScienceDaily and phys.org to find the paper behind a story.
 
 **🎮 Games & Dev**
 The injected DEV line as the first bullet, then 4 stories for a Dalamud/FFXIV plugin developer: FFXIV patches and Lodestone news, Dalamud/XIVLauncher/plugin releases or API breaks, .NET/Unity/Blender news. Write fewer rather than padding with unrelated gaming news.

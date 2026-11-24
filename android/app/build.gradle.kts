@@ -33,8 +33,8 @@ android {
         applicationId = "dev.lukat.briefing"
         minSdk = 31
         targetSdk = 35
-        versionCode = 43
-        versionName = "0.43"
+        versionCode = 44
+        versionName = "0.44"
     }
 
     buildTypes {

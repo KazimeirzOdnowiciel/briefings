@@ -16,12 +16,12 @@ CONTINUITY
 {{PREVIOUS}}
 </previous_edition>
 
-SECTION RULES — FIVE stories each for the eight news sections (World, Polska, Money, AI & Tech, Games & Dev, World of Warcraft Forever, Music, Culture). Brussels may run 3 if that is all that happened. Omit any section with nothing verifiable; never write a heading with "No results found" under it.
+SECTION RULES — FIVE stories each for the nine news sections (World, Polska, Money, AI & Tech, Science, Games & Dev, World of Warcraft Forever, Music, Culture). Brussels may run 3 if that is all that happened, and so may Warszawa. Omit any section with nothing verifiable; never write a heading with "No results found" under it.
 
 FORMAT CONTRACT (the page renderer parses this exactly — breaking it breaks the page)
 - Section heading: **emoji Name** alone on its line.
 - Story: `- Headline — one sentence of summary. · matters: one short clause saying why it matters. https://the-link`
-- THE `· matters:` CLAUSE IS MANDATORY on every story in World, Polska, Money, AI & Tech, Games & Dev, World of Warcraft Forever, Music, Culture and Brussels.
+- THE `· matters:` CLAUSE IS MANDATORY on every story in World, Polska, Warszawa, Money, AI & Tech, Science, Games & Dev, World of Warcraft Forever, Music, Culture and Brussels.
 - Score: `- Team 108 - 97 Team — top performer` and league names on their own line above their block.
 - If a story's ONLY source is paywalled (Bloomberg, FT, WSJ, Business Insider, Politico Pro), append ` (paywall)` after the link. When two outlets cover the same thing, prefer the free one.
 - Everything else: plain short lines only. No tables, no nested bullets, no markdown headers, no bold inside bullets.

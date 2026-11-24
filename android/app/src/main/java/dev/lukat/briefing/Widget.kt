@@ -14,6 +14,7 @@ import androidx.glance.appwidget.GlanceAppWidgetReceiver
 import androidx.glance.appwidget.provideContent
 import androidx.glance.appwidget.action.actionStartActivity
 import androidx.glance.background
+import androidx.glance.layout.Alignment
 import androidx.glance.layout.Column
 import androidx.glance.layout.Row
 import androidx.glance.layout.Spacer
@@ -38,7 +39,9 @@ private val WDim = ColorProvider(Color(0xFF7A7468), Color(0xFF9A9284))
 private val WAccent = ColorProvider(Color(0xFFC4501B), Color(0xFFFF8F4A))
 private val WAmber = ColorProvider(Color(0xFFB7791F), Color(0xFFF5A524))
 private val WFaint = ColorProvider(Color(0xFF9A9285), Color(0xFF6F685C))
-private val WPanel = ColorProvider(Color(0xFFF5F1E8), Color(0xFF100F0D))
+private val WPanel = ColorProvider(Color(0xFFF5F1E8), Color(0xFF1A1815))
+private val WBody = ColorProvider(Color(0xFF3D3933), Color(0xFFD6CEC1))
+private val WOnAccent = ColorProvider(Color(0xFFFFFFFF), Color(0xFF1C1A16))
 
 /** Home-screen widget: the day, three headlines, and what you are training. */
 class BriefingWidget : GlanceAppWidget() {
@@ -61,77 +64,90 @@ class BriefingWidget : GlanceAppWidget() {
     @Composable
     private fun Content(feed: Feed?, context: Context) {
         val size = LocalSize.current
-        val compact = size.width < 200.dp || size.height < 70.dp
+        val compact = size.width < 200.dp || size.height < 100.dp
         val unseen = feed != null && !Seen.isSeen(context, feed.date)
         Column(
             modifier = GlanceModifier
                 .fillMaxSize()
                 .background(WPanel)
-                .cornerRadius(20.dp)
-                .padding(14.dp)
+                .cornerRadius(22.dp)
+                .padding(horizontal = 16.dp, vertical = 14.dp)
                 .clickable(actionStartActivity(Intent(context, MainActivity::class.java)))
         ) {
             if (feed == null) {
-                Text(
-                    "Open Briefing once to load today's edition",
-                    style = TextStyle(color = WDim, fontSize = 13.sp)
-                )
+                Text("Open Briefing once to load today's edition", style = TextStyle(color = WDim, fontSize = 13.sp))
                 return@Column
             }
 
-            Text(
-                "DAILY BRIEFING · ${feed.date}" + if (unseen) " · NEW" else "",
-                style = TextStyle(
-                    color = if (unseen) WAmber else WAccent,
-                    fontSize = 10.sp,
-                    fontFamily = FontFamily.Monospace
+            Row(modifier = GlanceModifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                Text(
+                    widgetDate(feed.date),
+                    style = TextStyle(color = WAccent, fontSize = 11.sp, fontWeight = FontWeight.Bold),
+                    modifier = GlanceModifier.defaultWeight()
                 )
-            )
-            Spacer(GlanceModifier.height(6.dp))
-            Text(
-                feed.title ?: "Briefing",
-                style = TextStyle(color = WInk, fontSize = 15.sp, fontWeight = FontWeight.Medium),
-                maxLines = if (compact) 3 else 2
-            )
-            if (compact) return@Column
-            Spacer(GlanceModifier.height(8.dp))
-
-            headlines(feed).take(3).forEach { (section, headline) ->
-                Row(modifier = GlanceModifier.fillMaxWidth().padding(vertical = 2.dp)) {
+                if (unseen) {
                     Text(
-                        section,
-                        style = TextStyle(color = WFaint, fontSize = 10.sp),
-                        modifier = GlanceModifier.padding(end = 6.dp)
-                    )
-                    Text(
-                        headline,
-                        style = TextStyle(color = WDim, fontSize = 12.sp),
-                        maxLines = 1
+                        "NEW",
+                        style = TextStyle(color = WOnAccent, fontSize = 10.sp, fontWeight = FontWeight.Bold),
+                        modifier = GlanceModifier.background(WAccent).cornerRadius(8.dp).padding(horizontal = 7.dp, vertical = 2.dp)
                     )
                 }
             }
+            Spacer(GlanceModifier.height(6.dp))
+            Text(
+                feed.title ?: "Briefing",
+                style = TextStyle(color = WInk, fontSize = if (compact) 14.sp else 16.sp, fontWeight = FontWeight.Medium,
+                    fontFamily = FontFamily.Serif),
+                maxLines = 3
+            )
+            if (compact) return@Column
 
-            feed.workout?.let {
-                Spacer(GlanceModifier.height(8.dp))
+            // one line per section, as many as the widget is tall enough for
+            val room = ((size.height.value - 118f) / 24f).toInt().coerceIn(1, 8)
+            Spacer(GlanceModifier.height(10.dp))
+            leads(feed).take(room).forEach { (emoji, headline) ->
+                Row(modifier = GlanceModifier.fillMaxWidth().padding(vertical = 3.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Text(emoji, style = TextStyle(fontSize = 12.sp), modifier = GlanceModifier.padding(end = 8.dp))
+                    Text(headline, style = TextStyle(color = WBody, fontSize = 13.sp), maxLines = 1)
+                }
+            }
+
+            Spacer(GlanceModifier.defaultWeight())
+            Row(modifier = GlanceModifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
                 Text(
-                    it.take(58),
-                    style = TextStyle(color = WAccent, fontSize = 10.sp),
-                    maxLines = 1
+                    feed.workout?.let { compactWorkout(it) } ?: "",
+                    style = TextStyle(color = WAccent, fontSize = 11.sp, fontWeight = FontWeight.Medium),
+                    maxLines = 1,
+                    modifier = GlanceModifier.defaultWeight()
                 )
+                feed.readMinutes?.let {
+                    Text("$it min read", style = TextStyle(color = WFaint, fontSize = 11.sp))
+                }
             }
         }
     }
 
-    /** Real stories only, in section order — skips TL;DR / what changed / following. */
-    private fun headlines(feed: Feed): List<Pair<String, String>> =
+    /** The lead story of each news section, skipping one that only repeats the edition title. */
+    private fun leads(feed: Feed): List<Pair<String, String>> =
         feed.sections
-            .filter { it.kind == "stories" }
-            .drop(3)
-            .flatMap { section ->
-                section.items
-                    .filter { it.type == "story" && !it.headline.isNullOrBlank() }
-                    .map { section.name.take(2) to (it.headline ?: "") }
+            .filter { kindOf(it) == Kind.News }
+            .mapNotNull { section ->
+                readableStories(section).firstOrNull { !it.headline.isNullOrBlank() }
+                    ?.let { emojiOf(section.name) to it.headline!! }
             }
+            .filterNot { (_, h) -> feed.title?.let { repeats(h, it) } ?: false }
+
+    /** "Iran says three tankers caught fire…" is the title again in other words: most of its words are in it. */
+    private fun repeats(headline: String, title: String): Boolean {
+        fun words(s: String) = Regex("[\\p{L}\\p{N}]{4,}").findAll(s.lowercase()).map { it.value.take(5) }.toSet()
+        val h = words(headline)
+        return h.isNotEmpty() && h.count { it in words(title) } * 2 >= h.size
+    }
+
+    /** "2026-11-24" -> "TUESDAY 24 NOV" */
+    private fun widgetDate(iso: String): String = runCatching {
+        java.time.LocalDate.parse(iso).format(java.time.format.DateTimeFormatter.ofPattern("EEEE d MMM", java.util.Locale.ENGLISH)).uppercase()
+    }.getOrDefault(iso)
 }
 
 class BriefingWidgetReceiver : GlanceAppWidgetReceiver() {

@@ -82,24 +82,25 @@ def previous_edition(today):
         return pick[:-3], fh.read()
 
 
-# Six writers research in parallel, each owning a beat, then an editor writes the top block.
+# Seven writers research in parallel, each owning a beat, then an editor writes the top block.
 # One writer for all fifteen sections skimped (2 Polish stories, no long read); split, each
 # beat gets a full research budget and wall time stays the same.
 TOP = ["🎯 TL;DR", "🔄 What changed", "🔁 Following"]
 GROUPS = [
     ("world", ["🌍 World", "🏛️ Brussels"]),
-    ("poland-money", ["🇵🇱 Polska", "💰 Money"]),
+    ("poland-money", ["🇵🇱 Polska", "🧜‍♀️ Warszawa", "💰 Money"]),
     ("tech-games", ["💻 AI & Tech", "🎮 Games & Dev", "🐉 World of Warcraft Forever"]),
     ("culture", ["🎵 Music", "🎬 Culture", "📌 Long read"]),
     ("football", ["📅 Tonight", "⚽ Football"]),
     ("nba", ["🏀 NBA"]),
+    ("science", ["🔬 Science"]),
 ]
-ORDER = TOP + ["🌍 World", "🇵🇱 Polska", "💰 Money", "💻 AI & Tech", "🎮 Games & Dev",
+ORDER = TOP + ["🌍 World", "🇵🇱 Polska", "🧜‍♀️ Warszawa", "💰 Money", "💻 AI & Tech", "🔬 Science", "🎮 Games & Dev",
                "🐉 World of Warcraft Forever", "🎵 Music", "🎬 Culture", "🏛️ Brussels",
                "📅 Tonight", "🏀 NBA", "⚽ Football", "📌 Long read"]
 # fewest story lines a section may come back with before its writer is asked once more
 MINIMUM = {"🌍 World": 4, "🇵🇱 Polska": 4, "💰 Money": 4, "💻 AI & Tech": 4, "🎮 Games & Dev": 3,
-           "🎵 Music": 4, "🎬 Culture": 4, "🏛️ Brussels": 2, "📌 Long read": 1}
+           "🎵 Music": 4, "🎬 Culture": 4, "🏛️ Brussels": 2, "🔬 Science": 4, "🧜‍♀️ Warszawa": 3, "📌 Long read": 1}
 
 
 def prompt_file(name):

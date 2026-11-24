@@ -67,6 +67,8 @@ internal fun sectionHue(name: String): Color {
         "warcraft" in n || Regex("\\bwow\\b").containsMatchIn(n) -> Color(0xFFE09A1A)
         n.contains("world") -> Color(0xFF4F7FE0)
         "polska" in n || "poland" in n -> Color(0xFFE5484D)
+        "warszawa" in n || "warsaw" in n -> Color(0xFFC9A227)
+        "science" in n -> Color(0xFF0EA5E9)
         "money" in n || "market" in n -> Color(0xFF2F9E66)
         Regex("\\bai\\b").containsMatchIn(n) || "tech" in n -> Color(0xFF8E4EC6)
         "games" in n || "dev" in n -> Color(0xFF12A594)
