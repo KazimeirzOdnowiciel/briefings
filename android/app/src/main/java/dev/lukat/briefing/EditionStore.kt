@@ -38,4 +38,24 @@ object EditionStore {
         dates(context).firstOrNull()?.let { load(context, it) }
 
     fun size(context: Context): Int = dates(context).size
+
+    /**
+     * Fill gaps in the last [days] days from the site's `editions/<date>.json`, so a phone that
+     * was off (or an app that wasn't opened) still has every edition for the date strip and search.
+     * Returns how many editions were added. Missing days (404) are simply skipped.
+     */
+    suspend fun backfill(context: Context, newest: String, days: Int = 14): Int {
+        val end = runCatching { java.time.LocalDate.parse(newest) }.getOrNull() ?: return 0
+        val have = dates(context).toSet()
+        val missing = (1..days).map { end.minusDays(it.toLong()).toString() }.filterNot { it in have }
+        var added = 0
+        for (date in missing) {
+            val raw = runCatching { loadFeedRaw(SITE_BASE + "editions/$date.json") }.getOrNull() ?: continue
+            if (runCatching { parseFeed(raw).date }.getOrNull() == date) {
+                save(context, raw)
+                added++
+            }
+        }
+        return added
+    }
 }

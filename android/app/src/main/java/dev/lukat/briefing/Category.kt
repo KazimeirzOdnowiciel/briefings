@@ -242,9 +242,9 @@ private fun StoryDeck(section: Section, date: String, wide: Boolean, read: Set<S
 
 /** Market tape or a version line, broken into small figures instead of one dense sentence. */
 @Composable
-private fun Ticker(lines: List<String>, hue: Color) {
+internal fun Ticker(lines: List<String>, hue: Color, edge: Dp = 16.dp) {
     val parts = remember(lines) { lines.flatMap { it.split(" · ") }.map { it.trim() }.filter { it.isNotEmpty() } }
-    LazyRow(contentPadding = PaddingValues(horizontal = 16.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+    LazyRow(contentPadding = PaddingValues(horizontal = edge), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
         itemsIndexed(parts) { _, p ->
             val m = Regex("^(.*?)\\s+(\\$?[\\d.,]+.*)$").find(p)
             Column(
@@ -517,11 +517,15 @@ private fun Scorers(item: Item) {
 internal fun FixtureLine(text: String, hue: Color, hasLabel: Boolean, compact: Boolean = false) {
     val body = if (hasLabel) text.substringAfter(" — ", text) else text
     val times = Regex("\\b\\d{1,2}:\\d{2}\\b").findAll(body).map { it.value }.toList()
-    val clean = body.replace(Regex(",?\\s*\\b\\d{1,2}:\\d{2}\\b"), "").replace(Regex("\\s+"), " ").trim().trimEnd(',', ';')
+    val parsed = parseFixture(body)
+    // several matches at one kick-off read as a list, not one comma-separated sentence
+    val clean = if (!compact && parsed.matches.size > 1) parsed.matches.joinToString("\n")
+        else body.replace(Regex(",?\\s*\\b\\d{1,2}:\\d{2}\\b"), "").replace(Regex("\\s+"), " ").trim().trimEnd(',', ';')
     val poland = Regex("poland|polska", RegexOption.IGNORE_CASE).containsMatchIn(body)
-    Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 4.dp)) {
+    // a list of matches keeps its kick-off beside the first one, not floating mid-list
+    Row(verticalAlignment = if ('\n' in clean) Alignment.Top else Alignment.CenterVertically, modifier = Modifier.padding(vertical = 4.dp)) {
         Text(
-            clean, color = if (poland) Ink else Body, fontSize = if (compact) 13.5.sp else 14.5.sp, lineHeight = 20.sp,
+            clean, color = if (poland) Ink else Body, fontSize = if (compact) 13.5.sp else 14.5.sp, lineHeight = if (compact) 20.sp else 22.sp,
             fontWeight = if (poland) FontWeight.Bold else FontWeight.Normal, modifier = Modifier.weight(1f),
             maxLines = if (compact) 1 else Int.MAX_VALUE, overflow = TextOverflow.Ellipsis
         )

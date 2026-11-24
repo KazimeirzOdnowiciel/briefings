@@ -987,6 +987,7 @@ def _split_scorers(note, sa, sb):
     A side that did not score has no segment. Anything left over is the note."""
     parts = []
     for p in (p.strip() for p in note.split(";")):
+        p = re.sub(r"^(?:none|no goals)\.\s+", "", p, flags=re.I)
         # "Haaland 37', Ødegaard 83'. Haaland's penalty won it." -> goals, then the sentence
         head, dot, tail = p.partition(". ")
         if dot and all(GOAL_MINUTE.search(t) for t in head.split(",")):
@@ -995,7 +996,8 @@ def _split_scorers(note, sa, sb):
             parts.append(p[:-1])
         else:
             parts.append(p)
-    parts = [p for p in parts if p not in ("", "-", "–")]
+    # a side that did not score is sometimes written out as "none"
+    parts = [p for p in parts if p.lower().rstrip(".") not in ("", "-", "–", "none", "no goals")]
     goals = lambda p: bool(GOAL_MINUTE.search(p)) and len(p) < 160 and not p.endswith(".")
     home, away = [], []
     if sa and parts and goals(parts[0]):

@@ -16,6 +16,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -25,6 +26,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.GridItemSpan
@@ -42,6 +44,7 @@ import androidx.compose.material3.pulltorefresh.PullToRefreshBox
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -91,6 +94,16 @@ internal fun HomeScreen(
     val full: LazyGridItemSpanScope.() -> GridItemSpan = { GridItemSpan(maxLineSpan) }
     // the masthead's photo is not repeated on the category card right below it
     val hero = remember(feed) { heroPhoto(news) }
+    // the market tape from Money, as figures across the top rather than a card nobody opens
+    val tape = remember(feed) {
+        news.flatMap { storiesOf(it).filter(::isStatusLine) }.mapNotNull { it.headline }
+            .filter { "WIG20" in it || "USD/PLN" in it }
+    }
+    // live weather belongs to today, not to an edition from last week
+    val latest = dates.isEmpty() || feed.date == dates.first()
+    val weather by produceState<Weather?>(null, latest, refreshing) {
+        if (latest && !refreshing) value = fetchWeather() ?: value
+    }
 
     PullToRefreshBox(isRefreshing = refreshing, onRefresh = onRefresh) {
       BoxWithConstraints {
@@ -113,8 +126,9 @@ internal fun HomeScreen(
             if (updateLabel != null) item(span = full) { UpdateCard(updateLabel, updateError, onUpdate) }
             // unfolded: masthead and catch-up side by side instead of two 840dp-wide slabs
             val half: LazyGridItemSpanScope.() -> GridItemSpan = { GridItemSpan(if (sideBySide) maxLineSpan / 2 else maxLineSpan) }
-            item(span = half) { Masthead(feed, hero, offline, wide, news, read) }
+            item(span = half) { Masthead(feed, hero, offline, wide, news, read, weather.takeIf { latest }?.line) }
             if (digest.isNotEmpty()) item(span = half) { CatchUp(digest, feed.title) }
+            if (tape.isNotEmpty()) item(span = full) { Ticker(tape, sectionHue("Money"), edge = 0.dp) }
 
             label("Sections", "${news.size}")
             // the first card widens just enough that every row is full: no card ever sits alone
@@ -250,8 +264,9 @@ private fun UpdateCard(label: String, error: String?, onUpdate: () -> Unit) {
     }
 }
 
+@OptIn(androidx.compose.foundation.layout.ExperimentalLayoutApi::class)
 @Composable
-private fun Masthead(feed: Feed, hero: String?, offline: Boolean, wide: Boolean, news: List<Section>, read: Set<String>) {
+private fun Masthead(feed: Feed, hero: String?, offline: Boolean, wide: Boolean, news: List<Section>, read: Set<String>, weather: String?) {
     val total = remember(feed) { news.sumOf { readableStories(it).size } }
     val done = news.sumOf { s -> readableStories(s).count { read.contains(ReadStore.key(feed.date, it)) } }
     Column(
@@ -282,7 +297,12 @@ private fun Masthead(feed: Feed, hero: String?, offline: Boolean, wide: Boolean,
                 letterSpacing = (-0.3).sp
             )
             Spacer(Modifier.height(14.dp))
-            Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
+            FlowRow(
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp),
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                weather?.let { Chip(it) }
                 feed.workout?.let { Chip(compactWorkout(it), on = it.startsWith("💪")) }
                 if (offline) Chip("Offline copy", warn = true)
             }
@@ -465,13 +485,102 @@ private fun SportCard(section: Section, onClick: () -> Unit) {
                 color = hue, fontSize = 11.sp, fontWeight = FontWeight.Bold
             )
         }
-        Spacer(Modifier.height(10.dp))
+        Spacer(Modifier.height(6.dp))
+        val shown = if (scores.isNotEmpty()) 3 else 4
         if (scores.isNotEmpty()) {
-            scores.take(3).forEach { ScoreLine(it) }
+            scores.take(shown).forEachIndexed { i, it ->
+                if (i > 0) Box(Modifier.fillMaxWidth().height(1.dp).background(Line))
+                MiniScore(it)
+            }
         } else {
-            lines.take(4).forEach { FixtureLine(it, hue, hasLabel = false, compact = true) }
+            lines.take(shown).forEach { MiniFixture(it) }
+        }
+        val more = (if (scores.isNotEmpty()) scores.size else lines.size) - shown
+        if (more > 0) {
+            Spacer(Modifier.height(6.dp))
+            Text("+$more more", color = Dim, fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
         }
     }
+}
+
+/** A result as two stacked rows, team then score, the winner in full ink: names never get cut to "Griz…". */
+@Composable
+private fun MiniScore(item: Item) {
+    val hs = item.homeScore ?: 0
+    val aws = item.awayScore ?: 0
+    Column(Modifier.padding(vertical = 7.dp)) {
+        TeamRow(item.home.orEmpty(), hs, hs > aws)
+        Spacer(Modifier.height(2.dp))
+        TeamRow(item.away.orEmpty(), aws, aws > hs)
+    }
+}
+
+@Composable
+private fun TeamRow(name: String, score: Int, won: Boolean) {
+    Row(verticalAlignment = Alignment.CenterVertically) {
+        Text(
+            name, color = if (won) Ink else Dim, fontSize = 14.sp,
+            fontWeight = if (won) FontWeight.SemiBold else FontWeight.Normal,
+            maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = Modifier.weight(1f)
+        )
+        Spacer(Modifier.width(8.dp))
+        Text(
+            "$score", color = if (won) Ink else Dim, fontSize = 14.sp,
+            fontWeight = if (won) FontWeight.Bold else FontWeight.Normal,
+            style = TextStyle(fontFeatureSettings = "tnum")
+        )
+    }
+}
+
+/** "Champions League — Arsenal v Dortmund, Como v AEK, 21:00": the time, the competition, the first match. */
+@Composable
+private fun MiniFixture(text: String) {
+    val f = remember(text) { parseFixture(text) }
+    Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 5.dp)) {
+        Text(
+            f.time ?: "—", color = if (f.poland) AccentInk else Ink, fontSize = 13.sp, fontWeight = FontWeight.Bold,
+            style = TextStyle(fontFeatureSettings = "tnum"),
+            textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+            modifier = Modifier.width(58.dp).clip(RoundedCornerShape(8.dp)).background(if (f.poland) Accent else Panel2)
+                .padding(vertical = 5.dp)
+        )
+        Spacer(Modifier.width(10.dp))
+        Column(Modifier.weight(1f)) {
+            val label = listOfNotNull(f.label, f.day).joinToString(" · ")
+            if (label.isNotEmpty()) {
+                Text(label.uppercase(), color = Dim, fontSize = 9.5.sp, fontWeight = FontWeight.Bold, letterSpacing = 0.7.sp,
+                    maxLines = 1, overflow = TextOverflow.Ellipsis)
+            }
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(
+                    f.matches.firstOrNull().orEmpty(),
+                    color = if (f.poland) Ink else Body, fontSize = 13.5.sp, lineHeight = 18.sp,
+                    fontWeight = if (f.poland) FontWeight.Bold else FontWeight.Normal,
+                    maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = Modifier.weight(1f, fill = false)
+                )
+                // the count of other matches at this kick-off survives the ellipsis
+                if (f.matches.size > 1) {
+                    Text(" +${f.matches.size - 1}", color = Dim, fontSize = 12.sp, fontWeight = FontWeight.Bold, maxLines = 1)
+                }
+            }
+        }
+    }
+}
+
+internal data class Fixture(val label: String?, val matches: List<String>, val time: String?, val day: String?, val poland: Boolean)
+
+/** Splits a Tonight line into competition, one entry per match, the kick-off time and a "(Wednesday)" day note. */
+internal fun parseFixture(text: String): Fixture {
+    val label = text.substringBefore(" — ", "").trim().takeIf { it.isNotEmpty() && it.length < 40 }
+    var body = if (label != null) text.substringAfter(" — ") else text
+    val day = Regex("\\((Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*\\)").find(body)?.groupValues?.get(1)
+    body = body.replace(Regex("\\s*\\((Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*\\)"), "")
+    val time = Regex("\\b\\d{1,2}:\\d{2}\\b").find(body)?.value
+    body = body.replace(Regex(",?\\s*\\b\\d{1,2}:\\d{2}\\b"), "").replace(Regex("\\s+"), " ").trim().trimEnd(',', ';')
+    val parts = body.split(Regex(",\\s+|\\s+and\\s+")).map { it.trim() }.filter { it.isNotEmpty() }
+    val matches = if (parts.size > 1 && parts.all { " v " in it || " vs " in it }) parts else listOf(body)
+    val poland = Regex("poland|polska", RegexOption.IGNORE_CASE).containsMatchIn(text)
+    return Fixture(label, matches, time, day, poland)
 }
 
 @Composable
@@ -491,6 +600,8 @@ internal fun ScoreLine(item: Item, big: Boolean = false) {
         )
         Text(
             "$hs – $aws",
+            maxLines = 1,
+            softWrap = false,
             color = Ink,
             fontSize = if (big) 15.sp else 13.sp,
             fontWeight = FontWeight.Bold,
@@ -500,8 +611,8 @@ internal fun ScoreLine(item: Item, big: Boolean = false) {
                 .padding(horizontal = 10.dp)
                 .clip(RoundedCornerShape(8.dp))
                 .background(Panel2)
+                .widthIn(min = if (big) 76.dp else 64.dp)
                 .padding(horizontal = 9.dp, vertical = 3.dp)
-                .width(if (big) 58.dp else 50.dp)
         )
         Text(
             item.away.orEmpty(),
@@ -531,7 +642,7 @@ private fun LongReadCard(section: Section, onClick: () -> Unit) {
         Text(item.headline.orEmpty(), color = Bg, fontSize = 21.sp, lineHeight = 26.sp, fontFamily = Serif, fontWeight = FontWeight.SemiBold)
         item.summary?.let {
             Spacer(Modifier.height(6.dp))
-            Text(it.replaceFirstChar { c -> c.uppercase() }, color = Bg.copy(alpha = 0.75f), fontSize = 13.5.sp, lineHeight = 19.sp, maxLines = 3)
+            Text(it.replaceFirstChar { c -> c.uppercase() }, color = Bg.copy(alpha = 0.75f), fontSize = 13.5.sp, lineHeight = 19.sp, maxLines = 3, overflow = TextOverflow.Ellipsis)
         }
     }
 }

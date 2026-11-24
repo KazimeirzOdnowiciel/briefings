@@ -26,6 +26,7 @@ class BriefingWorker(context: Context, params: WorkerParameters) : CoroutineWork
             val feed = parseFeed(raw)
             FeedStore.save(context, raw)
             EditionStore.save(context, raw)
+            runCatching { EditionStore.backfill(context, feed.date) }
             runCatching { BriefingWidget().updateAll(context) }
 
             val prefs = context.getSharedPreferences("briefing", Context.MODE_PRIVATE)

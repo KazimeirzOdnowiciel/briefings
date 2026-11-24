@@ -162,6 +162,10 @@ fun BriefingScreen() {
                 refreshing = false
                 val feed = parseFeed(raw)
                 markSeen(context, feed.date)
+                // days the phone missed come down quietly after the newest is on screen
+                scope.launch {
+                    if (EditionStore.backfill(context, feed.date) > 0) dates = EditionStore.dates(context)
+                }
                 runCatching { BriefingWidget().updateAll(context) }
                 UiState.Ready(feed)
             } catch (e: Exception) {
