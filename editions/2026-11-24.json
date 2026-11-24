@@ -1,0 +1,950 @@
+{
+ "schema": 1,
+ "generated": "2026-11-24T07:32:33",
+ "date": "2026-11-24",
+ "greeting": "Good morning — Tuesday, 24 November 2026.",
+ "title": "Iran's IRGC says three tankers burned after hitting mines in Hormuz, while Qatar's PM tries to revive US-Iran talks after meeting Rubio",
+ "workout": "💪 Today is a workout day: Tuesday — Row A: Steady State — 40 min continuous at 2:20-2:30/500m. ~60 min, reminder at 17:00. Nothing logged in Hevy yet.",
+ "audio": null,
+ "read_minutes": 20,
+ "sections": [
+  {
+   "name": "🎯 TL;DR",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Iran's IRGC says three tankers burned after hitting mines in Hormuz, while Qatar's PM tries to revive US-Iran talks after meeting Rubio",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Wall Street rebounded sharply after Nvidia reinstated Jensen Huang, with the S&P 500 up 4.73% and Nvidia up 31.48%",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "NATO gives Poland one AWACS aircraft after the emergency council meeting, and a Russian reconnaissance drone briefly flew over Poland near Dorohusk",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🔄 What changed",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Hormuz account revised: the IRGC now says the tankers hit naval mines, rather than Iran's navy setting them ablaze, and the claim is unconfirmed",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Nvidia's board reversed and reinstated Jensen Huang as CEO, and the sell-off flipped to a rebound (S&P 500 +4.73%, Nasdaq +6.51%), while bitcoin fell 1.8% to $60,399 and Brent to $86.30",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "The NATO session is over: Poland got one AWACS, and further proposals go to next week's foreign ministers' meeting",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🔁 Following",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Iran war: the Rubio–Qatar meeting happened, Qatar's PM is working to de-escalate, and the US Treasury sanctioned more than two dozen Iranian entities",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Russian objects in Polish airspace: NATO granted an AWACS, and a Russian drone overflew near Dorohusk without being shot down",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Nvidia and the chip probe: Huang is back as CEO, with no new word on the Megaspeed and Alice Huang investigation",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🌍 World",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Iran says three tankers caught fire after hitting mines in Hormuz",
+     "summary": "the IRGC says three oil tankers suffered a severe explosion and fire after hitting naval mines in the Strait of Hormuz, which changes yesterday's account of Iran's navy setting ships ablaze.",
+     "matters": "Al Jazeera reports this as an IRGC claim that is not independently confirmed, and Qatar's prime minister told it the region cannot withstand another US-Iran escalation.",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines",
+     "source": "aljazeera.com",
+     "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20261123__D8BZ7G9__v2__HighRes__IranUsIsraelWar-1795471267.jpg?resize=1920%2C1440",
+     "body": null,
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Qatar's PM tries to revive US-Iran talks after meeting Rubio",
+     "summary": "Sheikh Mohammed bin Abdulrahman Al Thani met US Secretary of State Marco Rubio in Washington and says he is working to de-escalate tensions between Iran and the US.",
+     "matters": "this is the diplomatic track that was due to run alongside the Hormuz incidents, and the US Treasury sanctioned more than two dozen Iranian entities in \"shadow banking\" networks on Monday.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/qatar-pm-looks-to-revive-us-iran-talks-after-meeting-rubio",
+     "source": "aljazeera.com",
+     "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795483806.jpg?resize=1920%2C1080&quality=80",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Commission proposes a 22nd Russia sanctions package that includes a sports ban",
+     "summary": "Ursula von der Leyen presented it on Monday, with 60 banks removed from SWIFT, a crypto sanctions task force and a visa ban for Russians who fought in the war. It also bars Russian teams and athletes from competing under the Russian flag at EU events.",
+     "matters": "all 27 member states must endorse it before it takes effect, and it follows the EU's largest listing against Russia, about 1,600 officials and companies tied to its arms industry.",
+     "url": "https://www.aljazeera.com/news/2026/11/23/eu-plans-sports-ban-in-sweeping-new-russia-sanctions-proposal",
+     "source": "aljazeera.com",
+     "image": null,
+     "body": "x whatsapp-stroke copylink google Add Al Jazeera on Google info European Commission President Ursula von der Leyen at the European Council, Brussels, Belgium, November 20, 2026 [Nicolas Tucat/AFP] By Al Jazeera Staff and AP Published On 23 Nov 2026 23 Nov 2026 The European Commission has proposed new sanctions against Russia targeting its banks, crypto platforms, and participation in sporting events.\n\nCommission chief Ursula von der Leyen introduced the 22nd package of sanctions on Monday, which includes a ban on Russian teams and individual athletes competing under the country’s flag at events in the European Union.\n\n“We are striking harder at Russia’s ways to finance its war, by targeting its banks and crypto platforms,” von der Leyen wrote in a post on X, adding that the EU will be “shutting the door to its participation in European sports and cultural events”.\n\nVon der Leyen said 60 banks will be removed from the Society for Worldwide Interbank Financial Telecommunication (SWIFT) messaging system used for international payments under the new proposals, which are intended to maintain economic pressure on Russia, almost five years into its full-scale invasion of Ukraine.\n\nShe announced the creation of a crypto sanctions task force seeking to curb countries helping Russia to evade sanctions.\n\nThe commission also proposed a ban on visas for Russians who had fought in the war in Ukraine.\n\n“Russian ex-combatants pose a security risk to Europe. They cannot be allowed to wander freely across our countries,” von der Leyen said.\n\nThe plan also put forward restrictions on financial flows from Russian sponsors to sports and cultural associations based in the EU. Russian nationals would also no longer be allowed to hold leadership positions on the governing bodies of sports federations.\n\nThe proposed package must be endorsed by all 27 EU member countries before going into force and comes just over a month after the bloc posted the largest listing of sanctions against Russia, targeting about 1,600 Russian officials and companies linked to its arms industry.\n\nThe EU has already slapped sanctions on more than 4,200 people and entities, including Russian President Vladimir Putin and several energy companies.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Colombia hit by a car bomb at the Meta governor's office and a drone attack on a police base",
+     "summary": "a car bomb exploded in Villavicencio next to the governor's office and damaged nearby buildings, and a drone attack on a police base on Monday injured three civilians, including an infant.",
+     "matters": "no casualties or culprit are reported for the bombing, and the attacks come as far-right President De la Espriella steps up his offensive and rebel groups strike back with drones and roadside bombs.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/car-bomb-strikes-governors-office-in-meta-colombia",
+     "source": "aljazeera.com",
+     "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795495621.jpg?resize=1200%2C675",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Pennsylvania reports a ninth measles death as the US passes 5,800 cases",
+     "summary": "the latest victim was an unvaccinated Centre County resident, and the state has 1,638 confirmed cases across 46 counties and 330 hospitalisations.",
+     "matters": "the CDC's 5,838 confirmed cases as of 19 November are its highest count since 1991, and November alone has more than doubled the 2,289 cases reported for all of 2025.",
+     "url": "https://www.aljazeera.com/news/2026/11/24/pennsylvania-reports-ninth-measles-death-in-ongoing-state-outbreak",
+     "source": "aljazeera.com",
+     "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6b04fd12611e1-1795489042.jpg?resize=1920%2C1440",
+     "body": "x whatsapp-stroke copylink google Add Al Jazeera on Google info A sign is posted outside a Pennsylvania Department of Health measles vaccination clinic located, Peach Bottom, Pennsylvania, October 20, 2026 [Matt Rourke/AP] By Al Jazeera Staff and Reuters Published On 24 Nov 2026 24 Nov 2026 Pennsylvania health officials have reported another death linked to the ongoing measles outbreak, bringing the state’s death toll associated with the highly contagious viral disease to nine.\n\nThe state Department of Health confirmed on Monday the death of an unvaccinated resident of Centre County in central ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Pennsylvania who tested positive for measles.\n\nPennsylvania, the hardest-hit US state, has recorded 1,638 confirmed measles cases across 46 counties so far in 2026, including 330 hospitalisations.\n\nThe nine deaths were recorded across five counties, as Lancaster County accounted ‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌for three deaths, while Jefferson County reported two.\n\nVirginia recorded its first measles-related death in more than three decades on Friday, just days after the United States lost its hard-fought designation as having eliminated the highly contagious virus.\n\nMeanwhile, Wisconsin has reported two deaths, and New York state has recorded one child death linked to the disease.\n\nHowever, the Centers for Disease Control and Prevention (CDC) has reported only six measles-associated deaths so far in 2026, without specifying the ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠states where the deaths were recorded.\n\nThe discrepancy between state and federal tolls emerged earlier this year after the health agency, under US Health Secretary Robert F Kennedy Jr, began using National Center for Health Statistics mortality data instead of state figures.\n\nThe US Department of Health and Human Services said it ⁠⁠⁠⁠was “saddened to hear of another death in Pennsylvania”, adding that the CDC has provided the state with nearly $4m in one-time emergency funding for ⁠⁠⁠⁠response efforts in 2027.\n\nA total of 5,838 measles cases were confirmed across the country this year as of November 19, according to CDC data. The figure is the highest number reported by the CDC since 1991.\n\nChildren below the age of five account for 18 percent of cases, while children between the ages of five and 19 make up 41 percent of cases.\n\nThe number of confirmed cases in November 2026 is more than double the 2,289 confirmed measles cases reported for the full year of 2025.",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🇵🇱 Polska",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Rosyjski dron rozpoznawczy na kilka minut wleciał nad Polskę koło Dorohuska",
+     "summary": "wojsko dało zgodę na zestrzelenie, ale po zawróceniu drona na wschód z niej nie skorzystało, a RCB wydało alert dla wschodnich powiatów Lubelszczyzny, odwołany tuż przed północą.",
+     "matters": "dron, który miał kamery i napęd odrzutowy, lecąc podczas wieczornego rosyjskiego ataku na Ukrainę, był śledzony przez trzy systemy obrony powietrznej, a DORSZ uzasadnił brak strzału ryzykiem dla ludności cywilnej i skutkami zestrzelenia.",
+     "url": "https://www.bankier.pl/wiadomosc/Kilkuminutowy-lot-rosyjskiego-drona-rozpoznawczego-nad-Polska-Wojsko-wydalo-autoryzacje-na-zestrzelenie-9233855.html",
+     "source": "bankier.pl",
+     "image": "https://galeria.bankier.pl/p/f/d/788bc714561a65-948-567-0-45-1000-599.jpg",
+     "body": "Skomentuj Podczas wieczornego rosyjskiego nalotu na Ukrainę w polską przestrzeń powietrzną w okolicy Dorohuska na kilka minut wleciał rosyjski odrzutowy dron obserwacyjny – wynika z informacji PAP zbliżonych do MON.\n\nfot. Akimov Igor / / Shutterstock Noc z poniedziałku na wtorek to kolejna, podczas której Rosja atakuje Ukrainę rakietami i dronami; Rządowe Centrum Bezpieczeństwa wydało alert dla powiatów we wschodniej części woj. lubelskiego ostrzegający przed zagrożeniem z powietrza i apelujący o znalezienie bezpiecznego miejsca.\n\nO uruchomieniu systemów przeciwlotniczych i lotnictwa poinformowało w poniedziałek wieczorem Dowództwo Operacyjne Rodzajów Sił Zbrojnych. Chwilę przed północą RCB odwołało alert, informując o braku zagrożenia na terenie Polski.\n\nJak dowiedziała się PAP w źródłach zbliżonych do resortu obrony, podczas wieczornego ataku na Ukrainę jeden z rosyjskich dronów odrzutowych wtargnął w polską przestrzeń powietrzną w okolicy Dorohuska. Źródła zaznaczają, że dron wyposażony był w aparaturę obserwacyjną – m.in. kamery – i jego zadaniem było najprawdopodobniej prowadzenie rozpoznania.\n\nDron przebywał w polskiej przestrzeni – jak wskazują źródła – przez kilka minut i przez cały czas był śledzony przez polskie trzy różne systemy obrony powietrznej. Po kilku minutach lotu powrócił nad terytorium Ukrainy.\n\nDo naruszenia polskiej przestrzeni powietrznej nawiązano także w komunikacie na X odpowiedzialnego za ochronę polskiego nieba Dowództwa Operacyjnego RSZ.\n\n„W odpowiedzi na zagrożenie Dowództwo Operacyjne RSZ uruchomiło niezbędne siły i środki systemu obrony powietrznej. Obiekt był nieprzerwanie śledzony przez wojskowe systemy radiolokacyjne na całej trasie przelotu. Sytuacja była na bieżąco monitorowana, wydano autoryzację na zestrzelenie obiektu” – wskazało w komunikacie Dowództwo Operacyjne RSZ.\n\nDORSZ dodaje, że po tym, jak rosyjski dron zmienił kurs na wschód – z powrotem w kierunku Ukrainy – „uwzględniając potencjalne zagrożenie dla ludności cywilnej i możliwe skutki zestrzelenia obiektu, podjęto decyzję o wstrzymaniu się od użycia uzbrojenia w związku z utrzymującym się ryzykiem wyrządzenia szkód”.\n\n„Podkreślamy, że Siły Zbrojne RP nieprzerwanie monitorują sytuację w przestrzeni powietrznej, a siły i środki systemu obrony powietrznej pozostają w stałej gotowości do reagowania na wszelkie zagrożenia. Zapewnienie bezpieczeństwa polskiej przestrzeni powietrznej pozostaje naszym niezmiennym priorytetem” – zapewnia Dowództwo.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "NATO przyznaje Polsce jeden samolot AWACS po posiedzeniu Rady Północnoatlantyckiej",
+     "summary": "wiceminister Paweł Zalewski mówi, że część polskich propozycji wzmocnienia obrony powietrznej spotkała się z bardzo pozytywnym odzewem.",
+     "matters": "kolejne propozycje trafią na przyszłotygodniowe spotkanie szefów dyplomacji NATO, a Zalewski przyznaje, że sojusznicze zasady użycia broni wciąż odpowiadają czasom pokoju, więc ich zmiana jest dopiero rozważana.",
+     "url": "https://www.bankier.pl/wiadomosc/NATO-wysyla-AWACS-nad-Polske-Rosyjskie-rakiety-nad-Polska-wywolaly-reakcje-sojuszu-9233781.html",
+     "source": "bankier.pl",
+     "image": "https://galeria.bankier.pl/p/1/4/514038ff204cac-948-568-0-135-2000-1199.jpg",
+     "body": "Skomentuj Część polskich propozycji w sprawie wzmocnienia obrony spotkała się z pozytywną odpowiedzią; do dyspozycji Polski będzie postawiony jeden samolot wczesnego ostrzegania AWACS - oznajmił w poniedziałek wiceszef MON Paweł Zalewski po spotkaniu Rady Północnoatlantyckiej w Brukseli.\n\n/ NATO W poniedziałek w Kwaterze Głównej NATO w Brukseli doszło do spotkania Rady Północnoatlantyckiej - najważniejszego organu decyzyjnego Sojuszu. Rozmowy odbyły się w związku z piątkowym rosyjskim atakiem na zachodnią Ukrainę, podczas którego w przestrzeń powietrzną w południowo-wschodniej Polsce wtargnęły trzy rosyjskie pociski manewrujące Ch-101.\n\nWiceminister przekazał, że wśród sojuszników nie było nikogo, kto by wątpił w intencjonalność działań Rosji.\n\nZalewski powiedział na briefingu prasowym, że podczas spotkania przekazał analizę polityczną dotyczącą piątkowych wydarzeń oraz płynące z nich wnioski, a szef Służby Kontrwywiadu Wojskowego gen. bryg. Jarosław Stróżyk mówił o ataku z perspektywy wojskowej. Dodał, że wraz z pozostałymi uczestnikami spotkania rozważali polskie propozycje, sprowadzające się do zwiększenia zdolności obronnych, w tym dotyczących obrony powietrznej NATO.\n\n- Część z (propozycji) spotkała się z bardzo pozytywną odpowiedzią. (...) Potwierdzona została decyzja, że (...) do dyspozycji Polski będzie postawiony jeden samolot wczesnego ostrzegania AWACS - poinformował wiceszef MON. Wcześniej Zalewski mówił, że Polska w Brukseli będzie występowała o wzmocnienie obrony samolotami, które są w dyspozycji państw NATO.\n\nZalewski zapowiedział także, że w przyszłym tygodniu odbędzie się spotkanie ministrów spraw zagranicznych państw NATO, podczas którego zostaną rozważane kolejne propozycje Polski ws. wzmocnienia obrony.\n\nWiceszef MON relacjonował, że wszyscy ambasadorowie krajów NATO, obecni podczas spotkania, „wyrażali pełną solidarność z Polską w obliczu prowokacji rosyjskich”. - (Ambasadorowie) mieli świadomość, że atak piątkowy nie był odizolowany, że to jest część większej całości, że to jest część tej eskalacji rosyjskiej wobec NATO - oznajmił.\n\nZalewski powiadomił, że przekazał informację o potrzebach polskich sił zbrojnych, służących wzmocnieniu zdolności obrony powietrznej. - Jestem bardzo zbudowany jednością Sojuszu. Wszyscy ambasadorowie, którzy zabierali głos, a zabierali głos wszyscy ambasadorowie państw członkowskich NATO, wyrażali solidarność, pełną solidarność z nami w obliczu tych prowokacji rosyjskich - podkreślił.\n\nWedług niego uczestnicy spotkania mieli świadomość, że piątkowy atak nie był odizolowany i jest częścią większej…",
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Tusk po szczycie Grupy Wyszehradzkiej: „nie zaakceptuję\" unijnego budżetu w proponowanej wersji",
+     "summary": "w Bratysławie zapowiedział sprzeciw wobec projektu Antonia Costy, który tnie budżet UE na lata 2028–2034 o 10% względem planu Komisji.",
+     "matters": "propozycja obejmuje cięcie polityki spójności o 2,4%, a kraje V4 wspólnie domagają się też przesunięcia startu ETS2 do 2030 roku.",
+     "url": "https://tvn24.pl/biznes/pieniadze/stanowcza-deklaracja-tuska-nie-zaakceptuje-st9353931",
+     "source": "tvn24.pl",
+     "image": "https://tvn24.pl/_e/i/biznes/najnowsze/cdn-zdjecie-donald-tusk-ph9353945/alternates/WEBP_LANDSCAPE_1620",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Rząd przyjął projekt ustawy, który kończy coroczne wnioski o 800 plus",
+     "summary": "ZUS ma automatycznie przedłużać świadczenie na podstawie poprzedniego wniosku, jeśli sytuacja rodziny się nie zmieniła.",
+     "matters": "nowe zasady mają działać od 1 czerwca 2027 roku, ale projekt musi jeszcze przejść przez Sejm i dostać podpis prezydenta, a od 2027 roku o świadczenie będą mogli się starać także dziadkowie i inni krewni, którym sąd powierzył codzienną opiekę nad dzieckiem.",
+     "url": "https://www.rmf24.pl/fakty/ekonomia/news-koniec-z-corocznymi-wnioskami-o-800-plus-rzad-przyjal-projek,nIdn,1027358",
+     "source": "rmf24.pl",
+     "image": "https://rmf.rmffm.pl/news/attachments/c9/6b/zdjecie-ilustracyjne-966x643-c96b2c36.jpg",
+     "body": "Sejm rozpoczął prace nad projektem, który ma znacząco ułatwić życie rodzicom pobierającym świadczenie 800 plus. Od 2027 roku ma nastąpić koniec corocznego składania wniosków. ZUS ma automatycznie przedłużać prawo do świadczenia, jeśli dane beneficjenta nie uległy zmianie. Nowe przepisy, przygotowane przez Ministerstwo Rodziny, Pracy i Polityki Społecznej, zostały pozytywnie zaopiniowane przez rząd i trafiły do parlamentu.\n\nZdjęcie ilustracyjne / Shutterstock Najważniejsza zmiana dotyczy zasad przyznawania świadczenia. Do tej pory co roku rodzice musieli pilnować terminów, by nie stracić pieniędzy na dzieci – wystarczyła chwila nieuwagi, spóźnienie z wnioskiem i można było pożegnać się z częścią świadczenia. Od 1 czerwca 2027 roku (na nowy okres świadczeniowy) ten obowiązek w większości przypadków ma zniknąć – projekt ustawy zakłada, że ZUS sam odnowi prawo do 800 plus, bazując na danych z poprzedniego wniosku.\n\nAutomatyczne przedłużenie przywilejów ma na celu eliminację formalności, które do tej pory zaprzątały głowy milionom rodzin. Nowy system pozwoli uniknąć nerwów, zagubionych wniosków i niepotrzebnego stresu. Jeśli sytuacja rodzinna nie zmieni się i dane zgłoszone do ZUS będą aktualne, rodzice nie muszą nic robić, by kontynuować pobieranie 800 plus.\n\nNowe zasady nie mają obejmować wszystkich. Zgodnie z projektem, wniosek o 800 plus wciąż będzie musiał złożyć rodzic lub opiekun w takich przypadkach, jak:\n\n- narodziny dziecka w trakcie roku, - powrót z dzieckiem z zagranicy, - rozpoczęcie sprawowania opieki, gdy opiekun przejmuje dziecko po raz pierwszy.\n\nWciąż aktualizować dane będą musieli ci, których sytuacja rodzinna ulegnie zmianie – ZUS na tej podstawie zadecyduje o dalszym wypłacaniu świadczenia.\n\nProjekt nowelizacji przewiduje także rozszerzenie grona uprawnionych. Od 2027 roku prawo do 800 plus mają zyskać także np. babcie, dziadkowie i inni krewni, którym sąd powierzył tzw. bieżącą pieczę nad dzieckiem, choć nie zostali formalnie opiekunem prawnym czy rodziną zastępczą. Dzięki zmianom osoby faktycznie wychowujące dzieci, a pomijane do tej pory, będą mogły otrzymać wsparcie finansowe.\n\nPełne wdrożenie automatycznych przelewów jest planowane na czerwiec 2027 roku. W tym czasie ZUS ma przygotować specjalne systemy informatyczne, które przejmą część obowiązków od rodziców i opiekunów.\n\nProjekt wciąż jest na etapie prac sejmowych. Musi jeszcze przejść głosowania, otrzymać podpis prezydenta i zostać ogłoszony w Dzienniku Ustaw.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Pakiet CPN obowiązuje tylko do końca roku, a decyzja o przedłużeniu wciąż nie zapadła",
+     "summary": "w porannej rozmowie RMF FM minister energii Miłosz Motyka ma odpowiadać, czy rząd przedłuży program na obecnych zasadach i czy objąć go LPG.",
+     "matters": "równolegle w Sejmie trwają prace nad ustawą chroniącą część odbiorców gazu w 2027 roku, a pytania dotyczą też zamrożenia cen prądu i wsparcia dla gospodarstw ogrzewanych peletem.",
+     "url": "https://www.rmf24.pl/rozmowy/poranna-rozmowa/news-czy-rzad-przedluzy-cpn-zapytamy-milosza-motyke,nIdn,1027307",
+     "source": "rmf24.pl",
+     "image": "https://rmf.rmffm.pl/news/attachments/25/75/gosciem-porannej-rozmowy-w-rmf-fm-fot-966x643-25759d2a.jpg",
+     "body": "Tylko do końca roku obowiązuje pakiet CPN. Na podjęcie decyzji zostało niewiele czasu. Co zrobi rząd? Czy program zostanie przedłużony na dotychczasowych zasadach? Czy jest szansa, że gaz LPG zostanie nim objęty? Gościem w Porannej rozmowie w RMF FM będzie Miłosz Motyka, minister energii.\n\nGościem Porannej rozmowy w RMF FM (fot. Marcin Suchmiel) / RMF FM Projekt ustawy o ochronie części odbiorców gazu w 2027 r. trafił do prac w Sejmie. Jeśli ostatecznie zostanie zaakceptowany przez parlament, co to będzie oznaczało dla osób ogrzewających domy gazem? Czy ustawa zyska przychylność prezydenta?\n\nZapytamy także o ceny prądu. Czy rząd pracuje nad rozwiązaniami, które pozwolą je zamrozić w 2027 roku? Co z cenami pelletu? Czy w tym przypadku rząd też myśli o jakimś wsparciu osób ogrzewających domy pelletem?\n\nNa rozmowę Tomasza Terlikowskiego zapraszamy tuż po godz. 8:00 do RMF FM, internetowego Radia RMF24, na stronę RMF24.pl, aplikacji RMF ON i naszych mediów społecznościowych!\n\nSłuchacze RMF FM i Radia RMF24 oraz czytelnicy portalu RMF24.pl mogą mieć swój udział w Porannej Rozmowie w RMF FM.\n\nWystarczy, że prześlą pytania, które prowadzący zada swoim gościom. Należy wpisać je w poniższej formatce lub wysłać maila na adres fakty@rmf.fm.",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "💰 Money",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "WIG20 4,170.9 · USD/PLN 4.075 (+0.25%) · EUR/PLN 4.446 (-0.31%) · BTC $60,399 (-1.8%) · Brent $86.30 (-3.4%)",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Wall Street rebounds after Nvidia reinstates Jensen Huang",
+     "summary": "Nvidia rose 31.48% on Monday, the S&P 500 gained 4.73% to 7,237.23, the Nasdaq Composite 6.51% and the Dow 3.01%, while the VIX fell more than 25%.",
+     "matters": "the board reversed under pressure from shareholders, employees and Trump, and Bankier calls it a technical rebound from an oversold market, with the Nasdaq still about 13% below its October peak and thin trading this week with no session on Thursday.",
+     "url": "https://www.bankier.pl/wiadomosc/Wielki-powrot-Jensena-Nvidia-urosla-o-31-napedzajac-odbicie-na-Wall-Street-9233824.html",
+     "source": "bankier.pl",
+     "image": "https://galeria.bankier.pl/p/7/a/e53509dc8b7e82-948-568-0-242-4618-2770.jpg",
+     "body": "Skomentuj Bezwarunkowo i w trybie natychmiastowym Jensen Huang powrócił na stanowisko prezydenta i CEO Nvidii. Ta informacja dźwignęła kurs technologicznego giganta o niewiarygodne 31%, co na mocno wyprzedanym rynku doprowadziło do potężnych zwyżek.\n\nfot. Kylie Cooper / Reuters / / / FORUM Nasdaq Composite zyskał 6,51% po tym, jak w piątek zanurkował o 5,3% i znalazł się najniżej od kwietnia. Po poniedziałkowej sesji Nasdaq nawiązką odrobił piątkowe straty, ale wciąż znajduje się 13% poniżej październikowego szczytu hossy.\n\nTak wielki entuzjazm inwestorów wywołany został informacją z Nvidii, której rada dyrektorów uległa presji akcjonariuszy, pracowników i samego prezydenta Donalda Trumpa przywracając na wcześniejsze stanowiska prezesa i założyciela spółki Jensena Huanga. To zdjęło ze stołu część obaw o przyszłość Nvidii i wyniosło kurs akcje producenta chipów o 31,48% w górę. Jest to coś, co w przypadku tak wielkiej spółki praktycznie się nie zdarza. Warto jednak pamiętać, że przez poprzedni miesiąc kurs Nvidii spadł o 44%. Ma zatem co odrabiać.\n\n- Było zdecydowanie wielu ludzi, którzy chcieli jego powrotu. Nie jest możliwym ocenić, czy w jakim stopniu zdecydowała presja akcjonariuszy, w jakim pracowników, a w jakim rządu – skwitował Steve Sosnick, główny strateg Interactive Brokers cytowany przez agencję Reuters. Wolta rady dyrektorów Nvidii jest o tyle niespodziewana, że jeszcze w ubiegłym tygodniu kategorycznie wykluczała powrót Jensena Huanga. Jak widać wiarygodność nie jest jej mocną stroną.\n\nOptymizm udzielił się całemu sektorowi technologicznemu na Wall Street. Notowania Tesli wzrosły o 11,5%. Kurs akcji Micron Technology poszedł w górę o 19%, Intela o 16%, a walory Mety i Alphabetu zyskiwały po przeszło 6%.\n\nWarto przy tym mieć świadomość, że dzisiejsza zwyżka nie przesądza o tym, że wszystkie obawy dotyczące przyszłości boomu na AI odeszły w zapomnienie. Inwestorzy nadal próbują wycenić, kiedy, kto i ile zarobi na obsłudze generatywnej sztucznej inteligencji. Po prostu dobra dla inwestorów wiadomość od Nvidii padła na grunt mocno wyprzedanego i przecenionego rynku. Tylko w zeszłym tygodniu główne nowojorskie indeksy giełdowe zanotowały najsilniejsze spadki od covidowego krachu z marca 2020 roku.\n\nNa imponujących plusach dzień zakończyły także S&P500 i Dow Jones. Ten pierwszy zyskał 4,73% i zameldował się na poziomie 7 237,23 pkt. Dow Jones urósł o 3,01% i dotarł na wysokość 49 595,31 pkt. W obu przypadkach jest to na razie tylko techniczne odbicie, a do szczytów hossy pozostaje jeszcze długa droga. Za to indeks zmienności VIX zaliczył spadek o…",
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Brent slips to $89.20 as Iran says three more tankers hit mines in Hormuz",
+     "summary": "the IRGC says the ships burned despite US air cover, and on Monday the Treasury widened sanctions on more than two dozen Iranian exchange houses and front companies.",
+     "matters": "Eurasia Group's Gregory Brew expects Brent in the lower half of an $80-100 range as regional supply and Russian exports recover, but warns that escalating Hormuz attacks could reverse the trend.",
+     "url": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html",
+     "source": "cnbc.com",
+     "image": "https://image.cnbcfm.com/api/v1/image/108558016-1795487247597-gettyimages-2305353843-AA_19112026_3054076.jpeg?v=1795490987&w=1920&h=1080",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Fed's Williams says higher rates are likely \"over time\" to bring inflation down",
+     "summary": "he expects inflation to approach 2% in 2027 and reach it the year after, and sees little evidence that AI will drive persistent inflation.",
+     "matters": "markets fully price a quarter-point hike at the 8-9 December FOMC meeting, which would lift the current 3.75%-4% range.",
+     "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+     "source": "cnbc.com",
+     "image": "https://image.cnbcfm.com/api/v1/image/108229868-1763741665578-108229868-1763730430401-gettyimages-2233025951-WILLIAMS_ECNY.jpeg?v=1772548607&w=1920&h=1080",
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Polish durable-goods output falls 11.7% in October as Chinese imports surge",
+     "summary": "production of furniture, TV and appliances had its steepest annual drop in almost three years, while imports of those goods from China rose 20% in September.",
+     "matters": "total industrial sales rose only 0.1% year on year, and ING economists read it as an early sign that Polish industry's resilience to a prolonged energy shock weakened at the start of Q4.",
+     "url": "https://www.bankier.pl/wiadomosc/Chinski-import-zalewa-polski-rynek-Produkcja-mebli-RTV-i-AGD-ostro-w-dol-9233868.html",
+     "source": "bankier.pl",
+     "image": "https://galeria.bankier.pl/p/e/5/dca1a30982b356-948-568-60-0-3333-2000.jpg",
+     "body": "Skomentuj Produkcja trwałych dóbr konsumpcyjnych w Polsce spada w dwucyfrowym tempie, a jednocześnie w tych sektorach rośnie import z Chin – pisze we wtorkowym wydaniu „Puls Biznesu”.\n\nfot. PX Media / / Shutterstock Jak podaje gazeta, mimo wyglądającej stabilnie struktury produkcji w Polsce, zmienia ona się szybko, co dla części firm oznacza duże kłopoty. Dziennik przypomina, że w październiku produkcja sprzedana przemysłu wzrosła o 0,1 proc. rok do roku.\n\nCytowani przez gazetę ekonomiści ING dopatrują się w danych niepokojących sygnałów. - Niewykluczone, iż najnowsze dane są pierwszym ostrzeżeniem, iż odporność polskiego przemysłu na wydłużający się szok energetyczny wyraźnie osłabła na początku czwartego kwartału - wskazują.\n\nJak pisze dziennik, coraz słabiej wygląda sytuacja producentów trwałych dóbr konsumpcyjnych, do których należą wytwórcy mebli, sprzętu RTV i AGD. „ W tej kategorii produkcja w październiku spadła aż o 11,7 proc. rok do roku, najmocniej od prawie trzech lat ” – podaje „PB”.\n\nWedług dziennika, jednym z powodów trudnej sytuacji może być coraz silniejsza konkurencja w tych sektorach ze strony Chin. Jak informuje „PB”, we wrześniu import mebli i sprzętu RTV i AGD z Chin do Polski wzrósł nominalnie o 20 proc. rok do roku, a dynamika ta stopniowo się zwiększa.",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "💻 AI & Tech",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Nvidia's board reinstates Jensen Huang as CEO",
+     "summary": "the board voted unanimously to bring him back as president, CEO and director, less than a week after saying his return was not under consideration, and the White House says President Trump dialled into a board meeting hours before the vote.",
+     "matters": "Nvidia says input came from senior US government levels and that the return poses no national security risk, and chair Harvey Jones stays in post after Huang's 12 November removal.",
+     "url": "https://www.theregister.com/systems/2026/11/23/nvidia-board-puts-jensen-huang-back-as-boss/5311674",
+     "source": "theregister.com",
+     "image": null,
+     "body": "There's no telling what caused the Nvidia board to vote unanimously to reinstate Jensen Huang as CEO less than a week after saying his return wasn’t under consideration – except reportedly the threat of having one's head ripped off and brain peed on – but that really doesn't matter, at least as far as shareholders need to be concerned: Jensen's back in charge and all’s right in the world of chip stocks.\n\n\"I take this responsibility with the greatest humility and renewed commitment,\" Huang said of the decision to reinstate him, calling it an honor.\n\nNvidia kicked its former-cum-current CEO and president to the curb on November 12, but not over allegations that he may have been sleeping with a suspected Chinese spy – it was affairs at Nvidia with his subordinates that appears to have been the last straw with Nvidia directors.\n\nNvidia stock has tumbled since Huang’s ouster, and much of the rest of the tech stock world followed suit. Nvidia insiders and tech heavyweights have been pushing for Huang’s return for about as long as he was unemployed, but calls for his return from the US federal government may have been the catalyst for a change of heart among Nvidia leadership who didn’t want Huang back.\n\n\"In the process of reaching its decision, the Board received input from senior levels of the United States government, and based on that input, the Board is confident that Mr. Huang’s reinstatement poses no national security risk,\" Nvidia said in its statement announcing Huang’s return.\n\n\"The Board believes Jensen is the right person to lead Nvidia, and that his reinstatement is in the best interests of our stockholders, employees, partners and customers,\" board chair Harvey Jones added. Jones was made Nvidia's first board chair upon Huang’s resignation, and will remain in that role.\n\n\"The United States Government has no reason to believe that Jensen’s return to Nvidia poses any risk to National Security,\" Trump said in a post on Truth Social. \"The Attorney General of the United States has confirmed that the U.S. Government does not possess evidence that he has engaged in any unlawful conduct.\"",
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Anthropic researcher claims Claude helped prove the Riemann Hypothesis",
+     "summary": "Levent Alpöge posted a four-page note, backed by roughly 240 MB of Lean code and about 250,000 pages of generated text that he calls \"slop\".",
+     "matters": "Lean FRO and the Mathlib Initiative say they have \"full confidence\", but Kevin Buzzard says \"we don't even know why the theorem is true\", and the Clay Institute has only moved the problem from \"unsolved\" to \"active\".",
+     "url": "https://www.theregister.com/ai-and-ml/2026/11/24/anthropic-says-claude-solved-an-age-old-math-problem-but-the-written-proof-is-250000-pages-of-slop/5311775",
+     "source": "theregister.com",
+     "image": "https://image.theregister.com/2917960.webp",
+     "body": "If the AI can't explain what it's proven, are we actually any closer to understanding?\n\nBut if the AI can’t explain what it’s “proven,” are we actually any closer to understanding anything, or have we simply built another black box?\n\nThat question is top of mind among mathematicians and computer scientists this week after Anthropic researcher Levent Alpöge claimed to have solved a mathematical conjecture so elusive it's gone unproven for more than 150 years. The fact that this note came out one day after Anthropic's record-setting IPO is a coincidence, we're sure.\n\nIn a four-page post to his website, the researcher described how with the help of Claude, he believes he has proven the Riemann Hypothesis, one of seven Millennium problems so complex and so important that the Clay Mathematics Institute has offered a $1 million prize to anyone who is successful in solving them.\n\nThe Riemann Hypothesis, conjectured by German mathematician Bernhard Riemann in 1859, contends that all nontrivial zeros of the Riemann zeta function – those with a real part between zero and one – have a real part equal to 1/2.\n\nConfused? Don’t worry. We’ve linked to an explainer that goes into more detail here. What's important is that, if the Riemann Hypothesis is right, mathematicians can place tighter bounds on the difference between the actual distribution of prime numbers and mathematical estimates of that distribution.\n\nResearchers have previously attempted to disprove the conjecture through computational brute force, and therein have shown the hypothesis holds to at least 10 trillion zeros. There’s reason to believe that the Riemann Hypothesis is accurate, but the possibility remains that over a sufficiently long series the pattern might diverge. And so, more than 150 years after Riemann published his hypothesis, it has remained just that.\n\nAlpöge’s proof, if it can even be called that, is now the subject of great debate.\n\nThe four pages in which Alpöge remarks on the discoveries he and Claude made aren’t exactly a proof, but rather 14 tarballs worth of Lean code totaling roughly 240 MB. Lean is an open source programming language commonly used to help validate mathematical proofs.\n\nThe Clay Mathematics Institute, which oversees the seven Millennium Problems, has promoted the Riemann Hypothesis from “unsolved” to “active” status, but it is not yet considered solved. For Clay to consider the problem solved and award the prize, the proposed solution must be published in a qualifying outlet, remain available for scrutiny for at least two years, and receive broad acceptance from…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Critical Cisco Expressway RCE is being exploited",
+     "summary": "CVE-2026-76466 (CVSS 9.8) gives attackers root on Expressway-C and Expressway-E gateways configured in clusters, and CISA added it to its exploited-vulnerabilities catalogue on 20 November.",
+     "matters": "Cisco disclosed the bug in October and has a fix, and federal agencies were told to patch by Monday.",
+     "url": "https://www.theregister.com/security/2026/11/23/critical-cisco-remote-code-execution-bug-under-attack/5311722",
+     "source": "theregister.com",
+     "image": null,
+     "body": "Attackers are currently exploiting a critical vulnerability tracked as CVE-2026-76466 in Cisco Expressway that allows them to remotely execute commands as root without any authentication, according to warnings from the US government and security researchers.\n\nCVE-2026-76466, which carries a 9.8 CVSS rating, affects Cisco Expressway-C and Cisco Expressway-E gateways configured in clusters, both virtual and physical appliances running vulnerable software. These provide firewall traversal, VPN-less remote access, and call routing for remote users connecting to voice, video, and messaging collaboration services.\n\nAt the time, the networking vendor said it wasn’t aware of any abuse of the vulnerability.\n\nThat all changed late last week, however, when Russian security firm F6 said it was investigating “the first observed case” of miscreants exploiting CVE-2026-76466, shortly after a public proof-of-concept exploit became available.\n\nSpecifically, the criminals prepared custom Python code to scan the victim’s network and identify files and folders shared over the Server Message Block (SMB) protocol. The scripts were also designed to interact with SQL Server and WinRM, and search GitLab repositories for credentials and other sensitive information.\n\nThe Python scripts used in the attack indicated that the operator used an AI assistant, according to F6.\n\nThe security shop also noted that one of the key indicators of compromise is a nodeup “wombat@127.0.0.1” entry in the Erlang system log (erlang.log) on affected Cisco Expressway devices.\n\nA day later, the US Cybersecurity and Infrastructure Security Agency (CISA) added CVE-2026-76466 to its Known Exploited Vulnerabilities catalog, and told federal agencies to patch by Monday.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Microsoft's final report on the 12–14 November Microsoft 365 outage blames a July Windows gateway defect",
+     "summary": "a code change combined with a failover and reduced capacity took down Exchange Online, with more than 80% of North American gateway servers unresponsive at the worst point.",
+     "matters": "Microsoft says queued enterprise mail was eventually delivered, but consumer messages to mailboxes inactive for over 30 days expired. The fixes include a 48-hour retry window, failure isolation and testing on newer hardware.",
+     "url": "https://www.theregister.com/saas/2026/11/23/microsoft-mega-outage-report-reveals-testing-gaps-and-emails-that-never-arrived/5311656",
+     "source": "theregister.com",
+     "image": null,
+     "body": "Some emails never reached their recipients during November's Microsoft 365 outage, the company has confirmed in a final report that also exposes gaps in its testing and recovery procedures.\n\nThe post-incident report details how a Windows defect brought down Exchange Online and disrupted features across other Microsoft 365 services. For affected users, the cloud became someone else's unavailable computer.\n\nA preliminary report had already blamed a July code change, combined with a failover and reduced capacity. The final report confirms those findings and sets out Microsoft's plans to improve change auditing and recovery procedures, and add spare capacity. The defect affected Microsoft's gateway server configuration, not standard Windows deployments.\n\nThe epic outage (named the \"Microsoft long weekend\" by some wags) kicked off on November 12 and wasn't fully resolved until November 14.\n\nMicrosoft extended its delivery retry window to 48 hours, but some delayed messages destined for consumer mailboxes inactive for more than 30 days still expired, generating non-delivery reports. The company said all queued enterprise messages were eventually delivered, with none found permanently lost.\n\nThe report is grim, particularly in how the failure ramped up as US users came online to find gateway servers toppling over. At the worst point, more than 80 percent of North American gateway servers were unresponsive.\n\nThe problem proved elusive, and it took Microsoft some time to identify the change and deploy a fix.\n\nMicrosoft has had a week to ponder what it did and did not do, and the report has some next steps to avoid a repeat of November's events. Some are obvious, and some are a little surprising.\n\nWorking to reduce the blast radius of failures is an obvious one, and actions include partitioning and isolation to ensure failures can be contained before taking down traffic globally. Recovery procedures also need improvement, along with communication and capacity to ensure there is sufficient headroom.\n\nMicrosoft's load tests used older, lower-core-count hardware, making them less likely to expose a defect that worsened on newer machines. The company now plans to test newer hardware with more realistic traffic and peak loads, and broaden its failover testing.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Amazon buys Decart AI's optimisation stack to keep Trainium busy",
+     "summary": "it is an asset purchase covering the Decart Optimization Stack, its technology and the three founders' engineering team, and it works across Nvidia GPUs, Google TPUs and AWS Trainium.",
+     "matters": "Bloomberg's sources value it at about $7.5bn, which neither company has confirmed. Decart's Lucy and Oasis models are excluded.",
+     "url": "https://www.theregister.com/ai-and-ml/2026/11/23/amazon-scoops-up-ai-accelerator-tech-to-keep-chips-busy-at-all-times/5311754",
+     "source": "theregister.com",
+     "image": null,
+     "body": "Amazon has agreed to buy AI optimization technology from an Israeli startup in a bid to speed up its inference operations.\n\nThe house of Bezos on Monday announced a deal to purchase proprietary AI acceleration tech from Decart AI, known as the Decart Optimization Stack (DOS), for an undisclosed amount. Amazon also plans to bring Decart’s three founders and their engineering team into the fold.\n\nDOS is hardware-agnostic, with Decart saying it supports Nvidia GPUs, Google TPUs, and, most critically for our purposes here, AWS Trainium chips.\n\nDecart doesn’t offer much in the way of details about its proprietary AI-maxxing tech, but claims it can reduce latency, improve throughput, and reduce the costs associated with training and inference runs.\n\nAn Amazon spokesperson clarified to The Register that the deal is an asset purchase and not a full company acquisition, with Amazon only acquiring DOS and the tech behind it as well as personnel. As for what may become of Decart after the deal, that’s unclear. Amazon told us to reach out to Decart to learn what may happen to any remaining employees and the company’s other technology, but we didn’t hear back.\n\nDecart’s non-DOS assets weren’t mentioned in the press release, and per the Amazon spokesperson we talked to, that means they weren’t part of the deal. We can’t imagine that the Decart team is too upset about the potential abandonment of those models, though: While neither company has disclosed a price, Bloomberg claims its sources value the deal at around $7.5 billion.",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎮 Games & Dev",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Dalamud 15.0.4.1 · .NET 10.0.14 · game build 2026.11.03 · last changelog 18 Nov",
+     "summary": null,
+     "matters": null,
+     "url": null,
+     "source": null,
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "FFXIV x FFXVI crossover \"The Path Infernal\" runs until 9 December",
+     "summary": "it started 18 November and ends 9 December at 6:59 a.m. PST, with the Torgal mount, Metian Attire, a minion and orchestrion rolls as rewards.",
+     "matters": "the event quest can be replayed through Seasonal Event Replay, and Dalamud's 14.0.4.0 notes added a setting for plugins to respect an opt-out from seasonal events.",
+     "url": "https://na.finalfantasyxiv.com/lodestone/topics/detail/44d7f515b6157602c144c5dba37a110bdecda702",
+     "source": "na.finalfantasyxiv.com",
+     "image": "https://img.finalfantasyxiv.com/t/44d7f515b6157602c144c5dba37a110bdecda702.jpg",
+     "body": "The FINAL FANTASY XVI crossover event, The Path Infernal, returns to Eorzea! Participate in the event to obtain several event items, including the Torgal mount, the Metian Attire inspired by protagonist Clive Rosfield, a minion, orchestrion rolls, and more. Whether you missed the previous event or simply wish to experience the adventure again, don't miss out!\n\n* This event is identical to previous iterations. * Event quest can be replayed by utilizing the Seasonal Event Replay feature.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Crucible Rankings Season 1 ends 30 November and Season 2 starts 7 December",
+     "summary": "ranking closes at 8:59 p.m. PST on 30 November, and the top 300 per physical data center get rewards.",
+     "matters": "there is a pre-season gap with no ranking, and Season 2 runs until the maintenance for Patch 8.0, a useful marker for when Evercold's patch lands.",
+     "url": "https://na.finalfantasyxiv.com/lodestone/topics/detail/0db56e0630897e1437974c973172544dc0e33c33",
+     "source": "na.finalfantasyxiv.com",
+     "image": "https://img.finalfantasyxiv.com/t/0db56e0630897e1437974c973172544dc0e33c33.jpg",
+     "body": "Monday, November 30, 2026 at 8:59 p.m. (PST) Upon conclusion of the season, players who rank in the top 300 of their physical data center will receive ranking rewards. The season will soon come to a close. Push for the top of the rankings alongside your trusty companions! View the Crucible Rankings and rewards here. Once Season 1 concludes, a pre-season period will begin, during which players will be unable to participate in Crucible Rankings. Season 2 is scheduled to commence on Monday, December 7, 2026 at 9:00 p.m. (PST).\n\nMonday, December 7, 2026 at 9:00 p.m. (PST) until the start of maintenance for Patch 8.0 * Dates and times are subject to change.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Unity 7 Preview is due in December and ships CoreCLR",
+     "summary": "Unity says Unity 7 is a direct continuation of Unity 6, with .NET 10, C# 14 and MSBuild support, and a full release targeted for Q1.",
+     "matters": "reloads will cover only changed code instead of the whole domain, and Unity has tested compatibility against the 68 most popular Asset Store packages.",
+     "url": "https://unity.com/blog/unite-seoul-keynote-2026-recap",
+     "source": "unity.com",
+     "image": null,
+     "body": "Unite Seoul 2026 kicked off a new chapter for Unity. The livestreamed keynote was packed with announcements spanning the Unity Engine, monetization, and collaboration tooling that all build toward the next generation of Unity — Unity 7.\n\nYou can watch the full presentation, or read on for an overview of the event’s biggest announcements.\n\nThis post describes features, capabilities, and timing still in development. These reflect our current plans, but actual results and availability could differ materially and are subject to change without notice.\n\nUnity CEO and President Matthew Bromberg opened the keynote by pointing to a reel of games built entirely in Korea, framing them as proof of what he called the country’s “Ppalli Ppalli spirit” — not just speed, but a refusal to let studios with a mobile-first ambition experience creative compromise. He was candid about the moment the industry is in, acknowledging “real pain and more than a little anxiety about the future” amid rapid change.\n\nHe then got to the news: developers expecting to hear about continued iterations in the Unity 6 generation got something bigger instead. “A new point release wouldn’t be enough for this moment,” Bromberg said. “Instead of new point release, I’m here today to share something else. And that thing is Unity 7!\n\nHe described Unity 7 as a platform rebuilt for a world where “diverse teams of creators and coding agents” work side by side across every part of development — faster (thanks to a CoreCLR-modernized core, near-instant Play Mode, and dynamic reloads that only reload what changed), and more open (with a free MCP, CLI, and API built in). It also extends into monetization and growth, with built-in direct-to-consumer commerce, no-code webshops, and Unity Vector’s AI-driven player matching.\n\nJoe Valenzuela from Unity’s engineering team kicked things off with what may be the most consequential technical announcement of the keynote: Unity will be shipping CoreCLR, arriving in Unity 7 next year. This brings full access to the modern.NET ecosystem — CoreCLR,.NET 10, and C# 14 — giving developers more expressive, higher-performance code, first-class integration with modern IDEs and official.NET debuggers, and support for MSBuild. That MSBuild support is also a step toward compiling code outside the Editor entirely, which unlocks faster agentic workflows.\n\nThe bigger structural change is a new code reload model. Instead of reloading an entire domain on every change, Unity will reload only what’s necessary, cumulatively saving significant time over a project’s life.\n\nDevelopers…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "NuGet.org adds staged publishing",
+     "summary": "packages upload privately, go through malware, signature and repository-signing checks, and stay hidden until a maintainer promotes them on the website.",
+     "matters": "it is opt-in, basic CLI support (`dotnet package stage push`) needs the .NET 11 RC2 SDK, promotion needs 2FA, and group promotion is not atomic, so it is worth a look if you publish plugin dependencies.",
+     "url": "https://devblogs.microsoft.com/dotnet/nuget-staged-publishing/",
+     "source": "devblogs.microsoft.com",
+     "image": "https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/11/nuget-staged-publishing-manage-packages.webp",
+     "body": "A successful build tells you that your pipeline finished. It does not tell you that you meant to release. Today, we are introducing staged publishing on NuGet.org, available to all package publishers, so you can prepare and validate packages privately before making an explicit decision to publish them.\n\nUpload a security fix ahead of its coordinated disclosure. Gather the packages for a feature release without exposing an unfinished set. Let automation prepare a large update, then review it on NuGet.org before it reaches the people who depend on it.\n\nWith a normal package push, upload starts the public publishing process. Staged publishing adds a place to stop: the package goes through NuGet.org validation, but stays private until an authorized maintainer promotes it through the website.\n\nThat gives you time to review what you are about to ship, fix validation problems, and choose the release moment.\n\nStaging is opt-in. Existing dotnet nuget push workflows continue to work. You can adopt staging for a security-sensitive package or a coordinated release without changing every publishing workflow at once.\n\nStaging also differs from unlisting. An unlisted package can still be restored by its exact version. A staged package is not available to consumers at all.\n\nThe website is where you review staged content and approve its release. You can stage a single package or organize related packages into a staging group.\n\nOn the NuGet.org upload page, choose the staging option under Publishing Mode when uploading your package. You can also upload from your pipeline using the CLI example below.\n\nNuGet.org runs the package through its validation pipeline, including malware scanning, signature checks, and repository signing. Once validation succeeds, the package is ready for promotion. It stays out of public package pages, search results, and restore operations.\n\nYou can inspect the staged package and its validation status in the website’s package management experience. If validation fails, fix the problem and stage a replacement before release day.\n\nStaging does not provide a private restore feed, even for the owner. Test your packages and their dependencies using a local or private feed first, then stage the release artifacts on NuGet.org.\n\nA staging group collects the packages for a release under one staging owner, either a user or an organization. For example, a library, its integrations, and its analyzers can share a group for an upcoming feature release.\n\nIn NuGet.org package management, create a group, add the staged packages for that release, and review each…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🐉 World of Warcraft Forever",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Hotfixes on 23 November fix double-power buffs and let world buffs persist",
+     "summary": "Fengus' Ferocity and Darkmoon Faire buffs no longer grant double power, and world buffs now persist when you change areas but still drop on entering raid instances.",
+     "matters": "Blizzard also cut dungeon resets to 5 per hour from 10 on 20 November and trimmed the Stormshroud Armor 3-piece bonus to a 3% chance and 18 energy.",
+     "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-23-2026",
+     "source": "news.blizzard.com",
+     "image": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/2o/2OT6OCC1ADEM1789963421279.png",
+     "body": "Here you will find a list of hotfixes that address various issues related to World of Warcraft: Forever.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Blizzard says Forever has the biggest weekly player count in 15 years",
+     "summary": "Holly Longdale says more people are playing weekly than in World of Warcraft in 15 years, and the stats post lists 15,160,147 characters created.",
+     "matters": "players have racked up 196,851,761 deaths, and Archmage Arugal in Shadowfang Keep is the deadliest boss.",
+     "url": "https://www.warcrafttavern.com/forever/news/largest-weekly-player-count-in-15-years-wow-forever-by-the-numbers/",
+     "source": "warcrafttavern.com",
+     "image": "https://www.warcrafttavern.com/wp-content/uploads/2020/10/WoW-TBC-The-Burning-Crusades-News.png",
+     "body": "Another fun statistic for you! #WoWForever has more people playing weekly than we’ve seen in World of Warcraft in 15 years!\n\nYou’re breaking records by the day! Thank you all for helping to create this amazing community.\n\nWorld of Warcraft has been a big part of my life going all the way back to vanilla. I've played every retail expansion and all versions of WoW Classic, usually as a healer or caster and often as a guild leader. I've authored over a thousand guides for the game and edited at least a thousand more. If you find my content helpful, please leave a comment - it will make my day!\n\nSomeone once said that you can’t go home again. But they lacked vision. And a temporal discombobulator! At Warcraft Tavern we’re huge fans of World of Warcraft. Here you can find Guides, News, Tools, Forums, and more for WoW Forever, WoW Classic, TBC Classic, WotLK, Cataclysm, MoP & Retail!\n\nWarcraft Tavern has been bringing news and helping players since 2018 with expert guides from dozens of team members. Find out more about our team and our history, take a look at our editorial guidelines, join us on our community forums, or share some feedback with us on Discord!",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Blizzard is \"taking a hard look\" at the Merchant's Favor factions",
+     "summary": "Principal Designer Kris Zierhut says reputation gains for the Azeroth Commerce Authority and Durotar Supply & Logistics are \"cumbersome and confusing\" and the team will meet to discuss changes.",
+     "matters": "he says developers are investigating possible bugs in crate turn-ins, and more recipes will be added to these factions in every future patch.",
+     "url": "https://www.warcrafttavern.com/forever/news/blizzard-taking-a-hard-look-at-merchants-favor-factions-in-wow-forever/",
+     "source": "warcrafttavern.com",
+     "image": "https://www.warcrafttavern.com/wp-content/uploads/2020/10/WoW-TBC-The-Burning-Crusades-News.png",
+     "body": "In the latest episode of the WoW Forever Podcast, Principal Designer Kris Zierhut addressed some player concerns about how the Azeroth Commerce Authority and Durotar Supply & Logisitics factions work in WoW Forever. He said the team is aware that players are finding the different methods of earning reputation to be a little cumbersome and confusing, and they will be meeting to discuss how to improve these factions going forward. They’re also looking into some possible bugs related to crate turn-ins.\n\nNotably, he also mentioned that the developers plan to add more recipes to these factions in every future patch, so it’s well worth grinding that rep now to ensure that you have access to everything down the line. The factions serve an important function for the economy and professions, so they will continue to receive updates and improvements.\n\nWorld of Warcraft has been a big part of my life going all the way back to vanilla. I've played every retail expansion and all versions of WoW Classic, usually as a healer or caster and often as a guild leader. I've authored over a thousand guides for the game and edited at least a thousand more. If you find my content helpful, please leave a comment - it will make my day!\n\nHeard it on the podcast yesterday, Really nice that they are looking at the rep grind for this, but also hearing they will continue to release stuff for professions through this. Very nice.\n\n0 Reply Zygor Leveling Guides Affiliate link, we may earn a small commission. Recent Blue Posts WoW: Forever Hotfixes - November 19, 2026 WoW: Forever Hotfixes - November 20, 2026 WoW: Forever Class Design, Echoes of the Worldcore, and More in WoW Weekly WoW: Forever Class Design, Echoes of the Worldcore, and More in WoW Weekly WoW: Forever Class Design, Echoes of the Worldcore, and More in WoW Weekly Lok-tar ogar! Someone once said that you can’t go home again. But they lacked vision. And a temporal discombobulator! At Warcraft Tavern we’re huge fans of World of Warcraft. Here you can find Guides, News, Tools, Forums, and more for WoW Forever, WoW Classic, TBC Classic, WotLK, Cataclysm, MoP & Retail!\n\nWarcraft Tavern has been bringing news and helping players since 2018 with expert guides from dozens of team members. Find out more about our team and our history, take a look at our editorial guidelines, join us on our community forums, or share some feedback with us on Discord!",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Talebound, a PvE action-RPG mode, launches 1 December alongside the Midnight update",
+     "summary": "it has four stories across Normal, Veteran and Heroic, three classes (Witch, Slayer, Inquisitor) with 27-point talent trees, and a hub village called Quillgrave.",
+     "matters": "it is an alternative to the usual dungeon routine in the same patch window as Echoes of the Worldcore, and Bound Silver buys cosmetics in the Talebound store.",
+     "url": "https://news.blizzard.com/en-us/article/24316569/talebounds-twisted-tales-and-deadly-fates-arrive-december-1",
+     "source": "news.blizzard.com",
+     "image": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/8u/8UFMC8UHQKJV1794498536521.jpg",
+     "body": "Step into the macabre world of Talebound in a PvE action RPG game mode where you become part of the dark chronicles of a mysterious Storyteller, chillingly brought to life, and where danger is written on every page.\n\nWhether you venture alone or with friends, Talebound invites you to explore themed tales across Normal, Veteran, and Heroic difficulties, filled with enemies, bosses, puzzles, treasure, relics, and rewards as you confront the terrors waiting beyond Quillgrave.\n\nRed Hollow draws unwitting travelers into its fold. Journey down a darkened road where you’ll encounter a mysterious storyteller who pulls you into a world of his own creation, and whose favorite stories lean toward the macabre.\n\nBetween each horrific adventure, return to the cozy, lantern-lit village of Quillgrave, which offers warmth and respite from the darkness beyond. Take a rest, hang your cap, and sip some hot cocoa, but don’t get too comfortable; the village and the storyteller don’t appreciate a story unfinished, so you’ll have to strategize for the horrors to come.\n\nOnce rested, take up arms and endeavor through the telling and retelling of tales that will test your new skills and abilities… and there are so many tales to tell and re-tell.\n\nAfter each run of a tale, return to Quillgrave to work together with the Arcanist, Scribe, Outfitter, and Antiquarian to improve your odds in your next attempt.\n\nLook to the Antiquarian for meaningful passives that augment how each tale may be approached.\n\nA visit to the Outfitter will help improve your starting health, damage, energy, and focus.\n\nTalebound has four stories across Normal, Veteran, and Heroic difficulties to explore, each with its own settings, enemies, and boss encounters, including witches, giants, marshals, bishops, deep-sea horrors, and nightmare royalty.\n\nDarkhaven, home to Konrad von Sonnesheim, the Lord Marshal, and to Alexandre Dozsenc, the Blood Bishop, is cut off from the rest of the world.\n\nIt is the only place that survived a devastating plague that wiped out everyone beyond its borders.\n\nIt is a place overrun and terrorized by two witches, a giant, and a host of vile, predatory fiends who have filled the wood with unspeakable cruelty and mayhem.\n\nFollow the tale of the many who have fallen to Zzyg'th, the Hadal Tyrant, and to Chathoa, the Herald from Beyond.\n\nDiscover the aftermath of when dream and nightmare intertwine as night moves through the world.\n\nCollections of these stories are also available in town, if you wish to hear them again.\n\nAcross all classes, movement and defense are central, and every…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎵 Music",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Don Toliver reschedules his London O2 show to 15 December after the Manchester evacuation",
+     "summary": "He postponed the Tuesday date so the next show \"goes on properly\". Greater Manchester Police say enquiries are still under way into what the substance was.",
+     "matters": "the North West Ambulance Service says over 50 people were treated for eye and breathing symptoms, with no serious injuries reported.",
+     "url": "https://stereogum.com/2519772/don-tolivers-manchester-show-evacuated-after-suspected-tear-gas-incident/news/",
+     "source": "stereogum.com",
+     "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2025/10/face.jpg",
+     "body": "Add Stereogum to Google Concertgoers were evacuated from Don Toliver’s show at Co-op Live tonight after an unknown substance believed to be tear gas was released in the crowd. Social media videos from the Manchester venue show fans coughing and covering their faces during “TORE UP,” midway through the planned set. Toliver left the stage during “K9” and did not return. “Due to unforeseen circumstances, the show is now finished,” a Co-op Live representative said after the lights came on. Greater Manchester Police arrived on the scene with emergency crews including the Hazardous Area Response Team as over 12,000 people were evacuated.\n\n\"Anyone at last night's event who has since noticed side-effects or become ill should attend their local hospital,\" GMP say in a statement. \"Enquiries are underway into what the substance is and what caused the incident.\"\n\nIn May 2017, 22 people were killed in a terrorist attack at nearby AO Arena (then Manchester Arena) following an Ariana Grande concert. Tonight, police declared a “major incident” at Co-op Live, but reported no serious injuries. The North West Ambulance Service said at least one attendee was taken to the hospital for assessment.\n\nLast week, Houston rapper Toliver announced his new album Nitrous and received the most 2027 rap Grammy nominations. He performed at Grand Theft Auto VI: The Festival in Miami yesterday and will make his debut on Saturday Night Live next weekend.",
+     "day": 2,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Glastonbury 2027 announces Sam Fender, Harry Styles and Billie Eilish as Pyramid Stage headliners",
+     "summary": "The festival runs 23–27 June 2027 at Worthy Farm, with Cher in the Sunday legends slot and Massive Attack, Robyn, FKA twigs and the xx on the bill.",
+     "matters": "Styles, Cher and Kraftwerk all play Glastonbury for the first time, and tickets sold out before the line-up was revealed.",
+     "url": "https://stereogum.com/2518491/glastonbury-announces-2027-lineup/news/",
+     "source": "stereogum.com",
+     "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Glasto.jpg",
+     "body": "Add Stereogum to Google There was no Glastonbury Festival in 2026. Every few years, the massive English music festival takes a year off so that the soil at Worthy Farm, the festival site, can recover. Today, however, the Glastonbury bookers have announced the initial lineup for the 2027 festival. This time around, the three big Pyramid Stage headliners are Sam Fender, Harry Styles, and Billie Eilish, while Cher will play in the Sunday afternoon \"legends\" slot.\n\nAs The Guardian notes, this is the youngest set of Glastonbury headliners of the 21st century. Fender and Styles are both 32, and Eilish is 24. Both Eilish and Fender have played Glastonbury before — the two of them went back-to-back to close out the Pyramid Stage in 2022 — but Styles and Cher will make their Glastonbury debuts. Kraftwerk, another legendary act, will also play Glasto for the first time, as will younger acts like Angine de Poitrine, Sombr, Adéla, the Womack Sisters, and Sienna Spiro.\n\nEven without the full festival lineup being announced yet, the bill is already predictably huge. The other acts booked to play include (deep breath) Massive Attack, Crowded House, Primal Scream, Saint Etienne, the xx, FKA twigs, Kacey Musgraves, Robyn, Lily Allen, the War On Drugs, King Gizzard And The Lizard Wizard, the Streets, Underworld, Texas, Ellie Goulding, Little Simz, Lola Young, FLO, Christine And The Queens, Young Fathers, the Avalanches, Basement Jaxx, Nia Archives, Hot Chip, De La Soul, Mike D 5D, Chvrches, Blood Orange, Thundercat, Dinosaur Jr., Westside Cowboy, Underscores, Chase & Status, Confidence Man, Ezra Collective, Leon Bridges, Tinariwen, Lianna La Havas, Florence Road, Getdown Services, Thee Sacred Souls, Atarashi Gakko!, Nao, and Ecca Vandal.\n\nThe festival goes down 6/23-27 at Worthy Farm in Pilton. Tickets already went up on sale and sold out before the lineup was announced. For all the relevant info, check over here.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Warner Music Group's annual filings show about $1.04bn paid by YouTube while headcount fell about 15%",
+     "summary": "MBW's read of the FY2026 report puts revenue at about $7.44bn, up 8.9% at constant currency, and subscription streaming revenue up 12.4% to about $3.02bn.",
+     "matters": "staff fell from roughly 5,500 to 4,700, and WMG sold catalogue rights to its 50/50 Bain Capital joint venture for $233m.",
+     "url": "https://www.musicbusinessworldwide.com/1b-from-youtube-record-revenues-smaller-headcount-and-wmg-selling-assets-to-its-bain-jv-what-i-learned-from-warner-music-groups-fy-filings/",
+     "source": "musicbusinessworldwide.com",
+     "image": null,
+     "body": "Across its fiscal 2026 (the 12 months to September 30), Warner’s revenues grew 8.9% YoY at constant currency to USD $7.437 billion.\n\nThe firm’s most-watched metric – recorded music subscription streaming revenues – was up 12.4% YoY at constant currency to $3.017 billion in the year-long period.\n\nWarner also told investors that money from its AI licensing deals is on its way.\n\nThat’s fiscal Q1, or calendar Q4 (i.e., the quarter in which you’re reading these words).\n\nWarner struck a licensing deal with Suno in November 2025. We’ll soon start to see what that deal – and Warner’s other AI partnerships – is actually worth.\n\nIn addition to publishing its Q4 and full-year results, Warner filed its annual report (10-K) with the SEC on the same day – a treasure trove of information for snoops like MBW.\n\nBy MBW’s estimate, YouTube paid Warner Music Group more than USD $1 billion in WMG’s latest fiscal year – the first time the platform’s annual contribution to WMG has crossed that threshold.\n\nEach year, Warner’s 10-K names any customer that individually accounts for 10% or more of the company’s total revenues, and discloses the share each one supplies.\n\nWarner’s total revenues in fiscal 2026 were $7.437 billion. And 14% of that figure (i.e., YouTube’s contribution) is approximately $1.04 billion.\n\nA year earlier, YouTube accounted for 12% of Warner’s $6.707 billion in revenues – approximately $805 million.\n\nOn MBW’s estimates, YouTube’s contribution to Warner grew by around 29% YoY in fiscal 2026.\n\nThat’s faster in percentage terms than Spotify, whose contribution to Warner grew by around 16% YoY in fiscal 2026 to approximately $1.56 billion (21% of total revenues), and Apple, whose contribution was broadly flat at approximately $744 million (10%).\n\nBy the same estimates, YouTube now generates around $300 million more a year for Warner than Apple does; Spotify is contributing around double its Cupertino rival.\n\nIt’s also worth noting that Warner’s revenue sources have become increasingly concentrated in recent years.\n\nIn fiscal 2026, Spotify, YouTube, and Apple jointly accounted for approximately 45% of WMG’s total revenue.\n\nThat’s the highest combined share Warner has disclosed for the three platforms since YouTube first passed the 10% threshold in fiscal 2021. The figure was 42% in fiscal 2021, 40% in fiscal 2022, 41% in both fiscal 2023 and fiscal 2024, and 43% in fiscal 2025.\n\nAs a share of Warner’s Recorded Music revenues, Spotify, YouTube, and Apple accounted for approximately 47% in fiscal 2026, according to the 10-K, up from 45% a year earlier.\n\nWarner…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Eminem co-publisher Eight Mile Style adds 108 allegedly infringing AI tracks to its $47.7m Suno lawsuit",
+     "summary": "The amended complaint, filed 19 November, brings 26 of the 269 compositions in the case into play, and the damages sought are unchanged.",
+     "matters": "the plaintiffs call Suno's claim that it blocks artist-specific prompts \"false\", and UMG and Sony are still suing Suno after Warner settled in November 2025.",
+     "url": "https://www.musicbusinessworldwide.com/eminem-co-publisher-eight-mile-style-adds-108-allegedly-infringing-ai-tracks-to-47-7m-suno-lawsuit-calling-sunos-denials-false/",
+     "source": "musicbusinessworldwide.com",
+     "image": null,
+     "body": "Eminem co-publisher Eight Mile Style has amended its copyright lawsuit against AI music generator Suno, adding 108 more AI-generated tracks that it says infringe its songs.\n\nThe amended complaint was filed on Thursday (November 19) in the US District Court for the Northern District of California, 13 days after the original suit.\n\nThe new examples cover 26 of the 269 compositions in the case, including Lose Yourself, Stan, Mockingbird, and Without Me.\n\nThe damages Eight Mile Style is seeking are unchanged, at just over USD $47.7 million across its three claims.\n\nThe amended complaint responds to what Suno told reporters after the original suit was filed on November 6.\n\nIn its statement on the original suit, a Suno spokesperson said: “Suno exists to help people create new, original music, not to trade on anyone’s name or likeness, and we prohibit any unauthorized use of an artist’s work.\n\nThe motion the complaint refers to, filed on November 3, is Suno’s bid to have a Boston federal court dismiss a proposed class action from Jason Isbell and three other musicians.\n\nThe publisher says it believes these examples are “just the tip of the iceberg,” and that Suno has made infringing outputs for every song in the case.\n\nThe amended complaint also opens with a new introduction built around Eminem’s commercial track record.\n\nDespite that language, the amended complaint does not add a claim over Eminem’s voice or likeness.\n\nThe plaintiffs remain Eight Mile Style and Martin Affiliated, and Eminem himself is not a party to the case.\n\nEight Mile Style’s three claims are also unchanged: copyright infringement, bypassing the access controls of streaming and lyrics platforms, and stripping songwriter and publisher credits from its songs.\n\nBy contrast, Elvis Presley Enterprises, which says it solely owns Presley’s likeness rights, is suing Suno under Tennessee’s ELVIS Act, a state law covering a person’s voice and likeness.\n\nThe new Eight Mile Style passages on likeness and on Suno’s press statement match, almost word for word, language in the amended complaint that the Presley plaintiffs filed on November 13.\n\nBoth cases were filed by Richard S. Busch of Adams & Reese, whose team has also filed suits against Suno this year on behalf of Round Hill Music, Gerencia 360, and Reservoir.\n\nThe bulk of the money Eight Mile Style is seeking, USD $40.35 million, is for copyright infringement.\n\nThat figure applies the legal maximum of USD $150,000 per song, available where infringement is found to be willful, to all 269 compositions.\n\nWithout a finding of willfulness, the cap…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "GTA VI gets a 34-track soundtrack album the day after the game's launch",
+     "summary": "\"Grand Theft Auto VI: The Album\" includes Lana Del Rey, Dua Lipa, Don Toliver, Fcukers and Justice with Michael McDonald.",
+     "matters": "songs by D'Angelo, Travis Scott, 100 gecs and Central Cee are in the game but not on the album, and Bad Bunny, Robyn and Keith Richards host in-game radio.",
+     "url": "https://stereogum.com/2518780/gta-vi-unveils-soundtrack-album-game-includes-surprise-songs-and-cameos/news/",
+     "source": "stereogum.com",
+     "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2025/10/face.jpg",
+     "body": "Add Stereogum to Google If you haven't been able to get in touch with some friends over the past 24 hours, don't fret — it's probably because of GTA VI. The long-awaited video game, 13 years in the making, was finally released yesterday, Nov. 19, and \" GTA Flu \" has been spreading like wildfire. And if I had a game console, I'd probably be unreachable, too. I hear you can even encounter a Bigfoot-like entity. Today, the game's official soundtrack has arrived, and the surprises just keep coming.\n\nThe soundtrack's tracklist leaked last week. That's how we learned that Lana Del Rey had a song on the album: \" Crazy For You,\" a cut from the 2014 recording sessions that would eventually yield her 2015 album, Honeymoon. The OST also has new songs from Dua Lipa, Don Oliver, Fcukers, Justice with Michael McDonald, and more.\n\nBut the 34 tracks on Grand Theft Auto VI: The Album represent only a small fraction of the music featured in the game itself. Among the previously unannounced songs that play on the in-game radio stations are apparently contributions from D'Angelo (\"Kamikazi\"), Power Trip (\"Mutual Death Warrant\"), Travis Scott (\"Burn This Shit Down\"), 100 gecs (\"Sensimilla\"), Central Cee (\"Rock N Roll\"), Slayyyter (\"INTERNET $TAR\"), and King Gizzard & The Lizard Wizard (\"Bin Rat,\" \"Daddy,\" \"Bad Man,\" and \"Penthouse,\" the latter reportedly a collaboration with score composers Justice).\n\nRockstar's newly published credits also reveal a previously unannounced roster of additional score contributors, including 100 gecs, A. G. Cook, Bitter Babe, Bobby Krlic (aka the Haxan Cloak), Boys Noize, Cardo Got Wings, Daniel Tennenbaum, Danny Daze, DJ Python, Idles, Martyn Bootyspoon, Nick León, Oh No, Overmono, Polygonia, SkipOnDaBeat, Sofie Birch, and Take A Daytrip. DJ Pooh, meanwhile, composed theme songs for in-game television shows, including The Doctor Will See You Now and The Tyrone Show.\n\nAs for the in-game radio, we already knew that artists like Bad Bunny, Lana Del Rey, and Robyn would each host their own stations. Newly revealed DJs include Keith Richards and Buddy Guy (Gloriana Blues Radio); Lindsey Buckingham and Michael McDonald (V-Rock); Gloria and Emilio Estefan (Radio La Ola); T-Boz and Chilli (Honey FM); the Dare and PinkPantheress (Stockyard FM); Randy Brecker and Stanley Clarke (Leonida Jazz Radio); Yussef Dayes (The Nook, a segment of Leonida Jazz Radio); Adrian Sherwood (Radio On-U); Gilles Peterson (Worldwide FM); Seth Troxler (CircoLoco Records Radio); Yuja Wang (Symphony FM); \"Weird Al\" Yankovic (Vice City FM); and JT and Stevie J (Vice City Rap…",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🎬 Culture",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Worth watching this week: The Further Mis-Adventures of Cliff Booth, in IMAX from 25 November",
+     "summary": "Fincher says the Tarantino-scripted sequel cost about $120–123m rather than the reported $200m, and Brad Pitt missed Monday's London premiere with flu.",
+     "matters": "it reaches Netflix on 23 December, and early reviews are mixed, with TheWrap's headline calling it \"an OK movie\".",
+     "url": "https://www.whats-on-netflix.com/news/david-fincher-says-netflixs-cliff-booth-movie-didnt-cost-200-million-i-wish-we-had-200/",
+     "source": "whats-on-netflix.com",
+     "image": "https://www.whats-on-netflix.com/wp-content/uploads/2026/11/david-fincher-cliff-booth-premiere.jpg",
+     "body": "The director says the Brad Pitt movie came in at around $120 million, well below the figure Quentin Tarantino gave last year.\n\nDavid Fincher attends Netflix’s “The Further Mis-Adventures Of Cliff Booth” New York Screening at The Plaza Hotel on November 21, 2026 in New York City.\n\nDavid Fincher has pushed back on reports that The Further Mis-Adventures of Cliff Booth cost $200 million, saying the Netflix movie came in at around $120 million. In a new 90-minute interview, the director also revealed how he came to direct Quentin Tarantino’s script and how close to release the movie was finished.\n\nThe $200 million figure has followed the movie since August 2025, when Quentin Tarantino said on The Church of Tarantino podcast that it was the largest budget he’d ever been associated with and that the movie would be “in the region of $200 million.” It has been widely repeated since and would make the movie the most expensive of both Tarantino’s and Fincher’s careers.\n\nSpeaking on the Happy Sad Confused podcast, where he also explained why Mindhunter season 3 never happened, Fincher gave a very different number.\n\nHe says the new movie came in at around $120 to $123 million, with the increase down to it being more expensive to shoot in Los Angeles six years later. According to Fincher, the two productions had roughly the same number of shooting days and the same size of crew.\n\nFincher didn’t say what his figure covers. Reports earlier this year put Brad Pitt’s fee at $40 million, Fincher’s at $20 million, and Tarantino’s at more than $20 million for the script. If Fincher is quoting the cost of the shoot alone, those deals would account for most of the $80 million difference.\n\nFincher says Brad Pitt had been talking about another Cliff Booth project for nine or ten months before calling to ask him to read the script. Fincher was interested, as Cliff was his favorite character in the first movie, but he refused to open it until Tarantino had signed off.\n\nOnce he had permission, he read a script of around 230 pages, which he has previously said could have been a series. He called the opening scene “one of the best things I had read in many, many years” and also singled out a balcony scene.\n\nFincher spent a good chunk of the interview on Karen Crosby, the character played by Elizabeth Debicki. He describes her as a “giant Aussie” who takes no nonsense and acts as a gatekeeper for her most important client.\n\nIn the movie, she insists on meeting Cliff before her client does. Fincher’s reasoning is that she’s doing her due diligence on a man who may have killed his…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Netflix orders an adult animated Grendel series from Matt Wagner's Dark Horse comic",
+     "summary": "Bobak Esfarjani, an Emmy winner known for WandaVision, will showrun, and Bobbypills, the studio behind Creature Commandos, will animate.",
+     "matters": "no cast or release date has been announced for the series, which follows Hunter Rose, a masked New York assassin.",
+     "url": "https://www.whats-on-netflix.com/news/netflix-orders-adult-animated-series-grendel-based-on-matt-wagners-dark-horse-comic/",
+     "source": "whats-on-netflix.com",
+     "image": "https://www.whats-on-netflix.com/wp-content/uploads/2025/03/ashley-hurst-whats-on-netflix.png",
+     "body": "Netflix has ordered an adult animated adaptation of Matt Wagner’s iconic Dark Horse comic book series 'Grendel', with Emmy-winning producer Bobak Esfarjani as showrunner.\n\nNetflix has officially green-lit an adult animated adaptation of Matt Wagner’s legendary, genre-hopping Dark Horse comic book series Grendel. The streamer has assembled an acclaimed team for the adaptation, including Emmy-winning WandaVision producer Bobak Esfarjani as showrunner.\n\nNetflix has adapted a lot of beloved comic books over the years, from major successes like The Umbrella Academy to wildly ambitious series like The Sandman. Looking ahead to the future, the streamer isn’t slowing down anytime soon. Earlier this year, Netflix green-lit a live-action series based on the hyper-violent fantasy Barbaric by Michael Moreci. Today, Netflix has announced its next comic book adaptation, adapting the ambitious, genre-shifting Grendel, created, written, and illustrated by Matt Wagner. Incidentally, Wagner also co-created the comic book Dead Boy Detectives, which was adapted into a Netflix series of the same name in 2024.\n\nTo bring a comic as sprawling as Grendel to the small screen demands a top-tier creative team, and that’s exactly what’s been assembled. Emmy-award winning producer, Bobak Esfarjani (Widow’s Bay, WandaVision, Alien: Earth), will showrun, write and executive produce. In addition, Chris Tongue, Tim Wiesch and Jay Komas are executive producing for Dark Horse Entertainment, alongside Lydia Antonini (Locke and Key, Halo: Forward Unto Dawn), and Matt Wagner. The studio behind the animation is Bobbypills, which is best known for DC’s Creature Commandos.\n\nNo casting has been announced yet. This show has just been green-lit so further details can be expected at a later date.\n\nDebuting in 1982 from Comico before moving to Dark Horse Comics, Grendel is a dark, neo-noir crime saga, although it’s so sprawling that tying it down to a single genre is impossible. As the series progressed, Wagner evolved it into a multi-generational sci-fi epic with as big a scale as any comic you’ll pick up. It begins with Hunter Rose, a masked New York assassin and crime lord who stops at nothing to avenge the murder of the woman he loves.\n\nAfter the woman he loves is shockingly murdered, Hunter Rose devotes himself to one thing: vengeance. But as he tears through street gangs, the elite, and New York City’s supernatural underworld in pursuit of her killer, a chance at a real life forces him to choose: walk away from ultimate power, or become the very monster he hunts.\n\nGrendel has been running…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Ginny & Georgia season 4 gets a 21 January 2027 date on Netflix",
+     "summary": "The season has ten episodes, and Netflix's first-look stills show Georgia's pregnancy storyline and Paul's mayoral re-election campaign.",
+     "matters": "it puts a firm date on one of Netflix's biggest returning dramas.",
+     "url": "https://www.whats-on-netflix.com/news/ginny-georgia-season-4-netflix-release-date-first-look/",
+     "source": "whats-on-netflix.com",
+     "image": "https://www.whats-on-netflix.com/wp-content/uploads/2026/11/Ginny-Georgia-n-S4-E1-00-01-09-04R-1536x864.jpg",
+     "body": "The wait for 'Ginny & Georgia' season 4 is shorter than expected as Netflix locks in a January 2027 release date for the hit drama.\n\nThe wait is almost over! Netflix has finally locked in the release date for Ginny & Georgia season 4, confirming the Millers will return on Thursday, January 21st, 2027. Alongside the date, we’ve also got our first proper look at the new season with a big batch of stills.\n\nToday’s announcement finally puts a pin in what has been a long wait. Back in August, Netflix quietly moved season 4 into its 2027 slate, which ruled out the hopes of many fans that the show would be back before the end of this year. We now know that the show is set to be one of Netflix’s first big releases of the new year.\n\nThat puts the gap between seasons 3 and 4 at just over 19 months. Season 3 dropped back on June 5th, 2025, which was itself nearly two and a half years after season 2 debuted in January 2023. So while it might not feel like it, this is actually the quickest turnaround between seasons the show has had yet.\n\nAlongside the date, Netflix has handed out a fresh synopsis for the new season, and it’s safe to say that Georgia’s legal troubles being behind her doesn’t mean smooth sailing:\n\nWhen Season 4 begins, Georgia Miller has dodged a murder charge! So life is finally back to normal. Except that the Millers are broke again. And Georgia’s pregnant and doesn’t know who the father is. And strange things keep happening, hinting that maybe Georgia’s past isn’t willing to stay buried. Ginny is desperate to break the cycle of chaos, and Georgia is desperate to prove to her kids that she can. And as for Austin…well… This season it’s him against the world. The family is at a turning point. But when push comes to shove, will the Millers be able to start fresh? Or will the past pull them back in?\n\nSo, the big takeaways: Georgia walks free following the events of the season 3 finale, the Millers are back to counting pennies, and the question of who fathered Georgia’s baby is going to be front and center. “Georgia’s past isn’t willing to stay buried” also lines up nicely with the show’s season 4 theme of “Cycles and Origins,” and, of course, the arrival of Sunny Mabrey as Daisy, Georgia’s estranged mother.\n\nNetflix has released a hefty batch of stills from the new season, spanning the first and ninth episodes. A few things that jumped out at us:\n\nWho’s new in Ginny & Georgia season 4? The core Miller household of Brianne Howey, Antonia Gentry, and Diesel La Torraca is back, as is the wider Wellsbury ensemble. Joining them are three new faces in major…",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Netflix picks up Starz's Vida, with all three seasons arriving 15 December",
+     "summary": "Tanya Saracho's drama about two estranged Mexican-American sisters in Boyle Heights has 22 episodes, with Melissa Barrera and Mishel Prada.",
+     "matters": "each season holds a 100% Rotten Tomatoes score, and the show had been mostly unavailable on Netflix in the US and Europe.",
+     "url": "https://www.whats-on-netflix.com/news/netflix-picks-up-acclaimed-starz-series-vida-from-december-2026/",
+     "source": "whats-on-netflix.com",
+     "image": "https://www.whats-on-netflix.com/wp-content/uploads/2026/11/vida-starz-series-coming-to-netflix.webp",
+     "body": "All three seasons of Tanya Saracho’s hit drama are heading to Netflix in most regions on December 15th.\n\nThe Starz to Netflix pipeline keeps on flowing, and this time it’s not just the US getting in on the action. We can confirm that Vida, the hit Starz drama led by Melissa Barrera and Mishel Prada, is set to arrive on Netflix on December 15th, 2026, in most regions, including the United States, the United Kingdom, Brazil, and France, among many others others.\n\nThat wide rollout makes it something of an outlier. Most of the Starz library titles Netflix has snapped up lately, such as Run the World, Blindspotting, and Dangerous Liaisons, have been US-only affairs.\n\nTanya Saracho created the series, taking inspiration from Richard Villegas Jr.’s short story “Pour Vida.” It follows Emma and Lyn, two estranged Mexican-American sisters who couldn’t be more different. Their mother’s death pulls the pair back to the Boyle Heights neighborhood of Los Angeles where they grew up. Once there, they inherit the family bar, a pile of debt, and a few secrets about who their mother really was.\n\nStarz aired 22 episodes over three seasons, starting on May 6th, 2018, and wrapping up on May 31st, 2020. All three seasons are expected to drop at once on December 15th. While the show was definitely intended to go beyond three seasons, Starz ultimately made the decision to call season 3 the final season and it does end on a satisfactory note if you’re worried about it ending on a major cliffhanger.\n\nThe show was a critical darling throughout its run. Every one of its seasons sits at a perfect 100% on Rotten Tomatoes, and it took home a GLAAD Media Award for Outstanding Comedy Series in 2019. Time also ranked it fourth on its list of the best TV shows of 2019. This isn’t strictly the show’s Netflix debut. Back in April 2024, select Latin American countries such as Brazil and Mexico received all three seasons.\n\nVida is the latest in a long line of Lionsgate and Starz titles to find a second home on Netflix. In the past year or so, we’ve seen:\n\nFor more on what’s coming to Netflix throughout December 2026, keep it locked here on What’s on Netflix.\n\nWill you be checking out Vida when it lands on Netflix in December? Let us know in the comments.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Netflix sets a Pamela Smart true crime documentary for 16 December",
+     "summary": "The film is directed by Lyttanya Shannon and is titled \"Most Hated Woman\" in What's on Netflix's URL.",
+     "matters": "it joins a busy December slate of Netflix true crime and K-drama arrivals.",
+     "url": "https://www.whats-on-netflix.com/news/most-hated-woman-pamela-smart-netflix-documentary/",
+     "source": "whats-on-netflix.com",
+     "image": "https://www.whats-on-netflix.com/wp-content/uploads/2026/11/A-Deadly-Affair-the-Pamela-Smart-Story-Netflix-documentary-december-2026.jpg",
+     "body": "Netflix is bringing the chilling true story of the \"most hated woman in America\" to screens in 2026 with a brand new true-crime documentary.\n\nThere have been numerous documentaries on the subject of Pamela Smart, whose role in the murder of her husband created a media circus in 1991 and had the nation transfixed. Netflix is throwing its hat into the documentary ring, and a brand new documentary on “the most hated woman in America” is coming to the streaming service on December 16, 2026.\n\nNetflix has confirmed that the documentary will premiere on the service on December 16, 2026.\n\nIn 1991, Gregg Smart was shot dead in the New Hampshire home he shared with his wife, Pamela. Within months, Pamela and her teenage lover, Billy Flynn, stood accused of his murder. Dubbed the most hated woman in America, Pamela became the face of a trial that held the country transfixed.\n\nPamela Smart is an American woman serving life without parole for her role in the May 1990 murder of her husband, Gregg Smart, in Derry, New Hampshire. Then a 22-year-old high school media coordinator, Smart was convicted in 1991 of being an accomplice to first-degree murder, conspiracy to murder, and witness tampering after prosecutors argued she manipulated her 15-year-old lover, William “Billy” Flynn, and his friends into killing him. Broadcast live on television, the trial became a media sensation that continues to draw scrutiny.\n\nSmart maintained her innocence for many years and argued that her life sentence without parole is overly harsh, a stance she reiterated during an October 2010 appearance on The Oprah Winfrey Show. It wasn’t until June 2024 that she finally accepted her responsibility for her husband’s murder. This year, she and her legal team continue to seek an overturn of her conviction, for which she has now served 36 years.\n\nThe story of Pamela Smart has been examined in over a dozen documentaries over the past few decades, including Captivated: The Trials of Pamela Smart, and has also inspired a wide range of fiction, film, and television.\n\nAmong the most notable adaptations are the TV movie Murder in New Hampshire: The Pamela Wojas Smart Story, an episode of Law & Order, Joyce Maynard’s 1992 novel To Die For (which Gus Van Sant adapted into the 1995 dark comedy starring Nicole Kidman and Joaquin Phoenix), and Marge Piercy’s novel The Longings of Women.\n\nAre you looking forward to watching A Deadly Affair: The Pamela Smart Story on Netflix? Let us know in the comments below!",
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "🏛️ Brussels",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Commission preliminarily finds Temu in breach of the DSA over illegal products (17 November)",
+     "summary": "it says Temu failed to put in place reasonable, proportionate and effective measures against the risk of illegal products, citing ineffective product-compliance controls, weak content moderation and an ineffective sanction system.",
+     "matters": "findings are preliminary, so Temu can respond before any final decision. Marketplaces should treat product-compliance checks, moderation and seller sanctions as the areas under scrutiny.",
+     "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-temu-breach-digital-services-act-failure-tackle-sale-illegal",
+     "source": "digital-strategy.ec.europa.eu",
+     "image": null,
+     "body": "The European Commission preliminarily found Temu in breach of the Digital Services Act (DSA) obligation to put in place reasonable, proportionate and effective measures to mitigate the risk of illegal products being offered on its platform.\n\nThe Commission preliminarily found that Temu's mitigation measures include ineffective controls to check the compliance of products; a weak content moderation system; and an ineffective sanction system.\n\nShopping online should not mean risking the purchase of illegal and unsafe products. Under the Digital Services Act, platforms are responsible for protecting users from the risk of illegal content and goods. The preliminary findings against Temu mark another step towards making the online world safer.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Commission preliminarily finds TikTok's \"For You\" feed in breach of the DSA (6 November)",
+     "summary": "it says the recommender system can trap users in a \"rabbit hole\" of similar content on mental health struggles and body image, because more engagement leads to more of the same.",
+     "matters": "the findings centre on TikTok's risk assessment and mitigation measures, so anyone shipping an engagement-driven recommender in the EU should document its systemic-risk analysis and what it does for minors.",
+     "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes",
+     "source": "digital-strategy.ec.europa.eu",
+     "image": null,
+     "body": "The European Commission has preliminarily found TikTok in breach of the Digital Services Act (DSA) for the so-called ‘rabbit hole effect’ of its recommender system.\n\nTikTok's ‘For You' feed shows users a continuous stream of personalised videos, even when those are related to mental health struggles and body image.\n\nThe more a user interacts with a certain type of content, the more TikTok's ‘For You' feed algorithm recommends similar content. This design can be harmful when such endless and repeated exposure involves, for example, content about sadness, isolation or body image. These ‘rabbit holes' can have a detrimental impact on users' mental health, especially that of vulnerable adults and minors.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Commission study says age assurance can be proportionate and affordable (4 November)",
+     "summary": "it finds a rights-respecting framework is workable with GDPR-consistent rules and strong privacy standards, and says costs should stay modest for most services and fall over time. It backs the EU age-verification blueprint as one of the cheapest options for providers of all sizes.",
+     "matters": "it was commissioned to inform the proposed EU KIDS Act, so teams building apps that children use should expect age-assurance requirements and watch the blueprint.",
+     "url": "https://digital-strategy.ec.europa.eu/en/library/independent-study-impact-age-assurance-fundamental-rights-and-costs-businesses",
+     "source": "digital-strategy.ec.europa.eu",
+     "image": null,
+     "body": "An independent study analyses the impacts of age assurance on fundamental rights and the costs for businesses concerned.\n\nAge assurance is key for a safer online environment as it ensures that children only access online services and features that are safe and age appropriate for them. Nowadays, 1 in 3 children, aged 9 to 11 across 6 European countries, reports having a social media profile. Very few services are implementing age assurance in a systematic way.\n\nTo further strengthen the preparation of the proposed EU KIDS Act and the accompanying Staff Working Document, the European Commission procured a study to:\n\nThe study was carried out by an external contractor. It does not assess the proposed EU KIDS Act and the compliance by any specific service provider.\n\nRead the study and its executive summary and the questions & answers on the proposed EU KIDS Act.",
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Commission and eight member states launch an education digital-infrastructure consortium (20 November)",
+     "summary": "EDU-EDIC, hosted by the Netherlands, includes Belgium, Croatia, Finland, France, Greece, Slovenia and Spain. It will focus on cloud infrastructure, AI for education, secure data exchange between institutions and the EdTech sector.",
+     "matters": "it is a signal of public-sector demand for sovereign, interoperable cloud and edtech services, which matters if you sell software into European schools.",
+     "url": "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
+     "source": "digital-strategy.ec.europa.eu",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  },
+  {
+   "name": "📅 Tonight",
+   "kind": "fixtures",
+   "items": [
+    {
+     "type": "fixture",
+     "text": "Champions League — Bodø/Glimt v LASK and Galatasaray v Aston Villa, 18:45"
+    },
+    {
+     "type": "fixture",
+     "text": "Champions League — Arsenal v Borussia Dortmund, Como v AEK Athens, Feyenoord v Porto, Manchester City v Napoli, Leipzig v Lens, Real Madrid v PSV Eindhoven and Slovan Bratislava v Real Betis, 21:00"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Pistons v Magic, 01:00 (Wednesday)"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Celtics v Wizards, 02:00 (Wednesday)"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Mavericks v Nuggets, 04:00 (Wednesday)"
+    }
+   ]
+  },
+  {
+   "name": "🏀 NBA",
+   "kind": "scores",
+   "items": [
+    {
+     "type": "score",
+     "group": null,
+     "home": "Grizzlies",
+     "away": "Hornets",
+     "home_score": 117,
+     "away_score": 111,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Ty Jerome 29 pts for Memphis; Charlotte's Christian Anderson had 25 pts.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Trail Blazers",
+     "away": "76ers",
+     "home_score": 128,
+     "away_score": 111,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Deni Avdija 31 pts, 7 ast for Portland; Philadelphia's LeBron James had 23 pts, 6 reb.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Pacers",
+     "away": "Thunder",
+     "home_score": 125,
+     "away_score": 120,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Jalen Slawson 16 pts, 10 reb, 4 blk for Indiana; Oklahoma City's Shai Gilgeous-Alexander had 38 pts, 7 ast in the loss.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Bucks",
+     "away": "Raptors",
+     "home_score": 116,
+     "away_score": 111,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Tyler Herro 32 pts, 6 reb, 8 ast for Milwaukee; Toronto's Scottie Barnes had 31 pts, 8 ast, 4 blk.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Timberwolves",
+     "away": "Nets",
+     "home_score": 142,
+     "away_score": 116,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Jaden McDaniels 34 pts, 10 reb, 6 ast for Minnesota; Brooklyn's Julius Randle had 29 pts.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Bulls",
+     "away": "Cavaliers",
+     "home_score": 122,
+     "away_score": 108,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Tre Jones 16 pts, 9 ast for Chicago; Cleveland's Donovan Mitchell had 28 pts.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Suns",
+     "away": "Pelicans (OT)",
+     "home_score": 123,
+     "away_score": 119,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Devin Booker 22 pts, 8 ast, 3 stl for Phoenix; New Orleans' Jordan Poole had 28 pts in the overtime loss.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Rockets",
+     "away": "Clippers",
+     "home_score": 116,
+     "away_score": 104,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Kevin Durant 32 pts, 9 reb for Houston; LA's Darius Garland had 26 pts, 8 ast.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Lakers",
+     "away": "Jazz",
+     "home_score": 109,
+     "away_score": 94,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Luka Dončić 28 pts, 8 ast for Los Angeles; Utah's Kyle Filipowski had 21 pts, 12 reb.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": null,
+     "home": "Spurs",
+     "away": "Kings",
+     "home_score": 123,
+     "away_score": 107,
+     "home_scorers": null,
+     "away_scorers": null,
+     "note": "Stephon Castle 28 pts, 8 reb, 11 ast for San Antonio; Sacramento's Domantas Sabonis had 20 pts, 12 reb, 8 ast.",
+     "flag": null
+    }
+   ]
+  },
+  {
+   "name": "⚽ Football",
+   "kind": "scores",
+   "items": [
+    {
+     "type": "score",
+     "group": "Premier League",
+     "home": "Brentford",
+     "away": "Everton",
+     "home_score": 4,
+     "away_score": 0,
+     "home_scorers": [
+      "Lewis-Potter 23'",
+      "Lewis-Potter 25'",
+      "Janelt 67'",
+      "Carvalho 90'"
+     ],
+     "away_scorers": null,
+     "note": "none. Lewis-Potter scored twice in three minutes.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "La Liga",
+     "home": "Levante",
+     "away": "Elche",
+     "home_score": 1,
+     "away_score": 1,
+     "home_scorers": [
+      "Requena 88'"
+     ],
+     "away_scorers": [
+      "Revivo 62'"
+     ],
+     "note": "Requena rescued a point for Levante two minutes from time.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Serie A",
+     "home": "Monza",
+     "away": "Fiorentina",
+     "home_score": 3,
+     "away_score": 0,
+     "home_scorers": [
+      "Varela 45' (pen)",
+      "Varela 51'",
+      "Robinson 59'"
+     ],
+     "away_scorers": null,
+     "note": "none. Varela scored twice, the first from the penalty spot.",
+     "flag": null
+    },
+    {
+     "type": "score",
+     "group": "Ekstraklasa",
+     "home": "Wieczysta Kraków",
+     "away": "Motor Lublin",
+     "home_score": 2,
+     "away_score": 1,
+     "home_scorers": [
+      "Wieteska 29'",
+      "De La Rosa 65'"
+     ],
+     "away_scorers": [
+      "Fábio Ronaldo 24'"
+     ],
+     "note": "New coach Jacek Zieliński won on his debut, ending a run of five straight defeats.",
+     "flag": null
+    }
+   ]
+  },
+  {
+   "name": "📌 Long read",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Noema on China's gene-editing deaths",
+     "summary": "Jane Qiu's essay (18 November, about 3,000–3,500 words) uses the death of a four-year-old in a Shanghai gene-therapy trial to ask what it reveals about China's investigator-initiated trial system. She argues that weak hospital oversight, institutional incentives and limited regulatory expertise let risky experiments proceed, and that new rules alone won't fix it.",
+     "matters": null,
+     "url": "https://www.noemamag.com/what-chinas-gene-editing-deaths-reveal-about-its-biotech-industry",
+     "source": "noemamag.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ]
+  }
+ ]
+}
