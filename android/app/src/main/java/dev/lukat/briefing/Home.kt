@@ -17,12 +17,15 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.IntrinsicSize
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -87,8 +90,9 @@ internal fun HomeScreen(
     refreshing: Boolean,
     onRefresh: () -> Unit,
 ) {
-    val news = remember(feed) { feed.sections.filter { kindOf(it) == Kind.News } }
-    val sport = remember(feed) { feed.sections.filter { kindOf(it) == Kind.Sport } }
+    val news = remember(feed) { feed.sections.filter { kindOf(it) == Kind.News && !isMotorsport(it) } }
+    val sport = remember(feed) { feed.sections.filter { kindOf(it) == Kind.Sport || (isMotorsport(it) && readableStories(it).isNotEmpty()) } }
+    val agenda = remember(feed) { feed.sections.firstOrNull { kindOf(it) == Kind.Agenda && events(it).isNotEmpty() } }
     val digest = remember(feed) { feed.sections.filter { kindOf(it) == Kind.Digest } }
     val longRead = remember(feed) { feed.sections.firstOrNull { kindOf(it) == Kind.LongRead } }
     val full: LazyGridItemSpanScope.() -> GridItemSpan = { GridItemSpan(maxLineSpan) }
@@ -126,9 +130,27 @@ internal fun HomeScreen(
             if (updateLabel != null) item(span = full) { UpdateCard(updateLabel, updateError, onUpdate) }
             // unfolded: masthead and catch-up side by side instead of two 840dp-wide slabs
             val half: LazyGridItemSpanScope.() -> GridItemSpan = { GridItemSpan(if (sideBySide) maxLineSpan / 2 else maxLineSpan) }
-            item(span = half) { Masthead(feed, hero, offline, wide, news, read, weather.takeIf { latest }?.line) }
-            if (digest.isNotEmpty()) item(span = half) { CatchUp(digest, feed.title) }
-            if (tape.isNotEmpty()) item(span = full) { Ticker(tape, sectionHue("Money"), edge = 0.dp) }
+            if (sideBySide) {
+                // one row, equal heights: the catch-up stretches to the masthead and the tape fills its foot
+                item(span = full) {
+                    Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                        Masthead(feed, hero, offline, wide, news, read, weather.takeIf { latest }?.line, Modifier.weight(1f).fillMaxHeight(), stretch = hero != null)
+                        Column(Modifier.weight(1f).fillMaxHeight(), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                            if (agenda != null) {
+                                CatchUp(digest, feed.title)
+                                AgendaCard(agenda, feed.date, Modifier.weight(1f)) { onCategory(agenda.name) }
+                            } else {
+                                CatchUp(digest, feed.title, Modifier.weight(1f))
+                            }
+                            if (tape.isNotEmpty()) Ticker(tape, sectionHue("Money"), edge = 0.dp)
+                        }
+                    }
+                }
+            } else {
+                item(span = half) { Masthead(feed, hero, offline, wide, news, read, weather.takeIf { latest }?.line) }
+                if (digest.isNotEmpty()) item(span = half) { CatchUp(digest, feed.title) }
+                if (tape.isNotEmpty()) item(span = full) { Ticker(tape, sectionHue("Money"), edge = 0.dp) }
+            }
 
             label("Sections", "${news.size}")
             // the first card widens just enough that every row is full: no card ever sits alone
@@ -141,11 +163,15 @@ internal fun HomeScreen(
                 CategoryCard(section, feed.date, read, exclude = hero, featured = i == 0 && lead == columns) { onCategory(section.name) }
             }
 
+            if (agenda != null && !sideBySide) {
+                item(span = full) { AgendaCard(agenda, feed.date) { onCategory(agenda.name) } }
+            }
             if (sport.isNotEmpty()) {
                 label("Sport", null)
                 val spans = rowSpans(sport.size, columns, if (columns >= 3) columns / 2 else columns)
                 itemsIndexed(sport, key = { _, it -> "s-" + it.name }, span = { i, _ -> GridItemSpan(spans[i]) }) { _, section ->
-                    SportCard(section) { onCategory(section.name) }
+                    if (isMotorsport(section)) CategoryCard(section, feed.date, read, exclude = hero) { onCategory(section.name) }
+                    else SportCard(section) { onCategory(section.name) }
                 }
             }
             if (longRead != null && readableStories(longRead).isNotEmpty()) {
@@ -266,11 +292,11 @@ private fun UpdateCard(label: String, error: String?, onUpdate: () -> Unit) {
 
 @OptIn(androidx.compose.foundation.layout.ExperimentalLayoutApi::class)
 @Composable
-private fun Masthead(feed: Feed, hero: String?, offline: Boolean, wide: Boolean, news: List<Section>, read: Set<String>, weather: String?) {
+private fun Masthead(feed: Feed, hero: String?, offline: Boolean, wide: Boolean, news: List<Section>, read: Set<String>, weather: String?, modifier: Modifier = Modifier, stretch: Boolean = false) {
     val total = remember(feed) { news.sumOf { readableStories(it).size } }
     val done = news.sumOf { s -> readableStories(s).count { read.contains(ReadStore.key(feed.date, it)) } }
     Column(
-        Modifier
+        modifier
             .fillMaxWidth()
             .clip(CardShape)
             .background(Panel)
@@ -281,7 +307,9 @@ private fun Masthead(feed: Feed, hero: String?, offline: Boolean, wide: Boolean,
                 model = hero,
                 contentDescription = null,
                 contentScale = ContentScale.Crop,
-                modifier = Modifier.fillMaxWidth().height(if (wide) 220.dp else 190.dp).background(Panel2)
+                // beside a taller right-hand column the photo takes the spare height instead of leaving a gap
+                modifier = (if (stretch) Modifier.fillMaxWidth().weight(1f).heightIn(min = 220.dp) else Modifier.fillMaxWidth().height(if (wide) 220.dp else 190.dp))
+                    .background(Panel2)
             )
         }
         Column(Modifier.padding(start = 18.dp, end = 18.dp, top = 16.dp, bottom = 18.dp)) {
@@ -325,11 +353,11 @@ private fun Masthead(feed: Feed, hero: String?, offline: Boolean, wide: Boolean,
 
 /** TL;DR, What changed and Following as three tabs of one card. */
 @Composable
-private fun CatchUp(digest: List<Section>, title: String?) {
+private fun CatchUp(digest: List<Section>, title: String?, modifier: Modifier = Modifier) {
     var tab by remember(digest) { mutableIntStateOf(0) }
     val current = digest.getOrNull(tab) ?: digest.first()
     Column(
-        Modifier
+        modifier
             .fillMaxWidth()
             .clip(CardShape)
             .background(Panel)
@@ -487,19 +515,36 @@ private fun SportCard(section: Section, onClick: () -> Unit) {
             )
         }
         Spacer(Modifier.height(6.dp))
-        val shown = if (scores.isNotEmpty()) 3 else 4
-        if (scores.isNotEmpty()) {
-            scores.take(shown).forEachIndexed { i, it ->
-                if (i > 0) Box(Modifier.fillMaxWidth().height(1.dp).background(Line))
-                MiniScore(it)
+        // a card spanning the unfolded screen lays its results out two or three across
+        BoxWithConstraints {
+            var shown = 0
+            val per = (maxWidth / 250.dp).toInt().coerceIn(1, 3)
+            val rows = if (scores.isNotEmpty()) 3 else 4
+            Column {
+                if (scores.isNotEmpty()) {
+                    scores.take(rows * per).chunked(per).forEachIndexed { r, chunk ->
+                        if (r > 0) Box(Modifier.fillMaxWidth().height(1.dp).background(Line))
+                        Row(horizontalArrangement = Arrangement.spacedBy(24.dp)) {
+                            chunk.forEach { Box(Modifier.weight(1f)) { MiniScore(it) } }
+                            repeat(per - chunk.size) { Spacer(Modifier.weight(1f)) }
+                        }
+                    }
+                    shown = minOf(scores.size, rows * per)
+                } else {
+                    lines.take(rows * per).chunked(per).forEach { chunk ->
+                        Row(horizontalArrangement = Arrangement.spacedBy(20.dp)) {
+                            chunk.forEach { Box(Modifier.weight(1f)) { MiniFixture(it) } }
+                            repeat(per - chunk.size) { Spacer(Modifier.weight(1f)) }
+                        }
+                    }
+                    shown = minOf(lines.size, rows * per)
+                }
+                val more = (if (scores.isNotEmpty()) scores.size else lines.size) - shown
+                if (more > 0) {
+                    Spacer(Modifier.height(6.dp))
+                    Text("+$more more", color = Dim, fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
+                }
             }
-        } else {
-            lines.take(shown).forEach { MiniFixture(it) }
-        }
-        val more = (if (scores.isNotEmpty()) scores.size else lines.size) - shown
-        if (more > 0) {
-            Spacer(Modifier.height(6.dp))
-            Text("+$more more", color = Dim, fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
         }
     }
 }

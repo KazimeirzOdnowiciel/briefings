@@ -50,17 +50,22 @@ import java.util.Locale
 
 /* ---------- how a section is presented ---------- */
 
-internal enum class Kind { Digest, News, Sport, LongRead }
+internal enum class Kind { Digest, News, Sport, LongRead, Agenda }
 
 internal fun kindOf(section: Section): Kind {
     val n = section.name.lowercase()
     return when {
         section.kind == "scores" || section.kind == "fixtures" -> Kind.Sport
+        section.kind == "agenda" -> Kind.Agenda
         "tl;dr" in n || "tldr" in n || "what changed" in n || "following" in n -> Kind.Digest
         "long read" in n -> Kind.LongRead
         else -> Kind.News
     }
 }
+
+/** Motor racing reads as a story deck but belongs with the sport on the home screen. */
+internal fun isMotorsport(section: Section): Boolean =
+    Regex("\\bf1\\b|formula|motogp", RegexOption.IGNORE_CASE).containsMatchIn(section.name)
 
 /** "🇵🇱 Polska" -> "Polska" */
 internal fun cleanName(name: String): String = name.replace(Regex("^[^\\p{L}\\p{N}]+"), "").trim()

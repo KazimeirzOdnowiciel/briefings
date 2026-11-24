@@ -29,6 +29,20 @@ data class Section(
     val name: String = "",
     val kind: String = "stories",
     val items: List<Item> = emptyList(),
+    /** Standings and stat leaders, from the data APIs; shown as tabs beside the section. */
+    val tables: List<StatTable> = emptyList(),
+)
+
+@Serializable
+data class StatTable(
+    val tab: String = "",
+    val title: String = "",
+    val columns: List<String> = emptyList(),
+    val rows: List<List<String>> = emptyList(),
+    /** One letter per column: "l" or "r". */
+    val align: String = "",
+    /** Row counts after which a rule is drawn: playoff places, the drop zone. */
+    val cuts: List<Int> = emptyList(),
 )
 
 @Serializable
@@ -53,6 +67,8 @@ data class Item(
     val note: String? = null,
     val flag: String? = null,
     val text: String? = null,
+    val date: String? = null,
+    val time: String? = null,
 )
 
 private val http = OkHttpClient()

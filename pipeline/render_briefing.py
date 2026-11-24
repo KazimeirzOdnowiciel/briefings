@@ -700,6 +700,8 @@ def _kind(name):
         return "scores"
     if "tonight" in n or "fixture" in n:
         return "fixtures"
+    if "coming up" in n or "agenda" in n:
+        return "agenda"
     return "stories"
 
 
@@ -1068,6 +1070,8 @@ def build_feed(markdown, covers=None, now=None, meta=None, bodies=None, images=N
                     items.append(_score_item(body, group))
                 elif kind == "fixtures":
                     items.append({"type": "fixture", "text": _strip_url(body)[0]})
+                elif kind == "agenda":
+                    items.append(_event_item(body))
                 else:
                     items.append(_story_item(body, covers, bodies, images))
                 continue
@@ -1089,6 +1093,22 @@ def build_feed(markdown, covers=None, now=None, meta=None, bodies=None, images=N
         "read_minutes": meta.get("minutes"),
         "sections": sections,
     }
+
+
+EVENT_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})(?:\s+(\d{1,2}:\d{2}))?\s*[—–-]+\s*(.+)$")
+
+
+def _event_item(body):
+    """'2026-12-03 14:30 — 💰 RPP rate decision — markets price a hold. https://…' -> a calendar entry."""
+    text, url = _strip_url(body)
+    m = EVENT_RE.match(text)
+    if not m:
+        return {"type": "note", "text": text}
+    date, time, rest = m.groups()
+    parts = re.split(r"\s+[—–]\s+", rest, maxsplit=1)
+    what = parts[0].strip()
+    why = parts[1].strip().rstrip(".") if len(parts) > 1 else ""
+    return {"type": "event", "date": date, "time": time, "text": what, "note": why or None, "url": url or None}
 
 
 def _strip_url(text):
@@ -1147,6 +1167,11 @@ def main():
     write_feed(items)
 
     feed = build_feed(markdown, covers, now, meta, bodies, images)
+    try:  # standings and leaders come from the data APIs, never from a writer
+        import stats
+        print(f"stats: {stats.attach(feed)} tables")
+    except Exception as exc:
+        print(f"stats: skipped ({type(exc).__name__}: {exc})")
     with open(os.path.join(HOME, "feed.json"), "w", encoding="utf-8") as fh:
         json.dump(feed, fh, ensure_ascii=False, indent=1)
     edir = os.path.join(HOME, "editions")

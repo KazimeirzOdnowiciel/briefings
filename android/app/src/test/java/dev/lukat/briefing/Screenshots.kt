@@ -81,4 +81,17 @@ class Screenshots {
 
     @Test @Config(qualifiers = "w841dp-h900dp-xhdpi")
     fun worldFold() = shoot("cat-world-fold", false) { category("World", true) }
+
+    // the OnePlus Open: inner 2440x2268 and cover 1116x2484 at 420dpi
+    @Test @Config(qualifiers = "w929dp-h864dp-xhdpi")
+    fun homeOpenInner() = shoot("home-open-inner", false) { home(true) }
+
+    @Test @Config(qualifiers = "w425dp-h946dp-xxhdpi")
+    fun homeOpenCover() = shoot("home-open-cover", false) { home(false) }
+
+    @Test @Config(qualifiers = "w425dp-h946dp-xxhdpi")
+    fun comingUpDark() = shoot("cat-comingup-dark", false) { category("Coming up", false) }
+
+    @Test @Config(qualifiers = "w929dp-h864dp-xhdpi")
+    fun comingUpInner() = shoot("cat-comingup-inner", false) { category("Coming up", true) }
 }

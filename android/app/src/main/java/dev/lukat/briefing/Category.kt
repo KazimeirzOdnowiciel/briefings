@@ -37,6 +37,7 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.PageSize
 import androidx.compose.foundation.pager.rememberPagerState
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -48,6 +49,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.setValue
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
@@ -117,16 +120,28 @@ internal fun CategoryScreen(
         Spacer(Modifier.height(12.dp))
         CategoryStrip(browsable, section.name, onSwitch)
         Spacer(Modifier.height(14.dp))
+        // sport sections carry standings and leaders: tabs beside the results
+        val tabs = remember(section) {
+            tabsOf(section, if (kindOf(section) == Kind.Sport) (if (section.kind == "fixtures") "Schedule" else "Results") else "News")
+        }
+        var tab by remember(section.name) { mutableIntStateOf(0) }
+        if (tabs.size > 1) {
+            SectionTabs(tabs, tab, hue) { tab = it }
+            Spacer(Modifier.height(10.dp))
+        }
 
         AnimatedContent(
-            targetState = section,
+            targetState = section to tab,
             transitionSpec = { fadeIn(tween(220)) togetherWith fadeOut(tween(140)) },
-            contentKey = { it.name },
+            contentKey = { (s, t) -> s.name + t },
             label = "catBody",
             modifier = Modifier.weight(1f)
-        ) { s ->
-            when (kindOf(s)) {
-                Kind.Sport -> SportBoard(s)
+        ) { (s, t) ->
+            val shown = tabsOf(s, "").getOrNull(t)
+            when {
+                t > 0 && shown != null -> TablesBoard(s.tables.filter { it.tab == shown }, sectionHue(s.name))
+                kindOf(s) == Kind.Sport -> SportBoard(s)
+                kindOf(s) == Kind.Agenda -> AgendaBoard(s, feed.date)
                 else -> StoryDeck(s, feed.date, wide, read, onOpen)
             }
         }
@@ -244,8 +259,12 @@ private fun StoryDeck(section: Section, date: String, wide: Boolean, read: Set<S
 @Composable
 internal fun Ticker(lines: List<String>, hue: Color, edge: Dp = 16.dp) {
     val parts = remember(lines) { lines.flatMap { it.split(" · ") }.map { it.trim() }.filter { it.isNotEmpty() } }
-    LazyRow(contentPadding = PaddingValues(horizontal = edge), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-        itemsIndexed(parts) { _, p ->
+    // a plain scrolling row, not a lazy one: it also sits inside an equal-height row on the unfolded home
+    Row(
+        Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()).padding(horizontal = edge),
+        horizontalArrangement = Arrangement.spacedBy(8.dp)
+    ) {
+        parts.forEach { p ->
             val m = Regex("^(.*?)\\s+(\\$?[\\d.,]+.*)$").find(p)
             Column(
                 Modifier

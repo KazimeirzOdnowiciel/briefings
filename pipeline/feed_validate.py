@@ -30,11 +30,11 @@ def check(feed):
 
     for sec in feed.get("sections", []):
         name = sec.get("name", "?")
-        need(sec.get("kind") in ("stories", "scores", "fixtures"), f"{name}: bad kind {sec.get('kind')!r}")
+        need(sec.get("kind") in ("stories", "scores", "fixtures", "agenda"), f"{name}: bad kind {sec.get('kind')!r}")
         need(isinstance(sec.get("items"), list) and sec["items"], f"{name}: no items")
         for item in sec.get("items", []):
             t = item.get("type")
-            need(t in ("story", "score", "fixture", "note"), f"{name}: bad item type {t!r}")
+            need(t in ("story", "score", "fixture", "note", "event"), f"{name}: bad item type {t!r}")
             if t == "story":
                 need(item.get("headline"), f"{name}: story without headline")
                 if item.get("url"):

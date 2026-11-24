@@ -762,6 +762,92 @@
    ]
   },
   {
+   "name": "🔜 Coming up",
+   "kind": "agenda",
+   "items": [
+    {
+     "type": "event",
+     "date": "2026-11-25",
+     "time": null,
+     "text": "🎬 The Further Mis-Adventures of Cliff Booth opens in IMAX",
+     "note": "it reaches Netflix on 23 December",
+     "url": "https://www.whats-on-netflix.com/news/david-fincher-says-netflixs-cliff-booth-movie-didnt-cost-200-million-i-wish-we-had-200/"
+    },
+    {
+     "type": "event",
+     "date": "2026-11-25",
+     "time": "18:45",
+     "text": "⚽ Champions League matchday 5 opens with Sabah v Barcelona and Slavia Praha v Villarreal",
+     "note": "the 21:00 slate adds Lille v Bayern, PSG v Roma, Club Brugge v Liverpool and Sporting v Manchester United",
+     "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
+    },
+    {
+     "type": "event",
+     "date": "2026-11-26",
+     "time": "04:00",
+     "text": "🏀 NBA Cup group play: Spurs at Trail Blazers (Wednesday 10 p.m. ET)",
+     "note": "it is one of Wednesday's Cup Night games, shown on ESPN",
+     "url": "https://www.nba.com/news/emirates-nba-cup-key-dates-schedule?hidenav=true"
+    },
+    {
+     "type": "event",
+     "date": "2026-11-27",
+     "time": "14:30",
+     "text": "🏎️ F1 Qatar Grand Prix weekend starts with Practice 1 at Lusail",
+     "note": "Practice 2 follows at 18:00, and the weekend is a standard format with no sprint",
+     "url": "https://www.formula1.com/en/latest/article/formula-1-qatar-airways-qatar-grand-prix-2026.3XJyoYSnpJEcuZovstTdcG"
+    },
+    {
+     "type": "event",
+     "date": "2026-11-28",
+     "time": "01:00",
+     "text": "🏀 NBA Cup: Heat at Knicks (Friday 7 p.m. ET)",
+     "note": "the final group-play night also has Lakers at Spurs at 03:30 and 76ers at Pacers at 01:30",
+     "url": "https://www.nba.com/news/emirates-nba-cup-key-dates-schedule?hidenav=true"
+    },
+    {
+     "type": "event",
+     "date": "2026-11-28",
+     "time": "19:00",
+     "text": "🏎️ F1 Qatar Grand Prix qualifying",
+     "note": "it sets the grid for Sunday's race",
+     "url": "https://www.formula1.com/en/latest/article/formula-1-qatar-airways-qatar-grand-prix-2026.3XJyoYSnpJEcuZovstTdcG"
+    },
+    {
+     "type": "event",
+     "date": "2026-11-29",
+     "time": "17:00",
+     "text": "🏎️ F1 Qatar Grand Prix race, 57 laps or two hours",
+     "note": "it is the penultimate round of the season",
+     "url": "https://www.formula1.com/en/latest/article/formula-1-qatar-airways-qatar-grand-prix-2026.3XJyoYSnpJEcuZovstTdcG"
+    },
+    {
+     "type": "event",
+     "date": "2026-11-30",
+     "time": null,
+     "text": "🎮 FFXIV Crucible Rankings Season 1 closes at 8:59 p.m. PST",
+     "note": "it is the last chance to climb before the pre-season gap, and Season 2 starts 7 December",
+     "url": "https://na.finalfantasyxiv.com/lodestone/topics/detail/0db56e0630897e1437974c973172544dc0e33c33"
+    },
+    {
+     "type": "event",
+     "date": "2026-12-01",
+     "time": null,
+     "text": "🐉 WoW Forever's Talebound mode launches with regional maintenance",
+     "note": "it is the same day as the Midnight patch 12.1.7, Echoes of the Worldcore",
+     "url": "https://news.blizzard.com/en-us/article/24316569/talebounds-twisted-tales-and-deadly-fates-arrive-december-1"
+    },
+    {
+     "type": "event",
+     "date": "2026-12-02",
+     "time": null,
+     "text": "💰 RPP rate decision after the 1–2 December meeting",
+     "note": "the reference rate is 3.75% after November's hold, and the decision usually comes in the afternoon or evening of day two",
+     "url": "https://rankomat.pl/finanse/poradniki/harmonogram-posiedzen-rpp/"
+    }
+   ]
+  },
+  {
    "name": "📅 Tonight",
    "kind": "fixtures",
    "items": [
@@ -983,6 +1069,1510 @@
       "Nowak 51'",
       "Nowak 72'"
      ]
+    }
+   ],
+   "tables": [
+    {
+     "tab": "Tables",
+     "title": "Premier League",
+     "columns": [
+      "#",
+      "Team",
+      "P",
+      "GD",
+      "Pts"
+     ],
+     "rows": [
+      [
+       "1",
+       "Arsenal",
+       "11",
+       "+10",
+       "28"
+      ],
+      [
+       "2",
+       "Brighton",
+       "11",
+       "+17",
+       "22"
+      ],
+      [
+       "3",
+       "Man City",
+       "11",
+       "+8",
+       "22"
+      ],
+      [
+       "4",
+       "Liverpool",
+       "11",
+       "+8",
+       "21"
+      ],
+      [
+       "5",
+       "Bournemouth",
+       "11",
+       "+4",
+       "18"
+      ],
+      [
+       "6",
+       "Brentford",
+       "11",
+       "+9",
+       "17"
+      ],
+      [
+       "7",
+       "Leeds",
+       "11",
+       "+5",
+       "17"
+      ],
+      [
+       "8",
+       "Chelsea",
+       "11",
+       "0",
+       "16"
+      ],
+      [
+       "9",
+       "Everton",
+       "11",
+       "-2",
+       "16"
+      ],
+      [
+       "10",
+       "Spurs",
+       "11",
+       "+1",
+       "15"
+      ],
+      [
+       "11",
+       "Hull",
+       "11",
+       "+2",
+       "14"
+      ],
+      [
+       "12",
+       "Aston Villa",
+       "11",
+       "-3",
+       "14"
+      ],
+      [
+       "13",
+       "Newcastle",
+       "11",
+       "-3",
+       "13"
+      ],
+      [
+       "14",
+       "Coventry",
+       "11",
+       "-8",
+       "12"
+      ],
+      [
+       "15",
+       "Fulham",
+       "11",
+       "-2",
+       "11"
+      ],
+      [
+       "16",
+       "Ipswich",
+       "11",
+       "-7",
+       "11"
+      ],
+      [
+       "17",
+       "Nottm Forest",
+       "11",
+       "-6",
+       "9"
+      ],
+      [
+       "18",
+       "Sunderland",
+       "11",
+       "-9",
+       "9"
+      ],
+      [
+       "19",
+       "Man Utd",
+       "11",
+       "-9",
+       "8"
+      ],
+      [
+       "20",
+       "C Palace",
+       "11",
+       "-15",
+       "7"
+      ]
+     ],
+     "align": "llrrr",
+     "cuts": [
+      4,
+      17
+     ]
+    },
+    {
+     "tab": "Tables",
+     "title": "La Liga",
+     "columns": [
+      "#",
+      "Team",
+      "P",
+      "GD",
+      "Pts"
+     ],
+     "rows": [
+      [
+       "1",
+       "Barcelona",
+       "13",
+       "+36",
+       "36"
+      ],
+      [
+       "2",
+       "Real Madrid",
+       "13",
+       "+22",
+       "33"
+      ],
+      [
+       "3",
+       "Atlético",
+       "13",
+       "+16",
+       "31"
+      ],
+      [
+       "4",
+       "Betis",
+       "13",
+       "+5",
+       "27"
+      ],
+      [
+       "5",
+       "Real Sociedad",
+       "13",
+       "0",
+       "22"
+      ],
+      [
+       "6",
+       "Sevilla",
+       "13",
+       "-2",
+       "19"
+      ],
+      [
+       "7",
+       "Racing",
+       "13",
+       "-12",
+       "17"
+      ],
+      [
+       "8",
+       "Athletic",
+       "12",
+       "+3",
+       "16"
+      ],
+      [
+       "9",
+       "Alavés",
+       "13",
+       "0",
+       "16"
+      ],
+      [
+       "10",
+       "Villarreal",
+       "13",
+       "+1",
+       "15"
+      ],
+      [
+       "11",
+       "Espanyol",
+       "13",
+       "0",
+       "15"
+      ],
+      [
+       "12",
+       "Deportivo",
+       "13",
+       "-1",
+       "15"
+      ],
+      [
+       "13",
+       "Osasuna",
+       "13",
+       "-10",
+       "15"
+      ],
+      [
+       "14",
+       "Celta Vigo",
+       "13",
+       "-1",
+       "13"
+      ],
+      [
+       "15",
+       "Levante",
+       "13",
+       "-5",
+       "12"
+      ],
+      [
+       "16",
+       "Rayo",
+       "12",
+       "-7",
+       "12"
+      ],
+      [
+       "17",
+       "Valencia",
+       "13",
+       "-11",
+       "12"
+      ],
+      [
+       "18",
+       "Getafe",
+       "13",
+       "-13",
+       "12"
+      ],
+      [
+       "19",
+       "Elche",
+       "13",
+       "-6",
+       "11"
+      ],
+      [
+       "20",
+       "Málaga",
+       "13",
+       "-15",
+       "5"
+      ]
+     ],
+     "align": "llrrr",
+     "cuts": [
+      4,
+      17
+     ]
+    },
+    {
+     "tab": "Tables",
+     "title": "Serie A",
+     "columns": [
+      "#",
+      "Team",
+      "P",
+      "GD",
+      "Pts"
+     ],
+     "rows": [
+      [
+       "1",
+       "Lazio",
+       "12",
+       "+19",
+       "32"
+      ],
+      [
+       "2",
+       "AS Roma",
+       "12",
+       "+25",
+       "30"
+      ],
+      [
+       "3",
+       "Inter Milan",
+       "12",
+       "+15",
+       "29"
+      ],
+      [
+       "4",
+       "Milan",
+       "12",
+       "+14",
+       "27"
+      ],
+      [
+       "5",
+       "Como",
+       "12",
+       "+10",
+       "26"
+      ],
+      [
+       "6",
+       "Juventus",
+       "12",
+       "+7",
+       "21"
+      ],
+      [
+       "7",
+       "Frosinone",
+       "12",
+       "+5",
+       "20"
+      ],
+      [
+       "8",
+       "Napoli",
+       "12",
+       "+5",
+       "18"
+      ],
+      [
+       "9",
+       "Bologna",
+       "12",
+       "+2",
+       "18"
+      ],
+      [
+       "10",
+       "Genoa",
+       "12",
+       "-3",
+       "16"
+      ],
+      [
+       "11",
+       "Cagliari",
+       "12",
+       "-7",
+       "16"
+      ],
+      [
+       "12",
+       "Atalanta",
+       "12",
+       "-3",
+       "15"
+      ],
+      [
+       "13",
+       "Torino",
+       "12",
+       "-3",
+       "14"
+      ],
+      [
+       "14",
+       "Monza",
+       "12",
+       "-5",
+       "10"
+      ],
+      [
+       "15",
+       "Lecce",
+       "12",
+       "-13",
+       "10"
+      ],
+      [
+       "16",
+       "Fiorentina",
+       "12",
+       "-11",
+       "9"
+      ],
+      [
+       "17",
+       "Parma",
+       "12",
+       "-12",
+       "8"
+      ],
+      [
+       "18",
+       "Sassuolo",
+       "12",
+       "-15",
+       "8"
+      ],
+      [
+       "19",
+       "Udinese",
+       "12",
+       "-13",
+       "6"
+      ],
+      [
+       "20",
+       "Venezia",
+       "12",
+       "-17",
+       "6"
+      ]
+     ],
+     "align": "llrrr",
+     "cuts": [
+      4,
+      17
+     ]
+    },
+    {
+     "tab": "Tables",
+     "title": "Bundesliga",
+     "columns": [
+      "#",
+      "Team",
+      "P",
+      "GD",
+      "Pts"
+     ],
+     "rows": [
+      [
+       "1",
+       "Dortmund",
+       "10",
+       "+10",
+       "24"
+      ],
+      [
+       "2",
+       "Bayern",
+       "10",
+       "+20",
+       "22"
+      ],
+      [
+       "3",
+       "Freiburg",
+       "10",
+       "+11",
+       "22"
+      ],
+      [
+       "4",
+       "RB Leipzig",
+       "10",
+       "+18",
+       "21"
+      ],
+      [
+       "5",
+       "Leverkusen",
+       "10",
+       "+7",
+       "19"
+      ],
+      [
+       "6",
+       "Bremen",
+       "10",
+       "+6",
+       "18"
+      ],
+      [
+       "7",
+       "Frankfurt",
+       "10",
+       "-4",
+       "15"
+      ],
+      [
+       "8",
+       "Stuttgart",
+       "10",
+       "0",
+       "13"
+      ],
+      [
+       "9",
+       "Elversberg",
+       "10",
+       "-2",
+       "13"
+      ],
+      [
+       "10",
+       "Augsburg",
+       "10",
+       "+2",
+       "12"
+      ],
+      [
+       "11",
+       "Hoffenheim",
+       "10",
+       "-2",
+       "12"
+      ],
+      [
+       "12",
+       "Hamburg",
+       "10",
+       "-14",
+       "12"
+      ],
+      [
+       "13",
+       "Mainz",
+       "10",
+       "-3",
+       "10"
+      ],
+      [
+       "14",
+       "Cologne",
+       "10",
+       "-4",
+       "10"
+      ],
+      [
+       "15",
+       "Paderborn",
+       "10",
+       "-7",
+       "10"
+      ],
+      [
+       "16",
+       "Schalke",
+       "10",
+       "-6",
+       "7"
+      ],
+      [
+       "17",
+       "Union Berlin",
+       "10",
+       "-18",
+       "7"
+      ],
+      [
+       "18",
+       "Gladbach",
+       "10",
+       "-14",
+       "4"
+      ]
+     ],
+     "align": "llrrr",
+     "cuts": [
+      4,
+      15
+     ]
+    },
+    {
+     "tab": "Tables",
+     "title": "Ligue 1",
+     "columns": [
+      "#",
+      "Team",
+      "P",
+      "GD",
+      "Pts"
+     ],
+     "rows": [
+      [
+       "1",
+       "PSG",
+       "11",
+       "+13",
+       "26"
+      ],
+      [
+       "2",
+       "Paris FC",
+       "11",
+       "+11",
+       "23"
+      ],
+      [
+       "3",
+       "Lille",
+       "11",
+       "+6",
+       "21"
+      ],
+      [
+       "4",
+       "Lyon",
+       "11",
+       "+7",
+       "20"
+      ],
+      [
+       "5",
+       "Marseille",
+       "11",
+       "+7",
+       "18"
+      ],
+      [
+       "6",
+       "Brest",
+       "11",
+       "+7",
+       "18"
+      ],
+      [
+       "7",
+       "Nice",
+       "11",
+       "+2",
+       "17"
+      ],
+      [
+       "8",
+       "Monaco",
+       "11",
+       "+2",
+       "17"
+      ],
+      [
+       "9",
+       "Rennes",
+       "11",
+       "0",
+       "17"
+      ],
+      [
+       "10",
+       "Lorient",
+       "11",
+       "+1",
+       "16"
+      ],
+      [
+       "11",
+       "Lens",
+       "11",
+       "+2",
+       "14"
+      ],
+      [
+       "12",
+       "Toulouse",
+       "11",
+       "+1",
+       "14"
+      ],
+      [
+       "13",
+       "Le Mans",
+       "11",
+       "-6",
+       "11"
+      ],
+      [
+       "14",
+       "Troyes",
+       "11",
+       "-8",
+       "11"
+      ],
+      [
+       "15",
+       "Auxerre",
+       "11",
+       "-11",
+       "11"
+      ],
+      [
+       "16",
+       "Strasbourg",
+       "11",
+       "-5",
+       "10"
+      ],
+      [
+       "17",
+       "Angers",
+       "11",
+       "-14",
+       "8"
+      ],
+      [
+       "18",
+       "Le Havre AC",
+       "11",
+       "-15",
+       "2"
+      ]
+     ],
+     "align": "llrrr",
+     "cuts": [
+      4,
+      15
+     ]
+    },
+    {
+     "tab": "Top players",
+     "title": "Premier League · Top scorers",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "G"
+     ],
+     "rows": [
+      [
+       "1",
+       "Erling Haaland",
+       "Manchester City",
+       "9"
+      ],
+      [
+       "2",
+       "Alexander Isak",
+       "Liverpool",
+       "7"
+      ],
+      [
+       "3",
+       "Evanilson",
+       "AFC Bournemouth",
+       "6"
+      ],
+      [
+       "4",
+       "Thierno Barry",
+       "Everton",
+       "6"
+      ],
+      [
+       "5",
+       "Nicolas Jackson",
+       "Aston Villa",
+       "6"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Top players",
+     "title": "Premier League · Assists",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "A"
+     ],
+     "rows": [
+      [
+       "1",
+       "Declan Rice",
+       "Arsenal",
+       "5"
+      ],
+      [
+       "2",
+       "Pascal Gross",
+       "Brighton & Hove Albion",
+       "4"
+      ],
+      [
+       "3",
+       "Evanilson",
+       "AFC Bournemouth",
+       "4"
+      ],
+      [
+       "4",
+       "Florian Wirtz",
+       "Liverpool",
+       "4"
+      ],
+      [
+       "5",
+       "John McGinn",
+       "Aston Villa",
+       "4"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Top players",
+     "title": "La Liga · Top scorers",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "G"
+     ],
+     "rows": [
+      [
+       "1",
+       "Raphinha",
+       "Barcelona",
+       "15"
+      ],
+      [
+       "2",
+       "Kylian Mbappé",
+       "Real Madrid",
+       "13"
+      ],
+      [
+       "3",
+       "Yassir Zabiri",
+       "Racing Santander",
+       "11"
+      ],
+      [
+       "4",
+       "Lamine Yamal",
+       "Barcelona",
+       "10"
+      ],
+      [
+       "5",
+       "Ante Budimir",
+       "Osasuna",
+       "9"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Top players",
+     "title": "La Liga · Assists",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "A"
+     ],
+     "rows": [
+      [
+       "1",
+       "Lamine Yamal",
+       "Barcelona",
+       "9"
+      ],
+      [
+       "2",
+       "Javi Hernandez",
+       "Espanyol",
+       "6"
+      ],
+      [
+       "3",
+       "Alberto Moleiro",
+       "Villarreal",
+       "5"
+      ],
+      [
+       "4",
+       "Fermín López",
+       "Barcelona",
+       "5"
+      ],
+      [
+       "5",
+       "Álex Berenguer",
+       "Athletic Club",
+       "4"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Top players",
+     "title": "Serie A · Top scorers",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "G"
+     ],
+     "rows": [
+      [
+       "1",
+       "Donyell Malen",
+       "AS Roma",
+       "12"
+      ],
+      [
+       "2",
+       "Gustavo Varela",
+       "Monza",
+       "11"
+      ],
+      [
+       "3",
+       "Antonio Raimondo",
+       "Frosinone",
+       "8"
+      ],
+      [
+       "4",
+       "Nikola Krstovic",
+       "Atalanta",
+       "7"
+      ],
+      [
+       "5",
+       "Pio Esposito",
+       "Internazionale",
+       "6"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Top players",
+     "title": "Serie A · Assists",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "A"
+     ],
+     "rows": [
+      [
+       "1",
+       "Adrien Rabiot",
+       "AC Milan",
+       "6"
+      ],
+      [
+       "2",
+       "Wesley",
+       "AS Roma",
+       "5"
+      ],
+      [
+       "3",
+       "Mattia Zaccagni",
+       "Lazio",
+       "5"
+      ],
+      [
+       "4",
+       "Juan Miranda",
+       "Bologna",
+       "5"
+      ],
+      [
+       "5",
+       "Nicola Zalewski",
+       "Atalanta",
+       "5"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Top players",
+     "title": "Bundesliga · Top scorers",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "G"
+     ],
+     "rows": [
+      [
+       "1",
+       "Niclas Füllkrug",
+       "Werder Bremen",
+       "10"
+      ],
+      [
+       "2",
+       "Patrik Schick",
+       "Bayer Leverkusen",
+       "9"
+      ],
+      [
+       "3",
+       "Michael Gregoritsch",
+       "FC Augsburg",
+       "7"
+      ],
+      [
+       "4",
+       "Phillip Tietz",
+       "Mainz",
+       "6"
+      ],
+      [
+       "5",
+       "Michael Olise",
+       "Bayern Munich",
+       "6"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Top players",
+     "title": "Bundesliga · Assists",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "A"
+     ],
+     "rows": [
+      [
+       "1",
+       "Harry Kane",
+       "Bayern Munich",
+       "8"
+      ],
+      [
+       "2",
+       "Antonio Nusa",
+       "RB Leipzig",
+       "7"
+      ],
+      [
+       "3",
+       "Marco Grüll",
+       "Werder Bremen",
+       "6"
+      ],
+      [
+       "4",
+       "Fabian Rieder",
+       "FC Augsburg",
+       "5"
+      ],
+      [
+       "5",
+       "Brajan Gruda",
+       "RB Leipzig",
+       "5"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Top players",
+     "title": "Ligue 1 · Top scorers",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "G"
+     ],
+     "rows": [
+      [
+       "1",
+       "Lassine Sinayoko",
+       "Paris FC",
+       "9"
+      ],
+      [
+       "2",
+       "Amine Gouiri",
+       "Marseille",
+       "8"
+      ],
+      [
+       "3",
+       "Esteban Lepaul",
+       "Stade Rennais",
+       "7"
+      ],
+      [
+       "4",
+       "Elye Wahi",
+       "Nice",
+       "6"
+      ],
+      [
+       "5",
+       "Cameron Archer",
+       "AJ Auxerre",
+       "6"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Top players",
+     "title": "Ligue 1 · Assists",
+     "columns": [
+      "#",
+      "Player",
+      "Club",
+      "A"
+     ],
+     "rows": [
+      [
+       "1",
+       "Florian Thauvin",
+       "Lens",
+       "7"
+      ],
+      [
+       "2",
+       "Cristian Cásseres Jr.",
+       "Toulouse",
+       "6"
+      ],
+      [
+       "3",
+       "Lassine Sinayoko",
+       "Paris FC",
+       "5"
+      ],
+      [
+       "4",
+       "Amine Gouiri",
+       "Marseille",
+       "4"
+      ],
+      [
+       "5",
+       "Zachary Athekame",
+       "Lyon",
+       "3"
+      ]
+     ],
+     "align": "lllr"
+    }
+   ]
+  },
+  {
+   "name": "🏎️ F1",
+   "kind": "stories",
+   "items": [
+    {
+     "type": "story",
+     "headline": "Verstappen wins the Las Vegas GP, 0.639s clear of Norris",
+     "summary": "Piastri was third (+1.529s), Antonelli fourth and Gasly fifth, in Sunday's round 21 of 21 completed.",
+     "matters": "Red Bull's win leaves them nine points ahead of McLaren in the fight for third in the constructors' standings with two rounds left, and Formula1.com credits tweaks including a new front wing endplate on the RB22.",
+     "url": "https://www.formula1.com/en/latest/article/the-rb22-tweaks-that-helped-verstappen-take-victory-in-las-vegas.67NV2uD7vnuxKuW9SHi685",
+     "source": "formula1.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Leclerc takes a 10-second penalty for spinning Hamilton, and Vasseur demands fresh talks",
+     "summary": "the lap-38 contact left Leclerc classified 10th, while Hamilton recovered from the spin to finish eighth.",
+     "matters": "Vasseur called it \"unacceptable\" and a \"lack of respect for the team\", but says written rules won't fix the Ferrari rivalry.",
+     "url": "https://www.autosport.com/f1/news/vasseur-furious-with-unprofessional-ferrari-clash-and-demands-fresh-talks-after-las-vegas-gp/10876847/",
+     "source": "autosport.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Hadjar gets a 10-second penalty and Perez a five-place grid drop for Qatar",
+     "summary": "the stewards ruled Hadjar slowed deliberately under the safety car so Red Bull could double-stack, and that Perez was wholly to blame for his collision with Camara.",
+     "matters": "Perez starts five places back at Lusail, and Hadjar's penalty cost him little because his front wing was already broken.",
+     "url": "https://www.autosport.com/f1/news/hadjar-penalised-after-backing-up-russell-in-las-vegas-gp-perez-given-grid-drop-for-qatar-gp/10876867/",
+     "source": "autosport.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Bearman is the only driver without a 2027 contract as Haas talks stall over pay",
+     "summary": "Ferrari has already taken up its option on him, and he has ruled out racing elsewhere next year.",
+     "matters": "Autosport expects a financial compromise before the Abu Dhabi finale.",
+     "url": "https://www.autosport.com/f1/news/why-bearmans-expected-2027-haas-f1-deal-remains-unsigned/10877066/",
+     "source": "autosport.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    },
+    {
+     "type": "story",
+     "headline": "Qatar GP weekend starts Friday, with qualifying at 19:00 and the race at 17:00 on Sunday",
+     "summary": "FP1 is Friday 27 November at 14:30, and the rest of the schedule follows from there.",
+     "matters": "Antonelli and Mercedes have already clinched both titles, so the fight is for third in the constructors' standings between Red Bull and McLaren.",
+     "url": "https://www.formula1.com/en/latest/article/what-time-is-the-formula-1-2026-qatar-grand-prix-and-how-can-i-watch-it.XirX9Qy8hRZnH3O1Qhcch",
+     "source": "formula1.com",
+     "image": null,
+     "body": null,
+     "day": 1,
+     "paywall": false
+    }
+   ],
+   "tables": [
+    {
+     "tab": "Standings",
+     "title": "Drivers after round 21",
+     "columns": [
+      "#",
+      "Driver",
+      "Team",
+      "Pts"
+     ],
+     "rows": [
+      [
+       "1",
+       "Andrea Kimi Antonelli",
+       "Mercedes",
+       "402"
+      ],
+      [
+       "2",
+       "Max Verstappen",
+       "Red Bull",
+       "304"
+      ],
+      [
+       "3",
+       "Lewis Hamilton",
+       "Ferrari",
+       "267"
+      ],
+      [
+       "4",
+       "George Russell",
+       "Mercedes",
+       "264"
+      ],
+      [
+       "5",
+       "Lando Norris",
+       "McLaren",
+       "264"
+      ],
+      [
+       "6",
+       "Charles Leclerc",
+       "Ferrari",
+       "250"
+      ],
+      [
+       "7",
+       "Oscar Piastri",
+       "McLaren",
+       "167"
+      ],
+      [
+       "8",
+       "Isack Hadjar",
+       "Red Bull",
+       "122"
+      ],
+      [
+       "9",
+       "Liam Lawson",
+       "Red Bull",
+       "89"
+      ],
+      [
+       "10",
+       "Pierre Gasly",
+       "Alpine F1 Team",
+       "52"
+      ],
+      [
+       "11",
+       "Arvid Lindblad",
+       "RB F1 Team",
+       "38"
+      ],
+      [
+       "12",
+       "Franco Colapinto",
+       "Alpine F1 Team",
+       "35"
+      ],
+      [
+       "13",
+       "Oliver Bearman",
+       "Haas F1 Team",
+       "23"
+      ],
+      [
+       "14",
+       "Gabriel Bortoleto",
+       "Audi",
+       "14"
+      ],
+      [
+       "15",
+       "Nico Hülkenberg",
+       "Audi",
+       "14"
+      ],
+      [
+       "16",
+       "Carlos Sainz",
+       "Williams",
+       "11"
+      ],
+      [
+       "17",
+       "Esteban Ocon",
+       "Haas F1 Team",
+       "7"
+      ],
+      [
+       "18",
+       "Fernando Alonso",
+       "Aston Martin",
+       "7"
+      ],
+      [
+       "19",
+       "Alexander Albon",
+       "Williams",
+       "5"
+      ],
+      [
+       "20",
+       "Yuki Tsunoda",
+       "RB F1 Team",
+       "1"
+      ],
+      [
+       "21",
+       "Ryo Hirakawa",
+       "Haas F1 Team",
+       "1"
+      ],
+      [
+       "22",
+       "Lance Stroll",
+       "Aston Martin",
+       "0"
+      ],
+      [
+       "23",
+       "Valtteri Bottas",
+       "Cadillac F1 Team",
+       "0"
+      ],
+      [
+       "24",
+       "Sergio Pérez",
+       "Cadillac F1 Team",
+       "0"
+      ],
+      [
+       "25",
+       "Rafael Camara",
+       "Haas F1 Team",
+       "0"
+      ]
+     ],
+     "align": "lllr"
+    },
+    {
+     "tab": "Standings",
+     "title": "Constructors",
+     "columns": [
+      "#",
+      "Team",
+      "Wins",
+      "Pts"
+     ],
+     "rows": [
+      [
+       "1",
+       "Mercedes",
+       "12",
+       "666"
+      ],
+      [
+       "2",
+       "Ferrari",
+       "2",
+       "517"
+      ],
+      [
+       "3",
+       "Red Bull",
+       "4",
+       "440"
+      ],
+      [
+       "4",
+       "McLaren",
+       "3",
+       "431"
+      ],
+      [
+       "5",
+       "RB F1 Team",
+       "0",
+       "114"
+      ],
+      [
+       "6",
+       "Alpine F1 Team",
+       "0",
+       "87"
+      ],
+      [
+       "7",
+       "Haas F1 Team",
+       "0",
+       "31"
+      ],
+      [
+       "8",
+       "Audi",
+       "0",
+       "28"
+      ],
+      [
+       "9",
+       "Williams",
+       "0",
+       "16"
+      ],
+      [
+       "10",
+       "Aston Martin",
+       "0",
+       "7"
+      ],
+      [
+       "11",
+       "Cadillac F1 Team",
+       "0",
+       "0"
+      ]
+     ],
+     "align": "llrr"
     }
    ]
   },
