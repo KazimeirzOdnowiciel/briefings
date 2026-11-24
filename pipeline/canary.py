@@ -29,6 +29,35 @@ def telegram(text):
     print(f"telegram sent={tg.send_text(text)}")
 
 
+def finish_nba(today):
+    """Late West Coast games end around 07:00 in Warsaw, after the edition was written. Rewrite
+    any line that was not final (or missing) with ESPN's final, then re-render and republish."""
+    try:
+        import nba_data
+        md_path = os.path.join(config.MD_DIR, f"{today}.md")
+        md = open(md_path, encoding="utf-8").read()
+        md, changes = nba_data.fix_markdown(md, nba_data.collect(today))
+    except Exception as exc:
+        print(f"nba: check skipped ({type(exc).__name__}: {exc})")
+        return
+    if not changes:
+        print("nba: every game was final")
+        return
+    print("nba: " + "; ".join(changes))
+    with open(md_path, "w", encoding="utf-8", newline="\n") as fh:
+        fh.write(md)
+    py = sys.executable
+    out_html = os.path.join(config.HOME, "cache", "render-out.html")
+    for script, args, timeout in (("render_briefing.py", [md_path, out_html], 600), ("feed_validate.py", [], 60)):
+        r = subprocess.run([py, os.path.join(config.CODE, script), *args], capture_output=True, text=True, timeout=timeout)
+        if r.returncode != 0:
+            print(f"nba: {script} failed, edition left as published: {(r.stderr or r.stdout)[-300:]}")
+            return
+    import publish
+    sha = publish.publish(publish.edition_files(today), f"briefing: {today} (late NBA finals)")
+    print(f"nba: republished {sha}")
+
+
 def main():
     today = datetime.date.today().isoformat()
     live = live_date()
@@ -40,6 +69,8 @@ def main():
         log = os.path.join(config.LOG_DIR, f"daily-{today}.log")
         telegram("\n".join(problems) + f"\n\nLog: {log}")
         return 0
+
+    finish_nba(today)
 
     if os.path.exists(config.PUSH_SUB):
         subprocess.run([config.VENV_PY, os.path.join(config.CODE, "send_push.py"),

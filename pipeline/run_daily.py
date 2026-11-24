@@ -204,6 +204,15 @@ def write_group(key, names, base, blocks, run):
             data = f"FOOTBALL DATA unavailable this morning ({type(exc).__name__}): find scorers from match reports."
         run.log(data.splitlines()[0], f"({len(data.splitlines()) - 1} matches)")
         sections += "\n\n<football_data>\n" + data + "\n</football_data>"
+    if "🏀 NBA" in names:
+        # the slate, scores and performers come from ESPN's JSON; the writer adds the context
+        try:
+            import nba_data
+            data = nba_data.block(nba_data.collect())
+        except Exception as exc:
+            data = f"NBA DATA unavailable this morning ({type(exc).__name__}): use the ESPN scoreboard yourself."
+        run.log(data.splitlines()[0], f"({len(data.splitlines()) - 1} games)")
+        sections += "\n\n<nba_data>\n" + data + "\n</nba_data>"
     feedback, best = "", {}
     for attempt in (1, 2):
         prompt = fill(prompt_file("researcher.md"), NAMES=", ".join(names), SECTIONS=sections,
@@ -355,6 +364,13 @@ def main(argv):
         prev_date, prev_md = previous_edition(today)
         run.log("previous edition:", prev_date)
         md = write_edition(now, context, prev_date, prev_md, run)
+        try:  # a score the writer got wrong, or a game it left out, is corrected from ESPN
+            import nba_data
+            md, fixed = nba_data.fix_markdown(md, nba_data.collect(today))
+            if fixed:
+                run.log("nba: corrected from ESPN:", "; ".join(fixed))
+        except Exception as exc:
+            run.log("nba check skipped:", exc)
         problems = check(md, now)
         if problems:
             heads = sum(1 for l in md.splitlines() if HEADING_RE.match(l.strip()))
