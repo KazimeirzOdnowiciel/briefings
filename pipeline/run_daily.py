@@ -215,6 +215,15 @@ def write_group(key, names, base, blocks, run):
             data = f"NBA DATA unavailable this morning ({type(exc).__name__}): use the ESPN scoreboard yourself."
         run.log(data.splitlines()[0], f"({len(data.splitlines()) - 1} games)")
         sections += "\n\n<nba_data>\n" + data + "\n</nba_data>"
+    if "🔜 Coming up" in names:
+        # F1 sessions and UEFA nights are known exactly; the writer adds everything else
+        try:
+            import agenda_data
+            data = agenda_data.block(agenda_data.collect())
+        except Exception as exc:
+            data = f"CALENDAR DATA unavailable this morning ({type(exc).__name__}): check Jolpica and ESPN yourself."
+        run.log(data.splitlines()[0][:60], f"({len(data.splitlines()) - 1} entries)")
+        sections += "\n\n<calendar_data>\n" + data + "\n</calendar_data>"
     feedback, best = "", {}
     for attempt in (1, 2):
         prompt = fill(prompt_file("researcher.md"), NAMES=", ".join(names), SECTIONS=sections,
@@ -373,6 +382,13 @@ def main(argv):
                 run.log("nba: corrected from ESPN:", "; ".join(fixed))
         except Exception as exc:
             run.log("nba check skipped:", exc)
+        try:  # F1 sessions and UEFA nights the agenda writer dropped
+            import agenda_data
+            md, added = agenda_data.fix_markdown(md, agenda_data.collect(today))
+            if added:
+                run.log("agenda: added from data:", "; ".join(added))
+        except Exception as exc:
+            run.log("agenda check skipped:", exc)
         problems = check(md, now)
         if problems:
             heads = sum(1 for l in md.splitlines() if HEADING_RE.match(l.strip()))

@@ -25,7 +25,7 @@ FORMAT CONTRACT (the page renderer parses this exactly — breaking it breaks th
 - Score: `- Team 108 - 97 Team — top performer` and league names on their own line above their block.
 - If a story's ONLY source is paywalled (Bloomberg, FT, WSJ, Business Insider, Politico Pro), append ` (paywall)` after the link. When two outlets cover the same thing, prefer the free one.
 - Everything else: plain short lines only. No tables, no nested bullets, no markdown headers, no bold inside bullets.
-- End every story line with its source URL.
+- End every story line with its source URL: an article or official page a reader can open, never a data API or a .json endpoint (for F1 standings cite formula1.com's results page, not Jolpica).
 
 LENGTH
 - The page is a website: five stories per section and a full NBA slate are the point, so do not compress or drop anything to hit a character count.

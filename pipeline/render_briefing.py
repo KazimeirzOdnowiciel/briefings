@@ -714,8 +714,26 @@ def _body_cache():
         return {}
 
 
+NO_ARTICLE = re.compile(r"espn\.com/\w+/game/|//api\.|\.json\b", re.I)
+
+# writers sometimes cite the data API they read; readers get the human page instead
+API_PAGES = [
+    (re.compile(r"https?://api\.jolpi\.ca/ergast/f1/(?:current|\d{4})/constructorStandings\S*?(?=[.,;)]?(?:\s|$))"),
+     "https://www.formula1.com/en/results/{year}/team"),
+    (re.compile(r"https?://api\.jolpi\.ca/ergast/f1/\S*?(?=[.,;)]?(?:\s|$))"),
+     "https://www.formula1.com/en/results/{year}/drivers"),
+]
+
+
+def human_links(markdown, year=None):
+    year = year or datetime.date.today().year
+    for rx, page in API_PAGES:
+        markdown = rx.sub(page.format(year=year), markdown)
+    return markdown
+
+
 TAG_RE = re.compile(r"<[^>]+>")
-PARA_RE = re.compile(r"<p[^>]*>(.*?)</p>", re.I | re.S)
+PARA_RE = re.compile(r"<p(?:\s[^>]*)?>(.*?)</p>", re.I | re.S)   # <p>, not <picture>/<path>
 SCRIPT_RE = re.compile(r"<(script|style|noscript)[^>]*>.*?</\1>", re.I | re.S)
 ARTICLE_RE = re.compile(r"<article[^>]*>(.*?)</article>", re.I | re.S)
 NOISE_RE = re.compile(
@@ -724,6 +742,9 @@ NOISE_RE = re.compile(
     r"all the latest|breaking news alerts|show more|menu|add as preferred|watch:|"
     r"zaloguj|reklama|e-wydanie|serwisy|wydarzenia|prenumerat|czytaj wi|polecane|"
     r"skróć artykuł|udostępnij|komentarzy|zapytaj o więcej|"
+    r"reading list|read later|click to tell|preferred source|"
+    # an author bio: "Is professor of history at…", "is a writer based in…"
+    r"^is (?:an? |the )?(?:\w+ ){0,2}(?:professor|lecturer|writer|journalist|author|editor|researcher|historian|scholar|fellow)\b|"
     r"^share\b|^save\b)", re.I)
 
 
@@ -750,6 +771,8 @@ def scrub_body(text):
         for rx in CLUTTER_RES:
             para = rx.sub("", para)
         para = para.strip()
+        # a drop cap split off its word: "J oshua Frieman…" (A, I and O are words on their own)
+        para = re.sub(r"^([B-HJ-NP-Z]) ([a-z]{2,})", r"\1\2", para)
         if para:
             out.append(para[0].upper() + para[1:])
     return "\n\n".join(out)
@@ -760,13 +783,21 @@ def _fetch_body(url):
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; daily-briefing)"})
         with urllib.request.urlopen(req, timeout=10) as r:
-            page = r.read(400000).decode("utf-8", "replace")
+            page = r.read(1500000).decode("utf-8", "replace")
     except Exception:
         return None
     page = SCRIPT_RE.sub(" ", page)
-    # prefer the article element; nav junk lives outside it on most sites
-    match = ARTICLE_RE.search(page)
-    scope = match.group(1) if match else page
+    # prefer an article element, since nav junk lives outside it on most sites; but pages
+    # can carry an empty <article> or a "related" one, so take whichever scope reads longest
+    scopes = [a for a in ARTICLE_RE.findall(page)] + [page]
+    best = max((_paragraphs(s) for s in scopes), key=lambda c: sum(len(x) for x in c))
+    if not best:
+        return None
+    body = "\n\n".join(best)          # the app renders one paragraph per block
+    return body[:2600].rsplit(" ", 1)[0] + "…" if len(body) > 2600 else body
+
+
+def _paragraphs(scope):
     chunks = []
     for para in PARA_RE.findall(scope):
         text = html.unescape(TAG_RE.sub(" ", para))
@@ -779,10 +810,7 @@ def _fetch_body(url):
         chunks.append(text)
         if sum(len(c) for c in chunks) > 2600:
             break
-    if not chunks:
-        return None
-    body = "\n\n".join(chunks)          # the app renders one paragraph per block
-    return body[:2600].rsplit(" ", 1)[0] + "…" if len(body) > 2600 else body
+    return chunks
 
 
 def gather_bodies(urls, limit=40):
@@ -819,15 +847,14 @@ JUNK_IMG = re.compile(
 def _content_image(page):
     """First plausible photograph inside <article> — usually better than og:image,
     which publishers often replace with a generated card that repeats the headline."""
-    match = ARTICLE_RE.search(page)
-    scope = match.group(1) if match else page
-    for candidate in IMG_RE.findall(scope):
-        url = html.unescape(candidate).strip()
-        if not url.startswith("http") or JUNK_IMG.search(url):
-            continue
-        if len(url) < 20:
-            continue
-        return url
+    for scope in ARTICLE_RE.findall(page) + [page]:     # skip an empty <article>, fall back to the page
+        for candidate in IMG_RE.findall(scope):
+            url = html.unescape(candidate).strip()
+            if not url.startswith("http") or JUNK_IMG.search(url):
+                continue
+            if len(url) < 20:
+                continue
+            return url
     return None
 
 
@@ -846,7 +873,7 @@ def gather_images(urls, limit=40):
             try:
                 req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0 (compatible; daily-briefing)"})
                 with urllib.request.urlopen(req, timeout=10) as r:
-                    return _content_image(r.read(400000).decode("utf-8", "replace"))
+                    return _content_image(r.read(1500000).decode("utf-8", "replace"))
             except Exception:
                 return None
         got = 0
@@ -1144,12 +1171,13 @@ def main():
         print("usage: render_briefing.py <briefing.md> [out.html]")
         return 2
     src = sys.argv[1]
-    markdown = open(src, encoding="utf-8").read()
+    markdown = human_links(open(src, encoding="utf-8").read())
     now = datetime.datetime.now()
-    urls = re.findall(r"https?://\S+", markdown)
-    covers = gather_covers(urls, limit=14)
-    bodies = gather_bodies(urls, limit=40)
-    images = drop_cards(gather_images(urls, limit=40))
+    # every story link, once; score pages, calendar entries and raw data APIs have no article
+    urls = list(dict.fromkeys(u for u in re.findall(r"https?://\S+", markdown) if not NO_ARTICLE.search(u)))
+    covers = gather_covers(urls, limit=120)
+    bodies = gather_bodies(urls, limit=120)
+    images = drop_cards(gather_images(urls, limit=120))
     covers = drop_cards(covers)
     weather = fetch_weather()
     page, meta = render(markdown, now, covers=covers, weather=weather)
