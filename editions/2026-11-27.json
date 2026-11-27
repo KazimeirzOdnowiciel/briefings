@@ -1,12 +1,12 @@
 {
  "schema": 1,
- "generated": "2026-11-27T12:23:45",
+ "generated": "2026-11-27T12:28:56",
  "date": "2026-11-27",
  "greeting": "Good morning — Friday, 27 November 2026.",
  "title": "A projectile hit Saudi Aramco's Jazan refinery, killing one worker, as the Houthi–Saudi strikes spread from ports to oil processing",
  "workout": "💪 Today is a workout day: Friday — Row C: Rate Ladder — 5 x 5 min at rates 20-26. ~60 min, reminder at 17:00. Nothing logged in Hevy yet.",
  "audio": null,
- "read_minutes": 30,
+ "read_minutes": 29,
  "sections": [
   {
    "name": "🎯 TL;DR",
@@ -334,18 +334,6 @@
      "image": null,
      "body": null,
      "day": 1,
-     "paywall": false
-    },
-    {
-     "type": "story",
-     "headline": "Huti uderzyli w rafinerię Aramco w Dżizanie",
-     "summary": "pocisk wywołał pożar, zakład częściowo wstrzymał pracę, zginął jeden pracownik z Nepalu, a koalicja odpowiedziała zniszczeniem wyrzutni w Al-Hudajdzie.",
-     "matters": "rafineria może przerabiać do 400 tys. baryłek dziennie, a dzień wcześniej Huti uderzyli też w Ras Tanura i porty w Dżuddzie i Dżizanie, więc ryzyko dla dostaw z Zatoki rośnie mimo dzisiejszego spadku Brenta.",
-     "url": "https://www.bankier.pl/wiadomosc/Kolejny-cios-w-naftowe-serce-Huti-uderzyli-w-rafinerie-Aramco-w-Dzizanie-9235980.html",
-     "source": "bankier.pl",
-     "image": "https://galeria.bankier.pl/p/a/9/3c536bbb72e489-945-560-97-195-2687-1612.jpg",
-     "body": "Nepalski pracownik zginął, a kilka osób różnych narodowości zostało w czwartek rannych w wyniku ataku na rafinerię w Dziżarze na południowym zachodzie Arabii Saudyjskiej. Zakład częściowo wstrzymał pracę – poinformowało saudyjskie ministerstwo energii.\n\nKierowana przez Arabię Saudyjską koalicja walcząca z proirańskimi rebeliantami jemeńskimi Huti podała, że rafinerię koncernu Aramco w Dziżanie zaatakowali właśnie oni.\n\nDżizan leży tuż przy granicy z Jemenem i sąsiaduje z terenami zajmowanymi przez Huti. Rafineria ta może produkować do 400 tys. baryłek ropy dziennie.\n\nKoalicja podała, że zniszczyła stanowisko do wystrzeliwania pocisków balistycznych w jemeńskim mieście portowym Al-Hudajda, skąd przeprowadzono czwartkowy atak.\n\nDzień wcześniej Huti zaatakowali największą rafinerię w Arabii Saudyjskiej Ras Tanura, która jest też ważnym centrum eksportu ropy, a także porty nad Morzem Czerwonym, Dżadda i Dżizan.",
-     "day": 2,
      "paywall": false
     },
     {
