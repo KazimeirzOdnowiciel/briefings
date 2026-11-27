@@ -218,6 +218,48 @@ def claude(prompt, run, label, tools=True, timeout=30 * 60):
     return re.sub(r"^```[a-z]*\s*$", "", (out.get("result") or "").strip(), flags=re.M).strip()
 
 
+MERGE_FLOOR = 3   # never thin a section below this to remove a duplicate
+
+
+def merge_duplicates(parts, run):
+    """The same event written up by two writers (they run in parallel and can't see each other):
+    keep it in the section that owns the subject and drop the other copy.
+
+    Matching is by meaning, not words: World is in English and Money in Polish, so one short
+    model call with no tools reads the headlines and names the duplicates. Never raises."""
+    skip = {norm(n) for n in REPEATABLE | {"📌 Long read"}}
+    index, rows = {}, []
+    for name, lines in parts.items():
+        if norm(name) in skip:
+            continue
+        for i, line in enumerate(lines):
+            if line.lstrip().startswith("- ") and LINK_RE.search(line.strip()):
+                sid = f"S{len(index) + 1}"
+                index[sid] = (name, i)
+                text = re.sub(r"\s*·\s*matters:.*$|\s+https?://\S+\s*$", "", line.strip()[2:])
+                rows.append(f"{sid} [{name}] {text[:220]}")
+    if len(rows) < 2:
+        return parts
+    try:
+        answer = claude(fill(prompt_file("merge.md"), STORIES="\n".join(rows)), run, "merge", tools=False, timeout=300)
+        drop = json.loads(re.search(r"\{.*\}", answer, re.S).group(0)).get("drop", [])
+    except Exception as exc:
+        run.log("merge skipped:", exc)
+        return parts
+    gone = {}
+    for sid in drop:
+        if sid not in index:
+            continue
+        name, i = index[sid]
+        stories = sum(1 for l in parts[name] if l.lstrip().startswith("- ") and LINK_RE.search(l.strip()))
+        if stories - len(gone.get(name, set())) <= MERGE_FLOOR:
+            run.log(f"merge: kept {sid} in {name}, which is down to {MERGE_FLOOR} stories")
+            continue
+        gone.setdefault(name, set()).add(i)
+        run.log(f"merge: dropped from {name}:", parts[name][i].strip()[2:90])
+    return {n: [l for i, l in enumerate(lines) if i not in gone.get(n, set())] for n, lines in parts.items()}
+
+
 def shortfalls(names, got):
     problems = []
     for name in names:
@@ -360,6 +402,7 @@ def write_edition(now, context, prev_date, prev_md, run):
     # a home side that didn't score leaves "— ; Sturm 29'": drop the empty half
     if "⚽ Football" in parts:
         parts["⚽ Football"] = [re.sub(r"\s[—–]\s*[-–]?\s*;\s*", " — ", l) for l in parts["⚽ Football"]]
+    parts = merge_duplicates(parts, run)
     body ="\n\n".join(f"**{n}**\n" + "\n".join(parts[n]) for n in ORDER if n not in TOP and parts.get(n))
     if not body:
         raise RuntimeError("every writer failed")
