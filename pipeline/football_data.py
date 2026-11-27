@@ -11,6 +11,7 @@ ekstraklasa.org / 90minut.pl, and the same scorer check applies.
 """
 import datetime
 import json
+import re
 import sys
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
@@ -40,6 +41,12 @@ def _goal_label(event):
     return f"{who} {minute}{tag}".strip()
 
 
+def _minute(event):
+    """"90'+3'" -> 90.03, for putting goals in order."""
+    nums = [int(n) for n in re.findall(r"\d+", (event.get("clock") or {}).get("displayValue", ""))] or [0]
+    return nums[0] + (nums[1] / 100 if len(nums) > 1 else 0)
+
+
 def _match(league, event):
     comp = event["competitions"][0]
     if not comp["status"]["type"].get("completed"):
@@ -53,16 +60,20 @@ def _match(league, event):
     except Exception:
         goals = None
     scorers = {hn: [], an: []}
-    for g in goals or []:
+    timeline, h, a = [], 0, 0
+    for g in sorted(goals or [], key=_minute):
         # an own goal is credited to the team that benefits, which is how ESPN lists it
         team = (g.get("team") or {}).get("displayName")
         scorers.setdefault(team, []).append(_goal_label(g))
+        h, a = h + (team == hn), a + (team == an)
+        timeline.append(f"{_goal_label(g)} {h}-{a}")
     return {
         "competition": LEAGUES[league],
         "kickoff": event.get("date"),
         "home": hn, "away": an,
         "home_score": int(home.get("score") or 0), "away_score": int(away.get("score") or 0),
         "home_scorers": scorers.get(hn, []), "away_scorers": scorers.get(an, []),
+        "timeline": timeline,
         "scorers_complete": goals is not None
         and len(scorers.get(hn, [])) == int(home.get("score") or 0)
         and len(scorers.get(an, [])) == int(away.get("score") or 0),
@@ -102,13 +113,14 @@ def block(matches):
     """The text the football writer receives."""
     if not matches:
         return "FOOTBALL DATA: ESPN lists no finished matches in the last 30 hours (Ekstraklasa is not covered: check it separately)."
-    lines = ["FOOTBALL DATA (ESPN, authoritative: every finished match of the last 30 h, with every goal):"]
+    lines = ["FOOTBALL DATA (ESPN, authoritative: every finished match of the last 30 h, with every goal; 'in order' gives the running score after each goal, home first, so take any comeback or lead from it):"]
     for m in matches:
         hs = ", ".join(m["home_scorers"]) or "-"
         as_ = ", ".join(m["away_scorers"]) or "-"
         flag = "" if m["scorers_complete"] else "  [ESPN scorer list incomplete: complete it from the match report]"
+        order = f" | in order: {', '.join(m['timeline'])}" if m.get("timeline") else ""
         lines.append(f"{m['competition']} | {m['home']} {m['home_score']} - {m['away_score']} {m['away']} | "
-                     f"{m['home']}: {hs} | {m['away']}: {as_}{flag}")
+                     f"{m['home']}: {hs} | {m['away']}: {as_}{order}{flag}")
     return "\n".join(lines)
 
 

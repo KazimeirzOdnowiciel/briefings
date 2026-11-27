@@ -1077,6 +1077,33 @@ def _merge_minutes(goals):
     return out
 
 
+DAY_NAMES = r"(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|Mon|Tue|Wed|Thu|Fri|Sat|Sun)\b"   # not "Suns"
+
+
+def split_fixture(text):
+    """One kick-off time per fixture line, the day after midnight in brackets, no "no matches" lines.
+
+    'NBA — A v B, C v D, 01:30 Saturday; E v F, 02:00'
+      -> ['NBA — A v B, C v D, 01:30 (Saturday)', 'NBA — E v F, 02:00 (Saturday)']
+    """
+    if re.search(r"\bno (?:matches|games|fixtures)\b", text, re.I):
+        return []
+    label, sep, rest = text.partition(" — ")
+    if not sep:
+        label, rest = "", text
+    out, day = [], None
+    for seg in [s.strip() for s in rest.split(";") if s.strip()]:
+        m = re.search(r"\(?\b(" + DAY_NAMES + r")\)?", seg)
+        if m:
+            day = m.group(1)
+            seg = (seg[:m.start()] + seg[m.end():]).strip().rstrip(",")
+        seg = re.sub(r"\s+", " ", seg).strip()
+        if day and re.search(r"\b\d{1,2}:\d{2}\b", seg):
+            seg += f" ({day})"
+        out.append(f"{label} — {seg}" if label else seg)
+    return out
+
+
 def build_feed(markdown, covers=None, now=None, meta=None, bodies=None, images=None):
     """The machine-readable edition the Android app reads. Same source as the page."""
     now = now or datetime.datetime.now()
@@ -1096,7 +1123,7 @@ def build_feed(markdown, covers=None, now=None, meta=None, bodies=None, images=N
                 if kind == "scores":
                     items.append(_score_item(body, group))
                 elif kind == "fixtures":
-                    items.append({"type": "fixture", "text": _strip_url(body)[0]})
+                    items += [{"type": "fixture", "text": t} for t in split_fixture(_strip_url(body)[0])]
                 elif kind == "agenda":
                     items.append(_event_item(body))
                 else:

@@ -82,6 +82,65 @@ def previous_edition(today):
         return pick[:-3], fh.read()
 
 
+# sections whose lines are schedules or results, where a link can legitimately come back
+REPEATABLE = {"🔜 Coming up", "📅 Tonight", "🏀 NBA", "⚽ Football"}
+LINK_RE = re.compile(r"(https?://\S+?)[.,;)]?\s*(?:\(paywall\))?\s*$", re.I)
+
+
+def recent_stories(today, days=7):
+    """{url: (date, headline)} for every story of the last week's editions, today's drafts excluded.
+
+    The writers only see yesterday's edition, so a story from two or three days back came round
+    again (seven repeats on 2026-11-27). This list goes into the prompt, and write_group drops
+    any story whose link is on it."""
+    cutoff = (datetime.date.fromisoformat(today) - datetime.timedelta(days=days)).isoformat()
+    skip = {norm(n) for n in REPEATABLE}
+    out = {}
+    for name in sorted(os.listdir(config.MD_DIR)):
+        m = re.fullmatch(r"(\d{4}-\d{2}-\d{2})\.md", name)
+        if not m or not cutoff <= m.group(1) < today:
+            continue
+        section = None
+        with open(os.path.join(config.MD_DIR, name), encoding="utf-8") as fh:
+            for line in fh:
+                line = line.strip()
+                head = HEADING_RE.match(line)
+                if head:
+                    section = norm(head.group(1))
+                    continue
+                link = LINK_RE.search(line) if line.startswith("- ") and section not in skip else None
+                if link:
+                    head = re.split(r"\s+[—–]\s+", line[2:], maxsplit=1)[0][:110]
+                    out[link.group(1)] = (m.group(1), head, section)
+    return out
+
+
+def recent_listing(recent, names):
+    """The prompt's <recently_run> list, for this writer's own sections only (the full week is ~10k tokens)."""
+    mine = {norm(n) for n in names}
+    rows = sorted((d, h, u) for u, (d, h, sec) in recent.items() if sec in mine)
+    return "\n".join(f"- {d} — {h} — {u}" for d, h, u in rows) or "(none)"
+
+
+def drop_repeats(got, recent):
+    """Remove story lines whose link already ran this week. Returns (got, [descriptions])."""
+    skip = {norm(n) for n in REPEATABLE}
+    dropped = []
+    for name, lines in got.items():
+        if norm(name) in skip:
+            continue
+        keep = []
+        for line in lines:
+            link = LINK_RE.search(line.strip()) if line.lstrip().startswith("- ") else None
+            if link and link.group(1) in recent:
+                date, head, _section = recent[link.group(1)]
+                dropped.append(f'{name}: "{head}" (ran {date})')
+                continue
+            keep.append(line)
+        got[name] = keep
+    return got, dropped
+
+
 # Eight writers research in parallel, each owning a beat, then an editor writes the top block.
 # One writer for all fifteen sections skimped (2 Polish stories, no long read); split, each
 # beat gets a full research budget and wall time stays the same.
@@ -193,7 +252,7 @@ def scorer_gaps(lines):
     return gaps
 
 
-def write_group(key, names, base, blocks, run):
+def write_group(key, names, base, blocks, run, recent=None):
     sections = "\n\n".join(blocks[n] for n in names if n in blocks)
     matches = []
     if "⚽ Football" in names:
@@ -228,6 +287,7 @@ def write_group(key, names, base, blocks, run):
     for attempt in (1, 2):
         prompt = fill(prompt_file("researcher.md"), NAMES=", ".join(names), SECTIONS=sections,
                       FEEDBACK=feedback, **base)
+        prompt = fill(prompt, RECENT=recent_listing(recent or {}, names))
         try:
             got = split_sections(claude(prompt, run, f"writer[{key}#{attempt}]"))
         except Exception as exc:
@@ -235,6 +295,9 @@ def write_group(key, names, base, blocks, run):
             continue
         canon = {norm(n): n for n in names}  # "🏛 Brussels" and "🏛️ Brussels" are the same section
         got = {canon[norm(n)]: v for n, v in got.items() if norm(n) in canon}
+        got, repeats = drop_repeats(got, recent or {})
+        if repeats:
+            run.log(f"writer[{key}] repeats dropped:", "; ".join(repeats))
         for n, lines in got.items():  # keep the fuller version of each section across attempts
             if len(lines) >= len(best.get(n, [])):  # ties go to the newer, feedback-driven draft
                 best[n] = lines
@@ -244,6 +307,9 @@ def write_group(key, names, base, blocks, run):
         run.log(f"writer[{key}] short:", "; ".join(problems))
         feedback = ("\nA FIRST DRAFT CAME BACK SHORT. Fix this and return ALL your sections again in full:\n- "
                     + "\n- ".join(problems) + "\n")
+        if repeats:
+            feedback += ("These stories already ran earlier this week and were removed; replace them with new ones:\n- "
+                         + "\n- ".join(repeats) + "\n")
     if matches and "⚽ Football" in best:
         best["⚽ Football"], patched = patch_scorers(best["⚽ Football"], matches)
         if patched:
@@ -279,11 +345,12 @@ def patch_scorers(lines, matches):
 def write_edition(now, context, prev_date, prev_md, run):
     from concurrent.futures import ThreadPoolExecutor
     blocks = section_blocks()
+    recent = recent_stories(now.date().isoformat())   # {{RECENT}} stays for write_group to fill per writer
     base = {"DATE_LONG": long_date(now), "TIME": f"{now:%H:%M}",
             "COMMON": fill(prompt_file("common.md"), CONTEXT=context.strip(), PREVIOUS_DATE=prev_date,
                            PREVIOUS=prev_md.strip(), DATE_LONG=long_date(now))}
     with ThreadPoolExecutor(len(GROUPS)) as pool:
-        futures = [pool.submit(write_group, k, names, base, blocks, run) for k, names in GROUPS]
+        futures = [pool.submit(write_group, k, names, base, blocks, run, recent) for k, names in GROUPS]
         parts = {}
         for f in futures:
             parts.update(f.result())

@@ -16,6 +16,7 @@ RULES
 - What changed: deltas against the previous edition only, using today's sections as evidence. If the previous edition is dated today, it is a same-day draft: compare against what it said, not against yesterday.
 - Following: open threads that run through the previous edition and today. Give today's delta, or "no change" when today's sections say nothing new.
 - Format: `- text` bullets, one line each, no links, no bold inside bullets.
+- Write about the news, never about the sections or your inputs: no "not mentioned today", "today's sections say", "the writers report".
 
 <context>
 {{CONTEXT}}

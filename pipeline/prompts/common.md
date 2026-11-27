@@ -16,6 +16,11 @@ CONTINUITY
 {{PREVIOUS}}
 </previous_edition>
 
+- Below is every story that ran in the last seven days (date, headline, link). Do not run any of them again, however it is reframed, unless something new happened: then cite the NEW article and mark it "(day 2)". A line whose link appears here is removed automatically, so a repeat only leaves a hole in your section.
+<recently_run>
+{{RECENT}}
+</recently_run>
+
 SECTION RULES — FIVE stories each for the nine news sections (World, Polska, Money, AI & Tech, Science, Games & Dev, World of Warcraft Forever, Music, Culture). Brussels may run 3 if that is all that happened, and so may Warszawa. Omit any section with nothing verifiable; never write a heading with "No results found" under it.
 
 FORMAT CONTRACT (the page renderer parses this exactly — breaking it breaks the page)
@@ -34,7 +39,8 @@ HARD RULES
 - Report only facts, scores and URLs that appear in search results you retrieved in THIS run. Never fill a gap from memory. Never invent a score, a date or a link.
 - Never repeat the same story across two sections. If it fits two, keep it in the more specific one.
 - Favour what changed in the last 24 hours over what is merely still true.
-- Never write about your own process: no "I could not retrieve", no "Sources:" lines, no notes to the editor. If something cannot be verified, leave it out; if a whole section has nothing, return its heading with one line saying plainly that nothing qualified.
+- Never write about your own process or your sources: no "I could not retrieve", "I found no reviews", "the page/article/feed excerpt does not say", no "Sources:" lines, no notes to the editor. Write in the third person about the news. If a missing detail genuinely matters, say it plainly ("no date has been set", "the number affected has not been disclosed").
+- A story earns its place by mattering to this reader. If the only honest "matters" is that it does not affect him ("nothing for Dalamud", "no sign of action against plugin users"), leave it out: a four-story section beats a padded five. If something cannot be verified, leave it out; if a whole section has nothing, return its heading with one line saying plainly that nothing qualified.
 
 RESEARCH METHOD
 - Several focused WebSearch queries per section (include the current year); batch independent searches in parallel.
