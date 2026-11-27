@@ -72,6 +72,7 @@ internal fun sectionHue(name: String): Color {
         Regex("\\bf1\\b|formula").containsMatchIn(n) -> Color(0xFF94A3B8)
         "money" in n || "market" in n -> Color(0xFF2F9E66)
         Regex("\\bai\\b").containsMatchIn(n) || "tech" in n -> Color(0xFF8E4EC6)
+        "gaming" in n -> Color(0xFFC026D3)
         "games" in n || "dev" in n -> Color(0xFF12A594)
         "music" in n -> Color(0xFFD6409F)
         "culture" in n || "film" in n -> Color(0xFFF76B15)

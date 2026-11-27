@@ -141,7 +141,7 @@ def drop_repeats(got, recent):
     return got, dropped
 
 
-# Eight writers research in parallel, each owning a beat, then an editor writes the top block.
+# Nine writers research in parallel, each owning a beat, then an editor writes the top block.
 # One writer for all fifteen sections skimped (2 Polish stories, no long read); split, each
 # beat gets a full research budget and wall time stays the same.
 TOP = ["🎯 TL;DR", "🔄 What changed", "🔁 Following"]
@@ -153,13 +153,14 @@ GROUPS = [
     ("football", ["📅 Tonight", "⚽ Football"]),
     ("nba", ["🏀 NBA", "🏎️ F1"]),
     ("science", ["🔬 Science"]),
+    ("gaming", ["🕹️ Gaming"]),
     ("agenda", ["🔜 Coming up"]),
 ]
 ORDER = TOP + ["🌍 World", "🇵🇱 Polska", "🧜‍♀️ Warszawa", "💰 Money", "💻 AI & Tech", "🔬 Science", "🎮 Games & Dev",
-               "🐉 World of Warcraft Forever", "🎵 Music", "🎬 Culture", "🏛️ Brussels",
+               "🐉 World of Warcraft Forever", "🕹️ Gaming", "🎵 Music", "🎬 Culture", "🏛️ Brussels",
                "🔜 Coming up", "📅 Tonight", "🏀 NBA", "⚽ Football", "🏎️ F1", "📌 Long read"]
 # fewest story lines a section may come back with before its writer is asked once more
-MINIMUM = {"🌍 World": 4, "🇵🇱 Polska": 4, "💰 Money": 4, "💻 AI & Tech": 4, "🎮 Games & Dev": 3,
+MINIMUM = {"🌍 World": 4, "🇵🇱 Polska": 4, "💰 Money": 4, "💻 AI & Tech": 4, "🎮 Games & Dev": 3, "🕹️ Gaming": 3,
            "🎵 Music": 4, "🎬 Culture": 4, "🏛️ Brussels": 2, "🔬 Science": 4, "🧜‍♀️ Warszawa": 3, "🏎️ F1": 2, "📌 Long read": 1}
 
 

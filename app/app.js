@@ -85,7 +85,7 @@ const S = {
 /* ---------------- data shaping ---------------- */
 const HUES = [
   [/warcraft|\bwow\b/i, '#e09a1a'], [/^world/i, '#4f7fe0'], [/polska|poland/i, '#e5484d'],
-  [/money|market/i, '#2f9e66'], [/\bai\b|tech/i, '#8e4ec6'], [/games|dev/i, '#12a594'],
+  [/money|market/i, '#2f9e66'], [/\bai\b|tech/i, '#8e4ec6'], [/gaming/i, '#c026d3'], [/games|dev/i, '#12a594'],
   [/music/i, '#d6409f'], [/culture|film|tv/i, '#f76b15'], [/brussels|\beu\b/i, '#3e63dd'],
   [/tonight|football|nba|sport|score/i, '#65a30d'], [/long read/i, '#a18072'],
 ];

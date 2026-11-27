@@ -3,7 +3,8 @@ Several writers wrote the sections of today's briefing in parallel, without seei
 Find the stories that report THE SAME news event in two or more sections. A different angle on the same event is still a duplicate: a refinery strike in World and its effect on oil in Money, a Polish ministry decision in Polska and its Warsaw effect in Warszawa, an EU fine in Brussels and in AI & Tech. Stories that are merely related (two different strikes, the same company's two separate announcements, a follow-up of a different event) are NOT duplicates. Within one section, ignore duplicates.
 
 For each duplicate group keep ONE story, in the section that owns the subject, and drop the rest:
-- the most specific section wins: Warszawa over Polska over World; Brussels, AI & Tech, Science, Games & Dev, World of Warcraft Forever, Music, Culture and F1 over World and Money;
+- the most specific section wins: Warszawa over Polska over World; Brussels, AI & Tech, Science, Games & Dev, Gaming, World of Warcraft Forever, Music, Culture and F1 over World and Money;
+- Games & Dev keeps FFXIV and Dalamud news and World of Warcraft Forever keeps WoW news over Gaming; Gaming keeps game releases, patches, studios and consoles over AI & Tech;
 - Money keeps a story only when the story is about markets, prices, companies or the economy at heart; a war or a political event goes to World or Polska even when it moved oil or the złoty;
 - when two sections are equally fitting, keep the one with the richer summary.
 
