@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-27T07:33:27",
+ "generated": "2026-11-27T12:23:45",
  "date": "2026-11-27",
  "greeting": "Good morning — Friday, 27 November 2026.",
  "title": "A projectile hit Saudi Aramco's Jazan refinery, killing one worker, as the Houthi–Saudi strikes spread from ports to oil processing",
@@ -964,19 +964,27 @@
     },
     {
      "type": "fixture",
-     "text": "Premier League, La Liga and Serie A — no matches today"
+     "text": "NBA — Heat v Knicks, 01:00 (Saturday)"
     },
     {
      "type": "fixture",
-     "text": "NBA — Heat v Knicks, 01:00 Saturday"
+     "text": "NBA — Nets v Raptors, Bucks v Pistons, 76ers v Pacers, 01:30 (Saturday)"
     },
     {
      "type": "fixture",
-     "text": "NBA — Nets v Raptors, Bucks v Pistons, 76ers v Pacers, 01:30 Saturday; Hawks v Celtics, 02:00; Grizzlies v Timberwolves, 02:30; Mavericks v Suns, 03:00"
+     "text": "NBA — Hawks v Celtics, 02:00 (Saturday)"
     },
     {
      "type": "fixture",
-     "text": "NBA — Nuggets v Jazz, Warriors v Trail Blazers, Lakers v Spurs, Pelicans v Clippers, 03:30 Saturday"
+     "text": "NBA — Grizzlies v Timberwolves, 02:30 (Saturday)"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Mavericks v Suns, 03:00 (Saturday)"
+    },
+    {
+     "type": "fixture",
+     "text": "NBA — Nuggets v Jazz, Warriors v Trail Blazers, Lakers v Spurs, Pelicans v Clippers, 03:30 (Saturday)"
     }
    ]
   },
